@@ -1,0 +1,1583 @@
+<?xml version="1.0"?> 
+
+
+<TEI>
+  <teiHeader type="text" status="new" TEIform="teiHeader">
+    <fileDesc TEIform="fileDesc">
+      <titleStmt TEIform="titleStmt">
+	<title TEIform="title">On the Sphere: electronic edition</title>
+	<author>"Proclus"</author>
+	<respStmt>
+	<resp>transcribed by</resp>
+	<name>Neel Smith</name>
+	</respStmt>
+      </titleStmt>
+      <editionStmt>
+      <edition>Bainbridge (London 1620)</edition>
+      <respStmt>
+      <resp>Greek text edited by</resp>
+     <name>John Bainbridge</name>
+     </respStmt>
+     
+      </editionStmt>
+      <publicationStmt TEIform="publicationStmt">
+	<p TEIform="p">Unpublished electronic edition</p>
+      </publicationStmt>
+      <sourceDesc default="NO" TEIform="sourceDesc">
+	<p TEIform="p">Need pub info</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text TEIform="text">
+  <front lang="lat">
+  <titlePage>
+
+
+  
+  <docTitle lang="lat">
+  
+  <titlePart lang="grc">
+ *P*R*O*K*L*O*U *S*F*A*I*R*A
+  </titlePart>
+  
+  <titlePart lang="grc">
+  *P*T*O*L*E*M*A*I*O*U
+  *P*E*R*I *U*P*O*Q*E*S*E*W*N
+  *P*L*A*N*W*M*E*N*W*N
+  </titlePart>
+  
+  <titlePart lang="lat">
+  Procli 
+  Sphaera
+</titlePart>
+<titlePart>
+  Ptolemaei
+  de Hypothesibus Planetarum
+  liber singularis, nunc primum
+  in lucem editus.</titlePart>
+  <titlePart>
+  Cui accessit eiusdem Ptolemaei
+  Canon Regnorum</titlePart>
+  </docTitle>
+   
+    <docAuthor>   Utrumque librum ex codicum M.S. collatione
+  summa diligentia restituit, Latine reddidit
+  &amp; Figuris illustravit
+  Ioh. Bainbridge Med. Doctor,
+  &amp; Astronomiae in celeberrima Oxoniensi Academia Professor
+  </docAuthor>
+  
+  <docImprint>
+  Londini, Excudebat Guilielmus Jones
+  </docImprint>
+    <docDate>1620</docDate>
+  </titlePage>
+  
+  
+  <div1 n="dedication" type="dedication">
+  <head>Illustrissimo Domino, <persName>Guilielmo</persName>,
+  Penbrochiae Comiti, Domino de Caerdif Marion,
+  &amp;c. nobilissimi
+  Georgiani Ordinis Equiti, Regiae majestati a
+  sanctioribus Consiliis, &amp; Academiae Oxoniensis
+  Cancellario dignissimo, faelicitatem.</head>
+  
+  <salute>Illustrissime Domine,</salute>
+  
+  <p>Divini Platonis oraculum:
+  
+ <quote lang="lat"> Beatas fore respublicas,
+  <foreign lang="grc">
+  O(/TE H)\ *FILO/SOFOS BASILELU/EI, H)\
+  BASILEU\S FILOSOFEI=</foreign>,
+ cum Philosophus regat, aut Rex sit Philosophus</quote>,
+
+ verissimum sentit (diuque sentiat) Britannia nostra,
+ beatorum Insula:  &amp; in ea maxime Oxoniensis 
+ Academia, quae sub faelicibus D. <persName>Iacobi</persName> 
+ auspiciis, Te Cancellario, omnibus melioribus
+ literis ita floret, ut merito tandem audiat
+ 
+ <fw type="catch">diat</fw>
+ <pb/>
+Universitas.  Nam ut caeteras praeteream disciplinas,
+pulcherrimas illas, olimque Regias Mathematicas a pulvere
+&amp; sepulchro excitavit Clarissimus vir D. <persName>Henricus Savilius</persName>
+Dom. mihi plurimum honorandus.
+Redivivae jam nobiles scientiae ab H. tuo supplices petunt,
+ut quas Mecaenatis optimi prudentia revocavit, munificentia
+ornavit, eas sartas tectas conservet Ampliss. Cancellarii dignitas:
+utque Professores suos, quos in dulce gremium excepit alma Mater,
+eos in clientelam suam suscipiat Patronus maximus.
+Tanti splendoris &amp; favoris tui radiis ut
+illustretur Astronomia, has observantiae suae scintillas
+Honori tuo venerabunda offert, dicat, consecrat, quas
+ut serena fronte accipias, submisse orat, Illustriss. D.
+  </p>
+  
+  <byline>
+  Honoris tui humillimus cliens</byline>
+  </div1>
+  
+  <div1 type="preface" n="preface">
+  <head>Lectori candido</head>
+ <salute lang="grc">
+ u(giai/nein</salute>
+ 
+  <p>Duas in artibus Mathematicis professiones liberalibus
+  stipendiis instituisse, non magni aestimavit Magnificus &amp;
+  prudentissimus noster Mecaenas, nisi antiquos etiam, 
+  eosque optimos Matheseos magistros in cathedras suas,
+  unde prioris saeculi barbarie, huiusque fastu turpissime
+  deturbati sunt, restitueret:  comparatis in hunc finem vvariis
+  antiquorum exemplaribus Graecis manuscriptis.
+  Ad quorum regul<!--&atilde;--> &amp; normam
+  Euclidem
+  <foreign lang="grc">tetra/gwnon, kai\ a)/neu yo/gou</foreign>
+  fecit facietque doctiss. meeus collega
+  <persName>H. Briggius</persName>.  Eorund<!-- etilde -->
+  etia <!-- atilde --> radiis Ptolemaeus a me tandem
+  (spero) illustrabitur.  At cum difficilis admodum &amp; obscurus sit
+  in Magnam illam Syntaxin aditus, hanc duplicem
+  <foreign lang="grc">EI)SAGWGH\N</foreign>
+  faculas praeferentem praemittere placuit.
+  Alteram titulo quidem Procli, iure tamen
+  Gemini Geometrae, &amp; Astronomi nobilissimi, ex cuius
+  in <foreign lang="grc">FAINO/MENA</foreign>
+  Isagoge eam totam &amp; ad verbum
+  <foreign lang="grc">LOGKW/TATOS</foreign>
+  excerpsit Proclus.  Alteram Ptolemaei &amp; nomen
+  praeferentem, &amp; ingenium, geniumque
+  <fw type="catch">umque</fw>
+  <pb/>
+  referentem.  Sphaeram longo usu, aut potius negelectu mutilatam,
+  &amp; distortam, duobus Gemini codicibus MS usus, iam integram,
+  &amp; accurate Sphaericam exhibeo:  locis restitutis parentheseos clausura
+  in Graeco textu indicatis.  name
+  <foreign lang="grc">GRAFIKA\S A(MARTI/AS</foreign>
+  in ipso Gemino nonnullas a nobis emendatas libens praetereo,
+  inanem illam gloriolae umbram Criticis captandam relinquens.
+  Ad Hypotheses reconditiss. Astronomiae thecas venio,
+  quas annos fere 1500
+  <foreign lang="grc">E)N SKO/TEI TEQHSAURISME/NAS</foreign>,
+  ex eodem tandem Matheseos sacrario (faelici quod<!-- atilde --> astro)
+  depromptas, in lucem meliorem primus profero.  at
+  quanto labore, quanta cura eas repurgavi!  Ex tribus enim exemplaribus MS.
+  ne unum quidem integrum aut incorruptim fuit, omnibus similiter inquinatis,
+  eademque fere conspurcatis labe.  Multas lacunas
+  (parenthesi inclusas) explevi.  Omnes periodos &amp; epochas ad
+  Magnae Syntaxis leges &amp; numeros analysis non ita facili
+  retexui, plurimasque vitiatas restitui.
+  </p>
+  
+  <p>In latitudinem vero Hypothesibus nihil mutare volui:  hic enim
+  Ptolemaeus prudens (si quid iudico) ab illis in Syntaxi constitutis
+  desciscit, aliasque faciles, expeditas, longeque veriores candide proponit.
+  </p>
+  <p>
+  His tandem adiuniximus aureum illum ex
+  pulcherrimo <foreign lang="grc">KANO/NWN PROXEI/RWN</foreign>
+  volumine M.S. desumptum Regnorum Canonem, in motibus caelestibus ad
+  antiqua illa saecula supputandis (ut <foreign lang="grc">XRONOLOGI/AN</foreign>
+  praeteream) pernecessarium.  Quo ad Antonini Pii regnum usus est ipse
+  <fw type="catch">Pto</fw>
+  <pb/>
+  Ptolemaeus.  Reliquum a Theone (Ptolemaei interprete) additum fuisse
+  mihi valde persuadeo.  Tralationem &amp; Sphaerae &amp;
+  Hypothesium Latinam feci planam, &amp; plenam, atque
+  (ut Astronomice loquar) dilucidam.  Figuras denique utrobique
+  desideratas, apposui eas, quae res ipsas clarissime ante oculos
+  ponerent.  Qui haec carpit, mordetque
+  <foreign lang="grc">MWMH/SETAI QA=SSON, H)\ MIMH/SETAI</foreign>.
+  Tu Lector benevole conatus meos aequi bonique consule, &amp; annos
+  Nestoreos nostro Matheseosque Mecaenati optimo exopta faelicissimos.</p>
+  </div1>
+  
+  <div1 n="errata" type="errata">
+  <head>Menda Typogr.</head>
+  <p>In Sphaera, pag. 22. lin.22. deest haec clausula,
+  Latitudo vero Zodiaci circuli est partium 12.</p>
+  <p>In Hypoth. pag.4. lin. 19 instrumentum, lege
+  instrumentorum.  Reliqua, littera una aut altera inversa,
+  accentusve loco non suo, levioris sunt momenti.</p>
+  </div1>
+  
+  </front>
+
+    <body lang="grc" n="proclus_gk">
+
+<div0 type="section" n="1"><pb n="1"/>
+
+
+	<head><num value="1">a</num><lb/>
+	*PERI\ A)/CONOS KAI\ PO/LWN</head>
+	
+
+	<div1 type="subsection" n="1">
+	
+<p>
+<supplied resp="Bainbridge">*TOU= DE\ KO/SMOU SFAIROEIDOU=S U(PA/RXONTOS</supplied> 
+A)/CWN KALEI=TAI, H( DIA/METROS TOU= KO/SMOU, PERI\ H(\N STRE/FETAI 
+<supplied resp="Bainbridge">O( KO/SMOS</supplied>. 
+*TA\ DE\ PE/RATA TOU= A)/CONOS PO/LOI LE/GONTAI TOU= 
+KO/SMOU. 
+
+<figure><figDesc lang="en">Circle with diameter labelled axis running at 
+oblique angle;  ends are labelled pol. a and pol. b</figDesc></figure>
+</p>
+
+</div1>
+
+<div1 type="subsection" n="2" lang="grc">
+<p>
+*TW=N DE\ PO/LWN,
+ O( ME\N LE/GETAI BO/REIOS, O( DE\ NO/TIOS.
+BO/REIOS ME\N O( DIA\ PANTO\S FAINO/MENOS,
+<fw type="catch">W(S</fw>
+<pb n="2"/>
+
+ W(S PRO\S TH\N H(METE/RAN 
+OI)/KHSIN:
+ NO/TIOS DE\, O( DIA\ PANTO\S A)O/RATOS,
+ W(S PRO\S TO\N 
+H(ME/TERON O(RI/ZONTA. 
+</p>
+
+</div1>
+
+<div1 type="subsection" n="3">
+<p>
+ *EI)SI\ ME/NTOI TO/POI TINE\S E)PI\ TH=S 
+GH=S, O(/POU SUMBAI/NEI TO\N PAR' H(MI=N PO/LON TO\N A)EI\ FANERO\N, 
+E)KEI/NOIS A)O/RATON EI)=NAI: TO\N DE\ PAR' H(MI=N PO/LON A)O/RATON,
+ E)KEI/NOIS 
+FANERO\N EI)=NAI. 
+</p>
+</div1>
+
+<div1 type="subsection" n="4">
+<p>
+ *KAI\ PA/LIN,
+ E)/STI TIS TO/POS E)PI\ TH=S GH=S, 
+O(/POU DU/O PO/LOI O(MOI/WS E)PI\ TOU= O(RI/ZONTOS KEI=NTAI. 
+</p>
+
+
+</div1>
+      </div0>
+
+<div0 type="section" n="2">
+
+	<head><num value="2">B</num><lb/>*PERI\ TW=N E)N TH=| SFAI/RA| KU/KLWN</head>
+
+	<div1 type="subsection" n="1">
+	
+	  <p>
+*TW=N D' E)N TH=| SFAI/RA| KU/KLWN,
+ OI( ME/N EI)SI PARA/LLHLOI,
+ OI( DE\ LOCOI/, OI( DE\ DIA\ TW=N PO/LWN. 
+
+ 
+*PARA/LLHLOI ME\N,
+ OI( TOU\S AU)TOU\S PO/LOUS E)/XONTES TW=| 
+KO/SMW|: 
+*EI)SI\ DE\ PARA/LLHLOI KU/KLOI PE/NTE, *)ARKTIKO/S, *QERINO\S 
+*TROPIKO/S, 
+
+<fw type="catch">IKO/S</fw>
+<pb n="3"/>
+ 
+ *)ISHMERINO/S, *XEIMERINO\S TROPIKO/S, *)ANTARKTIKO/S. 
+</p>
+
+</div1>
+
+<div1 type="subsection" n="2">
+<p>*)ARKTIKO\S ME\N OU)=N E)STI KU/KLOS O( ME/GISTOS TW=N A)EI\ 
+QEWROUME/NWN KU/KLWN, O( E)FAPTO/MENOS TOU= O(RI/ZONTOS 
+KAQ' E(\N SHMEI=ON,
+ KAI\ O(/LOS U(PE\R GH=N A)POLAMBANO/MENOS:
+E)N W(=| TA\ KEI/MENA TW=N A)/STRWN,
+ OU)/TE DU/SIN, OU)/T' A)NATOLH\N POIEI=TAI, 
+A)LLA\ DI' O(/LHS TH=S NUKTO\S PERI\ TO\N PO/LON 
+STREFO/MENA QEWREI=TAI. 
+</p>
+
+
+</div1>
+
+<div1 type="subsection" n="3">
+<p> *OU(=TOS DE\ O( KU/KLOS E)N TH=| KAQ' H(MA=S 
+OI)KOUME/NH| U(PO\ TOU= E)MPROSQI/OU PODO\S 
+<rs type="constellation">TH=S *MEGA/LHS *)/ARKTOU</rs> PERIGRA/FETAI. 
+
+</p>
+
+
+</div1>
+
+
+<div1 type="subsection" n="4">
+<p>
+*QERINO\S DE\ TROPIKO\S KU/KLOS E)STI\N O( BOREIO/TATOS 
+TW=N U(PO\ TOU= H(LI/OU GRAFOME/NWN KU/KLWN 
+<supplied resp="Bainbridge">KATA\ TH\N TOU= KO/SMOU GINOME/NHN PERISTROFH/N</supplied>
+E)F' OU(= GENO/MENOS O( H(/LIOS 
+TH\N QERINH\N TROPH\N POIEI=TAI, 
+E)N H(=| H( MEGI/STH ME\N PASW=N 
+TW=N E)N TW=| E)NIAUTW=| H(ME/RA, E)LAXI/STH DE\ H( NU\C GI/NETAI. 
+<fw type="catch">META\ </fw>
+</p>
+
+</div1>
+
+<div1 type="subsection" n="5">
+<pb n="4"/>
+<p>
+*META\ ME/NTOI TH\N QERINH\N TROPH\N, OU)KE/TI PRO\S TA\S 
+A)/RKTOUS PARODEU/WN O( H(/LIOS QEWREI=TAI, A)LL' E)PI\ TA\ E(/TERA 
+ME/RH TRE/PETAI TOU= KO/SMOU: DI' O(\ KAI\ KE/KLHTAI TROPIKO/S. 
+</p>
+
+</div1>
+
+
+<div1 type="subsection" n="6">
+<p>*)ISHMERINO\S DE/ E)STI KU/KLOS O( ME/GISTOS TW=N PE/NTE
+PARALLH/LWN KU/KLWN, O( DIXOTOMOU/MENOS U(PO\ TOU= O(RI/ZONTOS, 
+W(/STE 
+H(MIKU/KLION ME\N U(PE\R GH=N A)POLAMBA/NESQAI, H(MIKU/KLION 
+DE\ U(PO\ TO\N O(RI/ZONTA:
+<figure><figDesc lang="en">Sphere with equator oriented horizontally, and the five parallel
+circles obliquely;  above the equator, the sphere is white;  below, black.</figDesc></figure>
+ E)F' OU(= GENO/MENOS O( H(/LIOS TA\S 
+I)SHMERI/AS POIEI=TAI, TH/N TE E)ARINH\N KAI\ TH\N FQINOPWRINH/N. 
+</p>
+</div1>
+
+<div1 type="subsection" n="7">
+
+<p>*XEIMERINO\S DE\ TROPIKO\S KU/KLOS E)STI\N O( NOTIW/TATOS 
+TW=N U(PO\ TOU= H(LI/OU GRAFOME/NWN KU/KLWN KATA\ TH\N U(PO\ 
+TOU= KO/SMOU GENOME/NHN PERISTROFH/N:
+ E)F' OU(= GENO/MENOS 
+O( H(/LIOS TH\N 
+<fw type="catch">XEI-</fw>
+
+<pb n="5"/>
+XEIMERINH\N TROPH\N POIEI=TAI, E)N H(=| H( MEGI/STH 
+ME\N PASW=N TW=N E)N TW=| E)NIAUTW=| NU\C E)PITELEI=TAI, E)LAXI/STH 
+DE\ H(ME/RA. 
+</p>
+
+</div1>
+
+<div1 type="subsection" n="8">
+<p> META\ ME/NTOI GE TH\N XEIMERINH\N TROPH\N, 
+OU)KE/TI PRO\S MESHMBRI/AN PARODEU/WN O( H(/LIOS QEWREI=TAI, 
+A)LL' E)PI\ TA\ E(/TERA ME/RH TRE/PETAI TOU= KO/SMOU:
+ DI' O(\ KE/KLHTAI 
+KAI\ OU(=TOS TROPIKO/S. 
+</p>
+</div1>
+
+
+<div1 type="subsection" n="9">
+<p>*)ANTARKTIKO\S DE/ E)STI KU/KLOS I)/SOS KAI\ PARA/LLHLOS 
+TW=| A)RKTIKW=|,
+ KAI\ E)FAPTO/MENOS TOU= O(RI/ZONTOS KAQ' E(\N 
+SHMEI=ON,
+ KAI\ O(/LOS U(PO\ GH=N A)POLAMBANO/MENOS:
+ E)N W(=| TA\ KEI/MENA 
+TW=N A)/STRWN DIA\ PANTO\S H(MI=N E)STIN A)O/RATA. 
+</p>
+</div1>
+
+<div1 type="subsection" n="10">
+<p>*TW=N DE\ PROEIRHME/NWN PE/NTE KU/KLWN,
+ ME/GISTOS ME/N E)STIN 
+O( I)SHMERINO/S, E(CH=S DE\ OI( TROPIKOI/, E)LA/XISTOI 
+DE\ W(S PRO\S TH\N H(METE/RAN OI)/KHSIN OI( A)RKTIKOI/. 
+</p>
+</div1>
+
+
+<div1 type="subsection" n="11">
+<p>*TOU/TOUS DE\ TOU\S KU/KLOUS DEI= NOEI=N A)PLATEI=S, 
+LO/GW| 
+
+<fw type="catch">QEW-</fw>
+<pb n="6"/>
+QEWRHTOU/S, E)K TH=S TW=N A)/STRWN QE/SEWS,
+ KAI\ TH=S TW=N DIO/PTRWN QEWRI/AS,
+ KAI\ TH=S H(METE/RAS E)PINOI/AS 
+DIATUPOUME/NOUS:
+MO/NOS GA\R E)N TW=| KO/SMW| KU/KLOS E)STI\ AI)SQHTO\S
+O( TOU= GA/LAKTOS, OI( DE\ LOIPOI\ LO/GW| EI)SI\ QEWRHTOI/. 
+</p>
+
+
+</div1>
+</div0>
+
+<div0 n="3" type="section">
+<head><num value="3">G</num><lb/>
+*DIA\ TI\ PE/NTE MO/NON PARA/LLHLOI  E)N TH=| SFAI/RA| KU/KLOI
+</head>
+<div1 type="subsection" n="1">
+<p>*PE/NTE DE\ PARA/LLHLOI MO/NON KATAGRA/FONTAI KU/KLOI 
+EI)S TH\N SFAI=RAN, OU) DIA\ TO\ MO/NON TOU/TOUS E)N TW=| KO/SMW| 
+PARALLH/LOUS EI)=NAI: 
+O( GA\R H(/LIOS KAQ' E(KA/STHN H(ME/RAN 
+
+<supplied lang="en" resp="Bainbridge">(</supplied>
+<note resp="NS" lang="en" n="*">Did B. intend this to mark an editorial addition
+to the text of "Proclus"?  There is no closing parenthesis to match
+this opening parenthesis.</note>
+W(S PRO\S AI)/SQHSIN 
+KU/KLON PARA/LLHLON PERISTRE/FETAI TW=| I)SHMERINW=| KATA\ 
+TH\N E)PI\ TOU= KO/SMOU GINOME/NHN PERISTROFH/N:
+W(/STE METACU\ 
+TW=N TROPIKW=N KU/KLWN 
+
+<note place="margin" resp="Bainbridge" n="&quot;" lang="en">f.
+<num value="182" lang="grc">RPB</num>
+</note>
+
+<num value="180">RP</num> DI\S KU/KLOUS 
+
+<fw type="catch">pa-</fw>
+<pb n="7"/>
+PARALLH/LOUS 
+GRA/FESQAI U(PO\ TOU= H(LI/OU: 
+TOSAU=TAI GA\R H(ME/RAI EI)SI\N AI( 
+METACU\ TW=N TROPW=N. 
+</p>
+</div1>
+
+
+<div1 type="subsection" n="2">
+<p> FE/RONTAI DE\ KAI\ PA/NTES OI( 
+A)STE/RES E)PI\ PARALLH/LWN KU/KLWN KAQ' E(KA/STHN H(ME/RAN. 
+SUGKATAGRA/FONTAI DE\ OU(=TOI PA/NTES EI)S TH\N SFAI=RAN,
+DIA\ TO\ PRO\S ME\N A)/LLAS PRAGMATEI/AS TW=N E)N TH=| 
+<note n="&quot;" place="margin" resp="Bainbridge" lang="en">
+C.V. <foreign lang="grc">A)STRONOMI/A|</foreign>
+</note>
+A)STROLOGI/A| 
+POLLA\ SUMBA/LLESQAI:
+</p>
+
+</div1>
+
+
+<div1 type="subsection" n="3">
+<p> OU)DE\ GA\R KATASTERIQH=NAI <!-- NS - or KATASTERISQH=NAI ?? -->
+DUNATO\N KALW=S TH\N SFAI=RAN A)/NEU PA/NTWN TW=N PARALLH/LWN 
+KU/KLWN.
+OU)DE\ TA\ MEGE/QH TW=N NUKTW=N, KAI\ TW=N H(MERW=N 
+A)KRIBW=S EU(REQH=NAI A)/NEU TW=N PROEIRHME/NWN KU/KLWN.
+PRO\S 
+ME/NTOI GE TH\N PRW/THN EI)SAGWGH\N TH=S A)STROLOGI/AS OU)DE\N 
+A)POTE/LESMA FERO/MENOI, OU) KATAGRA/FONTAI E)N TH=| 
+SFAI/RA|. 
+</p>
+</div1>
+
+
+<div1 type="subsection" n="4">
+<p>*OI( DE\ PE/NTE PARA/LLHLOI KU/KLOI,
+ DIA\ TO\ A)POTELE/SMATA/ 
+TINA PROSFE/RESQAI DIWRISME/NA EI)S TH\N PRW/THN EI)SAGWGH\N 
+TH=S A)STROLOGI/AS,
+ KATEGRA/FHSAN EI)S TH\N SFAI=RAN. 
+ <fw type="catch">*(O</fw>
+</p>
+</div1>
+
+<div1 type="subsection" n="5">
+<pb n="8"/>
+<p>
+*(O ME\N GA\R A)RKTIKO\S KU/KLOS A)FORI/ZEI TA\ A)EI\ QEWROU/MENA 
+TW=N A)/STRWN. 
+O( DE\ QERINO\S TROPIKO\S KU/KLOS TH\N TROPH\N 
+PERIE/XEI,
+ KAI\ PE/RAS E)STI\ TH=S TOU= H(LI/OU PRO\S A)/RKTON METABA/SEWS. 
+O( DE\ I)SHMERINO\S KU/KLOS TA\S I)SHMERI/AS PERIE/XEI. 
+O( DE\ 
+XEIMERINO\S TROPIKO\S KU/KLOS TE/RMA E)STI\ TH=S PRO\S 
+MESHMBRI/AN PROO/DOU TOU= H(LI/OU=, KAI\ TH\N XEIMERINH\N TROPH\N 
+PERIE/XEI. 
+O(DE\ A)NTARKTIKO\S KU/KLOS TA\ MH\ QEWROU/MENA TW=N 
+A)/STRWN A)FORI/ZEI. 
+</p>
+</div1>
+
+<div1 type="subsection" n="6">
+<p> E)/XONTES OU)=N KEFA/LAIA KAI\ 
+A)POTELE/SMATA W(RISME/NA PRO\S TH\N EI)SAGWGH\N TH=S 
+A)STROLOGI/AS,
+ EU)LO/GWS KATEGRA/FHSAN EI)S TH\N SFAI=RAN. 
+</p>
+</div1>
+</div0>
+
+
+<div0 type="section" n="4">
+<head><num value="4">D</num><lb/>
+*PERI\ E)PIFANEI/AS KAI\ KRU/YEWS TW=N
+PE/NTE 
+<fw type="catch">TE</fw>
+<pb n="9"/>
+PARALLH/LWN KU/KLWN</head>
+<div1 type="subsection" n="1">
+
+
+<p>*TW=N DE\ PROEIRHME/NWN PE/NTE PARALLH/LWN KU/KLWN,
+ O( 
+ME\N A)RKTIKO\S KU/KLOS O(/LOS U(PE\R GH=N A)POLAMBA/NETAI. 
+</p></div1>
+<div1 type="subsection" n="2">
+<p>*(O DE\ QERINO\S TROPIKO\S KU/KLOS EI)S DU/O ME/RH A)/NISA 
+TE/MNETAI U(PO\ TOU= O(RI/ZONTOS: KAI\ TO\ ME\N MEI=ZON TMH=MA 
+U(PE\R GH=N A)POLAMBA/NETAI, TO\ DE\ E)/LASSON U(PO\ TH\N GH=N. 
+
+<figure>
+<figDesc lang="en">Sphere with equator and two tropics at oblique angle; horizon
+line roughly horizontal separating upper hemispher (white) from
+lower hemisphere (black) and tangent to both tropics
+</figDesc></figure>
+</p>
+
+</div1>
+<div1 type="subsection" n="3">
+<p>OU) KATA\ PA=SAN DE\ XW/RAN KAI\ PO/LIN O(MOI/WS O( 
+QERINO\S TROPIKO\S KU/KLOS TE/MNETAI U(PO\ TOU= O(RI/ZONTOS:
+A)LLA\ PARA\ TA\S TW=N KLIMA/TWN PARALLAGA\S,
+DIA/FORON 
+TH\N TW=N TMHMA/TWN U(PEROXH\N SUMBAI/NEI GI/NESQAI. </p>
+</div1>
+<div1 type="subsection" n="4">
+<p>KAI\ 
+TOI=S ME\N PRO\S A)/RKTON MA=LLON H(MW=N OI)KOU=SIN EI)S A)NISW/TERA 
+ME/RH SUMBAI/NEI TE/MNESQAI TO\N QERINO\N U(PO\ TOU= O(RI/ZONTOS.
+
+<fw type="catch">TOS.</fw>
+<pb n="10"/> 
+KAI\ PE/RAS E)STI\ XW/RA TIS, E)N H(=| O(/LOS O( QERINO\S TROPIKO\S 
+KU/KLOS U(PE\R GH=N GI/NETAI. </p>
+
+
+</div1>
+
+<div1 type="subsection" n="5">
+<p>TOI=S DE\ PRO\S MESHMBRI/AN 
+MA=LLON H(MW=N OI)KOU=SIN EI)S I)SW/TERA ME/RH O( QERINO\S 
+TROPIKO\S KU/KLOS U(PO\ TOU= O(RI/ZONTOS TE/MNETAI: KAI\ PE/RAS 
+E)STI\ XW/RA TIS PRO\S MESHMBRI/AN H(MW=N KEIME/NH, E)N H(=| 
+DIXOTOMEI=TAI O( QERINO\S TROPIKO\S KU/KLOS U(PO\ TOU= O(RI/ZONTOS. 
+</p></div1>
+
+
+<div1 type="subsection" n="6">
+<p>
+E)NTAU=QA DE\
+TE/MNETAI OU(/TWS, W(/STE TOU= 
+O(/LOU KU/KLOU DIAIROUME/NOU 
+EI)S <num value="8">H</num> ME/RH, <num value="5">E</num> ME\N TMH/MATA 
+U(PE\R GH=N A)POLAMBA/NESQAI, <num value="3">G</num> DE\ U(PO\ GH=N. 
+</p></div1>
+<div1 type="subsection" n="7">
+<p> PRO\S DE\ 
+TOU=TO TO\ KLI/MA DOKEI= KAI\ O( <persName>*)/ARATOS</persName> SUNTETAXE/NAI TH\N TW=N 
+*FAINOME/NWN PRAGMATEI/AN: PERI\ GA\R TOU= QERINOU= TROPIKOU= 
+KU/KLOU DIALEGO/MENO/S FHSIN OU(/TWS: 
+
+
+
+<cit>
+<bibl><!-- GET REF --></bibl>
+<quote>
+<l>TOU= ME/N, O(/SON TE MA/LISTA DI' O)KTW\ METRHQE/NTOS </l>
+
+<l>PE/NTE ME\N E)/NDIA STRE/FETAI KAQ' U(PE/RTERA GAI/HS, </l>
+
+<fw type="catch">*TA\</fw>
+<pb n="11"/>
+
+<l>TA\ TRI/A D' E)N PERA/TH|. QE/REOS DE/ OI( E)N TROPAI/ EI)SIN. </l>
+</quote>
+</cit>
+
+
+*)EK DE\ TAU/THS TH=S DIAIRE/SEWS A)KOLOUQEI= TH\N MEGI/STHN 
+H(ME/RAN W(RW=N I)SHMERINW=N GI/NESQAI <num value="15">IE</num>, TH\N DE\ 
+NU/KTA W(RW=N 
+I)SHMERINW=N <num value="9">Q</num>. 
+</p></div1>
+
+<div1 type="subsection" n="8">
+<p> *)EN DE\ TW=| KATA\ *(RO/DON O(RI/ZONTI,
+ O( 
+QERINO\S TROPIKO\S KU/KLOS U(PO\ TOU= O(RI/ZONTOS TE/MNETAI 
+OU(/TWS, W(/STE TOU= O(/LOU KU/KLOU DIH|RHME/NOU EI)S ME/RH 
+<num value="48">MH</num>,
+TA\ ME\N <num value="20">K</num>  KAI\ <num value="9">Q</num> 
+TMH/MATA U(PE\R TO\N O(RI/ZONTA A)POLAMBA/NESQAI, 
+TA\ DE\ <num value="19">IQ</num> U(PO\ GH=N. 
+*)EK DE\ TH=S DIAIRE/SEWS TAU/THS A)KOLOUQEI= 
+TH\N MEGI/STHN H(ME/RAN E)N *(RO/DW| GI/NESQAI W(RW=N I)SHMERINW=N 
+<num value="14">ID</num>, KAI\ H(/MISU, 
+TH\N DE\ NU/KTA W(RW=N I)SHMERINW=N <num n="9">Q</num>, KAI\ H(/MISU. 
+</p>
+
+</div1>
+
+<div1 type="subsection" n="9">
+<p>*(O DE\ I)SHMERINO\S KU/KLOS KAQ' O(/LHN TH\N OI)KOUME/NHN 
+DIXOTOMEI=TAI U(PO\ TOU= O(RI/ZONTOS, W(/S TE H(MIKU/KLION ME\N 
+U(PE\R GH=N A)POLAMBA/NESQAI, H(MIKU/KLION DE\ U(PO\ GH=N: 
+DI' H(\N 
+AI)TI/AN E)PI\ TOU= KU/KLOU TOU/TOU AI( I)SHMERI/AI 
+
+<fw type="catch">SHME-</fw>
+<pb n="12"/>
+GI/NONTAI. 
+</p></div1>
+<div1 type="subsection" n="10">
+<p>
+*(O DE\ XEIMERINO\S TROPIKO\S KU/KLOS U(PO\ TOU= O(RI/ZONTOS
+ TE/MNETAI OU(/TWS, W(/STE TO\ ME\N E)/LASSON TMH=MA U(PE\R GH=N 
+GI/NESQAI, TO\ DE\ MEI=ZON U(PO\ GH=N: 
+H( D' A)NISO/THS TW=N 
+TMHMA/TWN TH\N AU)TH\N PARALLAGH\N E)/XEI E)PI\ PA/NTWN TW=N 
+KLIMA/TWN, H(/TIS E)GI/NETO KAI\ E)PI\ TOU= QERINOU= TROPIKOU= 
+KU/KLOU: DIA\ PANTO\S GA\R TA\ E)NALLA\C TMH/MATA TW=N 
+TROPIKW=N KU/KLWN I)/SA A)LLH/LOIS E)STI/: DI' 
+H(\N AI)TI/AN H( MEGI/STH 
+H(ME/RA I)/SH E)STI\ TH=| MEGI/STH| NUKTI\, KAI\ H( E)LAXI/STH 
+H(ME/RA I)/SH E)STI\ TH=| E)LAXI/STH| NUKTI\. 
+</p></div1>
+<div1 type="subsection" n="11">
+<p>*(O DE\ A)NTARKTIKO\S KU/KLOS O(/LOS U(PO\ TO\N O(RI/ZONTA 
+KRU/PTETAI. 
+</p></div1></div0>
+
+
+<div0 type="section" n="5">
+<head><num value="6">STIGMA</num>
+<note resp="NS" lang="en" n="*">The numbering in the Greek text of the heading
+of this section and the following
+section is not in sequence.  (The numbering of both 
+section headings is correct in B's Latin translation.)</note>
+<lb/>*PERI\ MEGE/QOUS
+TW=N PE/NTE PARALLH/LWN KU/KLWN.
+
+</head>
+<div1 type="subsection" n="1">
+<p>*TW=N DE\ PROEIRHME/NWN PE/NTE PARALLH/LWN KU/KLWN,
+<fw type="catch">KLWN,</fw>
+<pb n="13"/> 
+
+
+TINW=N 
+ME\N TA\ MEGE/QH KAQ' O(/LHN TH\N OI)KOUME/NHN DIAME/NEI TA\ 
+AU)TA/, 
+TINW=N DE\ TA\ AU)TA/ MEGE/QH METAPI/PTEI PARA\ TA\ KLI/MATA,
+</p></div1>
+
+
+<div1 type="subsection" n="2">
+<p>
+KAI\ OI(=S ME\N MEI/ZONES, OI(=S DE\ E)LA/SSONES OI( KU/KLOI 
+GI/NONTAI. 
+OI( ME\N GA\R TROPIKOI\ KU/KLOI KAI\ O( I)SHMERINO\S 
+KAQ' O(/LHN TH\N OI)KOUME/NHN I)/SOI EI)SI\ TOI=S MEGE/QESIN.
+OI( DE\ 
+A)RKTIKOI\ METAPI/PTOUSI KATA\ TA\ MEGE/QH, KAI\ OI(=S 
+ME\N MEI/ZONES, OI(=S DE\ E)LA/TTONES GI/NONTAI. </p>
+</div1>
+
+<div1 type="subsection" n="3">
+<p>
+
+*TOI=S ME\N GA\R PRO\S A)/RKTON OI)KOU=SI MEI/ZONES OI( 
+A)RKTIKOI\ KU/KLOI GI/NONTAI: 
+TOU= GA\R PO/LOU METEWRO/TERON FAINOME/NOU,
+ A)NA/GKH KAI\ TO\N A)RKTIKO\N KU/KLON TO\N 
+E)FAPTO/MENON TOU= O(RI/ZONTOS MEI/ZONA A)EI\ MA/LISTA 
+GI/NESQAI. 
+</p>
+</div1>
+
+<div1 type="subsection" n="4">
+<p>
+TOI=S D' E)/TI PRO\S A)/RKTON OI)KOU=SI GI/NETAI/ 
+POTE\ O( QERINO\S TROPIKO\S KU/KLOS A)RKTIKO/S, W(/STE TOU\S 
+DU/O KU/KLOUS E)FARMO/SAI A)LLH/LOIS, TO\N QERINO\N TROPIKO\N 
+KU/KLON,
+<fw type="catch">KAI\</fw>
+<pb n="14"/>
+ KAI\ TO\N A)RKTIKO/N, KAI\ MI/AN LABEI=N TA/CIN. 
+</p>
+	</div1>
+
+<div1 type="subsection" n="5">
+<p>
+PRO\S 
+DE\ TOU\S A)RKTIKWTE/ROUS TO/POUS,
+ KAI\ TOU= QERINOU= TROPIKOU= 
+KU/KLOU MEI/ZONES OI( A)RKTIKOI\ KU/KLOI GI/NONTAI: 
+</p>
+	</div1>
+
+<div1 type="subsection" n="6">
+<p>
+PE/RAS 
+DE/ E)STI/ TIS XW/RA PRO\S A)/RKTON KEIME/NH, E)N H(=| O( ME\N PO/LOS 
+KATA\ KORUFH\N GI/NETAI, 
+O( DE\ A)RKTIKO\S KU/KLOS TH\N TOU= 
+O(RI/ZONTOS E)PE/XEI TA/CIN, KAI\ E)FARMO/ZEI AU)TW=| KATA\ TH\N 
+STROFH\N TOU= KO/SMOU,
+ KAI\ TO\ AU)TO\ ME/GEQOS LAMBA/NEI 
+TW=| I)SHMERINW=|: 
+W(/STE TOU\S TREI=S KU/KLOUS, TO\N A)RKTIKO\N 
+KAI\ TO\N I)SHMERINO\N, KAI\ TO\N O(RI/ZONTA, TH\N AU)TH\N TA/CIN 
+KAI\ QE/SIN LAMBA/NEIN. 
+
+
+<figure>
+<figDesc lang="en">Globe showing situation where horizon and equator are equivalent.</figDesc>
+</figure>
+
+</p>
+
+	</div1>
+
+<div1 type="subsection" n="7">
+<p>
+*PA/LIN DE\ TOI=S PRO\S MESHMBRI/AN H(MW=N OI)KOU=SIN,
+OI( 
+ME\N PO/LOI TAPEINO/TEROI GI/NONTAI, OI( DE\ A)RKTIKOI\ KU/KLOI 
+E)LA/SSONES: 
+</p>
+	</div1>
+
+<div1 type="subsection" n="8">
+<p>
+KAI\ PE/RAS E)STI/ TIS XW/RA  PRO\S MESHMBRI/AN H(MW=N KEIME/NH, 
+<fw type="catch">ME/NH,</fw>
+<pb n="15"/>
+AU(/TH DE/ E)STIN H( LEGOME/NH U(PO\ TO\N 
+I)SHMERINO/N, 
+E)N H(=| OI( ME\N PO/LOI E)PI\ TOU= O(RI/ZONTOS GI/NONTAI, 
+OI( D' A)RKTIKOI\ KU/KLOI KAQ' O(/LOU A)NAIROU=NTAI: 
+W(/STE A)NTI\ 
+TW=N PE/NTE PARALLH/LWN KU/KLWN TREI=S PARALLH/LOUS GI/NESQAI, 
+TOU/S TE TROPIKOU\S KAI\ TO\N I)SHMERINO\N.
+<figure>
+<figDesc lang="en">Sphere at sphaera recta</figDesc>
+</figure> 
+</p>
+
+	</div1>
+<div1 type="subsection" n="9">
+<p>*DIA\ GA\R TA\ PROEIRHME/NA OU)X U(POLHPTE/ON 
+KAQOLIKW=S GI/NESQAI TOU\S PE/NTE PARALLH/LOUS, A)LL' W(S 
+PRO\S TH\N H(METE/RAN OI)/KHSIN TO\ PLH=QOS AU)TW=N E)KKEI=SQAI. 
+*EI)SI\ GA/R TINES O(RI/ZONTES, E)N OI(=S TREI=S MO/NON PARA/LLHLOI 
+GI/NONTAI KU/KLOI, 
+</p>
+	</div1>
+
+<div1 type="subsection" n="10">
+<p>
+EI)SI\ DE\ OI)KH/SEIS E)PI\ TH=S GH=S, W(=N 
+PRW/TH ME\N GI/NETAI OI)/KHSIS, PAR' OI(=S O( QERINO\S TROPIKO\S
+KU/KLOS E)FA/PTETAI TOU= O(RI/ZONTOS, 
+KAI\ TH\N TOU= A)RKTIKOU= 
+KU/KLOU TA/CIN LAMBA/NEI.  DEUTE/RA DE\ OI)/KHSIS,
+<fw type="catch">KHSIS,</fw>
+
+<pb n="16"/>
+
+H( LEGOME/NH 
+U(PO\ TO\N PO/LON. TRI/TH DE/ E)STIN OI)/KHSIS, U(PE\R H(=S MIKRO\N 
+E)/MPROSQEN EI)RH/KAMEN, H( PROSAGOREUOME/NH U(PO\ TO\N 
+I)SHMERINO/N. 
+</p>
+	</div1>
+      </div0>
+
+
+<div0 type="section" n="6">
+<head><num value="4">D</num>
+<note resp="NS" lang="en" n="*">The wrong number is
+given here in the Greek text:
+see note on heading of previous section</note>
+<lb/>
+*PERI\ TA/CEWS TW=N PE/NTE PARALLH/LWN KU/KLWN</head>
+<div1 type="subsection" n="1">
+<p>
+*(/OQEN OU)Q' H( TA/CIS TW=N PE/NTE PARALLH/LWN KU/KLWN H( 
+AU)TH\ PARA\ PA=SI/N E)STIN, A)LL' E)N ME\N TH=| KAQ' H(MA=S 
+OI)KOUME/NH|, PRW=TOS ME\N O)NOMA/ZETAI A)RKTIKO/S, DEU/TEROS DE\ O( 
+QERINO\S TROPIKO/S, TRI/TOS DE\ O( I)SHMERINO/S, TE/TARTOS DE\ O( 
+XEIMERINO\S TROPIKO/S, PE/MPTOS DE\ O( A)NTARKTIKO/S. 
+
+<figure>
+<figDesc lang="en">Globe with 5 circles:  arctic to south of summer tropic and
+antarctic to north of winter tropic</figDesc></figure>
+</p>
+	</div1>
+
+<div1 type="subsection" n="2">
+<p>
+TOI=S 
+DE\ PRO\S A)/RKTON MA=LLON H(MW=N OI)KOU=SI,
+
+<fw type="catch">GI/-</fw>
+<pb n="17"/>
+ GI/NETAI POTE\ PRW=TOS 
+O( QERINO\S TROPIKO\S KU/KLOS, DEU/TEROS DE\ O( A)RKTIKO/S, TRI/TOS 
+DE\ O( I)SHMERINO/S, TE/TARTOS DE\ O( A)NTARKTIKO/S, PE/MPTOS 
+DE\ O( XEIMERINO\S TROPIKO/S. *PAR' OI(=S GA\R O( A)RKTIKO\S KU/KLOS 
+MEI/ZWN GI/NETAI TOU= QERINOU= TROPIKOU=, A)NA/GKH TH\N 
+PROEIRHME/NHN TA/CIN U(PA/RXEIN. 
+</p>
+	</div1>
+</div0>
+
+<div0 type="section" n="7">
+<head><num value="7">Z</num><lb/>
+*PERI\ DUNA/MEWS TW=N PE/NTE PARALLH/LWN KU/KLWN</head>
+
+<div1 type="subsection" n="1">
+<p>
+*(OMOI/WS DE\ OU)DE\ DUNA/MEIS TW=N PE/NTE PARALLH/LWN 
+KU/KLWN 
+<supplied resp="Bainbridge">PARA\ PA=SI TOI=S E)PI\ TH=S GH=S OI)KOU=SI</supplied>
+AI( AU)TAI/ EI)SIN. 
+O( GA\R PAR' H(MI=N QERINO\S TROPIKO\S KU/KLOS,
+ TOI=S A)NTI/POSIN XEIMERINO\S TROPIKO\S KU/KLOS GI/NETAI:
+ O( DE\ PAR' 
+E)KEI/NOIS QERINO\S TROPIKO\S KU/KLOS,
+<fw type="catch">KLOS,</fw>
+<pb n="18"/>
+
+PAR' H(MI=N GI/NETAI XEIMERINO\S 
+TROPIKO/S. 
+</p>
+	</div1>
+
+<div1 type="subsection" n="2">
+<p>
+TOI=S DE\ U(PO\ TO\N I)SHMERINO\N OI)KOU=SI,
+ TH=| 
+ME\N DUNA/MEI OI( TREI=S KU/KLOI QERINOI/ EI)SI TROPIKOI/: U(P' 
+AU)TH\N GA\R TH\N PA/RODON TOU= H(LI/OU KEI=NTAI: TH=| DE\ PRO\S 
+A)LLH/LOUS PARALLAGH=| GE/NOIT' A)\N QERINO\S ME\N TROPIKO\S, 
+O( PAR' H(MI=N I)SHMERINO/S, XEIMERINOI\ DE\ OI( DU/O 
+TROPIKOI/.
+</p>
+	</div1>
+
+<div1 type="subsection" n="3">
+<p> *FU/SEI GA\R LE/GOIT' A)\N KAI\ KAQOLIKW=S PRO\S 
+A(/PASAN TH\N OI)KOUME/NHN QERINO\S TROPIKO\S KU/KLOS U(PA/RXEIN, 
+O( E)/GGISTA TH=S OI)KH/SEWS U(PA/RXWN. DI' H(\N AI)TI/AN TOI=S U(PO\ 
+TO\N I)SHMERINO\N OI)KOU=SI O( QERINO\S TROPIKO\S KU/KLOS GI/NETAI 
+O( I)SHMERINO/S, TO/TE GA\R AU)TOI=S KATA\ KORUFH\N GI/NETAI O( 
+H(/LIOS: 
+</p>
+	</div1>
+
+<div1 type="subsection" n="4">
+<p>I)SHMERINOI\ DE\ KU/KLOI GI/NONTAI PAR' AU)TOI=S 
+PA/NTES OI( PARA/LLHLOI, I)SHMERI/A GA\R DIA\ PANTO/S E)STI 
+PAR' AU)TOI=S, PA/NTES GA\R OI( PARA/LLHLOI KU/KLOI 
+DIXOTOMOU=NTAI U(PO\ TOU= O(RI/ZONTOS. 
+
+<fw type="catch"><num value="8">H</num>PERI\</fw>
+
+</p>
+	</div1>
+</div0>
+
+
+<div0 type="section" n="8">
+
+<head><pb n="19"/><num value="8">H</num><lb/>
+*PERI\ DIASTA/SEWS TW=N PE/NTE PARALLH/LWN KU/KLWN</head>
+<div1 type="subsection" n="1">
+
+<p>*OU)DE\ AI( DIASTA/SEIS AI( A)P' A)LLH/LWN TOI=S KU/KLOIS 
+AI( AU)TAI\ DIAME/NOUSI KAQ' O(/LHN TH\N OI)KOUME/NHN: 
+A)LLA\ 
+PRO\S TH\N KATAGRAFH\N TW=N SFAIRW=N DIAIREI=TAI OU(/TWS. </p>
+	</div1>
+
+<div1 type="subsection" n="2">
+<p> TOU= KATA\ PLA/TOS PANTO\S MESHMBRINOU= KU/KLOU 
+DIAIROUME/NOU 
+EI)S ME/RH <num value="60">C</num>: 
+O( A)RKTIKO\S A)PO\ TOU= PO/LOU KATAGRA/FETAI 
+A)PE/XWN <abbr expan="E(CHKOSTA\ ">C C</abbr> <num value="6">stigma</num>, 
+O( DE\ QERINO\S TROPIKO\S A)PO\ TOU= 
+A)RKTIKOU= GRA/FETAI A)PE/XWN <abbr expan="E(CHKOSTA\ ">C C</abbr> 
+<num value="5">E</num>. 
+O( DE\ I)SHMERINO\S 
+A)F' E(KATE/RWN TW=N TROPIKW=N <abbr expan="E(CHKOSTA\ ">C C</abbr> 
+<num value="4">D</num>. 
+O( DE\ XEIMERINO\S 
+TROPIKO\S KU/KLOS A)PO\ TOU= A)NTARKTIKOU= A)PE/XWN 
+<abbr expan="E(CHKOSTA\ ">C C</abbr> <num value="5">E</num>.
+
+O( DE\ A)NTARKTIKO\S A)PO\ TOU= PO/LOU  <abbr expan="E(CHKOSTA\ ">C C</abbr> 
+<num value="6">stigma</num>. 
+</p>
+	</div1>
+
+<div1 type="subsection" n="3">
+<p>OU) KATA\ PA=SAN DE\ XW/RAN KAI\ PO/LIN 
+
+
+<fw type="catch">TA\S</fw>
+<pb n="20"/>
+
+TA\S 
+AU)TA\S DIASTA/SEIS E)/XOUSIN A)P' A)LLH/LWN OI( KU/KLOI. 
+A)LL' OI( 
+ME\N TROPIKOI\  A)PO\ TOU= I)SHMERINOU= KATA\ PA=N E)/GKLIMA 
+TH\N AU)TH\N A)PO/STASIN E)/XOUSIN.
+OI( DE\ TROPIKOI\ KU/KLOI 
+A)PO\ TW=N A)RKTIKW=N OU) TH\N AU)TH\N E)/XOUSI DIA/STASIN KATA\ 
+PA/NTAS TOU\S O(RI/ZONTAS, A)LL' OI( ME\N E)/LASSON, OI( DE\ PLE/ON 
+DIESTH/KASIN. </p>
+	</div1>
+
+<div1 type="subsection" n="4">
+<p> O(MOI/WS DE\ OI( A)RKTIKOI\ A)PO\ 
+PO/LWN OU) TH\N I)/SHN A)PO/STASIN E)/XOUSI KATA\ PA=N E)/GKLIMA, 
+A)LL' OI( ME\N E)LA/SSONA, OI( DE\ PLEI/ONA. 
+KATAGRA/FONTAI 
+ME/NTOI GE PA=SAI AI( SFAI=RAI PRO\S TO\N E)N TH=| <geogName>*(ELLA/DI</geogName> 
+O(RI/ZONTA. 
+<figure><figDesc lang="en">Armillary sphere</figDesc></figure>
+
+<fw type="catch"><num value="9">Q</num> *PERI\</fw>
+
+</p>
+
+	</div1>
+      </div0>
+
+<div0 type="section" n="9">
+<head>
+<pb n="21"/>
+<num value="9">Q</num><lb/>
+*PERI\ KOLOU/RWN KU/KLWN</head>
+<div1 type="subsection" n="1">
+
+<p>
+*DIA\ TW=N PO/LWN DE/ EI)SI KU/KLOI OI( U(PO/ TINWN KO/LOUROI 
+PROSAGOREUO/MENOI, OI(=S SUMBE/BHKEN E)PI\ TW=N I)DI/WN 
+PERIFEREIW=N TOU\S TOU= KO/SMOU PO/LOUS E)/XEIN. KO/LOUROI DE\ 
+KE/KLHNTAI, DIA\ TO\ ME/RH TINA\ AU)TW=N A)QEW/RHTA GI/NESQAI.
+
+</p>
+	</div1>
+
+<div1 type="subsection" n="2">
+<p>
+OI( ME\N GA\R LOIPOI\ KU/KLOI KATA\ TH\N PERISTROFH\N 
+TOU= KO/SMOU O(/LOI QEWROU=NTAI: TW=N DE\ KOLOU/RWN KU/KLWN 
+ME/RH TINA/ E)STIN A)QEW/RHTA ,
+TA\ U(PO\ TOU= A)NTARKTIKOU= U(PO\ 
+TO\N O(RI/ZONTA A)POLAMBANO/MENA. 
+GRA/FONTAI DE\ OU(=TOI OI( 
+KU/KLOI DIA\ TW=N TROPIKW=N <supplied resp="Bainbridge"> KAI\ I)SHMERINW=N</supplied>
+SHMEI/WN, KAI\ EI)S 
+ME/RH <num value="4">D</num> I)/SA DIAIROU=SI TO\N DIA\ ME/SWN TW=N ZW|DI/WN KU/KLON. 
+
+<fw type="catchword"><num value="10">I</num>*PERI\</fw>
+</p>
+
+
+	</div1>
+</div0>
+
+<div0 type="section" n="10">
+<head><pb n="22"/>
+*PERI\ ZWDIAKOU=  KU/KLOU
+</head>
+<div1 type="subsection" n="1">
+<p>
+*LOCO\S DE/ E)STI KU/KLOS O( TW=N <num value="12">IB</num> ZW|DI/WN. 
+AU)TO\S 
+D' E)K TRIW=N KU/KLWN PARALLH/LWN SUNE/STHKEN, W(=N OI( ME\N TO\ 
+PLA/TOS A)FORI/ZEIN LE/GONTAI TOU= ZW|DIAKOU= KU/KLOU, O( DE\ 
+DIA\ ME/SWN TW=N ZW|DI/WN KALEI=TAI. 
+</p>
+
+
+
+	</div1>
+
+<div1 type="subsection" n="2">
+<p> *OU(=TOS DE\ E)FA/PTETAI 
+DU/O KU/KLWN I)/SWN KAI\ PARALLH/LWN, TOU= ME\N QERINOU= 
+TROPIKOU= KATA\ TH\N TOU= *KARKI/NOU PRW/THN MOI=RAN, TOU= DE\ 
+XEIMERINOU= TROPIKOU= KATA\ TH\N TOU= *AI)GO/KERW PRW/THN MOI=RAN.
+
+
+<supplied resp="Bainbridge">TO\N 
+D' I)SHMERINO\N DI/XA TE/MNEI KATA\ TH\N TOU= *KRIOU= PRW/THN MOI=RAN, 
+KAI\ KATA\ TH\N TOU= *ZUGOU= PRW/THN MOI=RAN. </supplied>
+</p>
+
+
+	</div1>
+
+<div1 type="subsection" n="3">
+<p> *TO\ DE\ PLA/TOS 
+TOU= ZW|DIAKOU= KU/KLOU E)STI\ MOIRW=N <num value="12">IB</num>. 
+LOCO\S DE\ KE/KLHTAI 
+O( ZW|DIAKO\S KU/KLOS,
+ DIA\ TO\ 
+ <supplied resp="Bainbridge">LOCW=S</supplied>
+ <fw type="catch">cw=s</fw>
+<pb n="23"/>
+ TE/MNEIN TOU\S PARALLH/LOUS 
+KU/KLOUS. 
+</p>
+
+	</div1>
+</div0>
+
+<div0 type="section" n="11">
+<head>*PERI\ *(ORI/ZONTOS</head>
+<div1 type="subsection" n="1">
+<p>*(ORI/ZWN DE/ E)STI KU/KLOS O( DIORI/ZWN H(MI=N TO/ TE 
+FANERO\N KAI\ TO\ A)FANE\S ME/ROS TOU= KO/SMOU:
+ KAI\ DIXOTOMW=N 
+TH\N O(/LHN SFAI=RAN TOU= KO/SMOU, W(/STE H(MISFAI/RION ME\N 
+U(PE\R GH=S A)POLAMBA/NESQAI, H(MISFAI/RION DE\ U(PO\ GH=N. 
+</p>
+
+	</div1>
+
+<div1 type="subsection" n="2">
+<p>EI)SI\ DE\ O(RI/ZONTES DU/O, EI(=S ME\N O( AI)SQHTO/S, E(/TEROS 
+DE\ O( LO/GW| QEWRHTO/S. 
+</p>
+	</div1>
+
+<div1 type="subsection" n="3">
+<p> *AI)SQHTO\S ME\N OU)=N E)STIN O(RI/ZWN, 
+O( U(PO\ TH=S H(METE/RAS O)/YEWS PERIGRAFO/MENOS KATA\ TO\N 
+A)POTERMATISMO\N TH=S O(RA/SEWS, O(\S OU) MEI/ZONA TH\N DIA/METRON 
+E)/XEI STADI/WN DISXILI/WN. </p>
+	</div1>
+
+<div1 type="subsection" n="4">
+<p> *(O DE\ LO/GW| QEWRHTO\S O(RI/ZWN 
+E)STI\N,
+ O( ME/XRI TH=S TW=N A)PLANW=N A)STE/RWN SFAI/RAS DIHKW=N, 
+KAI\ DIXOTOMW=N TO\N O(/LON KO/SMON. 
+<fw type="catch">*OU)</fw>
+</p>
+	</div1>
+<div1 type="subsection" n="5">
+<p>
+<pb n="24"/>
+*OU) KATA\ PA=SAN DE\ XW/RAN KAI\ PO/LIN O( AU)TO/S E)STIN 
+O(RI/ZWN,
+A)LLA\ PRO\S ME\N TH\N AI)/SQHSIN SXEDO\N W(S E)PI\ 
+STADI/OUS TETRAKOSI/OUS O( AU)TO\S O(RI/ZWN DIAME/NEI:
+W(/STE KAI\ TA\ MEGE/QH 
+TW=N H(MERW=N,  KAI\ TO\ KLI/MA, KAI\ PA/NTA TA\ FAINO/MENA TA\ 
+AU)TA\ DIAME/NEIN. 
+</p>
+	</div1>
+
+<div1 type="subsection" n="6">
+<p> *PLEIO/NWN DE\ STADI/WN GINOME/NWN KATA\ 
+TH\N PARALLAGH\N TH=S OI)KH/SEWS,
+ E(/TEROS O(RI/ZWN GI/NETAI 
+KATA\ TO\ KLI/MA DIAFE/RWN,
+ KAI\ PA/NTA TA\ FAINO/MENA 
+METAPI/PTEI. 
+DEI= ME/NTOI GE TH\N PARALLAGH\N TH=S OI)KH/SEWS TH\N 
+U(PE\R TETRAKOSI/OUS STA/DIOUS DIALAMBA/NESQAI KATA\ TH\N PRO\S A)/RKTON,
+KAI\
+PRO\S MESHMBRI/AN PA/RODON: 
+</p>
+	</div1>
+
+<div1 type="subsection" n="7">
+<p> TOI=S ME\N GA\R E)PI\ TOU= 
+AU)TOU= PARALLH/LOU OI)KOU=SIN, KAI\ A)PO\ MURI/WN STADI/WN 
+U(PA/RXOUSIN, O( ME\N O(RI/ZWN DIA/FOROS, TO\ DE\ KLI/MA TO\ 
+AU)TO\, KAI\ PA/NTA TA\ FAINO/MENA PARAPLH/SIA.
+AI( ME/NTOI 
+GE A)RXAI\ KAI\ TELEUTAI\ AI( TW=N H(MERW=N OU)X A(/MA PA=SIN 
+E)/SONTAI 
+<fw type="catch">SONTAI</fw>
+
+<pb n="25"/>
+
+TOI=S E)PI\ TOU= AU)TOU= PARALLH/LOU OI)KOU=SI. 
+</p>
+	</div1>
+
+<div1 type="subsection" n="8">
+<p> *KATA\ 
+DE\ TH\N PRO\S TO\N LO/GON A)KRI/BEIAN,
+ A(/MA TW=| STIGMIAI/AN 
+PA/RODON GI/NESQAI KAQ' O(POIONOU=N ME/ROS TOU= KO/SMOU, 
+METAPI/PTEI KAI\ O( O(RI/ZWN, KAI\ TO\ E)/GKLIMA, KAI\ PA/NTA TA\ 
+FAINO/MENA DIA/FORA. 
+</p>
+
+	</div1>
+
+<div1 type="subsection" n="9">
+<p>*OU) KATAGRA/FETAI DE\ O(RI/ZWN E)N TAI=S SFAI/RAIS 
+DI' AI)TI/AN TOIAU/THN:
+O(/TI OI( ME\N LOIPOI\ KU/KLOI PA/NTES, 
+FEROME/NOU TOU= KO/SMOU A)P' A)NATOLW=N E)PI\ TH\N DU/SIN, 
+SUMPERISTRE/FONTAI KAI\ AU)TOI\ A(/MA TH=| TOU= KO/SMOU KINH/SEI:
+O( DE\ O(RI/ZWN E)STI\ FU/SEI A)KI/NHTOS, TH\N AU)TH\N TA/CIN 
+DIAFULA/TTWN DIA\ PANTO/S. 
+</p>
+	</div1>
+
+<div1 type="subsection" n="10">
+<p> *EI) OU)=N KATEGRA/FONTO OI( 
+O(RI/ZONTES E)N TAI=S SFAI/RAIS, STREFOME/NWN AU)TW=N SUNE/BAINEN 
+A)\N TO\N O(RI/ZONTA KINEI=SQAI, KAI\ KATA\ KORUFH/N POTE\ GI/NESQAI, 
+O(/PER E)STI\N A)DIANO/HTON,
+KAI\ A)LLO/TRION TOU= 
+<fw type="catch">SFAI-</fw>
+<pb n="26"/>
+
+SFAIRIKOU= 
+LO/GOU. (UPO\ ME/NTOI GE TH=S SFAIROQH/KHS H( TOU= O(RI/ZONTOS 
+QE/SIS KATANOEI=TAI. 
+</p>
+	</div1>
+</div0>
+
+<div0 type="section" n="12">
+<head>*PERI\ TW=N MESHBRINW=N KU/KLWN</head>
+
+<div1 type="subsection" n="1">
+<p>*MESHMBRINO\S DE/ E)STI KU/KLOS,
+ O( DIA\ TW=N TOU= KO/SMOU 
+PO/LWN,
+ KAI\ TOU= KATA\ KORUFH\N SHMEI/OU GRAFO/MENOS KU/KLOS:
+E)F' OU(= GENO/MENOS O( H(/LIOS TA\ ME/SA TW=N H(MERW=N KAI\ TA\ 
+ME/SA TW=N NUKTW=N POIEI=TAI. 
+</p>
+	</div1>
+
+<div1 type="subsection" n="2">
+<p> *KAI\ OU(=TOS DE/ E)STIN O( 
+KU/KLOS A)KI/NHTOS E)N TW=| KO/SMW|,
+ KAI\ TH\N AU)TH\N TA/CIN 
+DIAFULA/SSWN E)N O(/LH| TH=| TOU= KO/SMOU PERISTROFH=|. 
+OU) 
+KATAGRA/FETAI DE\ OU)DE\ OU(=TOS O( KU/KLOS E)N TAI=S 
+KATASTHRIZOME/NAIS SFAI/RAIS,
+ DIA\ TO\ KAI\ A)KI/NHTOS EI)=NAI,
+ KAI\ MHDEMI/AN 
+E)PIDE/XESQAI META/PTWSIN. </p>
+	</div1>
+
+<div1 type="subsection" n="3">
+<p>
+<supplied resp="Bainbridge">*OU) KATA\ PA=SAN DE\ XW/RAN KAI\ PO/LIN O( AU)TO/S E)STI 
+MESHMBRINO/S.</supplied> 
+
+<fw type="catch">NO\S</fw>
+<pb n="27"/>
+*)ALLA\ PRO\S ME\N TH\N AI)/SQHSIN SXEDO\N E)PI\ 
+STADI/OUS TRIAKOSI/OUS O( AU)TO\S MESHMBRINO\S DIAME/NEI:
+PRO\S DE\ TH\N 
+E)N TW=| LO/GW| A)KRI/BEIAN, A(/MA TW=| TH\N PAROU=SAN GI/NESQAI 
+PA/RODON, H)\ PRO\S A)NATOLH\N, H)\ PRO\S DU/SIN, E(/TEROS GI/NETAI 
+MESHMBRINO/S: </p>
+	</div1>
+
+<div1 type="subsection" n="4"><p>
+ KATA\ ME\N GA\R PRO\S A)/RKTON KAI\ 
+MESHMBRI/AN PA/RODON, KA\N METACU\ MU/RIOI STA/DIOI 
+U(PA/RXWSIN, AU)TO\S ME/NEI MESHMBRINO/S:  KATA\ DE\ TH\N 
+A)P' A)NATOLH=S PRO\S DU/SIN PA/RODON, DIAFORAI\ MESHMBRINW=N. 
+</p>
+	</div1>
+
+</div0>
+
+
+
+
+<div0 type="section" n="13">
+<head>*PERI\ GALAKTIKOU= KU/KLOU</head>
+<div1 type="subsection" n="1">
+<p>
+*LOCO\S DE/ E)STI KU/KLOS KAI\ O( TOU= GA/LAKTOS,
+OU(=TOS 
+ME\N MEI/ZONI PLA/TEI LELO/CWTAI TW=N TROPIKW=N KU/KLWN. 
+SUNE/STHKE 
+DE\ E)K BRAXUMERI/AS NEFELOEIDOU=S, KAI\ E)/STIN E)N TW=| 
+
+<fw type="catch">KO/SMW|</fw>
+<pb n="28"/>
+KO/SMW| 
+MO/NOS QEWRHTO/S. 
+</p>
+	</div1>
+<div1 type="subsection" n="2">
+
+<p>
+OU)X W(/RISTAI DE\ AU)TOU= TO\ PLA/TOS, 
+A)LLA\ KATA\ ME/N TINA ME/RH PLATU/TERO/S E)STI, KATA\ DE/ TINA 
+STENO/TEROS. 
+DI' H(\N AI)TI/AN E)N TAI=S PLEI/STAIS SFAI/RAIS 
+OU)DE\ KATAGRA/FETAI O( TOU= GA/LAKTOS KU/KLOS. 
+
+E)/STI DE\ KAI\ OU(=TOS TW=N MEGI/STWN KU/KLWN. </p>
+	</div1>
+
+<div1 type="subsection" n="3">
+<p> *ME/GISTOI 
+GA\R E)N SFAI/RAIS LE/GONTAI KU/KLOI OI( TO\ AU)TO\ KE/NTRON 
+E)/XONTES TH=| SFAI/RA|. 
+</p>
+
+<p>EI)SI\ DE\ ME/GISTOI KU/KLOI E(PTA\, I)SHMERINO/S, ZW|DIAKO\S,
+ KAI\ 
+O( DIA\ ME/SWN TW=N ZW|DI/WN, OI( DIA\ TW=N PO/LWN, O( KAQ' E(KA/STHN 
+OI)/KHSIN O(RI/ZWN, O( MESHMBRINO/S, O( TOU= GA/LAKTOS. 
+</p>
+	</div1>
+      </div0>
+
+
+
+<div0 type="section" n="14"> <!-- = Geminos ch. 15 --> 
+<head>*PERI\ TW=N E)N GH=| ZWNW=N</head>
+<div1 type="subsection" n="1">
+<p>*(H TH=S SUMPA/SHS GH=S E)PIFA/NEIA SFAIROEIDH\S
+<fw type="catch">DH\S</fw>
+
+<pb n="29"/>
+
+
+U(PA/RXOUSA, DIAIREI=TAI EI)S ZW/NAS PE/NTE.
+W(=N DU/O ME\N AI( PERI\ 
+TOU\S PO/LOUS, PORRW/TATA DE\ KEI/MENAI TH=S TOU= H(LI/OU 
+PARO/DOU, KATEYUGME/NAI LE/GONTAI,
+ KAI\ A)OI/KHTOI DIA\ TO\ 
+YU=XO/S EI)SIN.  A)FORI/ZONTAI D' U(PO\ TW=N A)RKTIKW=N 
+<supplied resp="Bainbridge">TW=N PRO\S TO\N E)N TH=|
+*E(LLA/DI O(RI/ZONTA KATAGEGRAMME/NWN
+</supplied>
+PRO\S TOU\S 
+PO/LOUS. 
+</p>
+
+
+	</div1>
+
+<div1 type="subsection" n="2">
+<p> *AI( DE\ TOU/TWN E(CH=S, SUMME/TRWS ME\N KEI/MENAI 
+PRO\S TH\N TOU= H(LI/OU PA/RODON, EU)/KRATOI KALOU=NTAI.
+A)FORI/ZONTAI D' AU(=TAI U(PO\ TW=N E)N TW=| KO/SMW| A)RKTIKW=N KAI\ 
+TROPIKW=N KU/KLWN, METACU\ KEI/MENAI AU)TW=N. 
+</p>
+	</div1>
+
+<div1 type="subsection" n="3">
+<p> *(H DE\ LOIPH\,
+ME/SH TW=N PROEIRHME/NWN, KEIME/NH D' U(P' AU)TH\N TH\N 
+TOU= H(LI/OU PA/RODON, DIAKEKAUME/NH KALEI=TAI.
+DIXOTOMEI=TAI D' AU(/TH U(PO\ TOU= E)N TH=| GH=| I)SHMERINOU= KU/KLOU, O(\S 
+KEI=TAI U(PO\ TO\N E)N TW=| KO/SMW| I)SHMERINO\N KU/KLON. </p>
+	</div1>
+
+<div1 type="subsection" n="4">
+<p>*TW=N DE\ EU)KRA/TWN DU/O ZWNW=N <supplied resp="Bainbridge">TH\N BO/REION</supplied>
+ U(PO\ TW=N E)N 
+TH=| KAQ' 
+<fw type="catch">H(MA=S</fw>
+
+<pb n="30"/>
+H(MA=S OI)KOUME/NH| KATOIKEI=SQAI SUMBE/BHKEN:
+
+E)PI\ 
+ME\N TO\ MH=KOS OU)=SAN W(S E)/GGISTA PERI\ 
+
+<note resp="Bainbridge" n="*" lang="la">
+f. <num lang="grc" value="4">D</num>.
+</note>
+DE/KA MURIA/DAS STADI/WN, 
+E)PI\ DE\ TO\ PLA/TOS W(S E)/GGISTA TO\ H(/MISU. 
+<figure>
+<figDesc>Sphere showing five zones with outline of Ocean visible in
+inhabited part of the world</figDesc></figure>
+</p>
+
+	</div1>
+
+      </div0>
+
+
+<div0 type="section" n="15">
+	<head>
+*PERI\ KATESTHRIGME/NWN ZW|DI/WN
+</head>
+
+<div1 type="subsection" n="1">
+<p>
+*TA\ KATESTHRIGME/NA A)/STRA DIAIREI=TAI EI)S ME/RH 
+TRI/A. A(\ ME\N GA\R AU)TW=N E)PI\ TOU= ZW|DIAKOU= KU/KLOU 
+KEI=TAI, A(\ DE\ LE/GETAI BO/REIA, A(\ DE\ PROSAGOREU/ETAI NO/TIA. 
+</p>
+	</div1>
+
+
+<div1 type="subsection" n="2">
+<p>*TA\ ME\N OU)=N E)PI\ TOU= ZW|DIAKOU= KU/KLOU KEI/MENA/ E)STI 
+TA\ <num value="12">IB</num> ZW/|DIA, W(=N 
+AI( O)NOMASI/AI EI)SI\N AI(/DE
+<supplied resp="Bainbridge">
+KRIO\S, TAU=ROS,
+DI/DUMOS, KARKI=NOS, LE/WN, PARQE/NOS,
+ZUGO\S, SKORPIO/S, TOCO/THS,
+<fw type="catch">AI)GO-</fw>
+<pb n="31"/>
+AI)GO/KERWS, U(DROXO/OS, I)XQU/ES.
+</supplied> 
+</p>
+<p>*KAI\ E)N TOI=S <num value="12">IB</num> ZW|DI/OIS,
+TINE\S A)STE/RES DIA\ TA\S E)P' AU)TOI=S 
+GINOME/NAS E)PISHMASI/AS, I)DI/AS PROSHGORI/AS H)CIWME/NOI 
+EI)SI/N. </p>
+
+	</div1>
+
+<div1 type="subsection" n="3">
+<p> *OI( ME\N GA\R E)PI\ TOU= TAU/ROU E)PI\ TOU= NW/TOU 
+AU)TOU= KEI/MENOI A)STE/RES,
+ TO\N A)RIQMO\N E(\C, KALOU=NTAI 
+*PLEIA/DES.
+ OI( DE\ E)PI\ TOU= BOUKRA/NOU TOU= TAU/ROU KEI/MENOI A)STE/RES, 
+TO\N A)RIQMO\N KAI\ AU)TOI\ <num value="5">E</num>, KALOU=NTAI *(UA/DES. 
+</p>
+	</div1>
+
+<div1 type="subsection" n="4">
+<p>*(O DE\ PROHGOU/MENOS TW=N PODW=N TW=N *DIDU/MWN A)STH\R,
+PROSAGOREU/ETAI 
+*PRO/POUS. 
+OI( DE\ E)N TW=| *KARKI/NW| NEFELOEIDEI= SUSTROFH=| E)OIKO/TES,
+ KALOU=NTAI FA/TNH.
+ OI( DE\ PLHSI/ON AU)TH=S DU/O 
+A)STE/RES KEI/MENOI,
+ )/ONOI PROSAGOREU/ONTAI. 
+</p>
+	</div1>
+
+
+<div1 type="subsection" n="5">
+<p> *(O DE\ E)N 
+TH=| KARDI/A| TOU= LE/ONTOS KEI/MENOS LAMPRO\S A)STH\R,
+ O(MONU/MWS 
+TW=| TO/PW| E)F' OU(= KEI=TAI, 
+KARDI/A LE/ONTOS PROSAGOREU/ETAI: 
+U(PO\ DE/ TINWN *BASILI/SKOS KALEI=TAI, O(/TI DOKOU=SIN OI( PERI\ 
+TO\N TO/PON TOU=TON GENO/MENOI BASILIKO\N E)/XEIN TO\ GENE/QLION. 
+</p>
+	</div1>
+
+
+<div1 type="subsection" n="6">
+<p>*(O DE\ 
+
+<fw type="catch">E)N</fw>
+<pb n="32"/>
+E)N A)/KRA| TH=| A)RISTERA=| XEIRI\ TH=S PARQE/NOU 
+KEI/MENOS LAMPRO\S A)STH\R,
+ STA/XUS PROSAGOREU/ETAI.
+ O( DE\ 
+PARA\ TH\N DECIA\N TH=S *PARQE/NOU PTE/RUGA KEI/MENOS 
+A)STERI/SKOS,
+PROTRUGHTH\R O)NOMA/ZETAI. 
+OI( DE\ E)N A)/KRA| TH=| DECIA=| 
+XEIRI\ <supplied resp="Bainbridge">KEI/MENOI</supplied> TOU= U(DROXO/OU 
+TE/SSARES A)STE/RES,
+KA/LPH
+KALOU=NTAI. </p>
+
+	</div1>
+
+
+<div1 type="subsection" n="7">
+<p> 
+O(<note lang="en" n="*" resp="NS">Sic.
+</note>
+ DE\ A)PO\ TW=N OU)RAI/WN MERW=N TW=N I)XQU/WN KATA\ 
+TO\ E(CH=S KEI/MENOI A)STE/RES,
+LI/NOI PROSAGOREU/ONTAI: 
+EI)SI\ 
+DE\ E)N ME\N TW=| NOTI/W| LI/NW| A)STE/RES <num value="9">Q</num>, E)N DE\ TW=| BOREI/W| LI/NW| 
+A)STE/RES <num value="5">E</num>: O( DE\ E)N A)/KRW| TW=| LI/NW| KEI/MENOS LAMPRO\S A)STH\R 
+SU/NDESMOS PROSAGOREU/ETAI. 
+</p>
+	</div1>
+
+
+<div1 type="subsection" n="8">
+<p>
+*BO/REIA DE/ E)STIN, O(/SA TOU= TW=N ZW|DI/WN KU/KLOU PRO\S 
+A)/RKTOUS KEI=TAI. 
+E)/STI DE\ TA/DE.
+H( MEGA/LH A)/RKTOS, H( 
+MIKRA/.
+DRA/KWN O( DIA\ TW=N A)/RKTWN.
+ A)RKTOFU/LAC. 
+STE/FANOS.
+E)N GO/NASIN.
+ O)FIOU=XOS.
+ O)/FIS.
+ LU/RA.
+ O)/RNIS. 
+O)OI+STO/S.
+A)ETO/S.
+DELFI/S.
+PROTOMH\ 
+<fw type="catch">I(/PPOU</fw>
+<pb n="33"/>
+I(/PPOU, KAQ' <persName>*(/IPPARXON</persName>, 
+I(/PPOS.
+KHFEU\S.
+KASSIE/PEIA.
+A)NDROME/DA.
+PERSEU\S.
+H(NI/OXOS.
+DELTWTO\N.
+ KAI\ O( U(/STERON KATESTHRIGME/NOS U(PO\ 
+<persName>*KALLIMA/XOU</persName> *BERENI/KHS PLO/KAMOS. 
+</p>
+
+	</div1>
+
+<div1 type="subsection" n="9">
+<p>*PA/LIN DE\ KAI\ E)N TOU/TOIS A)STE/RES TINE\S I)DI/AS E)/XOUSI 
+PROSHGORI/AS,
+ DIA\ TA\S O(LOSXEREI=S E)P' AU)TOI=S GINOME/NAS 
+E)PISHMASI/AS. 
+O( ME\N GA\R A)NA\ ME/SON TW=N SKELW=N TOU= 
+A)RKTOFU/LAKOS KEI/MENOS E)PI/SHMOS A)STH\R,
+ A)RKTOU=ROS 
+O)NOMA/ZETAI. 
+</p>
+	</div1>
+
+<div1 type="subsection" n="10">
+<p> *(O DE\ PARA\ TH\N LU/RAN KEI/MENOS 
+LAMPRO\S A)STH\R,
+ O(MONU/MWS O(/LW| TW=| ZW|DI/W| LU/RA PROSAGOREU/ETAI. 
+ <!--
+*(O DE\ ME/SOS TW=N E)N TW=| *)AETW=| TRIW=N A)STE/RWN O(MWNU/MWS 
+TW=| ZW|DI/W| *)AETO\S PROSAGOREU/ETAI. -->
+</p>
+	</div1>
+
+<div1 type="subsection" n="11">
+<p> *OI( DE\ E)N  
+A)RISTERA=| A)/KRA| XEIRI\ TOU= *PERSE/WS KEI/MENOI A)STE/RES,
+GORGO/NION 
+KALOU=NTAI. OI( DE\ E)N A)/KRA| TH=| DECIA=| XEIRI\ TOU= PERSE/WS 
+KEI/MENOI A)STERI/SKOI PUKNOI\ KAI\ MIKROI\,
+ EI)S TH\N *A(/RPHN 
+KATASTERI/ZONTAI. </p>
+	</div1>
+
+<div1 type="subsection" n="12">
+<p> 
+O( DE\ E)N TW=| EU)WNU/MW| W)/MW| TOU= 
+H(NIO/XOU KEI/MENOS LAMPRO\S A)STH\R,
+ AI)\C PROSAGOREU/ETAI: 
+OI( DE\ E)N A)/KRA| TH=| AU)TH=| XEIRI\ 
+
+<fw type="catch">STE-</fw>
+
+<pb n="34"/>
+A)STERI/SKOI DU/O,
+E)/RIFOI KALOU=NTAI. 
+</p>
+	</div1>
+
+<div1 type="subsection" n="13">
+<p>*NO/TIA DE/ E)STIN, O(/SA TOU= TW=N ZW|DI/WN KU/KLOU PRO\S 
+MESHMBRI/AN KEI=TAI,
+E)/STI DE\ TA/DE.
+W)RI/WN.
+<supplied resp="Bainbridge">KU/WN KAI\</supplied> 
+ PROKU/WN.
+ LAGWO\S.
+ A)RGW\.
+ U(/DROS.
+ KRATH\R.
+ KO/RAC.
+ KE/NTAUROS.
+QHRI/ON O(\ KRATEI= O( *KE/NTAUROS <supplied resp="Bainbridge">KAQ' *(/IPPARXON</supplied>
+QUMIATH/RION.
+NO/TIOS I)XQU/S.
+ KH=TOS.
+ U(/DWR TO\ A)PO\ TOU= U(DROXO/OU. 
+POTAMO\S O( A)PO\ W)RI/WNOS.
+NO/TIOS STE/FANOS, U(PO/
+TINWN OU)RANI/SKOS PROSAGOREUO/MENOS. 
+</p>
+	</div1>
+
+<div1 type="subsection" n="14">
+<p>*PA/LIN DE\ KAI\ E)N TOU/TOIS TINE\S A)STE/RES I)DI/AS E)/XOUSI 
+PROSHGORI/AS. O( ME\N GA\R E)N TW=| PRO/KUNI W)\N LAMPRO\S 
+A)STH\R, PROKU/WN KALEI=TAI. O( DE\ E)N TW=| STO/MATI TOU= KUNO\S 
+LAMPRO\S A)STH/R, O(\S DOKEI= TH\N E)PI/TASIN TW=N KAUMA/TWN 
+POIEI=N, O(MWNU/MWS O(/LW| TW=| ZW|DI/W|,
+
+<fw type="catch">DI/W|</fw>
+KU/WN PROSAGOREU/ETAI. 
+</p>
+	</div1>
+
+<div1 type="subsection" n="15">
+<p>*(O DE\ E)N A)/KRW| TW=| PHDALI/W| TH=S A)RGOU=S KEI/MENOS 
+LAMPRO\S A)STH\R,
+KA/NWBOS O)NOMA/ZETAI.
+OU(=TOS ME\N E)N 
+<geogName>*(RO/DW|</geogName>
+DUSQEW/RHTO/S E)STI/N, H)\ PANTELW=S A)F' U(YHLW=N TO/PWN 
+O)RA=TAI.
+E)N <geogName>*)ALECANDREI/A|</geogName> DE/ E)STI PANTELW=S E)MFANH\S, 
+SXEDO\N GA\R TE/TARTON ME/ROS ZW|DI/OU A)PO\ TOU= O(RI/ZONTOS 
+METEWRISME/NOS FAI/NETAI. 
+</p>
+
+	</div1>
+
+      </div0>
+
+<trailer>TE/LOS TH=S TOU= *PRO/KLOU SFAI/RAS</trailer>
+
+    </body>
+
+  </text>
+</TEI>

@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN"
+"/dev/null"  [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+
+   <!ENTITY % TEI.transcr 'INCLUDE' >
+   <!ENTITY % TEI.textcrit 'INCLUDE' >
+   <!ENTITY % TEI.XML 'INCLUDE'>
+   
+   ]>
+<TEI.2 TEIform="TEI.2">
+    <teiHeader type="text" status="new" TEIform="teiHeader">
+        <fileDesc TEIform="fileDesc">
+            <titleStmt TEIform="titleStmt">
+                <title TEIform="title">De temporibus</title>
+                <author>Bede</author>
+            </titleStmt>
+            <publicationStmt>
+                <p TEIform="p">ROUGH DRAFT -- unpublished</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Original translation by E.E., modifications by N.S.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="grc-xlit">Greek in Perseus-style transliteration</language>
+                <language id="etrucscan">Etruscan</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text lang="eng">
+        <body>
+
+            <div0 n="1">
+                <head>On Moments and Hours</head>
+                <p> Times are divided into moments, hours, days, months, years, ages, and epochs.</p>
+                <p>Named after the motion of the stars, a moment is the smallest and briefest period
+                    of time, for it is the limit of an hour in short intervals when something has
+                    moved and then succeeded itself.</p>
+                <p> [H]ora is a Greek term that nonetheless sounds Latin, for [h]ora is a limit of
+                    time in the same way as [h]ora are also limits of the sea, rivers, and clothes.</p>
+                <p> It is composed of four puncta, ten minutes, and forty moments. </p>
+                <p>And we must note, in order to avoid error, that the computus depends partly on
+                    nature and partly on authority or custom: nature, as we hold that the common
+                    year lasts for twelve lunar months; custom, that months may be reckoned in
+                    thirty days; and authority, that a week consists of seven days. </p>
+            </div0>
+
+            <div0 n="2">
+                <head>On the Day</head>
+                <p>In common usage, day is the presence of the sun above the earth; properly
+                    speaking, it is [the interval of time] completed in twenty-four hours.</p>
+                <p>The Chaldaeans and the Persians reckon it between two risings of the sun, the
+                    Egyptians between two settings of the sun, the Romans from midnight to midnight,
+                    and the Umbrians and the Athenians from midday to midday.</p>
+                <p>Moses, however, calls a day [the interval of time] from one morning to the next;
+                    but at the resurrection of the Lord, the evening of the Sabbath dawned on the
+                    first day of the Sabbath so that humankind, after falling from the light into
+                    the shadows, might then return from the shadows to the light. </p>
+            </div0>
+            <div0 n="3">
+                <head>On the Night</head>
+                <p> Night is the absence of the sun when it has been hidden by the shadow of the
+                    earth, and has been designed as a time for mortals to rest so that humanity
+                    should not perish from long, insatiable toil [when it is harder, then it is also
+                    more favorable for reducing work and the limbs]. </p>
+                <p> There are seven parts of the night: crepusculum, that is, the doubtful light
+                    between light and shadows (for we call creperum doubtful); vesperum, when star
+                    of the same name appears; conticinium, when everything is quiet; intempestum is
+                    the middle of the night and period of inactivity; gallicinium when the cock
+                    crows; matutinum is between the departure of the shadows of the night and the
+                    coming of dawn; and diluculum just when the small light of day is beginning.
+                    This light and the dawn extend as far as sunrise. </p>
+            </div0>
+
+            <div0 n="4">
+                <head>On the Week</head>
+                <p> The week consists of seven days; the eighth, however, is the same as the first
+                    day to which it returns, and so the week is constantly begun again.</p>
+                <p> The gentiles named them after the planets, believing that they had a spirit from
+                    the sun, a body from the moon, blood from Mars, intelligence and language from
+                    Mercury, temperance from Jupiter, lust from Venus, and slowness from Saturn.</p>
+
+                <p>But St. Sylvester established that the days be called feriae, naming the first
+                    day the Lord's Day and thereby emulating the Hebrews who name them the first day
+                    of the Sabbath, the second day of the Sabbath, and the rest according to their
+                    number.</p>
+                <p>Among the Hebrews, a hebdomada is also completed in the same number of years,
+                    which complete a hebdomada in he tdays of the hebdomadae.</p>
+                <p>Similarly, they also had a fiftieth Pentecost day in years, but calling it a
+                    jubilee year (which means liberty). </p>
+            </div0>
+	    
+            <div0 n="5">
+                <head>On the Month</head>
+                <p>The lunar month is effected by the waxing and the waning of the moon, while it
+                    goes through the zodiac in a little more than 28 and one-half days, but ease of
+                    computation alternates the lunar months with thirty and twenty-nine days.</p>
+                <p> However the solar month is greater by 22 hours, and the eleven days of the
+                    Epacts accumulate from these. The sun exceeds the course of the moon in a single
+                    year by these eleven days, for twelve times twenty-two makes 264, and eleven
+                    times twenty-four completes the same number. </p>
+                <p> But the Hebrews begin their months from the new moon, and the Romans from the
+                    Kalends. </p>
+                <p>The Egyptians begin their months from the fourth day of the Kalends of September
+                    all the way through the ninth day of the same Kalends, calculating their months
+                    in 30 days; they call the five remaining days intercalaries.</p>
+                <p>They were the first to begin to define the months according to the path of the
+                    sun so that the swifter and less certain passage of the moon would not create an
+                    obstacle to calculating for their calculation. </p>
+            </div0>
+
+            <div0 n="6">
+                <head>On the Months of the Romans</head>
+                <p>As established by Romulus, the Romans went through a year in ten months, but in
+                    three hundred and four days.</p>
+                <p>He named the first month after his father Mars; he named the second April after
+                    ripening of fruit; the third after Maia, the mother of Mercury, the fourth he
+                    dedicated to Juno.</p>
+                <p>Quintilis and Sextilis, which are now named after the birth of Julius Caesar and
+                    the triumph of Augustus, and the following months, he chose names based on their
+                    number.</p>
+                <p> The beginning of the months he called the Kalends because at that time, it was
+                    announced how many days were remaining until the Nones when the plebs had been
+                    summoned [<foreign lang="lat">calata</foreign>] (that is, "called") into the
+                    Capitol by repeating the word "<foreign lang="lat">calo</foreign>" (that is, "to
+                    call") five or seven times. </p>
+                <p> Moreover, he called the middle of the month the Nones because on the ninth day
+                        [<foreign lang="lat">nono die</foreign>] before the Ides they assembled in
+                    the city in order to know what must be done in that month.</p>
+                <p>Further, he called the Ides the day that divides the middle of the month, because
+                        <foreign lang="etrucscan">iduare</foreign> means to divide in the Etruscan
+                    language.</p>
+                <p>Numa, adding two months to these, January from Janus and February from Februus,
+                    who should be celebrated as the god of lustrations, arranged the year with three
+                    hundred and fifty-four days according to the course of the moon.</p>
+                <p>Julius Caesar established the year as it is used today, with the addition of
+                    eleven days. </p>
+            </div0>
+            <div0 n="7">
+                <head>On the Solstice and the Equinox</head>
+                <p> The solstices and both the equinoxes are thought to be on the eighth day before
+                    the Kalends of January, July, April, and October, that is in the eighth degrees
+                    of Capricorn, Cancer, Aries, and Liber.</p>
+                <p> But the equinoctial day is equal [in length] for the entire world.</p>
+                <p>Howver because of the different increase in the light, the longest day in Meroe
+                    totals 12 equinoctial hours and eight parts of one hour, in Alexandria, 14
+                    hours, in Italy 15, and in Britain 17, where in the summer bright nights are
+                    indisputably attested.</p>
+                <p>Reason compels us to believe that on the days of the solstice when the sun
+                    approaches nearer the pole of the world because of the narrow angle of the light
+                    the parts of the Earth lying below it have continuous days for six months, and
+                    [continuous] nights [for six months] when the sun has been withdrawn to the
+                    winter solstice.</p>
+                <p>Pytheas of Massilia writes that this happens on the island of Thyle which is a
+                    six day sail north of Britain. </p>
+            </div0>
+            <div0 n="8">
+                <head>On the Seasons</head>
+                <p>The seasons are cycles of change by which the sun tempers the earth as it
+                    progresses from perigee to apogee.</p>
+                <p> For winter is cold and damp while the sun delays for a long time; Spring is damp
+                    and warm when it returns; summer is warm and dry when it heats up; Autumn is dry
+                    and cold as it diminishes.</p>
+                <p>The ancients began the seasons on the sixth day before the Ides of February, May,
+                    August, and November, so that the solstices and the equinoxes were in the middle
+                    of seasons.</p>
+                <p>However, spring is connected to the orient because at that time all things arise
+                    from the earth; summer to the south because part of it is more burning with
+                    heat; Autumn to the west because it has grave illnesses due to the closeness of
+                    heat and cold; Winter to the North because it is sluggish from the cold. </p>
+            </div0>
+
+            <div0 n="9">
+                <head>On Years</head>
+                <p> The Solar (or civic) year is the period when the sun runs through the zodiac in
+                    365 and one quarter days; the Romans begin the year from the winter, the Hebrews
+                    from the spring equinox, the Greeks from the solstice, the Egyptians from
+                    autumn.</p>
+                <p>The common lunar year is composed of twelve lunar months, that is, 354 days. The
+                    embolismic year is composed of thirteen months and three hundred and eighty four
+                    days, beginning in the lunation of Easter.</p>
+                <p>The Great Year is when all the stars return to their proper position when the
+                    established paths have been completed, which Josephus claims is completed in six
+                    hundred solar years. </p>
+
+            </div0>
+            <div0 n="10">
+                <head>On the Leap-Year Day</head>
+                <p> The leap-year day is composed at a four year interval from the proportion of a
+                    quarter of a day, while the sun returns to the sign of the zodiac from which it
+                    departed not in 365 days but in [365 days] and a quarter of day.</p>
+                <p>For example, if the rising sun now enters the equinoctial position of the sky, it
+                    will enter this point in the following year at noon, in the third year during
+                    the evening, in the fourth year at midnight, and in the fifth year again at
+                    sunrise.</p>
+                <p>This necessarily forewarns that a day must be added so that the spring equinox
+                    will not occur on the winter solstice after 365 years if by chance the leap-year
+                    day is not added.</p>
+                <p> The Egyptians insert this leap-year day after the year has been completed (that
+                    is on the fourth day before the Kalends of September), the Romans on the sixth
+                    day before the Kalends of March, whence the intercalation receives its name "the
+                    second sixth" (bissextus). </p>
+                <p> Now in the common and also shorter explanation, the slowing of the sun, which
+                    does not return fully to the same line [on the sundial] in 365 days, brings
+                    forth a leap-year day; and if, for instance, on the spring equinox, which
+                    according to the Egyptians falls on the 12th day before the Kalends of April,
+                    you observe the sun rising from the mid-point of the east [ie, the celestial
+                    equator], you will find in the following year that it rises further down [i.e.,
+                    further south] on the same day, and in the third year, and fourth year, and
+                    fifth year you will find that the same slowing down accumulates so that — unless
+                    you add a day beforehand — the sun will rise from the mid-point of the east to
+                    bring about the equinox on the eleventh day before the Kalends of April, and
+                    will continue the same pattern of slowing down in the other risings and settings
+                    as well throughout the year. </p>
+            </div0>
+
+            <div0 n="11">
+                <head>On the Nineteen Year Cycle</head>
+                <p>The Council of Nicea instituted the nineteen year cycle because of [the problem
+                    of] the fourteenth day of the Paschal month, because each lunar month, having
+                    past in 235 cycles through a period of nineteen years, returns on an unerring
+                    course to the same day of the solar year.</p>
+                <p>The nineteen year cycle is divided into <foreign lang="grc-xlit">ogdoas</foreign>
+                    and <foreign lang="grc-xlit">hendecas</foreign> (that is into 8- and 11-year
+                    periods); for eight lunar years exceed the same number of solar years by only
+                    two days, one of which falls in the calendar for the completion of the <foreign
+                        lang="grc-xlit">hendecas</foreign>, while the other is used up by the
+                    computation of the saltus, since the solar <foreign lang="grc-xlit"
+                    >hendecas</foreign> would exceed the lunar by one day.</p>
+                <p>Admittedly, some people try violently to fill out these days with the leap-year
+                    days of the eight years; although the leap-year day in the month of February,
+                    after it has extended to the sun and the month normally predetermines nothing
+                    for future time, and they themselves add no leap-year day to the <foreign
+                        lang="grc-xlit">hendecas</foreign>.</p>
+                <p>Therefore,to speak more plainly, the two days of the month which are in excess in
+                    the <foreign lang="grc-xlit">ogdoas</foreign> will fill out the two that are
+                    lacking in the <foreign lang="grc-xlit">hendecas</foreign>. </p>
+            </div0>
+
+            <div0 n="12">
+                <head>On the Saltus of the Moon</head>
+                <p>The position and swifter time of the new moon causes the saltus of the moon over
+                    the course of nineteen years; for although some people, who calculate individual
+                    months with twenty-nine and one half days constantly alternate the new moons of
+                    the months by half a day and by half a night, they do not in this search for the
+                    truth of nature, but for ease of calculation.</p>
+                <p> For if you seek nature, the new moon of the first month which now appears at
+                    noon, and the moon of the second month, which appears at midnight, in a future
+                    year shine at one hour and ten moments and half a moment and one nineteenth of
+                    half a moment before the middle of the day or night.</p>
+                <p>However, this distinction does not lead to a clear limit of either the embolismic
+                    or common year, but the equal division of nineteen years.</p>
+                <p>And so over the course of nineteen years the new moon causes itself to be
+                    calculated in 383 days by anticipating the period of one day and by losing the
+                    final year of the nineteen year cycle.</p>
+                <p> But if you neglect to do this over the course of fifteen nineteen-year cycles,
+                    your fifteenth moon will fall [on the same date as] when it is first reckoned.
+                </p>
+            </div0>
+
+            <div0 n="13">
+                <head>The Contents of the Same Cycle</head>
+                <p> The Cycle of Easter has been constructed in 8 columns. The first column contains
+                    the years from the incarnation of the Lord, increasing at intervals of single
+                    years.</p>
+                <p>The second column contains the indictions of the Romans, which always reset in
+                    the course of 15 years.</p>
+                <p>The third contains the eleven lunar epact days, which increase in each solar year
+                    according to the course of the moon; placed in the calendar on the eleventh day
+                    before the Kalends of April, they are added cumulatively to find the age of the
+                    moon on the Kalends.</p>
+                <p> The fourth column contains the concurrent days of the week, which are placed in
+                    the calendar on the eighth day before the Kalends of April in accordance withh
+                    the loss of the leap-year day, and are necessarily completed in twenty-eight
+                    years; the computation of these compels that twenty-eight nineteen-year cycles
+                    be recorded so that individual concurrent days begin individual cycles and so
+                    that the whole calculation of Easter be completed in 532 years.</p>
+
+
+                <p>The fifth column contains the lunar cycle, which the nineteen-year cycle precedes
+                    by three years, and which is itself also contained in 19 years.</p>
+                <p>The sixth column contains the dates of the full moon — the time when our elders
+                    observed Pascha. As they wander in their changing current from the twelfth day
+                    before the Kalends of April to the 14th day before the Kalends of May, they
+                    admit a time of the new moon from the 8th day before the Ides of March up to the
+                    Nones of April. </p>
+                <p>However, there are 354 days from the full moon up to the full moon of the
+                    following year if it is the common year, 384 days if it is the embolismic year.</p>
+                <p>In the seventh column, freely extended on account of the computation of the
+                    embolismic years, the Sundays of Easter are found from the 11th day before the
+                    Kalends of April up to the 7th day before the Kalends of May.</p>
+                <p>In the final column is the age of the moon of the Paschal Feast varying on
+                    account of Sunday from 15 to 22. </p>
+            </div0>
+            <div0 n="14">
+                <head>Formulas for the categories of the Easter table</head>
+                <p> If you want to know how many years there are from the incarnation of the Lord,
+                    learn how many the numbers of indictions are, for instance, for the fifth year
+                    of the reign of Tiberius, 46; multiply these by 15, they become 690; always add
+                    12 regulars (because the Lord was born on the fourth indiction according to
+                    Dionysius) and the indiction of the year you want, for instance, in the present
+                    case, one; they total 703.</p>
+                <p>Those are the years of the birth of the Lord.</p>
+                <p> If you want to know the number of the indiction, take the years of the Lord and
+                    add three; divide by 15, and what will remains i itself the indiction of the
+                    current year.</p>
+                <p>If you want to know the number of the lunar epacts, divide the years of the Lord
+                    by 19, and multiply what remains by 11; likewise divide by 30, and the epacts
+                    remain.</p>
+                <p>If you want to know the concurrent days of the week, take the years of the Lord
+                    and add one quarter of their number; to these, add four more because there were
+                    five concurrent days in the year of the Lord's birth; divide these by seven and
+                    the solar epacts remain.</p>
+                <p>If you want to know the year number of the nineteen-year cycle, take the years of
+                    the Lord and add one because he was born in the second year of the cycle; divide
+                    by 19 and what will remain is itself the year of the nineteen year cycle.</p>
+                <p>If you want to know the number of the lunar cycle, take the years of the Lord
+                    and, subtracting two, divide by 19; and what will remain is itself the year of
+                    the lunar cycle.</p>
+                <p>If you want to know the leap-year, divide the years of the Lord by 4; the
+                    remainder gives the years from the leap year.</p>
+                <p>Once you have found the foregoing values, you will easily discover the day and
+                    lunar phase of Easter.</p>
+                <p>If you wish to know the epacts and to find the concurrent solar days for some
+                    number of years from the present, for example, after 100 Easters, it is
+                    sufficient to divide one hundred by 19, and 5 remains; you will know therefore
+                    that the [same lunar] epacts will fall in the hundredth year which fall in the
+                    fifth year.</p>
+                <p>In the same way dividing one hundred by 28 you will find that the concurrent
+                    solar days in the hundredth year are [the same as] those in the sixteenth year.
+                </p>
+            </div0>
+            <div0 n="15">
+                <head>On the Sacrament of the Time of Easter</head>
+                <p> Easter does not recur on the same day of the year as the time period of the
+                    Lord's birth does, because in the latter case the commemoration of the birth
+                    itself is considered so solemn.</p>
+                <p>But in the former case, the mysteries of future life are celebrated and its
+                    benefits are received, whence comes the very name of Pascha which signifies the
+                    transition from death to life.</p>
+                <p>The Pascha demands a time appropriate for the mysteries: first, [it demands] that
+                    the shadows of death be conquered by the true light when the equinox has passed;
+                    then, [it demands] that in the first month of the year which is called the month
+                    of new things the joys of new life are celebrated; third, [it demands] that the
+                    resurrection should come in the third week of the moon's cycle, since the
+                    resurrection happened on the third day and in the time of the third age (that is
+                    the age manifested through grace, since it already lay hidden before the law and
+                    under the law in the prophetic riddle); when the cycle of the moon itself
+                    teaches us that the glory of the mind is changed from earthly matters to
+                    heavenly contemplation; and finally [it demands] that we should remember the
+                    Lord's day as it is noteworthy for its occurrence of light, should be honored
+                    for the triumph of Christ, and is to be desired for our own resurrection. </p>
+
+            </div0>
+
+            <div0 n="16">
+                <head>Concerning the Ages of the World</head>
+                <p>The time periods of the world are divided into six ages.</p> 
+                <p>The first age is from
+                    Adam to Noah, containing ten generations and 1,656 years; all of which perished
+                    in the Flood, just as infancy is normally immersed in oblivion.</p> 
+                <p>The
+                    second age is from Noah to Abraham, similarly comprising ten generations but
+                    only 292 years; this age is discovered in language, namely Hebrew, for 
+                    humankind begins to know how to speak
+                    from childhood onward [only] after infancy, from which this receives its name
+                    because it is not able to speak [<foreign lang="lat">fari</foreign>].
+                 </p> 
+                <p>The third age is from Abraham
+                    to David, containing 14 generations and 942 years; and because
+                    from adolescence
+                    humankind
+                    begins to be able to procreate, Matthew took up the beginning of
+                    generations from Abraham, who also is established as the father of the peoples.
+                </p>
+                <p>
+                    The fourth age is from David to the Babylonian Captivity, extended for 14
+                    generations (likewise according to Matthew) and 473 years, 
+                    from which the time period of kings began, for youthful dignity is suitable for
+                    ruling.</p> 
+                <p>The fifth age, then, reaches to the coming of the Savior in
+                    the flesh in fourteen generations,  and 589 years, in which the
+                    Hebrew people, as though exhausted with the weight of old age, 
+                    is afflicted with frequent calamities.</p> 
+                <p>The sixth age, which is now ongoing, has no certain sequence of
+                    generations or time periods but, as the age itself is decrepit, must end with
+                    the death of the entire age. </p>
+            </div0>
+
+            <div0 n="17">
+                <head>The Sequence and Order of Time Periods</head>
+                <p> Therefore, the first age contains 1656 years according to the Hebrews, 2242
+                    years according to the Septuagint. </p>
+                <table>
+                    <row>
+                        <cell>Adam, when he was 130 years old, fathered Seth who was born before
+                            Abel.</cell>
+                    </row>
+                    <row>
+                        <cell>Seth at the age of 105 fathered Enosh, who began to invoke the name of
+                            Lord. </cell>
+                    </row>
+                    <row>
+                        <cell>Enosh at the age of 90 fathered Kenan whose name means "the nature of
+                            God." </cell>
+                    </row>
+                    <row>
+                        <cell>Kenan at the age of 70 fathered Mahalalel which means "a planting of
+                            the Lord." </cell>
+                    </row>
+                    <row>
+                        <cell> Mahalalel at the age of 65 fathered Jared which means "departing" or
+                            "carrying." </cell>
+                    </row>
+                    <row>
+                        <cell>Jared at the age of 162 fathered Enoch, who was transported by
+                        God.</cell>
+                    </row>
+                    <row>
+                        <cell>Enoch at the age of 65 fathered Methuselah which means
+                        "dedication."</cell>
+                    </row>
+                    <row>
+                        <cell>Methuselah at the age of 187 fathered Lamech. Giants were born.</cell>
+                    </row>
+                    <row>
+                        <cell>Lamech at the age of 182 years fathered Noah, who built the ark. The
+                            flood came in Noah's 600th year.</cell>
+                    </row>
+                </table>
+
+            </div0>
+            <div0 n="18">
+                <head>On the Second Age</head>
+                <p>The second age contains 292 years according to the Jews, 942 years according to
+                    the Septuagint, or 1072 after Cainan has been added. </p>
+                <table>
+                    <row>
+                        <cell>2 years after the flood, Shem fathered Arpachshad, from whom descend
+                            the Chaldeians.</cell>
+                    </row>
+                    <row>
+                        <cell>At the age of 35, Arpachshad fathered Shelah, from whom descend the
+                            Samaritans and the Indians. </cell>
+                    </row>
+                    <row>
+                        <cell>At the age of 30, Shelah fathered Heber, from whom descend the
+                            Hebrews.</cell>
+                    </row>
+                    <row>
+                        <cell>At the age of 33, Heber fathers Peleg.<seg id="bede-0001" type="event"> 
+			The Tower [of Babel] is built.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>At the age of 30, Peleg fathers Reu. <seg id="bede-0002" type="event">The gods are first
+                        worshiped.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>At the age of 32, Reu fathers Serug.  <seg id="bede-0003" type="event">The Kingdom of the Scythians
+                            begins. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>At the age of 30, Serug fathers Nahor.<seg id="bede-0004" type="event" > The kingdom of the Egyptians is
+                            born. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>At the age of 28, Nahor fathers Terah.  <seg id="bede-0005" type="event"
+                                >The Kingdom of the Sicyonians
+                            and the Assyrians arises.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>At the age of 70, Terah fathers Abraham.  <seg id="bede-0006" type="event"
+                                >Semiramis founds
+                        Babylonia.</seg></cell>
+                    </row>
+                </table>
+
+            </div0>
+
+            <div0 n="19">
+                <head>On the Third Age</head>
+                <p>The third age contains 942 years. </p>
+                <table>
+                    <row>
+                        <cell>At the age of 100, Abraham fathered Isaac. For first he fathered
+                            Ishmael, from whom descend the Ishmaelites. </cell>
+                        <cell/>
+			
+		
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>At the age of 60, Isaac fathered Jacob. </cell>
+                        <cell/>
+                        <cell><seg id="bede-0008" type="event">The Kingdom of the Argives begins.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>At the age of 90, Jacob fathered Joseph. </cell>
+                        <cell/>
+                        <cell> <seg id="bede-0009" type="event">Memphis is founded in Egypt.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Jacob lived 110 years. </cell>
+                        <cell/>
+                        <cell><seg id="bede-0010" type="event">Greece begins to cultivate crops under Argos.</seg></cell>
+                    </row>
+                    <row>
+                        <cell> The slavery of the Hebrews lasts for 147 years. </cell>
+                        <cell/>
+                        <cell> <seg id="bede-0011" type="event">Cecrops founded Athens. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Moses </cell>
+                        <cell>ruled Israel for 40 years.</cell>
+                        <cell>   <seg id="bede-0012" type="event">Lacedaemon is founded. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Joshua </cell>
+                        <cell> ruled for 26 years.</cell>
+                        <cell><seg id="bede-0013" type="event">The Judges rule from Moses until Samuel.</seg> </cell>
+                    </row>
+                    <row>
+                        <cell>Othniel </cell>
+                        <cell> ruled for 40 years.</cell>
+                        <cell><seg id="bede-0014" type="event">Cadmus, King of Thebes, invents the Greek alphabet. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Ehud </cell>
+                        <cell>ruled for 80 years</cell>
+                        <cell><seg id="bede-0015" type="event">Amphion the musician was famous.</seg> </cell>
+                    </row>
+                    <row>
+                        <cell>Deborah </cell>
+                        <cell>ruled for 40 years</cell>
+                        <cell> <seg id="bede-0016" type="event">Picus is the first person to rule the Latins. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Gideon </cell>
+                        <cell>ruled for 40 years.</cell>
+                        <cell><seg id="bede-0017" type="event">The musicians Orpheus and Linus were famous.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Abimelech </cell>
+                        <cell>ruled for 3 years. </cell>
+                        <cell><seg id="bede-0018" type="event">That man murdered his seventy brothers. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Tola </cell>
+                        <cell>ruled for 23 years</cell>
+                        <cell><seg id="bede-0019" type="event">Priam reigns in Troy.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Jair </cell>
+                        <cell>ruled for 22 years.</cell>
+                        <cell> <seg id="bede-0020" type="event">Carmentis invented the Latin alphabet.</seg> </cell>
+                    </row>
+                    <row>
+                        <cell>Jephthah </cell>
+                        <cell>ruled for 6 years</cell>
+                        <cell> <seg id="bede-0021" type="event">Hercules threw himself to flames. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Ibzan </cell>
+                        <cell>ruled for 7 years</cell>
+                        <cell><seg id="bede-0022" type="event">The ten-year Trojan War began.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Elon </cell>
+                        <cell>ruled for 10 years</cell>
+                        <cell>He is not considered among the judges in the Septuagint.</cell>
+                    </row>
+                    <row>
+                        <cell>Abdon </cell>
+                        <cell>ruled for 8 years</cell>
+                        <cell> <seg id="bede-0024" type="event">Aeneas arrived in Italy.</seg> </cell>
+                    </row>
+                    <row>
+                        <cell>Samson </cell>
+                        <cell>ruled for 20 years</cell>
+                        <cell> <seg id="bede-0025" type="event">Ascanius founded Alba. Up to this point the book of Judges designates
+                            the time periods. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Eli </cell>
+                        <cell> ruled for 40 years</cell>
+                        <cell> <seg id="bede-0026" type="event">The kingdom of the Sicyonians is finished. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Samuel and Saul </cell>
+                        <cell> ruled for 32 years</cell>
+                        <cell><seg id="bede-0027" type="event">The kingdom of the Lacedaemonians arises. </seg></cell>
+                    </row>
+                </table>
+
+            </div0>
+
+            <div0 n="20">
+                <head>On the Fourth Age</head>
+                <p> The fourth age contains 473 years according to the Hebrews; the Septuagint adds
+                    12. </p>
+                <table>
+                    <row>
+                        <cell>David</cell>
+                        <cell>ruled for 40 years.</cell>
+                        <cell> <seg id="bede-0028" type="event">Carthage is founded by Dido.</seg></cell>
+
+                    </row>
+
+                    <row>
+                        <cell>Solomon </cell>
+                        <cell>ruled for 40 years.</cell>
+                        <cell><seg id="bede-0029" type="event">He built the Temple in the 480th year since the flight from Egypt;
+                            from this, Samuel and Saul seem to have ruled for 40 years. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Rehoboam </cell>
+                        <cell>ruled for 17 years. </cell>
+                        <cell> <seg id="bede-0030" type="event">The kingdom of Israel is divided into Israel and Judah. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Abijah </cell>
+                        <cell>ruled for 3 years. </cell>
+                        <cell> <seg id="bede-0031" type="event">High priest Abimelech is considered noteworthy.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Asa </cell>
+                        <cell>ruled for 41 years.</cell>
+                        <cell><seg id="bede-0032" type="event">Jehu the prophet is killed by Baasha, the king of Israel.</seg> </cell>
+                    </row>
+                    <row>
+                        <cell>Jehoshaphat </cell>
+                        <cell>ruled for 25 years. </cell>
+                        <cell> <seg id="bede-0033" type="event">Elijah, Abdias, and Michaiah prophesy.</seg> </cell>
+                    </row>
+                    <row>
+                        <cell>Jehoram </cell>
+                        <cell>ruled for 8 years. </cell>
+                        <cell><seg id="bede-0034" type="event">Edom revolts from the kingdom of Judah. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Ahaziah </cell>
+                        <cell>ruled for 1 year. </cell>
+                        <cell> <seg id="bede-0035" type="event">Jehonadab is considered noteworthy. Elijah is carried away. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Athaliah </cell>
+                        <cell>ruled for 6 years. </cell>
+                        <cell><seg id="bede-0036" type="event">Jehonadab, the priest and son of Rechab, was famous.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Jehoash </cell>
+                        <cell>ruled for 40 years. </cell>
+                        <cell> <seg id="bede-0037" type="event">Zechariah, the son of Jehonadab, is stoned.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Amaziah </cell>
+                        <cell>ruled for 29 years. </cell>
+                        <cell> <seg id="bede-0038" type="event">Amos prophesied in Israel.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Uzziah </cell>
+                        <cell>ruled for 52 years. </cell>
+                        <cell><seg id="bede-0039" type="event">The kingdom of the Assyrians, which had stood for 1305 years, is
+                            transferred to the Medes .</seg> </cell>
+
+                    </row>
+                    <row>
+                        <cell> Jotham </cell>
+                        <cell>ruled for 16 years. </cell>
+                        <cell>
+                            <seg id="bede-0040" type="event">Hosea, Jothel, and Esaias are the
+                                prophets. </seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Ahaz </cell>
+                        <cell>ruled for 16 years. </cell>
+                        <cell>
+                            <seg id="jerome-0014" type="event">Rome is founded</seg>, and 
+                            <seg type="event">Israel is
+                                transferred to the Medes. </seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Hezekiah </cell>
+                        <cell>ruled for 28 years. </cell>
+                        <cell> <seg id="jerome-0035" type="event">Romulus appointed one hundred senators. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Manasseh </cell>
+                        <cell>ruled for 45 years. </cell>
+                        <cell> <seg id="jerome-0042" type="event">Numa added two months to the calendar.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Amon </cell>
+                        <cell>ruled for 2 years. </cell>
+                        <cell> <seg id="bede-0044" type="event">Tullius conducted a census in the republic. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Josiah </cell>
+                        <cell>ruled for 31 years. </cell>
+                        <cell><seg id="bede-0045" type="event">Thales the physicist was famous. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Jehoiakim </cell>
+                        <cell>ruled for 11 years. </cell>
+                        <cell><seg id="bede-0046" type="event">In his third year Nebuchadnezzar captured Judah. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Zedekiah </cell>
+                        <cell>ruled for 11 years.</cell>
+                        <cell><seg id="bede-0047" type="event">The temple of Jerusalem was burned.</seg></cell>
+                    </row>
+                </table>
+
+            </div0>
+
+            <div0 n="21">
+                <head>On the Fifth Age</head>
+                <p> The fifth age contains 589 years. </p>
+                <table>
+                    <row>
+                        <cell>The Babylonian Captivity </cell>
+                        <cell>lasted for 70 years.</cell>
+                        <cell> <seg id="bede-0048" type="event">The history of Judith is written.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Darius </cell>
+                        <cell>ruled for 36 years. </cell>
+                        <cell>
+                            <seg id="bede-0049" type="event">In the second year of his reign the
+                                Babylonian Captivity ended. </seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Xerxes </cell>
+                        <cell>ruled for 21 years. </cell>
+                        <cell><seg id="jerome-0113" type="event">Herodotus is recognized as a historian.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Artarxerxes </cell>
+                        <cell>ruled for 40 years. </cell>
+                        <cell> <seg id="bede-0051" type="event">Esdra restored the Law, Nehemiah restored Jerusalem.</seg> </cell>
+                    </row>
+                    <row>
+                        <cell>Darius Nothus </cell>
+                        <cell>ruled for 19 years. </cell>
+                        <cell> <seg  id="jerome-0160" type="event">Plato is born.</seg> </cell>
+                    </row>
+                    <row>
+                        <cell>Artaxerxes </cell>
+                        <cell>ruled for 40 years. </cell>
+                        <cell><seg id="jerome-0169" type="event">The history of Esther is completed.</seg> </cell>
+                    </row>
+                    <row>
+                        <cell>Artaxerxes Ochus </cell>
+                        <cell>ruled for 26 years. </cell>
+                        <cell><seg id="jerome-0203" type="event">Demosthenes</seg> and 
+                            <seg id="bede-0054">Aristotle</seg> are praised. </cell>
+                    </row>
+                    <row>
+                        <cell>Xerxes the son of Ochus </cell>
+                        <cell>ruled for 4 years. </cell>
+                        <cell><seg id="bede-0055" type="event">Xenocrates was famous.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Darius </cell>
+                        <cell> ruled for 6 years. </cell>
+                        <cell> </cell>
+                    </row>
+                </table>
+
+                <p>Up to this point, the reign of the Persians; from here on, of the Greeks</p>
+                <table>
+                    <row>
+                        <cell>Alexander </cell>
+                        <cell>ruled 5 five years, for his prior seven years are reckoned with the
+                            Persian kings. </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Ptolemy son of Lagos </cell>
+                        <cell> ruled for 40 years. </cell>
+                        <cell>The first book of Maccabees begins.</cell>
+                    </row>
+                    <row>
+                        <cell>Philadelphus </cell>
+                        <cell>ruled for 38 years. </cell>
+                        <cell>The seventy translators were famous. </cell>
+                    </row>
+                    <row>
+                        <cell>Euergetes </cell>
+                        <cell>ruled for 26 years. </cell>
+                        <cell>Jesus [ben Sirach] wrote his book of wisdom.</cell>
+                    </row>
+                    <row>
+                        <cell>Philopater </cell>
+                        <cell>ruled for 27 years. </cell>
+                        <cell>The second book of Maccabees begins. </cell>
+                    </row>
+                    <row>
+                        <cell>Epiphanes </cell>
+                        <cell>ruled for 24 years.</cell>
+                        <cell>The Romans conquer Greece.</cell>
+                    </row>
+                    <row>
+                        <cell>Philometor </cell>
+                        <cell>ruled for 35 years. </cell>
+                        <cell>Antiochus defeated him and subdued the Judaeans. </cell>
+                    </row>
+                    <row>
+                        <cell>Euergetes </cell>
+                        <cell>ruled for 26 years. </cell>
+                        <cell>Brutus subdued Spain. </cell>
+                    </row>
+                    <row>
+                        <cell>Soter </cell>
+                        <cell>ruled for 17 years. </cell>
+                        <cell>Varro and Cicero are born. </cell>
+                    </row>
+                    <row>
+                        <cell>Alexander </cell>
+                        <cell>ruled for 10 years. </cell>
+                        <cell>Syria is conquered by the Romans under the command of Gabinius.
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Ptolemy the son of Cleopatra </cell>
+                        <cell>ruled for 8 years. </cell>
+                        <cell>The historian Sallust is born. </cell>
+                    </row>
+                    <row>
+                        <cell>Dionysius </cell>
+                        <cell>ruled for 30 years. </cell>
+                        <cell>Pompey captured Judaea.</cell>
+                    </row>
+                    <row>
+                        <cell>Cleopatra </cell>
+                        <cell>ruled for 2 years. </cell>
+                        <cell/>
+                    </row>
+                </table>
+
+                <p>Up to this point, the reign of the Greek; now, of the Romans</p>
+                <table>
+                    <row>
+                        <cell>Julius Caesar </cell>
+                        <cell> ruled for 5 years.</cell>
+                        <cell>After him the rulers were called Caesar.</cell>
+                    </row>
+                </table>
+
+            </div0>
+            <div0 n="22">
+                <head>On the Sixth Age</head>
+                <p> The sixth age contains 709 years.</p>
+                <table>
+                    <row>
+                        <cell>Octavian </cell>
+                        <cell>ruled for 56 years.</cell>
+                        <cell> <seg id="bede-0057" type="event">In the forty-second year of his reign the Lord is born, 3952 years
+                            after Adam (or 5199 according to others).</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Tiberius </cell>
+                        <cell>ruled for 12 years. </cell>
+                        <cell><seg id="bede-0058" type="event">In the eighteenth year of his reign the Lord is crucified.</seg> </cell>
+                    </row>
+                    <row>
+                        <cell>Gaius </cell>
+                        <cell>ruled for 3 years. </cell>
+                        <cell> <seg id="bede-0059" type="event">Matthew wrote his gospel.</seg> </cell>
+                    </row>
+                    <row>
+                        <cell>Claudius </cell>
+                        <cell>ruled for 14 years. </cell>
+                        <cell><seg id="bede-0060" type="event">Peter travels to Rome, Mark to Alexandria. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Nero </cell>
+                        <cell>ruled for 14 years. </cell>
+                        <cell><seg id="bede-0061" type="event">Peter and Paul are consigned to the cross and sword. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Vespasian </cell>
+                        <cell>ruled for 10 years. </cell>
+                        <cell><seg id="bede-0062" type="event">In the second year of his reign, Titus sacks Jerusalem.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Titus </cell>
+                        <cell>ruled for 2 years. </cell>
+                        <cell><seg id="jerome-0221" type="event">He was eloquent and pious.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Domitian </cell>
+                        <cell>ruled for 16 years. </cell>
+                        <cell> <seg id="bede-0064" type="event">John is fettered in Patmos.</seg> </cell>
+                    </row>
+                    <row>
+                        <cell>Nerva </cell>
+                        <cell>ruled for 1 year. </cell>
+                        <cell><seg id="bede-0065" type="event">John the Apostle, returning to Ephesus, wrote his gospel.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Trajan </cell>
+                        <cell>ruled for 19 years. </cell>
+                        <cell><seg id="bede-0066" type="event">Simon, the bishop of Jerusalem, is crucified, and John the Apostle
+                            dies.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Hadrian </cell>
+                        <cell>ruled for 21 years. </cell>
+                        <cell> <seg id="bede-0067" type="event">Aquila is considered a translator.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Antoninus Pius </cell>
+                        <cell>ruled for 22 years.</cell>
+                        <cell> <seg id="bede-0068" type="event">Valentinus and Marcion are recognized.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Antoninus Minor </cell>
+                        <cell>ruled for 19 years.</cell>
+                        <cell>  <seg id="bede-0069" type="event">The heresy of the Cataphrygians arises. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Commodus </cell>
+                        <cell>ruled for 13 years. </cell>
+                        <cell> <seg id="bede-0070" type="event">Theodotion is considered a translator.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Helvius Pertinax </cell>
+                        <cell>ruled for 1 year.</cell>
+                        <cell> <seg id="bede-0071" type="event">He is killed by the crime of a lawyer, Julian. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Severus Pertinax </cell>
+                        <cell> ruled for 18 years.</cell>
+                        <cell> <seg id="bede-0072" type="event">Symmachus is considered a translator.</seg> </cell>
+                    </row>
+                    <row>
+                        <cell>Antoninus Caracalla </cell>
+                        <cell>ruled for 7 years. </cell>
+                        <cell><seg id="bede-0073" type="event">The fifth edition is discovered in Jerusalem . </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Macrinus </cell>
+                        <cell>ruled for 1 year.</cell>
+                        <cell><seg id="bede-0074" type="event">The holy man Agbar reigned, as Africanus has it. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Aurelius Antoninus </cell>
+                        <cell>ruled for 3 years. </cell>
+                        <cell> <seg id="bede-0075" type="event">The sixth edition is discovered in Nicapolis .</seg> </cell>
+                    </row>
+                    <row>
+                        <cell>Alexander </cell>
+                        <cell>reigned for 13 years. </cell>
+                        <cell> <seg id="jerome-0243" type="event">Origen of Alexandria was famous.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Maximinus </cell>
+                        <cell>ruled for 3 years. </cell>
+                        <cell><seg id="jerome-0251" type="event">He persecuted Christians. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Gordian </cell>
+                        <cell>ruled for 7 years. </cell>
+                        <cell> <seg id="jerome-0253" type="event">Fabianus, the bishop of Rome, is celebrated. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Phillip </cell>
+                        <cell>ruled for 7 years. </cell>
+                        <cell><seg id="jerome-0257" type="event">He was the first Christian emperor.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Decius </cell>
+                        <cell>ruled for 1 year.</cell>
+                        <cell><seg id="bede-0080" type="event">Anthony the monk was famous in Egypt</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Gallus and Volusianus </cell>
+                        <cell>ruled for 2 years.</cell>
+                        <cell>  <seg id="bede-0081" type="event">The Novatian heresy arises.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Valerian </cell>
+                        <cell>ruled for 15 years with Gallienus. </cell>
+                        <cell> <seg id="bede-0082" type="event">Ciprian is crowned with martyrdom. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Claudius </cell>
+                        <cell>ruled for 2 years. </cell>
+                        <cell> <seg id="bede-0083" type="event">Paul of Samosata founds a heresy. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Aurelianus </cell>
+                        <cell>ruled for 5 years. </cell>
+                        <cell> <seg id="bede-0084" type="event">He persecuted the Christians.</seg> </cell>
+                    </row>
+                    <row>
+                        <cell>Tacitus </cell>
+                        <cell> ruled for 1 year.</cell>
+                        <cell> <seg id="bede-0085" type="event">Anatolius of Laodicaea, bishop of Syria, was famous.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Probus </cell>
+                        <cell>ruled for 6 years. </cell>
+                        <cell> <seg id="bede-0086" type="event">The Manichaean heresy arose.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Carus </cell>
+                        <cell>ruled for 2 years. </cell>
+                        <cell><seg id="bede-0087" type="event">That man triumphed over the Persians.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Diocletian and Maximian </cell>
+                        <cell>ruled for 20 years. </cell>
+                        <cell> <seg id="bede-0088" type="event">Seventeen thousand men have suffered at the hands of these persecutors
+                            within 30 days.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Valerian </cell>
+                        <cell>ruled for two years. </cell>
+                        <cell><seg id="bede-0089" type="event">The brevity of his reign produced nothing worthy of history. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Constantine </cell>
+                        <cell>ruled for 30 years.</cell>
+                        <cell><seg id="bede-0090" type="event">The council of Nicea is convened.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Constantius and Constans </cell>
+                        <cell>ruled for 23 years. </cell>
+                        <cell> <seg id="bede-0091" type="event">The bones of Andrew and Luke are transferred to Constantinople.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Julian </cell>
+                        <cell>ruled for 2 years. </cell>
+                        <cell> <seg id="bede-0092" type="event">This pagan convert from Christianity persecutes the Christians.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Jovian </cell>
+                        <cell>ruled for 1 year. </cell>
+                        <cell><seg id="bede-0093" type="event">He became a Christian with his entire army. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Valentinian </cell>
+                        <cell> ruled for 13 years.</cell>
+                        <cell> <seg id="bede-0094" type="event">He was removed from military service by Julian because of his faith in
+                            Christ. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Gratian </cell>
+                        <cell>ruled for 6 years. </cell>
+                        <cell> <seg id="bede-0095" type="event">Bishops Ambrose and Martin become famous.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Valentinian </cell>
+                        <cell>ruled for 8 years with Theodosius.</cell>
+                        <cell> <seg id="bede-0096" type="event">Jerome is praised in Bethlehem. There is a council of 350 bishops in
+                            Constantinople, at which all heresies are condemned.</seg> </cell>
+                    </row>
+
+                    <row>
+                        <cell>Theodosius </cell>
+                        <cell>ruled for three years with Arcadius and Honorius. </cell>
+                        <cell> <seg id="bede-0097" type="event">John the Anchorite was famous. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Arcadius </cell>
+                        <cell>ruled for 13 years with his brother Honorius. </cell>
+                        <cell> <seg id="bede-0098" type="event">Bishops John Chrysostom and Augustine are praised. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Honorius </cell>
+                        <cell>ruled for 15 years with Theodosius Minor.</cell>
+                        <cell><seg id="bede-0099" type="event">Cyril of Alexandria was famous. The Council of Carthage of 214 bishops
+                            condemned Pelagius. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Theodosius Minor </cell>
+                        <cell>ruled for 26 years.</cell>
+                        <cell><seg id="bede-0100" type="event">The council of Ephesus condemns Nestorius.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Marcianus </cell>
+                        <cell>ruled for 7 years. </cell>
+                        <cell> <seg id="bede-0101" type="event">The Council of Chalcedon is held. The race of Angles comes into
+                            Britain.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Leo the Elder </cell>
+                        <cell>ruled for 17 years. </cell>
+                        <cell> <seg id="bede-0102" type="event">Egypt resounds with the error of Dioscurus.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Leo the Younger </cell>
+                        <cell>ruled for 1 year. </cell>
+                        <cell> <seg id="bede-0103" type="event">King Theodoric sacked Rome.</seg> </cell>
+                    </row>
+                    <row>
+                        <cell>Zenon </cell>
+                        <cell>ruled for 17 years. </cell>
+                        <cell> <seg id="bede-0104" type="event">The body of the Apostle Barnabus is discovered.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Anastasius </cell>
+                        <cell> ruled for 27 years. </cell>
+                        <cell>  <seg id="bede-0105" type="event">Bishop Fulgentius is praised. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Justin </cell>
+                        <cell>ruled for 8 years. </cell>
+                        <cell><seg id="bede-0106" type="event">The heresy of the Acephalians is renounced. The abbot Benedict was
+                            famous. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Justinian </cell>
+                        <cell>ruled for 39 years. </cell>
+                        <cell> <seg id="bede-0107" type="event">In the sixth year of his reign the first cycle of Dionysius
+                        begins.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Justin Minor </cell>
+                        <cell>ruled for 11 years.</cell>
+                        <cell> <seg id="bede-0108" type="event">The Armenians adopt the faith of Christ. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Tiberius </cell>
+                        <cell>ruled for 7 years. </cell>
+                        <cell><seg id="bede-0109" type="event">Herminigild, king of the Goths, is crowned with martyrdom.</seg> </cell>
+                    </row>
+                    <row>
+                        <cell>Mauricius </cell>
+                        <cell>ruled for 21 years. </cell>
+                        <cell> <seg id="bede-0110" type="event">Gregory, bishop of Rome, flourished.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Focas </cell>
+                        <cell>ruled for 8 years.</cell>
+                        <cell><seg id="bede-0111" type="event">The Saxons in Brittain adopt the faith of Christ.</seg> </cell>
+                    </row>
+                    <row>
+                        <cell>Heraclius </cell>
+                        <cell>ruled 36 years. </cell>
+                        <cell> <seg id="bede-0112" type="event">The Judeans are made Christians in Spain.</seg> </cell>
+                    </row>
+                    <row>
+                        <cell>Heracleonas </cell>
+                        <cell>ruled for 2 years with his mother Martina.</cell>
+                        <cell> <seg id="bede-0113" type="event">The heresy of the Acephalians is revived during his reign. </seg></cell>
+                    </row>
+                    <row>
+                        <cell>Constantine the son of Heraclius </cell>
+                        <cell>ruled for 6 months. </cell>
+                        <cell><seg id="bede-0114" type="event">At this time the heresy of the Acephalians is condemned under the bond
+                            of anathema.</seg> </cell>
+                    </row>
+                    <row>
+                        <cell>Constantine the son of Constantine </cell>
+                        <cell>ruled for 28 years. </cell>
+                        <cell>
+                            <seg id="bede-0115" type="event">A solar-eclipse occurred in the 7th
+                                indiction, on the fifth day before the nones of May.</seg> 
+                            <seg type="event" id="bede-0116">He organized
+                                the sixth council. </seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Justinian the son of Constantine </cell>
+                        <cell>ruled for 28 years. </cell>
+                        <cell><seg id="bede-0117" type="event">He himself was deprived of the glory of his kingdom and exiled because
+                            of a crime of treachery. Africa was restored to the Roman Empire.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Leo </cell>
+                        <cell>ruled for 3 years. </cell>
+                        <cell/>
+                    </row>
+
+                </table>
+
+                <p>From this point, Tiberius is in his fifth year, in the first indiction. The
+                    remainder of the sixth age lies open to God alone. </p>
+            </div0>
+
+	
+
+        </body>
+    </text>
+</TEI.2>
