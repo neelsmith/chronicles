@@ -1,0 +1,5 @@
+Synchronism,Source,Event,Relation,SyncType,SyncedWith,Amount
+urn:cite:chron:synchronism.1,CTSURN,EVENTURN,"[synchr,precedes,follows]","[event/cycle/epon/epoch]",SYNCURN,"{number}"
+urn:cite:chron:synchronism.2,ROBPM.1,urn:cite:chron:event.2,precedes,epoch,urn:cite:chron:epoch.pm,1318
+urn:cite:chron:synchronism.3,ROBPM.2,urn:cite:chron:event.3,precedes,epoch,urn:cite:chron:epoch.pm,1310
+
