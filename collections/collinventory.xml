@@ -32,19 +32,53 @@
     
     <citeCollection canonicalId="Epoch" label="Label" urn="urn:cite:chron:epoch">
         <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
-        <title xmlns="http://purl.org/dc/elements/1.1/">Epochs attested in ancient chronological sources</title>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Epochs used in ancient chronological sources</title>
         <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
         <coverage xmlns="http://purl.org/dc/elements/1.1/">Initial survey based on Marmor Parium, Jerome's Chronicle, and Ptolemy's Royal Canon</coverage>
-        <description xmlns="http://purl.org/dc/elements/1.1/">Persons attested in ancient chronological sources</description>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Epochs in ancient chronological sources</description>
         <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
         <source type="file" value="events.csv"/>
-        <citeProperty name="Person" label="Person URN" type="citeurn"/>
+        <citeProperty name="Epoch" label="Epoch URN" type="citeurn"/>
         <citeProperty name="Label" label="Person" type="string"/>
+        <citeProperty name="Units" label="Epoch units" type="string">
+        <valueList>
+            <value>Solar years</value>
+        </valueList>
+        </citeProperty>
     </citeCollection>
     
     
     
     
+    <citeCollection canonicalId="Synchronism" label="Synchronism" urn="urn:cite:chron:synchronism">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Synchronisms in ancient chronological sources</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Initial survey based on Marmor Parium, Jerome's Chronicle, and Ptolemy's Royal Canon</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Synchronisms attested in ancient chronological sources</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        <source type="file" value="events.csv"/>
+        <citeProperty name="Synchronism" label="Synchronism URN" type="citeurn"/>
+        <citeProperty name="Source" label="Source" type="ctsurn"/>
+        <citeProperty name="Event" label="Event" type="citeurn"></citeProperty>
+        <citeProperty name="Relation" label="Relation" type="string">
+        <valueList>
+            <value>precedes</value>
+            <value>follows</value>
+            <value>contemporary</value>
+        </valueList>
+        </citeProperty>
+        <citeProperty name="SyncType" label="System of relation" type="string">
+        <valueList>
+            <value>cycle</value>
+            <value>epoch</value>
+            <value>eponym</value>
+            <value>event</value>
+        </valueList>
+        </citeProperty>
+        <citeProperty name="SyncedWith" label="Related to" type="citeurn"/>
+        <citeProperty name="Amount" label="Units" type="number"></citeProperty>
+    </citeCollection>
     
     
 </collectionService>
