@@ -30,10 +30,23 @@
         <groupname
             xml:lang="eng">Greek inscriptions with chronographic content</groupname>
         <work
-            urn="urn:cts:chronepig:chron01"
+            urn="urn:cts:chronepig:chron.pm"
             xml:lang="grc">
             <title
                 xml:lang="eng">The Parian Marble</title>
+            
+            <translation urn="urn:cts:chronepig:chron.pm.robertson" xml:lang="grc">
+                <label xml:lang="eng">Robertson translation</label>
+                <description xml:lang="eng">English translation by Robertson (1788)</description>
+                <!--
+                <online docname="robertson.xml">
+                    <validate schema=""></validate>
+                    <citationMapping>
+                        <citation label="section" xpath="" scope=""></citation>
+                    </citationMapping>
+                </online>
+            --></translation>
+            
         </work>
     </textgroup>
        
