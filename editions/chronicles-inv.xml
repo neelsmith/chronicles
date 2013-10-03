@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?oxygen RNGSchema="TextInventory.rng" type="xml"?>
 <TextInventory
-    tiversion="3.0.beta1"
-    xmlns="http://chs.harvard.edu/xmlns/cts3/ti"
-    xmlns:dc="http://purl.org/dc/elements/1.1">
+    tiversion="4.0"
+    xmlns="http://chs.harvard.edu/xmlns/cts/ti"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
     <collection
         id="chronicles"
         isdefault="yes">
@@ -26,11 +26,11 @@
     <!-- BEGIN DATA: 
     -->
     <textgroup
-        projid="chron-epig">
+        urn="urn:cts:chronepig">
         <groupname
             xml:lang="eng">Greek inscriptions with chronographic content</groupname>
         <work
-            projid="chron01"
+            urn="urn:cts:chronepig:chron01"
             xml:lang="grc">
             <title
                 xml:lang="eng">The Parian Marble</title>
@@ -38,11 +38,11 @@
     </textgroup>
        
     <textgroup
-        projid="greekLit:tlg0363">
+        urn="urn:cts:greekLit:tlg0363">
         <groupname
             xml:lang="eng">Works by Claudius Ptolemy</groupname>
         <work
-            projid="greekLit:tlg005"
+            urn="urn:cts:greekLit:tlg0363.tlg005"
             xml:lang="grc">
             <title
                 xml:lang="eng">Canon of Kings (from the Handy Tables)</title>
@@ -51,17 +51,17 @@
     
  
     <textgroup
-        projid="latinLit:stoa0162">
+        urn="urn:cts:latinLit:stoa0162">
         <groupname
             xml:lang="eng">Works by Jerome</groupname>
         <work
-            projid="latinLit:stoa005"
+            urn="urn:cts:latinLit:stoa0162.stoa005"
             xml:lang="lat">
             <title
                 xml:lang="eng">Chronicles</title>
             <edition
-                projid="latinLit:hc-helm">
-                <label>In-progress digital edition based on Helm's readings</label>
+                urn="urn:cts:latinLit:stoa0162.stoa005.hc-helm">
+                <label xml:lang="eng">In-progress digital edition based on Helm's readings</label>
                 <online
                     docname="Jerome-ChroniclesY.xml">
                     <validate
@@ -87,9 +87,9 @@
                 </online>
             </edition>
             <translation
-                projid="latinLit:hc001"
+                urn="urn:cts:latinLit:stoa0162.stoa005.hc001"
                 xml:lang="eng">
-                <label>Draft English translation by Mike Kinney</label>
+                <label xml:lang="eng"> Draft English translation by Mike Kinney</label>
                 <online
                     docname="Jerome-Kinney-eng.xml">
                     <validate schema="chstei.rng"/>
@@ -109,41 +109,12 @@
                     </citationMapping>
                 </online>
             </translation>
-            <!--
-                <editioncomments projid="hc-hellenistic" label="Hellenistic work">
-                <online local="Jerome-Hellenistic.xml" srcid="Pease">
-                <citation label="era" element="div">
-                
-                </citation>
-                </online>
-                
-                </editioncomments>
-                
-                <editioncomments projid="hc-roman" label="Roman work">
-                <online local="Jerome-Roman.xml" srcid="Pease">
-                <citation label="era" element="div">
-                
-                </citation>
-                </online>
-                
-                </editioncomments>
-                
-                <translationcomments projid="hc-eng" label="HC chron work">
-                <online local="Jerome-ChroniclesX-eng.xml" srcid="bogus">
-                <citation label="section" element="div">
-                <citation label="Olympiad year" element="row"/>
-                </citation>
-                </online>
-                
-                </translationcomments>
-                
-            -->
         </work>
     </textgroup>
     
     
     
-    
+    <!--
     <textgroup
         projid="latinLit:stoa0159">
         <groupname
@@ -174,7 +145,7 @@
             </translation>
         </work>
     </textgroup>
-    
+  
     
     <textgroup
         projid="latinLit:stoa0054">
@@ -205,7 +176,7 @@
                     </citationMapping>
                 </online>
             </edition>
-            <!--
+            
             <translationcomments projid="elliott-smith" label="Original translation by Elliott, Smith">
                 <online local="Bede-temporibus-eng.xml">
                     <citation label="section" element="div0">
@@ -214,7 +185,7 @@
                 </online>
 
            </translationcomments>
--->
+
         </work>
         <work
             projid="latinLit:stoa002"
@@ -252,7 +223,7 @@
             xml:lang="grc">
             <title
                 xml:lang="lat">Ecloga chronographica</title>
-            <!--
+         
             <editioncomments projid="hc-inprogress" label="HC chron work">
                 <online local="Syncellus.xml" srcid="Mosshammer">
                     <citation label="era" element="div">
@@ -264,7 +235,6 @@
 
             </editioncomments>
             
-            -->
         </work>
     </textgroup>
    
@@ -310,4 +280,4 @@
             <title
                 xml:lang="lat">Thesaurus Temporum</title>
         </work>
-    </textgroup></TextInventory>
+    </textgroup>--></TextInventory>
