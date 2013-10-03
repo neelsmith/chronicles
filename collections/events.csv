@@ -1,8 +1,8 @@
 Event,Label,Source
-urn:cite:chron:event.1,"Reference date of the Parian Marble",urn:cts:chronepig:chron.pm.preface
-urn:cite:chron:event.2,"Reign of Cecrops in Athens",urn:cts:chronepig:chron.pm.1
-urn:cite:chron:event.3,"Reign of Deucalion near Parnassus in Lycoria",urn:cts:chronepig:chron.pm.2
-urn:cite:chron:event.4,"Calippus becomes tyrant of Syracuse",urn:cts:chronepig:chron.pm.79
+urn:cite:chron:event.1,"Reference date of the Parian Marble",urn:cts:chronepig:chron.pm:preface
+urn:cite:chron:event.2,"Reign of Cecrops in Athens",urn:cts:chronepig:chron.pm:1
+urn:cite:chron:event.3,"Reign of Deucalion near Parnassus in Lycoria",urn:cts:chronepig:chron.pm:2
+urn:cite:chron:event.4,"Calippus becomes tyrant of Syracuse",urn:cts:chronepig:chron.pm:79
 
 
 
