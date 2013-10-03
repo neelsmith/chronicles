@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="TextInventory.rng" type="xml"?>
+<TextInventory
+    tiversion="3.0.beta1"
+    xmlns="http://chs.harvard.edu/xmlns/cts3/ti"
+    xmlns:dc="http://purl.org/dc/elements/1.1">
+    <collection
+        id="chronicles"
+        isdefault="yes">
+        <dc:title
+            xml:lang="eng">Major chronicles in Western tradition</dc:title>
+        <dc:creator>Neel Smith</dc:creator>
+        <dc:coverage
+            xml:lang="eng">A selection of texts from Ptolemy's Royal Canon (2nd c. A.D.) to Newton's
+            Chronology of Ancient Kingdoms Amended (1728).</dc:coverage>
+        <dc:description
+            xml:lang="eng">Selection is aimed first at covering texts offering independent testimony
+            to important parts of the chronographic tradition.</dc:description>
+        <dc:rights
+            xml:lang="eng">Creative Commons Attribution-NonCommercial-ShareAlike License. To view a
+            copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/1.0/ or send a
+            letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305,
+        USA.</dc:rights>
+    </collection>
+    <!-- **********************************************************************  -->
+    <!-- BEGIN DATA: 
+    -->
+    <textgroup
+        projid="chron-epig">
+        <groupname
+            xml:lang="eng">Greek inscriptions with chronographic content</groupname>
+        <work
+            projid="chron01"
+            xml:lang="grc">
+            <title
+                xml:lang="eng">The Parian Marble</title>
+        </work>
+    </textgroup>
+       
+    <textgroup
+        projid="greekLit:tlg0363">
+        <groupname
+            xml:lang="eng">Works by Claudius Ptolemy</groupname>
+        <work
+            projid="greekLit:tlg005"
+            xml:lang="grc">
+            <title
+                xml:lang="eng">Canon of Kings (from the Handy Tables)</title>
+        </work>
+    </textgroup>
+    
+ 
+    <textgroup
+        projid="latinLit:stoa0162">
+        <groupname
+            xml:lang="eng">Works by Jerome</groupname>
+        <work
+            projid="latinLit:stoa005"
+            xml:lang="lat">
+            <title
+                xml:lang="eng">Chronicles</title>
+            <edition
+                projid="latinLit:hc-helm">
+                <label>In-progress digital edition based on Helm's readings</label>
+                <online
+                    docname="Jerome-ChroniclesY.xml">
+                    <validate
+                    schema="chstei.rng"/>
+                   
+                   
+                    <citationMapping>
+                        <citation
+                            label="era"
+                            scope="/TEI.2/text/body"
+                            xpath="/div[@n = '?']">
+                            <citation
+                                label="table"
+                                scope="/TEI.2/text/body/div[@n = '?']"
+                                xpath="/table[@n = '?']">
+                                <citation
+                                    label="row"
+                                    scope="/TEI.2/text/body/div[@n = '?']/table[@n = '?']"
+                                    xpath="/row[@n = '?']"/>
+                            </citation>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </edition>
+            <translation
+                projid="latinLit:hc001"
+                xml:lang="eng">
+                <label>Draft English translation by Mike Kinney</label>
+                <online
+                    docname="Jerome-Kinney-eng.xml">
+                    <validate schema="chstei.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation
+                            label="era"
+                            scope="/tei:TEI/tei:text/tei:body"
+                            xpath="/tei:table[@n = '?']">
+                            
+                                <citation
+                                label="row"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+                                xpath="/tei:table/tei:row[@n = '?']"/>
+                              
+                        </citation>
+                    </citationMapping>
+                </online>
+            </translation>
+            <!--
+                <editioncomments projid="hc-hellenistic" label="Hellenistic work">
+                <online local="Jerome-Hellenistic.xml" srcid="Pease">
+                <citation label="era" element="div">
+                
+                </citation>
+                </online>
+                
+                </editioncomments>
+                
+                <editioncomments projid="hc-roman" label="Roman work">
+                <online local="Jerome-Roman.xml" srcid="Pease">
+                <citation label="era" element="div">
+                
+                </citation>
+                </online>
+                
+                </editioncomments>
+                
+                <translationcomments projid="hc-eng" label="HC chron work">
+                <online local="Jerome-ChroniclesX-eng.xml" srcid="bogus">
+                <citation label="section" element="div">
+                <citation label="Olympiad year" element="row"/>
+                </citation>
+                </online>
+                
+                </translationcomments>
+                
+            -->
+        </work>
+    </textgroup>
+    
+    
+    
+    
+    <textgroup
+        projid="latinLit:stoa0159">
+        <groupname
+            xml:lang="eng">Works by Isidore of Seville</groupname>
+        <work
+            projid="latinLit:stoa001"
+            xml:lang="lat">
+            <title
+                xml:lang="lat">Chronica Maiora</title>
+            <translation
+                projid="latinLit:stoa002"
+                xml:lang="eng">
+                <label>Wolf</label>
+                <description> Public-domain English translation of Isidore, Chronicon, by Kenneth B.
+                    Wolf from http://www.history.pomona.edu/kbw/h100y/chronicon.htm based on source:
+                    Patrologia Latina 83: 1017-1058 </description>
+                <online
+                    docname="isidore-chronicon.xml">
+                    <validate
+                        schema="chstei.rng"/>
+                    <citationMapping>
+                        <citation
+                            label="section"
+                            scope="/TEI.2/text/body"
+                            xpath="/div[@n = '?']"/>
+                    </citationMapping>
+                </online>
+            </translation>
+        </work>
+    </textgroup>
+    
+    
+    <textgroup
+        projid="latinLit:stoa0054">
+        <groupname
+            xml:lang="eng">Works by the Venerable Bede</groupname>
+        <work
+            projid="latinLit:stoa010"
+            xml:lang="lat">
+            <title
+                xml:lang="lat">De Temporibus</title>
+            <edition
+                projid="latinLit:hc">
+                <label>HC teaching edition</label>
+                <online
+                    docname="Bede-de-temporibus.xml">
+                    <validate
+                        schema="chstei.rng"/>
+                    <citationMapping>
+                        <citation
+                            label="section"
+                            scope="/TEI.2/text/body"
+                            xpath="/div0[@n = '?']">
+                            <citation
+                                label="sentence"
+                                scope="/TEI.2/text/body/div0"
+                                xpath="/p[@n = '?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </edition>
+            <!--
+            <translationcomments projid="elliott-smith" label="Original translation by Elliott, Smith">
+                <online local="Bede-temporibus-eng.xml">
+                    <citation label="section" element="div0">
+                        <citation label="sentence" element="p"/>
+                    </citation>
+                </online>
+
+           </translationcomments>
+-->
+        </work>
+        <work
+            projid="latinLit:stoa002"
+            xml:lang="lat">
+            <title
+                xml:lang="lat">De Temporum Ratione</title>
+            <edition
+                projid="latinLit:hc-teaching">
+                <label>HC teaching edition</label>
+                <online
+                    docname="Bede-rat-temp.xml">
+                    <validate
+                        schema="chstei.rng"/>
+                    <citationMapping>
+                        <citation
+                            label="section"
+                            scope="/TEI.2/text/body"
+                            xpath="/div0[@n = '?']">
+                            <citation
+                                label="sentence"
+                                scope="/TEI.2/text/body/div0"
+                                xpath="/seg[@n = '?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
+    </textgroup>
+    <textgroup
+        projid="greekLit:tlg3045">
+        <groupname
+            xml:lang="eng">Works by George Syncellus</groupname>
+        <work
+            projid="greekLit:tlg001"
+            xml:lang="grc">
+            <title
+                xml:lang="lat">Ecloga chronographica</title>
+            <!--
+            <editioncomments projid="hc-inprogress" label="HC chron work">
+                <online local="Syncellus.xml" srcid="Mosshammer">
+                    <citation label="era" element="div">
+                        <citation label="chapter" element="div">
+                            <citation label="section" element="div"/>
+                        </citation>
+                    </citation>
+                </online>
+
+            </editioncomments>
+            
+            -->
+        </work>
+    </textgroup>
+   
+    
+    
+    <textgroup
+        projid="chron-biruni">
+        <groupname
+            xml:lang="eng">Works by al Biruni</groupname>
+        <work
+            projid="chron"
+            xml:lang="arabic">
+            <title
+                xml:lang="eng">Chronicles</title>
+        </work>
+    </textgroup>
+    <textgroup
+        projid="chron-newton">
+        <groupname
+            xml:lang="eng">Works by Isaac Newton</groupname>
+        <work
+            projid="chron01"
+            xml:lang="eng">
+            <title
+                xml:lang="eng">The chronology of Ancient Kingdoms Amended</title>
+        </work>
+    </textgroup>
+    
+
+    <textgroup
+        projid="chron-001">
+        <groupname
+            xml:lang="eng">Works by Joseph Scaliger</groupname>
+        <work
+            projid="chron-001"
+            xml:lang="lat">
+            <title
+                xml:lang="lat">De Temporum Ratione</title>
+        </work>
+        <work
+            projid="chron-002"
+            xml:lang="lat">
+            <title
+                xml:lang="lat">Thesaurus Temporum</title>
+        </work>
+    </textgroup></TextInventory>
