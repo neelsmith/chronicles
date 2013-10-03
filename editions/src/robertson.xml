@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI
+  xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:math="http://www.w3.org/1998/Math/MathML"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Parian Chronicle: Or the Chronicle of the Arundelian Marbles</title>
+        <author>Joseph Robertson</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Google books scan of 1788 edition</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p
+        n="preface">I have described preceding times, beginning from Cecrops, the first who reigned
+        in Athens, to Astyanax, archon in Paros, and Diogenetus at Athens.</p>
+      <p
+        n="1">Since Cecrops reigned at Athens, and the country was named Cecropia, before being
+        called Actica, from Actaeus, a native, 1318 years.</p>
+      <p
+        n="2">Since Deucalion reigned near Parnassus in Lycoria, Cecrops reigning at Athens, 1310
+        years.</p>
+      <p
+        n="3">Since the cause was tried at Athens between Mars and Neptune, concerning Halirrothius
+        [the son] of Neptune, and the place was called Areopagus, 1268, Cranaus reigning at
+        Athens.</p>
+      <p
+        n="4"> Since the deluge happened in the timeof Deucalion; and Deucalion efcaped therains
+        [and went] from Lycoria to Athens,to CranaviSx and l>u/A the templt of JupiterOlympiusj and
+        offered facrifices for his pre-fervation, 1265 ^ears, Cr^yn^us reigning atAthens. - ^ -.â€¢
+        . â€¢ , - 1529</p>
+      <p
+        n="5"> Since Jmphiyon [the fon] of Deuca-lion rrigned in Thermopylae, and aflembled/he
+        people inhabiting that diftridl, and calltdthem Amphiftyones, and [the place of coun-cil]
+        Vylaa^ where the Amphiilyones ftill fa-crifice, I258;^fars, Amphiftyon reigning atAthens f.
+        - - - - l$Â±t</p>
+      <p
+        n="6"> Since Hellen [die fon] of Oeucalionreigned in Phthiotisy and they were
+        Â«^medHellenes, who before were called Graikoi[Greeks^ and they tnjiituted the Panath^-nxan
+        f agon [games] 1257 y^^^h Amphic-tyonâ€¢ reigning at Athens.</p>
+      <p
+        n="7"> Since Cadmus [the fon] of Agenorcame to Thebes *, according to the oracle^and built
+        Cadmea, 1255 years^ AmphiÂ£^yonireigning at Athens. - ,</p>
+      <p
+        n="8"> Since Eurotas and Lacedamon reignedin Lacomzy 1252 years, Amphiftyon reign-ing at
+        Athens. </p>
+      <p
+        n="9"> Since a ihi/Â» with fifty oars failed fromEgypt to Greece, and was called
+        Pentecontorus, and the daughters of Danaus â€¢ â€¢ â€¢ . . JmymoTiQ and Ba ;.... and
+        Heliceatid Archedice, defted by the reft, iÂ«il/ atemple^ and facrificed upon the Ihore, in
+        themaritime country fj in Lindus [a city] ofRhodes, 1247 y^^h Erichthonius lugningMt Athens.
+        ^ ^ . .Â«.</p>
+      <p
+        n="10"> Since Erichthonius, the first Panathenaea being celebrated, yoked [horses to] a
+        chariot, and showed the contest, and changed the name of Athenaea; and
+        the image of the mother of the gods appeared in [the mountains of] Cybele; and Hyagnis
+        the Phrygian first invented flutes at Celaenae, [a city] of Phrygia, and first played.on the flute
+        the harmony called Phrygian, and other nomes of the mother [of the godsJ of Dionysus, of
+        Pan, and that of the deities of the country and the heroes 1242 years, Erichthonius, who
+        yoked [horses to] the chariot,reigning at Athens.</p>
+      <p
+        n="11"> Since Minos the first reigned and built Cydonia; and iron was found in Ida, by
+        the Idaei Dactyli Celmis and Damnaneus [1168] years, Pandion reigning at Athens.</p>
+      <p
+        n="12"> SinCe Ceres coming to Athens pla^odcorn II, ma- fii^fent it to other [countries], by
+        Triptolemus [the fon] of Cdeus andNeaera, 1145 years, Erichtheus reigtujig ai.Athens. - - .
+        - '</p>
+      <p
+        n="13"> Since TriptoZ?/Â«ei fowed wrÂ« in Rha-ria, called Eleufin*, i[i]4Z years,
+        Erich-^shius reigning at Athens,</p>
+      <p
+        n="14"> Sinc^ Orpheus puWiihed his poem[on] the rape of Proferpine f, the fearch ofCeres,
+        his defcent [to the ihades], and ibefa^?? concerning thofe, who received liiecomt, 1135
+        years, Â£richtheus reigning atAthens. - -</p>
+      
+  
+      <p
+        n="15"> Since Eumolpus [the fon] of MufavLScelebrated the myfteries in Eleuiln, and
+        published the poems of his father Musaeus, 11.. years Erichtheus [the son] of
+        Pandion,reigning at Athens. </p>
+      <p
+        n="16"> Since a luftration was firft performedby flaying ...,..â€¢. io['632 years^ Pandion
+        [the fon] of Cecrops [the fecond]reigning at Athens. - -</p>
+      <p
+        n="17"> Since the gymnic agon * wifs in/fi"iutfd in EleuAn, i. .. years^ Vandion [thefon] of
+        Cecrops reigning at Athens. -</p>
+      <p
+        n="18"> Since human facrifice% and the Lycsea were celebrated in Arcadia f and of Lycaon
+        were given among the Gr^^ks,I... years^ Pandion [the fon] of Cecropsi^igning at Athens.
+        -</p>
+      <p
+        n="19"> Since Hercules, having been purified ?in Eleufriy was initiated the fir, of
+        flran^gers II, I... yearsy iEgeus reigning at A-thens. </p>
+      <p
+        n="20"> Since a fiarcity of corn happened at Athens, and jipoRo bfeing confulted by
+        theAthenians obliged them to undergo the'pe-naltieSy which Minos Â§ ihould require,
+        1031years, Mgeus reigning at Athens,</p>
+      <p
+        n="21"> Since Theseus incorporated the twelve cities of Attica into one
+        [community] and having first eflabltshed a civil conftitution and a popular government at
+        Athens; he inftituted the Ifthmian games, after he had slain Sinis , 995 years. </p>
+      <p
+        n="22"> From uiefirfi [celebration of the fef-tival called] Ammon, 992 ^y^r^,
+        Thefeusreigning at Athens. .- -. - 1^56</p>
+      <p
+        n="23"> Since Aur^/Ius reigned over the Ar-giveSj and the/even [commanders] initutcdthe
+        games m Nemeay 987 years, Thefeusreigning at Athens. Â» - - 1251</p>
+      <p
+        n="24"> Since the Greeks undertook their exâ€¢-pedit/0Â» to Troy, 954 years,
+        ^^Â«eftheusreigning at Athewi, in the thirteenth year[of his reign]. - - - I2lt</p>
+      <p
+        n="25"> Since Troy was taken, 945 years,MenefiheMS reigning at Athens, in
+        the[tvirenty-jfecond II year [of his reign] onthe twehty-fourdi day  die mondi
+        Thirr-gelim.</p>
+      <p
+        n="26"> Since Oreftej in Scythiz was yr^^rffrom his madnifsy and ? caufe between Yamand
+        Erigone^ tiie daughter of iÂ£gifthus, f Â«Â»-turning J?gifthus, was /r?ed in Areopagus,which
+        Oieftes^ gained^ the v$tes being equals[942] years, DemophcHi rmgning at A-thensâ€¢ - -~ -
+        â€¢ ' -</p>
+      <p
+        n="27"> Since Teucer built Salamis in Cy-prus, 933 years, Pemophon reigning atAthens. -
+        -</p>
+      <!--
+      <p
+        n="28"> Since Ne/eus bui/f ? Miletus in Cariayhaving colleoied the loniansy who buiit
+        Â£phe-fus, Erythrae, Clazomene, Friene^ and Lebe^Jusj TeoSy Colophon, My\}Sj Phocea^
+        Samos,Chios; and the Panioma f were inftituted,[813] year/, Mcdon reigning at Athpns, inthe
+        thirteendi yezr [of his reign].</p>
+      <p
+        n="29"> Since i:iod the poet flouriJhtA 680years, Megacles reigning at Athensâ€¢</p>
+      <p
+        n="30"> 'Sinc6 Hohier the poet flixirffiied 643 ^* ^^'â€¢years, JDiognetus reigning at
+        Athenxâ€¢ - 907</p>
+      <p
+        n="31"> Since Phi?/don the Argive was pro-{cribedy ahd 'rasAdnei?ires' and weights^^
+        andcoined fiver money in iSEgina, being theeleventh frohiHercu!es,'631 years,
+        Phereck^reigningiat Alhens. . - - -89$</p>
+      <p
+        n="32"> Since Archias [the fon] of Euagetus^ ^being thj: tenth from Temenus, conduceda cdon^
+        fk>m Corinth /a Syracq^,'[494]paisy iElfcbylus reigning at Athens, in ^etwenty-fcrityear [of
+        his reign]. -/ :- lâ€¢ g^g</p>
+      <p
+        n="33"> Since' Creon ^ invis ar^Mn for * theyear*,420years</p>
+      <p
+        n="34"> Since Tyrtaus joined the army * of thehacedemontans [againft the Meilenians]
+        418years, hyfias \ being archon at Athens.</p>
+      <p
+        n="35"> Since* Terpander [the fon] of Der-deneus the Leibian, direoitd the Aute-^y^rsto
+        reform the nomes of the ancients^ ???changed the old mulic, 381 yeari, Dropilus Jbeing
+        archon at Athens. . "^</p>
+      <p
+        n="36"> Since Alyattes reigned over the Lyd-iansj [34]! years J Ariftocles being archonat
+        Athens. - " . "</p>
+      <p
+        n="37"> Since Sappha failed from Mitylene JoSicily, flying .... [328] yearsj Critias-j|
+        thefirft being archon at Athens ? the G^emor^pofleiling the government in Syracuie.</p>
+      <p
+        n="38"> Since the Amphiciyones obtained a vie-ioryy having taken Cyrrha-Â§, and a
+        gyirinic</p>
+      <p
+        n="39"> Since [die Pythian] games were againcelebrated, in which the conqueror receiveda
+        frewn, 3[22] y^ars^ Damafias the fecond tbeing archon at Athens* - Â» 586</p>
+      <p
+        n="40"> Since comedies were carried in carisby the Icarians!|:, Sufarion being the
+        inventor,aiki {he iirft prize propoied was a baikf ^ offigs, and a fnudl veffel of wine,
+        2â€¢â€¢ year5^.... being archon at .Atbe;nsâ€¢ - â€¢* ' 57Â«</p>
+      <p
+        n="41"> Since Pififtratus became tyrant || at Athens,</p>
+      <p
+        n="42"> Since Croefu9^Â£rÂ»^ [ambauifdois} oUtrf Afia u DdpiÂ»Â»^ [^]92 J^^h
+        Â£?^^??????being archob at Alliensâ€¢ - â€¢ .:. -</p>
+      <p
+        n="43"> Since Cttus king of Perfia Aook Sar-desÂ» and apprehended Craefus, deceived hy
+        thePythizy [285] jeÂ»rr, EtxtcUdes f being arcbimat Athens^ At tbis time Uved Hipponax,
+        thelamtttc poet, - -</p>
+      <p
+        n="44"> Since Thefpi$ tbe ??? fiourifiedj thefiffi-who e;diibited % tragedy^ for -wincfa a
+        goat was appointsd as'ihe /nÂ«^> 2[73] years,*.tf4!d$us the firft beings archon at huuns*.
+        -></p>
+      <p
+        n="45"> Since Danti$ f reigned over flie Persians, M^u9 being 4ead^ [2]5[6] years,- ? i
+        .â€¢being arphon at Athe^/â€¢ * ^</p>
+      <p
+        n="46"> Si^ce Haraiodips and Ariftog^Um flVif/1Hippardlius \^xb fonj of Pififtritas,
+        the%\rent of Athtnsj amd die Afiteniians CoÂ«/^/red'to exj^^/ die PiiSratidae from f
+        dieirjretreat"within] the Ptiajpt wal^ 24S years, 'C2^i)rnd J being archon at Athens. - "
+        -</p>
+      <p
+        n="47"> Sihce choruics of'men ftrft contendr 'ed, [and] Hypcxfidis^e Chalciai7Â»,
+        havingtaught f j)ne [of Uidm] gained the yiÂ£bry,"24[4} yars^^ /ikgoras being archon at
+        A-dienf. ' - -" â€¢ - -</p>
+      <p
+        n="48"> Siiice the iukrHpU if l^imrva Hippia 4' was huib at Atheost %%% years^ Pythoctltus
+        *being archon at Athens. - . _</p>
+      <p
+        n="49"> SincQ. the battlq at ??^???? f wasfought by the Athenians agaiifft the Pc^Â«lL|fl%
+        ^Â«/ tiie Athenians def(^t$d Arta"-fbemesj the n^hew % of Dprius^ tbe com*mander [of the
+        Perllan forces], 227jxpar5,Pbanippus || //^^ fecond being ar5ip|i at .A-thenj J and ^fchylus
+        the poet wa$Â« engagedin the ailion, being [then] . 35 ye^n [of</p>
+      <p
+        n="50"> Since Simpnidev the giwidfiidier ofSimonides ?? poet, he alfp beii^g a poet^[dies]
+        at Jthexis j and Darius dies, andXerices bis ??? -reigns, [226] yuars^ Jlrifti-des Â§ being
+        archon at Athens. -^</p>
+      <p
+        n="51"> Since ^iEfchylus the poet firitgain^Ae viftory In tragedy, and Euripides thepoet was
+        born, a^d Stefichorus the poet went , into Greece, 222 years, Philocrates fl beingarchon at
+        Athens.; - , 4.</p>
+      <p
+        n="52"> Since Xerxes formed a' bridge ofboats on the HelIefj)ont,.and cut [a naviga-ble
+        canal] through Athos,.and the battle wasfought in Thermo/|)'iae,,and the fealiight bytiae
+        Greeks aj Salgmis, againii the Perfians, in which the Greeks were victorious, 227 years,
+        Caliades being archon at Athens.</p>
+      <p
+        n="53"> since the battle at Plataex was fought'by the ^theAidMS/ajgaihft aM^^ODins,'
+        iKej>:xes's general^ iitir Â«rhfich jdie lAdienioi^ fzDÂ»*.quered, tmd MHoebn^ "fi^ 4fithe
+        ibdt^ ;a|idÂ£torrentS'iaÂ£;liJ|uid]iiteiiBmra^i^ eoSlyround i9^tn%;f i^^j^.j^ews^iXj^^
+        tiVe^ingarchona^ilVjdhpi?^.. 7. ,^ ;:?. " â€¢ -</p>
+      <p
+        n="54"> S|ncettf4n^tl)efwl7'â‚¬li:S^9nijenes:b^^i^me tyrant rf.Syracufgy 215
+        yeaniy.TLâ€¢.mofthen^t.^>Qing'fr(^n^lit'AtbQti%^./^ Â«^</p>
+      <p
+        n="55"> Since Siinobsdes ^[the tfon]vÂ«f Jjeb^:prepes, the Com, twfao iiiivei|ttedi^eiai!t
+        ofmemory ||, teaching [a chorus] at Athens,gained the 'viQeyty'%^ andtb^ .flataes
+        ofHarmodius ai^rAiiftogHq^ ???,^ c?e^ai,i2^x4] ydars^ Jaima^X^ f be^g .an^yi atAthem. </p>
+      <p
+        n="56"> Since Hiero Ijecaipe tyrapt of Syracuse 20[9] years, Chares being archon atAens:;
+        E^cbanatts-tiie-poet livwi ait^</p>
+      <p
+        n="57"> Since Sopheckt [die fan] of 5â‚¬????Â»hssy who warOf Cokma^ f, gained die vipi*-tory
+        in tragied^) being! 28 yeai^ oÂ£:age^ 206years, ApfepKion | being^arcfaon at ikUOBBS^</p>
+      <p
+        n="58"> Since fiie 'ftone ? in ^gos^pofiaâ€¢*niosf and Shnonides- the poet iUm)^ ^?????^
+        fived 90 years, 105 yes^ Thaigebidn \ht^ing archon at A^eos* .- â€¢ -i</p>
+      <p
+        n="59"> Since Alexander-die^-and -his-^IbhFerdiccas reigils'evbr the MaoedoniaiiSy 19[8]
+        yearv Â£iithfpptt4i'^ ard^en^satAthens. â€¢ -" ^</p>
+      <p
+        n="60"> Since .Mchylus Uie po^ having lived69 years^ died at G^/a, in SidUfy 19;^
+        y^rs,CaD/as the firftf beingLarchoh at Atibem. Â«</p>
+      <p
+        n="61"> Since Euripides, being 43 years ofage, firft gained fhe viftory in tragedy^
+        ^^[79}years, Diphi/v^ ?* being archon at Adiensâ€¢Socrates and \^^7xagoras /ived in the
+        timeof Euripidesâ€¢ - - , , -:</p>
+      <p
+        n="62"> Since Archelaus reigned over theMacedonians, Ferdiccas being dead, I [56}years,
+        Aftyphilus being archon at Athensâ€¢ -</p>
+      <p
+        n="63"> Since Diooyliua .became. tji^aQt ofSyracufe, 144 years>Â£uSeiiion being arcbonat
+        Athensâ€¢ -. - â€¢ â€¢</p>
+      <p
+        n="64"> Since Euripides, having lived feveuty^fioâ‚¬9 yeariy ^cd, I4[3] yearsi Antigcnes
+        be-ing archon at Athens*</p>
+      <p
+        n="65"> Since So^io^Ies the poet, having livedniftety-oiic years, died; and Cyrus^ vftnt
+        up[into PerfiaJ againfi bis brother *, 142 years,Callias the first + being arcbosn at
+        Athens^ -</p>
+      <p
+        n="66"> Siace TdeftiiS t the StUnuntiangaiDeathe prize atÂ» Athens, I3[8] years, Miconbeing
+        archon at Athensâ€¢</p>
+      <p
+        n="67"> Since thofe returned, who .went uptciyd^ Cyrus .^into Perfia] and Socrates
+        thephilofophrr died, having lived 70 years, I3[6 jyears, Laches being archon at Athens*</p>
+      <p
+        n="68"> Since Afiydamas firfi taught at A*tfaens, 135 years, Ariftocrates being archonat
+        Athens. ^ - ^ - ^ -</p>
+      <p
+        n="69"> SinceXtf/Kfih^,tf^^ ?/" Â£tfribs, gain-ed the vidory at Athens in dithyrambics,I â€¢
+        â€¢ year^, â€¢ â€¢ â€¢ being archon at Athens. -</p>
+      <p
+        n="70"> SincA Philoxenus, a writer of dithyramSics,: dies, havJilg Wved 55 years, '??6years,
+        Pjftheas being arcKori at Atiiefis. ?</p>
+      <p
+        n="71"> Since Anaxiuidirides the comic poetgained the vtiiory at jfiienSj [113]
+        yearsyCalleas Being archon at Athens. -</p>
+      <p
+        n="72"> Since Aftyclamas gained ?? viflbiyat Athens, 109 years, Afl^ius being ar-chon at
+        Athens. Then ^ uio a great light ?blazed in thejky. - - -i</p>
+      <p
+        n="73"> Si^cL the, battle wai fought at Leuafrabetween the Thd)ans and the Lacedxmonians, in
+        which the Thebans conquered,107 years, Phraficlides" being afchon at A-diehs. Jt this time
+        Alexander [the f(Hj] ofJmyntas reigns over -tbrMaadmians.</p>
+      <p
+        n="74"> Since Stefichorus, the Hin?erian, thefecond [of that name] gained the vi^ory
+        atAthens, and .M^galopol/x in Jreadia wasbuilt, [^lob"] yearSy Dyfeineturbeing archon
+        at.uAhens, - " - - *</p>
+      <p
+        n="75"> SinceDionyfius the Sicilian died, andhis fon Dionyflus became tyran^ and Ale^-aitdef
+        being dead, Ptolemy reigns over the Macedonians^ 104 years, Naufigenes beingarchon at
+        Athens. - - -</p>
+      <p
+        n="76"> Since the Phocseans plundered thetemple of Delphi, [94] years^ Cephifodorusbeing
+        archon at Athensâ€¢</p>
+        -->
+      <p
+        n="77"> Since Timotheus, having lived 90years, died, and Philip [the fon] of Amyntasreigns
+        over the Afocedonianis, and Artaxerxesdied; and Ochus his fon veigns over the Perfians^ and
+        gained the viftory, 93 years, AgathocUx being archon at A-thens. </p>
+  
+      <p
+        n="78"> Since Alexander [the fon] of Philipwas botvi*y 91 years, C^iXAratus being ar-chon at
+        Athens : ArifiotU the phiMophcrlived at that time, </p>
+      <p
+        n="79"> Since Calippus having slain Dion, became tyrant of Syracuse, [90] years,
+        Diotimus being archon at Athens.</p>
+    </body>
+  </text>
+</TEI>

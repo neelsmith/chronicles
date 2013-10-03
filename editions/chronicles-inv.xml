@@ -4,6 +4,17 @@
     tiversion="4.0"
     xmlns="http://chs.harvard.edu/xmlns/cts/ti"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <ctsnamespace abbr="greekLit" ns="chs.harvard.edu/ctsns">
+        <description xml:lang="eng">CHS's greekLit namespace</description>
+    </ctsnamespace>
+    <ctsnamespace abbr="latinLit" ns="www.stoa.org/ctsns">
+        <description xml:lang="eng">The stoa's latinLit namespace</description>
+    </ctsnamespace>
+    
+    <ctsnamespace abbr="chronepig" ns="shot.holycross.edu/ctsns">
+        <description xml:lang="eng">Epigraphic sources for chronography</description>
+    </ctsnamespace>
+    
     <collection
         id="chronicles"
         isdefault="yes">
@@ -26,7 +37,7 @@
     <!-- BEGIN DATA: 
     -->
     <textgroup
-        urn="urn:cts:chronepig">
+        urn="urn:cts:chronepig:chron">
         <groupname
             xml:lang="eng">Greek inscriptions with chronographic content</groupname>
         <work
@@ -35,17 +46,19 @@
             <title
                 xml:lang="eng">The Parian Marble</title>
             
-            <translation urn="urn:cts:chronepig:chron.pm.robertson" xml:lang="grc">
+            <translation urn="urn:cts:chronepig:chron.pm.robertson" xml:lang="eng">
                 <label xml:lang="eng">Robertson translation</label>
                 <description xml:lang="eng">English translation by Robertson (1788)</description>
-                <!--
+             
                 <online docname="robertson.xml">
-                    <validate schema=""></validate>
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    
                     <citationMapping>
-                        <citation label="section" xpath="" scope=""></citation>
+                        <citation label="section" xpath="/tei:p[@n = '?']" scope="/tei:TEI/tei:text/tei:body"></citation>
                     </citationMapping>
                 </online>
-            --></translation>
+          </translation>
             
         </work>
     </textgroup>
@@ -75,7 +88,7 @@
             <edition
                 urn="urn:cts:latinLit:stoa0162.stoa005.hc-helm">
                 <label xml:lang="eng">In-progress digital edition based on Helm's readings</label>
-                <online
+                <!--<online
                     docname="Jerome-ChroniclesY.xml">
                     <validate
                     schema="chstei.rng"/>
@@ -98,12 +111,12 @@
                         </citation>
                     </citationMapping>
                 </online>
-            </edition>
+            --></edition>
             <translation
                 urn="urn:cts:latinLit:stoa0162.stoa005.hc001"
                 xml:lang="eng">
                 <label xml:lang="eng"> Draft English translation by Mike Kinney</label>
-                <online
+                <!--<online
                     docname="Jerome-Kinney-eng.xml">
                     <validate schema="chstei.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
@@ -121,7 +134,7 @@
                         </citation>
                     </citationMapping>
                 </online>
-            </translation>
+            --></translation>
         </work>
     </textgroup>
     
