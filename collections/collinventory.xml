@@ -13,6 +13,7 @@
         <source type="file" value="events.csv"/>
         <citeProperty name="Event" label="Event URN" type="citeurn"/>
           <citeProperty name="Label" label="Event" type="string"/>
+        <citeProperty name="Source" label="Example reference" type="ctsurn"></citeProperty>
     </citeCollection>
     
     
@@ -78,6 +79,20 @@
         </citeProperty>
         <citeProperty name="SyncedWith" label="Related to" type="citeurn"/>
         <citeProperty name="Amount" label="Units" type="number"></citeProperty>
+    </citeCollection>
+    
+    
+    <citeCollection canonicalId="Archon" label="Label" urn="urn:cite:chron:archon">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Athenian archons attested in ancient chronological sources</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Initial survey based on Marmor Parium, Jerome's Chronicle, and Ptolemy's Royal Canon</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Athenian archons attested in ancient chronological sources</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        <source type="file" value="events.csv"/>
+        <citeProperty name="Archon" label="Archon URN" type="citeurn"/>
+        <citeProperty name="Label" label="Archon" type="string"/>
+        <citeProperty name="Source" label="Example reference" type="ctsurn"></citeProperty>
     </citeCollection>
     
     
