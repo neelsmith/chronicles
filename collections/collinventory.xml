@@ -28,6 +28,8 @@
         <source type="file" value="persons.csv"/>
         <citeProperty name="Person" label="Person URN" type="citeurn"/>
         <citeProperty name="Label" label="Person" type="string"/>
+        <citeProperty name="Source" label="Example reference" type="ctsurn"></citeProperty>
+        
     </citeCollection>
     
     
