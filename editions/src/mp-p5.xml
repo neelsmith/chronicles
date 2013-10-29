@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<?oxygen RNGSchema="http://shot.holycross.edu/schemas/episteme.compiled.rng" type="xml"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -18,9 +18,10 @@
         </fileDesc>
     </teiHeader>
     <!-- Edition organized by physical layout:  citation by side/line -->
-    <text lang="grc">
+    <text xml:lang="grc">
         <body>
-            <div type="side" n="A">
+            <div type="side" n="a">
+                <div n="stone" ana="1">
                 <p n="1">
                     <milestone unit="sections" n="prolog"/>
                     <gap/>ou <restore resp="Jacoby">e)c a)nagrafw=</restore>n pan<restore>toi/</restore>wn
@@ -182,8 +183,9 @@
                     <milestone unit="chronon" n="29"/>
                     <milestone unit="chronon" n="30"/>
                 </p>
-            </div>
-            <div type="side" n="B">
+                </div>
+                <div type="stone" n="2">
+            <!-- This is stone two:  extant -->
                 <p n="46">
                     <seg n="mp-b1">
                         <restore>st</restore>aqma\ kateseu/ase kai\ nno/misma
@@ -963,6 +965,12 @@
                 <p n="93">
                     <gap/>
                 </p>
+            </div>
+            </div>
+            <div n="b">
+            
+            <p n="8">Ἀλεξάνδρου μεταλλαγή  Πτολεμαῖος Ἀιγύπτου ἐκυρίευσεν.
+             </p>
             </div>
         </body>
     </text>

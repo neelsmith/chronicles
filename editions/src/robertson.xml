@@ -2,9 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI
   xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:math="http://www.w3.org/1998/Math/MathML"
-  xmlns:svg="http://www.w3.org/2000/svg"
-  xmlns:xi="http://www.w3.org/2001/XInclude">
+>
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,6 +19,7 @@
   </teiHeader>
   <text>
     <body>
+      <div n="a">
       <p
         n="preface">I have described preceding times, beginning from Cecrops, the first who reigned
         in Athens, to Astyanax, archon in Paros, and Diogenetus at Athens.</p>
@@ -316,6 +315,7 @@
       <p
         n="79"> Since Calippus having slain Dion, became tyrant of Syracuse, [90] years,
         Diotimus being archon at Athens.</p>
+      </div>
     </body>
   </text>
 </TEI>
