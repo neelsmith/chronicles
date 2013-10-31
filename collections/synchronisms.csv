@@ -2,4 +2,4 @@ Synchronism,Source,Event,Relation,SyncType,SyncedWith,Amount
 urn:cite:chron:synchronism.2,urn:cts:chronepig:chron.pm:a.1,urn:cite:chron:event.2,precedes,epoch,urn:cite:chron:epoch.pm,1318
 urn:cite:chron:synchronism.3,urn:cts:chronepig:chron.pm:a.2,urn:cite:chron:event.3,precedes,epoch,urn:cite:chron:epoch.pm,1310
 urn:cite:chron:synchronism.4,urn:cts:chronepig:chron.pm:a.79,urn:cite:chron:event.3,contemporary,eponym,urn:cite:chron:archon.1,0
-
+urn:cite:chron:synchronism.5,urn:cts:chronepig:chron.pm:b.8,urn:cite:chron:event.6,precedes,epoch,urn:cite:chron:epoch.pm,60
