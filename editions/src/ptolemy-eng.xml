@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ptolemy's Canon of Kings</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         
+         <table>
+            <row role="label">
+               <cell>Ruler</cell>
+               <cell>Length of reign</cell>
+               <cell>Years from epoch of Nabonassar</cell>
+               <cell>Years from epoch of Alexander's death</cell>
+            </row>
+         <row n="32" role="data">
+            <cell>Philip the successor of Alexander the founder</cell>
+            <cell>7</cell>
+            <cell>431</cell>
+            <cell>7</cell>
+         </row>
+            <row n="33" role="data">
+               <cell>A second Alexander</cell>
+               <cell>12</cell>
+               <cell>443</cell>
+               <cell>19</cell>
+            </row>
+         </table>
+         
+      </body>
+  </text>
+</TEI>
