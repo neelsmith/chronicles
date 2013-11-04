@@ -18,6 +18,54 @@
     
     
     
+    <citeCollection canonicalId="King" label="Name" urn="urn:cite:chron:eurypontids">
+        
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Sequence of Eurypontid kings of Sparta</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Sequence from Heracles to Leotychides</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Spartan kings as attested in Herodotus and Pausanias</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        <orderedBy property="Sequence"/>
+        <source type="file" value="eurypontids.csv"/>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="King" label="Person URN" type="citeurn"/>
+        <citeProperty name="Name" label="Person" type="string"/>
+        <citeProperty name="Source" label="Example reference" type="ctsurn"></citeProperty>
+        
+    </citeCollection>
+    
+    <citeCollection canonicalId="King" label="Name" urn="urn:cite:chron:agids">
+        
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Sequence of Agids kings of Sparta</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Sequence from Heracles to Leonidas</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Spartan kings as attested in Herodotus and Pausanias</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        <orderedBy property="Sequence"/>
+        <source type="file" value="agids.csv"/>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="King" label="Person URN" type="citeurn"/>
+        <citeProperty name="Name" label="Person" type="string"/>
+        <citeProperty name="Source" label="Example reference" type="ctsurn"></citeProperty>
+        
+    </citeCollection>
+    
+    <citeCollection canonicalId="King" label="Name" urn="urn:cite:chron:spartankings">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Spartan Kings</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Genealogy from Heracles to Leonidas</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Spartan kings as attested in Herodotus and Pausanias</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        <source type="file" value="spartankings.csv"/>
+        <citeProperty name="King" label="Person URN" type="citeurn"/>
+        <citeProperty name="Name" label="Person" type="string"/>
+        <citeProperty name="Source" label="Example reference" type="ctsurn"></citeProperty>
+        
+    </citeCollection>
+    
     <citeCollection canonicalId="Person" label="Label" urn="urn:cite:chron:person">
         <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
         <title xmlns="http://purl.org/dc/elements/1.1/">Persons attested in ancient chronological sources</title>
