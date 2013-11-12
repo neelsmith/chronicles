@@ -128,19 +128,20 @@
           <row
             role="header">
             <cell
-              ana="abraham"/>
-            <cell
-              ana="assyrians">Regnum Assyriorum</cell>
-            <cell
+              role="abraham"/>
+            <cell role="filum"
+              n="assyrians">Regnum Assyriorum</cell>
+            <cell role="spatium"
               ana="sacred-history"/>
+            <cell role="filum"
+              n="hebrews"> Hebraeorum gentis exordium</cell>
+            <cell role="filum"
+              n="sicyonians"> Regnum Sicyoniorum</cell>
             <cell
-              ana="hebrews"> Hebraeorum gentis exordium</cell>
-            <cell
-              ana="sicyonians"> Regnum Sicyoniorum</cell>
-            <cell
-              ana="gentile-history"/>
-            <cell
-              ana="egyptians"> Regnum Aegyptiorum</cell>
+               role="spatium"
+              n="gentile-history"/>
+            <cell role="filum"
+              n="egyptians"> Regnum Aegyptiorum</cell>
             <cell
               ana="adbc"> BC</cell>
           </row>
@@ -17734,27 +17735,27 @@
             role="header">
             <cell
               n="abraham"/>
-            <cell
+            <cell role="filum"
               n="medes">Medorum</cell>
-            <cell
+            <cell role="filum"
               n="juda">Hebraeorum Juda </cell>
             <cell
               n="sacred-history"/>
-            <cell
+            <cell role="filum"
               n="israel">Hebraeorum Israel</cell>
-            <cell
+            <cell role="filum"
               n="athenians">Atheniensium</cell>
-            <cell
+            <cell role="filum"
               n="latins">Latinorum</cell>
-            <cell
+            <cell role="filum"
               n="lacedaemonians">Lacedaemoniorum</cell>
-            <cell
+            <cell role="filum"
               n="macedonians">Macedonium</cell>
             <cell
               n="gentile-history"/>
-            <cell
+            <cell role="filum"
               n="corinthians">Chorinthiorum</cell>
-            <cell
+            <cell role="filum"
               n="egyptians"> Aegyptiorum</cell>
             <cell
               n="adbc">BC</cell>
@@ -24200,21 +24201,21 @@
             n="r1"
             role="header">
             <cell
-              n="c1"> Years from Abraham </cell>
+              n="c1" role="abraham"> Years from Abraham </cell>
             <cell
-              n="c2"> Olympiad </cell>
+              n="c2" role="olympiad"> Olympiad </cell>
             <cell
-              n="c3"> Persians </cell>
+              role="filum" n="persians"> Persians </cell>
             <cell
-              n="c4"> Captivity of the Jews </cell>
+              n="jews" role="filum"> Captivity of the Jews </cell>
             <cell
-              n="c5"> Spatium Historicum </cell>
+              n="c5" next="spatium"> Spatium Historicum </cell>
             <cell
-              n="c6"> Romans </cell>
+              n="romans" role="filum" > Romans </cell>
             <cell
-              n="c7"> Macedonians </cell>
+              n="macedonians" role="filum"> Macedonians </cell>
             <cell
-              n="c8"> Spatium Historicum </cell>
+              n="c8" role="spatium"> Spatium Historicum </cell>
             <cell>AD/BC</cell>
           </row>
           <row

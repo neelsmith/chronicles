@@ -13,4 +13,11 @@ class TestJerome extends GroovyTestCase {
         assert j
     }    
 
+
+    void testGetEra() {
+        Jerome j = new Jerome(new File(teiFile))
+        def era = j.getEraNode("37")
+        assert era instanceof groovy.util.Node
+    }
+
 }
