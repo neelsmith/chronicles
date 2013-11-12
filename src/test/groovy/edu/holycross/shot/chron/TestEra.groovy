@@ -20,6 +20,13 @@ class TestEra extends GroovyTestCase {
 
         assert era.columnTypes == expectedColumns
         assert era.filumMap == expectedFila
+
+
+        def expectedRulers  = 26     
+        assert era.fila["romans"].size() == expectedRulers
+
+        def expectedThird = "Romanorum IX, DOMITIANUS, regnavit annis XV, mensibus V."
+        assert  era.fila["romans"][2] == expectedThird
         
     }
 

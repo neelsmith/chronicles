@@ -35,7 +35,6 @@ class Era {
     * the table of this era.
     */
     Era(groovy.util.Node era) {
-        System.err.println "Era node is " + era
         eraTable = era
 
         eraTable[tei.table][tei.row].each { r ->
@@ -50,6 +49,26 @@ class Era {
                         filumMap[idx] = c.'@n'
                     }
                 }
+
+                case "regnal":
+                    r[tei.cell].eachWithIndex { c, idx ->
+                    if (c.text().size() > 1) {
+                        String msg = "${c.text()}"
+                        String fil = filumMap[idx]
+                        if (! fila[fil]) {
+                            def filumList = [msg]
+                            fila[fil] = filumList
+                        } else {
+                            def filList = fila[fil]
+                            filList.add(msg)
+                            fila[fil] = filList
+                        }
+                    }
+                }
+                break
+
+                default : 
+                    break
             }
         }
     }
