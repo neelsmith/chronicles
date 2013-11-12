@@ -1,0 +1,28 @@
+import org.apache.tools.ant.filters.ReplaceTokens
+
+
+apply plugin: 'groovy'
+apply plugin: 'maven'
+
+apply from: "versions.gradle"
+
+
+repositories {
+    mavenCentral()
+
+    // for cite libs:
+    maven {
+        url "http://beta.hpcc.uh.edu/nexus/content/repositories/releases"
+    }
+}
+
+
+dependencies {
+    compile group: 'org.codehaus.groovy', name: 'groovy-all', version: groovyVersion
+    testCompile group: 'junit', name: 'junit', version: junitVersion
+
+}
+group = "edu.holycross.shot"
+version = "0.1.0"
+
+
