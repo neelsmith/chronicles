@@ -16,17 +16,25 @@ class TestEra extends GroovyTestCase {
         assert era instanceof Era
 
         def expectedColumns = ["abraham", "olympiad", "filum", "spatium", "julian"]
-        def expectedFila = [2 : "romans"]
+        def expectedFilaMap = [2 : "romans"]
 
         assert era.columnTypes == expectedColumns
-        assert era.filumMap == expectedFila
+        assert era.filumMap == expectedFilaMap
+
+        def realFilaKeys = era.fila.keySet()
+        assert realFilaKeys.size() == 1
+        realFilaKeys.each { k ->
+            assert k == "romans"
+        }
 
 
-        def expectedRulers  = 26     
+        //era.initRulers(["romans":"Augustus"])
+        
+        def expectedRulers  = 25     
         assert era.fila["romans"].size() == expectedRulers
 
-        def expectedThird = "Romanorum IX, DOMITIANUS, regnavit annis XV, mensibus V."
-        assert  era.fila["romans"][2] == expectedThird
+        def expectedSecond = "Romanorum IX, DOMITIANUS, regnavit annis XV, mensibus V."
+        assert  era.fila["romans"][1] == expectedSecond
         
     }
 

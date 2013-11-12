@@ -29,30 +29,16 @@ class Era {
 
 
 
-    /** Constructor initializes all mappings
-    * needed to work with this table. 
-    * @param Root node of the parsed text for
-    * the table of this era.
-    */
-    Era(groovy.util.Node era) {
-        eraTable = era
 
+    /** Initialize values for ruler in fila map.
+    */
+    void initRulers(LinkedHashMap rulerMap) {
         eraTable[tei.table][tei.row].each { r ->
             switch (r.'@role') {
-                case "header":
-                    r[tei.cell].eachWithIndex { c, idx ->
-                    columnTypes.add(c.'@role')
-                    if (c.'@role' == null)  {
-                        System.err.println "##Era ${docNode.'@n'}: null role in col ${idx}!##"
-                    }
-                    if (c.'@role' == "filum") {
-                        filumMap[idx] = c.'@n'
-                    }
-                }
-
+                // collect ruler names from rows with role 'regnal'
                 case "regnal":
                     r[tei.cell].eachWithIndex { c, idx ->
-                    if (c.text().size() > 1) {
+                    if ((columnTypes[idx] == 'filum') && (c.text().size() > 1)) {
                         String msg = "${c.text()}"
                         String fil = filumMap[idx]
                         if (! fila[fil]) {
@@ -66,10 +52,100 @@ class Era {
                     }
                 }
                 break
+            }
+        }
+    }
+
+
+    /** Constructor initializes all mappings
+    * needed to work with this table. 
+    * @param Root node of the parsed text for
+    * the table of this era.
+    */
+    Era(groovy.util.Node era) {
+        eraTable = era
+
+        eraTable[tei.table][tei.row].each { r ->
+            switch (r.'@role') {
+                // read column roles from header @role attribute 
+                // of header row
+                case "header":
+                    r[tei.cell].eachWithIndex { c, idx ->
+                    columnTypes.add(c.'@role')
+                    if (c.'@role' == null)  {
+                        System.err.println "##Era ${docNode.'@n'}: null role in col ${idx}!##"
+                    }
+                    if (c.'@role' == "filum") {
+                        filumMap[idx] = c.'@n'
+                    }
+                }
+
 
                 default : 
                     break
             }
         }
+        initRulers()
     }
+
+
+    /** Creates string with tabular representation of chronology.*/
+    String tabulate() {
+        StringBuffer tableBuffer = new StringBuffer()
+        def currentRulerCount = [:]
+        columnTypes.eachWithIndex { c, i ->
+            if (c == "filum") {
+                currentRulerCount[i] = 0
+            }
+        }
+
+        eraTable[tei.table][tei.row].each { r ->
+            // If a regnal row, bump any ruler counts 
+            // as needed
+            if (r.'@role' == 'regnal') {
+                r[tei.cell].eachWithIndex { c, idx ->
+                    String colType = columnTypes[idx]
+                    switch (colType) {
+                        case "filum":
+                            if (c.text().size() > 1) {
+                            currentRulerCount[idx] =  currentRulerCount[idx] + 1
+                        }
+                        break
+                    }
+                }
+
+                // if a data row, collect data:
+            } else  if (r.'@n') {
+                tableBuffer.append( "olympiadyear: ${r.'@n'}\t")
+
+                r[tei.cell].eachWithIndex { c, idx ->
+
+                    String colType = columnTypes[idx]
+                    switch (colType) {
+                        
+                        case "spatium":
+                            case "julian":
+                            case "olympiad":
+                            // omit
+                            break
+                        
+                        case "abraham":
+                            break
+                    
+                        case "filum":
+                            tableBuffer.append("#${idx}: ${c.text()} of ")
+                        def count = currentRulerCount[idx]
+                        def filum = filumMap[idx]
+                        //System.err.println "count is ${currentRulerCount[idx]}"
+                        tableBuffer.append("${fila[filum][count]}#\t")
+                        break
+                    }
+                }
+                tableBuffer.append("\n")
+            }
+        }
+        return tableBuffer.toString()
+    }
+
+
 }
