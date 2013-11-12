@@ -3,6 +3,8 @@ package edu.holycross.shot.chron
 class Era {
     
 
+
+
     /** Groovy xml namespace for TEI */
     groovy.xml.Namespace tei = new groovy.xml.Namespace("http://www.tei-c.org/ns/1.0")
 
@@ -27,12 +29,13 @@ class Era {
     * to column */
     LinkedHashMap fila = [:]
 
-
+    LinkedHashMap savedRulerMap = [:]
 
 
     /** Initialize values for ruler in fila map.
+    * 
     */
-    void initRulers(LinkedHashMap rulerMap) {
+    void initRulers() {
         eraTable[tei.table][tei.row].each { r ->
             switch (r.'@role') {
                 // collect ruler names from rows with role 'regnal'
@@ -61,9 +64,12 @@ class Era {
     * needed to work with this table. 
     * @param Root node of the parsed text for
     * the table of this era.
+    * @param rulerMap Map of fila names to an initial list of
+    * rulers.
     */
-    Era(groovy.util.Node era) {
+    Era(groovy.util.Node era, LinkedHashMap rulerMap) {
         eraTable = era
+        fila = rulerMap
 
         eraTable[tei.table][tei.row].each { r ->
             switch (r.'@role') {
@@ -122,7 +128,6 @@ class Era {
 
                     String colType = columnTypes[idx]
                     switch (colType) {
-                        
                         case "spatium":
                             case "julian":
                             case "olympiad":
@@ -133,17 +138,34 @@ class Era {
                             break
                     
                         case "filum":
-                            tableBuffer.append("#${idx}: ${c.text()} of ")
-                        def count = currentRulerCount[idx]
-                        def filum = filumMap[idx]
-                        //System.err.println "count is ${currentRulerCount[idx]}"
-                        tableBuffer.append("${fila[filum][count]}#\t")
+                            String rulerUrn
+                        if (c.'@n') {
+                            rulerUrn = c.'@n'
+                        } else {
+                            def count = currentRulerCount[idx]
+                            def filum = filumMap[idx]
+                            rulerUrn = "${fila[filum][count]}"
+                        }
+                        tableBuffer.append("year ${c.text()} of ${rulerUrn}\t")
                         break
                     }
                 }
                 tableBuffer.append("\n")
             }
         }
+
+
+        // Save map of last ruler to each filum so we can initialize
+        // a subsequent era easily
+        def saveRulers = [:]
+        filumMap.entrySet().each { ent ->
+            // get last entry for each
+            def filum = fila[ent.value]
+            def rulerList = []
+            rulerList.add( filum[filum.size() - 1])
+            saveRulers[ent.value] = rulerList
+        }
+        savedRulerMap = saveRulers
         return tableBuffer.toString()
     }
 

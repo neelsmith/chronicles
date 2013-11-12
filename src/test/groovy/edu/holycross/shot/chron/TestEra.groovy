@@ -12,7 +12,7 @@ class TestEra extends GroovyTestCase {
 
     void testGetEra() {
         Jerome j = new Jerome(new File(teiFile))
-        def era = j.getEra("37")
+        def era = j.getEra("37", ["romans" : ["Augustus"]])
         assert era instanceof Era
 
         def expectedColumns = ["abraham", "olympiad", "filum", "spatium", "julian"]
@@ -27,14 +27,11 @@ class TestEra extends GroovyTestCase {
             assert k == "romans"
         }
 
-
-        //era.initRulers(["romans":"Augustus"])
-        
-        def expectedRulers  = 25     
+        def expectedRulers  = 26     
         assert era.fila["romans"].size() == expectedRulers
 
-        def expectedSecond = "Romanorum IX, DOMITIANUS, regnavit annis XV, mensibus V."
-        assert  era.fila["romans"][1] == expectedSecond
+        def expectedFirst = "Augustus"
+        assert  era.fila["romans"][0] == expectedFirst
         
     }
 

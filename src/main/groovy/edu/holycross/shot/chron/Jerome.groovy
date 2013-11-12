@@ -28,9 +28,25 @@ class Jerome {
         return era
     }
 
-    Era getEra(String id) {
+    Era getEra(String id, LinkedHashMap initialRulers) {
         groovy.util.Node eraRoot = getEraNode(id)
-        return new Era(eraRoot)
+        return new Era(eraRoot, initialRulers)
+    }
+
+    String getNextEraId(String id) {
+        def foundAt
+        String nextId = ""
+        root[tei.text][tei.body][tei.div].eachWithIndex { div, count ->
+            if (id == div.'@n') {
+                foundAt = count
+            }
+        }
+        root[tei.text][tei.body][tei.div].eachWithIndex { div, count ->
+            if (count == foundAt + 1) {
+                nextId = div.'@n'
+            }
+        }
+        return nextId
     }
 
 }
