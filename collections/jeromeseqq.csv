@@ -1,391 +1,392 @@
-urn:cite:chron:j-alexandrians.ruler1,1,'Aegypto primus regnavit PTOLEMAEUS, Lagi filius, annis XL.'
-urn:cite:chron:j-alexandrians.ruler2,2,'Aegypti II, PTOLEMAEUS Philadelphus, annis XXXVIII'
-urn:cite:chron:j-alexandrians.ruler3,3,'Aegypti III, PTOLEMAEUS EVERGETES, annis XXVI'
-urn:cite:chron:j-alexandrians.ruler4,4,'Aegypti PTOLEMAEUS PHILOPATOR, annis XVII'
-urn:cite:chron:j-alexandrians.ruler5,5,'Aegypti VI, PTOLEMAEUS PHILOMETOR, annis XXXV'
-urn:cite:chron:j-alexandrians.ruler6,6,'Aegypti VII, PTOLEMAEUS EUERGETES, annis XXIX.'
-urn:cite:chron:j-alexandrians.ruler7,7,'Aegypti VIII, PTOLEMAEUS PHYSCON, qui et Soter, annis XVII.'
-urn:cite:chron:j-alexandrians.ruler8,8,'Aegypti IX, PTOLEMAEUS, qui et Alexander, annis X.'
-urn:cite:chron:j-alexandrians.ruler9,9,'Aegypti X, PTOLEMAEUS, qui a matre fuerat ejectus, annis VIII'
-urn:cite:chron:j-alexandrians.ruler10,10,'Aegypti XI, PTOLEMAEUS DIONYSUS, annis XXX'
-urn:cite:chron:j-alexandrians.ruler11,11,'Aegypti XII, CLEOPATRA, annis XXII'
-urn:cite:chron:j-argives.ruler1,1,'His temporibus I apud Argos regnavit INACHUS, annis L.'
-urn:cite:chron:j-argives.ruler2,2,'Argis II, PHORONEUS, annis LX.'
-urn:cite:chron:j-argives.ruler3,3,'Argivorum III, APIS, annis XXXV'
-urn:cite:chron:j-argives.ruler4,4,'Argis IV, ARGUS, annis LXX.'
-urn:cite:chron:j-argives.ruler5,5,'Argis V, CRIASSUS, annis LIV'
-urn:cite:chron:j-argives.ruler6,6,'Argis VI, PHORBAS, annis XXXV.'
-urn:cite:chron:j-argives.ruler7,7,'Argis VII, TRIOPAS annis XLVI'
-urn:cite:chron:j-argives.ruler8,8,'Oris Pastoris filius, septimus ab Inacho. Argis VIII, CROTOPUS, annis XXI.'
-urn:cite:chron:j-argives.ruler9,9,'Argis IX, STENELUS, annis XI.'
-urn:cite:chron:j-argives.ruler10,10,'Argis X, DANAUS, annis L.'
-urn:cite:chron:j-argives.ruler11,11,'Argis XI, LYNCEUS, annis XLI.'
-urn:cite:chron:j-argives.ruler12,12,'Argivorum XII, ABAS, annis XXIII.'
-urn:cite:chron:j-argives.ruler13,13,'Argis XIII, PROETUS, annis XVII.'
-urn:cite:chron:j-argives.ruler14,14,'Post quem XIV, ACRISIUS, annis XXXI.'
-urn:cite:chron:j-asia.ruler1,1,'Asiae DEMETRIUS, qui et Poliorcetes, annis XVII'
-urn:cite:chron:j-asia.ruler2,2,'Demetrius semetipsum Seleuco tradidit.'
-urn:cite:chron:j-assyrians.ruler1,1,'Primus omni Asiae, exceptis Indis, Ninus Beli filius regnavit annis LII. Hujus Nini XLIII anno imperii sui natus est Abraham.'
-urn:cite:chron:j-assyrians.ruler2,2,'Assyriorum II, SEMIRAMIS, regnavit annis 42'
-urn:cite:chron:j-assyrians.ruler3,3,'Assyriorum III, ZAMEIS, qui et Ninyas, filius Nini et Semiramidis, annis XXXVIII.'
-urn:cite:chron:j-assyrians.ruler4,4,'Assyriorum IV, ARIUS, XXX annis'
-urn:cite:chron:j-assyrians.ruler5,5,'Assyriorum V, ARALIUS, annis XL'
-urn:cite:chron:j-assyrians.ruler6,6,'Assyriorum VI, XERXES, qui et Balaneus, annis XXX.'
-urn:cite:chron:j-assyrians.ruler7,7,'Assyriorum VII, ARMAMITRES annis. XXXVIII.'
-urn:cite:chron:j-assyrians.ruler8,8,'Assyriorum VIII, BELOCUS annis XXXV.'
-urn:cite:chron:j-assyrians.ruler9,9,'Assyriorum IX, BALEUS annis LII.'
-urn:cite:chron:j-assyrians.ruler10,10,'Assyriorum X, ALTADAS, annis XXXII.'
-urn:cite:chron:j-assyrians.ruler11,11,'Assyriorum XI, MAMYTHUS, annis XXX'
-urn:cite:chron:j-assyrians.ruler12,12,'Assyriorum XII, MACHALEUS, annis 30'
-urn:cite:chron:j-assyrians.ruler13,13,'Assyriorum XIII, SPHAERUS, annis XX'
-urn:cite:chron:j-assyrians.ruler14,14,'Assyriorum XIV, MAMYLUS annis XXX.'
-urn:cite:chron:j-assyrians.ruler15,15,'Assyriorum XV SPARETUS annis XL'
-urn:cite:chron:j-assyrians.ruler16,16,'Assyriorum XVI, ASCATADES, annis XL'
-urn:cite:chron:j-assyrians.ruler17,17,'Assyriorum XVII, AMYNTAS, annis XLV.'
-urn:cite:chron:j-assyrians.ruler18,18,'Assyriorum XVIII, BELOCHUS, annis XXV.'
-urn:cite:chron:j-assyrians.ruler19,19,'Assyriorum XIX, BELLEPARES, annis XXX.'
-urn:cite:chron:j-assyrians.ruler20,20,'Assyriorum XX, LAMPRIDES, annis XXXII.'
-urn:cite:chron:j-assyrians.ruler21,21,'Assyriorum XXI, SOSARES, annis XX.'
-urn:cite:chron:j-assyrians.ruler22,22,'Assyriorum XXII, LAMPARES, annis XXX'
-urn:cite:chron:j-assyrians.ruler23,23,'Assyriorum XXIII, PANNYAS, annis XLV.'
-urn:cite:chron:j-assyrians.ruler24,24,'Assyriorum XXIV, SOSARMUS, annis XIX.'
-urn:cite:chron:j-assyrians.ruler25,25,'Assyriorum XXV, MITHRAEUS, annis XXVII.'
-urn:cite:chron:j-assyrians.ruler26,26,'Assyriorum XXVI, TAUTANES, annis XXXII.'
-urn:cite:chron:j-assyrians.ruler27,27,'Assyriorum XXVII, TAUTEUS, annis XL.'
-urn:cite:chron:j-assyrians.ruler28,28,'Assyriorum XXVIII, THINAEUS, annis XXX.'
-urn:cite:chron:j-assyrians.ruler29,29,'Assyriorum XXIX, DERCYLUS, annis XL.'
-urn:cite:chron:j-assyrians.ruler30,30,'Assyriorum XXX, EUPALES, annis XXXVIII.'
-urn:cite:chron:j-assyrians.ruler31,31,'Assyriorum XXXI, LAOSTHENES, annis XLV.'
-urn:cite:chron:j-assyrians.ruler32,32,'Assyriorum XXXII, PIRITIADES, annis XXX.'
-urn:cite:chron:j-assyrians.ruler33,33,'Assyriorum XXXIII, OPHRATHEUS, annis XX 1'
-urn:cite:chron:j-assyrians.ruler34,34,'Assyriorum XXXIV, OPHRATANES, annis L.'
-urn:cite:chron:j-assyrians.ruler35,35,'Assyriorum XXXV, ACRAZAPES, annis XLII'
-urn:cite:chron:j-assyrians.ruler36,36,'Assyriorum XXXVI, THONOS CONCOLEROS, qui vocabatur Graece Sardanapalus, annis XX.'
-urn:cite:chron:j-athenians.ruler1,1,'His temporibus in Acta, quae nunc Attica nuncupatur, primus regnavit CECROPS, qui et DIPHYES, an. L.'
-urn:cite:chron:j-athenians.ruler2,2,'Atheniensium II, CRANAUS, annis IX.'
-urn:cite:chron:j-athenians.ruler3,3,'Atheniensium III, AMPHICTYON, annis X'
-urn:cite:chron:j-athenians.ruler4,4,'Atheniensium IV, ERICHTHONIUS, annis L.'
-urn:cite:chron:j-athenians.ruler5,5,'Atheniensium V, PANDION, annis XL.'
-urn:cite:chron:j-athenians.ruler6,6,'Atheniensium VI, ERICHTHEUS, annis L.'
-urn:cite:chron:j-athenians.ruler7,7,'Atheniensium VII, CECROPS secundus, annis XL.'
-urn:cite:chron:j-athenians.ruler8,8,'Atheniensium VIII, PANDION, annis XXV.'
-urn:cite:chron:j-athenians.ruler9,9,'Atheniensium IX, AEGEUS, Pandionis filius, annis XLVIII.'
-urn:cite:chron:j-athenians.ruler10,10,'Atheniensium X, THESEUS, annis XXX'
-urn:cite:chron:j-athenians.ruler11,11,'Atheniensium XIII, OXYNTES, annis XII.'
-urn:cite:chron:j-athenians.ruler12,12,'Post quem XV, THYMOETES, annis VIII.'
-urn:cite:chron:j-athenians.ruler13,13,'Post quem XVI, MELANTHUS, annis XXXVII.'
-urn:cite:chron:j-athenians.ruler14,14,'Atheniensium XVII, CODRUS Melanthi filius, annis XXI.'
-urn:cite:chron:j-athenians.ruler15,15,'Post quem, principes, quos mors finiebat: quorum primus MEDON, Codri filius, annis XX'
-urn:cite:chron:j-athenians.ruler16,16,'Atheniensium II, ACASTUS, annis XXXVI.'
-urn:cite:chron:j-athenians.ruler17,17,'Atheniensium III, ARCHIPPUS, annis XIX.'
-urn:cite:chron:j-athenians.ruler18,18,'Atheniensium IV, THERSIPPUS, annis XLI.'
-urn:cite:chron:j-athenians.ruler19,19,'Atheniensium V, PHORBAS, annis XXXI'
-urn:cite:chron:j-athenians.ruler20,20,'Atheniensium VI, MEGACLES, annis XXX.'
-urn:cite:chron:j-athenians.ruler21,21,'Atheniensium VII, DIOGNETUS, annis XXVIII'
-urn:cite:chron:j-athenians.ruler22,22,'Atheniensium VIII, PHERECLUS, annis XIX.'
-urn:cite:chron:j-athenians.ruler23,23,'Latinorum XIII, AVENTINUS SYLVIUS, annis XXXVII.'
-urn:cite:chron:j-athenians.ruler24,24,'Atheniensium IX, ARIPHRON, annis XX.'
-urn:cite:chron:j-athenians.ruler25,25,'Atheniensium X, THESPIEUS, annis XXVII.'
-urn:cite:chron:j-athenians.ruler26,26,'Atheniensium XI, AGAMESTOR, annis XX.'
-urn:cite:chron:j-athenians.ruler27,27,'Atheniensium XII, AESCHYLUS, annis XXIII.'
-urn:cite:chron:j-athenians.ruler28,28,'Atheniensium XIII, ALCMAEON, annis II.'
-urn:cite:chron:j-athenians.ruler29,29,'XIV Atheniensium, CHAROPS, annis X.'
-urn:cite:chron:j-athenians.ruler30,30,'Atheniensium XV, AESIMEDES, annis X'
-urn:cite:chron:j-athenians.ruler31,31,'Post quem, HIPPOMENES, annis X.'
-urn:cite:chron:j-athenians.ruler32,32,'Atheniensium XVIII, LEOCRATES, annis X.'
-urn:cite:chron:j-athenians.ruler33,33,'Post quem APSANDER, annis X.'
-urn:cite:chron:j-athenians.ruler34,34,'Atheniensium XX, ERYXIAS, annis X.'
-urn:cite:chron:j-corinthians.ruler1,1,'Corinthi regnavit primus ALETHIS, annis XXXV.'
-urn:cite:chron:j-corinthians.ruler2,2,'Corinthi II, IXION, annis XXXVII.'
-urn:cite:chron:j-corinthians.ruler3,3,'Corinthiorum III, AGELAUS, annis XXXVII.'
-urn:cite:chron:j-corinthians.ruler4,4,'Corinthiorum IV, PRYMINAS, annis XXXV.'
-urn:cite:chron:j-corinthians.ruler5,5,'Corinthiorum V, BACCHIS, annis XXXV.'
-urn:cite:chron:j-corinthians.ruler6,6,'Corinthiorum VI, AGELAS, annis XXX.'
-urn:cite:chron:j-corinthians.ruler7,7,'Corinthiorum VIII, ARISTOMEDES, annis XXXV'
-urn:cite:chron:j-corinthians.ruler8,8,'Corinthiorum IX, AGEMON, annis XVI.'
-urn:cite:chron:j-corinthians.ruler9,9,'Corinthiorum X, ALEXANDER, annis XXV.'
-urn:cite:chron:j-corinthians.ruler10,10,'Corinthiorum XI, TELESTES, annis XII.'
-urn:cite:chron:j-corinthians.ruler11,11,'Post quem AUTOMENES , anno I.'
-urn:cite:chron:j-egyptians.ruler1,1,'Porro apud Aegyptios XVI potestas erat quam vocant dynastiam quo tempore regnabant Thebaei annis CXC.'
-urn:cite:chron:j-egyptians.ruler2,2,'Aegyptiorum XVII DYNASTIA, quo tempore regnabant Pastores annis CIII'
-urn:cite:chron:j-egyptians.ruler3,3,'Aegyptiorum XVII DYNASTIA Diospolitanorum, annis CCCXLVIII, quorum primus AMASIS annis XXV.'
-urn:cite:chron:j-egyptians.ruler4,4,'(Aegypti) CHEBRON, (annis) XIII.'
-urn:cite:chron:j-egyptians.ruler5,5,'Aegypti, AMENOPHIS, annis XXI'
-urn:cite:chron:j-egyptians.ruler6,6,'Aegypti, MEPHRES, annis XII'
-urn:cite:chron:j-egyptians.ruler7,7,'Aegypti, MISPHARMUTHOSIS, annis XXVI'
-urn:cite:chron:j-egyptians.ruler8,8,'Aegypti, TUTHMOSIS, annis IX.'
-urn:cite:chron:j-egyptians.ruler9,9,'Aegypti, AMENOPHIS, annis XXXI'
-urn:cite:chron:j-egyptians.ruler10,10,'Aegyptiis Orus, XVIII annis'
-urn:cite:chron:j-egyptians.ruler11,11,'Aegypti, ACHENCHERES, annis XII'
-urn:cite:chron:j-egyptians.ruler12,12,'Athoris, for 9 years'
-urn:cite:chron:j-egyptians.ruler13,13,'Aegypti, CHENCRES, annis XVI 1'
-urn:cite:chron:j-egyptians.ruler14,14,'Aegypti, ACHERRES, annis VIII.'
-urn:cite:chron:j-egyptians.ruler15,15,'Aegypti, CHERRES, annis XV.'
-urn:cite:chron:j-egyptians.ruler16,16,'Aegypti, ARMAIS, qui et Danaus, annis V.'
-urn:cite:chron:j-egyptians.ruler17,17,'Post quem, Ramesses, qui et Aegyptus, annis LXVIII.'
-urn:cite:chron:j-egyptians.ruler18,18,'Aegypti, MENOPHIS, annis XL.'
-urn:cite:chron:j-egyptians.ruler19,19,'Aegypti XIX DYNASTIA, quorum primus ZETHUS, annis LV.'
-urn:cite:chron:j-egyptians.ruler20,20,'Aegypti, RAMSES, annis LXVI.'
-urn:cite:chron:j-egyptians.ruler21,21,'Aegyptiorum, AMENOPHIS, annis XL.'
-urn:cite:chron:j-egyptians.ruler22,22,'Aegyptiorum, AMMENEMES, annis XXVI'
-urn:cite:chron:j-egyptians.ruler23,23,'Aegypti, THUORIS, annis VII.'
-urn:cite:chron:j-egyptians.ruler24,24,'In Aegypto, XXI dynastia, regnavit SMENDIS, annis XXVI.'
-urn:cite:chron:j-egyptians.ruler25,25,'Post quem PSEUSENNES, annis XLI.'
-urn:cite:chron:j-egyptians.ruler26,26,'Aegypti, NEPHERCHERES, annis IV.'
-urn:cite:chron:j-egyptians.ruler27,27,'AMMENOPHIS, annis IX.'
-urn:cite:chron:j-egyptians.ruler28,28,'OSOCHOR, annis VI.'
-urn:cite:chron:j-egyptians.ruler29,29,'PSINACES, annis IX'
-urn:cite:chron:j-egyptians.ruler30,30,'Aegypti, PSUSENNES, annis XXXV.'
-urn:cite:chron:j-egyptians.ruler31,31,'Aegypti XXII dynastia, SESONCHOSIS, annis XXI.'
-urn:cite:chron:j-egyptians.ruler32,32,'Aegypti, OSORTHON, annis XV.'
-urn:cite:chron:j-egyptians.ruler33,33,'Post quem TACHELOTIS, annis XIII.'
-urn:cite:chron:j-egyptians.ruler34,34,'Aegypti XXIII dynastia, PETUBASTIS, annis XXV'
-urn:cite:chron:j-egyptians.ruler35,35,'Post quem PSAMMUS, annis X.'
-urn:cite:chron:j-egyptians.ruler36,36,'Dynastia XXIV, BOCCHORUS, annis XLIV.'
-urn:cite:chron:j-egyptians.ruler37,37,'Aegypti XXV Dynastia, SABACHON Aethiops, annis XII.'
-urn:cite:chron:j-egyptians.ruler38,38,'Aegypti SEBICHUS, annis XII.'
-urn:cite:chron:j-egyptians.ruler39,39,'Aegypti TARACHUS Aethiops, annis XX.'
-urn:cite:chron:j-egyptians.ruler40,40,'Aegypti XXVI dynastia,MERRES AETHIOPS regnavit annis XI.'
-urn:cite:chron:j-egyptians.ruler41,41,'STEPHINATIS, annis VII.'
-urn:cite:chron:j-egyptians.ruler42,42,'Post quem NECHAO, annis VIII.'
-urn:cite:chron:j-egyptians.ruler43,43,'PSAMMETICHUS, annis XLIV.'
-urn:cite:chron:j-egyptians.ruler44,44,'Aegypti NECHAO secundus, qui et NECHEPSOS, annis VI.'
-urn:cite:chron:j-egyptians.ruler45,45,'Aegypti AMASIS annis XLII.'
-urn:cite:chron:j-egyptians.ruler46,46,'Aegypti XXVII dynastia Persarum, obtinuit quippe Aegyptum Cambyses in anno V regni sui, usque ad Darium filium Xerxis, annis CXI'
-urn:cite:chron:j-egyptians.ruler47,47,'XXVIII Aegypti dynastia. NEPHERITES, annis VI.'
-urn:cite:chron:j-egyptians.ruler48,48,'Post quem ACHORIS, annis XII.'
-urn:cite:chron:j-egyptians.ruler49,49,'Aegypti PSAMUTHES, anno I.'
-urn:cite:chron:j-egyptians.ruler50,50,'NECTANEBUS, annis XVIII.'
-urn:cite:chron:j-egyptians.ruler51,51,'Aegypti THEO, annis II.'
-urn:cite:chron:j-hebrews.ruler1,1,'In hujus imperio apud Hebraeos nascitur Abraham, qui cum C esset annorum genuit Isaac Abraham.'
-urn:cite:chron:j-hebrews.ruler2,2,'Hebraeorum Isaac filius Abraham: LX aetatis suae anno generate Jacob.'
-urn:cite:chron:j-hebrews.ruler3,3,'Hebraeorum JACOB filius Isaac usque ad principatum filii Joseph annis CXXI.'
-urn:cite:chron:j-hebrews.ruler4,4,'Hebraeorum JOSEPH dux Aegypti, annis LXXX'
-urn:cite:chron:j-hebrews.ruler5,5,'( 1)'
-urn:cite:chron:j-hebrews.ruler6,6,'Hebraeorum servitutis in Aegypto, annis 144.'
-urn:cite:chron:j-hebrews.ruler7,7,'Hebraeorum, post Mosen dux constituitur JESUS, annis XXVII'
-urn:cite:chron:j-hebrews.ruler8,8,'Judaeorum I iudex, GOTHONIE, annis XL.'
-urn:cite:chron:j-hebrews.ruler9,9,'Hebraeorum, AOD, annis LXXX.'
-urn:cite:chron:j-hebrews.ruler10,10,'Hebraeorum, Debbora cum Barach, annis XL.'
-urn:cite:chron:j-hebrews.ruler11,11,'Hebraeorum, GEDEON, annis XL.'
-urn:cite:chron:j-hebrews.ruler12,12,'Hebraeorum, ABIMELECH, annis III, filius Gedeonis'
-urn:cite:chron:j-hebrews.ruler13,13,'Post quem THOLA, annis XXII'
-urn:cite:chron:j-hebrews.ruler14,14,'Post quem JAIR, annis XXII, ex tribu Manasse.'
-urn:cite:chron:j-hebrews.ruler15,15,'Post quem HESEBON annis VII.'
-urn:cite:chron:j-hebrews.ruler16,16,'Hebraeorum, LABDON, annis VIII.'
-urn:cite:chron:j-hebrews.ruler17,17,'Post quem SAMSON, annis XX.'
-urn:cite:chron:j-hebrews.ruler18,18,'Post quem, HELI Sacerdos annis XL.'
-urn:cite:chron:j-hebrews.ruler19,19,'Hebraeorum, SAMUEL et SAUL, annis XL.'
-urn:cite:chron:j-hebrews.ruler20,20,'Hebraeorum rex primus, ex tribu Juda DAVID, annis XL.'
-urn:cite:chron:j-hebrews.ruler21,21,'Hebraeorum II, SOLOMON filius David, annis XL.'
-urn:cite:chron:j-hebrews.ruler22,22,'Hebraeorum Juda XVII, HAMMON, annis XII'
-urn:cite:chron:j-hebrews.ruler23,23,'Post quem in Juda XVIII, JOSIAS, annis XXXII.'
-urn:cite:chron:j-hebrews.ruler24,24,'Hebraeorum Judae JOACHIM, qui et Jechonias, mensibus III. Post quem SEDECHIAS, annis XI.'
-urn:cite:chron:j-israel.ruler1,1,'Apud Hebraeos, qui in Samaria erant et vocabantur Israel, primus regnavit JEROBOAM, annis XXII.'
-urn:cite:chron:j-israel.ruler2,2,'Hebraeorum Israel II, NADAB, annis II.'
-urn:cite:chron:j-israel.ruler3,3,'Post quem III, BAASA, annis XXIV.'
-urn:cite:chron:j-israel.ruler4,4,'Post quem IV, HELA, annis II'
-urn:cite:chron:j-israel.ruler5,5,'Post quem V, AMBRI, annis XII.'
-urn:cite:chron:j-israel.ruler6,6,'Hebraeorum Israel VI, ACHAB, annis XXII.'
-urn:cite:chron:j-israel.ruler7,7,'Hebraeorum Israhel VII, OCHOZIAS, annis II.'
-urn:cite:chron:j-israel.ruler8,8,'Post quem VIII, JORAM, annis XII.'
-urn:cite:chron:j-israel.ruler9,9,'Post quem, HIEU, annis XXVIII.'
-urn:cite:chron:j-israel.ruler10,10,'Israhel X, JOACHAB, annis XVII'
-urn:cite:chron:j-israel.ruler11,11,'Israel XI, JOAS, annis XVI.'
-urn:cite:chron:j-israel.ruler12,12,'Post quem XII, JEROBOAM, annis XLI.'
-urn:cite:chron:j-israel.ruler13,13,'Israhel XIII ZACHARIAS, mensibus VI. Post quem SELLUM, dies III. Post quem MANAEM, annis X.'
-urn:cite:chron:j-israel.ruler14,14,'Post quem PHACEAS, annis X.'
-urn:cite:chron:j-israel.ruler15,15,'Israel, PHACEE, annis XX.'
-urn:cite:chron:j-israel.ruler16,16,'Israhel OSEE, annis IX.'
-urn:cite:chron:j-juda.ruler1,1,'Hebraeorum III, ROBOAM, annis XVII.'
-urn:cite:chron:j-juda.ruler2,2,'Post quem IV, ABIA, annis III.'
-urn:cite:chron:j-juda.ruler3,3,'Post quem V, ASA, annis XLI, iustus.'
-urn:cite:chron:j-juda.ruler4,4,'Hebraeorum Juda VI, JOSAPHAT, annis XXV, iustus.'
-urn:cite:chron:j-juda.ruler5,5,'Hebraeorum Judae VII, JORAM, annis VIII.'
-urn:cite:chron:j-juda.ruler6,6,'Postquem VIII, OCHOZIAS, anno I'
-urn:cite:chron:j-juda.ruler7,7,'Post quem GOTHOLIA mater, annis VII'
-urn:cite:chron:j-juda.ruler8,8,'Post quam, JOAS, annis XL.'
-urn:cite:chron:j-juda.ruler9,9,'Hebraeorum Juda XI, AMASIAS, annis XXIX.'
-urn:cite:chron:j-juda.ruler10,10,'Hebraeorum Juda XII, AZARIAS, qui et Ozias, annis LII.'
-urn:cite:chron:j-juda.ruler11,11,'Hebraeorum Judae, JOATHAM, annis XVI.'
-urn:cite:chron:j-juda.ruler12,12,'Hebraeorum Judae XIV, ACHAS, annis XVI.'
-urn:cite:chron:j-juda.ruler13,13,'Hebraeorum Juda XV, EZECHIAS, annis XXIX.'
-urn:cite:chron:j-juda.ruler14,14,'Hebraeorum Juda XVI, MANASSES, annis LV.'
-urn:cite:chron:j-judaeans.ruler1,1,'Judaeorum dux, JUDAS [MACHABAEUS], annis III.'
-urn:cite:chron:j-judaeans.ruler2,2,'Judaeorum dux, JONATHAS, annis XIX'
-urn:cite:chron:j-judaeans.ruler3,3,'Judaeorum dux, SIMON, annis VIII.'
-urn:cite:chron:j-judaeans.ruler4,4,'Judaeorum, HYRCANUS, qui et Joannes, annis XXVI.'
-urn:cite:chron:j-judaeans.ruler5,5,'Judaeorum ARISTOBOLUS, anno I.'
-urn:cite:chron:j-judaeans.ruler6,6,'Post quem JANNAEUS, qui et ALEXANDER, annis XXVII.'
-urn:cite:chron:j-judaeans.ruler7,7,'Judaeorum regnavit ALEXANDRA, annis IX.'
-urn:cite:chron:j-judaeans.ruler8,8,'Judaei Romanorum vectigales per Pompeium facti, et pontificatum apud eos suscepit HYRCANUS, annis XXXIV.'
-urn:cite:chron:j-judaeans.ruler9,9,'Judaeis regnavit HERODES alienigena, Deficiente Pontificum principatu, annis XXXVII.'
-urn:cite:chron:j-judaeans.ruler10,10,'Aegypti regnum, quod fuit in Alexandria, destructum est.'
-urn:cite:chron:j-judaeans.ruler11,11,'Judaeorum dux, ARCHELAUS, annis IX'
-urn:cite:chron:j-judaeans.ruler12,12,'Judaeorum principatum tenet HERODES Tetrarcha annis XXIV'
-urn:cite:chron:j-judaeans.ruler13,13,'Judaeorum princeps, AGRIPPA, annis VII'
-urn:cite:chron:j-judaeans.ruler14,14,'Judaeorum rex, AGRIPPA, annis XXVI'
-urn:cite:chron:j-lacedaemonians.ruler1,1,'In Lacedaemone regnavit primus EURYSTHEUS, annis XLII.'
-urn:cite:chron:j-lacedaemonians.ruler2,2,'Lacedaemoniorum II, AGIS, anno I.'
-urn:cite:chron:j-lacedaemonians.ruler3,3,'Post quem, ECHESTRATUS, annis XXXV.'
-urn:cite:chron:j-lacedaemonians.ruler4,4,'Lacedaemoniorum IV, LABOTES, annis XXXVII.'
-urn:cite:chron:j-lacedaemonians.ruler5,5,'Lacedaemoniorum V, DORISTHUS, annis XXIX.'
-urn:cite:chron:j-lacedaemonians.ruler6,6,'Lacedaemoniorum VI, AGESILAUS, annis XLIV'
-urn:cite:chron:j-lacedaemonians.ruler7,7,'Lacedaemoniorum VII, ARCHELAUS, annis LX.'
-urn:cite:chron:j-lacedaemonians.ruler8,8,'Corinthiorum VII, EUDEMUS, annis XXV.'
-urn:cite:chron:j-lacedaemonians.ruler9,9,'Lacedaemoniorum VIII, TELECLUS, annis XL.'
-urn:cite:chron:j-lacedaemonians.ruler10,10,'Lacedaemoniorum, ALCAMENES, 1 annis XXXVII.'
-urn:cite:chron:j-lacedaemonians.ruler11,11,'Lacedemoniorum reges defecerunt.'
-urn:cite:chron:j-latins.ruler1,1,'LATINIS, qui postea Romani nuncupati sunt, post tertium annum captivitatis Troiae, sive, ut quidam volunt, post VIII regnavit AENEAS, annis III.'
-urn:cite:chron:j-latins.ruler2,2,'Post quem, II ASCANIUS, annis XXXVIII.'
-urn:cite:chron:j-latins.ruler3,3,'Latinorum III, SYLVIUS Aeneae filius, annis XXIX.'
-urn:cite:chron:j-latins.ruler4,4,'Latinorum IV, AENEAS SYLVIUS, annis XXXI.'
-urn:cite:chron:j-latins.ruler5,5,'Latinorum V, LATINUS SYLVIUS, annis L.'
-urn:cite:chron:j-latins.ruler6,6,'Latinorum VI, ALBA SYLVIUS, Sylvii Aeneae filius, annis XXXIX.'
-urn:cite:chron:j-latins.ruler7,7,'Latinorum VII, AEGYPTUS SYLVIUS, annis XXIV.'
-urn:cite:chron:j-latins.ruler8,8,'Latinorum VIII, CAPIS SYLVIUS, annis XXVIII.'
-urn:cite:chron:j-latins.ruler9,9,'Latinorum IX, CARPENTUS SYLVIUS, annis XIII'
-urn:cite:chron:j-latins.ruler10,10,'Post quem, TIBERINUS SYLVIUS, annis VIII.'
-urn:cite:chron:j-latins.ruler11,11,'Latinorum XI, AGRIPPA SYLVIUS, annis XL.'
-urn:cite:chron:j-latins.ruler12,12,'Latinorum XII, AREMULUS SYLVIUS, annis XIX.'
-urn:cite:chron:j-latins.ruler13,13,'Latinorum XIV, PROCAS SYLVIUS, annis XXIII.'
-urn:cite:chron:j-latins.ruler14,14,'Latinorum XV, AMULIUS SILVIUS, annis XLIV.'
-urn:cite:chron:j-latins.ruler15,15,'ROMULUS Romanorum, annis XXXVIII'
-urn:cite:chron:j-lydians.ruler1,1,'Lydorum primus rex, ARDISUS filius Alyattis, annis XXXVI.'
-urn:cite:chron:j-lydians.ruler2,2,'Lydorum II, ALYATTES, annis XIV'
-urn:cite:chron:j-lydians.ruler3,3,'Lydorum III, MELES, annis XII.'
-urn:cite:chron:j-lydians.ruler4,4,'Lydorum IV, CANDAULES, annis XVII.'
-urn:cite:chron:j-lydians.ruler5,5,'Post quem GYGES, annis XXXV'
-urn:cite:chron:j-lydians.ruler6,6,'Lydorum VI, ARDYS, annis XXXVII.'
-urn:cite:chron:j-lydians.ruler7,7,'Lydorum VII, SADYATTES, annis XV.'
-urn:cite:chron:j-lydians.ruler8,8,'Lydorum VIII, ALYATTES, annis IL.'
-urn:cite:chron:j-lydians.ruler9,9,'Lydorum IX, CROESUS, annis XV.'
-urn:cite:chron:j-macedonian.ruler1,1,'Macedonum DEMETRIUS, annis X.'
-urn:cite:chron:j-macedonian.ruler2,2,'Macedonum ANTIGONUS, annis 15.'
-urn:cite:chron:j-macedonian.ruler3,3,'Macedonum PHILIPPUS, annis XLII'
-urn:cite:chron:j-macedonian.ruler4,4,'Macedonum PERSES, annis X.'
-urn:cite:chron:j-macedonian.ruler5,5,'Macedonum regnum defecit.'
-urn:cite:chron:j-macedonians.ruler1,1,'Macedonum primus rex CARANUS, annis XXVIII.'
-urn:cite:chron:j-macedonians.ruler2,2,'Macedonum II, COENUS, annis XII.'
-urn:cite:chron:j-macedonians.ruler3,3,'Macedonum III, TYRIMAS, annis XXXVIII.'
-urn:cite:chron:j-macedonians.ruler4,4,'Macedonum IV, PERDICA, annis LI.'
-urn:cite:chron:j-macedonians.ruler5,5,'Macedonum VI, PHILIPPUS, annis XXXVIII.'
-urn:cite:chron:j-macedonians.ruler6,6,'Macedonum VIII, ALCETAS, annis XXIX.'
-urn:cite:chron:j-macedonians.ruler7,7,'Macedonum IX, AMYNTAS, annis L.'
-urn:cite:chron:j-macedonians.ruler8,8,'Macedonum X, ALEXANDER, annis XLIII'
-urn:cite:chron:j-macedonians.ruler9,9,'Of the Macedonum, Perdiccas, for 28 years.'
-urn:cite:chron:j-macedonians.ruler10,10,'Macedonum XII, ARCHELAUS annis XXIV.'
-urn:cite:chron:j-macedonians.ruler11,11,'Macedonum XIV, AMYNTAS, anno I.'
-urn:cite:chron:j-macedonians.ruler12,12,'Post quem PAUSANIAS, anno I.'
-urn:cite:chron:j-macedonians.ruler13,13,'Post quem, AMYNTAS, annis VI.'
-urn:cite:chron:j-macedonians.ruler14,14,'Post quem, ARGEUS, annis II.'
-urn:cite:chron:j-macedonians.ruler15,15,'Post quem rursum AMYNTAS, annis XVIII. 111'
-urn:cite:chron:j-macedonians.ruler16,16,'Macedonum ALEXANDER, anno I.'
-urn:cite:chron:j-macedonians.ruler17,17,'Post quem Macedonum, PHILIPPUS, annis XXVII.'
-urn:cite:chron:j-macedonians.ruler18,18,'Alexander regnum Asiae anno regni sui VII occupat, et tenet omnia annis XII.'
-urn:cite:chron:j-macedonians.ruler19,19,'Macedonibus regnavit PHILIPPUS, qui et Aridaeus, frater Alexandri, annis VII.'
-urn:cite:chron:j-macedonians.ruler20,20,'Macedonum CASSANDER, annis XIX.'
-urn:cite:chron:j-macedonians.ruler21,21,'Macedonum filii Cassandri, annis IV, ANTIGONUS et ALEXANDER.'
-urn:cite:chron:j-macedonians.ruler22,22,'Post quem, LYSIMACHUS, annis V.'
-urn:cite:chron:j-macedonians.ruler23,23,'Macedonum PTOLEMAEUS, cognomento ????????.'
-urn:cite:chron:j-macedonians.ruler24,24,'MELEAGRUS, menses II. ANTIPATER, dies XLV. Post quem SOSTHENES annis II.'
-urn:cite:chron:j-macedonians.ruler25,25,'ANTIGONUS GONATAS, annis XXXVI.'
-urn:cite:chron:j-medes.ruler1,1,'Medis regnavit ARBACES, annis XXVIII.'
-urn:cite:chron:j-medes.ruler2,2,'Medorum II, SOSARMUS, annis XXX.'
-urn:cite:chron:j-medes.ruler3,3,'Medorum III, MEDIDUS, annis XL.'
-urn:cite:chron:j-medes.ruler4,4,'Medorum IV, CARDICEAS, annis XIII'
-urn:cite:chron:j-medes.ruler5,5,'Medorum V, DIOCLES, annis LIV.'
-urn:cite:chron:j-medes.ruler6,6,'Medorum VI, PHRAORTES, annis XXIV'
-urn:cite:chron:j-medes.ruler7,7,'Medorum VII, CYAXARES, annis XXXII.'
-urn:cite:chron:j-medes.ruler8,8,'Medorum VIII, ASTYAGES, annis XXXVIII.'
-urn:cite:chron:j-mycenaeans.ruler1,1,'In Mycenas ab arcis imperio translato post Acrisium regnavit Eurystheus filius Stheneli, annis XLV.'
-urn:cite:chron:j-mycenaeans.ruler2,2,'Mycenarum, ATREUS et Thyestes, annis LXV.'
-urn:cite:chron:j-mycenaeans.ruler3,3,'Post quem XXIII, ADRASTUS, annis IV'
-urn:cite:chron:j-mycenaeans.ruler4,4,'Atheniensium XI, MENESTHEUS, [qui et] Peteo, annis XXIII.'
-urn:cite:chron:j-mycenaeans.ruler5,5,'Mycenarum, AGAMEMNON, annis XXXV.'
-urn:cite:chron:j-persians.ruler1,1,'Persarum I, CYRUS, annis XXX.'
-urn:cite:chron:j-persians.ruler2,2,'Persarum II, CAMBYSES, annis VIII'
-urn:cite:chron:j-persians.ruler3,3,'Persarum V, XERXES, filius Darii, annis XX.'
-urn:cite:chron:j-persians.ruler4,4,'Persarum VIII, secundus XERXES, menses II. Post quem IX SOGDIANUS, menses VII. Cui succedit X DARIUS, cognomento Nothus, annis XIX.'
-urn:cite:chron:j-persians.ruler5,5,'Darii et Parysatidis filius, annis XL.'
-urn:cite:chron:j-persians.ruler6,6,'Persarum XII, ARTAXERXES, qui et OCHUS, annis XXVI'
-urn:cite:chron:j-persians.ruler7,7,'Persarum XIII, ARSES , Ochi filius, annis IV.'
-urn:cite:chron:j-persians.ruler8,8,'Post quem DARIUS, XIV, Arsami filius, annis VI.'
-urn:cite:chron:j-romans.ruler1,1,'Romanorum II, NUMA POMPILIUS, annis XLI.'
-urn:cite:chron:j-romans.ruler2,2,'Romanorum III, TULLUS HOSTILIUS, annis XXXII.'
-urn:cite:chron:j-romans.ruler3,3,'Romanorum IV, ANCUS MARTIUS, annis XXIII.'
-urn:cite:chron:j-romans.ruler4,4,'Romanorum V, TARQUINIUS PRISCUS, annis XXXVII.'
-urn:cite:chron:j-romans.ruler5,5,'Romanorum VI, SERVIUS, annis XXXIV.'
-urn:cite:chron:j-romans.ruler6,6,'Romanorum primus, C. JULIUS CAESAR, annis IV, menses VII'
-urn:cite:chron:j-romans.ruler7,7,'Romanorum II, regnavit OCTAVIANUS CAESAR Augustus, annis LVI, menses VI (A quo 'Augusti' Romanorum reges appellati)'
-urn:cite:chron:j-romans.ruler8,8,'Romanorum III, TIBERIUS regnavit annis XXIII'
-urn:cite:chron:j-romans.ruler9,9,'Romanorum IV, GAIUS CALIGULA, regnavit annis III, menses X.'
-urn:cite:chron:j-romans.ruler10,10,'Romanorum V, CLAUDIUS, regnavit annis XIII, mensibus VIII, diebus XXVIII.'
-urn:cite:chron:j-romans.ruler11,11,'Romanorum VI, NERO regnavit annis XIII, mensibus VII, diebus XXVIII.'
-urn:cite:chron:j-romans.ruler12,12,'Romanorum VII, VESPASIANUS regnavit annis IX, mensibus XI, diebus XXII.'
-urn:cite:chron:j-romans.ruler13,13,'Romanorum VIII, TITUS, regnavit annis II, mensibus II.'
-urn:cite:chron:j-romans.ruler14,14,'Romanorum IX, DOMITIANUS, regnavit annis XV, mensibus V.'
-urn:cite:chron:j-romans.ruler15,15,'Romanorum X, NERVA, regnavit anno uno, mensibus IV.'
-urn:cite:chron:j-romans.ruler16,16,'Romanorum XI, TRAJANUS, regnavit annis XIX, mensibus VI.'
-urn:cite:chron:j-romans.ruler17,17,'Romanorum XII, HADRIANUS, regnavit annis XXI'
-urn:cite:chron:j-romans.ruler18,18,'Romanorum XIII, T. ANTONINUS, cognomento Pius, cum liberis suis Aurelio et Lucio regnavit, annis XXII, mensibus III.'
-urn:cite:chron:j-romans.ruler19,19,'Romanorum XIV, MARCUS ANTONINUS, qui et VERUS, regnavit; et L. AURELIUS COMMODUS, annis XIX, mense uno.'
-urn:cite:chron:j-romans.ruler20,20,'Romanorum XV, COMMODUS, regnavit annis XIII.'
-urn:cite:chron:j-romans.ruler21,21,'Romanorum XVI, AELIUS PERTINAX, regnavit mensibus VI.'
-urn:cite:chron:j-romans.ruler22,22,'Romanorum XVII, SEVERUS, regnavit annis XVIII.'
-urn:cite:chron:j-romans.ruler23,23,'Romanorum XVIII, ANTONINUS cognomento CARACALLA, Severi filius, regnavit annis VII.'
-urn:cite:chron:j-romans.ruler24,24,'Romanorum XIX, MACRINUS, regnavit anno uno.'
-urn:cite:chron:j-romans.ruler25,25,'Romanorum XX, MARCUS AURELIUS ANTONINUS, regnavit annis IV.'
-urn:cite:chron:j-romans.ruler26,26,'Romanorum XXI, ALEXANDER, Mamaeae filius, regnavit annis XIII.'
-urn:cite:chron:j-romans.ruler27,27,'Romanorum XXII, MAXIMINUS, regnavit annis III.'
-urn:cite:chron:j-romans.ruler28,28,'Romanorum XXIII, GORDIANUS 1, regnavit annis 6.'
-urn:cite:chron:j-romans.ruler29,29,'Romanorum XXIV, PHILIPPUS, regnavit annis VII.'
-urn:cite:chron:j-romans.ruler30,30,'Romanorum XXV, DECIUS, regnavit anno uno, mensibus III.'
-urn:cite:chron:j-romans.ruler31,31,'Romanorum XXVI, GALLUS et VOLUSIANUS Galli filius, regnaverunt annis II, mensibus IV.'
-urn:cite:chron:j-romans.ruler32,32,'Romanorum XXVII, VALERIANUS et GALLIENUS, regnaverunt annis XV.'
-urn:cite:chron:j-romans.ruler33,33,'Romanorum XXVIII, CLAUDIUS, regnavit anno uno, mensibus IX.'
-urn:cite:chron:j-romans.ruler34,34,'Romanorum XXIX, AURELIANUS, regnavit annis V, mensibus VI.'
-urn:cite:chron:j-romans.ruler35,35,'Romanorum XXX, TACITUS, regnavit menses VI .'
-urn:cite:chron:j-romans.ruler36,36,'Romanorum XXXI, PROBUS, regnavit annis VI, menses IV.'
-urn:cite:chron:j-romans.ruler37,37,'Romanorum XXXII, CARUS cum filiis CARINO et NUMERIANO, annis II.'
-urn:cite:chron:j-sicyonians.ruler1,1,'In Graecia vero secundus Sicyoniis imperavit Europs annis XLV. Cujus regni XXII anno natus est Abraham.'
-urn:cite:chron:j-sicyonians.ruler2,2,'Sicyoniorum III, TELCHIN, annis XX.'
-urn:cite:chron:j-sicyonians.ruler3,3,'Sicyoniorum IV, APIS, annis XXV'
-urn:cite:chron:j-sicyonians.ruler4,4,'Sicyoniorum V, THELXION, annis. LII.'
-urn:cite:chron:j-sicyonians.ruler5,5,'Sicyoniorum VI, AEGYDRUS, annis XXXIV'
-urn:cite:chron:j-sicyonians.ruler6,6,'Sicyoniorum VII, THURIMACHUS, annis XLV'
-urn:cite:chron:j-sicyonians.ruler7,7,'Sicyoniorum VIII, LEUCIPPUS annis LIII'
-urn:cite:chron:j-sicyonians.ruler8,8,'Sicyoniorum IX, MESSAPUS, annis XLVII.'
-urn:cite:chron:j-sicyonians.ruler9,9,'Sicyoniorum X, ERATUS, annis XLVI.'
-urn:cite:chron:j-sicyonians.ruler10,10,'Sicyoniorum XI, PLEMNAEUS, annis XXXXVIII'
-urn:cite:chron:j-sicyonians.ruler11,11,'Sicyoniorum XII, ORTHOPOLIS annis LXIII'
-urn:cite:chron:j-sicyonians.ruler12,12,'Sicyoniorum XIII MARATHIUS annis XXX'
-urn:cite:chron:j-sicyonians.ruler13,13,'Sicyoniorum XIV. MARATHUS, annis XX'
-urn:cite:chron:j-sicyonians.ruler14,14,'Sicyoniorum XV, ECHYREUS, annis LV'
-urn:cite:chron:j-sicyonians.ruler15,15,'Sicyoniorum XVI, CORAX, annis XXX.'
-urn:cite:chron:j-sicyonians.ruler16,16,'Sicyoniorum XVII, EPOPEUS, annis XXXV.'
-urn:cite:chron:j-sicyonians.ruler17,17,'Sicyoniorum XVIII, LAOMEDON, (annis) XL.'
-urn:cite:chron:j-sicyonians.ruler18,18,'Sicyoniorum XIX, SICYON, annis XLV.a quo Sicyonii nuncupati sunt qui primo Aegialaei vocabantur.'
-urn:cite:chron:j-sicyonians.ruler19,19,'Sicyoniorum XX, POLYBUS, annis XL.'
-urn:cite:chron:j-sicyonians.ruler20,20,'Sicyoniorum XXI, INACHUS, annis XLII.'
-urn:cite:chron:j-sicyonians.ruler21,21,'Sicyoniorum XXII, PHAESTUS, annis VIII'
-urn:cite:chron:j-sicyonians.ruler22,22,'Sicyoniorum XXIV, POLYPHIDES, annis XXXI.'
-urn:cite:chron:j-sicyonians.ruler23,23,'Post quem, XXVI, ZEUSIPPUS, annis XXXI.'
-urn:cite:chron:j-sicyonians.ruler24,24,'Reges Sicyoniorum defecerunt, qui regnaverunt ann. 962, post quos Sacerdotes Carni constituti sunt.'
-urn:cite:chron:j-syria-asia.ruler1,1,'Syriae et Babyloniae, et superiorum locorum, regnavit SELEUCUS NICANOR, annis XXXII.'
-urn:cite:chron:j-syria-asia.ruler2,2,'Syriae et Asiae post Seleucum regnavit ANTIOCHUS SOTER, annis XIX.'
-urn:cite:chron:j-syria-asia.ruler3,3,'Syriae ANTIOCHUS, qui vocabatur Theos, annis XV.'
-urn:cite:chron:j-syria-asia.ruler4,4,'Syriae SELEUCUS CALLINICUS, annis XX.'
-urn:cite:chron:j-syria-asia.ruler5,5,'Syriae, SELEUCUS CERAUNUS, annis III.'
-urn:cite:chron:j-syria-asia.ruler6,6,'ANTIOCHUS MAGNUS, annis XXXVI'
-urn:cite:chron:j-syria-asia.ruler7,7,'Syriae et Asiae, SELEUCUS qui et PHILOPATOR, annis XII'
-urn:cite:chron:j-syria-asia.ruler8,8,'Syriae et Asiae, ANTIOCHUS EUPATOR, annis II.'
-urn:cite:chron:j-syria-asia.ruler9,9,'DEMETRIUS SOTER, annis XII.'
-urn:cite:chron:j-syria-asia.ruler10,10,'Syriae et Asiae, ALEXANDER, annis IX, menses X'
-urn:cite:chron:j-syria-asia.ruler11,11,'Syriae et Asiae, DEMETRIUS, annis III.'
-urn:cite:chron:j-syria-asia.ruler12,12,'Post quem ANTIOCHUS SIDETES, annis IX.'
-urn:cite:chron:j-syria-asia.ruler13,13,'Post quem DEMETRIUS iterum, annis IV'
-urn:cite:chron:j-syria-asia.ruler14,14,'Syriae et Asiae, ANTIOCHUS GRYPUS, annis XII'
-urn:cite:chron:j-syria-asia.ruler15,15,'Post quem ANTIOCHUS CYZICENUS, annis XVIII'
-urn:cite:chron:j-syria-asia.ruler16,16,'Syriae PHILIPPUS, annis II'
-urn:cite:chron:j-syria-asia.ruler17,17,'Syriae reges defecerunt.'
+urn:cite:chron:j-alexandrians.ruler1,1,"Aegypto primus regnavit PTOLEMAEUS, Lagi filius, annis XL."
+urn:cite:chron:j-alexandrians.ruler2,2,"Aegypti II, PTOLEMAEUS Philadelphus, annis XXXVIII"
+urn:cite:chron:j-alexandrians.ruler3,3,"Aegypti III, PTOLEMAEUS EVERGETES, annis XXVI"
+urn:cite:chron:j-alexandrians.ruler4,4,"Aegypti PTOLEMAEUS PHILOPATOR, annis XVII"
+urn:cite:chron:j-alexandrians.ruler5,5,"Aegypti VI, PTOLEMAEUS PHILOMETOR, annis XXXV"
+urn:cite:chron:j-alexandrians.ruler6,6,"Aegypti VII, PTOLEMAEUS EUERGETES, annis XXIX."
+urn:cite:chron:j-alexandrians.ruler7,7,"Aegypti VIII, PTOLEMAEUS PHYSCON, qui et Soter, annis XVII."
+urn:cite:chron:j-alexandrians.ruler8,8,"Aegypti IX, PTOLEMAEUS, qui et Alexander, annis X."
+urn:cite:chron:j-alexandrians.ruler9,9,"Aegypti X, PTOLEMAEUS, qui a matre fuerat ejectus, annis VIII"
+urn:cite:chron:j-alexandrians.ruler10,10,"Aegypti XI, PTOLEMAEUS DIONYSUS, annis XXX"
+urn:cite:chron:j-alexandrians.ruler11,11,"Aegypti XII, CLEOPATRA, annis XXII"
+urn:cite:chron:j-argives.ruler1,1,"His temporibus I apud Argos regnavit INACHUS, annis L."
+urn:cite:chron:j-argives.ruler2,2,"Argis II, PHORONEUS, annis LX."
+urn:cite:chron:j-argives.ruler3,3,"Argivorum III, APIS, annis XXXV"
+urn:cite:chron:j-argives.ruler4,4,"Argis IV, ARGUS, annis LXX."
+urn:cite:chron:j-argives.ruler5,5,"Argis V, CRIASSUS, annis LIV"
+urn:cite:chron:j-argives.ruler6,6,"Argis VI, PHORBAS, annis XXXV."
+urn:cite:chron:j-argives.ruler7,7,"Argis VII, TRIOPAS annis XLVI"
+urn:cite:chron:j-argives.ruler8,8,"Oris Pastoris filius, septimus ab Inacho. Argis VIII, CROTOPUS, annis XXI."
+urn:cite:chron:j-argives.ruler9,9,"Argis IX, STENELUS, annis XI."
+urn:cite:chron:j-argives.ruler10,10,"Argis X, DANAUS, annis L."
+urn:cite:chron:j-argives.ruler11,11,"Argis XI, LYNCEUS, annis XLI."
+urn:cite:chron:j-argives.ruler12,12,"Argivorum XII, ABAS, annis XXIII."
+urn:cite:chron:j-argives.ruler13,13,"Argis XIII, PROETUS, annis XVII."
+urn:cite:chron:j-argives.ruler14,14,"Post quem XIV, ACRISIUS, annis XXXI."
+urn:cite:chron:j-asia.ruler1,1,"Asiae DEMETRIUS, qui et Poliorcetes, annis XVII"
+urn:cite:chron:j-asia.ruler2,2,"Demetrius semetipsum Seleuco tradidit."
+urn:cite:chron:j-assyrians.ruler1,1,"Primus omni Asiae, exceptis Indis, Ninus Beli filius regnavit annis LII. Hujus Nini XLIII anno imperii sui natus est Abraham."
+urn:cite:chron:j-assyrians.ruler2,2,"Assyriorum II, SEMIRAMIS, regnavit annis 42"
+urn:cite:chron:j-assyrians.ruler3,3,"Assyriorum III, ZAMEIS, qui et Ninyas, filius Nini et Semiramidis, annis XXXVIII."
+urn:cite:chron:j-assyrians.ruler4,4,"Assyriorum IV, ARIUS, XXX annis"
+urn:cite:chron:j-assyrians.ruler5,5,"Assyriorum V, ARALIUS, annis XL"
+urn:cite:chron:j-assyrians.ruler6,6,"Assyriorum VI, XERXES, qui et Balaneus, annis XXX."
+urn:cite:chron:j-assyrians.ruler7,7,"Assyriorum VII, ARMAMITRES annis. XXXVIII."
+urn:cite:chron:j-assyrians.ruler8,8,"Assyriorum VIII, BELOCUS annis XXXV."
+urn:cite:chron:j-assyrians.ruler9,9,"Assyriorum IX, BALEUS annis LII."
+urn:cite:chron:j-assyrians.ruler10,10,"Assyriorum X, ALTADAS, annis XXXII."
+urn:cite:chron:j-assyrians.ruler11,11,"Assyriorum XI, MAMYTHUS, annis XXX"
+urn:cite:chron:j-assyrians.ruler12,12,"Assyriorum XII, MACHALEUS, annis 30"
+urn:cite:chron:j-assyrians.ruler13,13,"Assyriorum XIII, SPHAERUS, annis XX"
+urn:cite:chron:j-assyrians.ruler14,14,"Assyriorum XIV, MAMYLUS annis XXX."
+urn:cite:chron:j-assyrians.ruler15,15,"Assyriorum XV SPARETUS annis XL"
+urn:cite:chron:j-assyrians.ruler16,16,"Assyriorum XVI, ASCATADES, annis XL"
+urn:cite:chron:j-assyrians.ruler17,17,"Assyriorum XVII, AMYNTAS, annis XLV."
+urn:cite:chron:j-assyrians.ruler18,18,"Assyriorum XVIII, BELOCHUS, annis XXV."
+urn:cite:chron:j-assyrians.ruler19,19,"Assyriorum XIX, BELLEPARES, annis XXX."
+urn:cite:chron:j-assyrians.ruler20,20,"Assyriorum XX, LAMPRIDES, annis XXXII."
+urn:cite:chron:j-assyrians.ruler21,21,"Assyriorum XXI, SOSARES, annis XX."
+urn:cite:chron:j-assyrians.ruler22,22,"Assyriorum XXII, LAMPARES, annis XXX"
+urn:cite:chron:j-assyrians.ruler23,23,"Assyriorum XXIII, PANNYAS, annis XLV."
+urn:cite:chron:j-assyrians.ruler24,24,"Assyriorum XXIV, SOSARMUS, annis XIX."
+urn:cite:chron:j-assyrians.ruler25,25,"Assyriorum XXV, MITHRAEUS, annis XXVII."
+urn:cite:chron:j-assyrians.ruler26,26,"Assyriorum XXVI, TAUTANES, annis XXXII."
+urn:cite:chron:j-assyrians.ruler27,27,"Assyriorum XXVII, TAUTEUS, annis XL."
+urn:cite:chron:j-assyrians.ruler28,28,"Assyriorum XXVIII, THINAEUS, annis XXX."
+urn:cite:chron:j-assyrians.ruler29,29,"Assyriorum XXIX, DERCYLUS, annis XL."
+urn:cite:chron:j-assyrians.ruler30,30,"Assyriorum XXX, EUPALES, annis XXXVIII."
+urn:cite:chron:j-assyrians.ruler31,31,"Assyriorum XXXI, LAOSTHENES, annis XLV."
+urn:cite:chron:j-assyrians.ruler32,32,"Assyriorum XXXII, PIRITIADES, annis XXX."
+urn:cite:chron:j-assyrians.ruler33,33,"Assyriorum XXXIII, OPHRATHEUS, annis XX 1"
+urn:cite:chron:j-assyrians.ruler34,34,"Assyriorum XXXIV, OPHRATANES, annis L."
+urn:cite:chron:j-assyrians.ruler35,35,"Assyriorum XXXV, ACRAZAPES, annis XLII"
+urn:cite:chron:j-assyrians.ruler36,36,"Assyriorum XXXVI, THONOS CONCOLEROS, qui vocabatur Graece Sardanapalus, annis XX."
+urn:cite:chron:j-athenians.ruler1,1,"His temporibus in Acta, quae nunc Attica nuncupatur, primus regnavit CECROPS, qui et DIPHYES, an. L."
+urn:cite:chron:j-athenians.ruler2,2,"Atheniensium II, CRANAUS, annis IX."
+urn:cite:chron:j-athenians.ruler3,3,"Atheniensium III, AMPHICTYON, annis X"
+urn:cite:chron:j-athenians.ruler4,4,"Atheniensium IV, ERICHTHONIUS, annis L."
+urn:cite:chron:j-athenians.ruler5,5,"Atheniensium V, PANDION, annis XL."
+urn:cite:chron:j-athenians.ruler6,6,"Atheniensium VI, ERICHTHEUS, annis L."
+urn:cite:chron:j-athenians.ruler7,7,"Atheniensium VII, CECROPS secundus, annis XL."
+urn:cite:chron:j-athenians.ruler8,8,"Atheniensium VIII, PANDION, annis XXV."
+urn:cite:chron:j-athenians.ruler9,9,"Atheniensium IX, AEGEUS, Pandionis filius, annis XLVIII."
+urn:cite:chron:j-athenians.ruler10,10,"Atheniensium X, THESEUS, annis XXX"
+urn:cite:chron:j-athenians.ruler11,11,"Atheniensium XIII, OXYNTES, annis XII."
+urn:cite:chron:j-athenians.ruler12,12,"Post quem XV, THYMOETES, annis VIII."
+urn:cite:chron:j-athenians.ruler13,13,"Post quem XVI, MELANTHUS, annis XXXVII."
+urn:cite:chron:j-athenians.ruler14,14,"Atheniensium XVII, CODRUS Melanthi filius, annis XXI."
+urn:cite:chron:j-athenians.ruler15,15,"Post quem, principes, quos mors finiebat: quorum primus MEDON, Codri filius, annis XX"
+urn:cite:chron:j-athenians.ruler16,16,"Atheniensium II, ACASTUS, annis XXXVI."
+urn:cite:chron:j-athenians.ruler17,17,"Atheniensium III, ARCHIPPUS, annis XIX."
+urn:cite:chron:j-athenians.ruler18,18,"Atheniensium IV, THERSIPPUS, annis XLI."
+urn:cite:chron:j-athenians.ruler19,19,"Atheniensium V, PHORBAS, annis XXXI"
+urn:cite:chron:j-athenians.ruler20,20,"Atheniensium VI, MEGACLES, annis XXX."
+urn:cite:chron:j-athenians.ruler21,21,"Atheniensium VII, DIOGNETUS, annis XXVIII"
+urn:cite:chron:j-athenians.ruler22,22,"Atheniensium VIII, PHERECLUS, annis XIX."
+urn:cite:chron:j-athenians.ruler23,23,"Latinorum XIII, AVENTINUS SYLVIUS, annis XXXVII."
+urn:cite:chron:j-athenians.ruler24,24,"Atheniensium IX, ARIPHRON, annis XX."
+urn:cite:chron:j-athenians.ruler25,25,"Atheniensium X, THESPIEUS, annis XXVII."
+urn:cite:chron:j-athenians.ruler26,26,"Atheniensium XI, AGAMESTOR, annis XX."
+urn:cite:chron:j-athenians.ruler27,27,"Atheniensium XII, AESCHYLUS, annis XXIII."
+urn:cite:chron:j-athenians.ruler28,28,"Atheniensium XIII, ALCMAEON, annis II."
+urn:cite:chron:j-athenians.ruler29,29,"XIV Atheniensium, CHAROPS, annis X."
+urn:cite:chron:j-athenians.ruler30,30,"Atheniensium XV, AESIMEDES, annis X"
+urn:cite:chron:j-athenians.ruler31,31,"Post quem, HIPPOMENES, annis X."
+urn:cite:chron:j-athenians.ruler32,32,"Atheniensium XVIII, LEOCRATES, annis X."
+urn:cite:chron:j-athenians.ruler33,33,"Post quem APSANDER, annis X."
+urn:cite:chron:j-athenians.ruler34,34,"Atheniensium XX, ERYXIAS, annis X."
+urn:cite:chron:j-corinthians.ruler1,1,"Corinthi regnavit primus ALETHIS, annis XXXV."
+urn:cite:chron:j-corinthians.ruler2,2,"Corinthi II, IXION, annis XXXVII."
+urn:cite:chron:j-corinthians.ruler3,3,"Corinthiorum III, AGELAUS, annis XXXVII."
+urn:cite:chron:j-corinthians.ruler4,4,"Corinthiorum IV, PRYMINAS, annis XXXV."
+urn:cite:chron:j-corinthians.ruler5,5,"Corinthiorum V, BACCHIS, annis XXXV."
+urn:cite:chron:j-corinthians.ruler6,6,"Corinthiorum VI, AGELAS, annis XXX."
+urn:cite:chron:j-corinthians.ruler7,7,"Corinthiorum VIII, ARISTOMEDES, annis XXXV"
+urn:cite:chron:j-corinthians.ruler8,8,"Corinthiorum IX, AGEMON, annis XVI."
+urn:cite:chron:j-corinthians.ruler9,9,"Corinthiorum X, ALEXANDER, annis XXV."
+urn:cite:chron:j-corinthians.ruler10,10,"Corinthiorum XI, TELESTES, annis XII."
+urn:cite:chron:j-corinthians.ruler11,11,"Post quem AUTOMENES , anno I."
+urn:cite:chron:j-egyptians.ruler1,1,"Porro apud Aegyptios XVI potestas erat quam vocant dynastiam quo tempore regnabant Thebaei annis CXC."
+urn:cite:chron:j-egyptians.ruler2,2,"Aegyptiorum XVII DYNASTIA, quo tempore regnabant Pastores annis CIII"
+urn:cite:chron:j-egyptians.ruler3,3,"Aegyptiorum XVII DYNASTIA Diospolitanorum, annis CCCXLVIII, quorum primus AMASIS annis XXV."
+urn:cite:chron:j-egyptians.ruler4,4,"(Aegypti) CHEBRON, (annis) XIII."
+urn:cite:chron:j-egyptians.ruler5,5,"Aegypti, AMENOPHIS, annis XXI"
+urn:cite:chron:j-egyptians.ruler6,6,"Aegypti, MEPHRES, annis XII"
+urn:cite:chron:j-egyptians.ruler7,7,"Aegypti, MISPHARMUTHOSIS, annis XXVI"
+urn:cite:chron:j-egyptians.ruler8,8,"Aegypti, TUTHMOSIS, annis IX."
+urn:cite:chron:j-egyptians.ruler9,9,"Aegypti, AMENOPHIS, annis XXXI"
+urn:cite:chron:j-egyptians.ruler10,10,"Aegyptiis Orus, XVIII annis"
+urn:cite:chron:j-egyptians.ruler11,11,"Aegypti, ACHENCHERES, annis XII"
+urn:cite:chron:j-egyptians.ruler12,12,"Athoris, for 9 years"
+urn:cite:chron:j-egyptians.ruler13,13,"Aegypti, CHENCRES, annis XVI 1"
+urn:cite:chron:j-egyptians.ruler14,14,"Aegypti, ACHERRES, annis VIII."
+urn:cite:chron:j-egyptians.ruler15,15,"Aegypti, CHERRES, annis XV."
+urn:cite:chron:j-egyptians.ruler16,16,"Aegypti, ARMAIS, qui et Danaus, annis V."
+urn:cite:chron:j-egyptians.ruler17,17,"Post quem, Ramesses, qui et Aegyptus, annis LXVIII."
+urn:cite:chron:j-egyptians.ruler18,18,"Aegypti, MENOPHIS, annis XL."
+urn:cite:chron:j-egyptians.ruler19,19,"Aegypti XIX DYNASTIA, quorum primus ZETHUS, annis LV."
+urn:cite:chron:j-egyptians.ruler20,20,"Aegypti, RAMSES, annis LXVI."
+urn:cite:chron:j-egyptians.ruler21,21,"Aegyptiorum, AMENOPHIS, annis XL."
+urn:cite:chron:j-egyptians.ruler22,22,"Aegyptiorum, AMMENEMES, annis XXVI"
+urn:cite:chron:j-egyptians.ruler23,23,"Aegypti, THUORIS, annis VII."
+urn:cite:chron:j-egyptians.ruler24,24,"In Aegypto, XXI dynastia, regnavit SMENDIS, annis XXVI."
+urn:cite:chron:j-egyptians.ruler25,25,"Post quem PSEUSENNES, annis XLI."
+urn:cite:chron:j-egyptians.ruler26,26,"Aegypti, NEPHERCHERES, annis IV."
+urn:cite:chron:j-egyptians.ruler27,27,"AMMENOPHIS, annis IX."
+urn:cite:chron:j-egyptians.ruler28,28,"OSOCHOR, annis VI."
+urn:cite:chron:j-egyptians.ruler29,29,"PSINACES, annis IX"
+urn:cite:chron:j-egyptians.ruler30,30,"Aegypti, PSUSENNES, annis XXXV."
+urn:cite:chron:j-egyptians.ruler31,31,"Aegypti XXII dynastia, SESONCHOSIS, annis XXI."
+urn:cite:chron:j-egyptians.ruler32,32,"Aegypti, OSORTHON, annis XV."
+urn:cite:chron:j-egyptians.ruler33,33,"Post quem TACHELOTIS, annis XIII."
+urn:cite:chron:j-egyptians.ruler34,34,"Aegypti XXIII dynastia, PETUBASTIS, annis XXV"
+urn:cite:chron:j-egyptians.ruler35,35,"Post quem PSAMMUS, annis X."
+urn:cite:chron:j-egyptians.ruler36,36,"Dynastia XXIV, BOCCHORUS, annis XLIV."
+urn:cite:chron:j-egyptians.ruler37,37,"Aegypti XXV Dynastia, SABACHON Aethiops, annis XII."
+urn:cite:chron:j-egyptians.ruler38,38,"Aegypti SEBICHUS, annis XII."
+urn:cite:chron:j-egyptians.ruler39,39,"Aegypti TARACHUS Aethiops, annis XX."
+urn:cite:chron:j-egyptians.ruler40,40,"Aegypti XXVI dynastia,MERRES AETHIOPS regnavit annis XI."
+urn:cite:chron:j-egyptians.ruler41,41,"STEPHINATIS, annis VII."
+urn:cite:chron:j-egyptians.ruler42,42,"Post quem NECHAO, annis VIII."
+urn:cite:chron:j-egyptians.ruler43,43,"PSAMMETICHUS, annis XLIV."
+urn:cite:chron:j-egyptians.ruler44,44,"Aegypti NECHAO secundus, qui et NECHEPSOS, annis VI."
+urn:cite:chron:j-egyptians.ruler45,45,"Aegypti AMASIS annis XLII."
+urn:cite:chron:j-egyptians.ruler46,46,"Aegypti XXVII dynastia Persarum, obtinuit quippe Aegyptum Cambyses in anno V regni sui, usque ad Darium filium Xerxis, annis CXI"
+urn:cite:chron:j-egyptians.ruler47,47,"XXVIII Aegypti dynastia. NEPHERITES, annis VI."
+urn:cite:chron:j-egyptians.ruler48,48,"Post quem ACHORIS, annis XII."
+urn:cite:chron:j-egyptians.ruler49,49,"Aegypti PSAMUTHES, anno I."
+urn:cite:chron:j-egyptians.ruler50,50,"NECTANEBUS, annis XVIII."
+urn:cite:chron:j-egyptians.ruler51,51,"Aegypti THEO, annis II."
+urn:cite:chron:j-hebrews.ruler1,1,"In hujus imperio apud Hebraeos nascitur Abraham, qui cum C esset annorum genuit Isaac Abraham."
+urn:cite:chron:j-hebrews.ruler2,2,"Hebraeorum Isaac filius Abraham: LX aetatis suae anno generate Jacob."
+urn:cite:chron:j-hebrews.ruler3,3,"Hebraeorum JACOB filius Isaac usque ad principatum filii Joseph annis CXXI."
+urn:cite:chron:j-hebrews.ruler4,4,"Hebraeorum JOSEPH dux Aegypti, annis LXXX"
+urn:cite:chron:j-hebrews.ruler5,5,"( 1)"
+urn:cite:chron:j-hebrews.ruler6,6,"Hebraeorum servitutis in Aegypto, annis 144."
+urn:cite:chron:j-hebrews.ruler7,7,"Hebraeorum, post Mosen dux constituitur JESUS, annis XXVII"
+urn:cite:chron:j-hebrews.ruler8,8,"Judaeorum I iudex, GOTHONIE, annis XL."
+urn:cite:chron:j-hebrews.ruler9,9,"Hebraeorum, AOD, annis LXXX."
+urn:cite:chron:j-hebrews.ruler10,10,"Hebraeorum, Debbora cum Barach, annis XL."
+urn:cite:chron:j-hebrews.ruler11,11,"Hebraeorum, GEDEON, annis XL."
+urn:cite:chron:j-hebrews.ruler12,12,"Hebraeorum, ABIMELECH, annis III, filius Gedeonis"
+urn:cite:chron:j-hebrews.ruler13,13,"Post quem THOLA, annis XXII"
+urn:cite:chron:j-hebrews.ruler14,14,"Post quem JAIR, annis XXII, ex tribu Manasse."
+urn:cite:chron:j-hebrews.ruler15,15,"Post quem HESEBON annis VII."
+urn:cite:chron:j-hebrews.ruler16,16,"Hebraeorum, LABDON, annis VIII."
+urn:cite:chron:j-hebrews.ruler17,17,"Post quem SAMSON, annis XX."
+urn:cite:chron:j-hebrews.ruler18,18,"Post quem, HELI Sacerdos annis XL."
+urn:cite:chron:j-hebrews.ruler19,19,"Hebraeorum, SAMUEL et SAUL, annis XL."
+urn:cite:chron:j-hebrews.ruler20,20,"Hebraeorum rex primus, ex tribu Juda DAVID, annis XL."
+urn:cite:chron:j-hebrews.ruler21,21,"Hebraeorum II, SOLOMON filius David, annis XL."
+urn:cite:chron:j-hebrews.ruler22,22,"Hebraeorum Juda XVII, HAMMON, annis XII"
+urn:cite:chron:j-hebrews.ruler23,23,"Post quem in Juda XVIII, JOSIAS, annis XXXII."
+urn:cite:chron:j-hebrews.ruler24,24,"Hebraeorum Judae JOACHIM, qui et Jechonias, mensibus III. Post quem SEDECHIAS, annis XI."
+urn:cite:chron:j-israel.ruler1,1,"Apud Hebraeos, qui in Samaria erant et vocabantur Israel, primus regnavit JEROBOAM, annis XXII."
+urn:cite:chron:j-israel.ruler2,2,"Hebraeorum Israel II, NADAB, annis II."
+urn:cite:chron:j-israel.ruler3,3,"Post quem III, BAASA, annis XXIV."
+urn:cite:chron:j-israel.ruler4,4,"Post quem IV, HELA, annis II"
+urn:cite:chron:j-israel.ruler5,5,"Post quem V, AMBRI, annis XII."
+urn:cite:chron:j-israel.ruler6,6,"Hebraeorum Israel VI, ACHAB, annis XXII."
+urn:cite:chron:j-israel.ruler7,7,"Hebraeorum Israhel VII, OCHOZIAS, annis II."
+urn:cite:chron:j-israel.ruler8,8,"Post quem VIII, JORAM, annis XII."
+urn:cite:chron:j-israel.ruler9,9,"Post quem, HIEU, annis XXVIII."
+urn:cite:chron:j-israel.ruler10,10,"Israhel X, JOACHAB, annis XVII"
+urn:cite:chron:j-israel.ruler11,11,"Israel XI, JOAS, annis XVI."
+urn:cite:chron:j-israel.ruler12,12,"Post quem XII, JEROBOAM, annis XLI."
+urn:cite:chron:j-israel.ruler13,13,"Israhel XIII ZACHARIAS, mensibus VI. Post quem SELLUM, dies III. Post quem MANAEM, annis X."
+urn:cite:chron:j-israel.ruler14,14,"Post quem PHACEAS, annis X."
+urn:cite:chron:j-israel.ruler15,15,"Israel, PHACEE, annis XX."
+urn:cite:chron:j-israel.ruler16,16,"Israhel OSEE, annis IX."
+urn:cite:chron:j-juda.ruler1,1,"Hebraeorum III, ROBOAM, annis XVII."
+urn:cite:chron:j-juda.ruler2,2,"Post quem IV, ABIA, annis III."
+urn:cite:chron:j-juda.ruler3,3,"Post quem V, ASA, annis XLI, iustus."
+urn:cite:chron:j-juda.ruler4,4,"Hebraeorum Juda VI, JOSAPHAT, annis XXV, iustus."
+urn:cite:chron:j-juda.ruler5,5,"Hebraeorum Judae VII, JORAM, annis VIII."
+urn:cite:chron:j-juda.ruler6,6,"Postquem VIII, OCHOZIAS, anno I"
+urn:cite:chron:j-juda.ruler7,7,"Post quem GOTHOLIA mater, annis VII"
+urn:cite:chron:j-juda.ruler8,8,"Post quam, JOAS, annis XL."
+urn:cite:chron:j-juda.ruler9,9,"Hebraeorum Juda XI, AMASIAS, annis XXIX."
+urn:cite:chron:j-juda.ruler10,10,"Hebraeorum Juda XII, AZARIAS, qui et Ozias, annis LII."
+urn:cite:chron:j-juda.ruler11,11,"Hebraeorum Judae, JOATHAM, annis XVI."
+urn:cite:chron:j-juda.ruler12,12,"Hebraeorum Judae XIV, ACHAS, annis XVI."
+urn:cite:chron:j-juda.ruler13,13,"Hebraeorum Juda XV, EZECHIAS, annis XXIX."
+urn:cite:chron:j-juda.ruler14,14,"Hebraeorum Juda XVI, MANASSES, annis LV."
+urn:cite:chron:j-judaeans.ruler1,1,"Judaeorum dux, JUDAS [MACHABAEUS], annis III."
+urn:cite:chron:j-judaeans.ruler2,2,"Judaeorum dux, JONATHAS, annis XIX"
+urn:cite:chron:j-judaeans.ruler3,3,"Judaeorum dux, SIMON, annis VIII."
+urn:cite:chron:j-judaeans.ruler4,4,"Judaeorum, HYRCANUS, qui et Joannes, annis XXVI."
+urn:cite:chron:j-judaeans.ruler5,5,"Judaeorum ARISTOBOLUS, anno I."
+urn:cite:chron:j-judaeans.ruler6,6,"Post quem JANNAEUS, qui et ALEXANDER, annis XXVII."
+urn:cite:chron:j-judaeans.ruler7,7,"Judaeorum regnavit ALEXANDRA, annis IX."
+urn:cite:chron:j-judaeans.ruler8,8,"Judaei Romanorum vectigales per Pompeium facti, et pontificatum apud eos suscepit HYRCANUS, annis XXXIV."
+urn:cite:chron:j-judaeans.ruler9,9,"Judaeis regnavit HERODES alienigena, Deficiente Pontificum principatu, annis XXXVII."
+urn:cite:chron:j-judaeans.ruler10,10,"Aegypti regnum, quod fuit in Alexandria, destructum est."
+urn:cite:chron:j-judaeans.ruler11,11,"Judaeorum dux, ARCHELAUS, annis IX"
+urn:cite:chron:j-judaeans.ruler12,12,"Judaeorum principatum tenet HERODES Tetrarcha annis XXIV"
+urn:cite:chron:j-judaeans.ruler13,13,"Judaeorum princeps, AGRIPPA, annis VII"
+urn:cite:chron:j-judaeans.ruler14,14,"Judaeorum rex, AGRIPPA, annis XXVI"
+urn:cite:chron:j-lacedaemonians.ruler1,1,"In Lacedaemone regnavit primus EURYSTHEUS, annis XLII."
+urn:cite:chron:j-lacedaemonians.ruler2,2,"Lacedaemoniorum II, AGIS, anno I."
+urn:cite:chron:j-lacedaemonians.ruler3,3,"Post quem, ECHESTRATUS, annis XXXV."
+urn:cite:chron:j-lacedaemonians.ruler4,4,"Lacedaemoniorum IV, LABOTES, annis XXXVII."
+urn:cite:chron:j-lacedaemonians.ruler5,5,"Lacedaemoniorum V, DORISTHUS, annis XXIX."
+urn:cite:chron:j-lacedaemonians.ruler6,6,"Lacedaemoniorum VI, AGESILAUS, annis XLIV"
+urn:cite:chron:j-lacedaemonians.ruler7,7,"Lacedaemoniorum VII, ARCHELAUS, annis LX."
+urn:cite:chron:j-lacedaemonians.ruler8,8,"Corinthiorum VII, EUDEMUS, annis XXV."
+urn:cite:chron:j-lacedaemonians.ruler9,9,"Lacedaemoniorum VIII, TELECLUS, annis XL."
+urn:cite:chron:j-lacedaemonians.ruler10,10,"Lacedaemoniorum, ALCAMENES, 1 annis XXXVII."
+urn:cite:chron:j-lacedaemonians.ruler11,11,"Lacedemoniorum reges defecerunt."
+urn:cite:chron:j-latins.ruler1,1,"LATINIS, qui postea Romani nuncupati sunt, post tertium annum captivitatis Troiae, sive, ut quidam volunt, post VIII regnavit AENEAS, annis III."
+urn:cite:chron:j-latins.ruler2,2,"Post quem, II ASCANIUS, annis XXXVIII."
+urn:cite:chron:j-latins.ruler3,3,"Latinorum III, SYLVIUS Aeneae filius, annis XXIX."
+urn:cite:chron:j-latins.ruler4,4,"Latinorum IV, AENEAS SYLVIUS, annis XXXI."
+urn:cite:chron:j-latins.ruler5,5,"Latinorum V, LATINUS SYLVIUS, annis L."
+urn:cite:chron:j-latins.ruler6,6,"Latinorum VI, ALBA SYLVIUS, Sylvii Aeneae filius, annis XXXIX."
+urn:cite:chron:j-latins.ruler7,7,"Latinorum VII, AEGYPTUS SYLVIUS, annis XXIV."
+urn:cite:chron:j-latins.ruler8,8,"Latinorum VIII, CAPIS SYLVIUS, annis XXVIII."
+urn:cite:chron:j-latins.ruler9,9,"Latinorum IX, CARPENTUS SYLVIUS, annis XIII"
+urn:cite:chron:j-latins.ruler10,10,"Post quem, TIBERINUS SYLVIUS, annis VIII."
+urn:cite:chron:j-latins.ruler11,11,"Latinorum XI, AGRIPPA SYLVIUS, annis XL."
+urn:cite:chron:j-latins.ruler12,12,"Latinorum XII, AREMULUS SYLVIUS, annis XIX."
+urn:cite:chron:j-latins.ruler13,13,"Latinorum XIV, PROCAS SYLVIUS, annis XXIII."
+urn:cite:chron:j-latins.ruler14,14,"Latinorum XV, AMULIUS SILVIUS, annis XLIV."
+urn:cite:chron:j-latins.ruler15,15,"ROMULUS Romanorum, annis XXXVIII"
+urn:cite:chron:j-lydians.ruler1,1,"Lydorum primus rex, ARDISUS filius Alyattis, annis XXXVI."
+urn:cite:chron:j-lydians.ruler2,2,"Lydorum II, ALYATTES, annis XIV"
+urn:cite:chron:j-lydians.ruler3,3,"Lydorum III, MELES, annis XII."
+urn:cite:chron:j-lydians.ruler4,4,"Lydorum IV, CANDAULES, annis XVII."
+urn:cite:chron:j-lydians.ruler5,5,"Post quem GYGES, annis XXXV"
+urn:cite:chron:j-lydians.ruler6,6,"Lydorum VI, ARDYS, annis XXXVII."
+urn:cite:chron:j-lydians.ruler7,7,"Lydorum VII, SADYATTES, annis XV."
+urn:cite:chron:j-lydians.ruler8,8,"Lydorum VIII, ALYATTES, annis IL."
+urn:cite:chron:j-lydians.ruler9,9,"Lydorum IX, CROESUS, annis XV."
+urn:cite:chron:j-macedonian.ruler1,1,"Macedonum DEMETRIUS, annis X."
+urn:cite:chron:j-macedonian.ruler2,2,"Macedonum ANTIGONUS, annis 15."
+urn:cite:chron:j-macedonian.ruler3,3,"Macedonum PHILIPPUS, annis XLII"
+urn:cite:chron:j-macedonian.ruler4,4,"Macedonum PERSES, annis X."
+urn:cite:chron:j-macedonian.ruler5,5,"Macedonum regnum defecit."
+urn:cite:chron:j-macedonians.ruler1,1,"Macedonum primus rex CARANUS, annis XXVIII."
+urn:cite:chron:j-macedonians.ruler2,2,"Macedonum II, COENUS, annis XII."
+urn:cite:chron:j-macedonians.ruler3,3,"Macedonum III, TYRIMAS, annis XXXVIII."
+urn:cite:chron:j-macedonians.ruler4,4,"Macedonum IV, PERDICA, annis LI."
+urn:cite:chron:j-macedonians.ruler5,5,"Macedonum VI, PHILIPPUS, annis XXXVIII."
+urn:cite:chron:j-macedonians.ruler6,6,"Macedonum VIII, ALCETAS, annis XXIX."
+urn:cite:chron:j-macedonians.ruler7,7,"Macedonum IX, AMYNTAS, annis L."
+urn:cite:chron:j-macedonians.ruler8,8,"Macedonum X, ALEXANDER, annis XLIII"
+urn:cite:chron:j-macedonians.ruler9,9,"Of the Macedonum, Perdiccas, for 28 years."
+urn:cite:chron:j-macedonians.ruler10,10,"Macedonum XII, ARCHELAUS annis XXIV."
+urn:cite:chron:j-macedonians.ruler11,11,"Macedonum XIV, AMYNTAS, anno I."
+urn:cite:chron:j-macedonians.ruler12,12,"Post quem PAUSANIAS, anno I."
+urn:cite:chron:j-macedonians.ruler13,13,"Post quem, AMYNTAS, annis VI."
+urn:cite:chron:j-macedonians.ruler14,14,"Post quem, ARGEUS, annis II."
+urn:cite:chron:j-macedonians.ruler15,15,"Post quem rursum AMYNTAS, annis XVIII. 111"
+urn:cite:chron:j-macedonians.ruler16,16,"Macedonum ALEXANDER, anno I."
+urn:cite:chron:j-macedonians.ruler17,17,"Post quem Macedonum, PHILIPPUS, annis XXVII."
+urn:cite:chron:j-macedonians.ruler18,18,"Alexander regnum Asiae anno regni sui VII occupat, et tenet omnia annis XII."
+urn:cite:chron:j-macedonians.ruler19,19,"Macedonibus regnavit PHILIPPUS, qui et Aridaeus, frater Alexandri, annis VII."
+urn:cite:chron:j-macedonians.ruler20,20,"Macedonum CASSANDER, annis XIX."
+urn:cite:chron:j-macedonians.ruler21,21,"Macedonum filii Cassandri, annis IV, ANTIGONUS et ALEXANDER."
+urn:cite:chron:j-macedonians.ruler22,22,"Post quem, LYSIMACHUS, annis V."
+urn:cite:chron:j-macedonians.ruler23,23,"Macedonum PTOLEMAEUS, cognomento ????????."
+urn:cite:chron:j-macedonians.ruler24,24,"MELEAGRUS, menses II. ANTIPATER, dies XLV. Post quem SOSTHENES annis II."
+urn:cite:chron:j-macedonians.ruler25,25,"ANTIGONUS GONATAS, annis XXXVI."
+urn:cite:chron:j-medes.ruler1,1,"Medis regnavit ARBACES, annis XXVIII."
+urn:cite:chron:j-medes.ruler2,2,"Medorum II, SOSARMUS, annis XXX."
+urn:cite:chron:j-medes.ruler3,3,"Medorum III, MEDIDUS, annis XL."
+urn:cite:chron:j-medes.ruler4,4,"Medorum IV, CARDICEAS, annis XIII"
+urn:cite:chron:j-medes.ruler5,5,"Medorum V, DIOCLES, annis LIV."
+urn:cite:chron:j-medes.ruler6,6,"Medorum VI, PHRAORTES, annis XXIV"
+urn:cite:chron:j-medes.ruler7,7,"Medorum VII, CYAXARES, annis XXXII."
+urn:cite:chron:j-medes.ruler8,8,"Medorum VIII, ASTYAGES, annis XXXVIII."
+urn:cite:chron:j-mycenaeans.ruler1,1,"In Mycenas ab arcis imperio translato post Acrisium regnavit Eurystheus filius Stheneli, annis XLV."
+urn:cite:chron:j-mycenaeans.ruler2,2,"Mycenarum, ATREUS et Thyestes, annis LXV."
+urn:cite:chron:j-mycenaeans.ruler3,3,"Post quem XXIII, ADRASTUS, annis IV"
+urn:cite:chron:j-mycenaeans.ruler4,4,"Atheniensium XI, MENESTHEUS, [qui et] Peteo, annis XXIII."
+urn:cite:chron:j-mycenaeans.ruler5,5,"Mycenarum, AGAMEMNON, annis XXXV."
+urn:cite:chron:j-persians.ruler1,1,"Persarum I, CYRUS, annis XXX."
+urn:cite:chron:j-persians.ruler2,2,"Persarum II, CAMBYSES, annis VIII"
+urn:cite:chron:j-persians.ruler3,3,"Persarum V, XERXES, filius Darii, annis XX."
+urn:cite:chron:j-persians.ruler4,4,"Persarum VIII, secundus XERXES, menses II. Post quem IX SOGDIANUS, menses VII. Cui succedit X DARIUS, cognomento Nothus, annis XIX."
+urn:cite:chron:j-persians.ruler5,5,"Darii et Parysatidis filius, annis XL."
+urn:cite:chron:j-persians.ruler6,6,"Persarum XII, ARTAXERXES, qui et OCHUS, annis XXVI"
+urn:cite:chron:j-persians.ruler7,7,"Persarum XIII, ARSES , Ochi filius, annis IV."
+urn:cite:chron:j-persians.ruler8,8,"Post quem DARIUS, XIV, Arsami filius, annis VI."
+urn:cite:chron:j-romans.ruler1,1,"Romanorum II, NUMA POMPILIUS, annis XLI."
+urn:cite:chron:j-romans.ruler2,2,"Romanorum III, TULLUS HOSTILIUS, annis XXXII."
+urn:cite:chron:j-romans.ruler3,3,"Romanorum IV, ANCUS MARTIUS, annis XXIII."
+urn:cite:chron:j-romans.ruler4,4,"Romanorum V, TARQUINIUS PRISCUS, annis XXXVII."
+urn:cite:chron:j-romans.ruler5,5,"Romanorum VI, SERVIUS, annis XXXIV."
+urn:cite:chron:j-romans.ruler6,6,"Romanorum primus, C. JULIUS CAESAR, annis IV, menses VII"
+urn:cite:chron:j-romans.ruler7,7,"Romanorum II, regnavit OCTAVIANUS CAESAR Augustus, annis LVI, menses VI (A quo "Augusti" Romanorum reges appellati)"
+urn:cite:chron:j-romans.ruler8,8,"Romanorum III, TIBERIUS regnavit annis XXIII"
+urn:cite:chron:j-romans.ruler9,9,"Romanorum IV, GAIUS CALIGULA, regnavit annis III, menses X."
+urn:cite:chron:j-romans.ruler10,10,"Romanorum V, CLAUDIUS, regnavit annis XIII, mensibus VIII, diebus XXVIII."
+urn:cite:chron:j-romans.ruler11,11,"Romanorum VI, NERO regnavit annis XIII, mensibus VII, diebus XXVIII."
+urn:cite:chron:j-romans.ruler12,12,"Romanorum VII, VESPASIANUS regnavit annis IX, mensibus XI, diebus XXII."
+urn:cite:chron:j-romans.ruler13,13,"Romanorum VIII, TITUS, regnavit annis II, mensibus II."
+urn:cite:chron:j-romans.ruler14,14,"Romanorum IX, DOMITIANUS, regnavit annis XV, mensibus V."
+urn:cite:chron:j-romans.ruler15,15,"Romanorum X, NERVA, regnavit anno uno, mensibus IV."
+urn:cite:chron:j-romans.ruler16,16,"Romanorum XI, TRAJANUS, regnavit annis XIX, mensibus VI."
+urn:cite:chron:j-romans.ruler17,17,"Romanorum XII, HADRIANUS, regnavit annis XXI"
+urn:cite:chron:j-romans.ruler18,18,"Romanorum XIII, T. ANTONINUS, cognomento Pius, cum liberis suis Aurelio et Lucio regnavit, annis XXII, mensibus III."
+urn:cite:chron:j-romans.ruler19,19,"Romanorum XIV, MARCUS ANTONINUS, qui et VERUS, regnavit; et L. AURELIUS COMMODUS, annis XIX, mense uno."
+urn:cite:chron:j-romans.ruler20,20,"Romanorum XV, COMMODUS, regnavit annis XIII."
+urn:cite:chron:j-romans.ruler21,21,"Romanorum XVI, AELIUS PERTINAX, regnavit mensibus VI."
+urn:cite:chron:j-romans.ruler22,22,"Romanorum XVII, SEVERUS, regnavit annis XVIII."
+urn:cite:chron:j-romans.ruler23,23,"Romanorum XVIII, ANTONINUS cognomento CARACALLA, Severi filius, regnavit annis VII."
+urn:cite:chron:j-romans.ruler24,24,"Romanorum XIX, MACRINUS, regnavit anno uno."
+urn:cite:chron:j-romans.ruler25,25,"Romanorum XX, MARCUS AURELIUS ANTONINUS, regnavit annis IV."
+urn:cite:chron:j-romans.ruler26,26,"Romanorum XXI, ALEXANDER, Mamaeae filius, regnavit annis XIII."
+urn:cite:chron:j-romans.ruler27,27,"Romanorum XXII, MAXIMINUS, regnavit annis III."
+urn:cite:chron:j-romans.ruler28,28,"Romanorum XXIII, GORDIANUS 1, regnavit annis 6."
+urn:cite:chron:j-romans.ruler29,29,"Romanorum XXIV, PHILIPPUS, regnavit annis VII."
+urn:cite:chron:j-romans.ruler30,30,"Romanorum XXV, DECIUS, regnavit anno uno, mensibus III."
+urn:cite:chron:j-romans.ruler31,31,"Romanorum XXVI, GALLUS et VOLUSIANUS Galli filius, regnaverunt annis II, mensibus IV."
+urn:cite:chron:j-romans.ruler32,32,"Romanorum XXVII, VALERIANUS et GALLIENUS, regnaverunt annis XV."
+urn:cite:chron:j-romans.ruler33,33,"Romanorum XXVIII, CLAUDIUS, regnavit anno uno, mensibus IX."
+urn:cite:chron:j-romans.ruler34,34,"Romanorum XXIX, AURELIANUS, regnavit annis V, mensibus VI."
+urn:cite:chron:j-romans.ruler35,35,"Romanorum XXX, TACITUS, regnavit menses VI ."
+urn:cite:chron:j-romans.ruler36,36,"Romanorum XXXI, PROBUS, regnavit annis VI, menses IV."
+urn:cite:chron:j-romans.ruler37,37,"Romanorum XXXII, CARUS cum filiis CARINO et NUMERIANO, annis II."
+urn:cite:chron:j-sicyonians.ruler1,1,"In Graecia vero secundus Sicyoniis imperavit Europs annis XLV. Cujus regni XXII anno natus est Abraham."
+urn:cite:chron:j-sicyonians.ruler2,2,"Sicyoniorum III, TELCHIN, annis XX."
+urn:cite:chron:j-sicyonians.ruler3,3,"Sicyoniorum IV, APIS, annis XXV"
+urn:cite:chron:j-sicyonians.ruler4,4,"Sicyoniorum V, THELXION, annis. LII."
+urn:cite:chron:j-sicyonians.ruler5,5,"Sicyoniorum VI, AEGYDRUS, annis XXXIV"
+urn:cite:chron:j-sicyonians.ruler6,6,"Sicyoniorum VII, THURIMACHUS, annis XLV"
+urn:cite:chron:j-sicyonians.ruler7,7,"Sicyoniorum VIII, LEUCIPPUS annis LIII"
+urn:cite:chron:j-sicyonians.ruler8,8,"Sicyoniorum IX, MESSAPUS, annis XLVII."
+urn:cite:chron:j-sicyonians.ruler9,9,"Sicyoniorum X, ERATUS, annis XLVI."
+urn:cite:chron:j-sicyonians.ruler10,10,"Sicyoniorum XI, PLEMNAEUS, annis XXXXVIII"
+urn:cite:chron:j-sicyonians.ruler11,11,"Sicyoniorum XII, ORTHOPOLIS annis LXIII"
+urn:cite:chron:j-sicyonians.ruler12,12,"Sicyoniorum XIII MARATHIUS annis XXX"
+urn:cite:chron:j-sicyonians.ruler13,13,"Sicyoniorum XIV. MARATHUS, annis XX"
+urn:cite:chron:j-sicyonians.ruler14,14,"Sicyoniorum XV, ECHYREUS, annis LV"
+urn:cite:chron:j-sicyonians.ruler15,15,"Sicyoniorum XVI, CORAX, annis XXX."
+urn:cite:chron:j-sicyonians.ruler16,16,"Sicyoniorum XVII, EPOPEUS, annis XXXV."
+urn:cite:chron:j-sicyonians.ruler17,17,"Sicyoniorum XVIII, LAOMEDON, (annis) XL."
+urn:cite:chron:j-sicyonians.ruler18,18,"Sicyoniorum XIX, SICYON, annis XLV.a quo Sicyonii nuncupati sunt qui primo Aegialaei vocabantur."
+urn:cite:chron:j-sicyonians.ruler19,19,"Sicyoniorum XX, POLYBUS, annis XL."
+urn:cite:chron:j-sicyonians.ruler20,20,"Sicyoniorum XXI, INACHUS, annis XLII."
+urn:cite:chron:j-sicyonians.ruler21,21,"Sicyoniorum XXII, PHAESTUS, annis VIII"
+urn:cite:chron:j-sicyonians.ruler22,22,"Sicyoniorum XXIV, POLYPHIDES, annis XXXI."
+urn:cite:chron:j-sicyonians.ruler23,23,"Post quem, XXVI, ZEUSIPPUS, annis XXXI."
+urn:cite:chron:j-sicyonians.ruler24,24,"Reges Sicyoniorum defecerunt, qui regnaverunt ann. 962, post quos Sacerdotes Carni constituti sunt."
+urn:cite:chron:j-syria-asia.ruler1,1,"Syriae et Babyloniae, et superiorum locorum, regnavit SELEUCUS NICANOR, annis XXXII."
+urn:cite:chron:j-syria-asia.ruler2,2,"Syriae et Asiae post Seleucum regnavit ANTIOCHUS SOTER, annis XIX."
+urn:cite:chron:j-syria-asia.ruler3,3,"Syriae ANTIOCHUS, qui vocabatur Theos, annis XV."
+urn:cite:chron:j-syria-asia.ruler4,4,"Syriae SELEUCUS CALLINICUS, annis XX."
+urn:cite:chron:j-syria-asia.ruler5,5,"Syriae, SELEUCUS CERAUNUS, annis III."
+urn:cite:chron:j-syria-asia.ruler6,6,"ANTIOCHUS MAGNUS, annis XXXVI"
+urn:cite:chron:j-syria-asia.ruler7,7,"Syriae et Asiae, SELEUCUS qui et PHILOPATOR, annis XII"
+urn:cite:chron:j-syria-asia.ruler8,8,"Syriae et Asiae, ANTIOCHUS EUPATOR, annis II."
+urn:cite:chron:j-syria-asia.ruler9,9,"DEMETRIUS SOTER, annis XII."
+urn:cite:chron:j-syria-asia.ruler10,10,"Syriae et Asiae, ALEXANDER, annis IX, menses X"
+urn:cite:chron:j-syria-asia.ruler11,11,"Syriae et Asiae, DEMETRIUS, annis III."
+urn:cite:chron:j-syria-asia.ruler12,12,"Post quem ANTIOCHUS SIDETES, annis IX."
+urn:cite:chron:j-syria-asia.ruler13,13,"Post quem DEMETRIUS iterum, annis IV"
+urn:cite:chron:j-syria-asia.ruler14,14,"Syriae et Asiae, ANTIOCHUS GRYPUS, annis XII"
+urn:cite:chron:j-syria-asia.ruler15,15,"Post quem ANTIOCHUS CYZICENUS, annis XVIII"
+urn:cite:chron:j-syria-asia.ruler16,16,"Syriae PHILIPPUS, annis II"
+urn:cite:chron:j-syria-asia.ruler17,17,"Syriae reges defecerunt."
+
