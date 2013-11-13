@@ -11424,9 +11424,7 @@
         
             <cell>18</cell>
             
-            <cell><note
-              n="h"/> Menestheus moritur in Melo regrediens a capta Troja, post quem Athenis
-              regnavit Demophoon.</cell>
+            <cell></cell>
             <cell>TROIA CAPTA</cell>
           </row>
           
@@ -11501,7 +11499,7 @@
             <cell></cell>
             <cell></cell>
             <cell></cell>
-            <cell></cell>   <cell></cell>
+            <cell>(Success to POLYPHIDES?)</cell>   <cell></cell>
             <cell>LATINIS, qui postea Romani nuncupati sunt, post tertium annum captivitatis Troiae,
               sive, ut quidam volunt, post VIII regnavit AENEAS, annis III. </cell>
           </row>
@@ -20924,6 +20922,21 @@
             <cell/>
             <cell> Macedonum V, ARGAEUS, annis XXXVIII. </cell>
           </row>
+        
+          <row
+            n="rx"
+            role="regnal">
+            <cell/>
+            <cell>  </cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell> Macedonum V, ARGAEUS, annis XXXVIII. </cell>
+          </row>
+          
+          
           <row
             n="24.1">
             <cell/>
@@ -22526,11 +22539,25 @@
             <cell/>
             <cell/>
             <cell/>
-            <cell> Macedonum VII, EUROPUS, annis XXVI.</cell>
+            <cell> </cell>
             <cell/>
             <cell/>
-            <cell>Post quem PSAMMITES, alius qui et Psammetichus, annis XII.</cell>
-            <cell/>
+            <cell></cell>
+            <cell/></row>
+            <row
+              n="r43"
+              role="regnal">
+              <cell/>
+              <cell></cell>
+              <cell/>
+              <cell/>
+              <cell/>
+              <cell/>
+              <cell> Macedonum VII, EUROPUS, annis XXVI.</cell>
+              <cell/>
+              <cell/>
+              <cell>Post quem PSAMMITES, alius qui et Psammetichus, annis XII.</cell>
+              <cell/>
           </row>
           <row
             n="43.1">
