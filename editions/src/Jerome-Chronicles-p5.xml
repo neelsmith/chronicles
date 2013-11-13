@@ -16926,9 +16926,9 @@
             <cell/>
             <cell/>
             <cell/>
-            <cell/>
+            <cell/> <cell/>
             <cell>Latinorum XIII, AVENTINUS SYLVIUS, annis XXXVII.</cell>
-            <cell/>
+           
           
             <cell/>
           </row>
@@ -24244,7 +24244,7 @@
             <cell
               role="filum" n="persians"> Persians </cell>
             <cell
-              n="jews" role="filum"> Captivity of the Jews </cell>
+              n="captivity" role="filum"> Captivity of the Jews </cell>
             <cell
               n="c5" role="spatium"> Spatium Historicum </cell>
             <cell
@@ -27714,7 +27714,7 @@
             <cell
               role="olympiad">Olympiad</cell>
             <cell
-              role="filum" n="alexander">Alexander</cell>
+              role="filum" n="macedonians">Alexander</cell>
             <cell
               role="spatium"/>
             <cell
@@ -27942,7 +27942,7 @@
               role="spatium"/>
             <cell
               role="filum" n="macedonians">Macedonum</cell>
-            <cell
+            <cell n="asia"
               role="filium">Asiae</cell>
             <cell
               role="julian"> BC</cell>
@@ -27954,7 +27954,7 @@
             <cell/>
             <cell/>
             <cell/>
-            <cell n="antigonus">Asiae regnat ANTIGONUS, annis XVIII.</cell>
+            <cell >Asiae regnat ANTIGONUS, annis XVIII.</cell>
             <cell/>
           </row>
           <row
@@ -28053,7 +28053,7 @@
             <cell
               role="spatium"/>
             <cell
-              role="filum" n="syria">Syriae</cell>
+              role="filum" n="syria-asia">Syriae</cell>
             <cell
               role="filum" n="macedonians"> Macedonum</cell>
             <cell
@@ -28068,12 +28068,23 @@
             <cell>CXVII Olympias </cell>
             <cell/>
             <cell>
+              </cell>
+            <cell></cell>
+          </row>
+          <row
+            n="rx"
+            role="regnal">
+            <cell/>
+            <cell></cell>
+            <cell/>
+            <cell>
               <note
                 n="d"/> Machabaeorum Hebraea historia hinc Graecorum supputat regnum. Verum hi libri
               inter divinas Scripturas non recipiuntur. </cell>
             <cell>Syriae et Babyloniae, et superiorum locorum, regnavit SELEUCUS NICANOR, annis
               XXXII.</cell>
           </row>
+          
           <row
             n="117.1">
             <cell/>
@@ -28245,6 +28256,19 @@
                 n="e"/> Judaeorum pontifex maximus Simon Oniae filius clarus habetur, cui
               cognomentum Justo fuit propter sollicitam in Deum religionem, et in cives suos pronam
               clementiam.</cell>
+            <cell/>
+            <cell/>
+            <cell></cell>
+            <cell/>
+          </row>
+          
+          <row
+            n="rx"
+            role="regnal">
+            <cell/>
+            <cell> </cell>
+            <cell/>
+            <cell></cell>
             <cell/>
             <cell/>
             <cell>Asiae DEMETRIUS, qui et Poliorcetes, annis XVII</cell>
@@ -29700,6 +29724,7 @@
           </row>
           <row
             role="regnal">
+            <cell/>
             <cell/>
             <cell n="ptolemy-epiphanes">Aegypti V, PTOLEMAEUS EPIPHANES, annis XXIV</cell>
           </row>
