@@ -18,6 +18,13 @@ class Jerome {
         root = new XmlParser().parse(f)
     }
 
+
+    /** Finds in the parsed document the root node of 
+    * a specified era.
+    * @param id ID value of the era.
+    * @returns A parsed groovy.util.Node, or null if
+    * no matching node is found.
+    */
     groovy.util.Node getEraNode(String id) {
         groovy.util.Node era = null
         root[tei.text][tei.body][tei.div].each { div ->
@@ -29,7 +36,7 @@ class Jerome {
     }
 
 
-    /** Collect set of all filum names in the MS.
+    /** Collects a set of all filum names in the MS.
     * @returns A Set of Strings identifying fila.
     */
     Set getFilaNames() {
@@ -44,12 +51,29 @@ class Jerome {
 
 
 
-    
+    /** Creates an Era object for the era identified by id,
+    * with initial rulers for each filum set to the values
+    * mapped in initialRulers.
+    * @param id Id for the desired era.
+    * @param initialRulers Map of filum names to a (possibly
+    * empty) list of ruler names.
+    * @returns The representation as an Era object of the 
+    * requested era in Jerome's chronology.
+    */
     Era getEra(String id, LinkedHashMap initialRulers) {
         groovy.util.Node eraRoot = getEraNode(id)
         return new Era(eraRoot, initialRulers)
     }
 
+
+
+    /** Finds the id value for the era following
+    * the specified era.
+    * @param id Id of the entry after which we want
+    * find the next Id value.
+    * @returns A String id value, or an empty String
+    * if no subsequent era is found.
+    */
     String getNextEraId(String id) {
         def foundAt
         String nextId = ""
