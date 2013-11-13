@@ -9,7 +9,7 @@ class Era {
     groovy.xml.Namespace tei = new groovy.xml.Namespace("http://www.tei-c.org/ns/1.0")
 
     /** Root node of a table with one era of data */
-    groovy.util.Node eraTable
+    groovy.util.Node eraNode
 
     /** List of column types, in document order.
     * Order is significant because column number is used as
@@ -36,7 +36,7 @@ class Era {
     * 
     */
     void initRulers() {
-        eraTable[tei.table][tei.row].each { r ->
+        eraNode[tei.table][tei.row].each { r ->
             switch (r.'@role') {
                 // collect ruler names from rows with role 'regnal'
                 case "regnal":
@@ -68,10 +68,10 @@ class Era {
     * rulers.
     */
     Era(groovy.util.Node era, LinkedHashMap rulerMap) {
-        eraTable = era
+        eraNode = era
         fila = rulerMap
 
-        eraTable[tei.table][tei.row].each { r ->
+        eraNode[tei.table][tei.row].each { r ->
             switch (r.'@role') {
                 // read column roles from header @role attribute 
                 // of header row
@@ -79,7 +79,7 @@ class Era {
                     r[tei.cell].eachWithIndex { c, idx ->
                     columnTypes.add(c.'@role')
                     if (c.'@role' == null)  {
-                        System.err.println "##Era ${docNode.'@n'}: null role in col ${idx}!##"
+                        System.err.println "##Era ${eraNode.'@n'}: null role in col ${idx}!##"
                     }
                     if (c.'@role' == "filum") {
                         filumMap[idx] = c.'@n'
@@ -91,6 +91,10 @@ class Era {
                     break
             }
         }
+
+        // before adding rulers, put a placeholder in for
+        // all fila that are not carried over from previous list
+        // NS
         initRulers()
     }
 
@@ -105,7 +109,7 @@ class Era {
             }
         }
 
-        eraTable[tei.table][tei.row].each { r ->
+        eraNode[tei.table][tei.row].each { r ->
             // If a regnal row, bump any ruler counts 
             // as needed
             if (r.'@role' == 'regnal') {
@@ -146,7 +150,7 @@ class Era {
                             def filum = filumMap[idx]
                             rulerUrn = "${fila[filum][count]}"
                         }
-                        tableBuffer.append("year ${c.text()} of ${rulerUrn}\t")
+                        tableBuffer.append("year ${c.text()}: ${rulerUrn}\t")
                         break
                     }
                 }
@@ -162,12 +166,19 @@ class Era {
             // get last entry for each
             def filum = fila[ent.value]
             def rulerList = []
-            rulerList.add( filum[filum.size() - 1])
+            if (filum.size() > 0) {
+                rulerList.add( filum[filum.size() - 1])
+            } else {
+                System.err.println "empty filum list in era ${getEraId()}"
+            }
             saveRulers[ent.value] = rulerList
         }
         savedRulerMap = saveRulers
         return tableBuffer.toString()
     }
 
+    String getEraId() {
+        return eraNode.'@n'
+    }
 
 }
