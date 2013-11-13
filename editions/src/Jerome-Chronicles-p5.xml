@@ -10874,10 +10874,11 @@
             <cell/>
             <cell/>
             <cell/>
-            <cell/>
+           
             <cell>Post quem XXIII, ADRASTUS, annis IV</cell>
             <cell/>
             <cell/>
+            <cell></cell>
             <cell>Aegyptiorum, AMMENEMES, annis XXVI</cell>
             <cell/>
           </row>
@@ -11036,6 +11037,7 @@
             <cell/>
             <cell/>
             <cell/>
+            <cell></cell>
             <cell>Atheniensium XI, MENESTHEUS, [qui et] Peteo, annis XXIII.</cell>
             <cell/>
           </row>
@@ -16324,7 +16326,8 @@
             <cell/>
             <cell> Atheniensium VII, DIOGNETUS, annis XXVIII</cell>
             <cell/>
-           
+           <cell></cell>
+            <cell></cell>
             <cell>Corinthiorum VII, EUDEMUS, annis XXV.</cell>
            
           </row>
@@ -27942,8 +27945,8 @@
               role="spatium"/>
             <cell
               role="filum" n="macedonians">Macedonum</cell>
-            <cell n="asia"
-              role="filium">Asiae</cell>
+            <cell n="syria-asia"
+              role="filum">Asiae</cell>
             <cell
               role="julian"> BC</cell>
           </row>
@@ -28057,7 +28060,7 @@
             <cell
               role="filum" n="macedonians"> Macedonum</cell>
             <cell
-              role="filum" n="asia"> Asiae</cell>
+              role="filum" n="syria-asia"> Asiae</cell>
             <cell
               role="julian">B.C.</cell>
           </row>
