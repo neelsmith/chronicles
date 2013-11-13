@@ -90,4 +90,21 @@ class Jerome {
         return nextId
     }
 
+    /** Compiles an ordered list of rulers for a given filum.
+    * The filum is identified by one of the String values 
+    * returned by the getFilaNames method.
+    * @param filum String identifying the desired filum.
+    * @returns A (possibly empty) ordered list.
+    */
+    ArrayList getRulerList (String filum) {
+        ArrayList rulers = []
+        root[tei.text][tei.body][tei.div].each { div ->
+            Era era = getEra(div.'@n',[:])
+            if (era.fila.keySet().contains(filum)) {
+                rulers = rulers + era.fila[filum]                
+            }
+        }
+        return rulers
+    }
+
 }
