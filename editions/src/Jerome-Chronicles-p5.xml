@@ -11429,6 +11429,22 @@
               regnavit Demophoon.</cell>
             <cell>TROIA CAPTA</cell>
           </row>
+          
+          
+          <row role="regnal" n="rx">
+            <cell/>
+            <cell/><cell/>
+            <cell ></cell>
+            <cell/>
+            
+            <cell></cell>
+            
+            <cell><note
+              n="h"/> Menestheus moritur in Melo regrediens a capta Troja, post quem Athenis
+              regnavit Demophoon.</cell>
+            <cell></cell>
+          </row>
+          
           <milestone
             n="98/99"
             unit="helm"/>
@@ -12203,8 +12219,7 @@
             <cell/>
             <cell/>
             <cell/>
-            <cell/>
-            <cell/>
+            
             <cell>Post quem XIV, APHIDAS, anno I.</cell>
             <cell/>
            
@@ -19769,6 +19784,27 @@
             <cell>3</cell>
             <cell>733</cell>
           </row>
+       
+          <row
+            n="rx" role="regnal">
+            <cell>
+              
+            </cell>
+            
+            <cell/>
+            <cell></cell>
+            <cell>  </cell>
+            <cell></cell>
+            <cell> Post quem CLIDICUS , annis X. Annus I. </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell>  </cell>
+            <cell/>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          
+          
           <row
             n="12"
             role="olympiad">
@@ -29170,7 +29206,7 @@
             <cell
               role="filum" n="syria-asia">Syriae et Asiae</cell>
             <cell
-              role="filum" n="macedonian"> Macedonum</cell>
+              role="filum" n="macedonians"> Macedonum</cell>
             <cell
               role="julian">B.C.</cell>
           </row>
