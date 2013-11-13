@@ -24336,6 +24336,7 @@
           <row
             role="regnal">
             <cell/>
+            <cell></cell>
             <cell n="darius">Persarum III, duo fratres magi, menses VII, post quos (IV,) DARIUS, annis XXXVI </cell>
             <cell/>
           </row>
@@ -25373,12 +25374,21 @@
             <cell>38</cell>
             <cell>466</cell>
           </row>
-          <row
-            n="78.4">
+          <row role="regnal"
+            n="tx">
             <cell/>
             <cell/>
             <cell> Persarum VI, ARTABANUS, menses VII, [qui menses in ordine annus reputantur]. Post
               quem ARTAXERXES VII, qui Longimanus cognominabatur, annis XL. </cell>
+            <cell/>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row
+            n="78.4">
+            <cell/>
+            <cell/>
+            <cell> </cell>
             <cell/>
             <cell>39</cell>
             <cell>465</cell>
@@ -26408,7 +26418,10 @@
           <row
             role="regnal">
             <cell/>
-            <cell n="artaxerxes"> Persarum XI, ARTAXERXES, qui cognominatus est Mnemon, </cell>
+            <cell></cell>
+            <cell
+              n="artaxerxes"> Persarum XI, ARTAXERXES, qui cognominatus est Mnemon,  Darii et
+              Parysatidis filius, annis XL. </cell>
             <cell/>
             <cell n="archelaus"> Macedonum XIII, ARCHELAUS, annis IV. </cell>
             <cell/>
@@ -26445,7 +26458,7 @@
             role="regnal">
             <cell/>
             <cell/>
-            <cell> Darii et Parysatidis filius, annis XL. </cell>
+            <cell/>
             <cell><note
                 n="a"/>
               <seg
