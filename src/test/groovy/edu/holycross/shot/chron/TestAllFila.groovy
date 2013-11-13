@@ -7,10 +7,16 @@ class TestAllFila extends GroovyTestCase {
 
 
     String teiFile = "editions/src/Jerome-Chronicles-p5.xml"
+    Integer expectedSize = 26
 
     void testSequence() {
         Jerome j = new Jerome(new File(teiFile))
-        System.err.println j.getFilaNames()
+        def filaNames = j.getFilaNames()
+        assert filaNames.size() == expectedSize
+
+        filaNames.sort().each {
+            println it
+        }
     }
 
 }

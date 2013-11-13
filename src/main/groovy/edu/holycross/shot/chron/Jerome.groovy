@@ -28,21 +28,23 @@ class Jerome {
         return era
     }
 
+
+    /** Collect set of all filum names in the MS.
+    * @returns A Set of Strings identifying fila.
+    */
     Set getFilaNames() {
         def filaList = []
         root[tei.text][tei.body][tei.div].each { div ->
             Era era = getEra(div.'@n',[:])
-            System.err.print "era ${div.'@n'}: " + era.filumMap
             filaList =  filaList + era.filumMap.values()
-            
-            System.err.println "now have " + filaList.size() + " names"
         }
-        System.err.println "Final list: " + filaList.size() 
-        System.err.println filaList
         def filaSet = filaList as Set
         return filaSet
     }
 
+
+
+    
     Era getEra(String id, LinkedHashMap initialRulers) {
         groovy.util.Node eraRoot = getEraNode(id)
         return new Era(eraRoot, initialRulers)
