@@ -18600,7 +18600,7 @@
             <cell
               role="filum" n="athenians">Atheniensium</cell>
             <cell
-              role="filum" n="latins">Latinorum</cell>
+              role="latins" n="romans">Latinorum</cell>
             <cell
               role="filum" n="macedonians">Macedonum</cell>
             <cell
@@ -23844,7 +23844,7 @@
             <cell>548</cell>
           </row>
           <row
-            n="regnal">
+            role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -24574,6 +24574,7 @@
                 xml:id="jerome-0075">Pulsis ab Urbe regibus, vix usque ad XV lapidem Roma tenebat
                 imperium. Romanorum reges VII a Romulo usque ad Tarquinium Superbum imperaverunt
                 annis CCXL, sive, ut quibusdam placet, CCXLIII.</seg> (*)</cell>
+            <cell></cell>
             <cell>42</cell>
             <cell>512</cell>
           </row>
