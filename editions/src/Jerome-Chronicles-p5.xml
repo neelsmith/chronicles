@@ -18453,7 +18453,7 @@
             <cell role="spatium"
               n="gentile-history"/>
             <cell  role="filum"
-              n="corinthians">Lydorum</cell>
+              n="lydians">Lydorum</cell>
             <cell  role="filum"
               n="egyptians"> Aegyptiorum</cell>
             <cell role="julian"
@@ -19839,8 +19839,23 @@
             <cell> XIII Olympias </cell>
             <cell/>
             <cell/>
+            <cell></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell></cell>
+          </row>
+          
+          
+          <row
+            n="rx"
+            role="regnal">
+            <cell/>
+            <cell></cell>
+            <cell/>
+            <cell/>
             <cell><note
-                n="c"/>
+              n="c"/>
               <seg
                 type="event"
                 xml:id="jerome-0034">Romani Tatio Sabinorum rege regnante cum Romulo a Curibus
@@ -19850,6 +19865,8 @@
             <cell/>
             <cell> Lydorum III, MELES, annis XII. </cell>
           </row>
+          
+          
           <row
             n="13.1">
             <cell/>
@@ -20103,6 +20120,22 @@
             <cell/>
             
             <cell> XVI Olympias </cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell></cell>
+          </row>
+          
+          
+          <row
+            n="rxx"
+            role="regnal">
+            <cell/>
+            
+            <cell></cell>
             <cell/>
             <cell/>
             <cell/>
