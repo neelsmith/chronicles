@@ -1,5 +1,7 @@
 package edu.holycross.shot.chron
 
+import edu.harvard.chs.cite.CiteUrn
+
 class Jerome {
     
 
@@ -9,6 +11,9 @@ class Jerome {
     /** Root node of parsed TEI edition of Jerome.*/
     groovy.util.Node root
 
+    LinkedHashMap headerToUrnMap = [:]
+
+    LinkedHashMap rulersToRdfLabels = [:]
 
     /** Constructor building chronology from the
     * TEI edition in a file.
@@ -106,5 +111,90 @@ class Jerome {
         }
         return rulers
     }
+
+    // two tab-sep ed columns
+    void loadRulerIdMap(File f) {
+        f.eachLine {
+            def cols = it.split(/\t/)
+            headerToUrnMap[cols[0]] = cols[1]            
+        }
+    }
+
+    void loadRdfLabelsMap(File f) {
+        f.eachLine { l ->
+            def cols = l.split(/\t/)
+            if (cols.size() == 2) {
+                rulersToRdfLabels[cols[0]] = cols[1]            
+            } else {
+                System.err.println "Couldn't form cols from " + l
+            }
+        }
+    }
+
+
+    String synchronsToTtl(ArrayList synchrons) {
+        StringBuffer ttl = new StringBuffer()
+        synchrons.each { synList ->
+
+            def synchronizedYears = []
+            synList.each { s ->
+                CiteUrn seq
+                CiteUrn  yr
+                Integer epochCount 
+                String label
+                try  {
+                    seq = new CiteUrn(s[0])
+                    if (seq.getCollection() == "olympiadyear") {
+                        String olyYear = s[1].replace(/./,"_")
+                        def parts = olyYear.split("_")
+                        Integer olympiad = parts[0].toInteger()
+                        Integer subYear = parts[1].toInteger()
+                        epochCount = (olympiad - 1) * 4 + subYear
+                        yr = new CiteUrn("${seq}.${olyYear}")
+                        label = "Olympiad ${olympiad}, year ${subYear}"
+
+                    } else {
+                        if (s[1] != null) {
+                            yr = new CiteUrn("${seq}.${s[1]}")
+                            epochCount = s[1].toInteger()
+                        } else {
+                            System.err.println "NULL s1 in pair " + s
+                        }
+
+                        if (rulersToRdfLabels[seq.toString()]) {
+                            label = "Year ${s[1]} of ${rulersToRdfLabels[seq.toString()]}"
+                        } else {
+                            label = "NO MAPPING for ${seq} in ${rulersToRdfLabels.keySet()}"
+                        }
+                    }
+
+                    synchronizedYears.add(yr)
+
+
+                } catch (Exception e) {
+                    System.err.println "synchronsToTtl: unable to make URN pair from ${s[0]}"
+                }
+
+                if ((yr != null) && (seq != null)) { 
+                    ttl.append("\n")
+                    ttl.append( "<${yr}> olo:item ${epochCount} .\n")
+                    ttl.append("<${yr}> rdf:Label " + '"' + label + '" .\n')
+                    ttl.append("<${yr}> cite:memberOf <${seq}> .\n")
+                }
+
+            }
+            Integer max = synchronizedYears.size()  - 1
+
+            synchronizedYears.eachWithIndex { y, i ->
+                if ((y != null) && (i < max) ) {
+                    for (nxt in (i+1)..(max)) {
+                        ttl.append( "<${y}> chron:synchronizedWith <${synchronizedYears[nxt]}> . \n")
+                    }
+                }
+            }
+        }
+        return ttl.toString()
+    }
+
 
 }

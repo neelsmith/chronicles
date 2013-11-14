@@ -32,6 +32,9 @@ class Era {
     LinkedHashMap savedRulerMap = [:]
 
 
+    LinkedHashMap rulerNameMap = [:]
+
+
     /** Initialize values for ruler in fila map.
     * 
     */
@@ -99,16 +102,15 @@ class Era {
     }
 
 
-    /** Creates string with tabular representation of chronology.*/
-    String tabulate() {
-        StringBuffer tableBuffer = new StringBuffer()
+    /** Creates a list of synchronisms.*/
+    java.util.ArrayList synchronizeYears() {
+        java.util.ArrayList synchronisms = []
         def currentRulerCount = [:]
         columnTypes.eachWithIndex { c, i ->
             if (c == "filum") {
                 currentRulerCount[i] = 0
             }
         }
-
         eraNode[tei.table][tei.row].each { r ->
             // If a regnal row, bump any ruler counts 
             // as needed
@@ -123,13 +125,12 @@ class Era {
                         break
                     }
                 }
-
+                
                 // if a data row, collect data:
-            } else  if (r.'@n') {
-                tableBuffer.append( "olympiadyear: ${r.'@n'}\t")
-
+            } else  if (r.'@role' == "data") {
+                def year = []
+                year.add(["urn:cite:chron:olympiadyear","${r.'@n'}"])
                 r[tei.cell].eachWithIndex { c, idx ->
-
                     String colType = columnTypes[idx]
                     switch (colType) {
                         case "spatium":
@@ -139,22 +140,44 @@ class Era {
                             break
                         
                         case "abraham":
+                            // add these later...
                             break
                     
                         case "filum":
-                            String rulerUrn
-                        if (c.'@n') {
-                            rulerUrn = c.'@n'
-                        } else {
-                            def count = currentRulerCount[idx]
-                            def filum = filumMap[idx]
-                            rulerUrn = "${fila[filum][count]}"
+                            Integer yr = null
+                        try {
+                            yr = c.text().toInteger()
+
+                        } catch (Exception e) {
+                            System.err.println "Era: failed to convert '" + c.text() + "' to int:  ${e}"
                         }
-                        tableBuffer.append("year ${c.text()}: ${rulerUrn}\t")
+                        String ruler = null
+                        
+                        def count = currentRulerCount[idx]
+                        def filum = filumMap[idx]
+                        String label
+                        if (fila[filum]) {
+                            if (fila[filum][count]) {
+                                label = "${fila[filum][count]}".replaceAll(/[ \t\n]+/, " ")
+                            } else {
+                                System.err.println "NO record ${count} in filum ${fila[filum]}"
+                            }
+                        } else {
+                            System.err.println "NO FILUM '" + filum + "'"
+                        }
+                        if (c.'@n') {
+                            ruler = c.'@n'
+                        } else if ( rulerNameMap[label]) {
+                            ruler = rulerNameMap[label]
+                        }
+                        if (ruler != null) {
+                            year.add([ruler, yr])
+                        }
+
                         break
                     }
                 }
-                tableBuffer.append("\n")
+                synchronisms.add(year)
             }
         }
 
@@ -166,7 +189,7 @@ class Era {
             // get last entry for each
             def filum = fila[ent.value]
             def rulerList = []
-            if (filum.size() > 0) {
+            if ((filum) && (filum.size() > 0)) {
                 rulerList.add( filum[filum.size() - 1])
             } else {
                 System.err.println "empty filum list in era ${getEraId()}"
@@ -174,9 +197,15 @@ class Era {
             saveRulers[ent.value] = rulerList
         }
         savedRulerMap = saveRulers
-        return tableBuffer.toString()
+        //return tableBuffer.toString()
+
+        return synchronisms as java.util.ArrayList
     }
 
+
+    /** Gets ID string for the Era.
+    * @returns ID string.
+    */
     String getEraId() {
         return eraNode.'@n'
     }
