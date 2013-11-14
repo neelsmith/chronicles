@@ -26759,7 +26759,8 @@
             <cell/>
             <cell/>
             <cell/>
-            <cell n="amyntas2"> Post quem rursum AMYNTAS, annis XVIII. 111 </cell>
+            <cell
+              n="amyntas2"> Post quem rursum AMYNTAS, annis XVIII. </cell>
           </row>
           <row
             n="97.2">
@@ -27076,6 +27077,17 @@
             n="202"
             unit="HelmPages"/>
           <row
+            n="r102"
+            role="regnal">
+            <cell/>
+            
+            <cell> </cell>
+            <cell/>
+            <cell/>
+           
+            <cell> Post quem PTOLEMAEUS ALORITES, annis IV. </cell>
+          </row>
+          <row
             n="102"
             role="olympiad">
             <cell/>
@@ -27083,8 +27095,8 @@
             <cell> CII Olympias </cell>
             <cell/>
             <cell/>
-            <cell/>
-            <cell> Post quem PTOLEMAEUS ALORITES, annis IV. </cell>
+            
+            <cell> </cell>
           </row>
           <row
             n="102.1">
@@ -27142,11 +27154,26 @@
             <cell/>
             <cell> CIII Olympias </cell>
             <cell/>
+            <cell></cell>
+            <cell> </cell>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          
+          <row
+            n="r103"
+            role="regnal">
+            <cell/>
+            <cell>  </cell>
+            <cell/>
+            <cell></cell>
             <cell> Post quem PERDICCA, annis VI. </cell>
             <cell/>
             <cell/>
             <cell/>
           </row>
+          
           <row
             n="103.1">
             <cell/>
@@ -27361,9 +27388,7 @@
             <cell> CVI Olympias </cell>
             <cell/>
             <cell/>
-            <cell>
-              <emph/>
-            </cell>
+            <cell> </cell>
             <cell/>
             <cell/>
           </row>
@@ -30368,8 +30393,7 @@
             <cell>12</cell>
             <cell>165</cell>
           </row>
-          <row
-            role="regnal">
+          <row>
             <cell/>
             <cell/>
             <cell/>
