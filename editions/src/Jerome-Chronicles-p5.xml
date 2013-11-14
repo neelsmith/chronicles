@@ -18600,7 +18600,7 @@
             <cell
               role="filum" n="athenians">Atheniensium</cell>
             <cell
-              role="latins" n="romans">Latinorum</cell>
+              role="filum" n="latins">Latinorum</cell>
             <cell
               role="filum" n="macedonians">Macedonum</cell>
             <cell
@@ -19421,7 +19421,7 @@
             <cell
               role="filum" n="athenians">Atheniensium</cell>
             <cell
-              role="filum" n="romans">Romanorum</cell>
+              role="filum" n="latins">Romanorum</cell>
             <cell
               role="filum" n="macedonians">Macedonum</cell>
             <cell
@@ -20996,7 +20996,7 @@
             <cell
               role="spatium"/>
             <cell
-              role="filum" n="romans">Romanorum</cell>
+              role="filum" n="latins">Romanorum</cell>
             <cell
               role="filum" n="macedonians">Macedonum</cell>
             <cell
@@ -22932,7 +22932,7 @@
             <cell
               role="spatium"/>
             <cell
-              role="filum" n="romans">Romanorum</cell>
+              role="filum" n="latins">Romanorum</cell>
             <cell
               role="filum" n="macedonians">Macedonum</cell>
             <cell
@@ -23560,7 +23560,7 @@
             <cell
               role="spatium"/>
             <cell
-              role="filum" n="romans">Romanorum</cell>
+              role="filum" n="latins">Romanorum</cell>
             <cell
               role="filum" n="macedonians">Macedonum</cell>
             <cell
@@ -23897,7 +23897,7 @@
             <cell
               role="spatium"/>
             <cell
-              role="filum" n="romans">Romanorum</cell>
+              role="filum" n="latins">Romanorum</cell>
             <cell
               role="filum" n="macedonians">Macedonum</cell>
             <cell
@@ -24314,7 +24314,7 @@
             <cell
               n="c5" role="spatium"> Spatium Historicum </cell>
             <cell
-              n="romans" role="filum" > Romans </cell>
+              n="latins" role="filum" > Romans </cell>
             <cell
               n="macedonians" role="filum"> Macedonians </cell>
             <cell
@@ -24444,7 +24444,7 @@
             <cell
               role="spatium"/>
             <cell
-              role="filum" n="romans">Romanorum</cell>
+              role="filum" n="latins">Romanorum</cell>
             <cell
               role="filum" n="macedonians">Macedonum</cell>
             <cell
