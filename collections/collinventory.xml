@@ -1,6 +1,269 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="file:/data/repos/git/chronicles/collections/CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <collectionService xmlns="http://chs.harvard.edu/xmlns/cite">
+    <citeCollection canonicalId="Ruler" label="Label" urn="urn:cite:chron:j-alexandrians">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Ptolemaic kings</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Helm edition of Jerome</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Ptolemaic kings</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        <orderedBy property="Sequence"/>
+        <source type="file" value="j_alexandrians.csv"/>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="Ruler" label="Person URN" type="citeurn"/>
+        <citeProperty name="Label" label="Person" type="string"/>
+        <citeProperty name="JeromeLabel" label="Latin text of Jerome" type="string"></citeProperty>
+        
+    </citeCollection>
+    
+    <citeCollection canonicalId="Ruler" label="Label" urn="urn:cite:chron:j-romans">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Roman emperors</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Helm edition of Jerome</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Roman emperors</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        <orderedBy property="Sequence"/>
+        <source type="file" value="j_romans.csv"/>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="Ruler" label="Person URN" type="citeurn"/>
+        <citeProperty name="Label" label="Person" type="string"/>
+        <citeProperty name="JeromeLabel" label="Latin text of Jerome" type="string"></citeProperty>
+        
+    </citeCollection>
+    
+    
+    <citeCollection canonicalId="Ruler" label="Label" urn="urn:cite:chron:j-syria-asia">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Hellenistic kings of Syria and Asia</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Helm edition of Jerome</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Hellenistic kings of Syria and Asia</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        <orderedBy property="Sequence"/>
+        <source type="file" value="j_syria-asia.csv"/>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="Ruler" label="Person URN" type="citeurn"/>
+        <citeProperty name="Label" label="Person" type="string"/>
+        <citeProperty name="JeromeLabel" label="Latin text of Jerome" type="string"></citeProperty>
+        
+    </citeCollection>
+    
+    
+    <citeCollection canonicalId="Ruler" label="Label" urn="urn:cite:chron:j-sicyonians">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Sicyonian kings</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Helm edition of Jerome</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Sicyonian kings</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        <orderedBy property="Sequence"/>
+        <source type="file" value="j_sicyonians.csv"/>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="Ruler" label="Person URN" type="citeurn"/>
+        <citeProperty name="Label" label="Person" type="string"/>
+        <citeProperty name="JeromeLabel" label="Latin text of Jerome" type="string"></citeProperty>
+        
+    </citeCollection>
+    
+    
+    
+    <citeCollection canonicalId="Ruler" label="Label" urn="urn:cite:chron:j-persians">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Persian kings</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Helm edition of Jerome</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Persian kings</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        <orderedBy property="Sequence"/>
+        <source type="file" value="j_persians.csv"/>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="Ruler" label="Person URN" type="citeurn"/>
+        <citeProperty name="Label" label="Person" type="string"/>
+        <citeProperty name="JeromeLabel" label="Latin text of Jerome" type="string"></citeProperty>
+        
+    </citeCollection>
+    
+    
+    
+    <citeCollection canonicalId="Ruler" label="Label" urn="urn:cite:chron:j-mycenaeans">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Mycenaean kings</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Helm edition of Jerome</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Mycenaean kings</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        <orderedBy property="Sequence"/>
+        <source type="file" value="J_mycenaeans.csv"/>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="Ruler" label="Person URN" type="citeurn"/>
+        <citeProperty name="Label" label="Person" type="string"/>
+        <citeProperty name="JeromeLabel" label="Latin text of Jerome" type="string"></citeProperty>
+        
+    </citeCollection>
+    
+    
+    
+    <citeCollection canonicalId="Ruler" label="Label" urn="urn:cite:chron:j-medes">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Median kings</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Helm edition of Jerome</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Median kings</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        <orderedBy property="Sequence"/>
+        <source type="file" value="J_medes.csv"/>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="Ruler" label="Person URN" type="citeurn"/>
+        <citeProperty name="Label" label="Person" type="string"/>
+        <citeProperty name="JeromeLabel" label="Latin text of Jerome" type="string"></citeProperty>
+        
+    </citeCollection>
+    
+    
+    <citeCollection canonicalId="Ruler" label="Label" urn="urn:cite:chron:j-argives">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Argive kings</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Helm edition of Jerome</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Argive kings</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        <orderedBy property="Sequence"/>
+        <source type="file" value="J_argives.csv"/>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="Ruler" label="Person URN" type="citeurn"/>
+        <citeProperty name="Label" label="Person" type="string"/>
+        <citeProperty name="JeromeLabel" label="Latin text of Jerome" type="string"></citeProperty>
+        
+    </citeCollection>
+    
+    
+    
+    <citeCollection canonicalId="Ruler" label="Label" urn="urn:cite:chron:j-assyrians">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Assyrian kings</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Helm edition of Jerome</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Assyrian kings</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        <orderedBy property="Sequence"/>
+        <source type="file" value="J_assyrians.csv"/>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="Ruler" label="Person URN" type="citeurn"/>
+        <citeProperty name="Label" label="Person" type="string"/>
+        <citeProperty name="JeromeLabel" label="Latin text of Jerome" type="string"></citeProperty>
+        
+    </citeCollection>
+    
+    
+    
+    <citeCollection canonicalId="Ruler" label="Label" urn="urn:cite:chron:j-athenians">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Athenian kings</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Helm edition of Jerome</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Athenian kings</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        <orderedBy property="Sequence"/>
+        <source type="file" value="J_athenians.csv"/>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="Ruler" label="Person URN" type="citeurn"/>
+        <citeProperty name="Label" label="Person" type="string"/>
+        <citeProperty name="JeromeLabel" label="Latin text of Jerome" type="string"></citeProperty>
+        
+    </citeCollection>
+    
+    
+    
+    
+    <citeCollection canonicalId="Ruler" label="Label" urn="urn:cite:chron:j-corinthians">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Corinthian kings</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Helm edition of Jerome</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Corinthian kings</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        <orderedBy property="Sequence"/>
+        <source type="file" value="J_corinthians.csv"/>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="Ruler" label="Person URN" type="citeurn"/>
+        <citeProperty name="Label" label="Person" type="string"/>
+        <citeProperty name="JeromeLabel" label="Latin text of Jerome" type="string"></citeProperty>
+        
+    </citeCollection>
+    
+    
+    
+    
+    <citeCollection canonicalId="Ruler" label="Label" urn="urn:cite:chron:j-lacedaemonians">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Spartan kings</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Helm edition of Jerome</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Spartan kings</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        <orderedBy property="Sequence"/>
+        <source type="file" value="J_lacedaemonians.csv"/>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="Ruler" label="Person URN" type="citeurn"/>
+        <citeProperty name="Label" label="Person" type="string"/>
+        <citeProperty name="JeromeLabel" label="Latin text of Jerome" type="string"></citeProperty>
+        
+    </citeCollection>
+    
+    
+    <citeCollection canonicalId="Ruler" label="Label" urn="urn:cite:chron:j-latins">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of early Latin and Roman kings</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Helm edition of Jerome</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of early Latin and Roman kings</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        <orderedBy property="Sequence"/>
+        <source type="file" value="J_latins.csv"/>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="Ruler" label="Person URN" type="citeurn"/>
+        <citeProperty name="Label" label="Person" type="string"/>
+        <citeProperty name="JeromeLabel" label="Latin text of Jerome" type="string"></citeProperty>
+        
+    </citeCollection>
+    
+    
+    
+    <citeCollection canonicalId="Ruler" label="Label" urn="urn:cite:chron:j-lydians">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Lydian kings</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Helm edition of Jerome</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Lydian kings</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        <orderedBy property="Sequence"/>
+        <source type="file" value="J_lydians.csv"/>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="Ruler" label="Person URN" type="citeurn"/>
+        <citeProperty name="Label" label="Person" type="string"/>
+        <citeProperty name="JeromeLabel" label="Latin text of Jerome" type="string"></citeProperty>
+        
+    </citeCollection>
+    
+    
+    
+    <citeCollection canonicalId="Ruler" label="Label" urn="urn:cite:chron:j-macedonians">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Macedonian kings</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Helm edition of Jerome</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Macedonian kings</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        <orderedBy property="Sequence"/>
+        <source type="file" value="J_macedonians.csv"/>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="Ruler" label="Person URN" type="citeurn"/>
+        <citeProperty name="Label" label="Person" type="string"/>
+        <citeProperty name="JeromeLabel" label="Latin text of Jerome" type="string"></citeProperty>
+        
+    </citeCollection>
     
     
     <citeCollection canonicalId="Event" label="Label" urn="urn:cite:chron:event">
@@ -15,6 +278,24 @@
           <citeProperty name="Label" label="Event" type="string"/>
         <citeProperty name="Source" label="Example reference" type="ctsurn"></citeProperty>
     </citeCollection>
+    
+    <citeCollection canonicalId="King" label="Name" urn="urn:cite:chron:eurypontids">
+        
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Sequence of Eurypontid kings of Sparta</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Sequence from Heracles to Leotychides</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Spartan kings as attested in Herodotus and Pausanias</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        <orderedBy property="Sequence"/>
+        <source type="file" value="eurypontids.csv"/>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="King" label="Person URN" type="citeurn"/>
+        <citeProperty name="Name" label="Person" type="string"/>
+        <citeProperty name="Source" label="Example reference" type="ctsurn"></citeProperty>
+        
+    </citeCollection>
+    
     
     
     
