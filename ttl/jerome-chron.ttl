@@ -1,1174 +1,1176 @@
+
 @prefix chron:        <http://shot.holycross.edu/chron/rdf/> .
+
 
 <urn:cite:chron:olympiadyear.1_1> olo:item 1 .
 <urn:cite:chron:olympiadyear.1_1> rdf:Label "Olympiad 1, year 1" .
 <urn:cite:chron:olympiadyear.1_1> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler2.16> olo:item 16 .
-<urn:cite:chron:j-medes.ruler2.16> rdf:Label "Year 16 of Sosarmus" .
-<urn:cite:chron:j-medes.ruler2.16> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
+<urn:cite:chron:j-medes.ruler2_16> olo:item 16 .
+<urn:cite:chron:j-medes.ruler2_16> rdf:Label "Year 16 of Sosarmus" .
+<urn:cite:chron:j-medes.ruler2_16> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
 
-<urn:cite:chron:j-athenians.ruler29.3> olo:item 3 .
-<urn:cite:chron:j-athenians.ruler29.3> rdf:Label "Year 3 of Aeschylus" .
-<urn:cite:chron:j-athenians.ruler29.3> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
+<urn:cite:chron:j-athenians.ruler29_3> olo:item 3 .
+<urn:cite:chron:j-athenians.ruler29_3> rdf:Label "Year 3 of Aeschylus" .
+<urn:cite:chron:j-athenians.ruler29_3> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
 
-<urn:cite:chron:j-latins.ruler15.21> olo:item 21 .
-<urn:cite:chron:j-latins.ruler15.21> rdf:Label "Year 21 of Amulius Silvius" .
-<urn:cite:chron:j-latins.ruler15.21> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
+<urn:cite:chron:j-latins.ruler15_21> olo:item 21 .
+<urn:cite:chron:j-latins.ruler15_21> rdf:Label "Year 21 of Amulius Silvius" .
+<urn:cite:chron:j-latins.ruler15_21> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
 
-<urn:cite:chron:j-macedonians.ruler2.10> olo:item 10 .
-<urn:cite:chron:j-macedonians.ruler2.10> rdf:Label "Year 10 of Coenus" .
-<urn:cite:chron:j-macedonians.ruler2.10> cite:memberOf <urn:cite:chron:j-macedonians.ruler2> .
+<urn:cite:chron:j-macedonians.ruler2_10> olo:item 10 .
+<urn:cite:chron:j-macedonians.ruler2_10> rdf:Label "Year 10 of Coenus" .
+<urn:cite:chron:j-macedonians.ruler2_10> cite:memberOf <urn:cite:chron:j-macedonians.ruler2> .
 
-<urn:cite:chron:j-lydians.ruler1.3> olo:item 3 .
-<urn:cite:chron:j-lydians.ruler1.3> rdf:Label "Year 3 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.3> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.1_1> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2.16> . 
-<urn:cite:chron:olympiadyear.1_1> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.3> . 
-<urn:cite:chron:olympiadyear.1_1> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.21> . 
-<urn:cite:chron:olympiadyear.1_1> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler2.10> . 
-<urn:cite:chron:olympiadyear.1_1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.3> . 
-<urn:cite:chron:j-medes.ruler2.16> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.3> . 
-<urn:cite:chron:j-medes.ruler2.16> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.21> . 
-<urn:cite:chron:j-medes.ruler2.16> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler2.10> . 
-<urn:cite:chron:j-medes.ruler2.16> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.3> . 
-<urn:cite:chron:j-athenians.ruler29.3> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.21> . 
-<urn:cite:chron:j-athenians.ruler29.3> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler2.10> . 
-<urn:cite:chron:j-athenians.ruler29.3> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.3> . 
-<urn:cite:chron:j-latins.ruler15.21> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler2.10> . 
-<urn:cite:chron:j-latins.ruler15.21> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.3> . 
-<urn:cite:chron:j-macedonians.ruler2.10> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.3> . 
+<urn:cite:chron:j-lydians.ruler1_3> olo:item 3 .
+<urn:cite:chron:j-lydians.ruler1_3> rdf:Label "Year 3 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_3> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.1_1> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2_16> . 
+<urn:cite:chron:olympiadyear.1_1> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_3> . 
+<urn:cite:chron:olympiadyear.1_1> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_21> . 
+<urn:cite:chron:olympiadyear.1_1> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler2_10> . 
+<urn:cite:chron:olympiadyear.1_1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_3> . 
+<urn:cite:chron:j-medes.ruler2_16> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_3> . 
+<urn:cite:chron:j-medes.ruler2_16> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_21> . 
+<urn:cite:chron:j-medes.ruler2_16> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler2_10> . 
+<urn:cite:chron:j-medes.ruler2_16> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_3> . 
+<urn:cite:chron:j-athenians.ruler29_3> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_21> . 
+<urn:cite:chron:j-athenians.ruler29_3> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler2_10> . 
+<urn:cite:chron:j-athenians.ruler29_3> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_3> . 
+<urn:cite:chron:j-latins.ruler15_21> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler2_10> . 
+<urn:cite:chron:j-latins.ruler15_21> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_3> . 
+<urn:cite:chron:j-macedonians.ruler2_10> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_3> . 
 
 <urn:cite:chron:olympiadyear.1_2> olo:item 2 .
 <urn:cite:chron:olympiadyear.1_2> rdf:Label "Olympiad 1, year 2" .
 <urn:cite:chron:olympiadyear.1_2> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler2.17> olo:item 17 .
-<urn:cite:chron:j-medes.ruler2.17> rdf:Label "Year 17 of Sosarmus" .
-<urn:cite:chron:j-medes.ruler2.17> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
+<urn:cite:chron:j-medes.ruler2_17> olo:item 17 .
+<urn:cite:chron:j-medes.ruler2_17> rdf:Label "Year 17 of Sosarmus" .
+<urn:cite:chron:j-medes.ruler2_17> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
 
-<urn:cite:chron:j-athenians.ruler29.4> olo:item 4 .
-<urn:cite:chron:j-athenians.ruler29.4> rdf:Label "Year 4 of Aeschylus" .
-<urn:cite:chron:j-athenians.ruler29.4> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
+<urn:cite:chron:j-athenians.ruler29_4> olo:item 4 .
+<urn:cite:chron:j-athenians.ruler29_4> rdf:Label "Year 4 of Aeschylus" .
+<urn:cite:chron:j-athenians.ruler29_4> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
 
-<urn:cite:chron:j-latins.ruler15.22> olo:item 22 .
-<urn:cite:chron:j-latins.ruler15.22> rdf:Label "Year 22 of Amulius Silvius" .
-<urn:cite:chron:j-latins.ruler15.22> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
+<urn:cite:chron:j-latins.ruler15_22> olo:item 22 .
+<urn:cite:chron:j-latins.ruler15_22> rdf:Label "Year 22 of Amulius Silvius" .
+<urn:cite:chron:j-latins.ruler15_22> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
 
-<urn:cite:chron:j-macedonians.ruler2.11> olo:item 11 .
-<urn:cite:chron:j-macedonians.ruler2.11> rdf:Label "Year 11 of Coenus" .
-<urn:cite:chron:j-macedonians.ruler2.11> cite:memberOf <urn:cite:chron:j-macedonians.ruler2> .
+<urn:cite:chron:j-macedonians.ruler2_11> olo:item 11 .
+<urn:cite:chron:j-macedonians.ruler2_11> rdf:Label "Year 11 of Coenus" .
+<urn:cite:chron:j-macedonians.ruler2_11> cite:memberOf <urn:cite:chron:j-macedonians.ruler2> .
 
-<urn:cite:chron:j-lydians.ruler1.4> olo:item 4 .
-<urn:cite:chron:j-lydians.ruler1.4> rdf:Label "Year 4 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.4> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.1_2> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2.17> . 
-<urn:cite:chron:olympiadyear.1_2> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.4> . 
-<urn:cite:chron:olympiadyear.1_2> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.22> . 
-<urn:cite:chron:olympiadyear.1_2> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler2.11> . 
-<urn:cite:chron:olympiadyear.1_2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.4> . 
-<urn:cite:chron:j-medes.ruler2.17> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.4> . 
-<urn:cite:chron:j-medes.ruler2.17> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.22> . 
-<urn:cite:chron:j-medes.ruler2.17> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler2.11> . 
-<urn:cite:chron:j-medes.ruler2.17> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.4> . 
-<urn:cite:chron:j-athenians.ruler29.4> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.22> . 
-<urn:cite:chron:j-athenians.ruler29.4> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler2.11> . 
-<urn:cite:chron:j-athenians.ruler29.4> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.4> . 
-<urn:cite:chron:j-latins.ruler15.22> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler2.11> . 
-<urn:cite:chron:j-latins.ruler15.22> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.4> . 
-<urn:cite:chron:j-macedonians.ruler2.11> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.4> . 
+<urn:cite:chron:j-lydians.ruler1_4> olo:item 4 .
+<urn:cite:chron:j-lydians.ruler1_4> rdf:Label "Year 4 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_4> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.1_2> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2_17> . 
+<urn:cite:chron:olympiadyear.1_2> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_4> . 
+<urn:cite:chron:olympiadyear.1_2> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_22> . 
+<urn:cite:chron:olympiadyear.1_2> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler2_11> . 
+<urn:cite:chron:olympiadyear.1_2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_4> . 
+<urn:cite:chron:j-medes.ruler2_17> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_4> . 
+<urn:cite:chron:j-medes.ruler2_17> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_22> . 
+<urn:cite:chron:j-medes.ruler2_17> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler2_11> . 
+<urn:cite:chron:j-medes.ruler2_17> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_4> . 
+<urn:cite:chron:j-athenians.ruler29_4> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_22> . 
+<urn:cite:chron:j-athenians.ruler29_4> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler2_11> . 
+<urn:cite:chron:j-athenians.ruler29_4> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_4> . 
+<urn:cite:chron:j-latins.ruler15_22> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler2_11> . 
+<urn:cite:chron:j-latins.ruler15_22> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_4> . 
+<urn:cite:chron:j-macedonians.ruler2_11> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_4> . 
 
 <urn:cite:chron:olympiadyear.1_3> olo:item 3 .
 <urn:cite:chron:olympiadyear.1_3> rdf:Label "Olympiad 1, year 3" .
 <urn:cite:chron:olympiadyear.1_3> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler2.18> olo:item 18 .
-<urn:cite:chron:j-medes.ruler2.18> rdf:Label "Year 18 of Sosarmus" .
-<urn:cite:chron:j-medes.ruler2.18> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
+<urn:cite:chron:j-medes.ruler2_18> olo:item 18 .
+<urn:cite:chron:j-medes.ruler2_18> rdf:Label "Year 18 of Sosarmus" .
+<urn:cite:chron:j-medes.ruler2_18> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
 
-<urn:cite:chron:j-athenians.ruler29.5> olo:item 5 .
-<urn:cite:chron:j-athenians.ruler29.5> rdf:Label "Year 5 of Aeschylus" .
-<urn:cite:chron:j-athenians.ruler29.5> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
+<urn:cite:chron:j-athenians.ruler29_5> olo:item 5 .
+<urn:cite:chron:j-athenians.ruler29_5> rdf:Label "Year 5 of Aeschylus" .
+<urn:cite:chron:j-athenians.ruler29_5> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
 
-<urn:cite:chron:j-latins.ruler15.23> olo:item 23 .
-<urn:cite:chron:j-latins.ruler15.23> rdf:Label "Year 23 of Amulius Silvius" .
-<urn:cite:chron:j-latins.ruler15.23> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
+<urn:cite:chron:j-latins.ruler15_23> olo:item 23 .
+<urn:cite:chron:j-latins.ruler15_23> rdf:Label "Year 23 of Amulius Silvius" .
+<urn:cite:chron:j-latins.ruler15_23> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
 
-<urn:cite:chron:j-macedonians.ruler2.12> olo:item 12 .
-<urn:cite:chron:j-macedonians.ruler2.12> rdf:Label "Year 12 of Coenus" .
-<urn:cite:chron:j-macedonians.ruler2.12> cite:memberOf <urn:cite:chron:j-macedonians.ruler2> .
+<urn:cite:chron:j-macedonians.ruler2_12> olo:item 12 .
+<urn:cite:chron:j-macedonians.ruler2_12> rdf:Label "Year 12 of Coenus" .
+<urn:cite:chron:j-macedonians.ruler2_12> cite:memberOf <urn:cite:chron:j-macedonians.ruler2> .
 
-<urn:cite:chron:j-lydians.ruler1.5> olo:item 5 .
-<urn:cite:chron:j-lydians.ruler1.5> rdf:Label "Year 5 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.5> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.1_3> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2.18> . 
-<urn:cite:chron:olympiadyear.1_3> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.5> . 
-<urn:cite:chron:olympiadyear.1_3> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.23> . 
-<urn:cite:chron:olympiadyear.1_3> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler2.12> . 
-<urn:cite:chron:olympiadyear.1_3> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.5> . 
-<urn:cite:chron:j-medes.ruler2.18> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.5> . 
-<urn:cite:chron:j-medes.ruler2.18> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.23> . 
-<urn:cite:chron:j-medes.ruler2.18> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler2.12> . 
-<urn:cite:chron:j-medes.ruler2.18> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.5> . 
-<urn:cite:chron:j-athenians.ruler29.5> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.23> . 
-<urn:cite:chron:j-athenians.ruler29.5> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler2.12> . 
-<urn:cite:chron:j-athenians.ruler29.5> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.5> . 
-<urn:cite:chron:j-latins.ruler15.23> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler2.12> . 
-<urn:cite:chron:j-latins.ruler15.23> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.5> . 
-<urn:cite:chron:j-macedonians.ruler2.12> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.5> . 
+<urn:cite:chron:j-lydians.ruler1_5> olo:item 5 .
+<urn:cite:chron:j-lydians.ruler1_5> rdf:Label "Year 5 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_5> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.1_3> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2_18> . 
+<urn:cite:chron:olympiadyear.1_3> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_5> . 
+<urn:cite:chron:olympiadyear.1_3> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_23> . 
+<urn:cite:chron:olympiadyear.1_3> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler2_12> . 
+<urn:cite:chron:olympiadyear.1_3> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_5> . 
+<urn:cite:chron:j-medes.ruler2_18> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_5> . 
+<urn:cite:chron:j-medes.ruler2_18> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_23> . 
+<urn:cite:chron:j-medes.ruler2_18> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler2_12> . 
+<urn:cite:chron:j-medes.ruler2_18> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_5> . 
+<urn:cite:chron:j-athenians.ruler29_5> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_23> . 
+<urn:cite:chron:j-athenians.ruler29_5> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler2_12> . 
+<urn:cite:chron:j-athenians.ruler29_5> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_5> . 
+<urn:cite:chron:j-latins.ruler15_23> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler2_12> . 
+<urn:cite:chron:j-latins.ruler15_23> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_5> . 
+<urn:cite:chron:j-macedonians.ruler2_12> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_5> . 
 
 <urn:cite:chron:olympiadyear.1_4> olo:item 4 .
 <urn:cite:chron:olympiadyear.1_4> rdf:Label "Olympiad 1, year 4" .
 <urn:cite:chron:olympiadyear.1_4> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler2.19> olo:item 19 .
-<urn:cite:chron:j-medes.ruler2.19> rdf:Label "Year 19 of Sosarmus" .
-<urn:cite:chron:j-medes.ruler2.19> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
+<urn:cite:chron:j-medes.ruler2_19> olo:item 19 .
+<urn:cite:chron:j-medes.ruler2_19> rdf:Label "Year 19 of Sosarmus" .
+<urn:cite:chron:j-medes.ruler2_19> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
 
-<urn:cite:chron:j-athenians.ruler29.6> olo:item 6 .
-<urn:cite:chron:j-athenians.ruler29.6> rdf:Label "Year 6 of Aeschylus" .
-<urn:cite:chron:j-athenians.ruler29.6> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
+<urn:cite:chron:j-athenians.ruler29_6> olo:item 6 .
+<urn:cite:chron:j-athenians.ruler29_6> rdf:Label "Year 6 of Aeschylus" .
+<urn:cite:chron:j-athenians.ruler29_6> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
 
-<urn:cite:chron:j-latins.ruler15.24> olo:item 24 .
-<urn:cite:chron:j-latins.ruler15.24> rdf:Label "Year 24 of Amulius Silvius" .
-<urn:cite:chron:j-latins.ruler15.24> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
+<urn:cite:chron:j-latins.ruler15_24> olo:item 24 .
+<urn:cite:chron:j-latins.ruler15_24> rdf:Label "Year 24 of Amulius Silvius" .
+<urn:cite:chron:j-latins.ruler15_24> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
 
-<urn:cite:chron:j-macedonians.ruler3.1> olo:item 1 .
-<urn:cite:chron:j-macedonians.ruler3.1> rdf:Label "Year 1 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.1> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_1> olo:item 1 .
+<urn:cite:chron:j-macedonians.ruler3_1> rdf:Label "Year 1 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_1> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.6> olo:item 6 .
-<urn:cite:chron:j-lydians.ruler1.6> rdf:Label "Year 6 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.6> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.1_4> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2.19> . 
-<urn:cite:chron:olympiadyear.1_4> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.6> . 
-<urn:cite:chron:olympiadyear.1_4> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.24> . 
-<urn:cite:chron:olympiadyear.1_4> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.1> . 
-<urn:cite:chron:olympiadyear.1_4> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.6> . 
-<urn:cite:chron:j-medes.ruler2.19> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.6> . 
-<urn:cite:chron:j-medes.ruler2.19> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.24> . 
-<urn:cite:chron:j-medes.ruler2.19> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.1> . 
-<urn:cite:chron:j-medes.ruler2.19> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.6> . 
-<urn:cite:chron:j-athenians.ruler29.6> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.24> . 
-<urn:cite:chron:j-athenians.ruler29.6> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.1> . 
-<urn:cite:chron:j-athenians.ruler29.6> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.6> . 
-<urn:cite:chron:j-latins.ruler15.24> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.1> . 
-<urn:cite:chron:j-latins.ruler15.24> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.6> . 
-<urn:cite:chron:j-macedonians.ruler3.1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.6> . 
+<urn:cite:chron:j-lydians.ruler1_6> olo:item 6 .
+<urn:cite:chron:j-lydians.ruler1_6> rdf:Label "Year 6 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_6> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.1_4> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2_19> . 
+<urn:cite:chron:olympiadyear.1_4> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_6> . 
+<urn:cite:chron:olympiadyear.1_4> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_24> . 
+<urn:cite:chron:olympiadyear.1_4> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_1> . 
+<urn:cite:chron:olympiadyear.1_4> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_6> . 
+<urn:cite:chron:j-medes.ruler2_19> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_6> . 
+<urn:cite:chron:j-medes.ruler2_19> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_24> . 
+<urn:cite:chron:j-medes.ruler2_19> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_1> . 
+<urn:cite:chron:j-medes.ruler2_19> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_6> . 
+<urn:cite:chron:j-athenians.ruler29_6> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_24> . 
+<urn:cite:chron:j-athenians.ruler29_6> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_1> . 
+<urn:cite:chron:j-athenians.ruler29_6> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_6> . 
+<urn:cite:chron:j-latins.ruler15_24> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_1> . 
+<urn:cite:chron:j-latins.ruler15_24> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_6> . 
+<urn:cite:chron:j-macedonians.ruler3_1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_6> . 
 
 <urn:cite:chron:olympiadyear.2_1> olo:item 5 .
 <urn:cite:chron:olympiadyear.2_1> rdf:Label "Olympiad 2, year 1" .
 <urn:cite:chron:olympiadyear.2_1> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler2.20> olo:item 20 .
-<urn:cite:chron:j-medes.ruler2.20> rdf:Label "Year 20 of Sosarmus" .
-<urn:cite:chron:j-medes.ruler2.20> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
+<urn:cite:chron:j-medes.ruler2_20> olo:item 20 .
+<urn:cite:chron:j-medes.ruler2_20> rdf:Label "Year 20 of Sosarmus" .
+<urn:cite:chron:j-medes.ruler2_20> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
 
-<urn:cite:chron:j-athenians.ruler29.7> olo:item 7 .
-<urn:cite:chron:j-athenians.ruler29.7> rdf:Label "Year 7 of Aeschylus" .
-<urn:cite:chron:j-athenians.ruler29.7> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
+<urn:cite:chron:j-athenians.ruler29_7> olo:item 7 .
+<urn:cite:chron:j-athenians.ruler29_7> rdf:Label "Year 7 of Aeschylus" .
+<urn:cite:chron:j-athenians.ruler29_7> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
 
-<urn:cite:chron:j-latins.ruler15.25> olo:item 25 .
-<urn:cite:chron:j-latins.ruler15.25> rdf:Label "Year 25 of Amulius Silvius" .
-<urn:cite:chron:j-latins.ruler15.25> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
+<urn:cite:chron:j-latins.ruler15_25> olo:item 25 .
+<urn:cite:chron:j-latins.ruler15_25> rdf:Label "Year 25 of Amulius Silvius" .
+<urn:cite:chron:j-latins.ruler15_25> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
 
-<urn:cite:chron:j-macedonians.ruler3.2> olo:item 2 .
-<urn:cite:chron:j-macedonians.ruler3.2> rdf:Label "Year 2 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.2> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_2> olo:item 2 .
+<urn:cite:chron:j-macedonians.ruler3_2> rdf:Label "Year 2 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_2> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.7> olo:item 7 .
-<urn:cite:chron:j-lydians.ruler1.7> rdf:Label "Year 7 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.7> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.2_1> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2.20> . 
-<urn:cite:chron:olympiadyear.2_1> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.7> . 
-<urn:cite:chron:olympiadyear.2_1> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.25> . 
-<urn:cite:chron:olympiadyear.2_1> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.2> . 
-<urn:cite:chron:olympiadyear.2_1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.7> . 
-<urn:cite:chron:j-medes.ruler2.20> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.7> . 
-<urn:cite:chron:j-medes.ruler2.20> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.25> . 
-<urn:cite:chron:j-medes.ruler2.20> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.2> . 
-<urn:cite:chron:j-medes.ruler2.20> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.7> . 
-<urn:cite:chron:j-athenians.ruler29.7> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.25> . 
-<urn:cite:chron:j-athenians.ruler29.7> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.2> . 
-<urn:cite:chron:j-athenians.ruler29.7> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.7> . 
-<urn:cite:chron:j-latins.ruler15.25> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.2> . 
-<urn:cite:chron:j-latins.ruler15.25> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.7> . 
-<urn:cite:chron:j-macedonians.ruler3.2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.7> . 
+<urn:cite:chron:j-lydians.ruler1_7> olo:item 7 .
+<urn:cite:chron:j-lydians.ruler1_7> rdf:Label "Year 7 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_7> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.2_1> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2_20> . 
+<urn:cite:chron:olympiadyear.2_1> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_7> . 
+<urn:cite:chron:olympiadyear.2_1> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_25> . 
+<urn:cite:chron:olympiadyear.2_1> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_2> . 
+<urn:cite:chron:olympiadyear.2_1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_7> . 
+<urn:cite:chron:j-medes.ruler2_20> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_7> . 
+<urn:cite:chron:j-medes.ruler2_20> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_25> . 
+<urn:cite:chron:j-medes.ruler2_20> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_2> . 
+<urn:cite:chron:j-medes.ruler2_20> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_7> . 
+<urn:cite:chron:j-athenians.ruler29_7> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_25> . 
+<urn:cite:chron:j-athenians.ruler29_7> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_2> . 
+<urn:cite:chron:j-athenians.ruler29_7> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_7> . 
+<urn:cite:chron:j-latins.ruler15_25> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_2> . 
+<urn:cite:chron:j-latins.ruler15_25> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_7> . 
+<urn:cite:chron:j-macedonians.ruler3_2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_7> . 
 
 <urn:cite:chron:olympiadyear.2_2> olo:item 6 .
 <urn:cite:chron:olympiadyear.2_2> rdf:Label "Olympiad 2, year 2" .
 <urn:cite:chron:olympiadyear.2_2> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler2.21> olo:item 21 .
-<urn:cite:chron:j-medes.ruler2.21> rdf:Label "Year 21 of Sosarmus" .
-<urn:cite:chron:j-medes.ruler2.21> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
+<urn:cite:chron:j-medes.ruler2_21> olo:item 21 .
+<urn:cite:chron:j-medes.ruler2_21> rdf:Label "Year 21 of Sosarmus" .
+<urn:cite:chron:j-medes.ruler2_21> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
 
-<urn:cite:chron:j-athenians.ruler29.8> olo:item 8 .
-<urn:cite:chron:j-athenians.ruler29.8> rdf:Label "Year 8 of Aeschylus" .
-<urn:cite:chron:j-athenians.ruler29.8> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
+<urn:cite:chron:j-athenians.ruler29_8> olo:item 8 .
+<urn:cite:chron:j-athenians.ruler29_8> rdf:Label "Year 8 of Aeschylus" .
+<urn:cite:chron:j-athenians.ruler29_8> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
 
-<urn:cite:chron:j-latins.ruler15.26> olo:item 26 .
-<urn:cite:chron:j-latins.ruler15.26> rdf:Label "Year 26 of Amulius Silvius" .
-<urn:cite:chron:j-latins.ruler15.26> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
+<urn:cite:chron:j-latins.ruler15_26> olo:item 26 .
+<urn:cite:chron:j-latins.ruler15_26> rdf:Label "Year 26 of Amulius Silvius" .
+<urn:cite:chron:j-latins.ruler15_26> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
 
-<urn:cite:chron:j-macedonians.ruler3.3> olo:item 3 .
-<urn:cite:chron:j-macedonians.ruler3.3> rdf:Label "Year 3 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.3> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_3> olo:item 3 .
+<urn:cite:chron:j-macedonians.ruler3_3> rdf:Label "Year 3 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_3> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.8> olo:item 8 .
-<urn:cite:chron:j-lydians.ruler1.8> rdf:Label "Year 8 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.8> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.2_2> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2.21> . 
-<urn:cite:chron:olympiadyear.2_2> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.8> . 
-<urn:cite:chron:olympiadyear.2_2> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.26> . 
-<urn:cite:chron:olympiadyear.2_2> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.3> . 
-<urn:cite:chron:olympiadyear.2_2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.8> . 
-<urn:cite:chron:j-medes.ruler2.21> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.8> . 
-<urn:cite:chron:j-medes.ruler2.21> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.26> . 
-<urn:cite:chron:j-medes.ruler2.21> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.3> . 
-<urn:cite:chron:j-medes.ruler2.21> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.8> . 
-<urn:cite:chron:j-athenians.ruler29.8> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.26> . 
-<urn:cite:chron:j-athenians.ruler29.8> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.3> . 
-<urn:cite:chron:j-athenians.ruler29.8> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.8> . 
-<urn:cite:chron:j-latins.ruler15.26> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.3> . 
-<urn:cite:chron:j-latins.ruler15.26> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.8> . 
-<urn:cite:chron:j-macedonians.ruler3.3> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.8> . 
+<urn:cite:chron:j-lydians.ruler1_8> olo:item 8 .
+<urn:cite:chron:j-lydians.ruler1_8> rdf:Label "Year 8 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_8> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.2_2> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2_21> . 
+<urn:cite:chron:olympiadyear.2_2> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_8> . 
+<urn:cite:chron:olympiadyear.2_2> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_26> . 
+<urn:cite:chron:olympiadyear.2_2> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_3> . 
+<urn:cite:chron:olympiadyear.2_2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_8> . 
+<urn:cite:chron:j-medes.ruler2_21> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_8> . 
+<urn:cite:chron:j-medes.ruler2_21> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_26> . 
+<urn:cite:chron:j-medes.ruler2_21> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_3> . 
+<urn:cite:chron:j-medes.ruler2_21> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_8> . 
+<urn:cite:chron:j-athenians.ruler29_8> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_26> . 
+<urn:cite:chron:j-athenians.ruler29_8> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_3> . 
+<urn:cite:chron:j-athenians.ruler29_8> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_8> . 
+<urn:cite:chron:j-latins.ruler15_26> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_3> . 
+<urn:cite:chron:j-latins.ruler15_26> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_8> . 
+<urn:cite:chron:j-macedonians.ruler3_3> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_8> . 
 
 <urn:cite:chron:olympiadyear.2_3> olo:item 7 .
 <urn:cite:chron:olympiadyear.2_3> rdf:Label "Olympiad 2, year 3" .
 <urn:cite:chron:olympiadyear.2_3> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler2.22> olo:item 22 .
-<urn:cite:chron:j-medes.ruler2.22> rdf:Label "Year 22 of Sosarmus" .
-<urn:cite:chron:j-medes.ruler2.22> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
+<urn:cite:chron:j-medes.ruler2_22> olo:item 22 .
+<urn:cite:chron:j-medes.ruler2_22> rdf:Label "Year 22 of Sosarmus" .
+<urn:cite:chron:j-medes.ruler2_22> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
 
-<urn:cite:chron:j-athenians.ruler29.9> olo:item 9 .
-<urn:cite:chron:j-athenians.ruler29.9> rdf:Label "Year 9 of Aeschylus" .
-<urn:cite:chron:j-athenians.ruler29.9> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
+<urn:cite:chron:j-athenians.ruler29_9> olo:item 9 .
+<urn:cite:chron:j-athenians.ruler29_9> rdf:Label "Year 9 of Aeschylus" .
+<urn:cite:chron:j-athenians.ruler29_9> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
 
-<urn:cite:chron:j-latins.ruler15.27> olo:item 27 .
-<urn:cite:chron:j-latins.ruler15.27> rdf:Label "Year 27 of Amulius Silvius" .
-<urn:cite:chron:j-latins.ruler15.27> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
+<urn:cite:chron:j-latins.ruler15_27> olo:item 27 .
+<urn:cite:chron:j-latins.ruler15_27> rdf:Label "Year 27 of Amulius Silvius" .
+<urn:cite:chron:j-latins.ruler15_27> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
 
-<urn:cite:chron:j-macedonians.ruler3.4> olo:item 4 .
-<urn:cite:chron:j-macedonians.ruler3.4> rdf:Label "Year 4 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.4> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_4> olo:item 4 .
+<urn:cite:chron:j-macedonians.ruler3_4> rdf:Label "Year 4 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_4> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.9> olo:item 9 .
-<urn:cite:chron:j-lydians.ruler1.9> rdf:Label "Year 9 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.9> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.2_3> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2.22> . 
-<urn:cite:chron:olympiadyear.2_3> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.9> . 
-<urn:cite:chron:olympiadyear.2_3> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.27> . 
-<urn:cite:chron:olympiadyear.2_3> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.4> . 
-<urn:cite:chron:olympiadyear.2_3> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.9> . 
-<urn:cite:chron:j-medes.ruler2.22> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.9> . 
-<urn:cite:chron:j-medes.ruler2.22> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.27> . 
-<urn:cite:chron:j-medes.ruler2.22> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.4> . 
-<urn:cite:chron:j-medes.ruler2.22> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.9> . 
-<urn:cite:chron:j-athenians.ruler29.9> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.27> . 
-<urn:cite:chron:j-athenians.ruler29.9> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.4> . 
-<urn:cite:chron:j-athenians.ruler29.9> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.9> . 
-<urn:cite:chron:j-latins.ruler15.27> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.4> . 
-<urn:cite:chron:j-latins.ruler15.27> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.9> . 
-<urn:cite:chron:j-macedonians.ruler3.4> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.9> . 
+<urn:cite:chron:j-lydians.ruler1_9> olo:item 9 .
+<urn:cite:chron:j-lydians.ruler1_9> rdf:Label "Year 9 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_9> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.2_3> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2_22> . 
+<urn:cite:chron:olympiadyear.2_3> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_9> . 
+<urn:cite:chron:olympiadyear.2_3> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_27> . 
+<urn:cite:chron:olympiadyear.2_3> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_4> . 
+<urn:cite:chron:olympiadyear.2_3> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_9> . 
+<urn:cite:chron:j-medes.ruler2_22> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_9> . 
+<urn:cite:chron:j-medes.ruler2_22> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_27> . 
+<urn:cite:chron:j-medes.ruler2_22> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_4> . 
+<urn:cite:chron:j-medes.ruler2_22> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_9> . 
+<urn:cite:chron:j-athenians.ruler29_9> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_27> . 
+<urn:cite:chron:j-athenians.ruler29_9> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_4> . 
+<urn:cite:chron:j-athenians.ruler29_9> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_9> . 
+<urn:cite:chron:j-latins.ruler15_27> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_4> . 
+<urn:cite:chron:j-latins.ruler15_27> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_9> . 
+<urn:cite:chron:j-macedonians.ruler3_4> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_9> . 
 
 <urn:cite:chron:olympiadyear.2_4> olo:item 8 .
 <urn:cite:chron:olympiadyear.2_4> rdf:Label "Olympiad 2, year 4" .
 <urn:cite:chron:olympiadyear.2_4> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler2.23> olo:item 23 .
-<urn:cite:chron:j-medes.ruler2.23> rdf:Label "Year 23 of Sosarmus" .
-<urn:cite:chron:j-medes.ruler2.23> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
+<urn:cite:chron:j-medes.ruler2_23> olo:item 23 .
+<urn:cite:chron:j-medes.ruler2_23> rdf:Label "Year 23 of Sosarmus" .
+<urn:cite:chron:j-medes.ruler2_23> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
 
-<urn:cite:chron:j-athenians.ruler29.10> olo:item 10 .
-<urn:cite:chron:j-athenians.ruler29.10> rdf:Label "Year 10 of Aeschylus" .
-<urn:cite:chron:j-athenians.ruler29.10> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
+<urn:cite:chron:j-athenians.ruler29_10> olo:item 10 .
+<urn:cite:chron:j-athenians.ruler29_10> rdf:Label "Year 10 of Aeschylus" .
+<urn:cite:chron:j-athenians.ruler29_10> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
 
-<urn:cite:chron:j-latins.ruler15.28> olo:item 28 .
-<urn:cite:chron:j-latins.ruler15.28> rdf:Label "Year 28 of Amulius Silvius" .
-<urn:cite:chron:j-latins.ruler15.28> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
+<urn:cite:chron:j-latins.ruler15_28> olo:item 28 .
+<urn:cite:chron:j-latins.ruler15_28> rdf:Label "Year 28 of Amulius Silvius" .
+<urn:cite:chron:j-latins.ruler15_28> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
 
-<urn:cite:chron:j-macedonians.ruler3.5> olo:item 5 .
-<urn:cite:chron:j-macedonians.ruler3.5> rdf:Label "Year 5 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.5> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_5> olo:item 5 .
+<urn:cite:chron:j-macedonians.ruler3_5> rdf:Label "Year 5 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_5> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.10> olo:item 10 .
-<urn:cite:chron:j-lydians.ruler1.10> rdf:Label "Year 10 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.10> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.2_4> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2.23> . 
-<urn:cite:chron:olympiadyear.2_4> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.10> . 
-<urn:cite:chron:olympiadyear.2_4> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.28> . 
-<urn:cite:chron:olympiadyear.2_4> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.5> . 
-<urn:cite:chron:olympiadyear.2_4> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.10> . 
-<urn:cite:chron:j-medes.ruler2.23> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.10> . 
-<urn:cite:chron:j-medes.ruler2.23> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.28> . 
-<urn:cite:chron:j-medes.ruler2.23> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.5> . 
-<urn:cite:chron:j-medes.ruler2.23> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.10> . 
-<urn:cite:chron:j-athenians.ruler29.10> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.28> . 
-<urn:cite:chron:j-athenians.ruler29.10> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.5> . 
-<urn:cite:chron:j-athenians.ruler29.10> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.10> . 
-<urn:cite:chron:j-latins.ruler15.28> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.5> . 
-<urn:cite:chron:j-latins.ruler15.28> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.10> . 
-<urn:cite:chron:j-macedonians.ruler3.5> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.10> . 
+<urn:cite:chron:j-lydians.ruler1_10> olo:item 10 .
+<urn:cite:chron:j-lydians.ruler1_10> rdf:Label "Year 10 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_10> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.2_4> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2_23> . 
+<urn:cite:chron:olympiadyear.2_4> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_10> . 
+<urn:cite:chron:olympiadyear.2_4> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_28> . 
+<urn:cite:chron:olympiadyear.2_4> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_5> . 
+<urn:cite:chron:olympiadyear.2_4> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_10> . 
+<urn:cite:chron:j-medes.ruler2_23> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_10> . 
+<urn:cite:chron:j-medes.ruler2_23> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_28> . 
+<urn:cite:chron:j-medes.ruler2_23> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_5> . 
+<urn:cite:chron:j-medes.ruler2_23> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_10> . 
+<urn:cite:chron:j-athenians.ruler29_10> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_28> . 
+<urn:cite:chron:j-athenians.ruler29_10> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_5> . 
+<urn:cite:chron:j-athenians.ruler29_10> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_10> . 
+<urn:cite:chron:j-latins.ruler15_28> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_5> . 
+<urn:cite:chron:j-latins.ruler15_28> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_10> . 
+<urn:cite:chron:j-macedonians.ruler3_5> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_10> . 
 
 <urn:cite:chron:olympiadyear.3_1> olo:item 9 .
 <urn:cite:chron:olympiadyear.3_1> rdf:Label "Olympiad 3, year 1" .
 <urn:cite:chron:olympiadyear.3_1> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler2.24> olo:item 24 .
-<urn:cite:chron:j-medes.ruler2.24> rdf:Label "Year 24 of Sosarmus" .
-<urn:cite:chron:j-medes.ruler2.24> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
+<urn:cite:chron:j-medes.ruler2_24> olo:item 24 .
+<urn:cite:chron:j-medes.ruler2_24> rdf:Label "Year 24 of Sosarmus" .
+<urn:cite:chron:j-medes.ruler2_24> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
 
-<urn:cite:chron:j-athenians.ruler29.11> olo:item 11 .
-<urn:cite:chron:j-athenians.ruler29.11> rdf:Label "Year 11 of Aeschylus" .
-<urn:cite:chron:j-athenians.ruler29.11> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
+<urn:cite:chron:j-athenians.ruler29_11> olo:item 11 .
+<urn:cite:chron:j-athenians.ruler29_11> rdf:Label "Year 11 of Aeschylus" .
+<urn:cite:chron:j-athenians.ruler29_11> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
 
-<urn:cite:chron:j-latins.ruler15.29> olo:item 29 .
-<urn:cite:chron:j-latins.ruler15.29> rdf:Label "Year 29 of Amulius Silvius" .
-<urn:cite:chron:j-latins.ruler15.29> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
+<urn:cite:chron:j-latins.ruler15_29> olo:item 29 .
+<urn:cite:chron:j-latins.ruler15_29> rdf:Label "Year 29 of Amulius Silvius" .
+<urn:cite:chron:j-latins.ruler15_29> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
 
-<urn:cite:chron:j-macedonians.ruler3.6> olo:item 6 .
-<urn:cite:chron:j-macedonians.ruler3.6> rdf:Label "Year 6 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.6> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_6> olo:item 6 .
+<urn:cite:chron:j-macedonians.ruler3_6> rdf:Label "Year 6 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_6> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.11> olo:item 11 .
-<urn:cite:chron:j-lydians.ruler1.11> rdf:Label "Year 11 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.11> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.3_1> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2.24> . 
-<urn:cite:chron:olympiadyear.3_1> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.11> . 
-<urn:cite:chron:olympiadyear.3_1> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.29> . 
-<urn:cite:chron:olympiadyear.3_1> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.6> . 
-<urn:cite:chron:olympiadyear.3_1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.11> . 
-<urn:cite:chron:j-medes.ruler2.24> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.11> . 
-<urn:cite:chron:j-medes.ruler2.24> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.29> . 
-<urn:cite:chron:j-medes.ruler2.24> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.6> . 
-<urn:cite:chron:j-medes.ruler2.24> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.11> . 
-<urn:cite:chron:j-athenians.ruler29.11> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.29> . 
-<urn:cite:chron:j-athenians.ruler29.11> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.6> . 
-<urn:cite:chron:j-athenians.ruler29.11> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.11> . 
-<urn:cite:chron:j-latins.ruler15.29> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.6> . 
-<urn:cite:chron:j-latins.ruler15.29> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.11> . 
-<urn:cite:chron:j-macedonians.ruler3.6> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.11> . 
+<urn:cite:chron:j-lydians.ruler1_11> olo:item 11 .
+<urn:cite:chron:j-lydians.ruler1_11> rdf:Label "Year 11 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_11> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.3_1> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2_24> . 
+<urn:cite:chron:olympiadyear.3_1> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_11> . 
+<urn:cite:chron:olympiadyear.3_1> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_29> . 
+<urn:cite:chron:olympiadyear.3_1> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_6> . 
+<urn:cite:chron:olympiadyear.3_1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_11> . 
+<urn:cite:chron:j-medes.ruler2_24> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_11> . 
+<urn:cite:chron:j-medes.ruler2_24> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_29> . 
+<urn:cite:chron:j-medes.ruler2_24> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_6> . 
+<urn:cite:chron:j-medes.ruler2_24> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_11> . 
+<urn:cite:chron:j-athenians.ruler29_11> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_29> . 
+<urn:cite:chron:j-athenians.ruler29_11> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_6> . 
+<urn:cite:chron:j-athenians.ruler29_11> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_11> . 
+<urn:cite:chron:j-latins.ruler15_29> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_6> . 
+<urn:cite:chron:j-latins.ruler15_29> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_11> . 
+<urn:cite:chron:j-macedonians.ruler3_6> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_11> . 
 
 <urn:cite:chron:olympiadyear.3_2> olo:item 10 .
 <urn:cite:chron:olympiadyear.3_2> rdf:Label "Olympiad 3, year 2" .
 <urn:cite:chron:olympiadyear.3_2> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler2.25> olo:item 25 .
-<urn:cite:chron:j-medes.ruler2.25> rdf:Label "Year 25 of Sosarmus" .
-<urn:cite:chron:j-medes.ruler2.25> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
+<urn:cite:chron:j-medes.ruler2_25> olo:item 25 .
+<urn:cite:chron:j-medes.ruler2_25> rdf:Label "Year 25 of Sosarmus" .
+<urn:cite:chron:j-medes.ruler2_25> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
 
-<urn:cite:chron:j-athenians.ruler29.12> olo:item 12 .
-<urn:cite:chron:j-athenians.ruler29.12> rdf:Label "Year 12 of Aeschylus" .
-<urn:cite:chron:j-athenians.ruler29.12> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
+<urn:cite:chron:j-athenians.ruler29_12> olo:item 12 .
+<urn:cite:chron:j-athenians.ruler29_12> rdf:Label "Year 12 of Aeschylus" .
+<urn:cite:chron:j-athenians.ruler29_12> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
 
-<urn:cite:chron:j-latins.ruler15.30> olo:item 30 .
-<urn:cite:chron:j-latins.ruler15.30> rdf:Label "Year 30 of Amulius Silvius" .
-<urn:cite:chron:j-latins.ruler15.30> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
+<urn:cite:chron:j-latins.ruler15_30> olo:item 30 .
+<urn:cite:chron:j-latins.ruler15_30> rdf:Label "Year 30 of Amulius Silvius" .
+<urn:cite:chron:j-latins.ruler15_30> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
 
-<urn:cite:chron:j-macedonians.ruler3.7> olo:item 7 .
-<urn:cite:chron:j-macedonians.ruler3.7> rdf:Label "Year 7 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.7> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_7> olo:item 7 .
+<urn:cite:chron:j-macedonians.ruler3_7> rdf:Label "Year 7 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_7> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.12> olo:item 12 .
-<urn:cite:chron:j-lydians.ruler1.12> rdf:Label "Year 12 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.12> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.3_2> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2.25> . 
-<urn:cite:chron:olympiadyear.3_2> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.12> . 
-<urn:cite:chron:olympiadyear.3_2> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.30> . 
-<urn:cite:chron:olympiadyear.3_2> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.7> . 
-<urn:cite:chron:olympiadyear.3_2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.12> . 
-<urn:cite:chron:j-medes.ruler2.25> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.12> . 
-<urn:cite:chron:j-medes.ruler2.25> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.30> . 
-<urn:cite:chron:j-medes.ruler2.25> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.7> . 
-<urn:cite:chron:j-medes.ruler2.25> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.12> . 
-<urn:cite:chron:j-athenians.ruler29.12> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.30> . 
-<urn:cite:chron:j-athenians.ruler29.12> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.7> . 
-<urn:cite:chron:j-athenians.ruler29.12> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.12> . 
-<urn:cite:chron:j-latins.ruler15.30> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.7> . 
-<urn:cite:chron:j-latins.ruler15.30> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.12> . 
-<urn:cite:chron:j-macedonians.ruler3.7> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.12> . 
+<urn:cite:chron:j-lydians.ruler1_12> olo:item 12 .
+<urn:cite:chron:j-lydians.ruler1_12> rdf:Label "Year 12 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_12> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.3_2> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2_25> . 
+<urn:cite:chron:olympiadyear.3_2> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_12> . 
+<urn:cite:chron:olympiadyear.3_2> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_30> . 
+<urn:cite:chron:olympiadyear.3_2> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_7> . 
+<urn:cite:chron:olympiadyear.3_2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_12> . 
+<urn:cite:chron:j-medes.ruler2_25> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_12> . 
+<urn:cite:chron:j-medes.ruler2_25> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_30> . 
+<urn:cite:chron:j-medes.ruler2_25> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_7> . 
+<urn:cite:chron:j-medes.ruler2_25> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_12> . 
+<urn:cite:chron:j-athenians.ruler29_12> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_30> . 
+<urn:cite:chron:j-athenians.ruler29_12> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_7> . 
+<urn:cite:chron:j-athenians.ruler29_12> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_12> . 
+<urn:cite:chron:j-latins.ruler15_30> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_7> . 
+<urn:cite:chron:j-latins.ruler15_30> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_12> . 
+<urn:cite:chron:j-macedonians.ruler3_7> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_12> . 
 
 <urn:cite:chron:olympiadyear.3_3> olo:item 11 .
 <urn:cite:chron:olympiadyear.3_3> rdf:Label "Olympiad 3, year 3" .
 <urn:cite:chron:olympiadyear.3_3> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler2.26> olo:item 26 .
-<urn:cite:chron:j-medes.ruler2.26> rdf:Label "Year 26 of Sosarmus" .
-<urn:cite:chron:j-medes.ruler2.26> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
+<urn:cite:chron:j-medes.ruler2_26> olo:item 26 .
+<urn:cite:chron:j-medes.ruler2_26> rdf:Label "Year 26 of Sosarmus" .
+<urn:cite:chron:j-medes.ruler2_26> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
 
-<urn:cite:chron:j-athenians.ruler29.13> olo:item 13 .
-<urn:cite:chron:j-athenians.ruler29.13> rdf:Label "Year 13 of Aeschylus" .
-<urn:cite:chron:j-athenians.ruler29.13> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
+<urn:cite:chron:j-athenians.ruler29_13> olo:item 13 .
+<urn:cite:chron:j-athenians.ruler29_13> rdf:Label "Year 13 of Aeschylus" .
+<urn:cite:chron:j-athenians.ruler29_13> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
 
-<urn:cite:chron:j-latins.ruler15.31> olo:item 31 .
-<urn:cite:chron:j-latins.ruler15.31> rdf:Label "Year 31 of Amulius Silvius" .
-<urn:cite:chron:j-latins.ruler15.31> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
+<urn:cite:chron:j-latins.ruler15_31> olo:item 31 .
+<urn:cite:chron:j-latins.ruler15_31> rdf:Label "Year 31 of Amulius Silvius" .
+<urn:cite:chron:j-latins.ruler15_31> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
 
-<urn:cite:chron:j-macedonians.ruler3.8> olo:item 8 .
-<urn:cite:chron:j-macedonians.ruler3.8> rdf:Label "Year 8 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.8> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_8> olo:item 8 .
+<urn:cite:chron:j-macedonians.ruler3_8> rdf:Label "Year 8 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_8> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.13> olo:item 13 .
-<urn:cite:chron:j-lydians.ruler1.13> rdf:Label "Year 13 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.13> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.3_3> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2.26> . 
-<urn:cite:chron:olympiadyear.3_3> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.13> . 
-<urn:cite:chron:olympiadyear.3_3> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.31> . 
-<urn:cite:chron:olympiadyear.3_3> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.8> . 
-<urn:cite:chron:olympiadyear.3_3> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.13> . 
-<urn:cite:chron:j-medes.ruler2.26> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.13> . 
-<urn:cite:chron:j-medes.ruler2.26> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.31> . 
-<urn:cite:chron:j-medes.ruler2.26> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.8> . 
-<urn:cite:chron:j-medes.ruler2.26> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.13> . 
-<urn:cite:chron:j-athenians.ruler29.13> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.31> . 
-<urn:cite:chron:j-athenians.ruler29.13> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.8> . 
-<urn:cite:chron:j-athenians.ruler29.13> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.13> . 
-<urn:cite:chron:j-latins.ruler15.31> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.8> . 
-<urn:cite:chron:j-latins.ruler15.31> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.13> . 
-<urn:cite:chron:j-macedonians.ruler3.8> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.13> . 
+<urn:cite:chron:j-lydians.ruler1_13> olo:item 13 .
+<urn:cite:chron:j-lydians.ruler1_13> rdf:Label "Year 13 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_13> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.3_3> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2_26> . 
+<urn:cite:chron:olympiadyear.3_3> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_13> . 
+<urn:cite:chron:olympiadyear.3_3> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_31> . 
+<urn:cite:chron:olympiadyear.3_3> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_8> . 
+<urn:cite:chron:olympiadyear.3_3> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_13> . 
+<urn:cite:chron:j-medes.ruler2_26> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_13> . 
+<urn:cite:chron:j-medes.ruler2_26> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_31> . 
+<urn:cite:chron:j-medes.ruler2_26> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_8> . 
+<urn:cite:chron:j-medes.ruler2_26> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_13> . 
+<urn:cite:chron:j-athenians.ruler29_13> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_31> . 
+<urn:cite:chron:j-athenians.ruler29_13> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_8> . 
+<urn:cite:chron:j-athenians.ruler29_13> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_13> . 
+<urn:cite:chron:j-latins.ruler15_31> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_8> . 
+<urn:cite:chron:j-latins.ruler15_31> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_13> . 
+<urn:cite:chron:j-macedonians.ruler3_8> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_13> . 
 
 <urn:cite:chron:olympiadyear.3_4> olo:item 12 .
 <urn:cite:chron:olympiadyear.3_4> rdf:Label "Olympiad 3, year 4" .
 <urn:cite:chron:olympiadyear.3_4> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler2.27> olo:item 27 .
-<urn:cite:chron:j-medes.ruler2.27> rdf:Label "Year 27 of Sosarmus" .
-<urn:cite:chron:j-medes.ruler2.27> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
+<urn:cite:chron:j-medes.ruler2_27> olo:item 27 .
+<urn:cite:chron:j-medes.ruler2_27> rdf:Label "Year 27 of Sosarmus" .
+<urn:cite:chron:j-medes.ruler2_27> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
 
-<urn:cite:chron:j-athenians.ruler29.14> olo:item 14 .
-<urn:cite:chron:j-athenians.ruler29.14> rdf:Label "Year 14 of Aeschylus" .
-<urn:cite:chron:j-athenians.ruler29.14> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
+<urn:cite:chron:j-athenians.ruler29_14> olo:item 14 .
+<urn:cite:chron:j-athenians.ruler29_14> rdf:Label "Year 14 of Aeschylus" .
+<urn:cite:chron:j-athenians.ruler29_14> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
 
-<urn:cite:chron:j-latins.ruler15.32> olo:item 32 .
-<urn:cite:chron:j-latins.ruler15.32> rdf:Label "Year 32 of Amulius Silvius" .
-<urn:cite:chron:j-latins.ruler15.32> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
+<urn:cite:chron:j-latins.ruler15_32> olo:item 32 .
+<urn:cite:chron:j-latins.ruler15_32> rdf:Label "Year 32 of Amulius Silvius" .
+<urn:cite:chron:j-latins.ruler15_32> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
 
-<urn:cite:chron:j-macedonians.ruler3.9> olo:item 9 .
-<urn:cite:chron:j-macedonians.ruler3.9> rdf:Label "Year 9 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.9> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_9> olo:item 9 .
+<urn:cite:chron:j-macedonians.ruler3_9> rdf:Label "Year 9 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_9> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.14> olo:item 14 .
-<urn:cite:chron:j-lydians.ruler1.14> rdf:Label "Year 14 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.14> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.3_4> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2.27> . 
-<urn:cite:chron:olympiadyear.3_4> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.14> . 
-<urn:cite:chron:olympiadyear.3_4> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.32> . 
-<urn:cite:chron:olympiadyear.3_4> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.9> . 
-<urn:cite:chron:olympiadyear.3_4> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.14> . 
-<urn:cite:chron:j-medes.ruler2.27> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.14> . 
-<urn:cite:chron:j-medes.ruler2.27> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.32> . 
-<urn:cite:chron:j-medes.ruler2.27> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.9> . 
-<urn:cite:chron:j-medes.ruler2.27> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.14> . 
-<urn:cite:chron:j-athenians.ruler29.14> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.32> . 
-<urn:cite:chron:j-athenians.ruler29.14> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.9> . 
-<urn:cite:chron:j-athenians.ruler29.14> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.14> . 
-<urn:cite:chron:j-latins.ruler15.32> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.9> . 
-<urn:cite:chron:j-latins.ruler15.32> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.14> . 
-<urn:cite:chron:j-macedonians.ruler3.9> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.14> . 
+<urn:cite:chron:j-lydians.ruler1_14> olo:item 14 .
+<urn:cite:chron:j-lydians.ruler1_14> rdf:Label "Year 14 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_14> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.3_4> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2_27> . 
+<urn:cite:chron:olympiadyear.3_4> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_14> . 
+<urn:cite:chron:olympiadyear.3_4> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_32> . 
+<urn:cite:chron:olympiadyear.3_4> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_9> . 
+<urn:cite:chron:olympiadyear.3_4> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_14> . 
+<urn:cite:chron:j-medes.ruler2_27> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_14> . 
+<urn:cite:chron:j-medes.ruler2_27> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_32> . 
+<urn:cite:chron:j-medes.ruler2_27> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_9> . 
+<urn:cite:chron:j-medes.ruler2_27> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_14> . 
+<urn:cite:chron:j-athenians.ruler29_14> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_32> . 
+<urn:cite:chron:j-athenians.ruler29_14> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_9> . 
+<urn:cite:chron:j-athenians.ruler29_14> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_14> . 
+<urn:cite:chron:j-latins.ruler15_32> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_9> . 
+<urn:cite:chron:j-latins.ruler15_32> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_14> . 
+<urn:cite:chron:j-macedonians.ruler3_9> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_14> . 
 
 <urn:cite:chron:olympiadyear.4_1> olo:item 13 .
 <urn:cite:chron:olympiadyear.4_1> rdf:Label "Olympiad 4, year 1" .
 <urn:cite:chron:olympiadyear.4_1> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler2.28> olo:item 28 .
-<urn:cite:chron:j-medes.ruler2.28> rdf:Label "Year 28 of Sosarmus" .
-<urn:cite:chron:j-medes.ruler2.28> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
+<urn:cite:chron:j-medes.ruler2_28> olo:item 28 .
+<urn:cite:chron:j-medes.ruler2_28> rdf:Label "Year 28 of Sosarmus" .
+<urn:cite:chron:j-medes.ruler2_28> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
 
-<urn:cite:chron:j-athenians.ruler29.15> olo:item 15 .
-<urn:cite:chron:j-athenians.ruler29.15> rdf:Label "Year 15 of Aeschylus" .
-<urn:cite:chron:j-athenians.ruler29.15> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
+<urn:cite:chron:j-athenians.ruler29_15> olo:item 15 .
+<urn:cite:chron:j-athenians.ruler29_15> rdf:Label "Year 15 of Aeschylus" .
+<urn:cite:chron:j-athenians.ruler29_15> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
 
-<urn:cite:chron:j-latins.ruler15.33> olo:item 33 .
-<urn:cite:chron:j-latins.ruler15.33> rdf:Label "Year 33 of Amulius Silvius" .
-<urn:cite:chron:j-latins.ruler15.33> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
+<urn:cite:chron:j-latins.ruler15_33> olo:item 33 .
+<urn:cite:chron:j-latins.ruler15_33> rdf:Label "Year 33 of Amulius Silvius" .
+<urn:cite:chron:j-latins.ruler15_33> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
 
-<urn:cite:chron:j-macedonians.ruler3.10> olo:item 10 .
-<urn:cite:chron:j-macedonians.ruler3.10> rdf:Label "Year 10 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.10> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_10> olo:item 10 .
+<urn:cite:chron:j-macedonians.ruler3_10> rdf:Label "Year 10 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_10> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.15> olo:item 15 .
-<urn:cite:chron:j-lydians.ruler1.15> rdf:Label "Year 15 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.15> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.4_1> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2.28> . 
-<urn:cite:chron:olympiadyear.4_1> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.15> . 
-<urn:cite:chron:olympiadyear.4_1> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.33> . 
-<urn:cite:chron:olympiadyear.4_1> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.10> . 
-<urn:cite:chron:olympiadyear.4_1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.15> . 
-<urn:cite:chron:j-medes.ruler2.28> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.15> . 
-<urn:cite:chron:j-medes.ruler2.28> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.33> . 
-<urn:cite:chron:j-medes.ruler2.28> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.10> . 
-<urn:cite:chron:j-medes.ruler2.28> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.15> . 
-<urn:cite:chron:j-athenians.ruler29.15> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.33> . 
-<urn:cite:chron:j-athenians.ruler29.15> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.10> . 
-<urn:cite:chron:j-athenians.ruler29.15> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.15> . 
-<urn:cite:chron:j-latins.ruler15.33> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.10> . 
-<urn:cite:chron:j-latins.ruler15.33> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.15> . 
-<urn:cite:chron:j-macedonians.ruler3.10> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.15> . 
+<urn:cite:chron:j-lydians.ruler1_15> olo:item 15 .
+<urn:cite:chron:j-lydians.ruler1_15> rdf:Label "Year 15 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_15> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.4_1> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2_28> . 
+<urn:cite:chron:olympiadyear.4_1> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_15> . 
+<urn:cite:chron:olympiadyear.4_1> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_33> . 
+<urn:cite:chron:olympiadyear.4_1> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_10> . 
+<urn:cite:chron:olympiadyear.4_1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_15> . 
+<urn:cite:chron:j-medes.ruler2_28> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_15> . 
+<urn:cite:chron:j-medes.ruler2_28> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_33> . 
+<urn:cite:chron:j-medes.ruler2_28> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_10> . 
+<urn:cite:chron:j-medes.ruler2_28> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_15> . 
+<urn:cite:chron:j-athenians.ruler29_15> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_33> . 
+<urn:cite:chron:j-athenians.ruler29_15> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_10> . 
+<urn:cite:chron:j-athenians.ruler29_15> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_15> . 
+<urn:cite:chron:j-latins.ruler15_33> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_10> . 
+<urn:cite:chron:j-latins.ruler15_33> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_15> . 
+<urn:cite:chron:j-macedonians.ruler3_10> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_15> . 
 
 <urn:cite:chron:olympiadyear.4_2> olo:item 14 .
 <urn:cite:chron:olympiadyear.4_2> rdf:Label "Olympiad 4, year 2" .
 <urn:cite:chron:olympiadyear.4_2> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler2.29> olo:item 29 .
-<urn:cite:chron:j-medes.ruler2.29> rdf:Label "Year 29 of Sosarmus" .
-<urn:cite:chron:j-medes.ruler2.29> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
+<urn:cite:chron:j-medes.ruler2_29> olo:item 29 .
+<urn:cite:chron:j-medes.ruler2_29> rdf:Label "Year 29 of Sosarmus" .
+<urn:cite:chron:j-medes.ruler2_29> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
 
-<urn:cite:chron:j-athenians.ruler29.16> olo:item 16 .
-<urn:cite:chron:j-athenians.ruler29.16> rdf:Label "Year 16 of Aeschylus" .
-<urn:cite:chron:j-athenians.ruler29.16> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
+<urn:cite:chron:j-athenians.ruler29_16> olo:item 16 .
+<urn:cite:chron:j-athenians.ruler29_16> rdf:Label "Year 16 of Aeschylus" .
+<urn:cite:chron:j-athenians.ruler29_16> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
 
-<urn:cite:chron:j-latins.ruler15.34> olo:item 34 .
-<urn:cite:chron:j-latins.ruler15.34> rdf:Label "Year 34 of Amulius Silvius" .
-<urn:cite:chron:j-latins.ruler15.34> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
+<urn:cite:chron:j-latins.ruler15_34> olo:item 34 .
+<urn:cite:chron:j-latins.ruler15_34> rdf:Label "Year 34 of Amulius Silvius" .
+<urn:cite:chron:j-latins.ruler15_34> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
 
-<urn:cite:chron:j-macedonians.ruler3.11> olo:item 11 .
-<urn:cite:chron:j-macedonians.ruler3.11> rdf:Label "Year 11 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.11> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_11> olo:item 11 .
+<urn:cite:chron:j-macedonians.ruler3_11> rdf:Label "Year 11 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_11> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.16> olo:item 16 .
-<urn:cite:chron:j-lydians.ruler1.16> rdf:Label "Year 16 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.16> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.4_2> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2.29> . 
-<urn:cite:chron:olympiadyear.4_2> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.16> . 
-<urn:cite:chron:olympiadyear.4_2> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.34> . 
-<urn:cite:chron:olympiadyear.4_2> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.11> . 
-<urn:cite:chron:olympiadyear.4_2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.16> . 
-<urn:cite:chron:j-medes.ruler2.29> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.16> . 
-<urn:cite:chron:j-medes.ruler2.29> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.34> . 
-<urn:cite:chron:j-medes.ruler2.29> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.11> . 
-<urn:cite:chron:j-medes.ruler2.29> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.16> . 
-<urn:cite:chron:j-athenians.ruler29.16> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.34> . 
-<urn:cite:chron:j-athenians.ruler29.16> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.11> . 
-<urn:cite:chron:j-athenians.ruler29.16> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.16> . 
-<urn:cite:chron:j-latins.ruler15.34> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.11> . 
-<urn:cite:chron:j-latins.ruler15.34> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.16> . 
-<urn:cite:chron:j-macedonians.ruler3.11> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.16> . 
+<urn:cite:chron:j-lydians.ruler1_16> olo:item 16 .
+<urn:cite:chron:j-lydians.ruler1_16> rdf:Label "Year 16 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_16> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.4_2> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2_29> . 
+<urn:cite:chron:olympiadyear.4_2> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_16> . 
+<urn:cite:chron:olympiadyear.4_2> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_34> . 
+<urn:cite:chron:olympiadyear.4_2> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_11> . 
+<urn:cite:chron:olympiadyear.4_2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_16> . 
+<urn:cite:chron:j-medes.ruler2_29> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_16> . 
+<urn:cite:chron:j-medes.ruler2_29> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_34> . 
+<urn:cite:chron:j-medes.ruler2_29> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_11> . 
+<urn:cite:chron:j-medes.ruler2_29> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_16> . 
+<urn:cite:chron:j-athenians.ruler29_16> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_34> . 
+<urn:cite:chron:j-athenians.ruler29_16> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_11> . 
+<urn:cite:chron:j-athenians.ruler29_16> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_16> . 
+<urn:cite:chron:j-latins.ruler15_34> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_11> . 
+<urn:cite:chron:j-latins.ruler15_34> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_16> . 
+<urn:cite:chron:j-macedonians.ruler3_11> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_16> . 
 
 <urn:cite:chron:olympiadyear.4_3> olo:item 15 .
 <urn:cite:chron:olympiadyear.4_3> rdf:Label "Olympiad 4, year 3" .
 <urn:cite:chron:olympiadyear.4_3> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler2.30> olo:item 30 .
-<urn:cite:chron:j-medes.ruler2.30> rdf:Label "Year 30 of Sosarmus" .
-<urn:cite:chron:j-medes.ruler2.30> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
+<urn:cite:chron:j-medes.ruler2_30> olo:item 30 .
+<urn:cite:chron:j-medes.ruler2_30> rdf:Label "Year 30 of Sosarmus" .
+<urn:cite:chron:j-medes.ruler2_30> cite:memberOf <urn:cite:chron:j-medes.ruler2> .
 
-<urn:cite:chron:j-athenians.ruler29.17> olo:item 17 .
-<urn:cite:chron:j-athenians.ruler29.17> rdf:Label "Year 17 of Aeschylus" .
-<urn:cite:chron:j-athenians.ruler29.17> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
+<urn:cite:chron:j-athenians.ruler29_17> olo:item 17 .
+<urn:cite:chron:j-athenians.ruler29_17> rdf:Label "Year 17 of Aeschylus" .
+<urn:cite:chron:j-athenians.ruler29_17> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
 
-<urn:cite:chron:j-latins.ruler15.35> olo:item 35 .
-<urn:cite:chron:j-latins.ruler15.35> rdf:Label "Year 35 of Amulius Silvius" .
-<urn:cite:chron:j-latins.ruler15.35> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
+<urn:cite:chron:j-latins.ruler15_35> olo:item 35 .
+<urn:cite:chron:j-latins.ruler15_35> rdf:Label "Year 35 of Amulius Silvius" .
+<urn:cite:chron:j-latins.ruler15_35> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
 
-<urn:cite:chron:j-macedonians.ruler3.12> olo:item 12 .
-<urn:cite:chron:j-macedonians.ruler3.12> rdf:Label "Year 12 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.12> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_12> olo:item 12 .
+<urn:cite:chron:j-macedonians.ruler3_12> rdf:Label "Year 12 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_12> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.17> olo:item 17 .
-<urn:cite:chron:j-lydians.ruler1.17> rdf:Label "Year 17 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.17> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.4_3> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2.30> . 
-<urn:cite:chron:olympiadyear.4_3> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.17> . 
-<urn:cite:chron:olympiadyear.4_3> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.35> . 
-<urn:cite:chron:olympiadyear.4_3> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.12> . 
-<urn:cite:chron:olympiadyear.4_3> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.17> . 
-<urn:cite:chron:j-medes.ruler2.30> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.17> . 
-<urn:cite:chron:j-medes.ruler2.30> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.35> . 
-<urn:cite:chron:j-medes.ruler2.30> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.12> . 
-<urn:cite:chron:j-medes.ruler2.30> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.17> . 
-<urn:cite:chron:j-athenians.ruler29.17> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.35> . 
-<urn:cite:chron:j-athenians.ruler29.17> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.12> . 
-<urn:cite:chron:j-athenians.ruler29.17> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.17> . 
-<urn:cite:chron:j-latins.ruler15.35> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.12> . 
-<urn:cite:chron:j-latins.ruler15.35> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.17> . 
-<urn:cite:chron:j-macedonians.ruler3.12> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.17> . 
+<urn:cite:chron:j-lydians.ruler1_17> olo:item 17 .
+<urn:cite:chron:j-lydians.ruler1_17> rdf:Label "Year 17 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_17> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.4_3> chron:synchronizedWith <urn:cite:chron:j-medes.ruler2_30> . 
+<urn:cite:chron:olympiadyear.4_3> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_17> . 
+<urn:cite:chron:olympiadyear.4_3> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_35> . 
+<urn:cite:chron:olympiadyear.4_3> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_12> . 
+<urn:cite:chron:olympiadyear.4_3> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_17> . 
+<urn:cite:chron:j-medes.ruler2_30> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_17> . 
+<urn:cite:chron:j-medes.ruler2_30> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_35> . 
+<urn:cite:chron:j-medes.ruler2_30> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_12> . 
+<urn:cite:chron:j-medes.ruler2_30> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_17> . 
+<urn:cite:chron:j-athenians.ruler29_17> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_35> . 
+<urn:cite:chron:j-athenians.ruler29_17> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_12> . 
+<urn:cite:chron:j-athenians.ruler29_17> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_17> . 
+<urn:cite:chron:j-latins.ruler15_35> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_12> . 
+<urn:cite:chron:j-latins.ruler15_35> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_17> . 
+<urn:cite:chron:j-macedonians.ruler3_12> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_17> . 
 
 <urn:cite:chron:olympiadyear.4_4> olo:item 16 .
 <urn:cite:chron:olympiadyear.4_4> rdf:Label "Olympiad 4, year 4" .
 <urn:cite:chron:olympiadyear.4_4> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler3.1> olo:item 1 .
-<urn:cite:chron:j-medes.ruler3.1> rdf:Label "Year 1 of Medidus" .
-<urn:cite:chron:j-medes.ruler3.1> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
+<urn:cite:chron:j-medes.ruler3_1> olo:item 1 .
+<urn:cite:chron:j-medes.ruler3_1> rdf:Label "Year 1 of Medidus" .
+<urn:cite:chron:j-medes.ruler3_1> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
 
-<urn:cite:chron:j-athenians.ruler29.18> olo:item 18 .
-<urn:cite:chron:j-athenians.ruler29.18> rdf:Label "Year 18 of Aeschylus" .
-<urn:cite:chron:j-athenians.ruler29.18> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
+<urn:cite:chron:j-athenians.ruler29_18> olo:item 18 .
+<urn:cite:chron:j-athenians.ruler29_18> rdf:Label "Year 18 of Aeschylus" .
+<urn:cite:chron:j-athenians.ruler29_18> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
 
-<urn:cite:chron:j-latins.ruler15.36> olo:item 36 .
-<urn:cite:chron:j-latins.ruler15.36> rdf:Label "Year 36 of Amulius Silvius" .
-<urn:cite:chron:j-latins.ruler15.36> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
+<urn:cite:chron:j-latins.ruler15_36> olo:item 36 .
+<urn:cite:chron:j-latins.ruler15_36> rdf:Label "Year 36 of Amulius Silvius" .
+<urn:cite:chron:j-latins.ruler15_36> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
 
-<urn:cite:chron:j-macedonians.ruler3.13> olo:item 13 .
-<urn:cite:chron:j-macedonians.ruler3.13> rdf:Label "Year 13 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.13> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_13> olo:item 13 .
+<urn:cite:chron:j-macedonians.ruler3_13> rdf:Label "Year 13 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_13> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.18> olo:item 18 .
-<urn:cite:chron:j-lydians.ruler1.18> rdf:Label "Year 18 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.18> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.4_4> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3.1> . 
-<urn:cite:chron:olympiadyear.4_4> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.18> . 
-<urn:cite:chron:olympiadyear.4_4> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.36> . 
-<urn:cite:chron:olympiadyear.4_4> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.13> . 
-<urn:cite:chron:olympiadyear.4_4> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.18> . 
-<urn:cite:chron:j-medes.ruler3.1> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.18> . 
-<urn:cite:chron:j-medes.ruler3.1> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.36> . 
-<urn:cite:chron:j-medes.ruler3.1> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.13> . 
-<urn:cite:chron:j-medes.ruler3.1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.18> . 
-<urn:cite:chron:j-athenians.ruler29.18> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.36> . 
-<urn:cite:chron:j-athenians.ruler29.18> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.13> . 
-<urn:cite:chron:j-athenians.ruler29.18> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.18> . 
-<urn:cite:chron:j-latins.ruler15.36> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.13> . 
-<urn:cite:chron:j-latins.ruler15.36> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.18> . 
-<urn:cite:chron:j-macedonians.ruler3.13> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.18> . 
+<urn:cite:chron:j-lydians.ruler1_18> olo:item 18 .
+<urn:cite:chron:j-lydians.ruler1_18> rdf:Label "Year 18 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_18> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.4_4> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3_1> . 
+<urn:cite:chron:olympiadyear.4_4> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_18> . 
+<urn:cite:chron:olympiadyear.4_4> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_36> . 
+<urn:cite:chron:olympiadyear.4_4> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_13> . 
+<urn:cite:chron:olympiadyear.4_4> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_18> . 
+<urn:cite:chron:j-medes.ruler3_1> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_18> . 
+<urn:cite:chron:j-medes.ruler3_1> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_36> . 
+<urn:cite:chron:j-medes.ruler3_1> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_13> . 
+<urn:cite:chron:j-medes.ruler3_1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_18> . 
+<urn:cite:chron:j-athenians.ruler29_18> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_36> . 
+<urn:cite:chron:j-athenians.ruler29_18> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_13> . 
+<urn:cite:chron:j-athenians.ruler29_18> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_18> . 
+<urn:cite:chron:j-latins.ruler15_36> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_13> . 
+<urn:cite:chron:j-latins.ruler15_36> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_18> . 
+<urn:cite:chron:j-macedonians.ruler3_13> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_18> . 
 
 <urn:cite:chron:olympiadyear.5_1> olo:item 17 .
 <urn:cite:chron:olympiadyear.5_1> rdf:Label "Olympiad 5, year 1" .
 <urn:cite:chron:olympiadyear.5_1> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler3.2> olo:item 2 .
-<urn:cite:chron:j-medes.ruler3.2> rdf:Label "Year 2 of Medidus" .
-<urn:cite:chron:j-medes.ruler3.2> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
+<urn:cite:chron:j-medes.ruler3_2> olo:item 2 .
+<urn:cite:chron:j-medes.ruler3_2> rdf:Label "Year 2 of Medidus" .
+<urn:cite:chron:j-medes.ruler3_2> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
 
-<urn:cite:chron:j-athenians.ruler29.19> olo:item 19 .
-<urn:cite:chron:j-athenians.ruler29.19> rdf:Label "Year 19 of Aeschylus" .
-<urn:cite:chron:j-athenians.ruler29.19> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
+<urn:cite:chron:j-athenians.ruler29_19> olo:item 19 .
+<urn:cite:chron:j-athenians.ruler29_19> rdf:Label "Year 19 of Aeschylus" .
+<urn:cite:chron:j-athenians.ruler29_19> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
 
-<urn:cite:chron:j-latins.ruler15.37> olo:item 37 .
-<urn:cite:chron:j-latins.ruler15.37> rdf:Label "Year 37 of Amulius Silvius" .
-<urn:cite:chron:j-latins.ruler15.37> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
+<urn:cite:chron:j-latins.ruler15_37> olo:item 37 .
+<urn:cite:chron:j-latins.ruler15_37> rdf:Label "Year 37 of Amulius Silvius" .
+<urn:cite:chron:j-latins.ruler15_37> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
 
-<urn:cite:chron:j-macedonians.ruler3.14> olo:item 14 .
-<urn:cite:chron:j-macedonians.ruler3.14> rdf:Label "Year 14 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.14> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_14> olo:item 14 .
+<urn:cite:chron:j-macedonians.ruler3_14> rdf:Label "Year 14 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_14> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.19> olo:item 19 .
-<urn:cite:chron:j-lydians.ruler1.19> rdf:Label "Year 19 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.19> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.5_1> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3.2> . 
-<urn:cite:chron:olympiadyear.5_1> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.19> . 
-<urn:cite:chron:olympiadyear.5_1> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.37> . 
-<urn:cite:chron:olympiadyear.5_1> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.14> . 
-<urn:cite:chron:olympiadyear.5_1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.19> . 
-<urn:cite:chron:j-medes.ruler3.2> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.19> . 
-<urn:cite:chron:j-medes.ruler3.2> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.37> . 
-<urn:cite:chron:j-medes.ruler3.2> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.14> . 
-<urn:cite:chron:j-medes.ruler3.2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.19> . 
-<urn:cite:chron:j-athenians.ruler29.19> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.37> . 
-<urn:cite:chron:j-athenians.ruler29.19> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.14> . 
-<urn:cite:chron:j-athenians.ruler29.19> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.19> . 
-<urn:cite:chron:j-latins.ruler15.37> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.14> . 
-<urn:cite:chron:j-latins.ruler15.37> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.19> . 
-<urn:cite:chron:j-macedonians.ruler3.14> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.19> . 
+<urn:cite:chron:j-lydians.ruler1_19> olo:item 19 .
+<urn:cite:chron:j-lydians.ruler1_19> rdf:Label "Year 19 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_19> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.5_1> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3_2> . 
+<urn:cite:chron:olympiadyear.5_1> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_19> . 
+<urn:cite:chron:olympiadyear.5_1> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_37> . 
+<urn:cite:chron:olympiadyear.5_1> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_14> . 
+<urn:cite:chron:olympiadyear.5_1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_19> . 
+<urn:cite:chron:j-medes.ruler3_2> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_19> . 
+<urn:cite:chron:j-medes.ruler3_2> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_37> . 
+<urn:cite:chron:j-medes.ruler3_2> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_14> . 
+<urn:cite:chron:j-medes.ruler3_2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_19> . 
+<urn:cite:chron:j-athenians.ruler29_19> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_37> . 
+<urn:cite:chron:j-athenians.ruler29_19> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_14> . 
+<urn:cite:chron:j-athenians.ruler29_19> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_19> . 
+<urn:cite:chron:j-latins.ruler15_37> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_14> . 
+<urn:cite:chron:j-latins.ruler15_37> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_19> . 
+<urn:cite:chron:j-macedonians.ruler3_14> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_19> . 
 
 <urn:cite:chron:olympiadyear.5_2> olo:item 18 .
 <urn:cite:chron:olympiadyear.5_2> rdf:Label "Olympiad 5, year 2" .
 <urn:cite:chron:olympiadyear.5_2> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler3.3> olo:item 3 .
-<urn:cite:chron:j-medes.ruler3.3> rdf:Label "Year 3 of Medidus" .
-<urn:cite:chron:j-medes.ruler3.3> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
+<urn:cite:chron:j-medes.ruler3_3> olo:item 3 .
+<urn:cite:chron:j-medes.ruler3_3> rdf:Label "Year 3 of Medidus" .
+<urn:cite:chron:j-medes.ruler3_3> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
 
-<urn:cite:chron:j-athenians.ruler29.20> olo:item 20 .
-<urn:cite:chron:j-athenians.ruler29.20> rdf:Label "Year 20 of Aeschylus" .
-<urn:cite:chron:j-athenians.ruler29.20> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
+<urn:cite:chron:j-athenians.ruler29_20> olo:item 20 .
+<urn:cite:chron:j-athenians.ruler29_20> rdf:Label "Year 20 of Aeschylus" .
+<urn:cite:chron:j-athenians.ruler29_20> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
 
-<urn:cite:chron:j-latins.ruler15.38> olo:item 38 .
-<urn:cite:chron:j-latins.ruler15.38> rdf:Label "Year 38 of Amulius Silvius" .
-<urn:cite:chron:j-latins.ruler15.38> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
+<urn:cite:chron:j-latins.ruler15_38> olo:item 38 .
+<urn:cite:chron:j-latins.ruler15_38> rdf:Label "Year 38 of Amulius Silvius" .
+<urn:cite:chron:j-latins.ruler15_38> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
 
-<urn:cite:chron:j-macedonians.ruler3.15> olo:item 15 .
-<urn:cite:chron:j-macedonians.ruler3.15> rdf:Label "Year 15 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.15> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_15> olo:item 15 .
+<urn:cite:chron:j-macedonians.ruler3_15> rdf:Label "Year 15 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_15> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.20> olo:item 20 .
-<urn:cite:chron:j-lydians.ruler1.20> rdf:Label "Year 20 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.20> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.5_2> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3.3> . 
-<urn:cite:chron:olympiadyear.5_2> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.20> . 
-<urn:cite:chron:olympiadyear.5_2> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.38> . 
-<urn:cite:chron:olympiadyear.5_2> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.15> . 
-<urn:cite:chron:olympiadyear.5_2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.20> . 
-<urn:cite:chron:j-medes.ruler3.3> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.20> . 
-<urn:cite:chron:j-medes.ruler3.3> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.38> . 
-<urn:cite:chron:j-medes.ruler3.3> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.15> . 
-<urn:cite:chron:j-medes.ruler3.3> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.20> . 
-<urn:cite:chron:j-athenians.ruler29.20> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.38> . 
-<urn:cite:chron:j-athenians.ruler29.20> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.15> . 
-<urn:cite:chron:j-athenians.ruler29.20> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.20> . 
-<urn:cite:chron:j-latins.ruler15.38> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.15> . 
-<urn:cite:chron:j-latins.ruler15.38> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.20> . 
-<urn:cite:chron:j-macedonians.ruler3.15> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.20> . 
+<urn:cite:chron:j-lydians.ruler1_20> olo:item 20 .
+<urn:cite:chron:j-lydians.ruler1_20> rdf:Label "Year 20 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_20> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.5_2> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3_3> . 
+<urn:cite:chron:olympiadyear.5_2> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_20> . 
+<urn:cite:chron:olympiadyear.5_2> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_38> . 
+<urn:cite:chron:olympiadyear.5_2> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_15> . 
+<urn:cite:chron:olympiadyear.5_2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_20> . 
+<urn:cite:chron:j-medes.ruler3_3> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_20> . 
+<urn:cite:chron:j-medes.ruler3_3> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_38> . 
+<urn:cite:chron:j-medes.ruler3_3> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_15> . 
+<urn:cite:chron:j-medes.ruler3_3> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_20> . 
+<urn:cite:chron:j-athenians.ruler29_20> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_38> . 
+<urn:cite:chron:j-athenians.ruler29_20> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_15> . 
+<urn:cite:chron:j-athenians.ruler29_20> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_20> . 
+<urn:cite:chron:j-latins.ruler15_38> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_15> . 
+<urn:cite:chron:j-latins.ruler15_38> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_20> . 
+<urn:cite:chron:j-macedonians.ruler3_15> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_20> . 
 
 <urn:cite:chron:olympiadyear.5_3> olo:item 19 .
 <urn:cite:chron:olympiadyear.5_3> rdf:Label "Olympiad 5, year 3" .
 <urn:cite:chron:olympiadyear.5_3> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler3.4> olo:item 4 .
-<urn:cite:chron:j-medes.ruler3.4> rdf:Label "Year 4 of Medidus" .
-<urn:cite:chron:j-medes.ruler3.4> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
+<urn:cite:chron:j-medes.ruler3_4> olo:item 4 .
+<urn:cite:chron:j-medes.ruler3_4> rdf:Label "Year 4 of Medidus" .
+<urn:cite:chron:j-medes.ruler3_4> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
 
-<urn:cite:chron:j-athenians.ruler29.21> olo:item 21 .
-<urn:cite:chron:j-athenians.ruler29.21> rdf:Label "Year 21 of Aeschylus" .
-<urn:cite:chron:j-athenians.ruler29.21> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
+<urn:cite:chron:j-athenians.ruler29_21> olo:item 21 .
+<urn:cite:chron:j-athenians.ruler29_21> rdf:Label "Year 21 of Aeschylus" .
+<urn:cite:chron:j-athenians.ruler29_21> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
 
-<urn:cite:chron:j-latins.ruler15.39> olo:item 39 .
-<urn:cite:chron:j-latins.ruler15.39> rdf:Label "Year 39 of Amulius Silvius" .
-<urn:cite:chron:j-latins.ruler15.39> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
+<urn:cite:chron:j-latins.ruler15_39> olo:item 39 .
+<urn:cite:chron:j-latins.ruler15_39> rdf:Label "Year 39 of Amulius Silvius" .
+<urn:cite:chron:j-latins.ruler15_39> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
 
-<urn:cite:chron:j-macedonians.ruler3.16> olo:item 16 .
-<urn:cite:chron:j-macedonians.ruler3.16> rdf:Label "Year 16 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.16> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_16> olo:item 16 .
+<urn:cite:chron:j-macedonians.ruler3_16> rdf:Label "Year 16 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_16> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.21> olo:item 21 .
-<urn:cite:chron:j-lydians.ruler1.21> rdf:Label "Year 21 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.21> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.5_3> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3.4> . 
-<urn:cite:chron:olympiadyear.5_3> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.21> . 
-<urn:cite:chron:olympiadyear.5_3> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.39> . 
-<urn:cite:chron:olympiadyear.5_3> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.16> . 
-<urn:cite:chron:olympiadyear.5_3> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.21> . 
-<urn:cite:chron:j-medes.ruler3.4> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.21> . 
-<urn:cite:chron:j-medes.ruler3.4> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.39> . 
-<urn:cite:chron:j-medes.ruler3.4> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.16> . 
-<urn:cite:chron:j-medes.ruler3.4> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.21> . 
-<urn:cite:chron:j-athenians.ruler29.21> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.39> . 
-<urn:cite:chron:j-athenians.ruler29.21> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.16> . 
-<urn:cite:chron:j-athenians.ruler29.21> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.21> . 
-<urn:cite:chron:j-latins.ruler15.39> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.16> . 
-<urn:cite:chron:j-latins.ruler15.39> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.21> . 
-<urn:cite:chron:j-macedonians.ruler3.16> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.21> . 
+<urn:cite:chron:j-lydians.ruler1_21> olo:item 21 .
+<urn:cite:chron:j-lydians.ruler1_21> rdf:Label "Year 21 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_21> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.5_3> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3_4> . 
+<urn:cite:chron:olympiadyear.5_3> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_21> . 
+<urn:cite:chron:olympiadyear.5_3> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_39> . 
+<urn:cite:chron:olympiadyear.5_3> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_16> . 
+<urn:cite:chron:olympiadyear.5_3> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_21> . 
+<urn:cite:chron:j-medes.ruler3_4> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_21> . 
+<urn:cite:chron:j-medes.ruler3_4> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_39> . 
+<urn:cite:chron:j-medes.ruler3_4> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_16> . 
+<urn:cite:chron:j-medes.ruler3_4> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_21> . 
+<urn:cite:chron:j-athenians.ruler29_21> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_39> . 
+<urn:cite:chron:j-athenians.ruler29_21> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_16> . 
+<urn:cite:chron:j-athenians.ruler29_21> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_21> . 
+<urn:cite:chron:j-latins.ruler15_39> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_16> . 
+<urn:cite:chron:j-latins.ruler15_39> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_21> . 
+<urn:cite:chron:j-macedonians.ruler3_16> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_21> . 
 
 <urn:cite:chron:olympiadyear.5_4> olo:item 20 .
 <urn:cite:chron:olympiadyear.5_4> rdf:Label "Olympiad 5, year 4" .
 <urn:cite:chron:olympiadyear.5_4> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler3.5> olo:item 5 .
-<urn:cite:chron:j-medes.ruler3.5> rdf:Label "Year 5 of Medidus" .
-<urn:cite:chron:j-medes.ruler3.5> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
+<urn:cite:chron:j-medes.ruler3_5> olo:item 5 .
+<urn:cite:chron:j-medes.ruler3_5> rdf:Label "Year 5 of Medidus" .
+<urn:cite:chron:j-medes.ruler3_5> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
 
-<urn:cite:chron:j-athenians.ruler29.22> olo:item 22 .
-<urn:cite:chron:j-athenians.ruler29.22> rdf:Label "Year 22 of Aeschylus" .
-<urn:cite:chron:j-athenians.ruler29.22> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
+<urn:cite:chron:j-athenians.ruler29_22> olo:item 22 .
+<urn:cite:chron:j-athenians.ruler29_22> rdf:Label "Year 22 of Aeschylus" .
+<urn:cite:chron:j-athenians.ruler29_22> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
 
-<urn:cite:chron:j-latins.ruler15.40> olo:item 40 .
-<urn:cite:chron:j-latins.ruler15.40> rdf:Label "Year 40 of Amulius Silvius" .
-<urn:cite:chron:j-latins.ruler15.40> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
+<urn:cite:chron:j-latins.ruler15_40> olo:item 40 .
+<urn:cite:chron:j-latins.ruler15_40> rdf:Label "Year 40 of Amulius Silvius" .
+<urn:cite:chron:j-latins.ruler15_40> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
 
-<urn:cite:chron:j-macedonians.ruler3.17> olo:item 17 .
-<urn:cite:chron:j-macedonians.ruler3.17> rdf:Label "Year 17 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.17> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_17> olo:item 17 .
+<urn:cite:chron:j-macedonians.ruler3_17> rdf:Label "Year 17 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_17> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.22> olo:item 22 .
-<urn:cite:chron:j-lydians.ruler1.22> rdf:Label "Year 22 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.22> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.5_4> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3.5> . 
-<urn:cite:chron:olympiadyear.5_4> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.22> . 
-<urn:cite:chron:olympiadyear.5_4> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.40> . 
-<urn:cite:chron:olympiadyear.5_4> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.17> . 
-<urn:cite:chron:olympiadyear.5_4> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.22> . 
-<urn:cite:chron:j-medes.ruler3.5> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.22> . 
-<urn:cite:chron:j-medes.ruler3.5> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.40> . 
-<urn:cite:chron:j-medes.ruler3.5> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.17> . 
-<urn:cite:chron:j-medes.ruler3.5> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.22> . 
-<urn:cite:chron:j-athenians.ruler29.22> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.40> . 
-<urn:cite:chron:j-athenians.ruler29.22> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.17> . 
-<urn:cite:chron:j-athenians.ruler29.22> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.22> . 
-<urn:cite:chron:j-latins.ruler15.40> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.17> . 
-<urn:cite:chron:j-latins.ruler15.40> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.22> . 
-<urn:cite:chron:j-macedonians.ruler3.17> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.22> . 
+<urn:cite:chron:j-lydians.ruler1_22> olo:item 22 .
+<urn:cite:chron:j-lydians.ruler1_22> rdf:Label "Year 22 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_22> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.5_4> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3_5> . 
+<urn:cite:chron:olympiadyear.5_4> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_22> . 
+<urn:cite:chron:olympiadyear.5_4> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_40> . 
+<urn:cite:chron:olympiadyear.5_4> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_17> . 
+<urn:cite:chron:olympiadyear.5_4> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_22> . 
+<urn:cite:chron:j-medes.ruler3_5> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_22> . 
+<urn:cite:chron:j-medes.ruler3_5> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_40> . 
+<urn:cite:chron:j-medes.ruler3_5> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_17> . 
+<urn:cite:chron:j-medes.ruler3_5> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_22> . 
+<urn:cite:chron:j-athenians.ruler29_22> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_40> . 
+<urn:cite:chron:j-athenians.ruler29_22> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_17> . 
+<urn:cite:chron:j-athenians.ruler29_22> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_22> . 
+<urn:cite:chron:j-latins.ruler15_40> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_17> . 
+<urn:cite:chron:j-latins.ruler15_40> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_22> . 
+<urn:cite:chron:j-macedonians.ruler3_17> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_22> . 
 
 <urn:cite:chron:olympiadyear.6_1> olo:item 21 .
 <urn:cite:chron:olympiadyear.6_1> rdf:Label "Olympiad 6, year 1" .
 <urn:cite:chron:olympiadyear.6_1> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler3.6> olo:item 6 .
-<urn:cite:chron:j-medes.ruler3.6> rdf:Label "Year 6 of Medidus" .
-<urn:cite:chron:j-medes.ruler3.6> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
+<urn:cite:chron:j-medes.ruler3_6> olo:item 6 .
+<urn:cite:chron:j-medes.ruler3_6> rdf:Label "Year 6 of Medidus" .
+<urn:cite:chron:j-medes.ruler3_6> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
 
-<urn:cite:chron:j-athenians.ruler29.23> olo:item 23 .
-<urn:cite:chron:j-athenians.ruler29.23> rdf:Label "Year 23 of Aeschylus" .
-<urn:cite:chron:j-athenians.ruler29.23> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
+<urn:cite:chron:j-athenians.ruler29_23> olo:item 23 .
+<urn:cite:chron:j-athenians.ruler29_23> rdf:Label "Year 23 of Aeschylus" .
+<urn:cite:chron:j-athenians.ruler29_23> cite:memberOf <urn:cite:chron:j-athenians.ruler29> .
 
-<urn:cite:chron:j-latins.ruler15.41> olo:item 41 .
-<urn:cite:chron:j-latins.ruler15.41> rdf:Label "Year 41 of Amulius Silvius" .
-<urn:cite:chron:j-latins.ruler15.41> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
+<urn:cite:chron:j-latins.ruler15_41> olo:item 41 .
+<urn:cite:chron:j-latins.ruler15_41> rdf:Label "Year 41 of Amulius Silvius" .
+<urn:cite:chron:j-latins.ruler15_41> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
 
-<urn:cite:chron:j-macedonians.ruler3.18> olo:item 18 .
-<urn:cite:chron:j-macedonians.ruler3.18> rdf:Label "Year 18 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.18> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_18> olo:item 18 .
+<urn:cite:chron:j-macedonians.ruler3_18> rdf:Label "Year 18 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_18> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.23> olo:item 23 .
-<urn:cite:chron:j-lydians.ruler1.23> rdf:Label "Year 23 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.23> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.6_1> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3.6> . 
-<urn:cite:chron:olympiadyear.6_1> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.23> . 
-<urn:cite:chron:olympiadyear.6_1> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.41> . 
-<urn:cite:chron:olympiadyear.6_1> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.18> . 
-<urn:cite:chron:olympiadyear.6_1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.23> . 
-<urn:cite:chron:j-medes.ruler3.6> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29.23> . 
-<urn:cite:chron:j-medes.ruler3.6> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.41> . 
-<urn:cite:chron:j-medes.ruler3.6> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.18> . 
-<urn:cite:chron:j-medes.ruler3.6> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.23> . 
-<urn:cite:chron:j-athenians.ruler29.23> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.41> . 
-<urn:cite:chron:j-athenians.ruler29.23> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.18> . 
-<urn:cite:chron:j-athenians.ruler29.23> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.23> . 
-<urn:cite:chron:j-latins.ruler15.41> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.18> . 
-<urn:cite:chron:j-latins.ruler15.41> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.23> . 
-<urn:cite:chron:j-macedonians.ruler3.18> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.23> . 
+<urn:cite:chron:j-lydians.ruler1_23> olo:item 23 .
+<urn:cite:chron:j-lydians.ruler1_23> rdf:Label "Year 23 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_23> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.6_1> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3_6> . 
+<urn:cite:chron:olympiadyear.6_1> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_23> . 
+<urn:cite:chron:olympiadyear.6_1> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_41> . 
+<urn:cite:chron:olympiadyear.6_1> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_18> . 
+<urn:cite:chron:olympiadyear.6_1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_23> . 
+<urn:cite:chron:j-medes.ruler3_6> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler29_23> . 
+<urn:cite:chron:j-medes.ruler3_6> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_41> . 
+<urn:cite:chron:j-medes.ruler3_6> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_18> . 
+<urn:cite:chron:j-medes.ruler3_6> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_23> . 
+<urn:cite:chron:j-athenians.ruler29_23> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_41> . 
+<urn:cite:chron:j-athenians.ruler29_23> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_18> . 
+<urn:cite:chron:j-athenians.ruler29_23> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_23> . 
+<urn:cite:chron:j-latins.ruler15_41> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_18> . 
+<urn:cite:chron:j-latins.ruler15_41> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_23> . 
+<urn:cite:chron:j-macedonians.ruler3_18> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_23> . 
 
 <urn:cite:chron:olympiadyear.6_2> olo:item 22 .
 <urn:cite:chron:olympiadyear.6_2> rdf:Label "Olympiad 6, year 2" .
 <urn:cite:chron:olympiadyear.6_2> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler3.7> olo:item 7 .
-<urn:cite:chron:j-medes.ruler3.7> rdf:Label "Year 7 of Medidus" .
-<urn:cite:chron:j-medes.ruler3.7> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
+<urn:cite:chron:j-medes.ruler3_7> olo:item 7 .
+<urn:cite:chron:j-medes.ruler3_7> rdf:Label "Year 7 of Medidus" .
+<urn:cite:chron:j-medes.ruler3_7> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
 
-<urn:cite:chron:j-athenians.ruler30.1> olo:item 1 .
-<urn:cite:chron:j-athenians.ruler30.1> rdf:Label "Year 1 of Alcmaeon" .
-<urn:cite:chron:j-athenians.ruler30.1> cite:memberOf <urn:cite:chron:j-athenians.ruler30> .
+<urn:cite:chron:j-athenians.ruler30_1> olo:item 1 .
+<urn:cite:chron:j-athenians.ruler30_1> rdf:Label "Year 1 of Alcmaeon" .
+<urn:cite:chron:j-athenians.ruler30_1> cite:memberOf <urn:cite:chron:j-athenians.ruler30> .
 
-<urn:cite:chron:j-latins.ruler15.42> olo:item 42 .
-<urn:cite:chron:j-latins.ruler15.42> rdf:Label "Year 42 of Amulius Silvius" .
-<urn:cite:chron:j-latins.ruler15.42> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
+<urn:cite:chron:j-latins.ruler15_42> olo:item 42 .
+<urn:cite:chron:j-latins.ruler15_42> rdf:Label "Year 42 of Amulius Silvius" .
+<urn:cite:chron:j-latins.ruler15_42> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
 
-<urn:cite:chron:j-macedonians.ruler3.19> olo:item 19 .
-<urn:cite:chron:j-macedonians.ruler3.19> rdf:Label "Year 19 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.19> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_19> olo:item 19 .
+<urn:cite:chron:j-macedonians.ruler3_19> rdf:Label "Year 19 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_19> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.24> olo:item 24 .
-<urn:cite:chron:j-lydians.ruler1.24> rdf:Label "Year 24 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.24> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.6_2> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3.7> . 
-<urn:cite:chron:olympiadyear.6_2> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler30.1> . 
-<urn:cite:chron:olympiadyear.6_2> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.42> . 
-<urn:cite:chron:olympiadyear.6_2> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.19> . 
-<urn:cite:chron:olympiadyear.6_2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.24> . 
-<urn:cite:chron:j-medes.ruler3.7> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler30.1> . 
-<urn:cite:chron:j-medes.ruler3.7> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.42> . 
-<urn:cite:chron:j-medes.ruler3.7> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.19> . 
-<urn:cite:chron:j-medes.ruler3.7> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.24> . 
-<urn:cite:chron:j-athenians.ruler30.1> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.42> . 
-<urn:cite:chron:j-athenians.ruler30.1> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.19> . 
-<urn:cite:chron:j-athenians.ruler30.1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.24> . 
-<urn:cite:chron:j-latins.ruler15.42> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.19> . 
-<urn:cite:chron:j-latins.ruler15.42> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.24> . 
-<urn:cite:chron:j-macedonians.ruler3.19> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.24> . 
+<urn:cite:chron:j-lydians.ruler1_24> olo:item 24 .
+<urn:cite:chron:j-lydians.ruler1_24> rdf:Label "Year 24 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_24> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.6_2> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3_7> . 
+<urn:cite:chron:olympiadyear.6_2> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler30_1> . 
+<urn:cite:chron:olympiadyear.6_2> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_42> . 
+<urn:cite:chron:olympiadyear.6_2> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_19> . 
+<urn:cite:chron:olympiadyear.6_2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_24> . 
+<urn:cite:chron:j-medes.ruler3_7> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler30_1> . 
+<urn:cite:chron:j-medes.ruler3_7> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_42> . 
+<urn:cite:chron:j-medes.ruler3_7> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_19> . 
+<urn:cite:chron:j-medes.ruler3_7> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_24> . 
+<urn:cite:chron:j-athenians.ruler30_1> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_42> . 
+<urn:cite:chron:j-athenians.ruler30_1> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_19> . 
+<urn:cite:chron:j-athenians.ruler30_1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_24> . 
+<urn:cite:chron:j-latins.ruler15_42> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_19> . 
+<urn:cite:chron:j-latins.ruler15_42> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_24> . 
+<urn:cite:chron:j-macedonians.ruler3_19> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_24> . 
 
 <urn:cite:chron:olympiadyear.6_3> olo:item 23 .
 <urn:cite:chron:olympiadyear.6_3> rdf:Label "Olympiad 6, year 3" .
 <urn:cite:chron:olympiadyear.6_3> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler3.8> olo:item 8 .
-<urn:cite:chron:j-medes.ruler3.8> rdf:Label "Year 8 of Medidus" .
-<urn:cite:chron:j-medes.ruler3.8> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
+<urn:cite:chron:j-medes.ruler3_8> olo:item 8 .
+<urn:cite:chron:j-medes.ruler3_8> rdf:Label "Year 8 of Medidus" .
+<urn:cite:chron:j-medes.ruler3_8> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
 
-<urn:cite:chron:j-athenians.ruler30.2> olo:item 2 .
-<urn:cite:chron:j-athenians.ruler30.2> rdf:Label "Year 2 of Alcmaeon" .
-<urn:cite:chron:j-athenians.ruler30.2> cite:memberOf <urn:cite:chron:j-athenians.ruler30> .
+<urn:cite:chron:j-athenians.ruler30_2> olo:item 2 .
+<urn:cite:chron:j-athenians.ruler30_2> rdf:Label "Year 2 of Alcmaeon" .
+<urn:cite:chron:j-athenians.ruler30_2> cite:memberOf <urn:cite:chron:j-athenians.ruler30> .
 
-<urn:cite:chron:j-latins.ruler15.43> olo:item 43 .
-<urn:cite:chron:j-latins.ruler15.43> rdf:Label "Year 43 of Amulius Silvius" .
-<urn:cite:chron:j-latins.ruler15.43> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
+<urn:cite:chron:j-latins.ruler15_43> olo:item 43 .
+<urn:cite:chron:j-latins.ruler15_43> rdf:Label "Year 43 of Amulius Silvius" .
+<urn:cite:chron:j-latins.ruler15_43> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
 
-<urn:cite:chron:j-macedonians.ruler3.20> olo:item 20 .
-<urn:cite:chron:j-macedonians.ruler3.20> rdf:Label "Year 20 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.20> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_20> olo:item 20 .
+<urn:cite:chron:j-macedonians.ruler3_20> rdf:Label "Year 20 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_20> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.25> olo:item 25 .
-<urn:cite:chron:j-lydians.ruler1.25> rdf:Label "Year 25 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.25> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.6_3> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3.8> . 
-<urn:cite:chron:olympiadyear.6_3> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler30.2> . 
-<urn:cite:chron:olympiadyear.6_3> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.43> . 
-<urn:cite:chron:olympiadyear.6_3> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.20> . 
-<urn:cite:chron:olympiadyear.6_3> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.25> . 
-<urn:cite:chron:j-medes.ruler3.8> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler30.2> . 
-<urn:cite:chron:j-medes.ruler3.8> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.43> . 
-<urn:cite:chron:j-medes.ruler3.8> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.20> . 
-<urn:cite:chron:j-medes.ruler3.8> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.25> . 
-<urn:cite:chron:j-athenians.ruler30.2> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.43> . 
-<urn:cite:chron:j-athenians.ruler30.2> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.20> . 
-<urn:cite:chron:j-athenians.ruler30.2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.25> . 
-<urn:cite:chron:j-latins.ruler15.43> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.20> . 
-<urn:cite:chron:j-latins.ruler15.43> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.25> . 
-<urn:cite:chron:j-macedonians.ruler3.20> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.25> . 
+<urn:cite:chron:j-lydians.ruler1_25> olo:item 25 .
+<urn:cite:chron:j-lydians.ruler1_25> rdf:Label "Year 25 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_25> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.6_3> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3_8> . 
+<urn:cite:chron:olympiadyear.6_3> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler30_2> . 
+<urn:cite:chron:olympiadyear.6_3> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_43> . 
+<urn:cite:chron:olympiadyear.6_3> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_20> . 
+<urn:cite:chron:olympiadyear.6_3> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_25> . 
+<urn:cite:chron:j-medes.ruler3_8> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler30_2> . 
+<urn:cite:chron:j-medes.ruler3_8> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_43> . 
+<urn:cite:chron:j-medes.ruler3_8> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_20> . 
+<urn:cite:chron:j-medes.ruler3_8> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_25> . 
+<urn:cite:chron:j-athenians.ruler30_2> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_43> . 
+<urn:cite:chron:j-athenians.ruler30_2> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_20> . 
+<urn:cite:chron:j-athenians.ruler30_2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_25> . 
+<urn:cite:chron:j-latins.ruler15_43> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_20> . 
+<urn:cite:chron:j-latins.ruler15_43> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_25> . 
+<urn:cite:chron:j-macedonians.ruler3_20> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_25> . 
 
 <urn:cite:chron:olympiadyear.6_4> olo:item 24 .
 <urn:cite:chron:olympiadyear.6_4> rdf:Label "Olympiad 6, year 4" .
 <urn:cite:chron:olympiadyear.6_4> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler3.9> olo:item 9 .
-<urn:cite:chron:j-medes.ruler3.9> rdf:Label "Year 9 of Medidus" .
-<urn:cite:chron:j-medes.ruler3.9> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
+<urn:cite:chron:j-medes.ruler3_9> olo:item 9 .
+<urn:cite:chron:j-medes.ruler3_9> rdf:Label "Year 9 of Medidus" .
+<urn:cite:chron:j-medes.ruler3_9> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
 
-<urn:cite:chron:j-athenians.ruler31.1> olo:item 1 .
-<urn:cite:chron:j-athenians.ruler31.1> rdf:Label "Year 1 of Charops" .
-<urn:cite:chron:j-athenians.ruler31.1> cite:memberOf <urn:cite:chron:j-athenians.ruler31> .
+<urn:cite:chron:j-athenians.ruler31_1> olo:item 1 .
+<urn:cite:chron:j-athenians.ruler31_1> rdf:Label "Year 1 of Charops" .
+<urn:cite:chron:j-athenians.ruler31_1> cite:memberOf <urn:cite:chron:j-athenians.ruler31> .
 
-<urn:cite:chron:j-latins.ruler15.44> olo:item 44 .
-<urn:cite:chron:j-latins.ruler15.44> rdf:Label "Year 44 of Amulius Silvius" .
-<urn:cite:chron:j-latins.ruler15.44> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
+<urn:cite:chron:j-latins.ruler15_44> olo:item 44 .
+<urn:cite:chron:j-latins.ruler15_44> rdf:Label "Year 44 of Amulius Silvius" .
+<urn:cite:chron:j-latins.ruler15_44> cite:memberOf <urn:cite:chron:j-latins.ruler15> .
 
-<urn:cite:chron:j-macedonians.ruler3.21> olo:item 21 .
-<urn:cite:chron:j-macedonians.ruler3.21> rdf:Label "Year 21 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.21> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_21> olo:item 21 .
+<urn:cite:chron:j-macedonians.ruler3_21> rdf:Label "Year 21 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_21> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.26> olo:item 26 .
-<urn:cite:chron:j-lydians.ruler1.26> rdf:Label "Year 26 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.26> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.6_4> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3.9> . 
-<urn:cite:chron:olympiadyear.6_4> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31.1> . 
-<urn:cite:chron:olympiadyear.6_4> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.44> . 
-<urn:cite:chron:olympiadyear.6_4> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.21> . 
-<urn:cite:chron:olympiadyear.6_4> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.26> . 
-<urn:cite:chron:j-medes.ruler3.9> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31.1> . 
-<urn:cite:chron:j-medes.ruler3.9> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.44> . 
-<urn:cite:chron:j-medes.ruler3.9> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.21> . 
-<urn:cite:chron:j-medes.ruler3.9> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.26> . 
-<urn:cite:chron:j-athenians.ruler31.1> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15.44> . 
-<urn:cite:chron:j-athenians.ruler31.1> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.21> . 
-<urn:cite:chron:j-athenians.ruler31.1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.26> . 
-<urn:cite:chron:j-latins.ruler15.44> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.21> . 
-<urn:cite:chron:j-latins.ruler15.44> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.26> . 
-<urn:cite:chron:j-macedonians.ruler3.21> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.26> . 
+<urn:cite:chron:j-lydians.ruler1_26> olo:item 26 .
+<urn:cite:chron:j-lydians.ruler1_26> rdf:Label "Year 26 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_26> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.6_4> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3_9> . 
+<urn:cite:chron:olympiadyear.6_4> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31_1> . 
+<urn:cite:chron:olympiadyear.6_4> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_44> . 
+<urn:cite:chron:olympiadyear.6_4> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_21> . 
+<urn:cite:chron:olympiadyear.6_4> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_26> . 
+<urn:cite:chron:j-medes.ruler3_9> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31_1> . 
+<urn:cite:chron:j-medes.ruler3_9> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_44> . 
+<urn:cite:chron:j-medes.ruler3_9> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_21> . 
+<urn:cite:chron:j-medes.ruler3_9> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_26> . 
+<urn:cite:chron:j-athenians.ruler31_1> chron:synchronizedWith <urn:cite:chron:j-latins.ruler15_44> . 
+<urn:cite:chron:j-athenians.ruler31_1> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_21> . 
+<urn:cite:chron:j-athenians.ruler31_1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_26> . 
+<urn:cite:chron:j-latins.ruler15_44> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_21> . 
+<urn:cite:chron:j-latins.ruler15_44> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_26> . 
+<urn:cite:chron:j-macedonians.ruler3_21> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_26> . 
 
 <urn:cite:chron:olympiadyear.7_1> olo:item 25 .
 <urn:cite:chron:olympiadyear.7_1> rdf:Label "Olympiad 7, year 1" .
 <urn:cite:chron:olympiadyear.7_1> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler3.10> olo:item 10 .
-<urn:cite:chron:j-medes.ruler3.10> rdf:Label "Year 10 of Medidus" .
-<urn:cite:chron:j-medes.ruler3.10> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
+<urn:cite:chron:j-medes.ruler3_10> olo:item 10 .
+<urn:cite:chron:j-medes.ruler3_10> rdf:Label "Year 10 of Medidus" .
+<urn:cite:chron:j-medes.ruler3_10> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
 
-<urn:cite:chron:j-athenians.ruler31.2> olo:item 2 .
-<urn:cite:chron:j-athenians.ruler31.2> rdf:Label "Year 2 of Charops" .
-<urn:cite:chron:j-athenians.ruler31.2> cite:memberOf <urn:cite:chron:j-athenians.ruler31> .
+<urn:cite:chron:j-athenians.ruler31_2> olo:item 2 .
+<urn:cite:chron:j-athenians.ruler31_2> rdf:Label "Year 2 of Charops" .
+<urn:cite:chron:j-athenians.ruler31_2> cite:memberOf <urn:cite:chron:j-athenians.ruler31> .
 
-<urn:cite:chron:j-latins.ruler16.1> olo:item 1 .
-<urn:cite:chron:j-latins.ruler16.1> rdf:Label "Year 1 of Romulus" .
-<urn:cite:chron:j-latins.ruler16.1> cite:memberOf <urn:cite:chron:j-latins.ruler16> .
+<urn:cite:chron:j-latins.ruler16_1> olo:item 1 .
+<urn:cite:chron:j-latins.ruler16_1> rdf:Label "Year 1 of Romulus" .
+<urn:cite:chron:j-latins.ruler16_1> cite:memberOf <urn:cite:chron:j-latins.ruler16> .
 
-<urn:cite:chron:j-macedonians.ruler3.22> olo:item 22 .
-<urn:cite:chron:j-macedonians.ruler3.22> rdf:Label "Year 22 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.22> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_22> olo:item 22 .
+<urn:cite:chron:j-macedonians.ruler3_22> rdf:Label "Year 22 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_22> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.27> olo:item 27 .
-<urn:cite:chron:j-lydians.ruler1.27> rdf:Label "Year 27 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.27> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.7_1> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3.10> . 
-<urn:cite:chron:olympiadyear.7_1> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31.2> . 
-<urn:cite:chron:olympiadyear.7_1> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16.1> . 
-<urn:cite:chron:olympiadyear.7_1> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.22> . 
-<urn:cite:chron:olympiadyear.7_1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.27> . 
-<urn:cite:chron:j-medes.ruler3.10> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31.2> . 
-<urn:cite:chron:j-medes.ruler3.10> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16.1> . 
-<urn:cite:chron:j-medes.ruler3.10> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.22> . 
-<urn:cite:chron:j-medes.ruler3.10> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.27> . 
-<urn:cite:chron:j-athenians.ruler31.2> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16.1> . 
-<urn:cite:chron:j-athenians.ruler31.2> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.22> . 
-<urn:cite:chron:j-athenians.ruler31.2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.27> . 
-<urn:cite:chron:j-latins.ruler16.1> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.22> . 
-<urn:cite:chron:j-latins.ruler16.1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.27> . 
-<urn:cite:chron:j-macedonians.ruler3.22> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.27> . 
+<urn:cite:chron:j-lydians.ruler1_27> olo:item 27 .
+<urn:cite:chron:j-lydians.ruler1_27> rdf:Label "Year 27 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_27> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.7_1> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3_10> . 
+<urn:cite:chron:olympiadyear.7_1> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31_2> . 
+<urn:cite:chron:olympiadyear.7_1> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16_1> . 
+<urn:cite:chron:olympiadyear.7_1> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_22> . 
+<urn:cite:chron:olympiadyear.7_1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_27> . 
+<urn:cite:chron:j-medes.ruler3_10> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31_2> . 
+<urn:cite:chron:j-medes.ruler3_10> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16_1> . 
+<urn:cite:chron:j-medes.ruler3_10> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_22> . 
+<urn:cite:chron:j-medes.ruler3_10> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_27> . 
+<urn:cite:chron:j-athenians.ruler31_2> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16_1> . 
+<urn:cite:chron:j-athenians.ruler31_2> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_22> . 
+<urn:cite:chron:j-athenians.ruler31_2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_27> . 
+<urn:cite:chron:j-latins.ruler16_1> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_22> . 
+<urn:cite:chron:j-latins.ruler16_1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_27> . 
+<urn:cite:chron:j-macedonians.ruler3_22> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_27> . 
 
 <urn:cite:chron:olympiadyear.7_2> olo:item 26 .
 <urn:cite:chron:olympiadyear.7_2> rdf:Label "Olympiad 7, year 2" .
 <urn:cite:chron:olympiadyear.7_2> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler3.11> olo:item 11 .
-<urn:cite:chron:j-medes.ruler3.11> rdf:Label "Year 11 of Medidus" .
-<urn:cite:chron:j-medes.ruler3.11> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
+<urn:cite:chron:j-medes.ruler3_11> olo:item 11 .
+<urn:cite:chron:j-medes.ruler3_11> rdf:Label "Year 11 of Medidus" .
+<urn:cite:chron:j-medes.ruler3_11> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
 
-<urn:cite:chron:j-athenians.ruler31.3> olo:item 3 .
-<urn:cite:chron:j-athenians.ruler31.3> rdf:Label "Year 3 of Charops" .
-<urn:cite:chron:j-athenians.ruler31.3> cite:memberOf <urn:cite:chron:j-athenians.ruler31> .
+<urn:cite:chron:j-athenians.ruler31_3> olo:item 3 .
+<urn:cite:chron:j-athenians.ruler31_3> rdf:Label "Year 3 of Charops" .
+<urn:cite:chron:j-athenians.ruler31_3> cite:memberOf <urn:cite:chron:j-athenians.ruler31> .
 
-<urn:cite:chron:j-latins.ruler16.2> olo:item 2 .
-<urn:cite:chron:j-latins.ruler16.2> rdf:Label "Year 2 of Romulus" .
-<urn:cite:chron:j-latins.ruler16.2> cite:memberOf <urn:cite:chron:j-latins.ruler16> .
+<urn:cite:chron:j-latins.ruler16_2> olo:item 2 .
+<urn:cite:chron:j-latins.ruler16_2> rdf:Label "Year 2 of Romulus" .
+<urn:cite:chron:j-latins.ruler16_2> cite:memberOf <urn:cite:chron:j-latins.ruler16> .
 
-<urn:cite:chron:j-macedonians.ruler3.23> olo:item 23 .
-<urn:cite:chron:j-macedonians.ruler3.23> rdf:Label "Year 23 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.23> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_23> olo:item 23 .
+<urn:cite:chron:j-macedonians.ruler3_23> rdf:Label "Year 23 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_23> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.28> olo:item 28 .
-<urn:cite:chron:j-lydians.ruler1.28> rdf:Label "Year 28 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.28> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.7_2> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3.11> . 
-<urn:cite:chron:olympiadyear.7_2> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31.3> . 
-<urn:cite:chron:olympiadyear.7_2> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16.2> . 
-<urn:cite:chron:olympiadyear.7_2> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.23> . 
-<urn:cite:chron:olympiadyear.7_2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.28> . 
-<urn:cite:chron:j-medes.ruler3.11> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31.3> . 
-<urn:cite:chron:j-medes.ruler3.11> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16.2> . 
-<urn:cite:chron:j-medes.ruler3.11> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.23> . 
-<urn:cite:chron:j-medes.ruler3.11> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.28> . 
-<urn:cite:chron:j-athenians.ruler31.3> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16.2> . 
-<urn:cite:chron:j-athenians.ruler31.3> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.23> . 
-<urn:cite:chron:j-athenians.ruler31.3> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.28> . 
-<urn:cite:chron:j-latins.ruler16.2> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.23> . 
-<urn:cite:chron:j-latins.ruler16.2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.28> . 
-<urn:cite:chron:j-macedonians.ruler3.23> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.28> . 
+<urn:cite:chron:j-lydians.ruler1_28> olo:item 28 .
+<urn:cite:chron:j-lydians.ruler1_28> rdf:Label "Year 28 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_28> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.7_2> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3_11> . 
+<urn:cite:chron:olympiadyear.7_2> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31_3> . 
+<urn:cite:chron:olympiadyear.7_2> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16_2> . 
+<urn:cite:chron:olympiadyear.7_2> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_23> . 
+<urn:cite:chron:olympiadyear.7_2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_28> . 
+<urn:cite:chron:j-medes.ruler3_11> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31_3> . 
+<urn:cite:chron:j-medes.ruler3_11> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16_2> . 
+<urn:cite:chron:j-medes.ruler3_11> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_23> . 
+<urn:cite:chron:j-medes.ruler3_11> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_28> . 
+<urn:cite:chron:j-athenians.ruler31_3> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16_2> . 
+<urn:cite:chron:j-athenians.ruler31_3> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_23> . 
+<urn:cite:chron:j-athenians.ruler31_3> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_28> . 
+<urn:cite:chron:j-latins.ruler16_2> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_23> . 
+<urn:cite:chron:j-latins.ruler16_2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_28> . 
+<urn:cite:chron:j-macedonians.ruler3_23> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_28> . 
 
 <urn:cite:chron:olympiadyear.7_3> olo:item 27 .
 <urn:cite:chron:olympiadyear.7_3> rdf:Label "Olympiad 7, year 3" .
 <urn:cite:chron:olympiadyear.7_3> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler3.12> olo:item 12 .
-<urn:cite:chron:j-medes.ruler3.12> rdf:Label "Year 12 of Medidus" .
-<urn:cite:chron:j-medes.ruler3.12> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
+<urn:cite:chron:j-medes.ruler3_12> olo:item 12 .
+<urn:cite:chron:j-medes.ruler3_12> rdf:Label "Year 12 of Medidus" .
+<urn:cite:chron:j-medes.ruler3_12> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
 
-<urn:cite:chron:j-athenians.ruler31.4> olo:item 4 .
-<urn:cite:chron:j-athenians.ruler31.4> rdf:Label "Year 4 of Charops" .
-<urn:cite:chron:j-athenians.ruler31.4> cite:memberOf <urn:cite:chron:j-athenians.ruler31> .
+<urn:cite:chron:j-athenians.ruler31_4> olo:item 4 .
+<urn:cite:chron:j-athenians.ruler31_4> rdf:Label "Year 4 of Charops" .
+<urn:cite:chron:j-athenians.ruler31_4> cite:memberOf <urn:cite:chron:j-athenians.ruler31> .
 
-<urn:cite:chron:j-latins.ruler16.3> olo:item 3 .
-<urn:cite:chron:j-latins.ruler16.3> rdf:Label "Year 3 of Romulus" .
-<urn:cite:chron:j-latins.ruler16.3> cite:memberOf <urn:cite:chron:j-latins.ruler16> .
+<urn:cite:chron:j-latins.ruler16_3> olo:item 3 .
+<urn:cite:chron:j-latins.ruler16_3> rdf:Label "Year 3 of Romulus" .
+<urn:cite:chron:j-latins.ruler16_3> cite:memberOf <urn:cite:chron:j-latins.ruler16> .
 
-<urn:cite:chron:j-macedonians.ruler3.24> olo:item 24 .
-<urn:cite:chron:j-macedonians.ruler3.24> rdf:Label "Year 24 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.24> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_24> olo:item 24 .
+<urn:cite:chron:j-macedonians.ruler3_24> rdf:Label "Year 24 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_24> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.29> olo:item 29 .
-<urn:cite:chron:j-lydians.ruler1.29> rdf:Label "Year 29 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.29> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.7_3> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3.12> . 
-<urn:cite:chron:olympiadyear.7_3> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31.4> . 
-<urn:cite:chron:olympiadyear.7_3> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16.3> . 
-<urn:cite:chron:olympiadyear.7_3> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.24> . 
-<urn:cite:chron:olympiadyear.7_3> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.29> . 
-<urn:cite:chron:j-medes.ruler3.12> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31.4> . 
-<urn:cite:chron:j-medes.ruler3.12> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16.3> . 
-<urn:cite:chron:j-medes.ruler3.12> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.24> . 
-<urn:cite:chron:j-medes.ruler3.12> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.29> . 
-<urn:cite:chron:j-athenians.ruler31.4> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16.3> . 
-<urn:cite:chron:j-athenians.ruler31.4> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.24> . 
-<urn:cite:chron:j-athenians.ruler31.4> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.29> . 
-<urn:cite:chron:j-latins.ruler16.3> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.24> . 
-<urn:cite:chron:j-latins.ruler16.3> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.29> . 
-<urn:cite:chron:j-macedonians.ruler3.24> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.29> . 
+<urn:cite:chron:j-lydians.ruler1_29> olo:item 29 .
+<urn:cite:chron:j-lydians.ruler1_29> rdf:Label "Year 29 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_29> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.7_3> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3_12> . 
+<urn:cite:chron:olympiadyear.7_3> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31_4> . 
+<urn:cite:chron:olympiadyear.7_3> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16_3> . 
+<urn:cite:chron:olympiadyear.7_3> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_24> . 
+<urn:cite:chron:olympiadyear.7_3> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_29> . 
+<urn:cite:chron:j-medes.ruler3_12> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31_4> . 
+<urn:cite:chron:j-medes.ruler3_12> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16_3> . 
+<urn:cite:chron:j-medes.ruler3_12> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_24> . 
+<urn:cite:chron:j-medes.ruler3_12> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_29> . 
+<urn:cite:chron:j-athenians.ruler31_4> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16_3> . 
+<urn:cite:chron:j-athenians.ruler31_4> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_24> . 
+<urn:cite:chron:j-athenians.ruler31_4> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_29> . 
+<urn:cite:chron:j-latins.ruler16_3> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_24> . 
+<urn:cite:chron:j-latins.ruler16_3> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_29> . 
+<urn:cite:chron:j-macedonians.ruler3_24> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_29> . 
 
 <urn:cite:chron:olympiadyear.7_4> olo:item 28 .
 <urn:cite:chron:olympiadyear.7_4> rdf:Label "Olympiad 7, year 4" .
 <urn:cite:chron:olympiadyear.7_4> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler3.13> olo:item 13 .
-<urn:cite:chron:j-medes.ruler3.13> rdf:Label "Year 13 of Medidus" .
-<urn:cite:chron:j-medes.ruler3.13> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
+<urn:cite:chron:j-medes.ruler3_13> olo:item 13 .
+<urn:cite:chron:j-medes.ruler3_13> rdf:Label "Year 13 of Medidus" .
+<urn:cite:chron:j-medes.ruler3_13> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
 
-<urn:cite:chron:j-athenians.ruler31.5> olo:item 5 .
-<urn:cite:chron:j-athenians.ruler31.5> rdf:Label "Year 5 of Charops" .
-<urn:cite:chron:j-athenians.ruler31.5> cite:memberOf <urn:cite:chron:j-athenians.ruler31> .
+<urn:cite:chron:j-athenians.ruler31_5> olo:item 5 .
+<urn:cite:chron:j-athenians.ruler31_5> rdf:Label "Year 5 of Charops" .
+<urn:cite:chron:j-athenians.ruler31_5> cite:memberOf <urn:cite:chron:j-athenians.ruler31> .
 
-<urn:cite:chron:j-latins.ruler16.4> olo:item 4 .
-<urn:cite:chron:j-latins.ruler16.4> rdf:Label "Year 4 of Romulus" .
-<urn:cite:chron:j-latins.ruler16.4> cite:memberOf <urn:cite:chron:j-latins.ruler16> .
+<urn:cite:chron:j-latins.ruler16_4> olo:item 4 .
+<urn:cite:chron:j-latins.ruler16_4> rdf:Label "Year 4 of Romulus" .
+<urn:cite:chron:j-latins.ruler16_4> cite:memberOf <urn:cite:chron:j-latins.ruler16> .
 
-<urn:cite:chron:j-macedonians.ruler3.25> olo:item 25 .
-<urn:cite:chron:j-macedonians.ruler3.25> rdf:Label "Year 25 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.25> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_25> olo:item 25 .
+<urn:cite:chron:j-macedonians.ruler3_25> rdf:Label "Year 25 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_25> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.30> olo:item 30 .
-<urn:cite:chron:j-lydians.ruler1.30> rdf:Label "Year 30 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.30> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.7_4> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3.13> . 
-<urn:cite:chron:olympiadyear.7_4> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31.5> . 
-<urn:cite:chron:olympiadyear.7_4> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16.4> . 
-<urn:cite:chron:olympiadyear.7_4> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.25> . 
-<urn:cite:chron:olympiadyear.7_4> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.30> . 
-<urn:cite:chron:j-medes.ruler3.13> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31.5> . 
-<urn:cite:chron:j-medes.ruler3.13> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16.4> . 
-<urn:cite:chron:j-medes.ruler3.13> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.25> . 
-<urn:cite:chron:j-medes.ruler3.13> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.30> . 
-<urn:cite:chron:j-athenians.ruler31.5> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16.4> . 
-<urn:cite:chron:j-athenians.ruler31.5> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.25> . 
-<urn:cite:chron:j-athenians.ruler31.5> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.30> . 
-<urn:cite:chron:j-latins.ruler16.4> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.25> . 
-<urn:cite:chron:j-latins.ruler16.4> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.30> . 
-<urn:cite:chron:j-macedonians.ruler3.25> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.30> . 
+<urn:cite:chron:j-lydians.ruler1_30> olo:item 30 .
+<urn:cite:chron:j-lydians.ruler1_30> rdf:Label "Year 30 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_30> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.7_4> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3_13> . 
+<urn:cite:chron:olympiadyear.7_4> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31_5> . 
+<urn:cite:chron:olympiadyear.7_4> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16_4> . 
+<urn:cite:chron:olympiadyear.7_4> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_25> . 
+<urn:cite:chron:olympiadyear.7_4> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_30> . 
+<urn:cite:chron:j-medes.ruler3_13> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31_5> . 
+<urn:cite:chron:j-medes.ruler3_13> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16_4> . 
+<urn:cite:chron:j-medes.ruler3_13> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_25> . 
+<urn:cite:chron:j-medes.ruler3_13> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_30> . 
+<urn:cite:chron:j-athenians.ruler31_5> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16_4> . 
+<urn:cite:chron:j-athenians.ruler31_5> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_25> . 
+<urn:cite:chron:j-athenians.ruler31_5> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_30> . 
+<urn:cite:chron:j-latins.ruler16_4> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_25> . 
+<urn:cite:chron:j-latins.ruler16_4> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_30> . 
+<urn:cite:chron:j-macedonians.ruler3_25> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_30> . 
 
 <urn:cite:chron:olympiadyear.8_1> olo:item 29 .
 <urn:cite:chron:olympiadyear.8_1> rdf:Label "Olympiad 8, year 1" .
 <urn:cite:chron:olympiadyear.8_1> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler3.14> olo:item 14 .
-<urn:cite:chron:j-medes.ruler3.14> rdf:Label "Year 14 of Medidus" .
-<urn:cite:chron:j-medes.ruler3.14> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
+<urn:cite:chron:j-medes.ruler3_14> olo:item 14 .
+<urn:cite:chron:j-medes.ruler3_14> rdf:Label "Year 14 of Medidus" .
+<urn:cite:chron:j-medes.ruler3_14> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
 
-<urn:cite:chron:j-athenians.ruler31.6> olo:item 6 .
-<urn:cite:chron:j-athenians.ruler31.6> rdf:Label "Year 6 of Charops" .
-<urn:cite:chron:j-athenians.ruler31.6> cite:memberOf <urn:cite:chron:j-athenians.ruler31> .
+<urn:cite:chron:j-athenians.ruler31_6> olo:item 6 .
+<urn:cite:chron:j-athenians.ruler31_6> rdf:Label "Year 6 of Charops" .
+<urn:cite:chron:j-athenians.ruler31_6> cite:memberOf <urn:cite:chron:j-athenians.ruler31> .
 
-<urn:cite:chron:j-latins.ruler16.5> olo:item 5 .
-<urn:cite:chron:j-latins.ruler16.5> rdf:Label "Year 5 of Romulus" .
-<urn:cite:chron:j-latins.ruler16.5> cite:memberOf <urn:cite:chron:j-latins.ruler16> .
+<urn:cite:chron:j-latins.ruler16_5> olo:item 5 .
+<urn:cite:chron:j-latins.ruler16_5> rdf:Label "Year 5 of Romulus" .
+<urn:cite:chron:j-latins.ruler16_5> cite:memberOf <urn:cite:chron:j-latins.ruler16> .
 
-<urn:cite:chron:j-macedonians.ruler3.26> olo:item 26 .
-<urn:cite:chron:j-macedonians.ruler3.26> rdf:Label "Year 26 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.26> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_26> olo:item 26 .
+<urn:cite:chron:j-macedonians.ruler3_26> rdf:Label "Year 26 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_26> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.31> olo:item 31 .
-<urn:cite:chron:j-lydians.ruler1.31> rdf:Label "Year 31 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.31> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.8_1> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3.14> . 
-<urn:cite:chron:olympiadyear.8_1> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31.6> . 
-<urn:cite:chron:olympiadyear.8_1> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16.5> . 
-<urn:cite:chron:olympiadyear.8_1> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.26> . 
-<urn:cite:chron:olympiadyear.8_1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.31> . 
-<urn:cite:chron:j-medes.ruler3.14> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31.6> . 
-<urn:cite:chron:j-medes.ruler3.14> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16.5> . 
-<urn:cite:chron:j-medes.ruler3.14> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.26> . 
-<urn:cite:chron:j-medes.ruler3.14> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.31> . 
-<urn:cite:chron:j-athenians.ruler31.6> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16.5> . 
-<urn:cite:chron:j-athenians.ruler31.6> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.26> . 
-<urn:cite:chron:j-athenians.ruler31.6> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.31> . 
-<urn:cite:chron:j-latins.ruler16.5> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.26> . 
-<urn:cite:chron:j-latins.ruler16.5> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.31> . 
-<urn:cite:chron:j-macedonians.ruler3.26> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.31> . 
+<urn:cite:chron:j-lydians.ruler1_31> olo:item 31 .
+<urn:cite:chron:j-lydians.ruler1_31> rdf:Label "Year 31 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_31> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.8_1> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3_14> . 
+<urn:cite:chron:olympiadyear.8_1> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31_6> . 
+<urn:cite:chron:olympiadyear.8_1> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16_5> . 
+<urn:cite:chron:olympiadyear.8_1> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_26> . 
+<urn:cite:chron:olympiadyear.8_1> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_31> . 
+<urn:cite:chron:j-medes.ruler3_14> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31_6> . 
+<urn:cite:chron:j-medes.ruler3_14> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16_5> . 
+<urn:cite:chron:j-medes.ruler3_14> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_26> . 
+<urn:cite:chron:j-medes.ruler3_14> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_31> . 
+<urn:cite:chron:j-athenians.ruler31_6> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16_5> . 
+<urn:cite:chron:j-athenians.ruler31_6> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_26> . 
+<urn:cite:chron:j-athenians.ruler31_6> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_31> . 
+<urn:cite:chron:j-latins.ruler16_5> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_26> . 
+<urn:cite:chron:j-latins.ruler16_5> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_31> . 
+<urn:cite:chron:j-macedonians.ruler3_26> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_31> . 
 
 <urn:cite:chron:olympiadyear.8_2> olo:item 30 .
 <urn:cite:chron:olympiadyear.8_2> rdf:Label "Olympiad 8, year 2" .
 <urn:cite:chron:olympiadyear.8_2> cite:memberOf <urn:cite:chron:olympiadyear> .
 
-<urn:cite:chron:j-medes.ruler3.15> olo:item 15 .
-<urn:cite:chron:j-medes.ruler3.15> rdf:Label "Year 15 of Medidus" .
-<urn:cite:chron:j-medes.ruler3.15> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
+<urn:cite:chron:j-medes.ruler3_15> olo:item 15 .
+<urn:cite:chron:j-medes.ruler3_15> rdf:Label "Year 15 of Medidus" .
+<urn:cite:chron:j-medes.ruler3_15> cite:memberOf <urn:cite:chron:j-medes.ruler3> .
 
-<urn:cite:chron:j-athenians.ruler31.7> olo:item 7 .
-<urn:cite:chron:j-athenians.ruler31.7> rdf:Label "Year 7 of Charops" .
-<urn:cite:chron:j-athenians.ruler31.7> cite:memberOf <urn:cite:chron:j-athenians.ruler31> .
+<urn:cite:chron:j-athenians.ruler31_7> olo:item 7 .
+<urn:cite:chron:j-athenians.ruler31_7> rdf:Label "Year 7 of Charops" .
+<urn:cite:chron:j-athenians.ruler31_7> cite:memberOf <urn:cite:chron:j-athenians.ruler31> .
 
-<urn:cite:chron:j-latins.ruler16.6> olo:item 6 .
-<urn:cite:chron:j-latins.ruler16.6> rdf:Label "Year 6 of Romulus" .
-<urn:cite:chron:j-latins.ruler16.6> cite:memberOf <urn:cite:chron:j-latins.ruler16> .
+<urn:cite:chron:j-latins.ruler16_6> olo:item 6 .
+<urn:cite:chron:j-latins.ruler16_6> rdf:Label "Year 6 of Romulus" .
+<urn:cite:chron:j-latins.ruler16_6> cite:memberOf <urn:cite:chron:j-latins.ruler16> .
 
-<urn:cite:chron:j-macedonians.ruler3.27> olo:item 27 .
-<urn:cite:chron:j-macedonians.ruler3.27> rdf:Label "Year 27 of Tyrimas" .
-<urn:cite:chron:j-macedonians.ruler3.27> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
+<urn:cite:chron:j-macedonians.ruler3_27> olo:item 27 .
+<urn:cite:chron:j-macedonians.ruler3_27> rdf:Label "Year 27 of Tyrimas" .
+<urn:cite:chron:j-macedonians.ruler3_27> cite:memberOf <urn:cite:chron:j-macedonians.ruler3> .
 
-<urn:cite:chron:j-lydians.ruler1.32> olo:item 32 .
-<urn:cite:chron:j-lydians.ruler1.32> rdf:Label "Year 32 of Ardisius" .
-<urn:cite:chron:j-lydians.ruler1.32> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
-<urn:cite:chron:olympiadyear.8_2> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3.15> . 
-<urn:cite:chron:olympiadyear.8_2> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31.7> . 
-<urn:cite:chron:olympiadyear.8_2> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16.6> . 
-<urn:cite:chron:olympiadyear.8_2> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.27> . 
-<urn:cite:chron:olympiadyear.8_2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.32> . 
-<urn:cite:chron:j-medes.ruler3.15> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31.7> . 
-<urn:cite:chron:j-medes.ruler3.15> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16.6> . 
-<urn:cite:chron:j-medes.ruler3.15> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.27> . 
-<urn:cite:chron:j-medes.ruler3.15> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.32> . 
-<urn:cite:chron:j-athenians.ruler31.7> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16.6> . 
-<urn:cite:chron:j-athenians.ruler31.7> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.27> . 
-<urn:cite:chron:j-athenians.ruler31.7> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.32> . 
-<urn:cite:chron:j-latins.ruler16.6> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3.27> . 
-<urn:cite:chron:j-latins.ruler16.6> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.32> . 
-<urn:cite:chron:j-macedonians.ruler3.27> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1.32> . 
+<urn:cite:chron:j-lydians.ruler1_32> olo:item 32 .
+<urn:cite:chron:j-lydians.ruler1_32> rdf:Label "Year 32 of Ardisius" .
+<urn:cite:chron:j-lydians.ruler1_32> cite:memberOf <urn:cite:chron:j-lydians.ruler1> .
+<urn:cite:chron:olympiadyear.8_2> chron:synchronizedWith <urn:cite:chron:j-medes.ruler3_15> . 
+<urn:cite:chron:olympiadyear.8_2> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31_7> . 
+<urn:cite:chron:olympiadyear.8_2> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16_6> . 
+<urn:cite:chron:olympiadyear.8_2> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_27> . 
+<urn:cite:chron:olympiadyear.8_2> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_32> . 
+<urn:cite:chron:j-medes.ruler3_15> chron:synchronizedWith <urn:cite:chron:j-athenians.ruler31_7> . 
+<urn:cite:chron:j-medes.ruler3_15> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16_6> . 
+<urn:cite:chron:j-medes.ruler3_15> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_27> . 
+<urn:cite:chron:j-medes.ruler3_15> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_32> . 
+<urn:cite:chron:j-athenians.ruler31_7> chron:synchronizedWith <urn:cite:chron:j-latins.ruler16_6> . 
+<urn:cite:chron:j-athenians.ruler31_7> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_27> . 
+<urn:cite:chron:j-athenians.ruler31_7> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_32> . 
+<urn:cite:chron:j-latins.ruler16_6> chron:synchronizedWith <urn:cite:chron:j-macedonians.ruler3_27> . 
+<urn:cite:chron:j-latins.ruler16_6> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_32> . 
+<urn:cite:chron:j-macedonians.ruler3_27> chron:synchronizedWith <urn:cite:chron:j-lydians.ruler1_32> . 
 
 <urn:cite:chron:olympiadyear.8_3> olo:item 31 .
 <urn:cite:chron:olympiadyear.8_3> rdf:Label "Olympiad 8, year 3" .
