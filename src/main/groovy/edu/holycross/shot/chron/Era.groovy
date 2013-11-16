@@ -149,7 +149,7 @@ class Era {
                             yr = c.text().toInteger()
 
                         } catch (Exception e) {
-                            System.err.println "Era: failed to convert '" + c.text() + "' to int:  ${e}"
+                            System.err.println "Era: in row ${r.'@n'} failed to convert column ${idx} '" + c.text() + "' to int:  ${e}"
                         }
                         String ruler = null
                         
