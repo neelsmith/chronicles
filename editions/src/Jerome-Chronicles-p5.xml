@@ -19661,8 +19661,9 @@
             <cell>1280</cell>
             <cell/>
             <cell>25</cell>
-            <cell/>
+            
             <cell> 5 </cell>
+            <cell/>
             <cell> 7 </cell>
             <cell>16</cell>
             <cell>37</cell>
@@ -19754,6 +19755,27 @@
           <milestone
             n="156-157"
             unit="HelmPages"/>
+          <row
+            role="regnal">
+            <cell>
+              
+            </cell>
+            
+            <cell/>
+            <cell></cell>
+            <cell>  </cell>
+            <cell></cell>
+            <cell> Post quem CLIDICUS , annis X. Annus I. </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell>  </cell>
+            <cell/>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          
+          
+          
           <row role="data" 
             n="11.4">
             <cell>
@@ -19774,7 +19796,7 @@
                 type="event"
                 xml:id="jerome-0033">Tarpeia clypeis Sabinorum obruta: unde mons Tarpeius, in quo
                 nunc Capitolium.</seg> *</cell>
-            <cell> Post quem CLIDICUS , annis X. Annus I. </cell>
+            <cell> 1</cell>
             <cell>20</cell>
             <cell>3</cell>
             <cell> 10 </cell>
@@ -19783,26 +19805,7 @@
             <cell>733</cell>
           </row>
        
-          <row
-            n="rx" role="regnal">
-            <cell>
-              
-            </cell>
-            
-            <cell/>
-            <cell></cell>
-            <cell>  </cell>
-            <cell></cell>
-            <cell> Post quem CLIDICUS , annis X. Annus I. </cell>
-            <cell></cell>
-            <cell></cell>
-            <cell>  </cell>
-            <cell/>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          
-          
+        
           <row
             n="12"
             role="olympiad">
@@ -22431,13 +22434,28 @@
           <milestone
             n="172/173"
             unit="HelmPages"/>
+          <row role="regnal" 
+            n="41.4">
+            <cell/>
+            <cell/>
+            <cell></cell>
+            <cell>Hebraeorum Judae XIX, JOACHAS, mensibus III. Post quem ELIACHIM, XX, qui et
+              Joachim, annis XI.</cell>
+            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell/>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          
           <row role="data" 
             n="41.4">
             <cell/>
             <cell/>
             <cell>18</cell>
-            <cell>Hebraeorum Judae XIX, JOACHAS, mensibus III. Post quem ELIACHIM, XX, qui et
-              Joachim, annis XI.</cell>
+            <cell></cell>
             <cell/>
             <cell>6</cell>
             <cell>34</cell>
