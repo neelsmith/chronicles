@@ -22435,7 +22435,7 @@
             n="172/173"
             unit="HelmPages"/>
           <row role="regnal" 
-            n="41.4">
+            >
             <cell/>
             <cell/>
             <cell></cell>
@@ -22455,7 +22455,7 @@
             <cell/>
             <cell/>
             <cell>18</cell>
-            <cell></cell>
+            <cell>1</cell>
             <cell/>
             <cell>6</cell>
             <cell>34</cell>
@@ -23890,6 +23890,7 @@
               latomias, carceres, exsilia, metalla. </cell>
             <cell>1</cell>
             <cell>7</cell>
+            <cell/>
             <cell><note
                 n="k"/> Harpagus, qui apud Cyrum primi loci habebatur <note
                 n="1"
@@ -26299,6 +26300,17 @@
             <cell
               role="julian"> BC</cell>
           </row>
+          
+          <row role="regnal" 
+            >
+            <cell/>
+            <cell/>
+            <cell></cell>
+            <cell/>
+            <cell>  </cell>
+            <cell> Aegyptus a Persis recessit, et regnavit AMARTHEUS, Saites annis VI. </cell>
+            <cell></cell>
+          </row>
           <row role="data" 
             n="91.3">
             <cell/>
@@ -26306,7 +26318,7 @@
             <cell>11</cell>
             <cell/>
             <cell> 19 </cell>
-            <cell> Aegyptus a Persis recessit, et regnavit AMARTHEUS, Saites annis VI. </cell>
+            <cell> </cell>
             <cell>414</cell>
           </row>
           <row role="data" 
@@ -28589,6 +28601,17 @@
             <cell>CXXIII Olympias</cell>
             <cell/>
           </row>
+          <row role="regnal" 
+            >
+            <cell/>
+            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell>Macedonum PYRRHUS, menses VII</cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
           <row role="data" 
             n="123.1">
             <cell/>
@@ -28598,10 +28621,11 @@
                 n="f"/> Judaeorum pontifex Eleazarus frater Simonis suscepit templi ministerium,
               filio Simonis Onia parvo admodum derelicto.</cell>
             <cell>25</cell>
-            <cell>Macedonum PYRRHUS, menses VII</cell>
+            <cell>1</cell>
             <cell>13</cell>
             <cell>288</cell>
           </row>
+         
           <row
             role="regnal">
             <cell/>
@@ -30259,8 +30283,8 @@
             <cell>1</cell>
             <cell>176</cell>
           </row>
-          <row role="data" 
-            n="regnal">
+          <row role="regnal" 
+            >
             <cell/>
             <cell/>
             <cell/>
