@@ -1,3 +1,4 @@
+@prefix chron:        <http://shot.holycross.edu/chron/rdf/> .
 
 <urn:cite:chron:olympiadyear.1_1> olo:item 1 .
 <urn:cite:chron:olympiadyear.1_1> rdf:Label "Olympiad 1, year 1" .
