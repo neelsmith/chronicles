@@ -172,7 +172,7 @@ class Jerome {
 
 
                 } catch (Exception e) {
-                    System.err.println "synchronsToTtl: unable to make URN pair from ${s[0]}"
+                    System.err.println "Jerome:synchronsToTtl: unable to make URN pair from ${s}"
                 }
 
                 if ((yr != null) && (seq != null)) { 
@@ -184,7 +184,6 @@ class Jerome {
 
             }
             Integer max = synchronizedYears.size()  - 1
-
             synchronizedYears.eachWithIndex { y, i ->
                 if ((y != null) && (i < max) ) {
                     for (nxt in (i+1)..(max)) {

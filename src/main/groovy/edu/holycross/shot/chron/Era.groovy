@@ -163,7 +163,7 @@ class Era {
                                 System.err.println "NO record ${count} in filum ${fila[filum]}"
                             }
                         } else {
-                            System.err.println "NO FILUM '" + filum + "'"
+                            System.err.println "Era:syncrhonizeYears: NO FILUM '" + filum + "' in map of fila ${fila}."
                         }
                         if (c.'@n') {
                             ruler = c.'@n'
