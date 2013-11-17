@@ -1,14 +1,18 @@
 package edu.holycross.shot.chron
 
 
-/** Utility class to generate synchronizations for all
-* of Jerome in the Olympiad epch as TTL. 
+/** Utility class to generate output in various
+* formats directly usable by the citemgr system, including
+* TTL graphs, and CITE Collections in .[ct]sv format.
 */
-class Syncer {
+class CiteUtils {
 
 
-    String eraString = "14"
+    /** First era of Olympia epoch dating.*/
+    String olympiadEraString = "14"
 
+
+    /** Map of fila to rulers for Jerome era 14. */
     def seedRulers = [
 "juda" : ["Hebraeorum Juda XII, AZARIAS, qui et Ozias, annis LII."], 
 "egyptians" : ["Dynastia XXIV, BOCCHORUS, annis XLIV."], 
@@ -21,26 +25,42 @@ class Syncer {
     ]
 
 
+    // Values of these files default to root directory of git project,
+    // but can be dynamically redefined.
+
+
+    /** Source for TEI text of Jerome.*/
     File teiFile = new File("editions/src/Jerome-Chronicles-p5.xml")
-    File rdfMapFile = new File("collections/rdfRulers.tsv")
-    File nameMapFile  = new File("collections/rulerIdMap.tsv")
+
+    /** Two-column tsv file with source for mapping URNs to appropriate
+    * strings for RDF labels. */ 
+    File rulerUrnLabelFile = new File("utils/rulerUrnLabelPairs.tsv") 
 
 
-    File ttlOut 
+    /** Two-column tsv file with source for mapping Jerome's header
+    * text to URN values for rulers. */
+    File rulerHeaderUrnFile = new File("utils/rulerHeaderUrnPairs.tsv")
 
-    Syncer(File outFile) {
-        ttlOut = outFile
+
+    CiteUtils() {
     }
 
 
-    void sync() {
+
+    /** Generates TTL output for synchronisms of all years in
+    * Olympiad epoch.
+    * @returns A String of valid TTL.
+    */
+    String ttlOlympicSynchronisms() {
+        StringBuffer ttlOut = new StringBuffer()
+
         Jerome j = new Jerome(teiFile)
-        j.loadRulerIdMap(nameMapFile)
-        j.loadRdfLabelsMap(rdfMapFile)
+        j.loadRulerIdMap(rulerHeaderUrnFile)
+        j.loadRdfLabelsMap(rulerUrnLabelFile)
 
         ttlOut.append("\n@prefix chron:        <http://shot.holycross.edu/chron/rdf/> .\n\n")
 
-        def era = j.getEra(eraString, seedRulers)
+        def era = j.getEra(olympiadEraString, seedRulers)
         assert era instanceof Era
         era.rulerNameMap = j.headerToUrnMap
         String eraId = era.getEraId()
@@ -56,19 +76,8 @@ class Syncer {
                 era.rulerNameMap = j.headerToUrnMap
             }
         }
+        return ttlOut.toString()
     }
 
 
-
-    public static void main (String[] args) throws Exception {
-        String outFileName = args[0]
-        try {
-            File f = new File(outFileName)
-            Syncer syncer = new Syncer(f)
-            syncer.sync()
-
-        } catch (Exception e) {
-            throw e
-        }
-    }
 }
