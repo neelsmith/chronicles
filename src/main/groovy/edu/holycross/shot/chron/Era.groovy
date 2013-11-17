@@ -3,7 +3,7 @@ package edu.holycross.shot.chron
 class Era {
     
 
-
+    Integer debug = 0
 
     /** Groovy xml namespace for TEI */
     groovy.xml.Namespace tei = new groovy.xml.Namespace("http://www.tei-c.org/ns/1.0")
@@ -29,9 +29,12 @@ class Era {
     * to column */
     LinkedHashMap fila = [:]
 
+
+
     LinkedHashMap savedRulerMap = [:]
 
 
+    /** A map of ruler names, as they figure in Jerome's headers, to URNs. */
     LinkedHashMap rulerNameMap = [:]
 
 
@@ -73,7 +76,9 @@ class Era {
     Era(groovy.util.Node era, LinkedHashMap rulerMap) {
         eraNode = era
         fila = rulerMap
-
+        if (debug > 0) {
+            System.err.println "Era constructed with initial ruler map ${fila}"
+        }
         eraNode[tei.table][tei.row].each { r ->
             switch (r.'@role') {
                 // read column roles from header @role attribute 
@@ -111,6 +116,8 @@ class Era {
                 currentRulerCount[i] = 0
             }
         }
+
+        boolean dataSeen = false
         eraNode[tei.table][tei.row].each { r ->
             // If a regnal row, bump any ruler counts 
             // as needed
@@ -120,7 +127,9 @@ class Era {
                     switch (colType) {
                         case "filum":
                             if (c.text().size() > 1) {
-                            currentRulerCount[idx] =  currentRulerCount[idx] + 1
+                            if (dataSeen) {
+                                currentRulerCount[idx] =  currentRulerCount[idx] + 1
+                            }
                         }
                         break
                     }
@@ -128,8 +137,12 @@ class Era {
                 
                 // if a data row, collect data:
             } else  if (r.'@role' == "data") {
+                dataSeen = true
                 def year = []
                 year.add(["urn:cite:chron:olympiadyear","${r.'@n'}"])
+                if (debug > 1) {
+                    System.err.println "Added olympiad " + r.'@n'
+                }
                 r[tei.cell].eachWithIndex { c, idx ->
                     String colType = columnTypes[idx]
                     switch (colType) {
@@ -149,29 +162,91 @@ class Era {
                             yr = c.text().toInteger()
 
                         } catch (Exception e) {
-                            System.err.println "Era: in row ${r.'@n'} failed to convert column ${idx} '" + c.text() + "' to int:  ${e}"
+                            System.err.println "Era: in row ${r.'@n'} failed to convert [0-origin] column ${idx} '" + c.text() + "' to int:  ${e}"
                         }
                         String ruler = null
                         
                         def count = currentRulerCount[idx]
                         def filum = filumMap[idx]
                         String label
+
                         if (fila[filum]) {
-                            if (fila[filum][count]) {
-                                label = "${fila[filum][count]}".replaceAll(/[ \t\n]+/, " ")
-                            } else {
-                                System.err.println "NO record ${count} in filum ${fila[filum]}"
+                            if (debug > 2) {
+                                System.err.println "Era: work filum ${filum} in ${fila[filum]} at count ${count}"
                             }
+                            if (fila[filum][count]) {
+
+                                label = "${fila[filum][count]}".replaceAll(/[ \t\n]+/, " ")
+                                if (debug > 2) {
+                                    System.err.println "\t ...yielding '" + label + "' (length ${label.size()} of class ${label.getClass()})"
+                                }
+                            } else {
+                                System.err.println "Era: in row ${r.'@n'}, column ${idx}, with filum ${filum} no record ${count}, for  filum ${fila[filum]}"
+                            }
+
                         } else {
-                            System.err.println "Era:syncrhonizeYears: NO FILUM '" + filum + "' in map of fila ${fila}."
+                            System.err.println "Era: in row ${r.'@n'}, NO FILUM '" + filum + "' in map of fila ${fila}."
+
                         }
+
+
+                        // GET FILUM INDEX ON rulerNameMap
                         if (c.'@n') {
                             ruler = c.'@n'
                         } else if ( rulerNameMap[label]) {
-                            ruler = rulerNameMap[label]
+                            if (debug > 1) {
+                                System.err.println "Map for this name: ${rulerNameMap[label]}"
+                            }
+                            rulerNameMap.keySet().sort().each { k ->
+                                if (label == k)  {
+                                    if (debug > 0) {
+                                        System.err.println "FOUND RULER in name map (${k})"
+                                        
+                                    } 
+                                    ruler = rulerNameMap[k]
+
+
+                                } else {
+                                    if (debug > 2) {
+                                        System.err.println "\t${k}-> ${rulerNameMap[k]} TO ${label}"
+                                    }
+                                }
+                            }
                         }
                         if (ruler != null) {
+                            if (debug > 0) {
+                                System.err.println "Adding ${ruler}, ${yr}"
+                            }
                             year.add([ruler, yr])
+                        } else {
+                            if (debug > 0) {
+                                System.err.println "Ruler is null for ${label}. :-( (in filum ${filum}, sequence ${fila[filum]})" 
+
+                                fila[filum].each { filMe ->
+                                    if (filMe == label) {
+                                        rulerNameMap.keySet().sort().each { nameKey ->
+                                            if (nameKey == filMe) {
+                                                ruler = rulerNameMap[nameKey]
+                                            }
+                                        }
+
+                                    }
+                                    if (debug > 0) {
+                                        System.err.println "FOUND RULER in filum ${filum} ${filMe}: so ${ruler}"
+                                        System.err.println "Look for #${filMe}# in ${rulerNameMap.keySet().size()} entries:"
+                                        rulerNameMap.keySet().sort().each {
+                                            println "\t#${it}#"
+                                        }
+
+                                        
+                                    }
+                                }
+                            }
+                            if (debug > 3) {
+                                rulerNameMap.keySet().sort().each {
+                                    System.err.println "\t" + it
+                                }
+                            }
                         }
 
                         break
@@ -192,7 +267,7 @@ class Era {
             if ((filum) && (filum.size() > 0)) {
                 rulerList.add( filum[filum.size() - 1])
             } else {
-                System.err.println "empty filum list in era ${getEraId()}"
+                System.err.println "Era: in era ${getEraId()}, filum map entry ${ent} has empty filum list."
             }
             saveRulers[ent.value] = rulerList
         }

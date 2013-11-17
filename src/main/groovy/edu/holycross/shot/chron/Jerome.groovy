@@ -3,7 +3,8 @@ package edu.holycross.shot.chron
 import edu.harvard.chs.cite.CiteUrn
 
 class Jerome {
-    
+
+    Integer debug = 0
 
     /** Groovy xml namespace for TEI */
     groovy.xml.Namespace tei = new groovy.xml.Namespace("http://www.tei-c.org/ns/1.0")
@@ -11,6 +12,11 @@ class Jerome {
     /** Root node of parsed TEI edition of Jerome.*/
     groovy.util.Node root
 
+
+
+    /** A map of ruler names, as they figure in Jerome's headers, to URNs. 
+    * This is the same structure as (and can be set to a copy of) the Jerome
+    * class's rulerNameMap. */
     LinkedHashMap headerToUrnMap = [:]
 
     LinkedHashMap rulersToRdfLabels = [:]
@@ -112,6 +118,11 @@ class Jerome {
         return rulers
     }
 
+
+
+
+    /* Utility methods used in seeding data for analyzing an Era structure.*/
+
     // two tab-sep ed columns
     void loadRulerIdMap(File f) {
         f.eachLine {
@@ -132,12 +143,22 @@ class Jerome {
     }
 
 
+    /**  Composes TTL representation of synchronizations
+    * that Era generates.
+    * @param synchrons A list of year lists, where each year list
+    * consists of one or more year records, and each year record
+    * consists of a chronology sequence URN and an identifier within
+    * the sequence.  For cyclical Olympiad year sequences, the identifier will be of
+    * OLYMPIAD.[1-4];  for other numeric sequences, the identifier will be an
+    * integer giving a year number (a 1-origin index).
+    * @returns A TTL description of synchronizations.
+    */
     String synchronsToTtl(ArrayList synchrons) {
         StringBuffer ttl = new StringBuffer()
         synchrons.each { synList ->
 
             def synchronizedYears = []
-            synList.each { s ->
+            synList.eachWithIndex { s, sIndex ->
                 CiteUrn seq
                 CiteUrn  yr
                 Integer epochCount 
@@ -155,7 +176,7 @@ class Jerome {
 
                     } else {
                         if (s[1] != null) {
-                            yr = new CiteUrn("${seq}.${s[1]}")
+                            yr = new CiteUrn("${seq}_${s[1]}")
                             epochCount = s[1].toInteger()
                         } else {
                             System.err.println "NULL s1 in pair " + s
@@ -172,8 +193,19 @@ class Jerome {
 
 
                 } catch (Exception e) {
-                    System.err.println "Jerome:synchronsToTtl: unable to make URN pair from ${s}"
+                    System.err.println "Jerome:synchronsToTtl: unable to make URN pair from ${s}."
+                    
+                    System.err.print "(Previous s: "
+                    if ((sIndex - 1) >= 0) {
+                        System.err.print "${synchronizedYears[sIndex - 1]}"
+                    }
+                    System.err.print "; next s: "
+                    if (synchronizedYears.size() > (sIndex + 1)) {
+                        System.err.print "${synchronizedYears[sIndex + 1]}"
+                    }
+                    System.err.println ".)"
                 }
+
 
                 if ((yr != null) && (seq != null)) { 
                     ttl.append("\n")
@@ -184,7 +216,10 @@ class Jerome {
 
             }
             Integer max = synchronizedYears.size()  - 1
-            synchronizedYears.eachWithIndex { y, i ->
+
+            if (debug > 0) {          
+                System.err.println "Synchr. years: " + synchronizedYears  }
+                synchronizedYears.eachWithIndex { y, i ->
                 if ((y != null) && (i < max) ) {
                     for (nxt in (i+1)..(max)) {
                         ttl.append( "<${y}> chron:synchronizedWith <${synchronizedYears[nxt]}> . \n")
