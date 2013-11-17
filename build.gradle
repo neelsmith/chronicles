@@ -5,6 +5,7 @@ apply plugin: 'groovy'
 apply plugin: 'maven'
 
 apply from: "versions.gradle"
+apply from : "conf.gradle"
 
 
 repositories {
@@ -27,3 +28,15 @@ group = "edu.holycross.shot"
 version = "0.1.0"
 
 
+
+
+
+task sync (type: JavaExec, dependsOn: compileGroovy) {
+    description = "Generates TTL for all synchronizations in Olympiad epoch"
+    main = "edu.holycross.shot.chron.Syncer"
+    args = [syncTtl]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+
+}
