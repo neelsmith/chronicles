@@ -420,6 +420,7 @@
         <coverage xmlns="http://purl.org/dc/elements/1.1/">Initial survey based on Marmor Parium, Jerome's Chronicle, and Ptolemy's Royal Canon</coverage>
         <description xmlns="http://purl.org/dc/elements/1.1/">Athenian archons attested in ancient chronological sources</description>
         <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        <orderedBy property="Sequence"/>
         <source type="file" value="archons.csv"/>
         <citeProperty name="Archon" label="Archon URN" type="citeurn"/>
         <citeProperty name="Label" label="Archon" type="string"/>
