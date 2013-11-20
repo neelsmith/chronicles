@@ -26,6 +26,17 @@ class JGraph {
         return getRulersForFilum(urn.toString())
     }
 
+    String getRdfLabel(String urn) {
+        String label = ""
+        String labelReply = getSparqlReply("application/json",jqg.getRdfLabelQuery(urn))
+        def slurper = new groovy.json.JsonSlurper()
+        def parsedReply = slurper.parseText(labelReply)
+        parsedReply.results.bindings.each { b ->
+            label = b.label.value
+        }
+        return label
+    }
+
     ArrayList getSynchronismsForRuler(String urnStr) {
         def syncs = []
         String syncReply = getSparqlReply("application/json",jqg.getYearsForRulerQuery(urnStr))

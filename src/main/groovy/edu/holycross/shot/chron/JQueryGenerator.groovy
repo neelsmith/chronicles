@@ -10,6 +10,16 @@ class JQueryGenerator {
     JQueryGenerator () {
     }
 
+
+    String getRdfLabelQuery(String urnStr) {
+        return """
+SELECT ?label WHERE {
+?urn  <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> ?label .
+FILTER (str(?urn) = "${urnStr}")
+}
+"""
+    }
+
     String getFilaQuery() {
         return """
         SELECT ?f  ?label WHERE {
