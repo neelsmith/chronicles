@@ -1,0 +1,63 @@
+import edu.holycross.shot.chron.*
+import groovy.xml.MarkupBuilder
+import edu.harvard.chs.cite.CiteUrn
+
+
+String contentType = "text/html"
+response.setContentType(contentType)
+response.setHeader( "Access-Control-Allow-Origin", "*")
+
+// do some error checking on this ...
+String urn = params.urn
+
+
+String serverUrl = "@tripleserver@"
+JGraph jg = new JGraph(serverUrl)
+
+
+def filumSeq = jg.getRulersForFilum(urn)
+
+StringWriter writer = new StringWriter()
+MarkupBuilder html = new MarkupBuilder(writer)
+
+html.html {
+    head {
+        title("Filum: ${urn}")
+    }
+    
+    body {
+        
+    	header {
+            h1 {
+                mkp.yield "Filum: ${urn}"
+            }
+            nav (role: 'navigation') {
+                mkp.yield "Chronometer: "
+                a(href: "home",  "home")
+                mkp.yield " | " 
+                a(href: "fila",  "fila")
+            }
+
+        }
+    	
+        article {
+            p("Sequence of rulers in filum ${urn}")
+            ol {
+                filumSeq.each { seq ->
+                    li {
+                        a(href : "synchronisms?urn=${seq[0]}", seq[1])
+                    }
+                }
+            }
+        }
+        footer {
+            mkp.yield "INSERTFOOTER"
+        }
+    }
+}
+
+
+String base = writer.toString()
+println base.replaceAll('INSERTFOOTER',"""@htmlfooter@""")
+
+

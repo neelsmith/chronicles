@@ -1,0 +1,65 @@
+import edu.holycross.shot.chron.*
+import groovy.xml.MarkupBuilder
+import edu.harvard.chs.cite.CiteUrn
+
+
+String contentType = "text/html"
+response.setContentType(contentType)
+response.setHeader( "Access-Control-Allow-Origin", "*")
+
+
+String serverUrl = "@tripleserver@"
+JGraph jg = new JGraph(serverUrl)
+
+
+// do some error checking on this ...
+String urn = params.urn
+
+
+def synchronisms = jg.getSynchronismsForRuler(urn)
+
+
+StringWriter writer = new StringWriter()
+MarkupBuilder html = new MarkupBuilder(writer)
+
+
+
+
+html.html {
+    head {
+        title("Synchronisms for: ${urn}")
+    }
+    
+    body {
+        
+    	header {
+            h1 {
+                mkp.yield "Synchronisms for: ${urn}"
+            }
+            nav (role: 'navigation') {
+                mkp.yield "Chronometer: "
+                a(href: "home",  "home")
+            }
+
+        }
+    	
+        article {
+            ul {
+                synchronisms.each { syn ->
+                    li {
+                        mkp.yield "${syn[0]} = ${syn[2]}"
+                    }
+                }
+            }
+        }
+        footer {
+            mkp.yield "INSERTFOOTER"
+        }
+    }
+}
+
+
+String base = writer.toString()
+println base.replaceAll('INSERTFOOTER',"""@htmlfooter@""")
+
+

@@ -1,0 +1,59 @@
+import edu.holycross.shot.chron.*
+import groovy.xml.MarkupBuilder
+import edu.harvard.chs.cite.CiteUrn
+
+
+String contentType = "text/html"
+response.setContentType(contentType)
+response.setHeader( "Access-Control-Allow-Origin", "*")
+
+
+String serverUrl = "@tripleserver@"
+JGraph jg = new JGraph(serverUrl)
+
+def filaMap = jg.getFila()
+
+
+StringWriter writer = new StringWriter()
+MarkupBuilder html = new MarkupBuilder(writer)
+
+
+html.html {
+    head {
+        title("Jerome's regnal fila")
+    }
+    
+    body {
+        
+    	header {
+            h1 {
+                mkp.yield "Regnal fila from Jerome's"
+                em("Chronicles")
+            }
+            nav (role: 'navigation') {
+                mkp.yield "Chronometer: "
+                a(href: "home",  "home")
+            }
+
+        }
+    	
+        article {
+            ul {
+                filaMap.keySet().sort().each { k ->
+                    li {
+                        a (href : "filum?urn=${k}", "${filaMap[k]}")
+                    }
+                }
+            }
+        }
+        footer {
+            mkp.yield "INSERTFOOTER"
+        }
+    }
+}
+
+
+String base = writer.toString()
+println base.replaceAll('INSERTFOOTER',"""@htmlfooter@""")
+
+

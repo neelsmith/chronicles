@@ -38,6 +38,12 @@ html.html {
                 a (href : "fila", "Regnal fila")
             }
         }
+        p("Search for synchonisms by Olympiad year reference.")
+        p {
+            mkp.yield "(Express year as a URN of the form "
+            code("urn:cite:chron:OLYMPIAD_YEAR")
+            mkp.yield ")."
+        }
     }
     footer {
         mkp.yield "INSERTFOOTER"

@@ -22,6 +22,49 @@ class JGraph {
         this.jqg = new JQueryGenerator()
     }
 
+    LinkedHashMap getRulersForFilum(CiteUrn urn) {
+        return getRulersForFilum(urn.toString())
+    }
+
+    ArrayList getSynchronismsForRuler(String urnStr) {
+        def syncs = []
+        String syncReply = getSparqlReply("application/json",jqg.getYearsForRulerQuery(urnStr))
+        def slurper = new groovy.json.JsonSlurper()
+        def parsedReply = slurper.parseText(syncReply)
+
+        parsedReply.results.bindings.each { b ->
+//            if ((b.ruler) && (b.rulerlabel)) {
+                def record  = [b.label.value, b.ruler.value, b.label2.value, b.yr2.value]
+                syncs.add(record)
+//            }
+        }
+        return syncs
+    }
+
+
+    /** Returns an ordered list. */
+    ArrayList getRulersForFilum(String urnStr) {
+        def filumSequence = []
+        String filumReply = getSparqlReply("application/json",jqg.getRulersForFilumQuery(urnStr))
+        def slurper = new groovy.json.JsonSlurper()
+        def parsedReply = slurper.parseText(filumReply)
+
+        parsedReply.results.bindings.each { b ->
+
+            if ((b.ruler) && (b.rulerlabel)) {
+                def record  = [b.ruler.value, b.rulerlabel.value]
+                filumSequence.add(record)
+            }
+        }
+        return filumSequence
+    }
+
+
+
+    LinkedHashMap getYearsForRuler() {
+        
+    }
+
 
     /** Gets list of fila type objects from the graph.
     *  @returns A map of URNs to labels. */
