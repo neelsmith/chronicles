@@ -47,7 +47,29 @@ html.html {
             ul {
                 synchronisms.each { syn ->
                     li {
-                        mkp.yield "${syn[0]} = ${syn[2]}"
+                        CiteUrn year1
+                        CiteUrn year2
+                        try {
+                            year1 = new CiteUrn(syn[1])
+                            year2 = new CiteUrn(syn[3])
+
+                            mkp.yield "${syn[0]} = "
+                            String collection = year2.getCollection()
+                            switch (collection) {
+                                case "olympiadyear":
+                                    a (href : "olympiad?urn=${year2}" , "${syn[2]}")
+                                break
+
+                                default :
+                                    a(href : "synchronisms?urn=urn:cite:chron:${year2.getCollection()}", "${syn[2]}")
+                                break
+                            }
+
+
+                        } catch (Exception e) {
+                            mkp.yield "Count not parse identifiers for these references (${syn})"
+                            System.err.println "synchronisms:  Exception ${e}"
+                        }
                     }
                 }
             }

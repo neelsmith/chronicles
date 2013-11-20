@@ -1,0 +1,47 @@
+import edu.holycross.shot.chron.*
+import groovy.xml.MarkupBuilder
+import edu.harvard.chs.cite.CiteUrn
+
+
+String contentType = "text/html"
+response.setContentType(contentType)
+response.setHeader( "Access-Control-Allow-Origin", "*")
+
+
+String urn = params.urn
+
+String serverUrl = "@tripleserver@"
+
+StringWriter writer = new StringWriter()
+MarkupBuilder html = new MarkupBuilder(writer)
+
+
+html.html {
+    head {
+        title("Chronometer")
+    }
+    
+    body {
+    
+    	header {
+            h1("Olympiad year ${urn}")
+        }
+        nav (role: 'navigation') {
+            mkp.yield "Chronometer: "
+            a (href: "home", "home")
+        }
+    }
+    	
+    article {
+        p("Synchronisms for olympiad go here.")
+    }
+    footer {
+        mkp.yield "INSERTFOOTER"
+    }
+}
+
+
+String base = writer.toString()
+println base.replaceAll('INSERTFOOTER',"""@htmlfooter@""")
+
+
