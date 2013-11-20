@@ -1,18 +1,18 @@
 Year,DioCassius,Label1,Consul1,Label2,Consul2,Sequence
-urn:cite:chron:cosyear.2,urn:cts:greekLit:tlg0385.tlg001:57.15,Drusus Caesar Tiberi f.,urn:cite:chron:consul.1,C. Norbanus C. f. Flaccus,urn:cite:chron:consul.36,:consul.45
-urn:cite:chron:cosyear.3,urn:cts:greekLit:tlg0385.tlg001:57.16,Statilius T. f. Sisenna Taurus,urn:cite:chron:consul.2,L. Scribonius L. f. Libo,urn:cite:chron:consul.36,:consul.46
-urn:cite:chron:cosyear.4,urn:cts:greekLit:tlg0385.tlg001:57.17,C. Caecilius C. f. Nepos/Rufus,urn:cite:chron:consul.3,L. Pomponius L. f. Flaccus,urn:cite:chron:consul.36,:consul.47
-urn:cite:chron:cosyear.5,urn:cts:greekLit:tlg0385.tlg001:57.18,Ti. Augusti f. (III),urn:cite:chron:consul.4,Germanicus Caesar Ti. F. (II),urn:cite:chron:consul.36,:consul.48
-urn:cite:chron:cosyear.6,urn:cts:greekLit:tlg0385.tlg001:57.19,M. Iunius M. f. Silanus,urn:cite:chron:consul.5,C. Norbanus C. f. Flaccus/Balbus,urn:cite:chron:consul.36,:consul.49
-urn:cite:chron:cosyear.7,urn:cts:greekLit:tlg0385.tlg001: 57.2O,M. Valerius M. f. Messalla,urn:cite:chron:consul.6,M. Aurelius M. f. Cotta,urn:cite:chron:consul.36,:consul.50
-urn:cite:chron:cosyear.8,urn:cts:greekLit:tlg0385.tlg001:57.21,Ti. Caesar Augusti f. (IV),urn:cite:chron:consul.7,Drusus Iulius Ti. f. (II),urn:cite:chron:consul.36,:consul.51
-urn:cite:chron:cosyear.9,urn:cts:greekLit:tlg0385.tlg001:57.22,Decimus Haterius C. f. Agrippa,urn:cite:chron:consul.8,C. Sulpicius Serg. f. Galba,urn:cite:chron:consul.36,:consul.52
-urn:cite:chron:cosyear.10,urn:cts:greekLit:tlg0385.tlg001:57.23,C. Asinius C. f. Pollio,urn:cite:chron:consul.9,C. Antistius C. f. Vetus,urn:cite:chron:consul.36,:consul.53
-urn:cite:chron:cosyear.11,urn:cts:greekLit:tlg0385.tlg001:57.24,Sergius Cornelius Sergi f. Cethegus,urn:cite:chron:consul.10,L. Visellius Serg f. Varro,urn:cite:chron:consul.36,:consul.54
-urn:cite:chron:cosyear.12,urn:cts:greekLit:tlg0385.tlg001:57.25,M. Asinius C. f. Agrippa,urn:cite:chron:consul.11,Cossus Cornelius Cossi f. Lentulus,urn:cite:chron:consul.36,:consul.55
-urn:cite:chron:cosyear.13,urn:cts:greekLit:tlg0385.tlg001:58.?,Latiaris,urn:cite:chron:consul.12,Sabinus,urn:cite:chron:consul.36,:consul.56
-urn:cite:chron:cosyear.14,urn:cts:greekLit:tlg0385.tlg001:58.17,Gnaeus Domitius,urn:cite:chron:consul.13,Camillus Scribonianus,urn:cite:chron:consul.36,:consul.57
-urn:cite:chron:cosyear.15,urn:cts:greekLit:tlg0385.tlg001:58.2O,Servius Galba,urn:cite:chron:consul.14,Lucius Cornelius,urn:cite:chron:consul.36,:consul.58
+urn:cite:chron:cosyear.2,urn:cts:greekLit:tlg0385.tlg001:57.15,Drusus Caesar Tiberi f.,urn:cite:chron:consul.1,C. Norbanus C. f. Flaccus,urn:cite:chron:consul.36,45
+urn:cite:chron:cosyear.3,urn:cts:greekLit:tlg0385.tlg001:57.16,Statilius T. f. Sisenna Taurus,urn:cite:chron:consul.2,L. Scribonius L. f. Libo,urn:cite:chron:consul.36,46
+urn:cite:chron:cosyear.4,urn:cts:greekLit:tlg0385.tlg001:57.17,C. Caecilius C. f. Nepos/Rufus,urn:cite:chron:consul.3,L. Pomponius L. f. Flaccus,urn:cite:chron:consul.36,47
+urn:cite:chron:cosyear.5,urn:cts:greekLit:tlg0385.tlg001:57.18,Ti. Augusti f. (III),urn:cite:chron:consul.4,Germanicus Caesar Ti. F. (II),urn:cite:chron:consul.36,48
+urn:cite:chron:cosyear.6,urn:cts:greekLit:tlg0385.tlg001:57.19,M. Iunius M. f. Silanus,urn:cite:chron:consul.5,C. Norbanus C. f. Flaccus/Balbus,urn:cite:chron:consul.36,49
+urn:cite:chron:cosyear.7,urn:cts:greekLit:tlg0385.tlg001: 57.2O,M. Valerius M. f. Messalla,urn:cite:chron:consul.6,M. Aurelius M. f. Cotta,urn:cite:chron:consul.36,50
+urn:cite:chron:cosyear.8,urn:cts:greekLit:tlg0385.tlg001:57.21,Ti. Caesar Augusti f. (IV),urn:cite:chron:consul.7,Drusus Iulius Ti. f. (II),urn:cite:chron:consul.36,51
+urn:cite:chron:cosyear.9,urn:cts:greekLit:tlg0385.tlg001:57.22,Decimus Haterius C. f. Agrippa,urn:cite:chron:consul.8,C. Sulpicius Serg. f. Galba,urn:cite:chron:consul.36,52
+urn:cite:chron:cosyear.10,urn:cts:greekLit:tlg0385.tlg001:57.23,C. Asinius C. f. Pollio,urn:cite:chron:consul.9,C. Antistius C. f. Vetus,urn:cite:chron:consul.36,53
+urn:cite:chron:cosyear.11,urn:cts:greekLit:tlg0385.tlg001:57.24,Sergius Cornelius Sergi f. Cethegus,urn:cite:chron:consul.10,L. Visellius Serg f. Varro,urn:cite:chron:consul.36,54
+urn:cite:chron:cosyear.12,urn:cts:greekLit:tlg0385.tlg001:57.25,M. Asinius C. f. Agrippa,urn:cite:chron:consul.11,Cossus Cornelius Cossi f. Lentulus,urn:cite:chron:consul.36,55
+urn:cite:chron:cosyear.13,urn:cts:greekLit:tlg0385.tlg001:58.?,Latiaris,urn:cite:chron:consul.12,Sabinus,urn:cite:chron:consul.36,56
+urn:cite:chron:cosyear.14,urn:cts:greekLit:tlg0385.tlg001:58.17,Gnaeus Domitius,urn:cite:chron:consul.13,Camillus Scribonianus,urn:cite:chron:consul.36,57
+urn:cite:chron:cosyear.15,urn:cts:greekLit:tlg0385.tlg001:58.2O,Servius Galba,urn:cite:chron:consul.14,Lucius Cornelius,urn:cite:chron:consul.36,58
 urn:cite:chron:cosyear.16,urn:cts:greekLit:tlg0385.tlg001:58.24,Lucius Bitellius,urn:cite:chron:consul.15,Fabius Persicus,urn:cite:chron:consul.36,:consul.59
 urn:cite:chron:cosyear.17,urn:cts:greekLit:tlg0385.tlg001:58.25,Gaius Gallus,urn:cite:chron:consul.16,Marcus Servilius,urn:cite:chron:consul.36,:consul.60
 urn:cite:chron:cosyear.18,urn:cts:greekLit:tlg0385.tlg001:58.26,Sextus Papinius,urn:cite:chron:consul.17,Quintus Plautus,urn:cite:chron:consul.36,:consul.61
