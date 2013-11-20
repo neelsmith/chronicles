@@ -1,0 +1,558 @@
+<urn:cite:chron:j-alexandrians_ruler1> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-alexandrians_ruler1> rdf:label "Ptolemy son of Lagus" .
+<urn:cite:chron:j-alexandrians_ruler2> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-alexandrians_ruler2> rdf:label "Ptolemy Philadelphus" .
+<urn:cite:chron:j-alexandrians_ruler3> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-alexandrians_ruler3> rdf:label "Ptolemy Euergetes" .
+<urn:cite:chron:j-alexandrians_ruler4> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-alexandrians_ruler4> rdf:label "Ptolemy Philopator" .
+<urn:cite:chron:j-alexandrians_ruler5> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-alexandrians_ruler5> rdf:label "Ptolemy Epiphanes" .
+<urn:cite:chron:j-alexandrians_ruler6> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-alexandrians_ruler6> rdf:label "Ptolemy Philopator" .
+<urn:cite:chron:j-alexandrians_ruler7> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-alexandrians_ruler7> rdf:label "Ptolemy VII (Euergetes 2)" .
+<urn:cite:chron:j-alexandrians_ruler8> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-alexandrians_ruler8> rdf:label "Ptolemy Physcon" .
+<urn:cite:chron:j-alexandrians_ruler9> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-alexandrians_ruler9> rdf:label "Ptolemy IX (Alexander)" .
+<urn:cite:chron:j-alexandrians_ruler10> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-alexandrians_ruler10> rdf:label "Ptolemy X" .
+<urn:cite:chron:j-alexandrians_ruler11> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-alexandrians_ruler11> rdf:label "Ptolemy New Dionysus" .
+<urn:cite:chron:j-alexandrians_ruler12> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-alexandrians_ruler12> rdf:label "Cleopatra" .
+<urn:cite:chron:j-argives_ruler1> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-argives_ruler1> rdf:label "Inachus" .
+<urn:cite:chron:j-argives_ruler2> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-argives_ruler2> rdf:label "Phoroneus" .
+<urn:cite:chron:j-argives_ruler3> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-argives_ruler3> rdf:label "Apis" .
+<urn:cite:chron:j-argives_ruler4> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-argives_ruler4> rdf:label "Argus" .
+<urn:cite:chron:j-argives_ruler5> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-argives_ruler5> rdf:label "Criassus" .
+<urn:cite:chron:j-argives_ruler6> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-argives_ruler6> rdf:label "Phorbas" .
+<urn:cite:chron:j-argives_ruler7> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-argives_ruler7> rdf:label "Triopas" .
+<urn:cite:chron:j-argives_ruler8> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-argives_ruler8> rdf:label "Crotopus" .
+<urn:cite:chron:j-argives_ruler9> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-argives_ruler9> rdf:label "Sthenelus" .
+<urn:cite:chron:j-argives_ruler10> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-argives_ruler10> rdf:label "Danaus" .
+<urn:cite:chron:j-argives_ruler11> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-argives_ruler11> rdf:label "Lynceus" .
+<urn:cite:chron:j-argives_ruler12> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-argives_ruler12> rdf:label "Abas" .
+<urn:cite:chron:j-argives_ruler13> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-argives_ruler13> rdf:label "Proetus" .
+<urn:cite:chron:j-argives_ruler14> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-argives_ruler14> rdf:label "Acrisius" .
+<urn:cite:chron:j-assyrians_ruler1> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler1> rdf:label "Ninus" .
+<urn:cite:chron:j-assyrians_ruler2> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler2> rdf:label "Semiramis" .
+<urn:cite:chron:j-assyrians_ruler3> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler3> rdf:label "Zameis" .
+<urn:cite:chron:j-assyrians_ruler4> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler4> rdf:label "Arius" .
+<urn:cite:chron:j-assyrians_ruler5> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler5> rdf:label "Aralius" .
+<urn:cite:chron:j-assyrians_ruler6> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler6> rdf:label "Xerxes (Balaneus)" .
+<urn:cite:chron:j-assyrians_ruler7> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler7> rdf:label "Armamitres" .
+<urn:cite:chron:j-assyrians_ruler8> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler8> rdf:label "Belocus" .
+<urn:cite:chron:j-assyrians_ruler9> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler9> rdf:label "Baleus" .
+<urn:cite:chron:j-assyrians_ruler10> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler10> rdf:label "Altadas" .
+<urn:cite:chron:j-assyrians_ruler11> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler11> rdf:label "Mamythus" .
+<urn:cite:chron:j-assyrians_ruler12> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler12> rdf:label "Machaleus" .
+<urn:cite:chron:j-assyrians_ruler13> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler13> rdf:label "Sphaerus" .
+<urn:cite:chron:j-assyrians_ruler14> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler14> rdf:label "Mamylus" .
+<urn:cite:chron:j-assyrians_ruler15> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler15> rdf:label "Sparetus" .
+<urn:cite:chron:j-assyrians_ruler16> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler16> rdf:label "Ascatrades" .
+<urn:cite:chron:j-assyrians_ruler17> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler17> rdf:label "Amyntas" .
+<urn:cite:chron:j-assyrians_ruler18> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler18> rdf:label "Belochus" .
+<urn:cite:chron:j-assyrians_ruler19> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler19> rdf:label "Bellepares" .
+<urn:cite:chron:j-assyrians_ruler20> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler20> rdf:label "Lamprides" .
+<urn:cite:chron:j-assyrians_ruler21> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler21> rdf:label "Sosares" .
+<urn:cite:chron:j-assyrians_ruler22> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler22> rdf:label "Lampares" .
+<urn:cite:chron:j-assyrians_ruler23> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler23> rdf:label "Pannyas" .
+<urn:cite:chron:j-assyrians_ruler24> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler24> rdf:label "Sosarmus" .
+<urn:cite:chron:j-assyrians_ruler25> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler25> rdf:label "Mithraeus" .
+<urn:cite:chron:j-assyrians_ruler26> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler26> rdf:label "Tautanes" .
+<urn:cite:chron:j-assyrians_ruler27> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler27> rdf:label "Tateus" .
+<urn:cite:chron:j-assyrians_ruler28> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler28> rdf:label "Thinaeus" .
+<urn:cite:chron:j-assyrians_ruler29> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler29> rdf:label "Dercylus" .
+<urn:cite:chron:j-assyrians_ruler30> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler30> rdf:label "Eupales" .
+<urn:cite:chron:j-assyrians_ruler31> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler31> rdf:label "Laosthenes" .
+<urn:cite:chron:j-assyrians_ruler32> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler32> rdf:label "Piritiades" .
+<urn:cite:chron:j-assyrians_ruler33> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler33> rdf:label "Ophratheus" .
+<urn:cite:chron:j-assyrians_ruler34> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler34> rdf:label "Ophratanes" .
+<urn:cite:chron:j-assyrians_ruler35> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler35> rdf:label "Acrazapes" .
+<urn:cite:chron:j-assyrians_ruler36> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-assyrians_ruler36> rdf:label "Sardanapalus" .
+<urn:cite:chron:j-athenians_ruler1> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler1> rdf:label "Cecrops" .
+<urn:cite:chron:j-athenians_ruler2> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler2> rdf:label "Cranaus" .
+<urn:cite:chron:j-athenians_ruler3> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler3> rdf:label "Amphictyon" .
+<urn:cite:chron:j-athenians_ruler4> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler4> rdf:label "Erichthonius" .
+<urn:cite:chron:j-athenians_ruler5> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler5> rdf:label "Pandion" .
+<urn:cite:chron:j-athenians_ruler6> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler6> rdf:label "Ericthius" .
+<urn:cite:chron:j-athenians_ruler7> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler7> rdf:label "Cecrops II" .
+<urn:cite:chron:j-athenians_ruler8> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler8> rdf:label "Pandion" .
+<urn:cite:chron:j-athenians_ruler9> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler9> rdf:label "Aegeus" .
+<urn:cite:chron:j-athenians_ruler10> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler10> rdf:label "Theseus" .
+<urn:cite:chron:j-athenians_ruler11> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler11> rdf:label "Menestheus" .
+<urn:cite:chron:j-athenians_ruler12> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler12> rdf:label "Demophoon" .
+<urn:cite:chron:j-athenians_ruler13> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler13> rdf:label "Oxyntes" .
+<urn:cite:chron:j-athenians_ruler14> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler14> rdf:label "Aphydas" .
+<urn:cite:chron:j-athenians_ruler15> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler15> rdf:label "Thymoetes" .
+<urn:cite:chron:j-athenians_ruler16> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler16> rdf:label "Melanthus" .
+<urn:cite:chron:j-athenians_ruler17> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler17> rdf:label "Codrus" .
+<urn:cite:chron:j-athenians_ruler18> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler18> rdf:label "Medon" .
+<urn:cite:chron:j-athenians_ruler19> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler19> rdf:label "Acastus" .
+<urn:cite:chron:j-athenians_ruler20> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler20> rdf:label "Archippus" .
+<urn:cite:chron:j-athenians_ruler21> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler21> rdf:label "Thersippus" .
+<urn:cite:chron:j-athenians_ruler22> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler22> rdf:label "Phorbas" .
+<urn:cite:chron:j-athenians_ruler23> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler23> rdf:label "Megacles" .
+<urn:cite:chron:j-athenians_ruler24> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler24> rdf:label "Diognetus" .
+<urn:cite:chron:j-athenians_ruler25> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler25> rdf:label "Phereclus" .
+<urn:cite:chron:j-athenians_ruler26> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler26> rdf:label "Ariphron" .
+<urn:cite:chron:j-athenians_ruler27> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler27> rdf:label "Thespieus" .
+<urn:cite:chron:j-athenians_ruler28> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler28> rdf:label "Agamestor" .
+<urn:cite:chron:j-athenians_ruler29> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler29> rdf:label "Aeschylus" .
+<urn:cite:chron:j-athenians_ruler30> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler30> rdf:label "Alcmaeon" .
+<urn:cite:chron:j-athenians_ruler31> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler31> rdf:label "Charops" .
+<urn:cite:chron:j-athenians_ruler32> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler32> rdf:label "Aesimedes" .
+<urn:cite:chron:j-athenians_ruler33> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler33> rdf:label "Clidicus" .
+<urn:cite:chron:j-athenians_ruler34> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler34> rdf:label "Hippomenes" .
+<urn:cite:chron:j-athenians_ruler35> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler35> rdf:label "Leocrates" .
+<urn:cite:chron:j-athenians_ruler36> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler36> rdf:label "Apsander" .
+<urn:cite:chron:j-athenians_ruler37> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-athenians_ruler37> rdf:label "Eryxias" .
+<urn:cite:chron:j-corinthians_ruler1> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-corinthians_ruler1> rdf:label "Alethis" .
+<urn:cite:chron:j-corinthians_ruler2> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-corinthians_ruler2> rdf:label "Ixion" .
+<urn:cite:chron:j-corinthians_ruler3> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-corinthians_ruler3> rdf:label "Agelaus" .
+<urn:cite:chron:j-corinthians_ruler4> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-corinthians_ruler4> rdf:label "Pryminas" .
+<urn:cite:chron:j-corinthians_ruler5> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-corinthians_ruler5> rdf:label "Bacchis" .
+<urn:cite:chron:j-corinthians_ruler6> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-corinthians_ruler6> rdf:label "Agelas" .
+<urn:cite:chron:j-corinthians_ruler7> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-corinthians_ruler7> rdf:label "Eudemus" .
+<urn:cite:chron:j-corinthians_ruler8> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-corinthians_ruler8> rdf:label "Aristomedes" .
+<urn:cite:chron:j-corinthians_ruler9> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-corinthians_ruler9> rdf:label "Agemon" .
+<urn:cite:chron:j-corinthians_ruler10> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-corinthians_ruler10> rdf:label "Alexander" .
+<urn:cite:chron:j-corinthians_ruler11> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-corinthians_ruler11> rdf:label "Telestes" .
+<urn:cite:chron:j-corinthians_ruler12> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-corinthians_ruler12> rdf:label "Automenes" .
+<urn:cite:chron:j-lacedaemonians_ruler1> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-lacedaemonians_ruler1> rdf:label "Eurystheus" .
+<urn:cite:chron:j-lacedaemonians_ruler2> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-lacedaemonians_ruler2> rdf:label "Agis" .
+<urn:cite:chron:j-lacedaemonians_ruler3> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-lacedaemonians_ruler3> rdf:label "Echestratus" .
+<urn:cite:chron:j-lacedaemonians_ruler4> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-lacedaemonians_ruler4> rdf:label "Labotes" .
+<urn:cite:chron:j-lacedaemonians_ruler5> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-lacedaemonians_ruler5> rdf:label "Doristhus" .
+<urn:cite:chron:j-lacedaemonians_ruler6> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-lacedaemonians_ruler6> rdf:label "Agesilaus" .
+<urn:cite:chron:j-lacedaemonians_ruler7> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-lacedaemonians_ruler7> rdf:label "Archelaus" .
+<urn:cite:chron:j-lacedaemonians_ruler8> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-lacedaemonians_ruler8> rdf:label "Teleclus" .
+<urn:cite:chron:j-lacedaemonians_ruler9> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-lacedaemonians_ruler9> rdf:label "Alcamenes" .
+<urn:cite:chron:j-latins_ruler1> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-latins_ruler1> rdf:label "Aeneas" .
+<urn:cite:chron:j-latins_ruler2> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-latins_ruler2> rdf:label "Ascanius" .
+<urn:cite:chron:j-latins_ruler3> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-latins_ruler3> rdf:label "Silvius" .
+<urn:cite:chron:j-latins_ruler4> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-latins_ruler4> rdf:label "Aeneas Silvius" .
+<urn:cite:chron:j-latins_ruler5> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-latins_ruler5> rdf:label "Latinus Silvius" .
+<urn:cite:chron:j-latins_ruler6> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-latins_ruler6> rdf:label "Alba Silvius" .
+<urn:cite:chron:j-latins_ruler7> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-latins_ruler7> rdf:label "Aegyptus Silvius" .
+<urn:cite:chron:j-latins_ruler8> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-latins_ruler8> rdf:label "Capis Silvius" .
+<urn:cite:chron:j-latins_ruler9> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-latins_ruler9> rdf:label "Carpentus Silvius" .
+<urn:cite:chron:j-latins_ruler10> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-latins_ruler10> rdf:label "Tiberinus Silvius" .
+<urn:cite:chron:j-latins_ruler11> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-latins_ruler11> rdf:label "Agrippa Silvius" .
+<urn:cite:chron:j-latins_ruler12> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-latins_ruler12> rdf:label "Aremulus Silvius" .
+<urn:cite:chron:j-latins_ruler13> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-latins_ruler13> rdf:label "Aventinus Silvius" .
+<urn:cite:chron:j-latins_ruler14> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-latins_ruler14> rdf:label "Procas Silvius" .
+<urn:cite:chron:j-latins_ruler15> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-latins_ruler15> rdf:label "Amulius Silvius" .
+<urn:cite:chron:j-latins_ruler16> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-latins_ruler16> rdf:label "Romulus" .
+<urn:cite:chron:j-latins_ruler17> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-latins_ruler17> rdf:label "Numa Pompilius" .
+<urn:cite:chron:j-latins_ruler18> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-latins_ruler18> rdf:label "Tullus Hostilius" .
+<urn:cite:chron:j-latins_ruler19> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-latins_ruler19> rdf:label "Ancus Martius" .
+<urn:cite:chron:j-latins_ruler20> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-latins_ruler20> rdf:label "Tarquinius Priscus" .
+<urn:cite:chron:j-latins_ruler21> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-latins_ruler21> rdf:label "Servius" .
+<urn:cite:chron:j-latins_ruler22> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-latins_ruler22> rdf:label "Tarquinius" .
+<urn:cite:chron:j-lydians_ruler1> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-lydians_ruler1> rdf:label "Ardisius" .
+<urn:cite:chron:j-lydians_ruler2> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-lydians_ruler2> rdf:label "Alyattes" .
+<urn:cite:chron:j-lydians_ruler3> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-lydians_ruler3> rdf:label "Meles" .
+<urn:cite:chron:j-lydians_ruler4> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-lydians_ruler4> rdf:label "Candaules" .
+<urn:cite:chron:j-lydians_ruler5> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-lydians_ruler5> rdf:label "Gyges" .
+<urn:cite:chron:j-lydians_ruler6> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-lydians_ruler6> rdf:label "Ardys" .
+<urn:cite:chron:j-lydians_ruler7> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-lydians_ruler7> rdf:label "Sadyattes" .
+<urn:cite:chron:j-lydians_ruler8> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-lydians_ruler8> rdf:label "Alyattes" .
+<urn:cite:chron:j-lydians_ruler9> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-lydians_ruler9> rdf:label "Croesus" .
+<urn:cite:chron:j-macedonians_ruler1> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler1> rdf:label "Caranus" .
+<urn:cite:chron:j-macedonians_ruler2> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler2> rdf:label "Coenus" .
+<urn:cite:chron:j-macedonians_ruler3> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler3> rdf:label "Tyrimas" .
+<urn:cite:chron:j-macedonians_ruler4> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler4> rdf:label "Perdiccas" .
+<urn:cite:chron:j-macedonians_ruler5> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler5> rdf:label "Argaeus" .
+<urn:cite:chron:j-macedonians_ruler6> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler6> rdf:label "Philip" .
+<urn:cite:chron:j-macedonians_ruler7> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler7> rdf:label "Europus" .
+<urn:cite:chron:j-macedonians_ruler8> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler8> rdf:label "Alcetas" .
+<urn:cite:chron:j-macedonians_ruler9> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler9> rdf:label "Amyntas" .
+<urn:cite:chron:j-macedonians_ruler10> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler10> rdf:label "Alexander" .
+<urn:cite:chron:j-macedonians_ruler11> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler11> rdf:label "Perdiccas" .
+<urn:cite:chron:j-macedonians_ruler12> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler12> rdf:label "Archelaus" .
+<urn:cite:chron:j-macedonians_ruler13> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler13> rdf:label "Archelaus" .
+<urn:cite:chron:j-macedonians_ruler14> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler14> rdf:label "Amyntas" .
+<urn:cite:chron:j-macedonians_ruler15> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler15> rdf:label "Pausanias" .
+<urn:cite:chron:j-macedonians_ruler16> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler16> rdf:label "Amyntas" .
+<urn:cite:chron:j-macedonians_ruler17> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler17> rdf:label "Argeus" .
+<urn:cite:chron:j-macedonians_ruler18> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler18> rdf:label "Amyntas" .
+<urn:cite:chron:j-macedonians_ruler19> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler19> rdf:label "Alexander" .
+<urn:cite:chron:j-macedonians_ruler20> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler20> rdf:label "Philip" .
+<urn:cite:chron:j-macedonians_ruler21> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler21> rdf:label "Alexander" .
+<urn:cite:chron:j-macedonians_ruler22> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler22> rdf:label "Philip Arrhidaeus" .
+<urn:cite:chron:j-macedonians_ruler23> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler23> rdf:label "Cassander" .
+<urn:cite:chron:j-macedonians_ruler24> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler24> rdf:label "Anigonus and Alexander" .
+<urn:cite:chron:j-macedonians_ruler25> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler25> rdf:label "Lysimachus" .
+<urn:cite:chron:j-macedonians_ruler26> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler26> rdf:label "Ptolemy the Thunderbolt" .
+<urn:cite:chron:j-macedonians_ruler27> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler27> rdf:label "Meleager" .
+<urn:cite:chron:j-macedonians_ruler28> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler28> rdf:label "Antigonus Gonatas" .
+<urn:cite:chron:j-macedonians_ruler29> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler29> rdf:label "Demetrius" .
+<urn:cite:chron:j-macedonians_ruler30> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler30> rdf:label "Antigonus" .
+<urn:cite:chron:j-macedonians_ruler31> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler31> rdf:label "Philip" .
+<urn:cite:chron:j-macedonians_ruler32> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-macedonians_ruler32> rdf:label "Perseus" .
+<urn:cite:chron:j-medes_ruler1> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-medes_ruler1> rdf:label "Arbaces" .
+<urn:cite:chron:j-medes_ruler2> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-medes_ruler2> rdf:label "Sosarmus" .
+<urn:cite:chron:j-medes_ruler3> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-medes_ruler3> rdf:label "Medidus" .
+<urn:cite:chron:j-medes_ruler4> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-medes_ruler4> rdf:label "Cardiceas" .
+<urn:cite:chron:j-medes_ruler5> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-medes_ruler5> rdf:label "Diocles" .
+<urn:cite:chron:j-medes_ruler6> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-medes_ruler6> rdf:label "Phraortes" .
+<urn:cite:chron:j-medes_ruler7> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-medes_ruler7> rdf:label "Cyaxares" .
+<urn:cite:chron:j-medes_ruler8> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-medes_ruler8> rdf:label "Astyages" .
+<urn:cite:chron:j-mycenaeans_ruler1> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-mycenaeans_ruler1> rdf:label "Eurystheus" .
+<urn:cite:chron:j-mycenaeans_ruler2> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-mycenaeans_ruler2> rdf:label "Atreus and Thyestes" .
+<urn:cite:chron:j-mycenaeans_ruler3> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-mycenaeans_ruler3> rdf:label "Agamemnon" .
+<urn:cite:chron:j-persians_ruler1> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-persians_ruler1> rdf:label "Cyrus" .
+<urn:cite:chron:j-persians_ruler2> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-persians_ruler2> rdf:label "Cambyses" .
+<urn:cite:chron:j-persians_ruler3> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-persians_ruler3> rdf:label "Darius" .
+<urn:cite:chron:j-persians_ruler4> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-persians_ruler4> rdf:label "Xerxes" .
+<urn:cite:chron:j-persians_ruler5> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-persians_ruler5> rdf:label "Artaxerxes Longimanus" .
+<urn:cite:chron:j-persians_ruler6> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-persians_ruler6> rdf:label "Darius Nothus" .
+<urn:cite:chron:j-persians_ruler7> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-persians_ruler7> rdf:label "Artaxerxes Mnemon" .
+<urn:cite:chron:j-persians_ruler8> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-persians_ruler8> rdf:label "Artaxerxes Ochus" .
+<urn:cite:chron:j-persians_ruler9> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-persians_ruler9> rdf:label "Arses" .
+<urn:cite:chron:j-persians_ruler10> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-persians_ruler10> rdf:label "Darius" .
+<urn:cite:chron:j-romans_ruler1> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler1> rdf:label "Julius Caesar" .
+<urn:cite:chron:j-romans_ruler2> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler2> rdf:label "Augustus" .
+<urn:cite:chron:j-romans_ruler3> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler3> rdf:label "Tiberius" .
+<urn:cite:chron:j-romans_ruler4> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler4> rdf:label "Caligula" .
+<urn:cite:chron:j-romans_ruler5> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler5> rdf:label "Claudius" .
+<urn:cite:chron:j-romans_ruler6> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler6> rdf:label "Nero" .
+<urn:cite:chron:j-romans_ruler7> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler7> rdf:label "Vespasian" .
+<urn:cite:chron:j-romans_ruler8> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler8> rdf:label "Titus" .
+<urn:cite:chron:j-romans_ruler9> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler9> rdf:label "Domitian" .
+<urn:cite:chron:j-romans_ruler10> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler10> rdf:label "Nerva" .
+<urn:cite:chron:j-romans_ruler11> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler11> rdf:label "Trajan" .
+<urn:cite:chron:j-romans_ruler12> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler12> rdf:label "Hadrian" .
+<urn:cite:chron:j-romans_ruler13> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler13> rdf:label "Antoninus Pius" .
+<urn:cite:chron:j-romans_ruler14> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler14> rdf:label "Verus and Commodus" .
+<urn:cite:chron:j-romans_ruler15> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler15> rdf:label "Commodus" .
+<urn:cite:chron:j-romans_ruler16> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler16> rdf:label "Pertinax" .
+<urn:cite:chron:j-romans_ruler17> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler17> rdf:label "Septimius Severus" .
+<urn:cite:chron:j-romans_ruler18> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler18> rdf:label "Caracalla" .
+<urn:cite:chron:j-romans_ruler19> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler19> rdf:label "Macrinus" .
+<urn:cite:chron:j-romans_ruler20> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler20> rdf:label "Antoninus" .
+<urn:cite:chron:j-romans_ruler21> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler21> rdf:label "Alexander" .
+<urn:cite:chron:j-romans_ruler22> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler22> rdf:label "Maximinus" .
+<urn:cite:chron:j-romans_ruler23> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler23> rdf:label "Gordian" .
+<urn:cite:chron:j-romans_ruler24> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler24> rdf:label "Philip the Arab" .
+<urn:cite:chron:j-romans_ruler25> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler25> rdf:label "Decius" .
+<urn:cite:chron:j-romans_ruler26> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler26> rdf:label "Gallus and Volusian" .
+<urn:cite:chron:j-romans_ruler27> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler27> rdf:label "Valerian and Gallienus" .
+<urn:cite:chron:j-romans_ruler28> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler28> rdf:label "Claudius Gothicus" .
+<urn:cite:chron:j-romans_ruler29> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler29> rdf:label "Aurelian" .
+<urn:cite:chron:j-romans_ruler30> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler30> rdf:label "Tacitus" .
+<urn:cite:chron:j-romans_ruler31> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler31> rdf:label "Probus" .
+<urn:cite:chron:j-romans_ruler32> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-romans_ruler32> rdf:label "Carus" .
+<urn:cite:chron:j-sicyonians_ruler1> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-sicyonians_ruler1> rdf:label "Europs" .
+<urn:cite:chron:j-sicyonians_ruler2> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-sicyonians_ruler2> rdf:label "Telchin" .
+<urn:cite:chron:j-sicyonians_ruler3> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-sicyonians_ruler3> rdf:label "Apis" .
+<urn:cite:chron:j-sicyonians_ruler4> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-sicyonians_ruler4> rdf:label "Thelxion" .
+<urn:cite:chron:j-sicyonians_ruler5> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-sicyonians_ruler5> rdf:label "Aegydrus" .
+<urn:cite:chron:j-sicyonians_ruler6> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-sicyonians_ruler6> rdf:label "Thurimachus" .
+<urn:cite:chron:j-sicyonians_ruler7> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-sicyonians_ruler7> rdf:label "Leucippus" .
+<urn:cite:chron:j-sicyonians_ruler8> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-sicyonians_ruler8> rdf:label "Messapus" .
+<urn:cite:chron:j-sicyonians_ruler9> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-sicyonians_ruler9> rdf:label "Eratus" .
+<urn:cite:chron:j-sicyonians_ruler10> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-sicyonians_ruler10> rdf:label "Plemnaeus" .
+<urn:cite:chron:j-sicyonians_ruler11> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-sicyonians_ruler11> rdf:label "Orthopolis" .
+<urn:cite:chron:j-sicyonians_ruler12> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-sicyonians_ruler12> rdf:label "Marathius" .
+<urn:cite:chron:j-sicyonians_ruler13> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-sicyonians_ruler13> rdf:label "Marathus" .
+<urn:cite:chron:j-sicyonians_ruler14> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-sicyonians_ruler14> rdf:label "Echyreus" .
+<urn:cite:chron:j-sicyonians_ruler15> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-sicyonians_ruler15> rdf:label "Corax" .
+<urn:cite:chron:j-sicyonians_ruler16> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-sicyonians_ruler16> rdf:label "Epopeus" .
+<urn:cite:chron:j-sicyonians_ruler17> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-sicyonians_ruler17> rdf:label "Laomedon" .
+<urn:cite:chron:j-sicyonians_ruler18> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-sicyonians_ruler18> rdf:label "Sicyon" .
+<urn:cite:chron:j-sicyonians_ruler19> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-sicyonians_ruler19> rdf:label "Polybus" .
+<urn:cite:chron:j-sicyonians_ruler20> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-sicyonians_ruler20> rdf:label "Inachus" .
+<urn:cite:chron:j-sicyonians_ruler21> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-sicyonians_ruler21> rdf:label "Phaestus" .
+<urn:cite:chron:j-sicyonians_ruler22> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-sicyonians_ruler22> rdf:label "Adrastus" .
+<urn:cite:chron:j-sicyonians_ruler23> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-sicyonians_ruler23> rdf:label "Polyphides" .
+<urn:cite:chron:j-sicyonians_ruler24> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-sicyonians_ruler24> rdf:label "(Success to POLYPHIDES?)" .
+<urn:cite:chron:j-sicyonians_ruler25> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-sicyonians_ruler25> rdf:label "Zeusippus" .
+<urn:cite:chron:j-syria-asia_ruler1> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-syria-asia_ruler1> rdf:label "Antigonus" .
+<urn:cite:chron:j-syria-asia_ruler2> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-syria-asia_ruler2> rdf:label "Seleucus Nicanor" .
+<urn:cite:chron:j-syria-asia_ruler3> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-syria-asia_ruler3> rdf:label "Demetrius Poliorcetes" .
+<urn:cite:chron:j-syria-asia_ruler4> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-syria-asia_ruler4> rdf:label "Antiochus Soter" .
+<urn:cite:chron:j-syria-asia_ruler5> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-syria-asia_ruler5> rdf:label "Antiochus Theos" .
+<urn:cite:chron:j-syria-asia_ruler6> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-syria-asia_ruler6> rdf:label "Seleucus Callinicus" .
+<urn:cite:chron:j-syria-asia_ruler7> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-syria-asia_ruler7> rdf:label "Selecus the Thunderbolt" .
+<urn:cite:chron:j-syria-asia_ruler8> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-syria-asia_ruler8> rdf:label "Antiochus the Great" .
+<urn:cite:chron:j-syria-asia_ruler9> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-syria-asia_ruler9> rdf:label "Seleucus Philopator" .
+<urn:cite:chron:j-syria-asia_ruler10> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-syria-asia_ruler10> rdf:label "Antiochus Eupator" .
+<urn:cite:chron:j-syria-asia_ruler11> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-syria-asia_ruler11> rdf:label "Demetrius Soter" .
+<urn:cite:chron:j-syria-asia_ruler12> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-syria-asia_ruler12> rdf:label "Alexander" .
+<urn:cite:chron:j-syria-asia_ruler13> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-syria-asia_ruler13> rdf:label "Demetrius" .
+<urn:cite:chron:j-syria-asia_ruler14> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-syria-asia_ruler14> rdf:label "Antiochus Sidetes" .
+<urn:cite:chron:j-syria-asia_ruler15> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-syria-asia_ruler15> rdf:label "Demetrius (again)" .
+<urn:cite:chron:j-syria-asia_ruler16> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-syria-asia_ruler16> rdf:label "Antiochus Grypus" .
+<urn:cite:chron:j-syria-asia_ruler17> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-syria-asia_ruler17> rdf:label "Antiochus of Cyzicus" .
+<urn:cite:chron:j-syria-asia_ruler18> rdf:type cite:CiteCollection .
+<urn:cite:chron:j-syria-asia_ruler18> rdf:label "Philip" .
