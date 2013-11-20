@@ -8,12 +8,13 @@ class TestGraphFilum extends GroovyTestCase {
 
     String sparql = "http://localhost:3030/ds/"
 
+    String filum = "urn:cite:chron:j-alexandrians"
+    Integer expectedSize = 14
 
     void testRulersForFilum() {
         JGraph jg = new JGraph(sparql)
-        String filum = "urn:cite:chron:j-alexandrians"
-        Integer expectedSize = 11
-        assert jg.getRulersForFilum(filum).size() == expectedSize
+        def filumSeq =  jg.getRulersForFilum(filum)
+        assert filumSeq.size() == expectedSize
     }
 
 }
