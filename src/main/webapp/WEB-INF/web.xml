@@ -25,47 +25,21 @@
 
     <servlet-mapping>
         <servlet-name>GroovyServlet</servlet-name>
-        <url-pattern>/scholion</url-pattern>
+        <url-pattern>/fila</url-pattern>
     </servlet-mapping>
 
 
     <servlet-mapping>
         <servlet-name>GroovyServlet</servlet-name>
-        <url-pattern>/browse</url-pattern>
-    </servlet-mapping>
-
-
-    <servlet-mapping>
-        <servlet-name>GroovyServlet</servlet-name>
-        <url-pattern>/vapage</url-pattern>
+        <url-pattern>/filum</url-pattern>
     </servlet-mapping>
 
     <servlet-mapping>
         <servlet-name>GroovyServlet</servlet-name>
-        <url-pattern>/maniaciview</url-pattern>
+        <url-pattern>/synchronisms</url-pattern>
     </servlet-mapping>
 
 
-    <servlet-mapping>
-        <servlet-name>GroovyServlet</servlet-name>
-        <url-pattern>/churikview</url-pattern>
-    </servlet-mapping>
-
-
-    <servlet-mapping>
-        <servlet-name>GroovyServlet</servlet-name>
-        <url-pattern>/queryforms</url-pattern>
-    </servlet-mapping>
-
-    <servlet-mapping>
-        <servlet-name>GroovyServlet</servlet-name>
-        <url-pattern>/chart</url-pattern>
-    </servlet-mapping>
-
-    <servlet-mapping>
-        <servlet-name>GroovyServlet</servlet-name>
-        <url-pattern>/svc</url-pattern>
-    </servlet-mapping>
 
     <welcome-file-list>
         <welcome-file>home</welcome-file>
