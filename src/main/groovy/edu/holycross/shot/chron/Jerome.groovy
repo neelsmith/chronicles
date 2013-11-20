@@ -176,7 +176,7 @@ class Jerome {
 
                     } else {
                         if (s[1] != null) {
-                            yr = new CiteUrn("${seq}_${s[1]}")
+                            yr = new CiteUrn("urn:cite:chron:${seq.getCollection()}.${s[1]}")
                             epochCount = s[1].toInteger()
                         } else {
                             System.err.println "NULL s1 in pair " + s
@@ -223,6 +223,7 @@ class Jerome {
                 if ((y != null) && (i < max) ) {
                     for (nxt in (i+1)..(max)) {
                         ttl.append( "<${y}> chron:synchronizedWith <${synchronizedYears[nxt]}> . \n")
+                        ttl.append( "<${synchronizedYears[nxt]}> chron:synchronizedWith <${y}>  . \n")
                     }
                 }
             }

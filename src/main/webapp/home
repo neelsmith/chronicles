@@ -1,0 +1,51 @@
+import edu.holycross.shot.mep.*
+import groovy.xml.MarkupBuilder
+import edu.harvard.chs.cite.CiteUrn
+
+
+String contentType = "text/html"
+response.setContentType(contentType)
+response.setHeader( "Access-Control-Allow-Origin", "*")
+
+
+String serverUrl = "@tripleserver@"
+
+StringWriter writer = new StringWriter()
+MarkupBuilder html = new MarkupBuilder(writer)
+
+
+html.html {
+    head {
+        title("Chronometer")
+    }
+    
+    body {
+    
+    	header {
+            h1("Chronometer")
+        }
+        nav (role: 'navigation') {
+            mkp.yield "Chronometer "
+        }
+
+    }
+    	
+    article {
+        h2("Jerome")
+        p("Browse Jerome's chronological regnal sequences:")
+        ul {
+            li {
+                a (href : "fila", "Regnal fila")
+            }
+        }
+    }
+    footer {
+        mkp.yield "INSERTFOOTER"
+    }
+}
+
+
+String base = writer.toString()
+println base.replaceAll('INSERTFOOTER',"""@htmlfooter@""")
+
+

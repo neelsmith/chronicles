@@ -1,8 +1,12 @@
 import org.apache.tools.ant.filters.ReplaceTokens
 
 
+
 apply plugin: 'groovy'
 apply plugin: 'maven'
+apply plugin: 'war'
+apply plugin: 'jetty'
+
 
 apply from: "versions.gradle"
 apply from : "conf.gradle"
@@ -15,6 +19,11 @@ repositories {
     maven {
         url "http://beta.hpcc.uh.edu/nexus/content/repositories/releases"
     }
+    
+    // for http builder
+    maven {
+        url "http://repository.codehaus.org"
+    }
 }
 
 
@@ -22,8 +31,14 @@ dependencies {
     compile group: 'org.codehaus.groovy', name: 'groovy-all', version: groovyVersion
     compile group: 'edu.harvard.chs', name : 'cite' , version: citeVersion
     testCompile group: 'junit', name: 'junit', version: junitVersion
+    compile group: 'org.codehaus.groovy.modules.http-builder', name: 'http-builder', version: '0.5.2'
 
 }
+
+httpPort = 8080
+stopPort = 9451
+stopKey = 'foo'
+
 group = "edu.holycross.shot"
 version = "0.1.0"
 
@@ -40,3 +55,7 @@ task sync (type: JavaExec, dependsOn: compileGroovy) {
     classpath configurations.runtime
 
 }
+
+war {
+    filter(ReplaceTokens, tokens: [tripleserver : tripleserver, htmlfooter : htmlfooter ])
+}			  
