@@ -9,7 +9,24 @@ apply plugin: 'jetty'
 
 
 apply from: "versions.gradle"
-apply from : "conf.gradle"
+
+if (hasProperty('conf')) {
+    System.err.print "Using conf configuration from ${conf}\n"
+    File confFile = new File(conf)
+    if (! confFile.exists()) {
+        throw new Exception("No configuration file ${conf} found.")
+    }
+    apply from: conf
+
+} else {
+    File confFile = new File("conf.gradle")
+    if (! confFile.exists()) {
+        throw new Exception("No configuration file ${confFile} found.")
+    }
+    println "Using default configuration in 'conf.gradle'"
+    apply from: "conf.gradle"
+}
+
 
 
 repositories {
