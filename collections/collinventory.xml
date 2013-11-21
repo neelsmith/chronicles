@@ -3,7 +3,7 @@
 <collectionService xmlns="http://chs.harvard.edu/xmlns/cite">
     
     
-    <citeCollection canonicalId="Pedersen" label="Label" urn="urn:cite:chron:almdates">
+    <citeCollection canonicalId="Pedersen" label="Label" urn="urn:cite:chron:pedersen">
         <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
         <title xmlns="http://purl.org/dc/elements/1.1/">Dated astronomical observations in Ptolemy's Almagest </title>
         <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
@@ -77,7 +77,7 @@
         <title xmlns="http://purl.org/dc/elements/1.1/">The "headless" canon</title>
         <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
         <coverage xmlns="http://purl.org/dc/elements/1.1/">All</coverage>
-        <description xmlns="http://purl.org/dc/elements/1.1/">The astronomical canon as recorded in the "acephalus" MS (beginning from Alexander the Great)</description>
+        <description xmlns="http://purl.org/dc/elements/1.1/">The astronomical canon as recorded in the 'acephalus' MS (beginning from Alexander the Great)</description>
         <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
         
         <orderedBy property="Sequence"/>
@@ -89,9 +89,9 @@
         <citeProperty name="Ruler" label="Ruler" type="citeurn"/>
         <citeProperty name="Label" label="Label" type="string"/>
         
-        <citeProperty name="Years" label="Years ruled" type="number"></citeProperty>
+        <citeProperty name="Years" label="Years ruled" type="string"></citeProperty>
         
-        <citeProperty name="Total" label="Running total" type="number"></citeProperty>
+        <citeProperty name="Total" label="Running total" type="string"></citeProperty>
         <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
         
         <citeProperty name="Note" label="Notes" type="string"></citeProperty>
