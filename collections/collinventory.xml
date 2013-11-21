@@ -1,6 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="file:/data/repos/git/chronicles/collections/CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <collectionService xmlns="http://chs.harvard.edu/xmlns/cite">
+    
+    
+    <citeCollection canonicalId="Pedersen" label="Label" urn="urn:cite:chron:almdates">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Dated astronomical observations in Ptolemy's Almagest </title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">All listed in Pedersen, Survey of the Almagest</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Dated astronomical observations in Ptolemy's Almagest</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        
+        <source type="file" value="almdates.csv"/>
+        
+        
+        
+        <citeProperty name="Pedersen" label="Pedersen index" type="citeurn"/>
+        <citeProperty name="ModernYear" label="ModernYear"  type="datetime"></citeProperty>
+        <citeProperty name="Date" label="Date" type="string"></citeProperty>
+        <citeProperty name="Place" label="Place" type="string"></citeProperty>
+        <citeProperty name="Label" label="Label" type="string"></citeProperty>
+        <citeProperty name="Month" label="Egyptian month" type="string"></citeProperty>
+        <citeProperty name="Day" label="Day of month" type="number"></citeProperty>
+        <citeProperty name="Year" label="Year from epoch" type="number"></citeProperty>
+        
+        
+        
+    </citeCollection>
+    
+    
+    
+    
+    <citeCollection canonicalId="Record" label="Label" urn="urn:cite:chron:almking">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Callipan cycle dates in Ptolemy's Almagest </title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">All listed in Pedersen, Survey of the Almagest</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Callipan cycle dates associated with dated astronomical observations in Ptolemy's Almagest</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        
+        <source type="file" value="almkings.csv"/>
+        
+        
+        <citeProperty name="Record" label="Record" type="citeurn"/>
+        <citeProperty name="Pedersen" label="Pedersen index" type="citeurn"/>
+        <citeProperty name="Label" label="Label" type="string"></citeProperty>
+        <citeProperty name="Year" label="Year" type="number"></citeProperty>
+        <citeProperty name="King" label="Ruler" type="citeurn"></citeProperty>
+        
+    </citeCollection>
+    
+    
+    
+    
+    <citeCollection canonicalId="Record" label="Record" urn="urn:cite:chron:call">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Callipan cycle dates in Ptolemy's Almagest </title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">All listed in Pedersen, Survey of the Almagest</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Callipan cycle dates associated with dated astronomical observations in Ptolemy's Almagest</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        
+        <source type="file" value="almcall.csv"/>
+        
+        
+        <citeProperty name="Record" label="Record" type="citeurn"/>
+        <citeProperty name="Pedersen" label="Pedersen index" type="citeurn"/>
+        <citeProperty name="Cycle" label="Cycle" type="number"></citeProperty>
+        <citeProperty name="Year" label="Year" type="number"></citeProperty>
+        
+    </citeCollection>
+    
+    
+    <citeCollection canonicalId="Record" label="Label" urn="urn:cite:chron:acephalus">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">The "headless" canon</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">All</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">The astronomical canon as recorded in the "acephalus" MS (beginning from Alexander the Great)</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        
+        <orderedBy property="Sequence"/>
+        
+        <source type="file" value="acephalus.csv"/>
+        
+        
+        <citeProperty name="Record" label="Record" type="citeurn"/>
+        <citeProperty name="Ruler" label="Ruler" type="citeurn"/>
+        <citeProperty name="Label" label="Label" type="string"/>
+        
+        <citeProperty name="Years" label="Years ruled" type="number"></citeProperty>
+        
+        <citeProperty name="Total" label="Running total" type="number"></citeProperty>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        
+        <citeProperty name="Note" label="Notes" type="string"></citeProperty>
+        
+    </citeCollection>
+    
+    
+    
+    
+    <citeCollection canonicalId="Record" label="Label" urn="urn:cite:chron:heraclian">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Heraclian canon</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">All</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">The astronomical canon as recorded in the Heraclian MS</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        
+        <orderedBy property="Sequence"/>
+        
+        <source type="file" value="heraclian.csv"/>
+        
+        
+        <citeProperty name="Record" label="Record" type="citeurn"/>
+        <citeProperty name="Ruler" label="Ruler" type="citeurn"/>
+        <citeProperty name="Label" label="Label" type="string"/>
+        
+        <citeProperty name="Years" label="Years ruled" type="number"></citeProperty>
+        
+        <citeProperty name="Total" label="Running total" type="number"></citeProperty>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        
+        <citeProperty name="Note" label="Notes" type="string"></citeProperty>
+        
+    </citeCollection>
+    
+    
+    
+    
+    
+    <citeCollection canonicalId="Consul" label="Label" urn="urn:cite:chron:consul">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Individual Roman consuls</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Mostly from Dio Cassius</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Individuals who held the office of eponymous consul</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        
+        <source type="file" value="consuls.csv"/>
+        
+        
+        <citeProperty name="Consul" label="Consul" type="citeurn"/>
+        <citeProperty name="Name" label="Label" type="string"/>
+        
+        
+    </citeCollection>
+    
+    
+    
+    
+    <citeCollection canonicalId="PtArchon" label="Label" urn="urn:cite:chron:ptolarchon">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Archons in Ptolemy's Almagest </title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">All listed in Pedersen, Survey of the Almagest</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Athenian archons associated with dated astronomical observations in Ptolemy's Almagest</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        
+        <source type="file" value="almarchons.csv"/>
+        
+        
+        <citeProperty name="PtArchon" label="Record" type="citeurn"/>
+        <citeProperty name="Pedersen" label="Pedersen index" type="citeurn"/>
+        <citeProperty name="Label" label="Name" type="string"></citeProperty>
+        <citeProperty name="Month" label="Month" type="string"></citeProperty>
+        <citeProperty name="Day" label="Day" type="string"></citeProperty>
+        <citeProperty name="Archon" label="Archon" type="citeurn"></citeProperty>
+        
+        
+    </citeCollection>
+    
+    
+    <citeCollection canonicalId="Year" label="DioCassius" urn="urn:cite:chron:cosyear">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Consular year datings from Dio Cassius</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Classical Greek history</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Dio Cassius' associations of pairs of Roman consuls with a given year</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        <orderedBy property="Sequence"/>
+        <source type="file" value="dcconsuls.csv"/>
+        
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        
+        <citeProperty name="Year" label="Consular year" type="citeurn"/>
+        <citeProperty name="Label1" label="First consul" type="string"/>
+        <citeProperty name="Consul1" label="Consul 1" type="citeurn"></citeProperty>
+        <citeProperty name="Label2" label="Second consul" type="string"/>
+        <citeProperty name="Consul2" label="Consul 2" type="citeurn"></citeProperty>
+        
+        
+    </citeCollection>
+    
+    
+    
+    
+    
+    
+    
     <citeCollection canonicalId="Ruler" label="Label" urn="urn:cite:chron:j-alexandrians">
         <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
         <title xmlns="http://purl.org/dc/elements/1.1/">Jerome's sequence of Ptolemaic kings</title>
