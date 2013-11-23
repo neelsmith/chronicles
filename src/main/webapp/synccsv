@@ -1,0 +1,24 @@
+import edu.holycross.shot.chron.*
+
+String contentType = "text/csv"
+response.setContentType(contentType)
+response.setHeader( "Access-Control-Allow-Origin", "*")
+
+
+String serverUrl = "@tripleserver@"
+JGraph jg = new JGraph(serverUrl)
+
+StringBuffer csv = new StringBuffer("source,target,value\n")
+
+
+// do some error checking on this ...
+String urn = params.urn
+def synchronisms = jg.getSynchronismsForRuler(urn)
+
+synchronisms.each { syn ->
+    csv.append("${urn},${syn[0]},1\n")
+    csv.append("${syn[0]},\"${syn[2]}\",1\n")
+}
+println csv.toString()
+
+

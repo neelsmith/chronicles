@@ -24,6 +24,11 @@
 
     <servlet-mapping>
         <servlet-name>GroovyServlet</servlet-name>
+        <url-pattern>/synccsv</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>GroovyServlet</servlet-name>
         <url-pattern>/olympiad</url-pattern>
     </servlet-mapping>
 
