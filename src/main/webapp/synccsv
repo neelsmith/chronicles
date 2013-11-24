@@ -5,10 +5,13 @@ response.setContentType(contentType)
 response.setHeader( "Access-Control-Allow-Origin", "*")
 
 
-String serverUrl = "@tripleserver@"
-JGraph jg = new JGraph(serverUrl)
+String sparqlUrl = "@tripleserver@"
+String indices = "@indices@"
+JGraph jg = new JGraph(sparqlUrl)
 
-StringBuffer csv = new StringBuffer("source,target,value\n")
+
+
+StringBuffer csv = new StringBuffer("source,target,value,url\n")
 
 
 // do some error checking on this ...
@@ -17,7 +20,7 @@ def synchronisms = jg.getSynchronismsForRuler(urn)
 
 synchronisms.each { syn ->
     csv.append("${urn},${syn[0]},1\n")
-    csv.append("${syn[0]},\"${syn[2]}\",1\n")
+    csv.append("${syn[0]},\"${syn[2]}\",1,${indices}?urn=${syn[3]}\n")
 }
 println csv.toString()
 

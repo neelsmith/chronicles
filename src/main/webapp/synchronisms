@@ -101,9 +101,9 @@ var nodes = {};
 // Compute the distinct nodes from the links.
 links.forEach(function(link) {
     link.source = nodes[link.source] || 
-        (nodes[link.source] = {name: link.source});
+        (nodes[link.source] = {name: link.source, url: link.url});
     link.target = nodes[link.target] || 
-        (nodes[link.target] = {name: link.target});
+        (nodes[link.target] = {name: link.target, url : link.url});
     link.value = +link.value;
 });
 
@@ -166,7 +166,9 @@ var path = svg.append("svg:g").selectAll("path")
 // define the nodes
 var node = svg.selectAll(".node")
     .data(force.nodes())
-  .enter().append("g")
+  .enter().append("svg:a") // Append legend elements
+          .attr("xlink:href",function(d) {return d.url} )
+    .append("g")
     .attr("class", "node")
     .on("click", click)
     .on("dblclick", dblclick)

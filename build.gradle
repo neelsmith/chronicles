@@ -74,5 +74,5 @@ task sync (type: JavaExec, dependsOn: compileGroovy) {
 }
 
 war {
-    filter(ReplaceTokens, tokens: [tripleserver : tripleserver, htmlfooter : htmlfooter ])
+    filter(ReplaceTokens, tokens: [tripleserver : tripleserver, htmlfooter : htmlfooter , baseUrl : baseUrl, indices : indices ])
 }			  
