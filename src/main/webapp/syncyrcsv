@@ -1,0 +1,28 @@
+import edu.holycross.shot.chron.*
+
+String contentType = "text/csv"
+response.setContentType(contentType)
+response.setHeader( "Access-Control-Allow-Origin", "*")
+
+
+String sparqlUrl = "@tripleserver@"
+String indices = "@indices@"
+JGraph jg = new JGraph(sparqlUrl)
+
+StringBuffer csv = new StringBuffer("source,target,value,url\n")
+
+// do some error checking on this ...
+String urn = params.urn
+
+def synchronisms = jg.getSyncsForYear(urn)
+synchronisms.each { syn ->
+    csv.append("${urn},${syn[0]},1,${indices}?urn=${syn[1]}\n")
+    csv.append("${syn[0]},\"${syn[2]}\",1,${indices}?urn=${syn[3]}\n")
+}
+
+System.err.println "CSV FOR YEAR IS " + csv.toString()
+// ?? An extra new line is creeping in somewhere.  This
+// hack kills that, but where has it come from??
+println csv.toString().replaceFirst(/\n$/,'')
+
+

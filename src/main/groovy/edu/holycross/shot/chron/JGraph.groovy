@@ -8,7 +8,7 @@ import static groovyx.net.http.ContentType.*
 import static groovyx.net.http.Method.*
 
 /** A class for working with the RDF graph representation of
-* Jerome's c
+* Jerome's chronology
 */
 class JGraph {
 
@@ -39,7 +39,8 @@ class JGraph {
 
     ArrayList getSynchronismsForRuler(String urnStr) {
         def syncs = []
-        String syncReply = getSparqlReply("application/json",jqg.getYearsForRulerQuery(urnStr))
+//        String syncReply = getSparqlReply("application/json",jqg.getYearsForRulerQuery(urnStr))
+        String syncReply = getSparqlReply("application/json",jqg.getSyncsForRulerQuery(urnStr))
         def slurper = new groovy.json.JsonSlurper()
         def parsedReply = slurper.parseText(syncReply)
 
@@ -71,9 +72,47 @@ class JGraph {
     }
 
 
+    ArrayList getYearsForRuler(CiteUrn urn) {
+        return getYearsForRuler(urn.toString())
+    }
 
-    LinkedHashMap getYearsForRuler() {
-        
+    ArrayList getYearsForRuler(String urnStr) {
+        def rulerYears = []
+        String rulerReply = getSparqlReply("application/json",jqg.getYearsForRulerQuery(urnStr))
+
+        def slurper = new groovy.json.JsonSlurper()
+        def parsedReply = slurper.parseText(rulerReply)
+        parsedReply.results.bindings.each { b ->
+            System.err.println  "GET YEARS FOR RULER: BINDING " + b
+            def rulerYear = [b.yr.value, b.label.value]
+            rulerYears.add(rulerYear)
+        }
+        return rulerYears
+    }
+
+
+    ArrayList getSyncsForYear(CiteUrn urn) {
+        return getSyncsForYear(urn.toString())
+    }
+
+    ArrayList getSyncsForYear(String urnStr) {
+        def syncs = []
+        String rulerReply = getSparqlReply("application/json",jqg.getSyncsForYearQuery(urnStr))
+
+        System.err.println "SYncs for year from query " + jqg.getSyncsForYearQuery(urnStr)
+
+
+        def slurper = new groovy.json.JsonSlurper()
+        def parsedReply = slurper.parseText(rulerReply)
+        parsedReply.results.bindings.each { b ->
+
+            def record  = [b.label.value, b.yr.value, b.label2.value, b.yr2.value]
+            if (b.yr.value == "") {
+                System.err.println "EMPTY YEAR!"
+            }
+            syncs.add(record)
+        }
+       return syncs
     }
 
 

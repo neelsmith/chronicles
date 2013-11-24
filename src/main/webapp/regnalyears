@@ -14,22 +14,23 @@ String urn = params.urn
 String serverUrl = "@tripleserver@"
 JGraph jg = new JGraph(serverUrl)
 
+def filumSeq = jg.getYearsForRuler(urn)
 
-def filumSeq = jg.getRulersForFilum(urn)
+
 
 StringWriter writer = new StringWriter()
 MarkupBuilder html = new MarkupBuilder(writer)
 
 html.html {
     head {
-        title("Filum: ${urn}")
+        title("Ruler: ${urn}")
     }
     
     body {
         
     	header {
             h1 {
-                mkp.yield "Filum: ${urn}"
+                mkp.yield "Ruler: ${urn}"
             }
             nav (role: 'navigation') {
                 mkp.yield "Chronometer: "
@@ -37,15 +38,15 @@ html.html {
                 mkp.yield " | " 
                 a(href: "fila",  "fila")
             }
-
         }
     	
         article {
-            p("Sequence of rulers in filum ${urn}")
+            p("Regnal years of ${urn}")
             ol {
+
                 filumSeq.each { seq ->
                     li {
-                        a(href : "regnalyears?urn=${seq[0]}", seq[1])
+                        a(href : "syncyear?urn=${seq[0]}", seq[1])
                     }
                 }
             }
