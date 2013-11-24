@@ -19,7 +19,7 @@ String urn = params.urn
 def synchronisms = jg.getSynchronismsForRuler(urn)
 
 synchronisms.each { syn ->
-    csv.append("${urn},${syn[0]},1\n")
+    csv.append("${urn},${syn[0]},1,${indices}?urn=${syn[1]}\n")
     csv.append("${syn[0]},\"${syn[2]}\",1,${indices}?urn=${syn[3]}\n")
 }
 println csv.toString()
