@@ -19,6 +19,7 @@ MarkupBuilder html = new MarkupBuilder(writer)
 html.html {
     head {
         title("Chronometer")
+	link(type : 'text/css',  rel : 'stylesheet',  href : 'css/chron.css', title : 'CSS stylesheet')
     }
     
     body {

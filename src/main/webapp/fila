@@ -21,6 +21,7 @@ MarkupBuilder html = new MarkupBuilder(writer)
 html.html {
     head {
         title("Jerome's regnal fila")
+	link(type : 'text/css',  rel : 'stylesheet',  href : 'css/chron.css', title : 'CSS stylesheet')
     }
     
     body {
