@@ -16,13 +16,15 @@ JGraph jg = new JGraph(serverUrl)
 
 
 def filumSeq = jg.getRulersForFilum(urn)
+def label = jg.getLabel(urn)
+
 
 StringWriter writer = new StringWriter()
 MarkupBuilder html = new MarkupBuilder(writer)
 
 html.html {
     head {
-        title("Filum: ${urn}")
+        title("Filum: ${label}")
 	link(type : 'text/css',  rel : 'stylesheet',  href : 'css/chron.css', title : 'CSS stylesheet')
     }
     
@@ -30,7 +32,7 @@ html.html {
         
     	header {
             h1 {
-                mkp.yield "Filum: ${urn}"
+                mkp.yield "Filum: ${label}"
             }
             nav (role: 'navigation') {
                 mkp.yield "Chronometer: "
@@ -42,7 +44,7 @@ html.html {
         }
     	
         article {
-            p("Sequence of rulers in filum ${urn}")
+            p("Sequence of rulers in filum ${label}")
             ol {
                 filumSeq.each { seq ->
                     li {

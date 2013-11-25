@@ -90,6 +90,21 @@ class JGraph {
         return rulerYears
     }
 
+    String getLabel(CiteUrn urn) {
+        return getLabel(urn.toString())
+    }
+    String getLabel(String urnStr) {
+        String label = ""
+        String labelReply = getSparqlReply("application/json",jqg.labelQuery(urnStr))
+
+        System.err.println "QUERY: " + jqg.labelQuery(urnStr)
+        def slurper = new groovy.json.JsonSlurper()
+        def parsedReply = slurper.parseText(labelReply)
+        parsedReply.results.bindings.each { b ->
+            label = b.label.value
+        }
+        return label
+    }
 
     ArrayList getSyncsForYear(CiteUrn urn) {
         return getSyncsForYear(urn.toString())

@@ -52,7 +52,7 @@ ORDER BY ?seq
 return """
 SELECT ?yr ?label ?ruler ?seq  WHERE {
 
-?yr  <http://www.w3.org/1999/02/22-rdf-syntax-ns#Label>  ?label .
+?yr  <http://www.w3.org/1999/02/22-rdf-syntax-ns#label>  ?label .
 ?yr  <http://www.homermultitext.org/cite/rdf/memberOf> ?ruler  .
 ?yr  <http://purl.org/ontology/olo/core#item>  ?seq .
 
@@ -69,10 +69,10 @@ ORDER BY ?seq
 return """
 SELECT ?label ?ruler ?seq ?label2  ?yr2 WHERE {
 
-?yr  <http://www.w3.org/1999/02/22-rdf-syntax-ns#Label>  ?label .
+?yr  <http://www.w3.org/1999/02/22-rdf-syntax-ns#label>  ?label .
 ?yr  <http://www.homermultitext.org/cite/rdf/memberOf> ?ruler  .
 ?yr  <http://shot.holycross.edu/chron/rdf/synchronizedWith>  ?yr2 .
-?yr2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#Label>  ?label2 .
+?yr2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#label>  ?label2 .
 ?yr  <http://purl.org/ontology/olo/core#item>  ?seq .
 
 ?ruler  <http://www.w3.org/2002/07/owl#sameAs>  ?r .
@@ -86,14 +86,24 @@ ORDER BY ?seq
 */
     }
 
+String labelQuery(String urnStr) {
+return """
+SELECT ?label WHERE {
+?u <http://www.w3.org/1999/02/22-rdf-syntax-ns#label>  ?label .
+FILTER (str(?u)  = "${urnStr}")
+}
+"""
+}
+
+
     String getSyncsForYearQuery(String rulerYearUrn) {
 return """
 SELECT ?label ?yr ?label2  ?yr2 ?ruler WHERE {
 
-?yr  <http://www.w3.org/1999/02/22-rdf-syntax-ns#Label>  ?label .
+?yr  <http://www.w3.org/1999/02/22-rdf-syntax-ns#label>  ?label .
 ?yr  <http://www.homermultitext.org/cite/rdf/memberOf> ?ruler  .
 ?yr  <http://shot.holycross.edu/chron/rdf/synchronizedWith>  ?yr2 .
-?yr2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#Label>  ?label2 .
+?yr2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#label>  ?label2 .
 
 
 ?ruler  <http://www.w3.org/2002/07/owl#sameAs>  ?r .
@@ -109,10 +119,10 @@ FILTER(str(?yr) = "${rulerYearUrn}")
 return """
 SELECT ?label ?ruler ?seq ?label2  ?yr2 WHERE {
 
-?yr  <http://www.w3.org/1999/02/22-rdf-syntax-ns#Label>  ?label .
+?yr  <http://www.w3.org/1999/02/22-rdf-syntax-ns#label>  ?label .
 ?yr  <http://www.homermultitext.org/cite/rdf/memberOf> ?ruler  .
 ?yr  <http://shot.holycross.edu/chron/rdf/synchronizedWith>  ?yr2 .
-?yr2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#Label>  ?label2 .
+?yr2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#label>  ?label2 .
 ?yr  <http://purl.org/ontology/olo/core#item>  ?seq .
 
 ?ruler  <http://www.w3.org/2002/07/owl#sameAs>  ?r .

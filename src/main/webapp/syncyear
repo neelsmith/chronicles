@@ -26,10 +26,11 @@ MarkupBuilder html = new MarkupBuilder(writer)
 
 html.html {
     head {
+	link(type : 'text/css',  rel : 'stylesheet',  href : 'css/chron.css', title : 'CSS stylesheet')
         link(type : 'text/css',  rel : 'stylesheet',  href : 'css/graph.css', title : 'CSS stylesheet for d3 graph')
         mkp.yield "\nINSERTSCRIPT"
         title("Synchronisms for: ${urn}")
-	link(type : 'text/css',  rel : 'stylesheet',  href : 'css/chron.css', title : 'CSS stylesheet')
+
     }
     
     body {
