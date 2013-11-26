@@ -16,7 +16,7 @@ JGraph jg = new JGraph(serverUrl)
 String urn = params.urn
 
 def synchronisms = jg.getSyncsForYear(urn)
-
+String label = jg.getLabel(urn)
 
 StringWriter writer = new StringWriter()
 MarkupBuilder html = new MarkupBuilder(writer)
@@ -29,7 +29,7 @@ html.html {
 	link(type : 'text/css',  rel : 'stylesheet',  href : 'css/chron.css', title : 'CSS stylesheet')
         link(type : 'text/css',  rel : 'stylesheet',  href : 'css/graph.css', title : 'CSS stylesheet for d3 graph')
         mkp.yield "\nINSERTSCRIPT"
-        title("Synchronisms for: ${urn}")
+        title("Synchronisms for: ${label}")
 
     }
     
@@ -37,7 +37,7 @@ html.html {
         mkp.yield "\nBODYSCRIPT\n"
     	header {
             h1 {
-                mkp.yield "Synchronisms with graph for: ${urn}"
+                mkp.yield "Synchronisms with graph for: ${label}"
             }
             nav (role: 'navigation') {
                 mkp.yield "Chronometer: "
