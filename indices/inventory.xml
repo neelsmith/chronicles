@@ -8,4 +8,15 @@
         <source type="file" value="people.csv"></source>
     </index>
 
+
+    <index verb="owl:sameAs" inverse="owl:sameAs">
+        <source type="file" value="heraclianToJerome.csv"></source>
+    </index>
+
+
+    <index verb="owl:sameAs" inverse="owl:sameAs">
+        <source type="file" value="acephalusToJerome.csv"></source>
+    </index>
+
+
 </indexInventory>
