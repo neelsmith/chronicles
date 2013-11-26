@@ -3,40 +3,59 @@ import groovy.xml.MarkupBuilder
 import edu.harvard.chs.cite.CiteUrn
 
 
+
+
 String contentType = "text/html"
 response.setContentType(contentType)
 response.setHeader( "Access-Control-Allow-Origin", "*")
 
+
+String texts = "@texts@"
 
 String serverUrl = "@tripleserver@"
 JGraph jg = new JGraph(serverUrl)
 
 
 // do some error checking on this ...
-String urn = params.urn
+//String model = params.model
+//StringBuffer csv = new StringBuffer("source,target,value,url\n");
 
-def synchronisms = jg.getSyncsForYear(urn)
-String label = jg.getLabel(urn)
+
+String f = params.f
+def confDir = context.getRealPath("/")
+
+
+File syncFile = new File(confDir + "/" + f)
 
 StringWriter writer = new StringWriter()
 MarkupBuilder html = new MarkupBuilder(writer)
 
 
+def synchronisms = []
+def count = 0
+syncFile.eachLine {  l ->
+    
+    if (count > 0) {
+        def cols = l.split(/,/)
+        synchronisms.add(cols)
+    }
+    count++
+}
 
+//String testCsv = "source,target,value,url\na,b,1,url\na,c,1,url2\nb,c,1,url3,a,d,1,url4\n"
 
 html.html {
     head {
 	link(type : 'text/css',  rel : 'stylesheet',  href : 'css/chron.css', title : 'CSS stylesheet')
         mkp.yield "\nINSERTSCRIPT"
-        title("Synchronisms for: ${label}")
-
+        title("Analyze chronology")
     }
     
     body {
         mkp.yield "\nBODYSCRIPT\n"
     	header {
             h1 {
-                mkp.yield "Synchronisms with graph for: ${label}"
+                mkp.yield "Analyze chronology"
             }
             nav (role: 'navigation') {
                 mkp.yield "Chronometer: "
@@ -46,42 +65,26 @@ html.html {
         }
     	
         article {
+            div {
+                p("Data from file ${f}")
+            }
             div (style : "float:right;width:40%;") {
-            ul {
-                synchronisms.each { syn ->
-                    li {
-                        CiteUrn year1
-                        CiteUrn year2
-                        try {
-                            year1 = new CiteUrn(syn[1])
-                            year2 = new CiteUrn(syn[3])
 
-                            mkp.yield "${syn[0]} = "
-                            String collection = year2.getCollection()
-                            switch (collection) {
-                                case "olympiadyear":
-                                    a (href : "olympiad?urn=${year2}" , "${syn[2]}")
-                                break
+                ul {
+                    //Source,Event,Relation,SyncType,SyncedWith,Amount
 
-                                default :
-                                        a(href : "syncyear?urn=${year2}", "${syn[2]}")
-                                break
-                            }
+                    synchronisms.each { syn ->
+                        li {
+                            
+                            mkp.yield "${syn[1]} linked to ${syn[4]}: "
+                            a (href : "${texts}?request=GetPassagePlus&urn=${syn[0]}", "source")
 
-
-                        } catch (Exception e) {
-                            mkp.yield "Count not parse identifiers for these references (${syn})"
-                            System.err.println "synchronisms:  Exception ${e}"
                         }
                     }
+                    
                 }
             }
         }
-        }
-/*
-        footer {
-            mkp.yield "INSERTFOOTER"
-        }*/
     }
 }
 
@@ -95,7 +98,7 @@ String bodyScript = """
 <script>
 
 // get the data
-d3.csv("syncyrcsv?urn=${urn}", function(error, links) {
+d3.csv("testcsv.csv", function(error, links) {
 
 var nodes = {};
 
@@ -225,6 +228,7 @@ function dblclick() {
 });
 
 </script>
+
 """
 
 

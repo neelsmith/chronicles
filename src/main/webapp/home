@@ -40,14 +40,16 @@ html.html {
             mkp.yield "."
         }
 
-        h2("Jerome's regnal sequences")
+        h2("Explore chronological sources")
+
+        h3("Jerome's regnal sequences")
         p("Browse Jerome's chronological regnal sequences:")
         ul {
             li {
                 a (href : "fila", "Regnal fila")
             }
         }
-        h2("Olympiad dates")
+        h3("Olympiad dates")
         p("Search for synchonisms by Jerome's Olympiad year reference.")
         p {
             mkp.yield "(Express year as a URN of the form "
@@ -57,6 +59,12 @@ html.html {
         form (action : "olympiad", method : "get") {
             input(name : "urn", type : "text", value : "urn:cite:chron:olympiadyear.1_1", size: "80")
             input(type: "submit", value : "Look up")
+        }
+
+        h2("Analyze formal models")
+        p {
+            "See " 
+            a(href: "loadfile.groovy","formal models of datings")
         }
     }
     footer {

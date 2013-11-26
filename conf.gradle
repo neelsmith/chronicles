@@ -6,6 +6,7 @@ ext {
     baseUrl = ""
 
     indices = "http://beta.hpcc.uh.edu/tomcat/chroncite/indices"
+    texts  = "http://beta.hpcc.uh.edu/tomcat/chroncite/texts"
     syncTtl = "ttl/synchronisms-from-jerome.ttl"
     tripleserver = "http://localhost:3030/ds/"
     htmlfooter = ""
