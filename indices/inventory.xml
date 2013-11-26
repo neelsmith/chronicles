@@ -18,5 +18,9 @@
         <source type="file" value="acephalusToJerome.csv"></source>
     </index>
 
+    <index verb="owl:sameAs" inverse="owl:sameAs">
+        <source type="file" value="almkingToJerome.csv"></source>
+    </index>
+
 
 </indexInventory>
