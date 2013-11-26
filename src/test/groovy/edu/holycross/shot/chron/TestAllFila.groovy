@@ -7,7 +7,7 @@ class TestAllFila extends GroovyTestCase {
 
 
     String teiFile = "editions/src/Jerome-Chronicles-p5.xml"
-    Integer expectedSize = 26
+    Integer expectedSize = 21
 
     void testSequence() {
         Jerome j = new Jerome(new File(teiFile))

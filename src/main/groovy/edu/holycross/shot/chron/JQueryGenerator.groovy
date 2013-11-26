@@ -50,6 +50,19 @@ ORDER BY ?seq
 
     String getYearsForRulerQuery(String rulerUrn) {
 return """
+SELECT ?yr  ?label  WHERE {
+
+
+?yr <http://www.homermultitext.org/cite/rdf/memberOf> ?ruler .
+?yr <http://purl.org/ontology/olo/core#item>  ?seq .
+?yr <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> ?label .
+FILTER(str(?ruler) = "${rulerUrn}") 
+
+}
+ORDER BY ?seq
+"""
+/*
+return """
 SELECT ?yr ?label ?ruler ?seq  WHERE {
 
 ?yr  <http://www.w3.org/1999/02/22-rdf-syntax-ns#label>  ?label .
@@ -64,6 +77,7 @@ FILTER(str(?ruler) = "${rulerUrn}")
 }
 ORDER BY ?seq
 """
+*/
 
 /*
 return """

@@ -22,11 +22,7 @@ class JGraph {
         this.jqg = new JQueryGenerator()
     }
 
-    LinkedHashMap getRulersForFilum(CiteUrn urn) {
-        return getRulersForFilum(urn.toString())
-    }
-
-    String getRdfLabel(String urn) {
+   String getRdfLabel(String urn) {
         String label = ""
         String labelReply = getSparqlReply("application/json",jqg.getRdfLabelQuery(urn))
         def slurper = new groovy.json.JsonSlurper()
@@ -54,15 +50,23 @@ class JGraph {
     }
 
 
-    /** Returns an ordered list. */
+
+    ArrayList getRulersForFilum(CiteUrn urn) {
+        return getRulersForFilum(urn.toString())
+    }
+
+    /** Finds rulers for a filum.
+    * @param urnStr CiteUrn value identifying filum.
+    * @returns An ordered list of urn, label pairs. 
+    */
     ArrayList getRulersForFilum(String urnStr) {
         def filumSequence = []
         String filumReply = getSparqlReply("application/json",jqg.getRulersForFilumQuery(urnStr))
+
         def slurper = new groovy.json.JsonSlurper()
         def parsedReply = slurper.parseText(filumReply)
 
         parsedReply.results.bindings.each { b ->
-
             if ((b.ruler) && (b.rulerlabel)) {
                 def record  = [b.ruler.value, b.rulerlabel.value]
                 filumSequence.add(record)
@@ -76,14 +80,17 @@ class JGraph {
         return getYearsForRuler(urn.toString())
     }
 
+
+    /** Finds years for a ruler.
+    * @param urnStr CiteUrn value identifying ruler.
+    * @returns An ordered list of urn, label pairs. 
+    */
     ArrayList getYearsForRuler(String urnStr) {
         def rulerYears = []
         String rulerReply = getSparqlReply("application/json",jqg.getYearsForRulerQuery(urnStr))
-
         def slurper = new groovy.json.JsonSlurper()
         def parsedReply = slurper.parseText(rulerReply)
         parsedReply.results.bindings.each { b ->
-            System.err.println  "GET YEARS FOR RULER: BINDING " + b
             def rulerYear = [b.yr.value, b.label.value]
             rulerYears.add(rulerYear)
         }
@@ -97,7 +104,6 @@ class JGraph {
         String label = ""
         String labelReply = getSparqlReply("application/json",jqg.labelQuery(urnStr))
 
-        System.err.println "QUERY: " + jqg.labelQuery(urnStr)
         def slurper = new groovy.json.JsonSlurper()
         def parsedReply = slurper.parseText(labelReply)
         parsedReply.results.bindings.each { b ->
@@ -113,9 +119,6 @@ class JGraph {
     ArrayList getSyncsForYear(String urnStr) {
         def syncs = []
         String rulerReply = getSparqlReply("application/json",jqg.getSyncsForYearQuery(urnStr))
-
-        System.err.println "SYncs for year from query " + jqg.getSyncsForYearQuery(urnStr)
-
 
         def slurper = new groovy.json.JsonSlurper()
         def parsedReply = slurper.parseText(rulerReply)

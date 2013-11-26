@@ -15,6 +15,7 @@ String serverUrl = "@tripleserver@"
 JGraph jg = new JGraph(serverUrl)
 
 def filumSeq = jg.getYearsForRuler(urn)
+String label = jg.getLabel(urn)
 
 
 
@@ -23,7 +24,7 @@ MarkupBuilder html = new MarkupBuilder(writer)
 
 html.html {
     head {
-        title("Ruler: ${urn}")
+        title("Ruler: ${label}")
 	link(type : 'text/css',  rel : 'stylesheet',  href : 'css/chron.css', title : 'CSS stylesheet')
     }
     
@@ -31,7 +32,7 @@ html.html {
         
     	header {
             h1 {
-                mkp.yield "Ruler: ${urn}"
+                mkp.yield "Ruler: ${label}"
             }
             nav (role: 'navigation') {
                 mkp.yield "Chronometer: "
@@ -42,7 +43,7 @@ html.html {
         }
     	
         article {
-            p("Regnal years of ${urn}")
+            p("Regnal years of ${label}")
             ol {
 
                 filumSeq.each { seq ->
