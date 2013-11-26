@@ -33,20 +33,21 @@ html.html {
     }
     	
     article {
-        p("This web app lets you explore an RDF of chronological relations drawn from primary sources you can cite and retrieve.")
+        p("This web app lets you explore an RDF graph of chronological relations drawn from primary sources you can cite and retrieve.")
         p {
             mkp.yield "The first web of relations you can browse is generated from an XML text of Jerome's "
             em("Chronicles")
             mkp.yield "."
         }
 
-        h2("Jerome")
+        h2("Jerome's regnal sequences")
         p("Browse Jerome's chronological regnal sequences:")
         ul {
             li {
                 a (href : "fila", "Regnal fila")
             }
         }
+        h2("Olympiad dates")
         p("Search for synchonisms by Jerome's Olympiad year reference.")
         p {
             mkp.yield "(Express year as a URN of the form "
@@ -54,7 +55,7 @@ html.html {
             mkp.yield ")."
         }
         form (action : "olympiad", method : "get") {
-            input(type : "text", value : "urn:cite:chron:olympiadyear.1_1")
+            input(name : "urn", type : "text", value : "urn:cite:chron:olympiadyear.1_1", size: "80")
             input(type: "submit", value : "Look up")
         }
     }

@@ -112,6 +112,29 @@ class JGraph {
         return label
     }
 
+
+    ArrayList getSyncsForOlympiadYear(CiteUrn urn) {
+        return getSyncsForOlympiadYear(urn.toString())
+    }
+
+    ArrayList getSyncsForOlympiadYear(String urnStr) {
+        def syncs = []
+        String rulerReply = getSparqlReply("application/json",jqg.getSyncsForOlympiadQuery(urnStr))
+
+        def slurper = new groovy.json.JsonSlurper()
+        def parsedReply = slurper.parseText(rulerReply)
+        parsedReply.results.bindings.each { b ->
+
+            def record  = [b.label.value, b.yr.value, b.label2.value, b.yr2.value]
+            if (b.yr.value == "") {
+                System.err.println "EMPTY YEAR!"
+            }
+            syncs.add(record)
+        }
+       return syncs
+    }
+
+
     ArrayList getSyncsForYear(CiteUrn urn) {
         return getSyncsForYear(urn.toString())
     }
