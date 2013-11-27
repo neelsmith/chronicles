@@ -90,7 +90,7 @@ String bodyScript = """
 <script>
 
 // get the data
-d3.csv("syncyrcsv?urn=${urn}", function(error, links) {
+d3.csv("syncolycsv.groovy?urn=${urn}", function(error, links) {
 
 var nodes = {};
 
@@ -104,7 +104,7 @@ links.forEach(function(link) {
 });
 
 var width = 500,
-    height = 500;
+    height = 200;
 
 var force = d3.layout.force()
     .nodes(d3.values(nodes))
