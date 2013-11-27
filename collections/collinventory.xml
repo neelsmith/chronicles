@@ -3,6 +3,24 @@
 <collectionService xmlns="http://chs.harvard.edu/xmlns/cite">
     
     
+    <citeCollection canonicalId="Colony" label="Label" urn="urn:cite:chron:colony">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Sicilian colonies </title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Colonies discussed by Thucydides in book 6</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Sicilian colonial foundations discussed by Thucydides in book 6</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        
+        <source type="file" value="colonies.csv"/>
+
+        <citeProperty name="Colony" label="Colony" type="citeurn"/>
+        <citeProperty name="Label" label="Label" type="string"></citeProperty>
+        
+        
+    </citeCollection>
+    
+    
+    
     <citeCollection canonicalId="Pedersen" label="Label" urn="urn:cite:chron:pedersen">
         <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
         <title xmlns="http://purl.org/dc/elements/1.1/">Dated astronomical observations in Ptolemy's Almagest </title>
