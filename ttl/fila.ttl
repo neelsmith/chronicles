@@ -1,18 +1,18 @@
-<urn:cite:chron:j-alexandrians> rdf:Label <Ptolemaic Egypt> .
-<urn:cite:chron:j-argives> rdf:Label <Argive kings> .
-<urn:cite:chron:j-assyrians> rdf:Label <Assyria> .
-<urn:cite:chron:j-athenians> rdf:Label <Athenian kings> .
-<urn:cite:chron:j-corinthians> rdf:Label <Corinthian kings> .
-<urn:cite:chron:j-lacedaemonians> rdf:Label <Lacedaemon> .
-<urn:cite:chron:j-latins> rdf:Label <	Roman kings> .
-<urn:cite:chron:j-lydians> rdf:Label <Lydians> .
-<urn:cite:chron:j-macedonians> rdf:Label <Macedonians> .
-<urn:cite:chron:j-medes> rdf:Label <	Medes> .
-<urn:cite:chron:j-mycenaeans> rdf:Label <Myceanaeans> .
-<urn:cite:chron:j-persians> rdf:Label <Persians> .
-<urn:cite:chron:j-romans> rdf:Label <	Imperial Roman rulers> .
-<urn:cite:chron:j-sicyonians> rdf:Label <Sicyon> .
-<urn:cite:chron:j-syria-asia> rdf:Label <Hellenistic kingdoms of Syria and Asia> .
+<urn:cite:chron:j-alexandrians> rdf:label "Ptolemaic Egypt" .
+<urn:cite:chron:j-argives> rdf:label "Argive kings" .
+<urn:cite:chron:j-assyrians> rdf:label "Assyria" .
+<urn:cite:chron:j-athenians> rdf:label "Athenian kings" .
+<urn:cite:chron:j-corinthians> rdf:label "Corinthian kings" .
+<urn:cite:chron:j-lacedaemonians> rdf:label "Lacedaemon" .
+<urn:cite:chron:j-latins> rdf:label "Roman kings" .
+<urn:cite:chron:j-lydians> rdf:label "Lydians" .
+<urn:cite:chron:j-macedonians> rdf:label "Macedonians" .
+<urn:cite:chron:j-medes> rdf:label "Medes" .
+<urn:cite:chron:j-mycenaeans> rdf:label "Myceanaeans" .
+<urn:cite:chron:j-persians> rdf:label "Persians" .
+<urn:cite:chron:j-romans> rdf:label "Imperial Roman rulers" .
+<urn:cite:chron:j-sicyonians> rdf:label "Sicyon" .
+<urn:cite:chron:j-syria-asia> rdf:label "Hellenistic kingdoms of Syria and Asia" .
 <urn:cite:chron:j-alexandrians> rdf:type chron:Filum .
 <urn:cite:chron:j-argives> rdf:type chron:Filum .
 <urn:cite:chron:j-assyrians> rdf:type chron:Filum .

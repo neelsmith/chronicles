@@ -14,10 +14,9 @@ String urn = params.urn
 String serverUrl = "@tripleserver@"
 JGraph jg = new JGraph(serverUrl)
 
+
 def filumSeq = jg.getYearsForRuler(urn)
 String label = jg.getLabel(urn)
-
-
 
 StringWriter writer = new StringWriter()
 MarkupBuilder html = new MarkupBuilder(writer)
@@ -44,6 +43,12 @@ html.html {
     	
         article {
             p("Regnal years of ${label}")
+            if (filumSeq.size() == 0) {
+                p("NO results for SPARQL query ")
+                blockquote {
+                    pre ("${jg.jqg.getYearsForRulerQuery(urn)}")
+                }
+            }
             ol {
 
                 filumSeq.each { seq ->

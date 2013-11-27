@@ -1,17 +1,17 @@
-Colony,Label,Sources
-urn:cite:chron:colonies.col1,Naxos
-urn:cite:chron:colonies.col2,Syracuse
-urn:cite:chron:colonies.col3,Leontini
-urn:cite:chron:colonies.col4,Catana
-urn:cite:chron:colonies.col5,Trotilus
-urn:cite:chron:colonies.col6,Thapsus
-urn:cite:chron:colonies.col7,Hyblaean Megara
-urn:cite:chron:colonies.col8,Selinus
-urn:cite:chron:colonies.col9,Gela
-urn:cite:chron:colonies.col10,Acragas (Agrigentum) Naxo
-urn:cite:chron:colonies.col11,Messina
-urn:cite:chron:colonies.col12,Himera
-urn:cite:chron:colonies.col13,Acrae
-urn:cite:chron:colonies.col14,Casmenae
-urn:cite:chron:colonies.col15,Camarina
-urn:cite:chron:colonies.col16,Zancle
+Colony,Label
+urn:cite:chron:colony.col1,Naxos
+urn:cite:chron:colony.col2,Syracuse
+urn:cite:chron:colony.col3,Leontini
+urn:cite:chron:colony.col4,Catana
+urn:cite:chron:colony.col5,Trotilus
+urn:cite:chron:colony.col6,Thapsus
+urn:cite:chron:colony.col7,Hyblaean Megara
+urn:cite:chron:colony.col8,Selinus
+urn:cite:chron:colony.col9,Gela
+urn:cite:chron:colony.col10,Acragas (Agrigentum) Naxo
+urn:cite:chron:colony.col11,Messina
+urn:cite:chron:colony.col12,Himera
+urn:cite:chron:colony.col13,Acrae
+urn:cite:chron:colony.col14,Casmenae
+urn:cite:chron:colony.col15,Camarina
+urn:cite:chron:colony.col16,Zancle
