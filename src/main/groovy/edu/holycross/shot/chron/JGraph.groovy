@@ -35,7 +35,6 @@ class JGraph {
 
     ArrayList getSynchronismsForRuler(String urnStr) {
         def syncs = []
-//        String syncReply = getSparqlReply("application/json",jqg.getYearsForRulerQuery(urnStr))
         String syncReply = getSparqlReply("application/json",jqg.getSyncsForRulerQuery(urnStr))
         def slurper = new groovy.json.JsonSlurper()
         def parsedReply = slurper.parseText(syncReply)
@@ -113,10 +112,46 @@ class JGraph {
     }
 
 
+    /** Gets a pair of URN values for previous
+    * and next objects in an ordered collection.
+    * @param urn Urn of the object to query for.
+    * @returns A two-element array containing a pair
+    * of URN values as Strings.  The first element is
+    * the previous value;  the second element is the
+    * next value.  If there is no previous or next element
+    * in the collection, ...
+    */
+    ArrayList getPrevNext(CiteUrn urn) {
+        return getPrevNext(urn.toString())
+    }
+
+    ArrayList getPrevNext(String urnStr) {
+        String prev = ""
+        String nxt = ""
+
+        def slurper = new groovy.json.JsonSlurper()
+
+        String prevReply = getSparqlReply("application/json",jqg.getPrevQuery(urnStr))
+        def parsedPrevReply = slurper.parseText(prevReply)
+        parsedPrevReply.results.bindings.each { b ->
+            prev = b.prev.value
+        }        
+
+        String nextReply = getSparqlReply("application/json",jqg.getNextQuery(urnStr))
+        def parsedNextReply = slurper.parseText(nextReply)
+        parsedNextReply.results.bindings.each { b ->
+            nxt = b.nxt.value
+        }        
+
+        return [prev, nxt]
+    }
+
+
+
+
     ArrayList getSyncsForOlympiadYear(CiteUrn urn) {
         return getSyncsForOlympiadYear(urn.toString())
     }
-
     ArrayList getSyncsForOlympiadYear(String urnStr) {
         def syncs = []
         String rulerReply = getSparqlReply("application/json",jqg.getSyncsForOlympiadQuery(urnStr))

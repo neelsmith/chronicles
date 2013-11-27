@@ -72,6 +72,26 @@ FILTER (str(?u)  = "${urnStr}")
 """
 }
 
+String getPrevQuery(String urnStr) {
+return """
+SELECT ?prev  WHERE {
+?u  <http://purl.org/ontology/olo/core#previous>  ?prev .
+FILTER (str(?u)  = "${urnStr}")
+}
+"""
+}
+
+String getNextQuery(String urnStr) {
+return """
+SELECT ?nxt  WHERE {
+?u  <http://purl.org/ontology/olo/core#next>  ?nxt .
+FILTER (str(?u)  = "${urnStr}")
+}
+"""
+}
+
+
+
     String getSyncsForOlympiadQuery(String olympiadYear) {
 return """
 SELECT ?label ?yr ?label2  ?yr2 ?ruler WHERE {
