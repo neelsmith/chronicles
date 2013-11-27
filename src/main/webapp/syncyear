@@ -18,6 +18,8 @@ String urn = params.urn
 def synchronisms = jg.getSyncsForYear(urn)
 String label = jg.getLabel(urn)
 
+def pn = jg.getPrevNext(urn)
+
 StringWriter writer = new StringWriter()
 MarkupBuilder html = new MarkupBuilder(writer)
 
@@ -41,6 +43,14 @@ html.html {
             nav (role: 'navigation') {
                 mkp.yield "Chronometer: "
                 a(href: "home",  "home")
+                 mkp.yield " Filum: "                
+                if (pn[0] != "") {
+                    a(href : "syncyear?urn=${pn[0]}", "preceding year of ruler ")
+                    mkp.yield ", "
+                }
+                if (pn[1] != "") {
+                    a(href : "syncyear?urn=${pn[1]}", "next year of ruler")
+                }
             }
 
         }

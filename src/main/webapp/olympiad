@@ -15,7 +15,7 @@ JGraph jg = new JGraph(serverUrl)
 
 def synchronisms = jg.getSyncsForOlympiadYear(urn)
 String label = jg.getLabel(urn)
-
+def pn = jg.getPrevNext(urn)
 
 StringWriter writer = new StringWriter()
 MarkupBuilder html = new MarkupBuilder(writer)
@@ -38,6 +38,15 @@ html.html {
             nav (role: 'navigation') {
                 mkp.yield "Chronometer: "
                 a(href: "home",  "home")
+                mkp.yield " | Olympic years: "
+                if (pn[0] != "") {
+                    a(href : "olympiad?urn=${pn[0]}", "previous")
+                    mkp.yield ", "
+                }
+                if (pn[1] != "") {
+                    a(href : "olympiad?urn=${pn[1]}", "next")
+                }
+
             }
         }
         article {
