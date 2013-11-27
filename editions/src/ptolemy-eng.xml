@@ -19,12 +19,184 @@
   <text>
       <body>
          
-         <table>
-            <row role="label">
-               <cell>Ruler</cell>
-               <cell>Length of reign</cell>
-               <cell>Years from epoch of Nabonassar</cell>
-               <cell>Years from epoch of Alexander's death</cell>
+         <table n="1">
+         <row n="header" role="label">
+            <cell>Kings</cell>
+            <cell>Years</cell>
+            <cell>Total</cell>
+         </row>
+            <row n="1" role="data">
+               <cell>Nabonassar</cell>
+               <cell>14</cell>
+               <cell>14</cell>
+            </row>
+            <row n="2" role="data">
+               <cell>Nadi</cell>
+               <cell>2</cell>
+               <cell>16</cell>
+            </row>
+            <row n="3" role="data">
+               <cell>Chinzer and Por</cell>
+               <cell>5</cell>
+               <cell>21</cell>
+            </row>
+            <row n="4" role="data">
+               <cell>Iloulai</cell>
+               <cell>5</cell>
+               <cell>26</cell>
+            </row>
+            <row n="5" role="data">
+               <cell>Mardokempados</cell>
+               <cell>12</cell>
+               <cell>38</cell>
+            </row>
+            <row n="6" role="data">
+               <cell>Arkaean</cell>
+               <cell>5</cell>
+               <cell>43</cell>
+            </row>
+            <row n="7" role="data">
+               <cell>interregnum</cell>
+               <cell>2</cell>
+               <cell>45</cell>
+            </row>
+            <row n="8" role="data">
+               <cell>Bilib</cell>
+               <cell>3</cell>
+               <cell>48</cell>
+            </row>
+            <row n="9" role="data">
+               <cell>Aparanadi</cell>
+               <cell>6</cell>
+               <cell>54</cell>
+            </row>
+            <row n="10" role="data">
+               <cell>Regebel</cell>
+               <cell>1</cell>
+               <cell>55</cell>
+            </row>
+            <row n="11" role="data">
+               <cell>Mesesimordak</cell>
+               <cell>4</cell>
+               <cell>59</cell>
+            </row>
+            <row n="12" role="data">
+               <cell>interregnum</cell>
+               <cell>8</cell>
+               <cell>67</cell>
+            </row>
+            <row n="13" role="data">
+               <cell>Asaradin</cell>
+               <cell>13</cell>
+               <cell>80</cell>
+            </row>
+            <row n="14" role="data">
+               <cell>Saosdouchin</cell>
+               <cell>20</cell>
+               <cell>100</cell>
+            </row>
+            <row n="15" role="data">
+               <cell>Kineladan</cell>
+               <cell>22</cell>
+               <cell>122</cell>
+            </row>
+            <row n="16" role="data">
+               <cell>Nabopolassar</cell>
+               <cell>21</cell>
+               <cell>143</cell>
+            </row>
+            <row n="17" role="data">
+               <cell>Nabokolassar</cell>
+               <cell>43</cell>
+               <cell>186</cell>
+            </row>
+            <row n="18" role="data">
+               <cell>Illoaroudam</cell>
+               <cell>2</cell>
+               <cell>188</cell>
+            </row>
+            <row n="19" role="data">
+               <cell>Nerigasolassar</cell>
+               <cell>4</cell>
+               <cell>192</cell>
+            </row>
+            <row n="20" role="data">
+               <cell>Nabonadi</cell>
+               <cell>17</cell>
+               <cell>209</cell>
+            </row>
+         </table>
+         
+         <table n="2">
+            <row n="header" role="label">
+               <cell>Kings of the Persians</cell>
+               <cell></cell>
+               <cell></cell>
+            </row>
+            <row n="21" role="data">
+               <cell>Cyrus</cell>
+               <cell>9</cell>
+               <cell>218</cell>
+            </row>
+            <row n="22" role="data">
+               <cell></cell>
+               <cell></cell>
+               <cell></cell>
+            </row>
+            <row n="23" role="data">
+               <cell></cell>
+               <cell></cell>
+               <cell></cell>
+            </row>
+            <row n="24" role="data">
+               <cell></cell>
+               <cell></cell>
+               <cell></cell>
+            </row>
+            <row n="25" role="data">
+               <cell></cell>
+               <cell></cell>
+               <cell></cell>
+            </row>
+            <row n="26" role="data">
+               <cell></cell>
+               <cell></cell>
+               <cell></cell>
+            </row>
+            <row n="27" role="data">
+               <cell></cell>
+               <cell></cell>
+               <cell></cell>
+            </row>
+            <row n="28" role="data">
+               <cell></cell>
+               <cell></cell>
+               <cell></cell>
+            </row>
+            <row n="29" role="data">
+               <cell></cell>
+               <cell></cell>
+               <cell></cell>
+            </row>
+            <row n="30" role="data">
+               <cell></cell>
+               <cell></cell>
+               <cell></cell>
+            </row>
+            <row n="31" role="data">
+               <cell></cell>
+               <cell></cell>
+               <cell></cell>
+            </row>
+         </table>
+         
+         
+         <table n="3">
+            <row n="header" role="label">
+               <cell>Kings of the Macedonians</cell>
+               <cell/>
+               <cell/>
+               <cell/>
             </row>
          <row n="32" role="data">
             <cell>Philip the successor of Alexander the founder</cell>
@@ -33,10 +205,71 @@
             <cell>7</cell>
          </row>
             <row n="33" role="data">
-               <cell>A second Alexander</cell>
+               <cell>Another Alexander</cell>
                <cell>12</cell>
                <cell>443</cell>
                <cell>19</cell>
+            </row>
+            <row n="34" role="data">
+               <cell>Ptolemy Lagos</cell>
+               <cell>20</cell>
+               <cell>463</cell>
+               <cell>39</cell>
+            </row>
+            <row n="35" role="data">
+               <cell>Philadelphus</cell>
+               <cell>38 </cell>
+               <cell></cell>
+               <cell></cell>
+            </row>
+            <row n="36" role="data">
+               <cell>Euergetes</cell>
+               <cell></cell>
+               <cell></cell>
+               <cell></cell>
+            </row>
+            <row n="37" role="data">
+               <cell>Philopator</cell>
+               <cell></cell>
+               <cell></cell>
+               <cell></cell>
+            </row>
+            <row n="38" role="data">
+               <cell>Epiphanes</cell>
+               <cell></cell>
+               <cell></cell>
+               <cell></cell>
+            </row>
+            <row n="39" role="data">
+               <cell>Philometor</cell>
+               <cell></cell>
+               <cell></cell>
+               <cell></cell>
+            </row>
+            <row n="40" role="data">
+               <cell>Euergetes the second</cell>
+               <cell></cell>
+               <cell></cell>
+               <cell></cell>
+            </row>
+            <row n="41" role="data">
+               <cell>Soter</cell>
+               <cell></cell>
+               <cell></cell>
+               <cell></cell>
+            </row>
+            <row n="42" role="data">
+               <cell>New Dionysus</cell>
+               <cell></cell>
+               <cell></cell>
+               <cell></cell>
+            </row>
+            
+            <row n="43" role="data">
+               <cell>Cleopatra</cell>
+               <cell>22</cell>
+               <cell>718</cell>
+               <cell>294</cell>
             </row>
          </table>
          

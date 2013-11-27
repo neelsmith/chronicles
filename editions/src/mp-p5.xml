@@ -1,49 +1,719 @@
-<TEI><teiHeader><fileDesc><titleStmt><title>μαρμορ παριυμ</title></titleStmt><publicationStmt><p>ε-πυβλιξατιον</p></publicationStmt><sourceDesc><p>jαξοβψ εδιτιον</p></sourceDesc></fileDesc></teiHeader><text {http://www.w3.org/XML/1998/namespace}lang="grc" ><body><div type="side"  n="a" ><div n="stone"  ana="1" ><p n="1" ><milestone unit="sections"  n="prolog" ></milestone><gap></gap>ου<restore resp="Jacoby" >ἐξ ἀναγραφῶ</restore>ν παν<restore>τοί</restore>ων<restore>καὶ ἱστοριῶν κοι</restore>νῶν ἀανέγραψα τοὺς
-                        ἄν<restore>ωθεν χρό</restore></p><p n="2" ><restore>νους</restore>ἀξάμ<restore>εν</restore>ος ἀπὸ κέκροπος τοῦ
-                    πρώτου βασιλεύσαντος ἀθηνῶν εἵως ἄρχοντος ἐμ παρῳ<restore>μὲν</restore></p><p n="3" ><gap></gap>υάνακτος, ἀθήνησιν δὲ διογνήτου<milestone unit="chronon"  n="1" ></milestone>ἀφ᾽ οὗ<seg n="mp-a1"  type="event" >κέκροψ ἀθηνῶν ἐβασίλευσε</seg>, 
-                    καὶ<seg n="mp-a2"  type="event" >ἡ χώρα κεκροπία ἐκλήθη τὸ πρότερον καλου</seg></p><p n="4" ><seg n="mp-a2" >μένη ἀπὸ ἀκταίου τοῦ αὐτόχθονος</seg>,<measure type="yearsbp" >ἔτη<num type="integer-attic"  value="1318" >χηηηδπιιι</num></measure><milestone unit="chronon"  n="2" ></milestone>ἀφ᾽ οὗ<seg n="mp-a3" >δευκαλίων παρὰ τὸν παρνασσὸν ἐν λυκωρείᾳ ἐβασίλευσε</seg>,<restore>βα</restore>σιλε<restore>υο</restore>ντος ἀθηνῶν κέκροπος,<measure type="yearsbp" >ἔτη<num type="integer-attic"  value="1310" >χηηηδ</num></measure></p><p n="5" ><milestone unit="chronon"  n="3" ></milestone>ἀφ᾽ οὗ<seg n="mp-a4" >δίκη ἀθήνησι<restore>ἐγέ</restore>νετο
-                    ἀρει καὶ ποσειδῶνι ὑπὲρ ἁλιρροθίου τοῦ ποσειδῶνος</seg>,
-                    καὶ<seg n="mp-a5" >ὁ τόπος ἐκλήθη</seg></p><p n="6" ><seg n="mp-a5" >ἄρειος πάγος</seg>,<measure type="yearsbp" >ἔτη<num type="integer-attic"  value="1268" >χηη50δπιιι</num></measure>,
-                    βασλεύοντος ἀθηνῶν κρ<restore>ραναοῦ</restore>.<milestone unit="chronon"  n="4" ></milestone>ἀφ᾽ οὗ
-                    καταλυσμὸς ἐπὶ δευκαλίωνος ἐγένετο 
-                    καὶ
-                  δευκαλίων τοὺς</p><p n="7" >ὄμβρους ἔφυγεν ἐγ λυκωρείας εἰς ἀθήνας πρὸ<restore>ς κρανα</restore>ὸν
-                    καὶ
-                    τοῦ διὸ<restore>ς</restore></p><p n="8" ><milestone unit="chronon"  n="5" ></milestone></p><p n="9" ></p><p n="10" ><milestone unit="chronon"  n="6" ></milestone></p><p n="11" ></p><p n="12" ><milestone unit="chronon"  n="7" ></milestone></p><p n="13" ><milestone unit="chronon"  n="8" ></milestone></p><p n="14" ><milestone unit="chronon"  n="9" ></milestone></p><p n="15" ></p><p n="16" ></p><p n="17" ><milestone unit="chronon"  n="10" ></milestone></p><p n="18" ></p><p n="19" ></p><p n="20" ></p><p n="21" ><milestone unit="chronon"  n="11" ></milestone></p><p n="22" ></p><p n="23" ><milestone unit="chronon"  n="12" ></milestone></p><p n="24" ><milestone unit="chronon"  n="13" ></milestone></p><p n="25" ><milestone unit="chronon"  n="14" ></milestone></p><p n="26" ></p><p n="27" ><milestone unit="chronon"  n="15" ></milestone></p><p n="28" ></p><p n="29" ><milestone unit="chronon"  n="16" ></milestone></p><p n="30" ><milestone unit="chronon"  n="17" ></milestone></p><p n="31" ></p><p n="32" ><milestone unit="chronon"  n="18" ></milestone></p><p n="33" ><milestone unit="chronon"  n="19" ></milestone></p><p n="34" ><milestone unit="chronon"  n="20" ></milestone></p><p n="35" ></p><p n="36" ><milestone unit="chronon"  n="21" ></milestone></p><p n="37" ><milestone unit="chronon"  n="22" ></milestone></p><p n="38" ><milestone unit="chronon"  n="23" ></milestone></p><p n="39" ><milestone unit="chronon"  n="24" ></milestone></p><p n="40" ><milestone unit="chronon"  n="25" ></milestone></p><p n="41" ><milestone unit="chronon"  n="26" ></milestone></p><p n="42" ><milestone unit="chronon"  n="27" ></milestone></p><p n="43" ></p><p n="44" ><milestone unit="chronon"  n="28" ></milestone></p><p n="45" ><milestone unit="chronon"  n="29" ></milestone><milestone unit="chronon"  n="30" ></milestone></p></div><div type="stone"  n="2" ><p n="46" ><seg n="mp-b1" ><restore>στ</restore>αθμὰ κατεσεύασε καὶ ννόμισμα
-                        αργυροῦν ἐν ἀιγίνῃ ἐποίησεν</seg>,
-                    ἑνδέκατος ὢν ἀφ᾽ ἡρακλέους,<measure type="yearsbp" >᾿έτη<num type="integer-attic"  value="631" >ηδδδι</num></measure>,
-                    βασιλεύοντος ἀθηνῶν</p><p n="47" ><restore>φερεκλ</restore>είους.<milestone unit="chronon"  n="31" ></milestone>ἀφ᾽ οὗ<seg n="mp-b2" >ἀρχίας ἐυαγήτου δέκατος ὢν ἀπὸ
-                    τημένου ἐκ κορ́ινθου ἤγαγε τὴν ἀποικίαν<restore>καὶ ἔκτισε</restore>συρακού<restore>σσας</restore></seg>,<measure>ἔτη<num><gap></gap></num></measure></p><p n="48" ><restore>β</restore><unclear>α</unclear><restore>σι</restore>λεύ<restore>ον</restore>τος
-                    ἀθηνῶν ἀισχύλου ἔτους εἰκοστοῦ καὶ ἑνός.<milestone unit="chronon"  n="32" ></milestone>ἀφ᾽ οὗ<seg n="mp-b3" >κατ᾽ ἐνιαυτὸν ἦρξεν ὁ ἄρχων</seg>,<measure>ἔτη<num value="420" >ηηηηδδ</num></measure><milestone unit="chronon"  n="33" ></milestone>ἀφ᾽ οὗ<seg n="mp-b4" ><restore>ἀρχίλοχ</restore>ο<restore>ς</restore><gap></gap></seg></p><p n="49" ><gap></gap><measure>ἔτη<num value="418" >ηηηηδπιιι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησι<persName>λυσιά<restore>δου</restore></persName></date><milestone unit="chronon"  n="34" ></milestone>ἀφ᾽ οὗ<seg n="mp-b5" >τέρπανδρος ὁ δερδένεος ὁ λέσβιος τοὺς νομοὺς
-                    του<restore>ς κιθ</restore>α<restore>ρ</restore>ω<restore>ιδικ</restore>οὺς<damage type="rasura" >θαιαυλητ</damage><gap></gap>ἐκαι</seg></p><p n="50" ><seg n="mp-b5" ><restore>νοτό</restore>μησε καὶ τὴν ἔμπροσθε μουσικὴν
-                        μετέστησεν</seg>,<measure>ἔτη<num value="381" >ηηη50δδδι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησι<persName>δρωπίδου</persName></date><milestone unit="chronon"  n="35" ></milestone>ἀφ᾽ οὗ<seg n="mp-b6" >ἀ<restore>λυάττη</restore>ς λυδ<unclear>ῶ</unclear><restore>ν ἐβα</restore>σίλευσε<restore>ν</restore></seg><restore>ἔτη</restore></p><p n="51" ><measure><num value="341" ><restore>η</restore><unclear>η</unclear><restore>η</restore>δδδι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησι<persName>ἀριστοκλέους</persName></date><milestone unit="chronon"  n="36" ></milestone>ἀφ᾽ οὗ<seg n="mp-b7" >σαπφὼ ἐγ μυτιλήνης εἰς σικελίαν ἔπλευσε, φυγοῦσα</seg><gap></gap><restore><measure>ἔτη<num>ηηηδδδ</num></measure></restore><gap></gap></p><p n="52" ><date calendar="athenian-archon" ><restore>ἄρχο</restore>ντος ἀθήνησι μὲν<persName>κριτίου τοῦ προτέρου</persName></date>,
-                    ἐν συρακούσσαις δὲ τῶν γαμόρων κατεχόντων τὴν ἀρχήν.<milestone unit="chronon"  n="37" ></milestone>ἀφ᾽ οὗ<seg n="mp-b8" ><unclear>ἀ</unclear>μ<restore>φικτ</restore>ύο<restore>νες ἔθ</restore>υ<restore>σαν κ</restore><unclear>α</unclear>ταπο</seg></p><p n="53" ><seg n="mp-b8" ><restore>λεμ<unclear>ή</unclear></restore><unclear>σα</unclear>ντες κύρραν</seg>,
-                    καὶ<seg n="mp=b9" >ὁ γυμνικὸς ἐτέθη χρηματίτης ἀπὸ τῶν λαφύρων</seg>,<measure>ἔτη<num value="327" >ηηηδδπιι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησιν<persName>σίμω<restore>ν</restore>ος</persName>.</date><milestone unit="chronon"  n="38" ></milestone>ἀφ᾽ οὗ<seg n="mp-b10" ><restore>ἐν δελφοῖ</restore>ς</seg></p><p n="54" ><seg n="mp-b10" ><restore>ὁ στε</restore>φανίτης ἀγὼν πάλιν ἐτέθη</seg>,<measure>ἔτη<num value="318" >ηηηδπιιι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησιν<persName>δαμασίου τοῦ δευτέρου</persName>.</date><milestone unit="chronon"  n="39" ></milestone>ἀφ᾽ οὗ<seg n="mp-b11" >ἐν ἀθ<restore>ήν</restore>αις κωμω<restore>ιδῶν χο</restore>ρ<restore>ὸς ε</restore>τέθη,<restore>στη</restore>σάν</seg></p><p n="55" ><seg n="mp-b11" ><restore>των πρώ</restore>των ἰκαριέων, εὑρόντος σουσαρίωνος</seg>,
-                    καὶ<seg n="mp-b12" >ἆθλον ἐτέθη πρῶτον ἰσχάδω<restore>ν</restore>ἄρσιχο<restore>ς</restore>καὶ
-                    οἴνου με<restore>τ</restore>ρητής</seg><restore><measure>ἔτη<num value="318" >ηη<gap></gap></num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησιν</date></restore></p><p n="56" ><gap></gap><milestone unit="chronon"  n="40" ></milestone>ἀφ᾽ οὗ<seg n="mp-b13" >πεισίστρατος ἀθηνῶν ἐτυράννευσεν</seg>,<measure>ἔτη<num value="297" >ηη50δδδδπιι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος<restore>ἀθήνη</restore>σι<persName>κ<restore>ω</restore><unclear>μ</unclear><restore>έ</restore>ου</persName>.</date><milestone unit="chronon"  n="41" ></milestone>ἀφ᾽ οὗ<seg n="mp-b14" >κροῖσος<restore>ἐξ</restore>ἀσίας<restore>εἰς</restore>δελφοὺς 
-                    ἀ<restore>πέστειλε θεωρούς</restore></seg>,</p><p n="57" ><measure>ἔτη<num value="292" ><restore>η</restore>η<restore>50</restore>δδδδιι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησιν<persName>ἐυθυδήμου</persName>.</date><milestone unit="chronon"  n="42" ></milestone>ἀφ᾽ οὗ<seg n="mp-b15" >κῦρος ὁ περσῶν βασιλεῦς σάρδεις ἔλαβεν
-                    καὶ κροῖσον ὑπὸ<restore>τῆς πυθία</restore>ς σφαλ<restore>έντα</restore></seg>,<restore><measure>ἔτη<num value="277" >ηη50δδπιι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησι<gap></gap></date></restore></p><p n="58" ><seg n="mp-b16" >ἦν δὲ καὶ ἱππῶναξ κατὰ τοῦτον ὁ?̓ιαμβοποιός</seg>.<milestone unit="chronon"  n="43" ></milestone>ἀφ᾽ οὗ<seg n="mp-b17" >θέσπις ὁ ποιητὴς<restore>ὑπεκρίνα</restore>το πρῶτος,
-                    ὃς ἐεδίδαξε<restore>δρ</restore>ᾶ<restore>μα ἐν ἄ</restore>στ<restore>ει</restore></seg><restore>καὶ</restore><seg n="mp-b18" ><restore>ἆθλον ἐ</restore>τέθη ὁ<restore>τ</restore>ράγος</seg><measure>ἔτη<num>ηη50<restore>δδ</restore><gap></gap></num></measure>,<date calendar="athenian-archon"  n="mp-b18" >ἄρχοντος ἀ<restore>θήνη</restore></date></p><p n="59" ><date calendar="athenian-archon"  n="mp-b18" ><restore>σι</restore><persName><gap></gap>ναιου τοῦ προτέρου</persName></date><milestone unit="chronon"  n="44" ></milestone>ἀφ᾽ οὗ<seg n="mp-b19" >δαρεῖος περσῶν ἐβασίλευσε μάγου τελευτήσαντος</seg>,<measure>ἔτη<num value="256" ><restore>ηη</restore>50πι<restore>δδ</restore></num></measure>,<date calendar="athenian-archon"  n="mp-b18" >ἄρχοντος ἀθήνη<restore>σι</restore><gap></gap></date><milestone unit="chronon"  n="45" ></milestone>ἀφ᾽ οὗ<seg n="mp-b20" >ἁρμόδιος καὶ<restore>ἀριστογε</restore>ίτων ἀπέκτε<restore>ιναν</restore></seg></p><p n="60" ><seg n="mp-b20" ><restore>ἵππα</restore>ρχον πεισιστράτου<unclear>δ</unclear><restore>ιά</restore><unclear>δ</unclear><restore>οχ</restore>ον</seg>καὶ<seg n="mp-b21" >ἀθηναῖοι<restore>ἐξανέστ</restore>ησαν τοὺς πεισιστρατίδας ἐκ<unclear>τ</unclear><restore>οῦ π</restore><unclear>ε</unclear>λασγι<unclear>κ</unclear>οῦ τείχους</seg>,<measure>ἔτη<num value="248" >ηηδδδδπιιι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνη<restore>σι</restore><persName>ἁ<restore>ρ</restore>π<restore>ακ</restore></persName></date></p><p n="61" ><persName>τίδου</persName><milestone unit="chronon"  n="46" ></milestone>ἀφ οὗ<seg n="mp-b22" >χοροὶ πρῶτον ἠγωνίσαντο ἄνδρῶν, ὃν διδάξας
-                    ὑπό<restore>δι</restore>κος ὁ χαλκιδεὺ<restore>ς</restore>ἐνίκ<restore>ησε</restore></seg><measure>ἔτη<num value="246" >ηηδδδδπι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησι<persName>λυσαγόρου</persName></date><milestone unit="chronon"  n="47" ></milestone>ἀφ οὗ<seg n="mp-b23" >με<restore>λαν</restore>ιππίδ<restore>ης</restore><unclear>μ</unclear><restore>ήλιος</restore></seg></p><p n="62" ><seg n="mp-b23" ><restore>ἐνίκης</restore>εν ἀθήνησιν</seg>,<measure>ἔτη<num value="231" >ηηδδδι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησι<persName>πυθοκρίτου</persName></date><milestone unit="chronon"  n="48" ></milestone>ἀφ᾽ οὗ<seg n="mp-b23" >ἡ ἐμ μαραθῶνι μάχη ἐγένετο ἀθηναίοις πρὸς τοὺς πέρσας
-                    ἀρ<restore>ταφ</restore>έ<restore>ρνην τε τὸ</restore>ν δαρείου
-                    ἀδελφι</seg></p><p n="63" ><seg n="mp-b23" ><restore>δοῦν καὶ δᾶ</restore>τιν στρατηγόν, ἣν ἐνίκων ἀθηναῖοι</seg>,<measure>ἔτη<num value="227" >ηηδδπιι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησιν τ<restore>ο</restore><unclear>ῦ</unclear>δευτέρου<persName><restore>φ</restore><unclear>α</unclear><restore>ι</restore>ν<restore>ι</restore>π<restore>πίδ</restore>ου</persName>;</date>ᾗ ἐν μάχῃ συνηγωνίσατο ἀισχύλος ὁ ποιητὴς</p><p n="64" ><restore>ετ</restore>ῶ<restore>ν</restore>ὢν<num value="35" >δδδπ</num><milestone unit="chronon"  n="49" ></milestone>ἀφ᾽ οὗ<seg n="mp-b24" >σιμωνίδης ὁ σιμωνίδου πάππος τοῦ ποιητοῦ, ποιητὴς ὢν καὶ αὐτός,
-                    ἐνίκησεν<unclear>ἀ</unclear><restore>θ</restore>ήνησι</seg>, 
-                    καὶ<seg n="mp-b25" >δαρεῖος τελευτᾷ</seg>,<seg n="mp-b26" >ξέρξης δὲ ὁ υἱὸς βασιλεύει</seg>,<measure>ἔ<unclear>τ</unclear><restore>η</restore></measure></p><p n="65" ><measure><num value="226" ><restore>ηη</restore>δδπιι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησι<persName>ἀριστείδου</persName></date><milestone unit="chronon"  n="50" ></milestone>ἀφ᾽ οὗ<seg n="mp-b27" >ἀισχύλος ὁ ποιητὴς τραγῳδίᾳ πρῶτον ἐνίκησε</seg>,
-                    καὶ<seg n="mp-b28" >ἐυριπίδης ὁ ποιητὴς ἐγένετο</seg>,
-                    καὶ<seg n="mp-b29" >στησίχορος ὁ ποιητὴς εἰ<restore>ς</restore></seg></p><p n="66" ><seg n="mp-b29" >τὴν ἑλλαδ́δα ἀ<restore>φίκετο</restore></seg>,<measure><num value="222" >ηηδδιι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησι<persName>φιλοκράτους</persName></date><milestone unit="chronon"  n="51" ></milestone>ἀφ᾽ οὗ<seg n="mp-b30" >ξέρξης τὴν σχεδίαν ἔζευξεν ἐν ἑλλησπόντῳ</seg>καὶ<seg n="mp-b31" >τὸν ἄθω διώρυξε</seg>,
-                    καὶ<seg n="mp-b32" >ἡ ἐν θερμο<restore>πύ</restore></seg></p><p n="67" ><seg n="mp-b32" >λαις μάχη ἐγένετο</seg>,
-                    καὶ<seg n="mp-b33" >ναυμαχία τοῖς ἕλλησι περὶ σαλαμῖνα πρὸς τοὺς πέρσας,
-                        ἣν ἐνίκων ὁι ἕλληνες</seg>,<measure>ἔτη<num value="217" >ηηδπιι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησι<persName>καλλιάδου</persName></date><milestone unit="chronon"  n="52" ></milestone>ἀφ᾽ οὗ<seg n="mp-b34" >ἡ ἐν</seg></p><p n="68" ><seg n="mp-b34" >πλαταιαῖς μάχη ἐγένετο ἀθηναίοις
-                    πρὸς μαρδόνιον τὸν ξέρξου στρατηγόν,
-                    ἣν ἐνίκων ἀθηναῖοι</seg>,
-                    καὶ<seg n="mp-b35" >μαρδόνιος ἐτελεύτησεν ἐν τῇ μάχῃ</seg>,
-                    καὶ<seg n="mp-b36" >τὸ πῦρ ἐρύη ἐ<restore>ν</restore></seg></p><p n="69" ><seg n="mp-b36" >σικελίᾳ περὶ τὴν ἄιτνην</seg>,<measure>ἔτη<num value="216" >ηηδπι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησι<persName>ξανθίππου</persName></date><milestone unit="chronon"  n="53" ></milestone>ἀφ᾽ οὗ<seg n="mp-b37" >γ<restore>έ</restore>λων ὁ διενομένους σ<restore>υρακο</restore>υ<restore>σσῶν</restore>ἐτυράννευσεν</seg>,<measure>ἔτη<num value="215" >ηηδπ</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησι<persName>τιμοσθέν<restore>ους</restore></persName></date></p><p n="70" ><milestone unit="chronon"  n="54" ></milestone>ἀφ᾽ οὗ<seg n="mp-b38" >σιμωνίδης ὁ λεωπρέπους ὁ κεῖος ὁ τὸ μνημονικὸν εὑρὼν ἐνίκησεν ἀθήνησι διδάσκων</seg>,
-                    καὶ<seg n="mp-b39" >αἱ εἰκόνες ἐστάθησαν ἁρμοδίου καὶ ἀριστογείτονος</seg>,<measure>ἔτη<num value="213" >ηηδιιι</num></measure>,</p><p n="71" ><date calendar="athenian-archon" >ἄρχοντος ἀθήνησι<persName><restore>ἀ</restore>δειμάντου</persName></date><milestone unit="chronon"  n="55" ></milestone>ἀφ᾽ οὗ<seg n="mp-b40" >ἱέρων συρακουσσῶν ἐτυράννευσεν</seg>,<measure>ἔτη<num value="208" >ηηπιιι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησι<persName>χ<restore>άρ</restore>ητος</persName></date>ἦν δὲ καὶ ἐπίχαρμος ὁ ποιητὴς κατὰ τοῦ</p><p n="72" >τον.<milestone unit="chronon"  n="56" ></milestone>ἀφ᾽ οὗ<seg n="mp-b41" >σοφοκλῆς ὁ σοφίλλου ὁ ἐκ κολωνοῦ ἐνίκησε τραγῳδίᾳ ἐτῶν ὢν<num value="28" >δδπιιι</num></seg><measure>ἔτη<num value="206" >ηηπι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησι<persName>ἀψηφίωνος</persName></date><milestone unit="chronon"  n="57" ></milestone>ἀφ᾽ οὗ<seg n="mp-b42" >ἐν ἀιγὸς ποταμοῖς ὁ λίθος ἔπεσε</seg>,</p><p n="73" >καὶ<seg n="mp-b43" >σιμωνίδης ὁ ποιητὴς ἐτελεύτησεν βιοὺς ἔτη<num value="90" >50δδδδ</num></seg>,<measure>ἔτη<num value="205" >ηηπ</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησι<persName>θεαγενίδου</persName></date><milestone unit="chronon"  n="58" ></milestone>ἀφ᾽ οὗ<seg n="mp-b44" >ἀλέξανδρος ἐτελεύτησεν</seg>,<seg n="mp-b45" >ὁ δὲ υἱὸς περδικ</seg></p><p n="74" ><seg n="mp-b45" >κας μακεδόνων βασιλεύει</seg>,<measure>ἔτη<num value="199" >η50δδδδπιιιι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησι<persName>ἐυθίππου</persName></date><milestone unit="chronon"  n="59" ></milestone>ἀφ᾽ οὗ<seg n="mp-b46" >ἀισχύλος ὁ ποιητὴς βιώσας ἔτη<num value="69" >50δπιιιι</num>ἐτελεύτησεν ἐγ<restore>γέ</restore></seg></p><p n="75" ><seg n="mp-b46" ><restore>λ</restore>ᾳ τῆς σικελίας</seg>,<measure>ἔτη<num value="193" >η50δδδδιιι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησι<persName>καλλίου τοῦ προτέρου</persName></date><milestone unit="chronon"  n="60" ></milestone>ἀφ᾽ οὗ<seg n="mp-b47" >ἐυριπίδης ἐτῶν ὢν<num value="44" >δδδδιιιι</num>τραγῳδίᾳ πρῶτον ἐνίκησεν</seg>,<measure>ἔτη<num value="179" >η50δδπιιιι</num></measure>,</p><p n="76" ><date calendar="athenian-archon" ><restore>ἄρ</restore>χοντος ἀθήνησι<persName>δ̓ιφίλο<restore>υ</restore></persName></date>;<restore>ἦ</restore>σαν δὲ κατ᾽ ἐυριπίδην
-                    σωκράτης τε καὶ ἀναξαγόρας.<milestone unit="chronon"  n="61" ></milestone>ἀφ᾽ οὗ<seg n="mp-b48" >ἀρχέλαος μακεδόνων βασλεύει περδίκκου τελευτήσαντος</seg><measure>ἔτη<num value="162" >η<restore>50διι</restore></num></measure>,</p><p n="77" ><date calendar="athenian-archon" ><restore>ἄρ</restore>χοντος ἀθήνησι<persName>ἀστυφίλου</persName></date><milestone unit="chronon"  n="62" ></milestone>ἀφ᾽ οὗ<seg n="mp-b49" >διονύσιος συρακουσσῶν ἐτυράννευσεν</seg>,<measure>ἔτη<num value="147" >ηδδδδπιι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησι<persName>ἐυκτήμονος</persName></date><milestone unit="chronon"  n="63" ></milestone>ἀφ᾽ οὗ<seg n="mp-b50" >ἐυριπίδης βι<restore>ώσας ἔτη<num value="79" >50δδπιιιι</num></restore></seg></p><p n="78" ><seg n="mp-b50" ><restore>ἐτ</restore><unclear>ε</unclear>λεύτησεν</seg>,<measure>ἔτη<num value="145" >ηδδδδπ</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησι<persName>ἀντιγένους</persName></date><milestone unit="chronon"  n="64" ></milestone>ἀφ᾽ οὗ<seg n="mp-b51" >σοφοκλῆς ὁ ποιητὴς βιώσας ἔτη<num value="92" >50δδδδιι</num></seg>,
-                    καὶ<seg n="mp-b52" >κῦρος ἀνέβη</seg>,<restore><measure>ἔτη<num value="143" >ηδδδδιιι</num></measure></restore>,</p><p n="79" ><date calendar="athenian-archon" ><restore>ἄρχ</restore>οντος ἀθήνησι<persName>καλλίου τοῦ δευτέρου</persName></date><milestone unit="chronon"  n="65" ></milestone>ἀφ᾽ οὗ<seg n="mp-b53" >τελέστης σελινούντιος ἐνίκησεν ἀθήνησιν</seg>,<measure>ἔτη<num value="139" >ηδδδπιιιι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησι<persName>μικωνος</persName></date><milestone unit="chronon"  n="66" ></milestone>ἀφ᾽ οὗ<seg n="mp-b54" ><restore>κατῆλθον οἱ ἑλληνες οἱ</restore></seg></p><p n="80" ><seg n="mp-b54" ><restore>μετ</restore>ὰ κύρου ἀναβάντες</seg>,
-                    καὶ<seg n="mp-b55" >σωκράτης ὁ φιλοσόφ<restore>ο</restore>ς ἐτελεύτησεν βιοὺς ἔτη<num value="70" >50δδ</num></seg>,<measure>ἔτη<num value="137" >ηδδδπιι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησι<persName>λάχητος</persName></date><milestone unit="chronon"  n="67" ></milestone>ἀφ᾽ οὗ<seg n="mp-b56" >ἀρ<restore>ι</restore>στ<restore>όνους</restore><gap></gap><restore>ἐνίκη</restore></seg></p><p n="81" ><seg n="mp-b56" ><restore>σεν</restore>ἀθήνησιν</seg>,<measure>ἔτη<num value="135" >ηδδδπ</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησι<persName>ἀριστοκράτους</persName></date><milestone unit="chronon"  n="68" ></milestone>ἀφ᾽ οὗ<seg n="mp-b57" >π<unclear>ολ</unclear>ύιδος σηλυμβριανὸς διθυράμβῳ ἐνίκησεν ἀθήνησιν</seg>,<measure>ἔτη<num>η<unclear>δ</unclear><gap></gap></num></measure>,<date calendar="athenian-archon" ><restore>ἄρχοντος ἀθήνησι</restore><gap></gap></date></p><p n="82" ><milestone unit="chronon"  n="69" ></milestone><restore>ἀφ᾽</restore>οὗ<seg n="mp-b58" >φιλόξενος διθυραμβοποιὸς τελευτᾷ βιοὺς ἔτη<num value="60" >50δ</num></seg>,<measure>ἔτη<num value="116" >ηδπι</num></measure>,<date calendar="athenian-archon" ><restore>ἄρχοντος ἀθήνησι</restore><persName>πυθέου</persName></date><milestone unit="chronon"  n="70" ></milestone>ἀφ᾽ οὗ<seg n="mp-b59" >ἀναξανδρίδης ὁ κωμ<unclear>ο</unclear><restore>ιδοποιὸς ἐνίκησεν ἀθήνησιν</restore></seg><restore><measure>ἔτη<num value="108" >ηπιιι</num></measure>,<date calendar="athenian-archon"  n="chronon70" >ἄρχοντος</date></restore></p><p n="83" ><date calendar="athenian-archon"  n="chronon70" >ἀθήνησι<persName>καλλέου</persName></date><milestone unit="chronon"  n="71" ></milestone>ἀφ᾽ οὗ<seg n="mp-b60" >ἀστυδάμας ἀθήνησιν ἐνίκησεν</seg>,<measure>ἔτη<num value="109" >ηδιιιι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησιν<persName>ἀστέου</persName></date><seg n="mp-b61" >κατεκάη δὲ τότε κα<restore>ὶ ὁ ἐν δελφοῖς ναός</restore></seg>.<milestone unit="chronon"  n="72" ></milestone>ἀφ᾽ οὗ<seg n="mp-b62" ><restore>ἡ ἐν λεύκτροις μάχη</restore></seg></p><p n="84" ><seg n="mp-b62" ><restore>ἐ</restore>γένετο θηβαίων καὶ λακεδαιμονίων
-                        ἣν ἐνίκων θηβᾶοι</seg>,<measure>ἔτη<num value="107" >ηδιι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησιν<persName>φρασικλείδου</persName></date>;
-                    καὶ<seg n="mp-b63" >ἀ<restore>μύντας τελετᾷ, ἀλέξανδρος δὲ ὁ υἱὸς μαεκδόνων</restore></seg></p><p n="85" ><seg n="mp-b63" >βασιλεύει</seg>.<milestone unit="chronon"  n="73" ></milestone>ἀφ᾽ οὗ<seg n="mp-b64" >στησίχορος ὁ ἱμεραῖος ὁ δεύτερος ἐνίκησεν ἀθήνησιν</seg>,
-                    καὶ<seg n="mp-b65" >οἰκίσθη μεγάλη πόλις<restore>ἐν ἀρκαδίᾳ</restore></seg><restore><measure>ἔτη<num>η<gap></gap></num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησιν<gap></gap></date></restore></p><p n="86" ><milestone unit="chronon"  n="74" ></milestone>ἀφ᾽ οὗ<seg n="mp-b66" >διονύσιος σικλιώτης ἐτελεύτησεν</seg>,<seg n="mp-b67" >ὁ δὲ υἱὸς διονύσιος ἐτυράννευσεν</seg>,
-                    καὶ<seg n="mp-b68" >ἀλε<unclear>ξάνδρ</unclear><restore>ου τελευτήσαντος πτολεμαῖος ὁ ἀλωρίτης μακεδόνων βας</restore></seg></p><p n="87" ><seg n="mp-b68" >σιλεύει</seg>,<measure>ἔτη<num value="104" >ηιιιι</num></measure>,<date calendar="athenian-archon" >ἄρχοντος ἀθήνησιν<persName>ναυσιγένους</persName></date><milestone unit="chronon"  n="75" ></milestone>ἀφ᾽ οὗ<seg n="mp-b69" >φωκεῖς τὸ ἐν δελφοῖς μ<unclear>α</unclear><restore>ντεῖον κατέλαβον</restore><gap></gap></seg><measure>ἔτη<num value="102" >ηιι</num></measure><date calendar="athenian-archon"  n="chronon75" >ἄρχοντος ἀθή</date></p><p n="88" ><date calendar="athenian-archon" >νησιν<persName>κηφισοδώρου</persName></date><milestone unit="chronon"  n="76" ></milestone>ἀφ᾽ οὗ<seg n="mp-b70" >τιμόθεος βιώσας ἔτη<num value="90" >50δδδδ</num>ἐτελεύτησεν</seg>,<restore><measure>ἔτη<gap></gap></measure><date>ἄρχοντος ἀθήνησι<gap></gap></date></restore><milestone unit="chronon"  n="77" ></milestone>ἀφ᾽ οὗ<seg n="mp-b71" >φίλιππος ὁ ἀμύντου μα</seg></p><p n="89" ><seg n="mp-b71" >κεδόνων βασελεύει</seg>,
-                    καὶ<seg n="mp-b72" >ἀρτοξέρξης ἐτελεύτησεν</seg>,<seg n="mp-b73" >ὦχος δὲ ὁ υἱὸς β<restore>ασιλεύει</restore></seg><restore><measure>ἔτη<gap></gap></measure><date>ἄρχοντος ἀθήνησι<gap></gap></date></restore><milestone unit="chronon"  n="78" ></milestone>ἀφ᾽ οὗ<seg n="mp-b74" ><gap></gap>ἀθήνη</seg></p><p n="90" ><seg n="mp-b74" ><restore>σιν</restore>ἐνίκησεν</seg>,<measure>ἔτη<num value="93" >50δδδδιιι</num></measure><date calendar="athenian-archon"  n="chronon75" >ἄρχοντος ἀθήνησιν<persName>ἀγαθοκλ<unclear>έους</unclear></persName></date><milestone unit="chronon"  n="79" ></milestone><restore>ἀφ᾽ οὗ<seg n="mp-b75" ><gap></gap></seg></restore></p><p n="91" ><seg n="mp-b75" ><restore>ἐγ</restore>ένετο</seg><measure>ἔτη<num value="91" >50δδδδι</num></measure><date calendar="athenian-archon"  n="chronon75" >ἄρχοντος ἀθήνησιν<persName>καλλις<unclear>ς</unclear><restore>τράτου</restore></persName></date><gap></gap></p><p n="92" ><gap></gap></p><p n="93" ><gap></gap></p></div></div><div n="b" ><p n="8" >ἀλεξάνδρου μεταλλαγή  πτολεμαῖος ἀιγύπτου ἐκυρίευσεν.</p></div></body></text></TEI>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI
+    xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mamor Parium</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic publication.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Public-domain edition by Jacoby.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text
+        xml:lang="grc">
+        <body>
+            <div
+                n="a"
+                type="side">
+             <!--   <div
+                    ana="stone"
+                    n="1">-->
+                    <p
+                        n="1"><milestone
+                            n="prolog"
+                            unit="sections"/><gap/>ου<restore
+                            resp="Jacoby">ἐξ ἀναγραφῶ</restore>ν
+                            παν<restore>τοί</restore>ων<restore>καὶ ἱστοριῶν κοι</restore>νῶν
+                        ἀανέγραψα τοὺς ἄν<restore>ωθεν χρό</restore></p>
+                    <p
+                        n="2"><restore>νους</restore>ἀξάμ<restore>εν</restore>ος ἀπὸ κέκροπος τοῦ
+                        πρώτου βασιλεύσαντος ἀθηνῶν εἵως ἄρχοντος ἐμ παρῳ<restore>μὲν</restore></p>
+                    <p
+                        n="3"><gap/>υάνακτος, ἀθήνησιν δὲ διογνήτου<milestone
+                            n="1"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-a1"
+                            type="event">κέκροψ ἀθηνῶν ἐβασίλευσε</seg>, καὶ<seg
+                            n="mp-a2"
+                            type="event">ἡ χώρα κεκροπία ἐκλήθη τὸ πρότερον καλου</seg></p>
+                    <p
+                        n="4"><seg
+                            n="mp-a2">μένη ἀπὸ ἀκταίου τοῦ αὐτόχθονος</seg>,<measure
+                            type="yearsbp">ἔτη<num
+                                type="integer-attic"
+                                value="1318">χηηηδπιιι</num></measure><milestone
+                            n="2"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-a3">δευκαλίων παρὰ τὸν παρνασσὸν ἐν λυκωρείᾳ
+                            ἐβασίλευσε</seg>,<restore>βα</restore>σιλε<restore>υο</restore>ντος
+                        ἀθηνῶν κέκροπος,<measure
+                            type="yearsbp">ἔτη<num
+                                type="integer-attic"
+                                value="1310">χηηηδ</num></measure></p>
+                    <p
+                        n="5"><milestone
+                            n="3"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-a4">δίκη ἀθήνησι<restore>ἐγέ</restore>νετο ἀρει καὶ ποσειδῶνι ὑπὲρ
+                            ἁλιρροθίου τοῦ ποσειδῶνος</seg>, καὶ<seg
+                            n="mp-a5">ὁ τόπος ἐκλήθη</seg></p>
+                    <p
+                        n="6"><seg
+                            n="mp-a5">ἄρειος πάγος</seg>,<measure
+                            type="yearsbp">ἔτη<num
+                                type="integer-attic"
+                                value="1268">χηη50δπιιι</num></measure>, βασλεύοντος ἀθηνῶν
+                            κρ<restore>ραναοῦ</restore>.<milestone
+                            n="4"
+                            unit="chronon"/>ἀφ᾽ οὗ καταλυσμὸς ἐπὶ δευκαλίωνος ἐγένετο καὶ δευκαλίων
+                        τοὺς</p>
+                    <p
+                        n="7">ὄμβρους ἔφυγεν ἐγ λυκωρείας εἰς ἀθήνας πρὸ<restore>ς κρανα</restore>ὸν
+                        καὶ τοῦ διὸ<restore>ς</restore></p>
+                    <p
+                        n="8"><milestone
+                            n="5"
+                            unit="chronon"/></p>
+                    <p
+                        n="9"/>
+                    <p
+                        n="10"><milestone
+                            n="6"
+                            unit="chronon"/></p>
+                    <p
+                        n="11"/>
+                    <p
+                        n="12"><milestone
+                            n="7"
+                            unit="chronon"/></p>
+                    <p
+                        n="13"><milestone
+                            n="8"
+                            unit="chronon"/></p>
+                    <p
+                        n="14"><milestone
+                            n="9"
+                            unit="chronon"/></p>
+                    <p
+                        n="15"/>
+                    <p
+                        n="16"/>
+                    <p
+                        n="17"><milestone
+                            n="10"
+                            unit="chronon"/></p>
+                    <p
+                        n="18"/>
+                    <p
+                        n="19"/>
+                    <p
+                        n="20"/>
+                    <p
+                        n="21"><milestone
+                            n="11"
+                            unit="chronon"/></p>
+                    <p
+                        n="22"/>
+                    <p
+                        n="23"><milestone
+                            n="12"
+                            unit="chronon"/></p>
+                    <p
+                        n="24"><milestone
+                            n="13"
+                            unit="chronon"/></p>
+                    <p
+                        n="25"><milestone
+                            n="14"
+                            unit="chronon"/></p>
+                    <p
+                        n="26"/>
+                    <p
+                        n="27"><milestone
+                            n="15"
+                            unit="chronon"/></p>
+                    <p
+                        n="28"/>
+                    <p
+                        n="29"><milestone
+                            n="16"
+                            unit="chronon"/></p>
+                    <p
+                        n="30"><milestone
+                            n="17"
+                            unit="chronon"/></p>
+                    <p
+                        n="31"/>
+                    <p
+                        n="32"><milestone
+                            n="18"
+                            unit="chronon"/></p>
+                    <p
+                        n="33"><milestone
+                            n="19"
+                            unit="chronon"/></p>
+                    <p
+                        n="34"><milestone
+                            n="20"
+                            unit="chronon"/></p>
+                    <p
+                        n="35"/>
+                    <p
+                        n="36"><milestone
+                            n="21"
+                            unit="chronon"/></p>
+                    <p
+                        n="37"><milestone
+                            n="22"
+                            unit="chronon"/></p>
+                    <p
+                        n="38"><milestone
+                            n="23"
+                            unit="chronon"/></p>
+                    <p
+                        n="39"><milestone
+                            n="24"
+                            unit="chronon"/></p>
+                    <p
+                        n="40"><milestone
+                            n="25"
+                            unit="chronon"/></p>
+                    <p
+                        n="41"><milestone
+                            n="26"
+                            unit="chronon"/></p>
+                    <p
+                        n="42"><milestone
+                            n="27"
+                            unit="chronon"/></p>
+                    <p
+                        n="43"/>
+                    <p
+                        n="44"><milestone
+                            n="28"
+                            unit="chronon"/></p>
+                    <p
+                        n="45"><milestone
+                            n="29"
+                            unit="chronon"/><milestone
+                            n="30"
+                            unit="chronon"/></p><!--
+                </div>
+                <div
+                    n="2"
+                    type="stone">-->
+                    <p
+                        n="46"><seg
+                            n="mp-b1"><restore>στ</restore>αθμὰ κατεσεύασε καὶ ννόμισμα αργυροῦν ἐν
+                            ἀιγίνῃ ἐποίησεν</seg>, ἑνδέκατος ὢν ἀφ᾽ ἡρακλέους,<measure
+                            type="yearsbp">᾿έτη<num
+                                type="integer-attic"
+                                value="631">ηδδδι</num></measure>, βασιλεύοντος ἀθηνῶν</p>
+                    <p
+                        n="47"><restore>φερεκλ</restore>είους.<milestone
+                            n="31"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b2">ἀρχίας ἐυαγήτου δέκατος ὢν ἀπὸ τημένου ἐκ κορ́ινθου ἤγαγε τὴν
+                                ἀποικίαν<restore>καὶ
+                            ἔκτισε</restore>συρακού<restore>σσας</restore></seg>,<measure>ἔτη<num><gap/></num></measure></p>
+                    <p
+                        n="48"><restore>β</restore><unclear>α</unclear><restore>σι</restore>λεύ<restore>ον</restore>τος
+                        ἀθηνῶν ἀισχύλου ἔτους εἰκοστοῦ καὶ ἑνός.<milestone
+                            n="32"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b3">κατ᾽ ἐνιαυτὸν ἦρξεν ὁ ἄρχων</seg>,<measure>ἔτη<num
+                                value="420">ηηηηδδ</num></measure><milestone
+                            n="33"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b4"><restore>ἀρχίλοχ</restore>ο<restore>ς</restore><gap/></seg></p>
+                    <p
+                        n="49"><gap/><measure>ἔτη<num
+                                value="418">ηηηηδπιιι</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος
+                                    ἀθήνησι<persName>λυσιά<restore>δου</restore></persName></date><milestone
+                            n="34"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b5">τέρπανδρος ὁ δερδένεος ὁ λέσβιος τοὺς νομοὺς του<restore>ς
+                                κιθ</restore>α<restore>ρ</restore>ω<restore>ιδικ</restore>οὺς<damage
+                                type="rasura">θαιαυλητ</damage><gap/>ἐκαι</seg></p>
+                    <p
+                        n="50"><seg
+                            n="mp-b5"><restore>νοτό</restore>μησε καὶ τὴν ἔμπροσθε μουσικὴν
+                            μετέστησεν</seg>,<measure>ἔτη<num
+                                value="381">ηηη50δδδι</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος
+                            ἀθήνησι<persName>δρωπίδου</persName></date><milestone
+                            n="35"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b6">ἀ<restore>λυάττη</restore>ς λυδ<unclear>ῶ</unclear><restore>ν
+                                ἐβα</restore>σίλευσε<restore>ν</restore></seg><restore>ἔτη</restore></p>
+                    <p
+                        n="51"><measure><num
+                                value="341"><restore>η</restore><unclear>η</unclear><restore>η</restore>δδδι</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος
+                                ἀθήνησι<persName>ἀριστοκλέους</persName></date><milestone
+                            n="36"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b7">σαπφὼ ἐγ μυτιλήνης εἰς σικελίαν ἔπλευσε,
+                                    φυγοῦσα</seg><gap/><restore><measure>ἔτη<num>ηηηδδδ</num></measure></restore><gap/></p>
+                    <p
+                        n="52"><date
+                            calendar="athenian-archon"><restore>ἄρχο</restore>ντος ἀθήνησι
+                                μὲν<persName>κριτίου τοῦ προτέρου</persName></date>, ἐν συρακούσσαις
+                        δὲ τῶν γαμόρων κατεχόντων τὴν ἀρχήν.<milestone
+                            n="37"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b8"><unclear>ἀ</unclear>μ<restore>φικτ</restore>ύο<restore>νες
+                                ἔθ</restore>υ<restore>σαν
+                        κ</restore><unclear>α</unclear>ταπο</seg></p>
+                    <p
+                        n="53"><seg
+                            n="mp-b8"><restore>λεμ<unclear>ή</unclear></restore><unclear>σα</unclear>ντες
+                            κύρραν</seg>, καὶ<seg
+                            n="mp=b9">ὁ γυμνικὸς ἐτέθη χρηματίτης ἀπὸ τῶν λαφύρων</seg>,<measure>ἔτη<num
+                                value="327">ηηηδδπιι</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος
+                                    ἀθήνησιν<persName>σίμω<restore>ν</restore>ος</persName>.</date><milestone
+                            n="38"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b10"><restore>ἐν δελφοῖ</restore>ς</seg></p>
+                    <p
+                        n="54"><seg
+                            n="mp-b10"><restore>ὁ στε</restore>φανίτης ἀγὼν πάλιν ἐτέθη</seg>,<measure>ἔτη<num
+                                value="318">ηηηδπιιι</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος ἀθήνησιν<persName>δαμασίου τοῦ
+                                δευτέρου</persName>.</date><milestone
+                            n="39"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b11">ἐν ἀθ<restore>ήν</restore>αις κωμω<restore>ιδῶν
+                                χο</restore>ρ<restore>ὸς
+                            ε</restore>τέθη,<restore>στη</restore>σάν</seg></p>
+                    <p
+                        n="55"><seg
+                            n="mp-b11"><restore>των πρώ</restore>των ἰκαριέων, εὑρόντος
+                            σουσαρίωνος</seg>, καὶ<seg
+                            n="mp-b12">ἆθλον ἐτέθη πρῶτον
+                                ἰσχάδω<restore>ν</restore>ἄρσιχο<restore>ς</restore>καὶ οἴνου
+                                με<restore>τ</restore>ρητής</seg><restore><measure>ἔτη<num
+                                    value="318">ηη<gap/></num></measure>,<date
+                                calendar="athenian-archon">ἄρχοντος ἀθήνησιν</date></restore></p>
+                    <p
+                        n="56"><gap/><milestone
+                            n="40"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b13">πεισίστρατος ἀθηνῶν ἐτυράννευσεν</seg>,<measure>ἔτη<num
+                                value="297">ηη50δδδδπιι</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος<restore>ἀθήνη</restore>σι<persName>κ<restore>ω</restore><unclear>μ</unclear><restore>έ</restore>ου</persName>.</date><milestone
+                            n="41"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b14">κροῖσος<restore>ἐξ</restore>ἀσίας<restore>εἰς</restore>δελφοὺς
+                                ἀ<restore>πέστειλε θεωρούς</restore></seg>,</p>
+                    <p
+                        n="57"><measure>ἔτη<num
+                                value="292"><restore>η</restore>η<restore>50</restore>δδδδιι</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος
+                                ἀθήνησιν<persName>ἐυθυδήμου</persName>.</date><milestone
+                            n="42"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b15">κῦρος ὁ περσῶν βασιλεῦς σάρδεις ἔλαβεν καὶ κροῖσον
+                                ὑπὸ<restore>τῆς πυθία</restore>ς σφαλ<restore>έντα</restore></seg>,<restore><measure>ἔτη<num
+                                    value="277">ηη50δδπιι</num></measure>,<date
+                                calendar="athenian-archon">ἄρχοντος
+                        ἀθήνησι<gap/></date></restore></p>
+                    <p
+                        n="58"><seg
+                            n="mp-b16">ἦν δὲ καὶ ἱππῶναξ κατὰ τοῦτον ὁ?̓ιαμβοποιός</seg>.<milestone
+                            n="43"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b17">θέσπις ὁ ποιητὴς<restore>ὑπεκρίνα</restore>το πρῶτος, ὃς
+                                ἐεδίδαξε<restore>δρ</restore>ᾶ<restore>μα ἐν
+                                ἄ</restore>στ<restore>ει</restore></seg><restore>καὶ</restore><seg
+                            n="mp-b18"><restore>ἆθλον ἐ</restore>τέθη
+                            ὁ<restore>τ</restore>ράγος</seg><measure>ἔτη<num>ηη50<restore>δδ</restore><gap/></num></measure>,<date
+                            calendar="athenian-archon"
+                            n="mp-b18">ἄρχοντος ἀ<restore>θήνη</restore></date></p>
+                    <p
+                        n="59"><date
+                            calendar="athenian-archon"
+                            n="mp-b18"><restore>σι</restore><persName><gap/>ναιου τοῦ
+                                προτέρου</persName></date><milestone
+                            n="44"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b19">δαρεῖος περσῶν ἐβασίλευσε μάγου τελευτήσαντος</seg>,<measure>ἔτη<num
+                                value="256"><restore>ηη</restore>50πι<restore>δδ</restore></num></measure>,<date
+                            calendar="athenian-archon"
+                            n="mp-b18">ἄρχοντος ἀθήνη<restore>σι</restore><gap/></date><milestone
+                            n="45"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b20">ἁρμόδιος καὶ<restore>ἀριστογε</restore>ίτων
+                                ἀπέκτε<restore>ιναν</restore></seg></p>
+                    <p
+                        n="60"><seg
+                            n="mp-b20"><restore>ἵππα</restore>ρχον
+                                πεισιστράτου<unclear>δ</unclear><restore>ιά</restore><unclear>δ</unclear><restore>οχ</restore>ον</seg>καὶ<seg
+                            n="mp-b21">ἀθηναῖοι<restore>ἐξανέστ</restore>ησαν τοὺς πεισιστρατίδας
+                                ἐκ<unclear>τ</unclear><restore>οῦ
+                                π</restore><unclear>ε</unclear>λασγι<unclear>κ</unclear>οῦ
+                            τείχους</seg>,<measure>ἔτη<num
+                                value="248">ηηδδδδπιιι</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος
+                                    ἀθήνη<restore>σι</restore><persName>ἁ<restore>ρ</restore>π<restore>ακ</restore></persName></date></p>
+                    <p
+                        n="61"><persName>τίδου</persName><milestone
+                            n="46"
+                            unit="chronon"/>ἀφ οὗ<seg
+                            n="mp-b22">χοροὶ πρῶτον ἠγωνίσαντο ἄνδρῶν, ὃν διδάξας
+                                ὑπό<restore>δι</restore>κος ὁ
+                                χαλκιδεὺ<restore>ς</restore>ἐνίκ<restore>ησε</restore></seg><measure>ἔτη<num
+                                value="246">ηηδδδδπι</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος
+                                ἀθήνησι<persName>λυσαγόρου</persName></date><milestone
+                            n="47"
+                            unit="chronon"/>ἀφ οὗ<seg
+                            n="mp-b23">με<restore>λαν</restore>ιππίδ<restore>ης</restore><unclear>μ</unclear><restore>ήλιος</restore></seg></p>
+                    <p
+                        n="62"><seg
+                            n="mp-b23"><restore>ἐνίκης</restore>εν ἀθήνησιν</seg>,<measure>ἔτη<num
+                                value="231">ηηδδδι</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος
+                                ἀθήνησι<persName>πυθοκρίτου</persName></date><milestone
+                            n="48"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b23">ἡ ἐμ μαραθῶνι μάχη ἐγένετο ἀθηναίοις πρὸς τοὺς πέρσας
+                                ἀρ<restore>ταφ</restore>έ<restore>ρνην τε τὸ</restore>ν δαρείου
+                            ἀδελφι</seg></p>
+                    <p
+                        n="63"><seg
+                            n="mp-b23"><restore>δοῦν καὶ δᾶ</restore>τιν στρατηγόν, ἣν ἐνίκων
+                            ἀθηναῖοι</seg>,<measure>ἔτη<num
+                                value="227">ηηδδπιι</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος ἀθήνησιν
+                                τ<restore>ο</restore><unclear>ῦ</unclear>δευτέρου<persName><restore>φ</restore><unclear>α</unclear><restore>ι</restore>ν<restore>ι</restore>π<restore>πίδ</restore>ου</persName>;</date>ᾗ
+                        ἐν μάχῃ συνηγωνίσατο ἀισχύλος ὁ ποιητὴς</p>
+                    <p
+                        n="64"><restore>ετ</restore>ῶ<restore>ν</restore>ὢν<num
+                            value="35">δδδπ</num><milestone
+                            n="49"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b24">σιμωνίδης ὁ σιμωνίδου πάππος τοῦ ποιητοῦ, ποιητὴς ὢν καὶ
+                            αὐτός, ἐνίκησεν<unclear>ἀ</unclear><restore>θ</restore>ήνησι</seg>, καὶ<seg
+                            n="mp-b25">δαρεῖος τελευτᾷ</seg>,<seg
+                            n="mp-b26">ξέρξης δὲ ὁ υἱὸς
+                                βασιλεύει</seg>,<measure>ἔ<unclear>τ</unclear><restore>η</restore></measure></p>
+                    <p
+                        n="65"><measure><num
+                                value="226"><restore>ηη</restore>δδπιι</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος
+                                ἀθήνησι<persName>ἀριστείδου</persName></date><milestone
+                            n="50"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b27">ἀισχύλος ὁ ποιητὴς τραγῳδίᾳ πρῶτον ἐνίκησε</seg>, καὶ<seg
+                            n="mp-b28">ἐυριπίδης ὁ ποιητὴς ἐγένετο</seg>, καὶ<seg
+                            n="mp-b29">στησίχορος ὁ ποιητὴς εἰ<restore>ς</restore></seg></p>
+                    <p
+                        n="66"><seg
+                            n="mp-b29">τὴν ἑλλαδ́δα ἀ<restore>φίκετο</restore></seg>,<measure><num
+                                value="222">ηηδδιι</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος
+                                ἀθήνησι<persName>φιλοκράτους</persName></date><milestone
+                            n="51"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b30">ξέρξης τὴν σχεδίαν ἔζευξεν ἐν ἑλλησπόντῳ</seg>καὶ<seg
+                            n="mp-b31">τὸν ἄθω διώρυξε</seg>, καὶ<seg
+                            n="mp-b32">ἡ ἐν θερμο<restore>πύ</restore></seg></p>
+                    <p
+                        n="67"><seg
+                            n="mp-b32">λαις μάχη ἐγένετο</seg>, καὶ<seg
+                            n="mp-b33">ναυμαχία τοῖς ἕλλησι περὶ σαλαμῖνα πρὸς τοὺς πέρσας, ἣν
+                            ἐνίκων ὁι ἕλληνες</seg>,<measure>ἔτη<num
+                                value="217">ηηδπιι</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος
+                                ἀθήνησι<persName>καλλιάδου</persName></date><milestone
+                            n="52"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b34">ἡ ἐν</seg></p>
+                    <p
+                        n="68"><seg
+                            n="mp-b34">πλαταιαῖς μάχη ἐγένετο ἀθηναίοις πρὸς μαρδόνιον τὸν ξέρξου
+                            στρατηγόν, ἣν ἐνίκων ἀθηναῖοι</seg>, καὶ<seg
+                            n="mp-b35">μαρδόνιος ἐτελεύτησεν ἐν τῇ μάχῃ</seg>, καὶ<seg
+                            n="mp-b36">τὸ πῦρ ἐρύη ἐ<restore>ν</restore></seg></p>
+                    <p
+                        n="69"><seg
+                            n="mp-b36">σικελίᾳ περὶ τὴν ἄιτνην</seg>,<measure>ἔτη<num
+                                value="216">ηηδπι</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος
+                                ἀθήνησι<persName>ξανθίππου</persName></date><milestone
+                            n="53"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b37">γ<restore>έ</restore>λων ὁ διενομένους
+                                σ<restore>υρακο</restore>υ<restore>σσῶν</restore>ἐτυράννευσεν</seg>,<measure>ἔτη<num
+                                value="215">ηηδπ</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος
+                                    ἀθήνησι<persName>τιμοσθέν<restore>ους</restore></persName></date></p>
+                    <p
+                        n="70"><milestone
+                            n="54"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b38">σιμωνίδης ὁ λεωπρέπους ὁ κεῖος ὁ τὸ μνημονικὸν εὑρὼν ἐνίκησεν
+                            ἀθήνησι διδάσκων</seg>, καὶ<seg
+                            n="mp-b39">αἱ εἰκόνες ἐστάθησαν ἁρμοδίου καὶ ἀριστογείτονος</seg>,<measure>ἔτη<num
+                                value="213">ηηδιιι</num></measure>,</p>
+                    <p
+                        n="71"><date
+                            calendar="athenian-archon">ἄρχοντος
+                                    ἀθήνησι<persName><restore>ἀ</restore>δειμάντου</persName></date><milestone
+                            n="55"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b40">ἱέρων συρακουσσῶν ἐτυράννευσεν</seg>,<measure>ἔτη<num
+                                value="208">ηηπιιι</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος
+                                    ἀθήνησι<persName>χ<restore>άρ</restore>ητος</persName></date>ἦν
+                        δὲ καὶ ἐπίχαρμος ὁ ποιητὴς κατὰ τοῦ</p>
+                    <p
+                        n="72">τον.<milestone
+                            n="56"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b41">σοφοκλῆς ὁ σοφίλλου ὁ ἐκ κολωνοῦ ἐνίκησε τραγῳδίᾳ ἐτῶν ὢν<num
+                                value="28">δδπιιι</num></seg><measure>ἔτη<num
+                                value="206">ηηπι</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος
+                                ἀθήνησι<persName>ἀψηφίωνος</persName></date><milestone
+                            n="57"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b42">ἐν ἀιγὸς ποταμοῖς ὁ λίθος ἔπεσε</seg>,</p>
+                    <p
+                        n="73">καὶ<seg
+                            n="mp-b43">σιμωνίδης ὁ ποιητὴς ἐτελεύτησεν βιοὺς ἔτη<num
+                                value="90">50δδδδ</num></seg>,<measure>ἔτη<num
+                                value="205">ηηπ</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος
+                                ἀθήνησι<persName>θεαγενίδου</persName></date><milestone
+                            n="58"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b44">ἀλέξανδρος ἐτελεύτησεν</seg>,<seg
+                            n="mp-b45">ὁ δὲ υἱὸς περδικ</seg></p>
+                    <p
+                        n="74"><seg
+                            n="mp-b45">κας μακεδόνων βασιλεύει</seg>,<measure>ἔτη<num
+                                value="199">η50δδδδπιιιι</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος
+                            ἀθήνησι<persName>ἐυθίππου</persName></date><milestone
+                            n="59"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b46">ἀισχύλος ὁ ποιητὴς βιώσας ἔτη<num
+                                value="69">50δπιιιι</num>ἐτελεύτησεν
+                        ἐγ<restore>γέ</restore></seg></p>
+                    <p
+                        n="75"><seg
+                            n="mp-b46"><restore>λ</restore>ᾳ τῆς σικελίας</seg>,<measure>ἔτη<num
+                                value="193">η50δδδδιιι</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος ἀθήνησι<persName>καλλίου τοῦ
+                                προτέρου</persName></date><milestone
+                            n="60"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b47">ἐυριπίδης ἐτῶν ὢν<num
+                                value="44">δδδδιιιι</num>τραγῳδίᾳ πρῶτον ἐνίκησεν</seg>,<measure>ἔτη<num
+                                value="179">η50δδπιιιι</num></measure>,</p>
+                    <p
+                        n="76"><date
+                            calendar="athenian-archon"><restore>ἄρ</restore>χοντος
+                                    ἀθήνησι<persName>δ̓ιφίλο<restore>υ</restore></persName></date>;<restore>ἦ</restore>σαν
+                        δὲ κατ᾽ ἐυριπίδην σωκράτης τε καὶ ἀναξαγόρας.<milestone
+                            n="61"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b48">ἀρχέλαος μακεδόνων βασλεύει περδίκκου τελευτήσαντος</seg><measure>ἔτη<num
+                                value="162">η<restore>50διι</restore></num></measure>,</p>
+                    <p
+                        n="77"><date
+                            calendar="athenian-archon"><restore>ἄρ</restore>χοντος
+                                ἀθήνησι<persName>ἀστυφίλου</persName></date><milestone
+                            n="62"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b49">διονύσιος συρακουσσῶν ἐτυράννευσεν</seg>,<measure>ἔτη<num
+                                value="147">ηδδδδπιι</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος
+                                ἀθήνησι<persName>ἐυκτήμονος</persName></date><milestone
+                            n="63"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b50">ἐυριπίδης βι<restore>ώσας ἔτη<num
+                                    value="79">50δδπιιιι</num></restore></seg></p>
+                    <p
+                        n="78"><seg
+                            n="mp-b50"><restore>ἐτ</restore><unclear>ε</unclear>λεύτησεν</seg>,<measure>ἔτη<num
+                                value="145">ηδδδδπ</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος
+                                ἀθήνησι<persName>ἀντιγένους</persName></date><milestone
+                            n="64"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b51">σοφοκλῆς ὁ ποιητὴς βιώσας ἔτη<num
+                                value="92">50δδδδιι</num></seg>, καὶ<seg
+                            n="mp-b52">κῦρος ἀνέβη</seg>,<restore><measure>ἔτη<num
+                                    value="143">ηδδδδιιι</num></measure></restore>,</p>
+                    <p
+                        n="79"><date
+                            calendar="athenian-archon"><restore>ἄρχ</restore>οντος
+                                ἀθήνησι<persName>καλλίου τοῦ δευτέρου</persName></date><milestone
+                            n="65"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b53">τελέστης σελινούντιος ἐνίκησεν ἀθήνησιν</seg>,<measure>ἔτη<num
+                                value="139">ηδδδπιιιι</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος
+                            ἀθήνησι<persName>μικωνος</persName></date><milestone
+                            n="66"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b54"><restore>κατῆλθον οἱ ἑλληνες οἱ</restore></seg></p>
+                    <p
+                        n="80"><seg
+                            n="mp-b54"><restore>μετ</restore>ὰ κύρου ἀναβάντες</seg>, καὶ<seg
+                            n="mp-b55">σωκράτης ὁ φιλοσόφ<restore>ο</restore>ς ἐτελεύτησεν βιοὺς ἔτη<num
+                                value="70">50δδ</num></seg>,<measure>ἔτη<num
+                                value="137">ηδδδπιι</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος
+                            ἀθήνησι<persName>λάχητος</persName></date><milestone
+                            n="67"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b56">ἀρ<restore>ι</restore>στ<restore>όνους</restore><gap/><restore>ἐνίκη</restore></seg></p>
+                    <p
+                        n="81"><seg
+                            n="mp-b56"><restore>σεν</restore>ἀθήνησιν</seg>,<measure>ἔτη<num
+                                value="135">ηδδδπ</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος
+                                ἀθήνησι<persName>ἀριστοκράτους</persName></date><milestone
+                            n="68"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b57">π<unclear>ολ</unclear>ύιδος σηλυμβριανὸς διθυράμβῳ ἐνίκησεν
+                            ἀθήνησιν</seg>,<measure>ἔτη<num>η<unclear>δ</unclear><gap/></num></measure>,<date
+                            calendar="athenian-archon"><restore>ἄρχοντος
+                            ἀθήνησι</restore><gap/></date></p>
+                    <p
+                        n="82"><milestone
+                            n="69"
+                            unit="chronon"/><restore>ἀφ᾽</restore>οὗ<seg
+                            n="mp-b58">φιλόξενος διθυραμβοποιὸς τελευτᾷ βιοὺς ἔτη<num
+                                value="60">50δ</num></seg>,<measure>ἔτη<num
+                                value="116">ηδπι</num></measure>,<date
+                            calendar="athenian-archon"><restore>ἄρχοντος
+                                ἀθήνησι</restore><persName>πυθέου</persName></date><milestone
+                            n="70"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b59">ἀναξανδρίδης ὁ κωμ<unclear>ο</unclear><restore>ιδοποιὸς
+                                ἐνίκησεν ἀθήνησιν</restore></seg><restore><measure>ἔτη<num
+                                    value="108">ηπιιι</num></measure>,<date
+                                calendar="athenian-archon"
+                                n="chronon70">ἄρχοντος</date></restore></p>
+                    <p
+                        n="83"><date
+                            calendar="athenian-archon"
+                            n="chronon70">ἀθήνησι<persName>καλλέου</persName></date><milestone
+                            n="71"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b60">ἀστυδάμας ἀθήνησιν ἐνίκησεν</seg>,<measure>ἔτη<num
+                                value="109">ηδιιιι</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος
+                            ἀθήνησιν<persName>ἀστέου</persName></date><seg
+                            n="mp-b61">κατεκάη δὲ τότε κα<restore>ὶ ὁ ἐν δελφοῖς
+                            ναός</restore></seg>.<milestone
+                            n="72"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b62"><restore>ἡ ἐν λεύκτροις μάχη</restore></seg></p>
+                    <p
+                        n="84"><seg
+                            n="mp-b62"><restore>ἐ</restore>γένετο θηβαίων καὶ λακεδαιμονίων ἣν
+                            ἐνίκων θηβᾶοι</seg>,<measure>ἔτη<num
+                                value="107">ηδιι</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος
+                                ἀθήνησιν<persName>φρασικλείδου</persName></date>; καὶ<seg
+                            n="mp-b63">ἀ<restore>μύντας τελετᾷ, ἀλέξανδρος δὲ ὁ υἱὸς
+                                μαεκδόνων</restore></seg></p>
+                    <p
+                        n="85"><seg
+                            n="mp-b63">βασιλεύει</seg>.<milestone
+                            n="73"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b64">στησίχορος ὁ ἱμεραῖος ὁ δεύτερος ἐνίκησεν ἀθήνησιν</seg>, καὶ<seg
+                            n="mp-b65">οἰκίσθη μεγάλη πόλις<restore>ἐν
+                                    ἀρκαδίᾳ</restore></seg><restore><measure>ἔτη<num>η<gap/></num></measure>,<date
+                                calendar="athenian-archon">ἄρχοντος
+                        ἀθήνησιν<gap/></date></restore></p>
+                    <p
+                        n="86"><milestone
+                            n="74"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b66">διονύσιος σικλιώτης ἐτελεύτησεν</seg>,<seg
+                            n="mp-b67">ὁ δὲ υἱὸς διονύσιος ἐτυράννευσεν</seg>, καὶ<seg
+                            n="mp-b68">ἀλε<unclear>ξάνδρ</unclear><restore>ου τελευτήσαντος
+                                πτολεμαῖος ὁ ἀλωρίτης μακεδόνων βας</restore></seg></p>
+                    <p
+                        n="87"><seg
+                            n="mp-b68">σιλεύει</seg>,<measure>ἔτη<num
+                                value="104">ηιιιι</num></measure>,<date
+                            calendar="athenian-archon">ἄρχοντος
+                                ἀθήνησιν<persName>ναυσιγένους</persName></date><milestone
+                            n="75"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b69">φωκεῖς τὸ ἐν δελφοῖς μ<unclear>α</unclear><restore>ντεῖον
+                                κατέλαβον</restore><gap/></seg><measure>ἔτη<num
+                                value="102">ηιι</num></measure><date
+                            calendar="athenian-archon"
+                            n="chronon75">ἄρχοντος ἀθή</date></p>
+                    <p
+                        n="88"><date
+                            calendar="athenian-archon">νησιν<persName>κηφισοδώρου</persName></date><milestone
+                            n="76"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b70">τιμόθεος βιώσας ἔτη<num
+                                value="90">50δδδδ</num>ἐτελεύτησεν</seg>,<restore><measure>ἔτη<gap/></measure><date>ἄρχοντος
+                                ἀθήνησι<gap/></date></restore><milestone
+                            n="77"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b71">φίλιππος ὁ ἀμύντου μα</seg></p>
+                    <p
+                        n="89"><seg
+                            n="mp-b71">κεδόνων βασελεύει</seg>, καὶ<seg
+                            n="mp-b72">ἀρτοξέρξης ἐτελεύτησεν</seg>,<seg
+                            n="mp-b73">ὦχος δὲ ὁ υἱὸς
+                                β<restore>ασιλεύει</restore></seg><restore><measure>ἔτη<gap/></measure><date>ἄρχοντος
+                                ἀθήνησι<gap/></date></restore><milestone
+                            n="78"
+                            unit="chronon"/>ἀφ᾽ οὗ<seg
+                            n="mp-b74"><gap/>ἀθήνη</seg></p>
+                    <p
+                        n="90"><seg
+                            n="mp-b74"><restore>σιν</restore>ἐνίκησεν</seg>,<measure>ἔτη<num
+                                value="93">50δδδδιιι</num></measure><date
+                            calendar="athenian-archon"
+                            n="chronon75">ἄρχοντος
+                                ἀθήνησιν<persName>ἀγαθοκλ<unclear>έους</unclear></persName></date><milestone
+                            n="79"
+                            unit="chronon"/><restore>ἀφ᾽ οὗ<seg
+                                n="mp-b75"><gap/></seg></restore></p>
+                    <p
+                        n="91"><seg
+                            n="mp-b75"><restore>ἐγ</restore>ένετο</seg><measure>ἔτη<num
+                                value="91">50δδδδι</num></measure><date
+                            calendar="athenian-archon"
+                            n="chronon75">ἄρχοντος
+                                    ἀθήνησιν<persName>καλλις<unclear>ς</unclear><restore>τράτου</restore></persName></date><gap/></p>
+                    <p
+                        n="92"><gap/></p>
+                    <p
+                        n="93"><gap/></p>
+                </div>
+            <!--</div>-->
+            <div
+                n="b">
+                <p
+                    n="8">ἀλεξάνδρου μεταλλαγή πτολεμαῖος ἀιγύπτου ἐκυρίευσεν.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
