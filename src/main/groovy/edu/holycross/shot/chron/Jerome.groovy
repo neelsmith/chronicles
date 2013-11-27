@@ -210,7 +210,7 @@ class Jerome {
                 if ((yr != null) && (seq != null)) { 
                     ttl.append("\n")
                     ttl.append( "<${yr}> olo:item ${epochCount} .\n")
-                    ttl.append("<${yr}> rdf:Label " + '"' + label + '" .\n')
+                    ttl.append("<${yr}> rdf:label " + '"' + label + '" .\n')
                     ttl.append("<${yr}> cite:memberOf <${seq}> .\n")
                 }
 
