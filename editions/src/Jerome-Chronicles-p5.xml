@@ -145,7 +145,7 @@
             <cell role="julian"
               ana="adbc"> BC</cell>
           </row>
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell
@@ -275,7 +275,7 @@
             <cell>10</cell>
             <cell>2007</cell>
           </row>
-          <row
+          <row n="r2"
             role="regnal">
             <cell/>
             <cell>Assyriorum II, SEMIRAMIS, regnavit annis 42 </cell>
@@ -429,7 +429,7 @@
             <cell>24</cell>
             <cell/>
           </row>
-          <row
+          <row n="r3"
             role="regnal">
             <cell/>
             <cell/>
@@ -640,7 +640,7 @@
             <cell>44</cell>
             <cell/>
           </row>
-          <row
+          <row n="r4"
             role="regnal">
             <cell/>
             <cell/>
@@ -737,7 +737,7 @@
             <cell>52</cell>
             <cell/>
           </row>
-          <row
+          <row n="r5"
             role="regnal">
             <cell/>
             <cell>Assyriorum III, ZAMEIS, qui et Ninyas, filius Nini et Semiramidis, annis
@@ -922,7 +922,7 @@
             <cell>69</cell>
             <cell/>
           </row>
-          <row
+          <row n="r6"
             role="regnal">
             <cell/>
             <cell/>
@@ -1202,7 +1202,7 @@
             <cell>90</cell>
             <cell>1927</cell>
           </row>
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell>Assyriorum IV, ARIUS, XXX annis</cell>
@@ -1311,7 +1311,7 @@
             <cell>100</cell>
             <cell>1917</cell>
           </row>
-          <row
+          <row n="r2"
             role="regnal">
             <cell/>
             <cell/>
@@ -1528,7 +1528,7 @@
             <cell>120</cell>
             <cell>1897</cell>
           </row>
-          <row
+          <row n="r3"
             role="regnal">
             <cell/>
             <cell>Assyriorum V, ARALIUS, annis XL</cell>
@@ -1545,7 +1545,7 @@
             <cell>121</cell>
             <cell/>
           </row>
-          <row
+          <row n="r4"
             role="regnal">
             <cell/><cell/>
             <cell/>
@@ -1909,7 +1909,7 @@
             <cell>155</cell>
             <cell>1862</cell>
           </row>
-          <row
+          <row n="r5"
             role="regnal">
             <cell/>
             <cell/>
@@ -1999,7 +1999,7 @@
             <cell
               role="julian"> BC</cell>
           </row>
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell>Assyriorum VI, XERXES, qui et Balaneus, annis XXX.</cell>
@@ -2355,7 +2355,7 @@
             <cell>190</cell>
             <cell>1827</cell>
           </row>
-          <row
+          <row n="r2"
             role="regnal">
             <cell/>
             <cell>Assyriorum VII, ARMAMITRES annis. XXXVIII. </cell>
@@ -2484,7 +2484,7 @@
             <cell>10</cell>
             <cell>1817</cell>
           </row>
-          <row
+          <row n="r3"
             role="regnal">
             <cell/><cell/>
             <cell/>
@@ -2605,7 +2605,7 @@
             <cell>20</cell>
             <cell>1807</cell>
           </row>
-          <row
+          <row n="r4"
             role="regnal">
             <cell/><cell/>
             <cell/>
@@ -2828,7 +2828,7 @@
             <cell>38</cell>
             <cell/>
           </row>
-          <row
+          <row n="r5"
             role="regnal">
             <cell/>
             <cell>Assyriorum VIII, BELOCUS annis XXXV.</cell>
@@ -3127,7 +3127,7 @@
             <cell>63</cell>
             <cell/>
           </row>
-          <row
+          <row n="r6"
             role="regnal">
             <cell/><cell/>
             <cell/>
@@ -3249,7 +3249,7 @@
             <cell>73</cell>
             <cell/>
           </row>
-          <row
+          <row n="r7"
             role="regnal">
             <cell/>
             <cell>Assyriorum IX, BALEUS annis LII.</cell>
@@ -3338,7 +3338,7 @@
             <cell>80</cell>
             <cell>1747</cell>
           </row>
-          <row
+          <row  n="r8"
             role="regnal">
             <cell/>
             <cell/>
@@ -3474,7 +3474,7 @@
             <cell>91</cell>
             <cell/>
           </row>
-          <row
+          <row n="r9"
             role="regnal">
             <cell/><cell/>
             <cell/>
@@ -3620,7 +3620,7 @@
             <cell>103</cell>
             <cell/>
           </row>
-          <row
+          <row n="r10"
             role="regnal">
             <cell/>
             <cell/><cell/>
@@ -3713,7 +3713,7 @@
             <cell>7</cell>
             <cell>1717</cell>
           </row>
-          <row
+          <row n="r11"
             role="regnal">
             <cell/>
             <cell/>
@@ -3778,7 +3778,7 @@
             <cell>12</cell>
             <cell>1712</cell>
           </row>
-          <row
+          <row n="r12"
             role="regnal">
             <cell/>
             <cell/>
@@ -3904,7 +3904,7 @@
             <cell>22</cell>
             <cell>1702</cell>
           </row>
-          <row
+          <row n="r13"
             role="regnal">
             <cell/>
             <cell>Assyriorum X, ALTADAS, annis XXXII.</cell>
@@ -3942,7 +3942,7 @@
             <cell>25</cell>
             <cell/>
           </row>
-          <row
+          <row n="r14"
             role="regnal">
             <cell/>
             <cell/><cell/>
@@ -4103,7 +4103,7 @@
             <cell>13</cell>
             <cell/>
           </row>
-          <row
+          <row n="r15"
             role="regnal">
             <cell/>
             <cell/>
@@ -4286,7 +4286,7 @@
             <cell>15</cell>
             <cell/>
           </row>
-          <row
+          <row n="r16"
             role="regnal">
             <cell/>
             <cell/><cell/>
@@ -4308,7 +4308,7 @@
             <cell>16</cell>
             <cell/>
           </row>
-          <row
+          <row n="r17"
             role="regnal">
             <cell/>
             <cell>Assyriorum XI, MAMYTHUS, annis XXX</cell>
@@ -4373,7 +4373,7 @@
             <cell>21</cell>
             <cell/>
           </row>
-          <row
+          <row n="r18"
             role="regnal">
             <cell/><cell/>
             <cell/>
@@ -4488,7 +4488,7 @@
             <cell>9</cell>
             <cell/>
           </row>
-          <row
+          <row n="r19"
             role="regnal">
             <cell/><cell/>
             <cell/>
@@ -4530,7 +4530,7 @@
             <cell>12</cell>
             <cell/>
           </row>
-          <row
+          <row n="r20"
             role="regnal">
             <cell/><cell/>
             <cell/>
@@ -4668,7 +4668,7 @@
             <cell>11</cell>
             <cell>1642</cell>
           </row>
-          <row
+          <row n="r21"
             role="regnal">
             <cell/> <cell/>
             <cell/>
@@ -4701,7 +4701,7 @@
             <cell>13</cell>
             <cell/>
           </row>
-          <row
+          <row n="r22"
             role="regnal">
             <cell/>
             <cell>Assyriorum XII, MACHALEUS, annis 30</cell>
@@ -4858,7 +4858,7 @@
             <cell>26</cell>
             <cell>1627</cell>
           </row>
-          <row
+          <row n="r23"
             role="regnal">
             <cell/>
             <cell/>
@@ -4914,7 +4914,7 @@
             <cell>4</cell>
             <cell/>
           </row>
-          <row
+          <row n="r24"
             role="regnal">
             <cell/> <cell/>
             <cell/>
@@ -4979,7 +4979,7 @@
             <cell>9</cell>
             <cell/>
           </row>
-          <row
+          <row n="r25"
             role="regnal">
             <cell/>
             <cell/><cell/>
@@ -5084,7 +5084,7 @@
             <cell>8</cell>
             <cell>1610</cell>
           </row>
-          <row
+          <row n="r26"
             role="regnal">
             <cell/>
             <cell>Assyriorum XIII, SPHAERUS, annis XX</cell>
@@ -5319,7 +5319,7 @@
             <cell>28</cell>
             <cell/>
           </row>
-          <row
+          <row n="r27"
             role="regnal">
             <cell/>
             <cell>Assyriorum XIV, MAMYLUS annis XXX.</cell>
@@ -5350,7 +5350,7 @@
             <cell>30</cell>
             <cell>1588</cell>
           </row>
-          <row 
+          <row  n="r28"
             role="regnal">
             <cell/>
             <cell/><cell/>
@@ -5376,7 +5376,7 @@
             <cell>21</cell>
             <cell>1587</cell>
           </row>
-          <row
+          <row n="r29"
             role="regnal">
             <cell/>
             <cell/>
@@ -5711,7 +5711,7 @@
             <cell>27</cell>
             <cell/>
           </row>
-          <row
+          <row n="r30"
             role="regnal">
             <cell/>
             <cell>Assyriorum XV SPARETUS annis XL</cell>
@@ -5785,7 +5785,7 @@
             <cell
               role="julian">BC</cell>
           </row>
-          <row
+          <row n="r1"
             role="regnal">
             <cell/> <cell/>
             <cell/>
@@ -5848,7 +5848,7 @@
             <cell>34</cell>
             <cell>1553</cell>
           </row>
-          <row
+          <row  n="r2"
             role="regnal">
             <cell/> <cell/>
             <cell/>
@@ -5912,7 +5912,7 @@
             <cell>38</cell>
             <cell/>
           </row>
-          <row
+          <row n="r3"
             role="regnal">
             <cell/>
             <cell/> <cell/>
@@ -6083,7 +6083,7 @@
             <cell>12</cell>
             <cell>1537</cell>
           </row>
-          <row role="regnal">
+          <row n="r4" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -6195,7 +6195,7 @@
             <cell>7</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r5" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -6234,7 +6234,7 @@
             <cell>9</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row  n="r6" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -6362,7 +6362,7 @@
             <cell>8</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row  n="r7" role="regnal">
             <cell/>
             <cell>Assyriorum XVI, ASCATADES, annis XL</cell>
             <cell/>
@@ -6523,7 +6523,7 @@
             <cell/>
           </row>
           
-          <row role="regnal">
+          <row  n="r1" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -6566,7 +6566,7 @@
             <cell>2</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r2" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -6618,7 +6618,7 @@
           
           
           
-          <row role="regnal">
+          <row  n="r3" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -6675,7 +6675,7 @@
             <cell>8</cell>
             <cell>1504</cell>
           </row>
-          <row role="regnal">
+          <row n="r4" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -6764,7 +6764,7 @@
             <cell>6</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row  n="r5" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -6887,7 +6887,7 @@
             <cell>15</cell>
             <cell>1489</cell>
           </row>
-          <row role="regnal">
+          <row n="r6" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -6917,7 +6917,7 @@
           <milestone
             n="66/67"
             unit="helm"/>
-          <row role="regnal">
+          <row n="r7" role="regnal">
             <cell/>
             
             <cell/>
@@ -6956,7 +6956,7 @@
             <cell>3</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r8" role="regnal">
             
             <cell/>
             <cell/>
@@ -6998,7 +6998,7 @@
             <cell>5</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r9" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -7068,7 +7068,7 @@
             <cell>4</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row  n="r10" role="regnal">
             <cell/>
             <cell>Assyriorum XVII, AMYNTAS, annis XLV.</cell>
             <cell/>
@@ -7139,7 +7139,7 @@
             <cell>9</cell>
             <cell>1475</cell>
           </row>
-          <row role="regnal">
+          <row  n="r11" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -7190,7 +7190,7 @@
             n="68/69"
             unit="helm"/>
           
-          <row role="regnal">
+          <row n="r12" role="regnal">
             <cell/>
             <cell/>
             <cell>Hebraeorum, post Mosen dux constituitur JESUS, annis XXVII</cell>
@@ -7420,7 +7420,7 @@
             <cell>29</cell>
             <cell>1455</cell>
           </row>
-          <row role="regnal">
+          <row  n="r13" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -7561,7 +7561,7 @@
             <cell>39</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r14" role="regnal">
             <cell/>
             <cell/>
             
@@ -7655,7 +7655,7 @@
             <cell>46</cell>
             <cell>1438</cell>
           </row>
-          <row role="regnal">
+          <row  n="r15" role="regnal">
             
             <cell/>
             <cell/>
@@ -7705,7 +7705,7 @@
             <cell>49</cell>
             <cell>1435</cell>
           </row>
-          <row role="regnal">
+          <row n="r16" role="regnal">
             <cell/>
             <cell>Assyriorum XVIII, BELOCHUS, annis XXV.</cell>
             <cell/>
@@ -7842,7 +7842,7 @@
             <cell>59</cell>
             <cell>1425</cell>
           </row>
-          <row role="regnal">
+          <row n="r17" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -7964,7 +7964,7 @@
             <cell>68</cell>
             <cell>1416</cell>
           </row>
-          <row role="regnal">
+          <row  n="r18" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -8057,7 +8057,7 @@
           unit="helm"/>
        
       
-          <row role="regnal">
+          <row n="r19" role="regnal">
             <cell/>
             <cell>Assyriorum XIX, BELLEPARES, annis XXX.</cell>
             <cell/>
@@ -8127,7 +8127,7 @@
             <cell>11</cell>
             <cell>1405</cell>
           </row>
-          <row role="regnal">
+          <row n="r19" role="regnal">
             <cell/>
             <cell/>
             <cell>Hebraeorum, AOD, annis LXXX. </cell>
@@ -8226,7 +8226,7 @@
             <cell>18</cell>
             <cell>1398</cell>
           </row>
-          <row role="regnal">
+          <row n="r20" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -8351,7 +8351,7 @@
             n="76/77"
             unit="helm"/>
           
-          <row role="regnal">
+          <row n="r21" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -8436,7 +8436,7 @@
             <cell>32</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r22" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -8497,7 +8497,7 @@
             <cell>36</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row  n="r23" role="regnal">
             <cell/>
             <cell>Assyriorum XX, LAMPRIDES, annis XXXII.</cell>
             <cell/>
@@ -8550,7 +8550,7 @@
             <cell>40</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r24" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -8754,7 +8754,7 @@
             <cell>15</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row  n="r25" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -8902,7 +8902,7 @@
             <cell>26</cell>
             <cell>1350</cell>
           </row>
-          <row role="regnal">
+          <row n="r26" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -8943,7 +8943,7 @@
             <cell>28</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row  n="r27" role="regnal">
             <cell/>
             <cell>Assyriorum XXI, SOSARES, annis XX.</cell>
             <cell/>
@@ -9007,7 +9007,8 @@
             <cell>32</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row 
+             n="r28" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -9221,7 +9222,7 @@
           unit="helm"/>
         
         
-         <row role="regnal">
+         <row n="r29" role="regnal">
             <cell/>
             <cell>Assyriorum XXII, LAMPARES, annis XXX</cell>
             <cell/>
@@ -9265,7 +9266,7 @@
             <cell>51</cell>
             <cell>1325</cell>
           </row>
-          <row role="regnal">
+          <row  n="r30" role="regnal">
             <cell/>
             <cell/>
             <cell>Hebraeorum, Debbora cum Barach, annis XL.</cell>
@@ -9323,7 +9324,7 @@
             <cell>55</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r31" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -9509,7 +9510,7 @@
           <cell>13</cell>
           <cell>1308</cell>
         </row>
-        <row role="regnal">
+        <row n="r32" role="regnal">
           <cell/>
           <cell/>
           <cell/>
@@ -9563,7 +9564,7 @@
           </row>
           
           
-          <row role="regnal">  <cell/><cell/><cell/><cell/><cell/><cell>In Mycenas ab arcis imperio translato post Acrisium regnavit Eurystheus filius
+          <row  n="r1" role="regnal">  <cell/><cell/><cell/><cell/><cell/><cell>In Mycenas ab arcis imperio translato post Acrisium regnavit Eurystheus filius
             Stheneli, annis XLV. </cell></row>
           <row role="data" >
             <cell/>
@@ -9590,7 +9591,7 @@
             <cell>16</cell>
             <cell>1305</cell>
           </row>
-          <row role="regnal">
+          <row n="r2" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -9691,7 +9692,7 @@
             <cell>23</cell>
             <cell>1298</cell>
           </row>
-          <row role="regnal">
+          <row  n="r3" role="regnal">
             <cell/>
             <cell>Assyriorum XXIII, PANNYAS, annis XLV.</cell>
             <cell/>
@@ -9860,7 +9861,7 @@
             <cell>36</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r4" role="regnal">
             <cell/>
             <cell/>
             
@@ -9897,7 +9898,7 @@
             <cell>38</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r5" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -10146,7 +10147,7 @@
             <cell>56</cell>
             <cell>1265</cell>
           </row>
-          <row role="regnal">
+          <row n="r6" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -10193,7 +10194,7 @@
             <cell>59</cell>
             <cell>1262</cell>
           </row>
-          <row role="regnal">
+          <row n="r7" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -10295,7 +10296,7 @@
             <cell>66</cell>
             <cell>1255</cell>
           </row>
-          <row role="regnal">
+          <row n="r8" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -10331,7 +10332,7 @@
             <cell>2</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r9" role="regnal">
             <cell/>
             <cell>Assyriorum XXIV, SOSARMUS, annis XIX.</cell>
             <cell/>
@@ -10444,7 +10445,7 @@
             <cell>10</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r10" role="regnal">
             <cell/>
             <cell/>
             <cell>Hebraeorum, ABIMELECH, annis III, filius Gedeonis</cell>
@@ -10487,7 +10488,7 @@
             <cell>13</cell>
             <cell>1242</cell>
           </row>
-          <row role="regnal">
+          <row n="r11" role="regnal">
             <cell/>
             <cell/>
             <cell>Post quem THOLA, annis XXII</cell>
@@ -10581,7 +10582,7 @@
             <cell>20</cell>
             <cell>1235</cell>
           </row>
-          <row role="regnal">
+          <row  n="r12" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -10606,7 +10607,7 @@
             <cell>21</cell>
             <cell>1234</cell>
           </row>
-          <row role="regnal">
+          <row n="r13" role="regnal">
             <cell/>
             <cell>Assyriorum XXV, MITHRAEUS, annis XXVII.</cell>
             <cell/>
@@ -10753,7 +10754,7 @@
             <cell>32</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r14" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -10799,7 +10800,7 @@
             <cell>35</cell>
             <cell>1220</cell>
           </row>
-          <row role="regnal"> 
+          <row n="r15" role="regnal"> 
             <cell/>
             <cell/>
             <cell>Post quem JAIR, annis XXII, ex tribu Manasse.</cell>
@@ -10869,7 +10870,7 @@
             <cell>40</cell>
             <cell>1215</cell>
           </row>
-          <row role="regnal">
+          <row  n="r16" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -10941,7 +10942,7 @@
             <cell>4</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row  n="r17" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -11001,7 +11002,7 @@
             <cell>8</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row  n="r18" role="regnal">
             <cell/>
             <cell>Assyriorum XXVI, TAUTANES, annis XXXII.</cell>
             <cell/>
@@ -11031,7 +11032,7 @@
             <cell>10</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row  n="r19" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -11132,7 +11133,7 @@
             <cell>17</cell>
             <cell>1198</cell>
           </row>
-          <row role="regnal">
+          <row n="r20" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -11155,7 +11156,7 @@
                 n="n"/>Interfectorum posteri, qui vocabantur Epigoni, adversus Thebas bellum movent. </cell>            <cell>18</cell>
             <cell>1197</cell>
           </row>
-          <row role="regnal">
+          <row n="r21" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -11235,7 +11236,7 @@
             <cell>23</cell>
             <cell>1192</cell>
           </row>
-          <row role="regnal">
+          <row n="r22" role="regnal">
             <cell/>
             <cell/>
             <cell>Post quem HESEBON annis VII.</cell>
@@ -11280,7 +11281,7 @@
             <cell>26</cell>
             <cell>1189</cell>
           </row>
-          <row role="regnal">
+          <row n="r23" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -11342,7 +11343,7 @@
             <cell>4</cell>
             <cell>1185</cell>
           </row>
-          <row role="regnal">
+          <row n="r24" role="regnal">
             <cell/>
             <cell/>
             <cell>Hebraeorum, LABDON, annis VIII. </cell>
@@ -11429,7 +11430,7 @@
           </row>
           
           
-          <row role="regnal">
+          <row n="r25" role="regnal">
             <cell/>
             <cell/><cell/>
             <cell ></cell>
@@ -11494,7 +11495,7 @@
           </row>
           
           
-          <row role="regnal">
+          <row  n="r1" role="regnal">
             <cell></cell>
             <cell></cell>
             <cell></cell>
@@ -11532,7 +11533,7 @@
             <cell>6</cell>
             <cell>1177</cell>
           </row>
-          <row role="regnal">
+          <row n="r2" role="regnal">
             <cell/>
             <cell/>
             <cell>Post quem SAMSON, annis XX.</cell>
@@ -11551,7 +11552,7 @@
             <cell>7</cell>
             <cell>1176</cell>
           </row>
-          <row role="regnal">
+          <row n="r3" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -11578,7 +11579,7 @@
             <cell>8</cell>
             <cell>1175</cell>
           </row>
-          <row role="regnal">
+          <row n="r4" role="regnal">
             <cell/>
             <cell>Assyriorum XXVII, TAUTEUS, annis XL.</cell>
             <cell/>
@@ -11786,7 +11787,7 @@
             <cell>23</cell>
             <cell>1160</cell>
           </row>
-          <row role="regnal">
+          <row n="r5" role="regnal">
             
             <cell/>
             <cell/>      <cell/>
@@ -11833,7 +11834,7 @@
             <cell>26</cell>
             <cell>1157</cell>
           </row>
-          <row role="regnal">
+          <row n="r6" role="regnal">
             <cell/>
             <cell/>
             
@@ -11940,7 +11941,7 @@
             <cell>34</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row  n="r7" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -12182,7 +12183,7 @@
             <cell>45</cell>
             <cell>1138</cell>
           </row>
-          <row role="regnal">
+          <row  n="r8" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -12210,7 +12211,7 @@
             <cell>46</cell>
             <cell>1137</cell>
           </row>
-          <row role="regnal">
+          <row n="r9" role="regnal">
             
             <cell/>
             <cell/>
@@ -12239,7 +12240,7 @@
             <cell>47</cell>
             <cell>1136</cell>
           </row>
-          <row role="regnal">
+          <row n="r10" role="regnal">
            
             <cell/>
             <cell/>
@@ -12261,7 +12262,7 @@
             <cell>48</cell>
             <cell>1135</cell>
           </row>
-          <row role="regnal">
+          <row  n="r11" role="regnal">
             <cell/>
             <cell>Assyriorum XXVIII, THINAEUS, annis XXX.</cell>
             
@@ -12343,7 +12344,7 @@
             <cell>54</cell>
             <cell>1129</cell>
           </row>
-          <row role="regnal">
+          <row  n="r12" role="regnal">
             <cell></cell> <cell></cell> <cell></cell> <cell></cell>
             <cell ana="computational">Reges Sicyoniorum defecerunt, qui regnaverunt ann. 962, post quos Sacerdotes Carni
               constituti sunt. </cell>
@@ -12394,7 +12395,7 @@
             n="106/107"
             unit="helm"/>
           
-          <row role="regnal">
+          <row n="r1" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -12528,7 +12529,7 @@
             <cell>66</cell>
             <cell>1117</cell>
           </row>
-          <row role="regnal">
+          <row n="r2" role="regnal">
             <cell/>
             <cell/>
             <cell>Hebraeorum, SAMUEL et SAUL, annis XL.</cell>
@@ -12632,7 +12633,7 @@
           
           
           
-          <row role="regnal">
+          <row n="r3" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -12688,7 +12689,7 @@
             <cell>78</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row  n="r4" role="regnal">
             <cell/>
             <cell>Assyriorum XXIX, DERCYLUS, annis XL.</cell>
             <cell/>
@@ -12773,7 +12774,7 @@
         </row>
           
           
-          <row role="regnal">  <cell/>
+          <row n="r1" role="regnal">  <cell/>
             <cell/>
             <cell/>  <cell/>
             <cell/>
@@ -12932,7 +12933,7 @@
             <cell>92</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row  n="r2" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -13117,7 +13118,7 @@
             <cell>105</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r3" role="regnal">
             
             <cell/>
             <cell/>
@@ -13140,7 +13141,7 @@
             <cell>106</cell>
             <cell>1077</cell>
           </row>
-          <row role="regnal">
+          <row n="r4" role="regnal">
             <cell/>
             <cell/>
             <cell>Hebraeorum rex primus, ex tribu Juda DAVID, annis XL.</cell>
@@ -13243,7 +13244,7 @@
             n="112/113"
             unit="helm"/>
           
-          <row role="regnal">
+          <row  n="r5" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -13296,7 +13297,7 @@
             <cell>116</cell>
             <cell>1067</cell>
           </row>
-          <row role="regnal">
+          <row n="r6" role="regnal">
             <cell/>
             <cell/><cell/>
             
@@ -13334,7 +13335,7 @@
             <cell>118</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r7" role="regnal">
             <cell/>
             <cell>Assyriorum XXX, EUPAL<add>M</add>ES, annis XXXVIII.</cell>
             <cell/>
@@ -13404,7 +13405,7 @@
             <cell>123</cell>
             <cell>1060</cell>
           </row>
-          <row role="regnal">
+          <row n="r8" role="regnal">
             
             <cell/>
             <cell/>
@@ -13428,7 +13429,7 @@
             <cell>124</cell>
             <cell>1059</cell>
           </row>
-          <row role="regnal">
+          <row n="r9" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -13563,7 +13564,7 @@
             <cell>133</cell>
             <cell/>
           </row>
-          <row
+          <row n="r10"
             role="regnal">
             <cell/>
             <cell/>
@@ -13746,7 +13747,7 @@
             <cell>146</cell>
             <cell>1037</cell>
           </row>
-          <row role="regnal">
+          <row n="r11" role="regnal">
             <cell/>
             <cell/>
             <cell>Hebraeorum II, SOLOMON filius David, annis XL.</cell>
@@ -13886,7 +13887,7 @@
             <cell>152</cell>
             <cell>1030</cell>
           </row>
-          <row role="regnal">
+          <row  n="r12" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -13923,7 +13924,7 @@
             <cell>154</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r13" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -13945,7 +13946,7 @@
             <cell>155</cell>
             <cell>1027</cell>
           </row>
-          <row role="regnal">
+          <row n="r14" role="regnal">
             <cell/>
             <cell>Assyriorum XXXI, LAOSTHENES, annis XLV.</cell>
             <cell/>
@@ -13991,7 +13992,7 @@
             <cell>158</cell>
             <cell>1024</cell>
           </row>
-          <row role="regnal">
+          <row n="r15" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -14143,7 +14144,7 @@
             <cell>169</cell>
             <cell>1014</cell>
           </row>
-          <row role="regnal">
+          <row  n="r16" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -14270,7 +14271,7 @@
             <cell>178</cell>
             <cell>1005</cell>
           </row>
-          <row role="regnal">
+          <row n="r17" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -14426,7 +14427,7 @@
             n="adbc"> BC</cell>
         </row>
           
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell/>
@@ -14468,7 +14469,7 @@
             <cell>10</cell>
             <cell/>
           </row>
-          <row
+          <row n="r2"
             role="regnal">
             <cell/>
             <cell/>
@@ -14507,7 +14508,7 @@
             <cell>12</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row  n="r3" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -14577,7 +14578,7 @@
             <cell>16</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row  n="r4" role="regnal">
             <cell/>
             <cell/> <cell/>
             <cell></cell>
@@ -14616,7 +14617,7 @@
             <cell>18</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r5" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -14710,7 +14711,7 @@
             <cell>23</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row  n="r6" role="regnal">
             <cell/>
             <cell>Assyriorum XXXII, PIRITIADES, annis XXX.</cell>
             <cell/>
@@ -14743,7 +14744,7 @@
             <cell>25</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r7" role="regnal">
             <cell/>
             <cell/>
             <cell>Post quem IV, ABIA, annis III.</cell>
@@ -14763,7 +14764,7 @@
             <cell>26</cell>
             <cell>979</cell>
           </row>
-          <row role="regnal">
+          <row n="r8" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -14806,7 +14807,7 @@
             <cell>2</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r9" role="regnal">
             <cell/>
             <cell/>
             <cell>Post quem V, ASA, annis XLI, iustus.</cell>
@@ -14841,7 +14842,7 @@
             <cell>4</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r10" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -14880,7 +14881,7 @@
             <cell>6</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row  n="r11" role="regnal">
             <cell/>
             <cell/>
             <cell/>   <cell/>
@@ -15009,7 +15010,7 @@
             <cell>14</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r12" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -15119,7 +15120,7 @@
             <cell>21</cell>
             <cell>958</cell>
           </row>
-          <row role="regnal">
+          <row n="r13" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -15189,7 +15190,7 @@
             <cell>25</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r14" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -15225,7 +15226,7 @@
             <cell>27</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r15" role="regnal">
             <cell/>
             <cell>Assyriorum XXXIII, OPHRATHEUS, annis XX 1</cell>
             <cell/>
@@ -15280,7 +15281,7 @@
             <cell>30</cell>
             <cell>949</cell>
           </row>
-          <row role="regnal">
+          <row n="r16" role="regnal">
             <cell/>
             <cell/>
             <cell/> <cell/>
@@ -15316,7 +15317,7 @@
             <cell>32</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r17" role="regnal">
             <cell/>
             <cell/>
             <cell/> <cell/>
@@ -15451,7 +15452,7 @@
             <cell>41</cell>
             <cell>938</cell>
           </row>
-          <row role="regnal">
+          <row n="r18" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -15481,7 +15482,7 @@
             <cell>1</cell>
             <cell>937</cell>
           </row>
-          <row role="regnal">
+          <row n="r19" role="regnal">
             
             <cell/>
             <cell/>
@@ -15506,7 +15507,7 @@
             <cell>2</cell>
             <cell>936</cell>
           </row>
-          <row role="regnal">
+          <row n="r20" role="regnal">
             <cell/>
             <cell/>
             <cell>Hebraeorum Juda VI, JOSAPHAT, annis XXV, iustus.</cell>
@@ -15534,7 +15535,7 @@
           
           
           
-          <row role="regnal">
+          <row n="r21" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -15556,7 +15557,7 @@
             <cell>4</cell>
             <cell>934</cell>
           </row>
-          <row role="regnal">
+          <row n="r22" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -15598,7 +15599,7 @@
             <cell>2</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r23" role="regnal">
             
             <cell/>
             <cell>Assyriorum XXXIV, OPHRATANES, annis L.</cell>
@@ -15706,7 +15707,7 @@
             <cell>9</cell>
             <cell>925</cell>
           </row>
-          <row role="regnal">
+          <row n="r24" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -15734,7 +15735,7 @@
             <cell>1</cell>
             <cell>924</cell>
           </row>
-          <row role="regnal">
+          <row n="r25" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -15762,7 +15763,7 @@
             <cell>2</cell>
             <cell>923</cell>
           </row>
-          <row role="regnal">
+          <row n="r26" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -15843,7 +15844,7 @@
             <cell>6</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r27" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -15906,7 +15907,7 @@
             <cell>3</cell>
             <cell>916</cell>
           </row>
-          <row role="regnal">
+          <row n="r28" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -15943,7 +15944,7 @@
             <cell>5</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r29" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -15974,7 +15975,7 @@
             <cell>6</cell>
             <cell>913</cell>
           </row>
-          <row role="regnal">
+          <row n="r30" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -16010,7 +16011,7 @@
             <cell>8</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r31" role="regnal">
             <cell/>
             <cell/>
             <cell>Hebraeorum Judae VII, JORAM, annis VIII.</cell>
@@ -16031,7 +16032,7 @@
             <cell>9</cell>
             <cell>910</cell>
           </row>
-          <row role="regnal">
+          <row n="r32" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -16155,7 +16156,7 @@
             <cell>7</cell>
             <cell>903</cell>
           </row>
-          <row role="regnal">
+          <row n="r33" role="regnal">
             <cell/>
             <cell/>
             <cell>Postquem VIII, OCHOZIAS, anno I</cell>
@@ -16175,7 +16176,7 @@
             <cell>8</cell>
             <cell>902</cell>
           </row>
-          <row role="regnal">
+          <row n="r34" role="regnal">
             <cell/>
             <cell/>
             <cell>Post quem GOTHOLIA mater, annis VII</cell>
@@ -16224,7 +16225,7 @@
             <cell>11</cell>
             <cell>899</cell>
           </row>
-          <row role="regnal">
+          <row n="r35" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -16290,7 +16291,7 @@
             <cell>15</cell>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r36" role="regnal">
             <cell/>
             <cell/>
             <cell>Post quam, JOAS, annis XL. </cell>
@@ -16331,7 +16332,7 @@
           
           
           
-          <row role="regnal">
+          <row n="r37" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -16506,7 +16507,7 @@
             <cell>28</cell>
             <cell>882</cell>
           </row>
-          <row role="regnal">
+          <row n="r38" role="regnal">
             <cell/>
             <cell>Assyriorum XXXV, ACRAZAPES, annis XLII</cell>
           
@@ -16598,7 +16599,7 @@
             <cell>34</cell>
             <cell>876</cell>
           </row>
-          <row role="regnal">
+          <row n="r39" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -16625,7 +16626,7 @@
             <cell>35</cell>
             <cell>875</cell>
           </row>
-          <row role="regnal">
+          <row n="r40" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -16700,7 +16701,7 @@
             <cell>4</cell>
             <cell>871</cell>
           </row>
-          <row role="regnal">
+          <row  n="r41" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -16750,7 +16751,7 @@
             <cell>7</cell>
             <cell>868</cell>
           </row>
-          <row role="regnal">
+          <row n="r42" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -16807,7 +16808,7 @@
             <cell>10</cell>
             <cell>865</cell>
           </row>
-          <row role="regnal">
+          <row n="r43" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -16937,7 +16938,7 @@
             n="138/139"
             unit="helm"/>
           
-          <row role="regnal">
+          <row n="r44" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -16979,7 +16980,7 @@
             <cell>20</cell>
             <cell>855</cell>
           </row>
-          <row role="regnal">
+          <row n="r45" role="regnal">
             <cell/>
             <cell/>
          
@@ -17002,7 +17003,7 @@
             <cell>21</cell>
             <cell>854</cell>
           </row>
-          <row role="regnal">
+          <row n="r46" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -17133,7 +17134,7 @@
             <cell>8</cell>
             <cell>846</cell>
           </row>
-          <row role="regnal">
+          <row n="r47" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -17233,7 +17234,7 @@
           unit="helm"/>
         
           
-          <row role="regnal">
+          <row n="r48" role="regnal">
             <cell/>
             <cell>Assyriorum XXXVI, THONOS CONCOLEROS, qui vocabatur Graece Sardanapalus, annis XX.</cell>
            
@@ -17253,7 +17254,7 @@
             <cell>15</cell>
             <cell>839</cell>
           </row>
-          <row role="regnal">
+          <row n="r49" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -17284,7 +17285,7 @@
             <cell>1</cell>
             <cell>838</cell>
           </row>
-          <row role="regnal">
+          <row n="r50" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -17364,7 +17365,7 @@
             <cell>6</cell>
             <cell>833</cell>
           </row>
-          <row role="regnal">
+          <row  n="r51" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -17479,7 +17480,7 @@
             <cell>13</cell>
             <cell>826</cell>
           </row>
-          <row role="regnal">
+          <row n="r52" role="regnal">
             <cell/>
             <cell/>
             <cell>Hebraeorum Juda XII, AZARIAS, qui et Ozias, annis LII.</cell>
@@ -17624,7 +17625,7 @@
           
           
           
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell>Medis regnavit ARBACES, annis XXVIII.</cell>
@@ -17688,7 +17689,7 @@
             <cell>9</cell>
             <cell>817</cell>
           </row>
-          <row role="regnal">
+          <row n="r2" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -17781,7 +17782,7 @@
               n="adbc">BC</cell>
           </row>
           
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell/>
@@ -17998,7 +17999,7 @@
             <cell>25</cell>
             <cell>801</cell>
           </row>
-          <row role="regnal">
+          <row n="r2" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -18042,7 +18043,7 @@
             <cell>2</cell>
             <cell>799</cell>
           </row>
-          <row role="regnal">
+          <row n="r3" role="regnal">
            
             <cell/>
             <cell/>
@@ -18083,7 +18084,7 @@
             <cell>4</cell>
             <cell>797</cell>
           </row>
-          <row role="regnal">
+          <row n="r4" role="regnal">
             <cell/>
             <cell/> 
             <cell/><cell/>
@@ -18190,7 +18191,7 @@
             <cell>9</cell>
             <cell>792</cell>
           </row>
-          <row role="regnal">
+          <row n="r5" role="regnal">
             <cell/>
             <cell>Medorum II, SOSARMUS, annis XXX.</cell>
             <cell/>
@@ -18295,7 +18296,7 @@
             <cell>6</cell>
             <cell>786</cell>
           </row>
-          <row role="regnal">
+          <row n="r6" role="regnal">
             <cell/>
             <cell/>
             <cell/>  <cell/>
@@ -18368,7 +18369,7 @@
             <cell>10</cell>
             <cell>782</cell>
           </row>
-          <row role="regnal">
+          <row n="r7" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -18414,7 +18415,7 @@
             <cell>2</cell>
             <cell>780</cell>
           </row>
-          <row role="regnal">
+          <row n="r8" role="regnal">
             <cell/>
             <cell/><cell/>
             <cell/>
@@ -18478,7 +18479,7 @@
           
         
           
-          <row role="regnal">
+          <row  n="r1" role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -18526,7 +18527,7 @@
             <cell n="c11"> 2 </cell>
             <cell n="c12"> 5  </cell>
           </row>
-          <row  role="regnal">
+          <row  n="r2" role="regnal">
             <cell n="c1">
             </cell>
             <cell n="c2">
@@ -18635,7 +18636,7 @@
             <cell>5</cell>
             <cell>776</cell>
           </row>
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell/>
@@ -18694,7 +18695,7 @@
             <cell>7</cell>
             <cell>774</cell>
           </row>
-          <row
+          <row n="r2"
             role="regnal">
             <cell/>
             <cell/>
@@ -18977,7 +18978,7 @@
             <cell>19</cell>
             <cell>762</cell>
           </row>
-          <row
+          <row n="r3"
             role="regnal">
             <cell/>
             <cell/>
@@ -19078,7 +19079,7 @@
             <cell>23</cell>
             <cell>758</cell>
           </row>
-          <row
+          <row n="r4"
             role="regnal">
             <cell/>
             <cell/>
@@ -19144,7 +19145,7 @@
             <cell>25</cell>
             <cell>756</cell>
           </row>
-          <row
+          <row n="r5"
             role="regnal">
             <cell/>
             <cell/>
@@ -19202,7 +19203,7 @@
             <cell>27</cell>
             <cell>754</cell>
           </row>
-          <row
+          <row n="r6"
             role="regnal">
             <cell/>
             <cell/>
@@ -19254,7 +19255,7 @@
             <cell/>
             <cell/>
           </row>
-          <row
+          <row n="r7"
             role="regnal">
             <cell/>
             <cell> </cell>
@@ -19504,7 +19505,7 @@
             <cell>37</cell>
             <cell>744</cell>
           </row>
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell/>
@@ -19528,7 +19529,7 @@
             <cell>38</cell>
             <cell>743</cell>
           </row>
-          <row
+          <row n="r2"
             role="regnal">
             <cell/>
             <cell/>
@@ -19563,7 +19564,7 @@
             <cell>39</cell>
             <cell>742</cell>
           </row>
-          <row
+          <row n="r3"
             role="regnal">
             <cell/>
             <cell/>
@@ -19699,7 +19700,7 @@
             <cell>45</cell>
             <cell>736</cell>
           </row>
-          <row
+          <row n="r4"
             role="regnal">
             <cell/>
             <cell/>
@@ -19755,7 +19756,7 @@
           <milestone
             n="156-157"
             unit="HelmPages"/>
-          <row
+          <row n="r5"
             role="regnal">
             <cell>
               
@@ -19889,6 +19890,7 @@
           
           <row
            
+            n="r6"
             role="regnal">
             <cell/>
             <cell></cell>
@@ -20000,7 +20002,7 @@
             <cell>12</cell>
             <cell>724</cell>
           </row>
-          <row
+          <row n="r7"
             role="regnal">
             <cell/>
             <cell/>
@@ -20045,7 +20047,7 @@
             <cell>2</cell>
             <cell>722</cell>
           </row>
-          <row
+          <row n="r8"
             role="regnal">
             <cell/>
             <cell/>
@@ -20171,7 +20173,7 @@
           
           
           <row
-           
+            n="r9"
             role="regnal">
             <cell/>
             
@@ -20226,7 +20228,7 @@
             <cell>9</cell>
             <cell>715</cell>
           </row>
-          <row
+          <row n="r10"
             role="regnal">
             <cell/>
             <cell/>
@@ -20267,7 +20269,7 @@
             <cell>10</cell>
             <cell>714</cell>
           </row>
-          <row
+          <row n="r11"
             role="regnal">
             <cell/>
             <cell/>
@@ -20299,7 +20301,7 @@
             <cell/>
             <cell/>
           </row>
-          <row
+          <row n="r12"
             role="regnal">
             <cell/>
             <cell/>
@@ -20333,7 +20335,7 @@
             <cell>12</cell>
             <cell>712</cell>
           </row>
-          <row
+          <row n="r13"
             role="regnal">
             <cell/>
             <cell/>
@@ -20417,8 +20419,7 @@
                 type="event"
                 xml:id="jerome-0046">Croton et Parium et Sybaris conditae.</seg>
             </cell>
-          </row>
-          <row
+          </row><row n="r14"
             role="regnal">
             <cell/>
             <cell/>
@@ -20432,6 +20433,7 @@
             </cell>
             <cell/>
           </row>
+          
           <row role="data" 
             n="18.1">
             <cell/>
@@ -20525,7 +20527,7 @@
             <cell>8</cell>
             <cell>704</cell>
           </row>
-          <row
+          <row n="r15"
             role="regnal">
             <cell/>
             <cell/>
@@ -20600,7 +20602,7 @@
             <cell>12</cell>
             <cell>700</cell>
           </row>
-          <row
+          <row n="r16"
             role="regnal">
             <cell/>
             <cell/>
@@ -20715,7 +20717,7 @@
             <cell>18</cell>
             <cell>694</cell>
           </row>
-          <row
+          <row n="r17"
             role="regnal">
             <cell/>
             <cell/>
@@ -20766,7 +20768,7 @@
             <cell>20</cell>
             <cell>692</cell>
           </row>
-          <row
+          <row n="r18"
             role="regnal">
             <cell/>
             <cell/>
@@ -20926,7 +20928,7 @@
             <cell> Macedonum V, ARGAEUS, annis XXXVIII. </cell>
           </row>
         
-          <row
+          <row n="r19"
             role="regnal">
             <cell/>
             <cell>  </cell>
@@ -20954,7 +20956,7 @@
             <cell>8</cell>
             <cell>684</cell>
           </row>
-          <row
+          <row n="r20"
             role="regnal">
             <cell/>
             <cell/>
@@ -21072,7 +21074,7 @@
             <cell>12</cell>
             <cell>680</cell>
           </row>
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell/>
@@ -21188,7 +21190,7 @@
             <cell>6</cell>
             <cell>674</cell>
           </row>
-          <row
+          <row n="r2"
             role="regnal">
             <cell/>
             <cell/>
@@ -21330,7 +21332,7 @@
             <cell>6</cell>
             <cell>667</cell>
           </row>
-          <row
+          <row n="r3"
             role="regnal">
             <cell/>
             <cell/>
@@ -21415,7 +21417,7 @@
             <cell>3</cell>
             <cell>664</cell>
           </row>
-          <row
+          <row n="r4"
             role="regnal">
             <cell/>
             <cell/>
@@ -21528,7 +21530,7 @@
             <cell>8</cell>
             <cell>659</cell>
           </row>
-          <row
+          <row n="r5"
             role="regnal">
             <cell/>
             <cell/>
@@ -21562,7 +21564,7 @@
           <milestone
             n="166-167"
             unit="Helmpages"/>
-          <row
+          <row n="r6"
             role="regnal">
             <cell/>
             <cell/>
@@ -21638,7 +21640,7 @@
             <cell>4</cell>
             <cell>655</cell>
           </row>
-          <row
+          <row n="r7"
             role="regnal">
             <cell/>
             <cell/>
@@ -21792,7 +21794,7 @@
             <cell>12</cell>
             <cell>647</cell>
           </row>
-          <row
+          <row n="r8"
             role="regnal">
             <cell/>
             <cell/>
@@ -21816,7 +21818,7 @@
             <cell>13</cell>
             <cell>646</cell>
           </row>
-          <row
+          <row n="r9"
             role="regnal">
             <cell/>
             <cell/>
@@ -21890,7 +21892,7 @@
             <cell>17</cell>
             <cell>642</cell>
           </row>
-          <row
+          <row n="r10"
             role="regnal">
             <cell/>
             <cell/>
@@ -22088,7 +22090,7 @@
             <cell>28</cell>
             <cell>631</cell>
           </row>
-          <row
+          <row n="r2"
             role="regnal">
             <cell/>
             <cell/>
@@ -22174,7 +22176,7 @@
             
             <cell>627</cell>
           </row>
-          <row
+          <row n="r3"
             role="regnal">
             <cell/>
             <cell/>
@@ -22321,7 +22323,7 @@
             <cell>40</cell>
             <cell>619</cell>
           </row>
-          <row
+          <row n="r4"
             role="regnal">
             <cell/>
             <cell/>
@@ -22403,7 +22405,7 @@
             <cell>44</cell>
             <cell>615</cell>
           </row>
-          <row
+          <row n="r5"
             role="regnal">
             <cell/>
             <cell/>
@@ -22434,7 +22436,7 @@
           <milestone
             n="172/173"
             unit="HelmPages"/>
-          <row role="regnal" 
+          <row  n="r6" role="regnal" 
             >
             <cell/>
             <cell/>
@@ -22485,7 +22487,7 @@
             <cell>3</cell>
             <cell>612</cell>
           </row>
-          <row
+          <row n="r7"
             role="regnal">
             <cell/>
             <cell/>
@@ -22687,7 +22689,7 @@
             <cell>7</cell>
             <cell>602</cell>
           </row>
-          <row
+          <row n="r2"
             role="regnal">
             <cell/>
             <cell/>
@@ -22751,7 +22753,7 @@
             <cell>10</cell>
             <cell>599</cell>
           </row>
-          <row
+          <row n="r3"
             role="regnal">
             <cell/>
             <cell/>
@@ -22811,7 +22813,7 @@
             <cell><note
               n="f"/> Epimenides Athenas emundavit. </cell>
           </row>
-          <row
+          <row n="r4"
             role="regnal">
             <cell/>
             <cell/>
@@ -22918,7 +22920,7 @@
             <cell>6</cell>
             <cell>591</cell>
           </row>
-          <row
+          <row n="r5"
             role="regnal">
             <cell/>
             <cell/>
@@ -22967,7 +22969,7 @@
             
             <cell role="julian">BC</cell>
           </row>
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell/>
@@ -23125,7 +23127,7 @@
             <cell>14</cell>
             <cell>583</cell>
           </row>
-          <row
+          <row n="r2"
             role="regnal">
             <cell/>
             <cell/>
@@ -23153,7 +23155,7 @@
             <cell>15</cell>
             <cell>582</cell>
           </row>
-          <row
+          <row n="r3"
             role="regnal">
             <cell/>
             <cell/>
@@ -23426,7 +23428,7 @@
             <cell>30</cell>
             <cell>567</cell>
           </row>
-          <row
+          <row n="r4"
             role="regnal">
             <cell/>
             <cell/>
@@ -23505,7 +23507,7 @@
             <cell>4</cell>
             <cell>563</cell>
           </row>
-          <row
+          <row n="r5"
             role="regnal">
             <cell/>
             <cell/>
@@ -23595,7 +23597,7 @@
             
             <cell role="julian"> BC</cell>
           </row>
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell/>
@@ -23748,7 +23750,7 @@
             <cell>13</cell>
             <cell>554</cell>
           </row>
-          <row
+          <row n="r2"
             role="regnal">
             <cell/>
             <cell/>
@@ -23866,7 +23868,7 @@
             <cell>19</cell>
             <cell>548</cell>
           </row>
-          <row
+          <row n="r3"
             role="regnal">
             <cell/>
             <cell/>
@@ -24185,7 +24187,7 @@
             <cell>36</cell>
             <cell>531</cell>
           </row>
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell/>
@@ -24290,7 +24292,7 @@
             <cell>LXIV Olympias</cell>
             <cell/>
           </row>
-          <row
+          <row n="r2"
             role="regnal">
             <cell/>
             <cell/>
@@ -24357,7 +24359,7 @@
             <cell/>
             <cell>523</cell>
           </row>
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell></cell>
@@ -24742,7 +24744,7 @@
             <cell>50</cell>
             <cell>504</cell>
           </row>
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell/>
@@ -25030,7 +25032,7 @@
             <cell>18</cell>
             <cell>486</cell>
           </row>
-          <row
+          <row n="r2"
             role="regnal">
             <cell/>
             <cell/>
@@ -25400,7 +25402,7 @@
             <cell>466</cell>
           </row>
           <row role="regnal"
-            n="tx">
+            n="r3">
             <cell/>
             <cell/>
             <cell> Persarum VI, ARTABANUS, menses VII, [qui menses in ordine annus reputantur]. Post
@@ -25488,7 +25490,7 @@
             <cell>43</cell>
             <cell>461</cell>
           </row>
-          <row
+          <row n="r4"
             role="regnal">
             <cell/>
             <cell/>
@@ -25983,7 +25985,7 @@
             <cell>28</cell>
             <cell>433</cell>
           </row>
-          <row
+          <row n="r5"
             role="regnal">
             <cell/>
             <cell/>
@@ -26137,7 +26139,7 @@
             <cell/>
             <cell> LXXXIX Olympias </cell>
           </row>
-          <row
+          <row n="r6"
             role="regnal">
             <cell/>
             <cell/>
@@ -26301,7 +26303,7 @@
               role="julian"> BC</cell>
           </row>
           
-          <row role="regnal" 
+          <row n="r1" role="regnal" 
             >
             <cell/>
             <cell/>
@@ -26415,7 +26417,7 @@
             <cell>6</cell>
             <cell>408</cell>
           </row>
-          <row
+          <row n="r2"
             role="regnal">
             <cell/>
             <cell/>
@@ -26451,7 +26453,7 @@
             <cell>2</cell>
             <cell>406</cell>
           </row>
-          <row
+          <row n="r3"
             role="regnal">
             <cell/>
             <cell></cell>
@@ -26490,7 +26492,7 @@
             <cell>4</cell>
             <cell>404</cell>
           </row>
-          <row
+          <row n="r4"
             role="regnal">
             <cell/>
             <cell/>
@@ -26537,7 +26539,7 @@
             <cell>6</cell>
             <cell>402</cell>
           </row>
-          <row
+          <row n="r5"
             role="regnal">
             <cell/>
             <cell/>
@@ -26583,7 +26585,7 @@
             <cell>1</cell>
             <cell>401</cell>
           </row>
-          <row
+          <row n="r6"
             role="regnal">
             <cell/>
             <cell/>
@@ -26629,7 +26631,7 @@
           <milestone
             n="200"
             unit="HelmPages"/>
-          <row
+          <row n="r7"
             role="regnal">
             <cell/>
             
@@ -26742,7 +26744,7 @@
             <cell>8</cell>
             <cell>394</cell>
           </row>
-          <row
+          <row n="r8"
             role="regnal">
             <cell/>
             <cell/>
@@ -26788,8 +26790,7 @@
             <cell>10</cell>
             <cell>392</cell>
           </row>
-          <row
-            role="regnal">
+          <row  n="r9"            role="regnal">
             <cell/>
             <cell/>
             <cell/>
@@ -26823,7 +26824,7 @@
             <cell>12</cell>
             <cell>390</cell>
           </row>
-          <row
+          <row n="r10"
             role="regnal">
             <cell/>
             <cell/>
@@ -26876,7 +26877,7 @@
             <cell>1</cell>
             <cell>388</cell>
           </row>
-          <row
+          <row n="r11"
             role="regnal">
             <cell/>
             <cell/>
@@ -27088,7 +27089,7 @@
             <cell>14</cell>
             <cell>374</cell>
           </row>
-          <row
+          <row n="r12"
             role="regnal">
             <cell/>
             <cell/>
@@ -27111,8 +27112,8 @@
           <milestone
             n="202"
             unit="HelmPages"/>
-          <row
-            n="r102"
+          <row n="r13"
+            
             role="regnal">
             <cell/>
             
@@ -27163,7 +27164,7 @@
             <cell>18</cell>
             <cell>370</cell>
           </row>
-          <row
+          <row n="r14"
             role="regnal">
             <cell/>
             <cell/>
@@ -27196,7 +27197,7 @@
             <cell/>
           </row>
           
-          <row
+          <row n="r15"
             role="regnal">
             <cell/>
             <cell>  </cell>
@@ -27261,7 +27262,7 @@
             <cell>2</cell>
             <cell>366</cell>
           </row>
-          <row
+          <row n="r16"
             role="regnal">
             <cell/>
             <cell/>
@@ -27322,7 +27323,7 @@
             <cell>5</cell>
             <cell>363</cell>
           </row>
-          <row
+          <row n="r17"
             role="regnal">
             <cell/>
             <cell/>
@@ -27696,7 +27697,7 @@
             <cell>23</cell>
             <cell>340</cell>
           </row>
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell/>
@@ -27753,7 +27754,7 @@
             <cell>1</cell>
             <cell>336</cell>
           </row>
-          <row
+          <row n="r2"
             role="regnal">
             <cell/>
             <cell/>
@@ -27859,7 +27860,7 @@
             <cell
               role="julian">B.C.</cell>
           </row>
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell/>
@@ -27870,7 +27871,7 @@
             <cell/>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r2" role="regnal">
             <cell/>
             <cell/>
             <cell>Alexander regnum Asiae anno regni sui VII occupat, et tenet omnia annis
@@ -27960,7 +27961,7 @@
             <cell
               role="julian">B.C.</cell>
           </row>
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell/>
@@ -28086,7 +28087,7 @@
             <cell
               role="julian"> BC</cell>
           </row>
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell/>
@@ -28106,7 +28107,7 @@
             <cell>1</cell>
             <cell>318</cell>
           </row>
-          <row
+          <row n="r2"
             role="regnal">
             <cell/>
             <cell/>
@@ -28210,7 +28211,7 @@
               </cell>
             <cell></cell>
           </row>
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell></cell>
@@ -28400,7 +28401,7 @@
             <cell/>
           </row>
           
-          <row
+          <row n="r2"
             role="regnal">
             <cell/>
             <cell> </cell>
@@ -28433,7 +28434,7 @@
             <cell>2</cell>
             <cell>299</cell>
           </row>
-          <row
+          <row n="r3"
             role="regnal">
             <cell/>
             <cell/>
@@ -28601,7 +28602,7 @@
             <cell>CXXIII Olympias</cell>
             <cell/>
           </row>
-          <row role="regnal" 
+          <row n="r4" role="regnal" 
             >
             <cell/>
             <cell/>
@@ -28626,7 +28627,7 @@
             <cell>288</cell>
           </row>
          
-          <row
+          <row n="r5"
             role="regnal">
             <cell/>
             <cell/>
@@ -28680,7 +28681,7 @@
             <cell/>
             <cell>CXXIV Olympias</cell>
           </row>
-          <row
+          <row n="r6"
             role="regnal">
             <cell/>
             <cell/>
@@ -28700,7 +28701,7 @@
             <cell>17</cell>
             <cell>284</cell>
           </row>
-          <row
+          <row n="r7"
             role="regnal">
             <cell/>
             <cell/>
@@ -28750,7 +28751,7 @@
             <cell>5</cell>
             <cell>283</cell>
           </row>
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell/>
@@ -28771,7 +28772,7 @@
             <cell>1</cell>
             <cell>282</cell>
           </row>
-          <row
+          <row n="r2"
             role="regnal">
             <cell/>
             <cell/>
@@ -28794,7 +28795,7 @@
           <milestone
             n="212/213"
             unit="HelmPages"/>
-          <row
+          <row n="r3"
             role="regnal">
             <cell/>
             <cell/>
@@ -28818,7 +28819,7 @@
             <cell>2</cell>
             <cell>280</cell>
           </row>
-          <row
+          <row n="r3"
             role="regnal">
             <cell/>
             <cell/>
@@ -29050,7 +29051,7 @@
             <cell>18</cell>
             <cell>262</cell>
           </row>
-          <row
+          <row n="r5"
             role="regnal">
             <cell/>
             <cell/>
@@ -29246,7 +29247,7 @@
             <cell>33</cell>
             <cell>247</cell>
           </row>
-          <row
+          <row n="r6"
             role="regnal">
             <cell/>
             <cell/>
@@ -29320,7 +29321,7 @@
             <cell
               role="julian">B.C.</cell>
           </row>
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell/>
@@ -29448,7 +29449,7 @@
             <cell>10</cell>
             <cell>234</cell>
           </row>
-          <row
+          <row n="r2"
             role="regnal">
             <cell/>
             <cell/>
@@ -29550,7 +29551,7 @@
             <cell>7</cell>
             <cell>227</cell>
           </row>
-          <row
+          <row n="r3"
             role="regnal">
             <cell/>
             <cell/>
@@ -29599,7 +29600,7 @@
             <cell>10</cell>
             <cell>224</cell>
           </row>
-          <row
+          <row n="r4"
             role="regnal">
             <cell/>
             <cell/>
@@ -29646,7 +29647,7 @@
             <cell/>
             <cell>CXL Olympias</cell>
           </row>
-          <row
+          <row n="r5"
             role="regnal">
             <cell/>
             <cell/>
@@ -29674,7 +29675,7 @@
             <cell>15</cell>
             <cell>219</cell>
           </row>
-          <row
+          <row n="r6"
             role="regnal">
             <cell/>
             <cell/>
@@ -29871,7 +29872,7 @@
             <cell>15</cell>
             <cell>204</cell>
           </row>
-          <row
+          <row n="r7"
             role="regnal">
             <cell/>
             <cell/>
@@ -30095,7 +30096,7 @@
             <cell>31</cell>
             <cell>188</cell>
           </row>
-          <row
+          <row n="r8"
             role="regnal">
             <cell/>
             <cell/>
@@ -30216,7 +30217,7 @@
             <cell>39</cell>
             <cell>180</cell>
           </row>
-          <row
+          <row n="r9"
             role="regnal">
             <cell/>
             <cell/>
@@ -30255,7 +30256,7 @@
             <cell>42</cell>
             <cell>177</cell>
           </row>
-          <row
+          <row n="r10"
             role="regnal">
             <cell/>
             <cell/>
@@ -30283,7 +30284,7 @@
             <cell>1</cell>
             <cell>176</cell>
           </row>
-          <row role="regnal" 
+          <row  n="r11" role="regnal" 
             >
             <cell/>
             <cell/>
@@ -30476,7 +30477,7 @@
             <cell>CLIV Olympias</cell>
             <cell/>
           </row>
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell/>
@@ -30505,7 +30506,7 @@
             <cell>2</cell>
             <cell>163</cell>
           </row>
-          <row
+          <row n="r2"
             role="regnal">
             <cell/>
             <cell/>
@@ -30565,7 +30566,7 @@
             <cell/>
             <cell>CLV Olympias</cell>
           </row>
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell/>
@@ -30618,7 +30619,7 @@
             <cell>3</cell>
             <cell>158</cell>
           </row>
-          <row
+          <row n="r2"
             role="regnal">
             <cell/>
             <cell/>
@@ -30724,7 +30725,7 @@
             <cell>7</cell>
             <cell>151</cell>
           </row>
-          <row
+          <row n="r3"
             role="regnal">
             <cell/>
             <cell/>
@@ -30815,7 +30816,7 @@
             <cell/>
             <cell>CLIX Olympias</cell>
           </row>
-          <row
+          <row n="r4"
             role="regnal">
             <cell/>
             <cell/>
@@ -30875,7 +30876,7 @@
             <cell/>
             <cell>CLX Olympias </cell>
           </row>
-          <row
+          <row n="r5"
             role="regnal">
             <cell/>
             <cell/>
@@ -30910,7 +30911,7 @@
             <cell>19</cell>
             <cell>139</cell>
           </row>
-          <row
+          <row n="r6"
             role="regnal">
             <cell/>
             <cell/>
@@ -30931,7 +30932,7 @@
             <cell>1</cell>
             <cell>138</cell>
           </row>
-          <row
+          <row n="r7"
             role="regnal">
             <cell/>
             <cell/>
@@ -31036,7 +31037,7 @@
             <cell>8</cell>
             <cell>131</cell>
           </row>
-          <row
+          <row n="r8"
             role="regnal">
             <cell/>
             <cell/>
@@ -31076,7 +31077,7 @@
             <cell/>
             <cell>CLXIII Olympias</cell>
           </row>
-          <row
+          <row n="r9"
             role="regnal">
             <cell/>
             <cell/>
@@ -31137,7 +31138,7 @@
             <cell/>
             <cell>CLXIV Olympias</cell>
           </row>
-          <row
+          <row n="r10"
             role="regnal">
             <cell/>
             <cell/>
@@ -31261,7 +31262,7 @@
             <cell>15</cell>
             <cell>116</cell>
           </row>
-          <row
+          <row n="r11"
             role="regnal">
             <cell/>
             <cell/>
@@ -31297,7 +31298,7 @@
             <cell>18</cell>
             <cell>113</cell>
           </row>
-          <row
+          <row n="r12"
             role="regnal">
             <cell/>
             <cell/>
@@ -31417,7 +31418,7 @@
             <cell/>
             <cell>CLXIX Olympias </cell>
           </row>
-          <row
+          <row n="r13"
             role="regnal">
             <cell/>
             <cell/>
@@ -31440,7 +31441,7 @@
             <cell>1</cell>
             <cell>104</cell>
           </row>
-          <row
+          <row n="r14"
             role="regnal">
             <cell/>
             <cell/>
@@ -31522,7 +31523,7 @@
             <cell>5</cell>
             <cell>99</cell>
           </row>
-          <row
+          <row n="r15"
             role="regnal">
             <cell/>
             <cell/>
@@ -31579,7 +31580,7 @@
             <cell>9</cell>
             <cell>95</cell>
           </row>
-          <row
+          <row n="r16"
             role="regnal">
             <cell/>
             <cell/>
@@ -31610,7 +31611,7 @@
             <cell>11</cell>
             <cell>93</cell>
           </row>
-          <row
+          <row n="r17"
             role="regnal">
             <cell/>
             <cell/>
@@ -31696,7 +31697,7 @@
             <cell>15</cell>
             <cell>89</cell>
           </row>
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell/>
@@ -31811,7 +31812,7 @@
             <cell/>
             <cell>CLXXV Olympias</cell>
           </row>
-          <row
+          <row n="r2"
             role="regnal">
             <cell/>
             <cell/>
@@ -31872,7 +31873,7 @@
             <cell/>
             <cell>CLXXVI Olympias</cell>
           </row>
-          <row
+          <row n="r3"
             role="regnal">
             <cell/>
             <cell/>
@@ -32019,7 +32020,7 @@
             <cell
               role="julian">B.C.</cell>
           </row>
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell/>
@@ -32244,7 +32245,7 @@
             <cell>17</cell>
             <cell>51</cell>
           </row>
-          <row
+          <row n="r2"
             role="regnal">
             <cell/>
             <cell/>
@@ -32312,7 +32313,7 @@
             <cell><note
                 n="b"/> Ab hoc loco Antiocheni sua tempora computant.</cell>
           </row>
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell/>
@@ -32408,7 +32409,7 @@
             <cell>23</cell>
             <cell>44</cell>
           </row>
-          <row
+          <row n="r2"
             role="regnal">
             <cell/>
             <cell/>
@@ -32612,7 +32613,7 @@
                 type="footnote"/>
             </cell>
           </row>
-          <row
+          <row n="r3"
             role="regnal">
             <cell/>
             <cell/>
@@ -32732,7 +32733,7 @@
             <cell>6 </cell>
             <cell>28</cell>
           </row>
-          <row
+          <row n="r4"
             role="regnal">
             <cell/>
             <cell/>
@@ -33230,7 +33231,7 @@
             <cell>37</cell>
             <cell>4</cell>
           </row>
-          <row
+          <row n="r1"
             role="regnal">
             <cell/>
             <cell/>
@@ -33359,7 +33360,7 @@
             <cell>9</cell>
             <cell>13</cell>
           </row>
-          <row
+          <row n="r2"
             role="regnal">
             <cell/>
             <cell/>
@@ -33367,7 +33368,7 @@
             <cell/>
             <cell n="herodes-tetrarcha">Judaeorum principatum tenet HERODES Tetrarcha annis XXIV</cell>
           </row>
-          <row
+          <row n="r3"
             role="regnal">
             <cell/>
             <cell/>
@@ -33730,7 +33731,7 @@
             <cell/>
             <cell>CCIV Olympias</cell>
           </row>
-          <row
+          <row n="r4"
             role="regnal">
             <cell/>
             <cell/>
@@ -33747,7 +33748,7 @@
             <cell>24</cell>
             <cell>37</cell>
           </row>
-          <row
+          <row n="r5"
             role="regnal">
             <cell/>
             <cell/>
@@ -33809,7 +33810,7 @@
           <milestone
             n="261"
             unit="HelmPages"/>
-          <row
+          <row n="r6"
             role="regnal">
             <cell/>
             <cell/>
@@ -33877,7 +33878,7 @@
             <cell>7</cell>
             <cell>44</cell>
           </row>
-          <row
+          <row n="r7"
             role="regnal">
             <cell/>
             <cell/>
@@ -34034,7 +34035,7 @@
             <cell>10</cell>
             <cell>54</cell>
           </row>
-          <row
+          <row n="r8"
             role="regnal">
             <cell/>
             <cell/>
@@ -34285,7 +34286,7 @@
             <cell/>
             <cell>CCXII Olympias</cell>
           </row>
-          <row
+          <row n="r9"
             role="regnal">
             <cell/>
             <cell/>
@@ -34476,7 +34477,7 @@
             </cell>
             <cell>78</cell>
           </row>
-          <row role="regnal">
+          <row n="r1" role="regnal">
             <cell/>
             <cell/>
             <cell n="titus"> Romanorum VIII, TITUS, regnavit annis II, mensibus II. </cell>
@@ -34544,7 +34545,7 @@
             <cell/>
             <cell/>
           </row>
-          <row role="regnal">
+          <row n="r2" role="regnal">
             <cell/>
             <cell/>
             <cell n="domitian"> Romanorum IX, DOMITIANUS, regnavit annis XV, mensibus V. </cell>
@@ -34764,7 +34765,7 @@
             <cell/>
             <cell>CCXIX Olympias</cell>
           </row>
-          <row
+          <row n="r3"
             role="regnal">
             <cell/>
             <cell/>
@@ -34788,7 +34789,7 @@
               * </cell>
             <cell>97</cell>
           </row>
-          <row
+          <row n="r4"
             role="regnal">
             <cell/>
             <cell/>
@@ -35036,7 +35037,7 @@
             <cell/>
             <cell>CCXXIV Olympias</cell>
           </row>
-          <row
+          <row n="r5"
             role="regnal">
             <cell/>
             <cell/>
@@ -35324,7 +35325,7 @@
           <milestone
             n="284"
             unit="HelmPages"/>
-          <row
+          <row n="r6"
             role="regnal">
             <cell/>
             <cell/>
@@ -35584,7 +35585,7 @@
                 n="a"/> Antoninus Pius apud Lorium villam suam, XII ab Urbe milliario, moritur anno
               vitae suae LXXVII. (*) </cell>
           </row>
-          <row
+          <row n="r7"
             role="regnal">
             <cell/>
             <cell/>
@@ -35842,7 +35843,7 @@
                 n="e"/> Alexandrinae ecclesiae X episcopatum sortitur Julianus, annis X. </cell>
             <cell>179</cell>
           </row>
-          <row
+          <row n="r8"
             role="regnal">
             <cell/>
             <cell/>
@@ -36000,7 +36001,7 @@
             <cell/>
             <cell>CCXLIII Olympias</cell>
           </row>
-          <row
+          <row n="r9"
             role="regnal">
             <cell/>
             <cell/>
@@ -36022,7 +36023,7 @@
               Severus apud Milvium pontem interfecit. (*) </cell>
             <cell>193</cell>
           </row>
-          <row
+          <row n="r10"
             role="regnal">
             <cell/>
             <cell/>
@@ -36234,7 +36235,7 @@
             <cell/>
             <cell>210</cell>
           </row>
-          <row
+          <row n="r11"
             role="regnal">
             <cell/>
             <cell/>
@@ -36319,7 +36320,7 @@
               (*)</cell>
             <cell>217</cell>
           </row>
-          <row
+          <row n="r12"
             role="regnal">
             <cell/>
             <cell/>
@@ -36384,7 +36385,7 @@
           
         </row>
              -->
-          <row role="regnal">
+          <row n="r13" role="regnal">
             <cell/>
             <cell/>
             <cell n="m-aurelius-antoninus"> Romanorum XX, MARCUS AURELIUS ANTONINUS, regnavit annis IV. </cell>
@@ -36466,7 +36467,7 @@
           <milestone
             n="297"
             unit="HelmPages"/>
-          <row role="regnal">
+          <row n="r14" role="regnal">
             <cell/>
             <cell/>
             <cell n="alexander"> Romanorum XXI, ALEXANDER, Mamaeae filius, regnavit annis XIII. </cell>
@@ -36682,7 +36683,7 @@
             </cell>
             <cell>235</cell>
           </row>
-          <row role="regnal">
+          <row n="r15" role="regnal">
             <cell/>
             <cell/>
             <cell n="maximinus"> Romanorum XXII, MAXIMINUS, regnavit annis III. </cell>
@@ -36741,7 +36742,7 @@
             </cell>
             <cell>238</cell>
           </row>
-          <row role="regnal"> 
+          <row  n="r16" role="regnal"> 
             <cell/>
             <cell/>
             <cell n="gordian">Romanorum XXIII, GORDIANUS 1, regnavit annis 6.</cell>
@@ -36827,7 +36828,7 @@
                 ossibus ejus Romam revectis.</seg> *</cell>
             <cell>244</cell>
           </row>
-          <row
+          <row n="r17"
             role="regnal">
             <cell/>
             <cell/>
@@ -36942,7 +36943,7 @@
                 n="b"/> Philippus senior Veronae, Romae junior occiditur. (*)</cell>
             <cell>251</cell>
           </row>
-          <row
+          <row n="r18"
             role="regnal">
             <cell/>
             <cell/>
@@ -36966,7 +36967,7 @@
                 n="h"/> Decius cum filio in Abritto occiditur. </cell>
             <cell>252</cell>
           </row>
-          <row
+          <row n="r19"
             role="regnal">
             <cell/>
             <cell/>
@@ -37018,7 +37019,7 @@
           <milestone
             n="302"
             unit="HelmPages"/>
-          <row
+          <row n="r20"
             role="regnal">
             <cell/>
             <cell/>
@@ -37199,7 +37200,7 @@
                 n="h"/> Gallienus Mediolani occiditur. </cell>
             <cell>269</cell>
           </row>
-          <row
+          <row n="r21"
             role="regnal">
             <cell/>
             <cell/>
@@ -37231,7 +37232,7 @@
               imperii sui die Aquileiae occiditur. * </cell>
             <cell>271</cell>
           </row>
-          <row
+          <row n="r22"
             role="regnal">
             <cell/>
             <cell/>
@@ -37302,7 +37303,7 @@
                 n="d"/> IX persecutio </cell>
             <cell>276</cell>
           </row>
-          <row
+          <row n="r23"
             role="regnal">
             <cell/>
             <cell/>
@@ -37324,7 +37325,7 @@
               quoque apud Tarsum interfecto. </cell>
             <cell>277</cell>
           </row>
-          <row
+          <row n="r24"
             role="regnal">
             <cell/>
             <cell/>
@@ -37407,7 +37408,7 @@
                 n="f"/> Alexandrinae Ecclesiae XV episcopus praefuit Theonas, annis XIX.</cell>
             <cell>283</cell>
           </row>
-          <row
+          <row n="r25"
             role="regnal">
             <cell/>
             <cell/>
