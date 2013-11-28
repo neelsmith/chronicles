@@ -14,6 +14,9 @@ class TestGraphFilum extends GroovyTestCase {
     void testRulersForFilum() {
         JGraph jg = new JGraph(sparql)
         def filumSeq =  jg.getRulersForFilum(filum)
+
+        System.err.println "Query to get rulers for filum with : "
+        System.err.println jg.jqg.getRulersForFilumQuery(filum)
         assert filumSeq.size() == expectedSize
     }
 
