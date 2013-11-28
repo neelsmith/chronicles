@@ -19,7 +19,7 @@
     </index>
 
     <index verb="owl:sameAs" inverse="owl:sameAs">
-        <source type="file" value="almkingToJerome.csv"></source>
+        <source type="file" value="almkingsToJerome.csv"></source>
     </index>
 
 

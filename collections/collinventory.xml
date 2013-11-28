@@ -51,10 +51,10 @@
     
     <citeCollection canonicalId="Record" label="Label" urn="urn:cite:chron:almking">
         <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
-        <title xmlns="http://purl.org/dc/elements/1.1/">Callipan cycle dates in Ptolemy's Almagest </title>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Monarchs datable from Ptolemy's Almagest </title>
         <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
         <coverage xmlns="http://purl.org/dc/elements/1.1/">All listed in Pedersen, Survey of the Almagest</coverage>
-        <description xmlns="http://purl.org/dc/elements/1.1/">Callipan cycle dates associated with dated astronomical observations in Ptolemy's Almagest</description>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Monarchs associated with dated astronomical observations in Ptolemy's Almagest</description>
         <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
         
         <source type="file" value="almkings.csv"/>
