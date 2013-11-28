@@ -39,10 +39,17 @@ html.html {
         }
     	
         article {
-            ul {
-                filaMap.keySet().sort().each { k ->
-                    li {
-                        a (href : "filum?urn=${k}", "${filaMap[k]}")
+            if (filaMap.size() < 1) {
+                p("No fila retrieved with SPARQL query ")
+                blockquote {
+                    pre("${jg.jqg.getFilaQuery()}")
+                }
+            } else {
+                ul {
+                    filaMap.keySet().sort().each { k ->
+                        li {
+                            a (href : "filum?urn=${k}", "${filaMap[k]}")
+                        }
                     }
                 }
             }

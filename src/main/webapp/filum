@@ -44,11 +44,19 @@ html.html {
         }
     	
         article {
-            p("Sequence of rulers in filum ${label}")
-            ol {
-                filumSeq.each { seq ->
-                    li {
-                        a(href : "regnalyears?urn=${seq[0]}", seq[1])
+            if (filumSeq.size() < 1) {
+                p("No rulers found for filum ${label} with SPARQL query")
+                blockquote {
+                    pre("${jg.jqg.getRulersForFilumQuery(urn)}")
+                }
+            } else {
+
+                p("Sequence of rulers in filum ${label}")
+                ol {
+                    filumSeq.each { seq ->
+                        li {
+                            a(href : "regnalyears?urn=${seq[0]}", seq[1])
+                        }
                     }
                 }
             }

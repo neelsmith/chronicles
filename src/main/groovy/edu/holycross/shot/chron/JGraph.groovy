@@ -65,11 +65,18 @@ class JGraph {
         def slurper = new groovy.json.JsonSlurper()
         def parsedReply = slurper.parseText(filumReply)
 
+
+        def currentRuler = ""
         parsedReply.results.bindings.each { b ->
+            def ruler = [b.ruler.value, b.rulerlabel.value]
+                filumSequence.add(ruler)
+            
+/*
             if ((b.ruler) && (b.rulerlabel)) {
                 def record  = [b.ruler.value, b.rulerlabel.value]
                 filumSequence.add(record)
             }
+*/
         }
         return filumSequence
     }

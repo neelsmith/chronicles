@@ -30,7 +30,48 @@ ORDER BY ?label
 """
     }
     
-    String getRulersForFilumQuery(String rulerUrn) {
+    String getRulersForFilumQuery(String filumUrn) {
+    return """
+SELECT ?ruler ?rulerlabel  {
+
+?filum  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://shot.holycross.edu/chron/rdf/Filum> .
+?filum <http://www.homermultitext.org/cite/rdf/possesses>  ?rulerdot .
+?ruler <http://www.w3.org/2002/07/owl#sameAs>  ?rulerdot .
+
+?rulerdot  <http://purl.org/ontology/olo/core#item> ?seq .
+
+?ruler <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> ?rulerlabel .
+
+FILTER(str(?filum) = "${filumUrn}")
+}
+
+ORDER BY ?seq
+"""
+}
+/*
+return """
+SELECT ?rulerdot ?ruler ?rulerlabel ?colllabel  {
+
+?filum  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://shot.holycross.edu/chron/rdf/Filum> .
+?filum <http://www.homermultitext.org/cite/rdf/possesses>  ?rulerdot .
+?ruler <http://www.w3.org/2002/07/owl#sameAs>  ?rulerdot .
+
+?rulerdot  <http://purl.org/ontology/olo/core#item> ?seq .
+
+
+?ruler <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> ?rulerlabel .
+?rulercollection <http://www.homermultitext.org/cite/rdf/possesses>  ?ruler .
+
+
+?rulercollection <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> ?colllabel .
+
+?filum <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> ?filumlabel .
+FILTER(str(?filum) = "${rulerUrn}")
+}
+ORDER BY ?seq
+"""
+*/
+/*
         return """
 SELECT ?filum ?filumlabel ?ruler  ?rulerlabel  {
 ?filum  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://shot.holycross.edu/chron/rdf/Filum> .
@@ -46,7 +87,8 @@ FILTER(str(?filum) = "${rulerUrn}")
 }
 ORDER BY ?seq
 """
-    }
+*/
+
 
     String getYearsForRulerQuery(String rulerUrn) {
 return """
