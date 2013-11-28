@@ -43,6 +43,37 @@
     <!-- **********************************************************************  -->
     <!-- BEGIN DATA: 
     -->
+    <textgroup urn="urn:cts:greekLit:tlg0003">
+        <groupname xml:lang="eng">Thucydides</groupname>
+        <work urn="urn:cts:greekLit:tlg0003.tlg001" xml:lang="grc">
+            <title xml:lang="eng">History of the Peloponnesian War</title>
+            <edition urn="urn:cts:greekLit:tlg0003.tlg001.demos">
+                <label xml:lang="eng">Dēmos edition</label>
+                
+                <online
+                    docname="tlg0003-tlg001-01-p5.xml">
+                    <validate
+                        schema="chstei.rng"/>
+                    <namespaceMapping
+                        abbreviation="tei"
+                        nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation
+                            label="stone"
+                            scope="/tei:TEI/tei:text/tei:body"
+                            xpath="/tei:div[@n = '?']">
+                            <citation
+                                label="section"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+                                xpath="/tei:div[@n = '?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+                
+            </edition>
+        </work>
+    </textgroup>
+    
     <textgroup
         urn="urn:cts:chronepig:chron">
         <groupname
@@ -152,30 +183,33 @@
                 urn="urn:cts:latinLit:stoa0162.stoa005.hc-helm">
                 <label
                     xml:lang="eng">In-progress digital edition based on Helm's readings</label>
-                <!--<online
-                    docname="Jerome-ChroniclesY.xml">
+                <online
+                    docname="Jerome-Chronicles-p5.xml">
                     <validate
-                    schema="chstei.rng"/>
+                        schema="chstei.rng"/>
+                    <namespaceMapping
+                        abbreviation="tei"
+                        nsURI="http://www.tei-c.org/ns/1.0"/>
                    
                    
                     <citationMapping>
                         <citation
                             label="era"
-                            scope="/TEI.2/text/body"
-                            xpath="/div[@n = '?']">
+                            scope="/tei:TEI/tei:text/tei:body"
+                            xpath="/tei:div[@n = '?']">
                             <citation
                                 label="table"
-                                scope="/TEI.2/text/body/div[@n = '?']"
-                                xpath="/table[@n = '?']">
+                                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+                                xpath="/tei:table[@n = '?']">
                                 <citation
                                     label="row"
-                                    scope="/TEI.2/text/body/div[@n = '?']/table[@n = '?']"
-                                    xpath="/row[@n = '?']"/>
+                                    scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:table[@n = '?']"
+                                    xpath="/tei:row[@n = '?']"/>
                             </citation>
                         </citation>
                     </citationMapping>
                 </online>
-            --></edition>
+         </edition>
             <translation
                 urn="urn:cts:latinLit:stoa0162.stoa005.hc001"
                 xml:lang="eng">
