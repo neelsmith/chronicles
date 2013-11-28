@@ -23,8 +23,6 @@ JGraph jg = new JGraph(serverUrl)
 
 String f = params.f
 def confDir = context.getRealPath("/")
-
-
 File syncFile = new File(confDir + "/" + f)
 
 StringWriter writer = new StringWriter()
@@ -71,8 +69,6 @@ html.html {
             div (style : "float:right;width:40%;") {
 
                 ul {
-                    //Source,Event,Relation,SyncType,SyncedWith,Amount
-
                     synchronisms.each { syn ->
                         li {
                             
