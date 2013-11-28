@@ -36,7 +36,7 @@ syncFile.eachLine { l->
     count++;
 }
 
+println csv.toString().replaceFirst(/\n$/,'')
 
-println csv.toString()
 
 

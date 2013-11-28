@@ -17,9 +17,21 @@
         <url-pattern>*.groovy</url-pattern>
     </servlet-mapping>
 
+
+
     <servlet-mapping>
         <servlet-name>GroovyServlet</servlet-name>
         <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>GroovyServlet</servlet-name>
+        <url-pattern>/viewmodel</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>GroovyServlet</servlet-name>
+        <url-pattern>/models</url-pattern>
     </servlet-mapping>
 
     <servlet-mapping>

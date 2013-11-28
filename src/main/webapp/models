@@ -1,0 +1,57 @@
+import edu.holycross.shot.chron.*
+import groovy.xml.MarkupBuilder
+import edu.harvard.chs.cite.CiteUrn
+
+
+String contentType = "text/html"
+response.setContentType(contentType)
+response.setHeader( "Access-Control-Allow-Origin", "*")
+
+
+String serverUrl = "@tripleserver@"
+
+StringWriter writer = new StringWriter()
+MarkupBuilder html = new MarkupBuilder(writer)
+
+
+html.html {
+    head {
+        title("Formal models of chronoloiges")
+	link(type : 'text/css',  rel : 'stylesheet',  href : 'css/chron.css', title : 'CSS stylesheet')
+    }
+    
+    body {
+    
+    	header {
+            h1("Chronometer")
+            
+        }
+        nav (role: 'navigation') {
+            mkp.yield "Chronometer "
+        }
+
+    }
+    	
+    article {
+        p {
+            mkp.yield "Links on this page offer visualization and analysis of formal models of chronological evidence.  (The structure and format of the formal models is described "
+            a(href : "http://shot.holycross.edu/courses/Time/F13/project/format.html", "here")
+            mkp.yield ".)"
+    }
+        ul {
+            li {
+                mkp.yield "relative chronology of Sicilian colonization, "
+                a(href : "" "according to Thucycides")
+                mkp.yield "."
+            }
+        }
+    footer {
+        mkp.yield "INSERTFOOTER"
+    }
+}
+
+
+String base = writer.toString()
+println base.replaceAll('INSERTFOOTER',"""@htmlfooter@""")
+
+
