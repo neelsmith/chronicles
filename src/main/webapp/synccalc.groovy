@@ -32,7 +32,6 @@ MarkupBuilder html = new MarkupBuilder(writer)
 def synchronisms = []
 def count = 0
 syncFile.eachLine {  l ->
-    
     if (count > 0) {
         def cols = l.split(/,/)
         synchronisms.add(cols)
@@ -129,11 +128,9 @@ links.forEach(function(link) {
         (nodes[link.target] = {name: link.target, url : link.url});
     //link.units = +link.units;
 link.units = 1;
-console.log(link);
 });
-//console.log(nodes);
-//console.log("d3.values.nodes")
-//console.log(d3.values(nodes));
+console.log(nodes);
+
 var width = 500,
     height = 300;
 
