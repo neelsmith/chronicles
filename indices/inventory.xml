@@ -18,9 +18,15 @@
         <source type="file" value="acephalusToJerome.csv"></source>
     </index>
 
+<!--
     <index verb="owl:sameAs" inverse="owl:sameAs">
         <source type="file" value="almkingsToJerome.csv"></source>
     </index>
 
+-->
+
+    <index verb="chron:synchronizedWith" inverse="chron:synchronizedWith">
+        <source type="file" value="rulersToObservations.csv"></source>
+    </index>
 
 </indexInventory>
