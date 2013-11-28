@@ -71,8 +71,14 @@ html.html {
                 ul {
                     synchronisms.each { syn ->
                         li {
+                            String evt1 = jg.getLabel(syn[1])
+                            String evt2 = jg.getLabel(syn[4])
                             
-                            mkp.yield "${syn[1]} linked to ${syn[4]}: "
+                            if (syn.size() > 5) {
+                                mkp.yield "${evt1} ${syn[2]} ${evt2} by ${syn[5]}: "
+                            } else {
+                                mkp.yield "${evt1} ${syn[2]} ${evt2}: "
+                            }
                             a (href : "${texts}?request=GetPassagePlus&urn=${syn[0]}", "source")
 
                         }
@@ -94,7 +100,7 @@ String bodyScript = """
 <script>
 
 // get the data
-d3.csv("${f}", function(error, links) {
+d3.csv("labelchroncsv.groovy?f=${f}", function(error, links) {
 
 var nodes = {};
 

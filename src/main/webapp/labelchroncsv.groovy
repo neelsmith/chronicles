@@ -26,9 +26,6 @@ syncFile.eachLine { l->
         csv.append('"' + jg.getLabel(cols[1]) + '",')
         csv.append(cols[2] + ",")
         csv.append(cols[3] + ",")
-
-        System.err.println "col 2 = #${cols[1]}# converting to ${jg.getLabel(cols[1])}"
-        System.err.println "col 5 = #${cols[4]}# converting to ${jg.getLabel(cols[4])}"
         csv.append('"' + jg.getLabel(cols[4]) + '",')
         if (cols.size() > 5) {
             csv.append(cols[5] + "\n")
