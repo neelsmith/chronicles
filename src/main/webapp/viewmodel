@@ -116,7 +116,7 @@ String bodyScript = """
 <script>
 
 // get the data
-d3.csv("labelchroncsv.groovy?f=${f}", function(error, links) {
+d3.csv("labelchroncsv?f=${f}", function(error, links) {
 
 var nodes = {};
 

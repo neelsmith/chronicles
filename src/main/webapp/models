@@ -23,13 +23,13 @@ html.html {
     body {
     
     	header {
-            h1("Chronometer")
-            
+            h1("Formal models")
+            nav (role: 'navigation') {
+                mkp.yield "Chronometer: "
+                a(href: "home",  "home")
+            }
+    
         }
-        nav (role: 'navigation') {
-            mkp.yield "Chronometer "
-        }
-
     }
     	
     article {
@@ -37,14 +37,15 @@ html.html {
             mkp.yield "Links on this page offer visualization and analysis of formal models of chronological evidence.  (The structure and format of the formal models is described "
             a(href : "http://shot.holycross.edu/courses/Time/F13/project/format.html", "here")
             mkp.yield ".)"
-    }
+        }
         ul {
             li {
                 mkp.yield "relative chronology of Sicilian colonization, "
-                a(href : "" "according to Thucycides")
+                a(href : "viewmodel?f=chronologies/colonies-thucydides.csv", "according to Thucycides")
                 mkp.yield "."
             }
         }
+    }
     footer {
         mkp.yield "INSERTFOOTER"
     }

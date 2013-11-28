@@ -34,37 +34,24 @@ html.html {
     	
     article {
         p("This web app lets you explore an RDF graph of chronological relations drawn from primary sources you can cite and retrieve.")
-        p {
-            mkp.yield "The first web of relations you can browse is generated from an XML text of Jerome's "
-            em("Chronicles")
-            mkp.yield "."
-        }
 
-        h2("Explore chronological sources")
 
-        h3("Jerome's regnal sequences")
-        p("Browse Jerome's chronological regnal sequences:")
+
         ul {
             li {
-                a (href : "fila", "Regnal fila")
+                mkp.yield "Explore "
+                a(href : "sources", "major sources")
             }
-        }
-        h3("Olympiad dates")
-        p("Search for synchonisms by Jerome's Olympiad year reference.")
-        p {
-            mkp.yield "(Express year as a URN of the form "
-            code("urn:cite:chron:olympiadyear.OLYMPIAD_YEAR")
-            mkp.yield ")."
-        }
-        form (action : "olympiad", method : "get") {
-            input(name : "urn", type : "text", value : "urn:cite:chron:olympiadyear.1_1", size: "80")
-            input(type: "submit", value : "Look up")
-        }
 
-        h2("Analyze formal models")
-        p {
-            "See " 
-            a(href: "loadfile.groovy","formal models of datings")
+            li {
+                mkp.yield "View "
+                a(href: "models", "formal models")
+                mkp.yield " of datings  based on primary sources."
+            }
+            li {
+                mkp.yield "Refer to citable resources from a "
+                a(href: "http://beta.hpcc.uh.edu/tomcat/chroncite/" , "CITE server")
+            }
         }
     }
     footer {

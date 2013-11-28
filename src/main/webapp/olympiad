@@ -99,7 +99,7 @@ String bodyScript = """
 <script>
 
 // get the data
-d3.csv("syncolycsv.groovy?urn=${urn}", function(error, links) {
+d3.csv("syncolycsv?urn=${urn}", function(error, links) {
 
 var nodes = {};
 

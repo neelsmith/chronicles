@@ -48,7 +48,7 @@ def p = ~/.*\.csv/
 ul {
     confDir.eachFileMatch(p) { f ->
         li {
-            a(href : "synccalc.groovy?f=chronologies/${f.name}", "${f.name}")
+            a(href : "synccalc?f=chronologies/${f.name}", "${f.name}")
         }
     }
 }
