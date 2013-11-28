@@ -1,17 +1,16 @@
-event1,synchronization,event2,years,source
-urn:cite:chron:colony.col1,precedes,urn:cite:chron:colony.2,1,urn:cts:greekLit:tlg0003.tlg001:6.3
-urn:cite:chron:colony.col7,follows,urn:cite:chron:colony.6,,urn:cts:greekLit:tlg0003.tlg001:6.4
-urn:cite:chron:colony.col2,precedes,urn:cite:chron:colony.3,5,urn:cts:greekLit:tlg0003.tlg001:6.3
-urn:cite:chron:colony.col13,follows,urn:cite:chron:colony.2,75,urn:cts:greekLit:tlg0003.tlg001:6.5
-urn:cite:chron:colony.col3,contemporary ,urn:cite:chron:colony.4,0,urn:cts:greekLit:tlg0003.tlg001:6.3
-urn:cite:chron:colony.col2,precedes,urn:cite:chron:colony.4,5,urn:cts:greekLit:tlg0003.tlg001:6.3
-urn:cite:chron:colony.col8,follows,urn:cite:chron:colony.7,100,urn:cts:greekLit:tlg0003.tlg001:6.4
-urn:cite:chron:colony.col.11,contemporary ,Anaxilas,,urn:cts:greekLit:tlg0003.tlg001:6.4
-urn:cite:chron:colony.col2,precedes,urn:cite:chron:colony.5,5,urn:cts:greekLit:tlg0003.tlg001:6.4
-urn:cite:chron:colony.col5,contemporary ,urn:cite:chron:colony.3,0,urn:cts:greekLit:tlg0003.tlg001:6.3
-urn:cite:chron:colony.col.12,follows ,urn:cite:chron:colony.16,,urn:cts:greekLit:tlg0003.tlg001:6.5
-urn:cite:chron:colony.col15,follows,urn:cite:chron:colony.2,135,urn:cts:greekLit:tlg0003.tlg001:6.5
-urn:cite:chron:colony.col6,follows,urn:cite:chron:colony.5,,urn:cts:greekLit:tlg0003.tlg001:6.4
-urn:cite:chron:colony.col9,follows,urn:cite:chron:colony.2,45,urn:cts:greekLit:tlg0003.tlg001:6.4
-urn:cite:chron:colony.col10,follows,urn:cite:chron:colony.9,108,urn:cts:greekLit:tlg0003.tlg001:6.4
-urn:cite:chron:colony.col14,follows,urn:cite:chron:colony.13,20,urn:cts:greekLit:tlg0003.tlg001:6.5
+evidence,event1,synchronization,synctype,event2,units
+urn:cts:greekLit:tlg0003.tlg001:6.3,urn:cite:chron:colony.col1,precedes,event,urn:cite:chron:colony.2,1
+urn:cts:greekLit:tlg0003.tlg001:6.4,urn:cite:chron:colony.col7,follows,event,urn:cite:chron:colony.6,
+urn:cts:greekLit:tlg0003.tlg001:6.3,urn:cite:chron:colony.col2,precedes,event,urn:cite:chron:colony.3,5
+urn:cts:greekLit:tlg0003.tlg001:6.5,urn:cite:chron:colony.col13,follows,event,urn:cite:chron:colony.2,75
+urn:cts:greekLit:tlg0003.tlg001:6.3,urn:cite:chron:colony.col3,contemporary,event,urn:cite:chron:colony.4,0
+urn:cts:greekLit:tlg0003.tlg001:6.3,urn:cite:chron:colony.col2,precedes,event,urn:cite:chron:colony.4,5
+urn:cts:greekLit:tlg0003.tlg001:6.4,urn:cite:chron:colony.col8,follows,event,urn:cite:chron:colony.7,100
+urn:cts:greekLit:tlg0003.tlg001:6.4,urn:cite:chron:colony.col2,precedes,event,urn:cite:chron:colony.5,5
+urn:cts:greekLit:tlg0003.tlg001:6.3,urn:cite:chron:colony.col5,contemporary,event,urn:cite:chron:colony.3,0
+urn:cts:greekLit:tlg0003.tlg001:6.5,urn:cite:chron:colony.col.12,follows,event,urn:cite:chron:colony.16,
+urn:cts:greekLit:tlg0003.tlg001:6.5,urn:cite:chron:colony.col15,follows,event,urn:cite:chron:colony.2,135
+urn:cts:greekLit:tlg0003.tlg001:6.4,urn:cite:chron:colony.col6,follows,event,urn:cite:chron:colony.5,
+urn:cts:greekLit:tlg0003.tlg001:6.4,urn:cite:chron:colony.col9,follows,event,urn:cite:chron:colony.2,45
+urn:cts:greekLit:tlg0003.tlg001:6.4,urn:cite:chron:colony.col10,follows,event,urn:cite:chron:colony.9,108
+urn:cts:greekLit:tlg0003.tlg001:6.5,urn:cite:chron:colony.col14,follows,event,urn:cite:chron:colony.13,20
