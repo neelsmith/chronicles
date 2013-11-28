@@ -31,48 +31,69 @@ html.html {
         }
 
         article {
-        h3("Jerome's regnal sequences")
-        p("Browse Jerome's chronological regnal sequences:")
-        ul {
-            li {
-                a (href : "fila", "Regnal fila")
-            }
-        }
-        h3("Olympiad dates")
-        p("Search for synchonisms by Jerome's Olympiad year reference.")
-        p {
-            mkp.yield "(Express year as a URN of the form "
-            code("urn:cite:chron:olympiadyear.OLYMPIAD_YEAR")
-            mkp.yield ")."
-        }
-        form (action : "olympiad", method : "get") {
-            input(name : "urn", type : "text", value : "urn:cite:chron:olympiadyear.1_1", size: "80")
-            input(type: "submit", value : "Look up")
-        }
 
-        h3("Eponymous lists")
-        p("Lists of citable eponyms:")
-        ul {
-            li {
-                a(href : "https://github.com/neelsmith/chronicles/blob/master/collections/archons.csv", "Athenian archons")
-                mkp.yield " from Diodorus Siculus."
+            h3("Jerome's regnal sequences")
+            p("Browse Jerome's chronological regnal sequences:")
+            ul {
+                li {
+                    a (href : "fila", "Regnal fila")
+                }
             }
 
-
-            li {
-                a(href : "https://github.com/neelsmith/chronicles/blob/master/collections/dcconsuls.csv", "consular years")
-                mkp.yield " and "
-                a(href: "https://github.com/neelsmith/chronicles/blob/master/collections/consuls.csv", "individual Roman consuls")
-                mkp.yield " from Dio Cassius."
+            h3("Olympiad dates")
+            p("Search for synchonisms by Jerome's Olympiad year reference.")
+            p {
+                mkp.yield "(Express year as a URN of the form "
+                code("urn:cite:chron:olympiadyear.OLYMPIAD_YEAR")
+                mkp.yield ")."
+            }
+            form (action : "olympiad", method : "get") {
+                input(name : "urn", type : "text", value : "urn:cite:chron:olympiadyear.1_1", size: "80")
+                input(type: "submit", value : "Look up")
             }
 
+            h3("Eponymous lists")
+            p("Lists of citable eponyms:")
+            ul {
+                li {
+                    a(href : "https://github.com/neelsmith/chronicles/blob/master/collections/archons.csv", "Athenian archons")
+                    mkp.yield " from Diodorus Siculus."
+                }
+                li {
+                    a(href : "https://github.com/neelsmith/chronicles/blob/master/collections/dcconsuls.csv", "Consular years")
+                    mkp.yield " and "
+                    a(href: "https://github.com/neelsmith/chronicles/blob/master/collections/consuls.csv", "individual Roman consuls")
+                    mkp.yield " from Dio Cassius."
+                }
+            }
+         
+            h3("Year counts from the Astronomical Canon")
+            p("Lists of years with running totals from:")
+            ul {
+                li {
+                    mkp.yield "the "
+                    a (href : "http://beta.hpcc.uh.edu/tomcat/chroncite/browse?urn=urn:cite:chron:heraclian", "Heraclian Manuscript")
+                }
+                li {
+                    mkp.yield "the "
+                    a (href : "http://beta.hpcc.uh.edu/tomcat/chroncite/browse?urn=urn:cite:chron:acephalus", "Acephalus Manuscript")
+                    mkp.yield " (beginning from the death of Alexander the Great)"
+                }
+            }
 
-
+            h3("Astronomical observations")
+            p {
+                mkp.yield "A list with "
+                a(href:"https://github.com/neelsmith/chronicles/blob/master/collections/almdates.csv", "a selection of datable observations")
+                mkp.yield " from Ptolemy's "
+                em "Almagest"
+            }                
+                
+   
         }
-    }
-    footer {
-        mkp.yield "INSERTFOOTER"
-    }
+        footer {
+            mkp.yield "INSERTFOOTER"
+        }
     }
 }
 
