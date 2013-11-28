@@ -1,0 +1,83 @@
+import edu.holycross.shot.chron.*
+import groovy.xml.MarkupBuilder
+import edu.harvard.chs.cite.CiteUrn
+
+
+String contentType = "text/html"
+response.setContentType(contentType)
+response.setHeader( "Access-Control-Allow-Origin", "*")
+
+
+String serverUrl = "@tripleserver@"
+
+StringWriter writer = new StringWriter()
+MarkupBuilder html = new MarkupBuilder(writer)
+
+
+html.html {
+    head {
+        title("Major sources")
+	link(type : 'text/css',  rel : 'stylesheet',  href : 'css/chron.css', title : 'CSS stylesheet')
+    }
+    
+    body {
+    
+    	header {
+            h1("Major sources")
+            nav (role: 'navigation') {
+                mkp.yield "Chronometer: "
+                a(href: "home",  "home")
+            }
+        }
+
+        article {
+        h3("Jerome's regnal sequences")
+        p("Browse Jerome's chronological regnal sequences:")
+        ul {
+            li {
+                a (href : "fila", "Regnal fila")
+            }
+        }
+        h3("Olympiad dates")
+        p("Search for synchonisms by Jerome's Olympiad year reference.")
+        p {
+            mkp.yield "(Express year as a URN of the form "
+            code("urn:cite:chron:olympiadyear.OLYMPIAD_YEAR")
+            mkp.yield ")."
+        }
+        form (action : "olympiad", method : "get") {
+            input(name : "urn", type : "text", value : "urn:cite:chron:olympiadyear.1_1", size: "80")
+            input(type: "submit", value : "Look up")
+        }
+
+        h3("Eponymous lists")
+        p("Lists of citable eponyms:")
+        ul {
+            li {
+                a(href : "https://github.com/neelsmith/chronicles/blob/master/collections/archons.csv", "Athenian archons")
+                mkp.yield " from Diodorus Siculus."
+            }
+
+
+            li {
+                a(href : "https://github.com/neelsmith/chronicles/blob/master/collections/dcconsuls.csv", "consular years")
+                mkp.yield " and "
+                a(href: "https://github.com/neelsmith/chronicles/blob/master/collections/consuls.csv", "individual Roman consuls")
+                mkp.yield " from Dio Cassius."
+            }
+
+
+
+        }
+    }
+    footer {
+        mkp.yield "INSERTFOOTER"
+    }
+    }
+}
+
+
+String base = writer.toString()
+println base.replaceAll('INSERTFOOTER',"""@htmlfooter@""")
+
+

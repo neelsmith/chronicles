@@ -30,7 +30,7 @@ html.html {
             mkp.yield "Chronometer "
         }
 
-    }
+
     	
     article {
         p("This web app lets you explore an RDF graph of chronological relations drawn from primary sources you can cite and retrieve.")
@@ -56,6 +56,7 @@ html.html {
     }
     footer {
         mkp.yield "INSERTFOOTER"
+    }
     }
 }
 
