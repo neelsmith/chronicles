@@ -98,7 +98,7 @@ String bodyScript = """
 <script>
 
 // get the data
-d3.csv("testcsv.csv", function(error, links) {
+d3.csv("${f}", function(error, links) {
 
 var nodes = {};
 
@@ -108,9 +108,13 @@ links.forEach(function(link) {
         (nodes[link.source] = {name: link.source, url: link.url});
     link.target = nodes[link.target] || 
         (nodes[link.target] = {name: link.target, url : link.url});
-    link.value = +link.value;
+    //link.units = +link.units;
+link.units = 1;
+console.log(link);
 });
-
+//console.log(nodes);
+//console.log("d3.values.nodes")
+//console.log(d3.values(nodes));
 var width = 500,
     height = 300;
 
@@ -127,7 +131,7 @@ var force = d3.layout.force()
 var  v = d3.scale.linear().range([0, 100]);
 
 // Scale the range of the data
-v.domain([0, d3.max(links, function(d) { return d.value; })]);
+v.domain([0, d3.max(links, function(d) { return d.units; })]);
 
 
 var svg = d3.select("body").append("svg")
