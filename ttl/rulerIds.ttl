@@ -1,5 +1,3 @@
-@prefix owl:        <http://www.w3.org/2002/07/owl#> .
-
 <urn:cite:chron:j-alexandrians_ruler1> owl:sameAs <urn:cite:chron:j-alexandrians.ruler1> .
 <urn:cite:chron:j-alexandrians_ruler2> owl:sameAs <urn:cite:chron:j-alexandrians.ruler2> .
 <urn:cite:chron:j-alexandrians_ruler3> owl:sameAs <urn:cite:chron:j-alexandrians.ruler3> .
