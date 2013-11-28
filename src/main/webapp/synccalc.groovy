@@ -40,8 +40,6 @@ syncFile.eachLine {  l ->
     count++
 }
 
-//String testCsv = "source,target,value,url\na,b,1,url\na,c,1,url2\nb,c,1,url3,a,d,1,url4\n"
-
 html.html {
     head {
 	link(type : 'text/css',  rel : 'stylesheet',  href : 'css/chron.css', title : 'CSS stylesheet')
@@ -64,7 +62,11 @@ html.html {
     	
         article {
             div {
-                p("Data from file ${f}")
+                p {
+                    mkp.yield "Formal model available "
+                    a (href:"${f}", "here")
+                    mkp.yield "."
+                }
             }
             div (style : "float:right;width:40%;") {
 
@@ -74,11 +76,26 @@ html.html {
                             String evt1 = jg.getLabel(syn[1])
                             String evt2 = jg.getLabel(syn[4])
                             
-                            if (syn.size() > 5) {
-                                mkp.yield "${evt1} ${syn[2]} ${evt2} by ${syn[5]}: "
-                            } else {
-                                mkp.yield "${evt1} ${syn[2]} ${evt2}: "
+                            switch (syn[2]) {
+                                case "precedes":
+                                    case "follows":
+                                    if (syn.size() > 5) {
+                                    if (syn[5] == "1") {
+                                        mkp.yield "${evt1} ${syn[2]} ${evt2} by 1 year." 
+                                    } else {
+                                        mkp.yield "${evt1} ${syn[2]} ${evt2} by ${syn[5]} years." 
+                                    }
+                                } else {
+                                    mkp.yield "${evt1} ${syn[2]} ${evt2}."
+                                }
+                                break
+
+                                case "contemporary":
+                                    mkp.yield "${evt1} contemporary with ${evt2}."
+                                break
                             }
+                            
+                            mkp.yield " See "
                             a (href : "${texts}?request=GetPassagePlus&urn=${syn[0]}", "source")
 
                         }
