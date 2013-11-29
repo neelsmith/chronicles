@@ -3,7 +3,7 @@ urn:cite:chron:pedersen.1,721 BC,March 19,Babylon,Total lunar eclipse,Thoth,29.5
 urn:cite:chron:pedersen.8,432 BC,June 27,Athens,Time of Summer solstice,Phamenoth,21,,
 urn:cite:chron:pedersen.9,383 BC,Dec 23,Babylon,Beginning of small lunar eclipse,Thoth,26.5,366,urn:cite:chron:heraclian.1
 urn:cite:chron:pedersen.10,382 BC,June 18,Babylon,Beginning of partial lunar eclipse,Phamenoth,24.5,,
-urn:cite:chron:pedersen.11,382 BC,Dec 12,Babylon,Beginning of total lunar eclipse,Thoth,16.5,,
+urn:cite:chron:pedersen.11,382 BC,Dec 12,Babylon,Beginning of total lunar eclipse,Thoth,16.5,367,urn:cite:chron:heraclian.1
 urn:cite:chron:pedersen.16,280 BC,,Alexandria,Time of summer solstice,,,,
 urn:cite:chron:pedersen.30,201 BC,Sept 22,Alexandria,End of a lunar eclipse lasting 3 hours,,,,
 urn:cite:chron:pedersen.31,200 BC,March 19,Alexandria,Beginning of a total lunar eclipse,,,,
@@ -19,8 +19,8 @@ urn:cite:chron:pedersen.43,135 BC,March 31,,Total lunar eclipse,,,,
 urn:cite:chron:pedersen.44,135 BC,,,Time of summer solstice,,,,
 urn:cite:chron:pedersen.45,,March 23,,Time of vernal equinox,,,,
 urn:cite:chron:pedersen.47,128 BC,March 23,Rhodes,Time of vernal equinox,,,,
-urn:cite:chron:pedersen.54,98 AD,Jan 14,Rome,Occultation of [beta] Scorpii by the Moon,,,,
-urn:cite:chron:pedersen.62,132 AD,March 7,Alexandria,Autumnal equinox,,,,
+urn:cite:chron:pedersen.54,98 AD,Jan 14,Rome,Occultation of [beta] Scorpii by the Moon,Pachon,17.5,9,urn:cite:chron:heraclian.54
+urn:cite:chron:pedersen.62,132 AD,March 7,Alexandria,Autumnal equinox,Athyr,7,17,urn:cite:chron:heraclian.54
 urn:cite:chron:pedersen.78,137 AD,October 8,Alexandria,Opposition of Jupiter at a longitude of 14;23,Man,2,,
-urn:cite:chron:pedersen.89,139 AD,Sept 26,Alexandria,Time of Autumnal equinox,,,,
-urn:cite:chron:pedersen.92,140 AD,June 25,Alexandria,Time of summer Solstice,,,,
+urn:cite:chron:pedersen.89,139 AD,Sept 26,Alexandria,Time of Autumnal equinox,Athyr,9,3,urn:cite:chron:heraclian.55
+urn:cite:chron:pedersen.92,140 AD,June 25,Alexandria,Time of summer Solstice,Mesore,11.5,3,urn:cite:chron:heraclian.55
