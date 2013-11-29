@@ -12,20 +12,37 @@ import static groovyx.net.http.Method.*
 */
 class EgyptianDate {
 
-    Integer debug = 0
-
     /** Month of year */
     EgyptianMonth month
     
     /** Day of month, must be between 1-30 inclusive. */
-    Integer day
+    Number day
+
+    /** Map of lower-case Strings to enumerated values for
+    * Egyptian months.
+    */
+    LinkedHashMap monthNames = [
+        "thoth" : EgyptianMonth.THOTH,
+        "phaophi": EgyptianMonth.PHAOPHI, 
+        "athyr": EgyptianMonth.ATHYR, 
+        "choiak": EgyptianMonth.CHOIAK, 
+        "tybi": EgyptianMonth.TYBI, 
+        "mechir": EgyptianMonth.MECHIR, 
+        "phamenoth": EgyptianMonth.PHAMENOTH, 
+        "parmouthi": EgyptianMonth.PARMOUTHI, 
+        "pachon": EgyptianMonth.PACHON, 
+        "payni": EgyptianMonth.PAYNI, 
+        "epiphi": EgyptianMonth.EPIPHI, 
+        "mesore": EgyptianMonth.MESORE
+    ]
+   
 
 
-    LinkedHashMap monthNames = ["thoth" : EgyptianMonth.THOTH ]
-
-    //PHAOPHI, ATHYR, CHOIAK, TYBI, MECHIR, PHAMENOTH, PARMOUTHI, PACHON, PAYNI, EPIPHI, MESORE]
-
-
+    /** Constructor taking month object and day number.
+    * @param m Enumerated value for month in Egyptian calendar.
+    * @param d Day number within month.
+    * @throws Exception for invalid values of m or d.
+    */
     EgyptianDate(EgyptianMonth m, Integer d) 
     throws Exception {
         if ((d < 1) || (d > 30)) {
@@ -35,19 +52,23 @@ class EgyptianDate {
         this.day = d
     }
 
-
-EgyptianDate(String monthName, Integer d) 
+    /** Constructor taking month object and day number.
+    * @param m Enumerated value for month in Egyptian calendar.
+    * @param d Day number within month.
+    * @throws Exception for invalid values of m or d.
+    */
+    EgyptianDate(String monthName, Integer d) 
     throws Exception {
         if ((d < 1) || (d > 30)) {
             throw new Exception ("EgyptianDate exception:  day number must be between 1 and 30 inclusive.")
         }
-    this.day = d
+        this.day = d
 
-    String lower = monthName.toLowerCase()
-    if (! monthNames.containsKey(lower)) {
-        throw new Exception ("EgyptianDate exception: ${monthName} not a valid month name.")
-    }
-    this.month = monthNames[lower]
+        String lower = monthName.toLowerCase()
+        if (! monthNames.containsKey(lower)) {
+            throw new Exception ("EgyptianDate exception: ${monthName} not a valid month name.")
+        }
+        this.month = monthNames[lower]
     }
 
 

@@ -40,9 +40,8 @@
         <citeProperty name="Label" label="Label" type="string"></citeProperty>
         <citeProperty name="Month" label="Egyptian month" type="string"></citeProperty>
         <citeProperty name="Day" label="Day of month" type="number"></citeProperty>
-        <citeProperty name="Year" label="Year from epoch" type="number"></citeProperty>
-        
-        
+        <citeProperty name="Year" label="Year within reign" type="number"></citeProperty>
+        <citeProperty name="Ruler" label="Ruler" type="citeurn"></citeProperty>
         
     </citeCollection>
     
