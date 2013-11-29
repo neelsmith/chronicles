@@ -35,4 +35,21 @@ class TestEgyptian extends GroovyTestCase {
         }
     }
 
+
+    void testEpagomenal() {
+        EgyptianDate ed = new EgyptianDate("epagomenal", 1)
+        assert ed.day == 1
+        assert ed.month == EgyptianMonth.EPAGOMENAL
+
+        shouldFail {
+            EgyptianDate ed2 = new EgyptianDate("epagomenal", 6)
+        }
+
+
+        shouldFail {
+            EgyptianDate ed3 = new EgyptianDate(EgyptianMonth.EPAGOMENAL, 6)
+        }
+
+    }
+
 }

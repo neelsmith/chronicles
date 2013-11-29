@@ -33,7 +33,8 @@ class EgyptianDate {
         "pachon": EgyptianMonth.PACHON, 
         "payni": EgyptianMonth.PAYNI, 
         "epiphi": EgyptianMonth.EPIPHI, 
-        "mesore": EgyptianMonth.MESORE
+        "mesore": EgyptianMonth.MESORE,
+        "epagomenal": EgyptianMonth.EPAGOMENAL
     ]
    
 
@@ -49,6 +50,10 @@ class EgyptianDate {
             throw new Exception ("EgyptianDate exception:  day number must be between 1 and 30 inclusive.")
         }
         this.month = m
+
+        if ((this.month == EgyptianMonth.EPAGOMENAL) && (d > 5)) {
+            throw new Exception ("EgyptianDate exception:  epagomenal day number must be between 1 and 5 inclusive.")
+        }
         this.day = d
     }
 
@@ -59,16 +64,22 @@ class EgyptianDate {
     */
     EgyptianDate(String monthName, Integer d) 
     throws Exception {
-        if ((d < 1) || (d > 30)) {
-            throw new Exception ("EgyptianDate exception:  day number must be between 1 and 30 inclusive.")
-        }
-        this.day = d
-
         String lower = monthName.toLowerCase()
         if (! monthNames.containsKey(lower)) {
             throw new Exception ("EgyptianDate exception: ${monthName} not a valid month name.")
         }
         this.month = monthNames[lower]
+
+
+        if ((d < 1) || (d > 30)) {
+            throw new Exception ("EgyptianDate exception:  day number must be between 1 and 30 inclusive.")
+        }
+
+        if ((this.month == EgyptianMonth.EPAGOMENAL) && (d > 5)) {
+            throw new Exception ("EgyptianDate exception:  epagomenal day number must be between 1 and 5 inclusive.")
+        }
+        this.day = d
+
     }
 
 
