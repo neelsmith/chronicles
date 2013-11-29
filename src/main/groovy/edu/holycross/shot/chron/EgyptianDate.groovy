@@ -82,10 +82,20 @@ class EgyptianDate {
     }
 
 
+
+    /** Computes the (1-origin) number of the date within the 365-day
+    * Egyptian calendar.
+    * @returns A day count in the range 1..365 inclusive.
+    */
     Integer dayInYear() {
         return (30 * this.month.ordinal() + this.day)
     }
 
+
+    /** Overrides default comparison in order to compare dates
+    * based on member values.
+    * @returns true if both pairs of month and day values are equivalent.
+    */
     public boolean equals(EgyptianDate edate) {
         if ((this.month == edate.month) && (this.day == edate.day)) {
             return true
@@ -96,3 +106,4 @@ class EgyptianDate {
 
 
 }
+ 
