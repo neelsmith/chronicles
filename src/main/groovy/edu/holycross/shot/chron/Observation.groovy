@@ -39,10 +39,18 @@ class Observation {
     * Gregorian system. */
     GregorianCalendar gdate
 
+
+    LinkedHashMap gMonthNames = [
+        "march" : Calendar.MARCH
+    ]
+
     /** Constructor initializing from a CITE URN
     * and a SPARQL endpoint.
+    * @throws Exception if Gregorian date value cannot
+    * be instantiated.
     */
-    Observation(CiteUrn u, String sparqlUrl) {
+    Observation(CiteUrn u, String sparqlUrl) 
+    throws Exception {
         this.urn = u
 
         OQueryGenerator obsQuery = new OQueryGenerator()
@@ -55,6 +63,29 @@ class Observation {
         // Some properties may be null.  Test carefully.
         parsedReply.results.bindings.each { b ->
             System.err.println "BINDING " + b
+
+            if ((b.adbcyr != null) && (b.gregdate != null)) {
+                Integer yearNum
+                def yrParts = b.adbcyr.value.split(/\s+/)
+                def dateParts = b.gregdate.value.split(/\s+/)
+
+                Integer rawYear = yrParts[0] as Integer
+                if (yrParts[1] == "BC") {
+                    yearNum = (rawYear - 1) * -1
+                } else {
+                    yearNum = rawYear
+                }
+
+                String monthName = dateParts[0].toLowerCase()
+                Integer day = dateParts[1] as Integer
+
+                if (! gMonthNames.containsKey(monthName)) {
+                    throw new Exception("Observation: unrecognized month name ${dateParts[0]}")
+                }
+                // check on monthName
+                this.gdate = new GregorianCalendar(yearNum, gMonthNames[monthName],day)
+            }
+
             
             if (b.month != null) {
                 Number day = b.day.value as BigDecimal
