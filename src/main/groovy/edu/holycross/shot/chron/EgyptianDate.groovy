@@ -79,7 +79,15 @@ class EgyptianDate {
             throw new Exception ("EgyptianDate exception:  epagomenal day number must be between 1 and 5 inclusive.")
         }
         this.day = d
+    }
 
+
+    public boolean equals(EgyptianDate edate) {
+        if ((this.month == edate.month) && (this.day == edate.day)) {
+            return true
+        } else {
+            return false
+        }
     }
 
 
