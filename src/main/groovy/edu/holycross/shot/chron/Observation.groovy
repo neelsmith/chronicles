@@ -7,14 +7,10 @@ import groovyx.net.http.HttpResponseException
 import static groovyx.net.http.ContentType.*
 import static groovyx.net.http.Method.*
 
-/** A class representation astronomical observations in 
+/** A class modelling astronomical observations in 
 * Ptolemy's Almagest
 */
 class Observation {
-
-    Integer debug = 0
-
-    // model of a Ptolemaic observation:
 
     /** URN for observation. */
     CiteUrn urn
@@ -23,25 +19,40 @@ class Observation {
     String label
 
     /** Date of observation (month and day) as recorded
-    * by Ptolemy in the Egyptian calendar. */
+    * by Ptolemy in the Egyptian calendar. Will be null
+    * for obsevations that Ptolemy dates by other means
+    * such as Callipan cycle or Athenian archon. */
     EgyptianDate edate
 
-    /** Ruler. */
+    /** Ruler. Sometimes null. */
     CiteUrn ruler
 
-    /** Year within reign of ruler. */
+    /** Year within reign of ruler. Sometimes null.*/
     Integer yrInReign
 
-    /** Place of observation. */
+    /** Place of observation. Sometimes null.*/
     String placeName
     
     /** Date of observation (year, month, day) in the
-    * Gregorian system. */
+    * Gregorian system, as computed by Pedersen and Manitius. */
     GregorianCalendar gdate
 
 
+    /** Utility for accessing enumeration of Calendar 
+    * class months by lower case name. */
     LinkedHashMap gMonthNames = [
-        "march" : Calendar.MARCH
+        "january" : Calendar.JANUARY,
+        "february" : Calendar.FEBRUARY,
+        "march" : Calendar.MARCH,
+        "april" : Calendar.APRIL,
+        "may" : Calendar.MAY,
+        "june" : Calendar.JUNE,
+        "july" : Calendar.JULY,
+        "august" : Calendar.AUGUST,
+        "september" : Calendar.SEPTEMBER,
+        "october" : Calendar.OCTOBER,
+        "november" : Calendar.NOVEMBER,
+        "december" : Calendar.DECEMBER
     ]
 
     /** Constructor initializing from a CITE URN
