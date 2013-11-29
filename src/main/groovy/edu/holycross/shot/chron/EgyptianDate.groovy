@@ -82,6 +82,10 @@ class EgyptianDate {
     }
 
 
+    Integer dayInYear() {
+        return (30 * this.month.ordinal() + this.day)
+    }
+
     public boolean equals(EgyptianDate edate) {
         if ((this.month == edate.month) && (this.day == edate.day)) {
             return true
