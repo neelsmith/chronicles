@@ -62,7 +62,7 @@ class EgyptianDate {
     * @param d Day number within month.
     * @throws Exception for invalid values of m or d.
     */
-    EgyptianDate(String monthName, Integer d) 
+    EgyptianDate(String monthName, Number d) 
     throws Exception {
         String lower = monthName.toLowerCase()
         if (! monthNames.containsKey(lower)) {

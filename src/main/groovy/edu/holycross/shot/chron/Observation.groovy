@@ -16,21 +16,66 @@ class Observation {
 
     // model of a Ptolemaic observation:
 
+    /** URN for observation. */
     CiteUrn urn
-    String label
-    
 
+    /** Human-readable label. */
+    String label
+
+    /** Date of observation (month and day) as recorded
+    * by Ptolemy in the Egyptian calendar. */
+    EgyptianDate edate
+
+    /** Ruler. */
+    CiteUrn ruler
+
+    /** Year within reign of ruler. */
+    Integer yrInReign
+
+    /** Place of observation. */
+    String placeName
+    
+    /** Date of observation (year, month, day) in the
+    * Gregorian system. */
+    GregorianCalendar gdate
 
     /** Constructor initializing from a CITE URN
     * and a SPARQL endpoint.
     */
     Observation(CiteUrn u, String sparqlUrl) {
+        this.urn = u
+
         OQueryGenerator obsQuery = new OQueryGenerator()
         String obsReply = getSparqlReply(sparqlUrl,"application/json",obsQuery.getObservationQuery(u.toString()))
         def slurper = new groovy.json.JsonSlurper()
         def parsedReply = slurper.parseText(obsReply)
         
+        System.err.println "Query " + obsQuery.getObservationQuery(u.toString())
+
+        // Some properties may be null.  Test carefully.
+        parsedReply.results.bindings.each { b ->
+            System.err.println "BINDING " + b
+            
+            if (b.month != null) {
+                Number day = b.day.value as BigDecimal
+                this.edate = new EgyptianDate(b.month.value, day)
+            }
+
+            if (b.place != null) {
+                this.placeName =  b.place.value
+            }
+
+            if (b.ruler != null) {
+                this.ruler =  new CiteUrn(b.ruler.value)
+            }
+
+
+
+        }
     }
+
+
+
 
 
     /** Submits a SPARQL query to the configured endpoint
