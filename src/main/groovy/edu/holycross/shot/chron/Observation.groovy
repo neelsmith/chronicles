@@ -42,38 +42,39 @@ class Observation {
     * class months by lower case name. */
     LinkedHashMap gMonthNames = [
         "january" : Calendar.JANUARY,
+        "jan" : Calendar.JANUARY,
         "february" : Calendar.FEBRUARY,
+        "feb" : Calendar.FEBRUARY,
         "march" : Calendar.MARCH,
+        "mar" : Calendar.MARCH,
         "april" : Calendar.APRIL,
+        "apr" : Calendar.APRIL,
         "may" : Calendar.MAY,
         "june" : Calendar.JUNE,
+        "jun" : Calendar.JUNE,
         "july" : Calendar.JULY,
+        "jul" : Calendar.JULY,
         "august" : Calendar.AUGUST,
+        "aug" : Calendar.AUGUST,
         "september" : Calendar.SEPTEMBER,
+        "sept" : Calendar.SEPTEMBER,
         "october" : Calendar.OCTOBER,
+        "oct" : Calendar.OCTOBER,
         "november" : Calendar.NOVEMBER,
-        "december" : Calendar.DECEMBER
+        "nov" : Calendar.NOVEMBER,
+        "december" : Calendar.DECEMBER,
+        "dec" : Calendar.DECEMBER
     ]
 
-    /** Constructor initializing from a CITE URN
-    * and a SPARQL endpoint.
-    * @throws Exception if Gregorian date value cannot
-    * be instantiated.
-    */
-    Observation(CiteUrn u, String sparqlUrl) 
-    throws Exception {
-        this.urn = u
 
-        OQueryGenerator obsQuery = new OQueryGenerator()
-        String obsReply = getSparqlReply(sparqlUrl,"application/json",obsQuery.getObservationQuery(u.toString()))
+    void initFromJson(String json) {
         def slurper = new groovy.json.JsonSlurper()
-        def parsedReply = slurper.parseText(obsReply)
-        
-        System.err.println "Query " + obsQuery.getObservationQuery(u.toString())
+        def parsedReply = slurper.parseText(json)
 
         // Some properties may be null.  Test carefully.
         parsedReply.results.bindings.each { b ->
-            System.err.println "BINDING " + b
+            this.urn = new CiteUrn(b.urn.value)
+
             this.label = b.label.value
 
             if ((b.adbcyr != null) && (b.gregdate != null)) {
@@ -115,8 +116,27 @@ class Observation {
             if (b.yr != null) {
                 this.yrInReign = b.yr.value as Integer
             }
-
         }
+
+    }
+
+
+
+    Observation(String json) {
+        initFromJson(json)
+    }
+
+
+    /** Constructor initializing from a CITE URN
+    * and a SPARQL endpoint.
+    * @throws Exception if Gregorian date value cannot
+    * be instantiated.
+    */
+    Observation(CiteUrn u, String sparqlUrl) 
+    throws Exception {
+        OQueryGenerator obsQuery = new OQueryGenerator()
+        String obsReply = getSparqlReply(sparqlUrl,"application/json",obsQuery.getFullObservationQuery(u.toString()))
+        initFromJson(obsReply)
     }
 
 

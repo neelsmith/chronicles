@@ -5,7 +5,7 @@ import edu.harvard.chs.cite.CiteUrn
 import static org.junit.Assert.*
 import org.junit.Test
 
-class TestObservation extends GroovyTestCase {
+class TestOneObservation extends GroovyTestCase {
 
     String sparql = "http://localhost:3030/ds/"
     CiteUrn u = new CiteUrn("urn:cite:chron:pedersen.1")    
@@ -17,7 +17,7 @@ class TestObservation extends GroovyTestCase {
 
     void testConstructors() {
         Observation obs = new Observation(u, sparql)
-        assert obs.urn == u
+        assert obs.urn.toString() == u.toString()
         assert obs.placeName == expectedPlace
         assert obs.ruler.toString() == expectedRuler
         assert obs.yrInReign == expectedYearInReign
