@@ -63,6 +63,7 @@ class Observation {
         // Some properties may be null.  Test carefully.
         parsedReply.results.bindings.each { b ->
             System.err.println "BINDING " + b
+            this.label = b.label.value
 
             if ((b.adbcyr != null) && (b.gregdate != null)) {
                 Integer yearNum
@@ -100,7 +101,9 @@ class Observation {
                 this.ruler =  new CiteUrn(b.ruler.value)
             }
 
-
+            if (b.yr != null) {
+                this.yrInReign = b.yr.value as Integer
+            }
 
         }
     }
