@@ -29,4 +29,10 @@
         <source type="file" value="rulersToObservations.csv"></source>
     </index>
 
+
+    <index verb="chron:synchronizedWith" inverse="chron:synchronizedWith">
+        <source type="file" value="obsToArchon.csv"></source>
+    </index>
+
+
 </indexInventory>
