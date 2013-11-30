@@ -1,0 +1,4 @@
+evidence,source,synchronization,synctype,target,units
+urn:cts:greekLit:tlg0003.tlg001:2.2,urn:cite:chron:demo.pelopwar,contemporary,eponym,urn:cite:chron:archon.40,0
+urn:cite:chron:archon,urn:cite:chron:archon.40,follows,eponym,urn:cite:chron:archon.72,1
+urn:cts;greekLit:tlg0363.001:3.1,urn:cite:chron:archon.72,contemporary,event,urn:cite:chron:pedersen.8,0
