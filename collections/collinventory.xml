@@ -481,6 +481,18 @@
         
     </citeCollection>
     
+    <citeCollection canonicalId="Demo" label="Label" urn="urn:cite:chron:demo">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Selection of events in ancient history</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Selection of events to illustrate automated processing</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Events attested in ancient chronological sources</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        <source type="file" value="demos.csv"/>
+        <citeProperty name="Event" label="Event URN" type="citeurn"/>
+        <citeProperty name="Label" label="Event" type="string"/>
+        
+    </citeCollection>
     
     <citeCollection canonicalId="Event" label="Label" urn="urn:cite:chron:event">
         <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>

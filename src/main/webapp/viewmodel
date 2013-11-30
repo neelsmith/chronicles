@@ -71,10 +71,16 @@ html.html {
 
                 ul {
                     synchronisms.each { syn ->
+                        // check for empty lines creeping in...
+                        if (syn.size() > 4) {
+
                         li {
                             String evt1 = jg.getLabel(syn[1])
                             String evt2 = jg.getLabel(syn[4])
-                            
+                                
+                                //System.err.println "Event 1 ${syn[1]} labelled ${evt1}"
+                                //System.err.println "Event 2 ${syn[4]} labelled ${evt2}"
+
                             switch (syn[2]) {
                                 case "precedes":
                                     case "follows":
@@ -97,6 +103,7 @@ html.html {
                             mkp.yield " See "
                             a (href : "${texts}?request=GetPassagePlus&urn=${syn[0]}", "source")
 
+                        }
                         }
                     }
                     

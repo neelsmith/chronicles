@@ -16,7 +16,7 @@ MarkupBuilder html = new MarkupBuilder(writer)
 
 html.html {
     head {
-        title("Formal models of chronoloiges")
+        title("Formal models of chronologies")
 	link(type : 'text/css',  rel : 'stylesheet',  href : 'css/chron.css', title : 'CSS stylesheet')
     }
     
@@ -40,11 +40,17 @@ html.html {
         }
         ul {
             li {
-                mkp.yield "relative chronology of Sicilian colonization, "
-                a(href : "viewmodel?f=chronologies/colonies-thucydides.csv", "according to Thucycides")
-                mkp.yield "."
+                a(href : "viewmodel?f=chronologies/pelop-war.csv", "Outbreak of the Peloponnesian War")
+                mkp.yield ", according to Thucycides"
             }
+
+
+            li {
+                a(href : "viewmodel?f=chronologies/phidias.csv", "Phidias makes the chryselephantine statue")
+            }
+
         }
+
     }
     footer {
         mkp.yield "INSERTFOOTER"
