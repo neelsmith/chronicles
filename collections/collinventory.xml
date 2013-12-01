@@ -2,6 +2,24 @@
 <?xml-model href="file:/data/repos/git/chronicles/collections/CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <collectionService xmlns="http://chs.harvard.edu/xmlns/cite">
     
+    <citeCollection canonicalId="Psg" label="Label" urn="urn:cite:chron:pmarch">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Archons in the Parian Marble </title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Archons in the Parian Marble</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Archons cited in the Parian Marble and dated in the epoch of text</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        
+        <source type="file" value="pmarchons.csv"/>
+        
+        <citeProperty name="Psg" label="Archon citation" type="citeurn"/>
+        <citeProperty name="Archon" label="Archon" type="citeurn"></citeProperty>
+        <citeProperty name="Label" label="Label" type="string"></citeProperty>
+        <citeProperty name="Reference" label="Text citation" type="ctsurn"></citeProperty>
+        <citeProperty name="YrsFromEpoch" label="Years from epoch" type="number"></citeProperty>
+
+    </citeCollection>
+    
     
     <citeCollection canonicalId="Colony" label="Label" urn="urn:cite:chron:colony">
         <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
