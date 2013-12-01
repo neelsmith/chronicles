@@ -43,13 +43,59 @@
     <!-- **********************************************************************  -->
     <!-- BEGIN DATA: 
     -->
-        <textgroup urn="urn:cts:greekLit:tlg0016">
-        <groupname xml:lang="eng">Herodotus</groupname>
-            <work urn="urn:cts:greekLit:tlg0016.tlg001" xml:lang="grc">
-            <title xml:lang="eng">The Histories</title>
-                <edition urn="urn:cts:greekLit:tlg0016.tlg001.hc">
-                <label xml:lang="eng">Holy Cross edition</label>
-                
+    <textgroup
+        urn="urn:cts:greekLit:tlg0060">
+        <groupname
+            xml:lang="eng">Diodorus Siculus</groupname>
+        <work
+            urn="urn:cts:greekLit:tlg0060.tlg001"
+            xml:lang="grc">
+            <title
+                xml:lang="eng">The Histories</title>
+            <edition
+                urn="urn:cts:greekLit:tlg0060.tlg001.hc">
+                <label
+                    xml:lang="eng">Holy Cross edition (in progress)</label>
+                <online
+                    docname="diodorus.xml">
+                    <validate
+                        schema="chstei.rng"/>
+                    <namespaceMapping
+                        abbreviation="tei"
+                        nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation
+                            label="book"
+                            scope="/tei:TEI/tei:text/tei:body"
+                            xpath="/tei:div[@n = '?']">
+                            <citation
+                                label="chapter"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+                                xpath="/tei:div[@n = '?']">
+                                <citation
+                                    label="section"
+                                    scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']"
+                                    xpath="/tei:div[@n = '?']"/>
+                            </citation>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
+    </textgroup>
+    <textgroup
+        urn="urn:cts:greekLit:tlg0016">
+        <groupname
+            xml:lang="eng">Herodotus</groupname>
+        <work
+            urn="urn:cts:greekLit:tlg0016.tlg001"
+            xml:lang="grc">
+            <title
+                xml:lang="eng">The Histories</title>
+            <edition
+                urn="urn:cts:greekLit:tlg0016.tlg001.hc">
+                <label
+                    xml:lang="eng">Holy Cross edition</label>
                 <online
                     docname="hdt.xml">
                     <validate
@@ -66,23 +112,30 @@
                                 label="chapter"
                                 scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
                                 xpath="/tei:div[@n = '?']">
-                                <citation label="section" xpath="/tei:seg[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']/tei:p"></citation>
+                                <citation
+                                    label="section"
+                                    scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']/tei:p"
+                                    xpath="/tei:seg[@n = '?']"/>
                             </citation>
                         </citation>
                     </citationMapping>
                 </online>
-                
             </edition>
         </work>
     </textgroup>
-   
-    <textgroup urn="urn:cts:greekLit:tlg0525">
-        <groupname xml:lang="eng">Pausanias</groupname>
-        <work urn="urn:cts:greekLit:tlg0525.tlg001" xml:lang="grc">
-            <title xml:lang="eng">Guide to Greece</title>
-            <edition urn="urn:cts:greekLit:tlg0525.tlg001.hc">
-                <label xml:lang="eng">Holy Cross edition</label>
-                
+    <textgroup
+        urn="urn:cts:greekLit:tlg0525">
+        <groupname
+            xml:lang="eng">Pausanias</groupname>
+        <work
+            urn="urn:cts:greekLit:tlg0525.tlg001"
+            xml:lang="grc">
+            <title
+                xml:lang="eng">Guide to Greece</title>
+            <edition
+                urn="urn:cts:greekLit:tlg0525.tlg001.hc">
+                <label
+                    xml:lang="eng">Holy Cross edition</label>
                 <online
                     docname="paus.xml">
                     <validate
@@ -99,23 +152,30 @@
                                 label="chapter"
                                 scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
                                 xpath="/tei:div[@n = '?']">
-                                <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']"></citation>
+                                <citation
+                                    label="section"
+                                    scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']"
+                                    xpath="/tei:div[@n = '?']"/>
                             </citation>
                         </citation>
                     </citationMapping>
                 </online>
-                
             </edition>
         </work>
     </textgroup>
-    
-    <textgroup urn="urn:cts:greekLit:tlg0003">
-        <groupname xml:lang="eng">Thucydides</groupname>
-        <work urn="urn:cts:greekLit:tlg0003.tlg001" xml:lang="grc">
-            <title xml:lang="eng">History of the Peloponnesian War</title>
-            <edition urn="urn:cts:greekLit:tlg0003.tlg001.demos">
-                <label xml:lang="eng">Dēmos edition</label>
-                
+    <textgroup
+        urn="urn:cts:greekLit:tlg0003">
+        <groupname
+            xml:lang="eng">Thucydides</groupname>
+        <work
+            urn="urn:cts:greekLit:tlg0003.tlg001"
+            xml:lang="grc">
+            <title
+                xml:lang="eng">History of the Peloponnesian War</title>
+            <edition
+                urn="urn:cts:greekLit:tlg0003.tlg001.demos">
+                <label
+                    xml:lang="eng">Dēmos edition</label>
                 <online
                     docname="tlg0003-tlg001-01-p5.xml">
                     <validate
@@ -135,11 +195,9 @@
                         </citation>
                     </citationMapping>
                 </online>
-                
             </edition>
         </work>
     </textgroup>
-    
     <textgroup
         urn="urn:cts:chronepig:chron">
         <groupname
@@ -149,9 +207,13 @@
             xml:lang="grc">
             <title
                 xml:lang="eng">The Parian Marble</title>
-            <edition urn="urn:cts:chronepig:chron.pm.hc">
-                <label xml:lang="eng">Holy Cross edition</label>
-                <description xml:lang="eng">In-progress edition of Greek text based on drawings of text in Jacoby, Das Marmor Parium</description>
+            <edition
+                urn="urn:cts:chronepig:chron.pm.hc">
+                <label
+                    xml:lang="eng">Holy Cross edition</label>
+                <description
+                    xml:lang="eng">In-progress edition of Greek text based on drawings of text in
+                    Jacoby, Das Marmor Parium</description>
                 <online
                     docname="mp-p5.xml">
                     <validate
@@ -171,7 +233,6 @@
                         </citation>
                     </citationMapping>
                 </online>
-                
             </edition>
             <translation
                 urn="urn:cts:chronepig:chron.pm.robertson"
@@ -211,9 +272,14 @@
             xml:lang="grc">
             <title
                 xml:lang="eng">Canon of Kings</title>
-            <translation urn="urn:cts:greekLit:tlg0363.chs01.hc" xml:lang="eng">
-                <label xml:lang="eng">Royal Canon</label>
-                <description xml:lang="eng">Translation of Greek text as published in Bickerman, Chronology of the Ancient World</description>
+            <translation
+                urn="urn:cts:greekLit:tlg0363.chs01.hc"
+                xml:lang="eng">
+                <label
+                    xml:lang="eng">Royal Canon</label>
+                <description
+                    xml:lang="eng">Translation of Greek text as published in Bickerman, Chronology
+                    of the Ancient World</description>
                 <!--<online
                     docname="ptolemy-eng.xml">
                     <validate
@@ -233,7 +299,8 @@
                         </citation>
                     </citationMapping>
                 </online>
-           --> </translation>
+           -->
+            </translation>
         </work>
     </textgroup>
     <textgroup
@@ -256,8 +323,6 @@
                     <namespaceMapping
                         abbreviation="tei"
                         nsURI="http://www.tei-c.org/ns/1.0"/>
-                   
-                   
                     <citationMapping>
                         <citation
                             label="era"
@@ -275,7 +340,7 @@
                         </citation>
                     </citationMapping>
                 </online>
-         </edition>
+            </edition>
             <translation
                 urn="urn:cts:latinLit:stoa0162.stoa005.hc001"
                 xml:lang="eng">
