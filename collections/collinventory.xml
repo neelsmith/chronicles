@@ -17,7 +17,7 @@
         <citeProperty name="Label" label="Label" type="string"></citeProperty>
         <citeProperty name="Reference" label="Text citation" type="ctsurn"></citeProperty>
         <citeProperty name="YrsFromEpoch" label="Years from epoch" type="number"></citeProperty>
-
+        <citeProperty name="Status" label="Epigraphic reading" type="string"></citeProperty>
     </citeCollection>
     
     
