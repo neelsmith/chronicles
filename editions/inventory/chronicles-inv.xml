@@ -52,10 +52,11 @@
             xml:lang="grc">
             <title
                 xml:lang="eng">The Histories</title>
-            <edition
-                urn="urn:cts:greekLit:tlg0060.tlg001.hc">
+            <translation
+                urn="urn:cts:greekLit:tlg0060.tlg001.hc" xml:lang="eng">
                 <label
-                    xml:lang="eng">Holy Cross edition (in progress)</label>
+                    xml:lang="eng">Oldfather translation</label>
+                <description xml:lang="eng">Holy Cross edition (in progress) of Oldfather's English trasnslation.  Covers only extant books, excluding so-called "fragments".</description>
                 <online
                     docname="diodorus.xml">
                     <validate
@@ -80,7 +81,7 @@
                         </citation>
                     </citationMapping>
                 </online>
-            </edition>
+            </translation>
         </work>
     </textgroup>
     <textgroup
