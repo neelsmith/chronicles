@@ -43,6 +43,72 @@
     <!-- **********************************************************************  -->
     <!-- BEGIN DATA: 
     -->
+        <textgroup urn="urn:cts:greekLit:tlg0016">
+        <groupname xml:lang="eng">Herodotus</groupname>
+            <work urn="urn:cts:greekLit:tlg0016.tlg001" xml:lang="grc">
+            <title xml:lang="eng">The Histories</title>
+                <edition urn="urn:cts:greekLit:tlg0016.tlg001.hc">
+                <label xml:lang="eng">Holy Cross edition</label>
+                
+                <online
+                    docname="hdt.xml">
+                    <validate
+                        schema="chstei.rng"/>
+                    <namespaceMapping
+                        abbreviation="tei"
+                        nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation
+                            label="book"
+                            scope="/tei:TEI/tei:text/tei:body"
+                            xpath="/tei:div[@n = '?']">
+                            <citation
+                                label="chapter"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+                                xpath="/tei:div[@n = '?']">
+                                <citation label="section" xpath="/tei:seg[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']/tei:p"></citation>
+                            </citation>
+                        </citation>
+                    </citationMapping>
+                </online>
+                
+            </edition>
+        </work>
+    </textgroup>
+   
+    <textgroup urn="urn:cts:greekLit:tlg0525">
+        <groupname xml:lang="eng">Pausanias</groupname>
+        <work urn="urn:cts:greekLit:tlg0525.tlg001" xml:lang="grc">
+            <title xml:lang="eng">Guide to Greece</title>
+            <edition urn="urn:cts:greekLit:tlg0525.tlg001.hc">
+                <label xml:lang="eng">Holy Cross edition</label>
+                
+                <online
+                    docname="paus.xml">
+                    <validate
+                        schema="chstei.rng"/>
+                    <namespaceMapping
+                        abbreviation="tei"
+                        nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation
+                            label="book"
+                            scope="/tei:TEI/tei:text/tei:body"
+                            xpath="/tei:div[@n = '?']">
+                            <citation
+                                label="chapter"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+                                xpath="/tei:div[@n = '?']">
+                                <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']"></citation>
+                            </citation>
+                        </citation>
+                    </citationMapping>
+                </online>
+                
+            </edition>
+        </work>
+    </textgroup>
+    
     <textgroup urn="urn:cts:greekLit:tlg0003">
         <groupname xml:lang="eng">Thucydides</groupname>
         <work urn="urn:cts:greekLit:tlg0003.tlg001" xml:lang="grc">
