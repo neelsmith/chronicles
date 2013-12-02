@@ -2,6 +2,34 @@
 <?xml-model href="file:/data/repos/git/chronicles/collections/CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <collectionService xmlns="http://chs.harvard.edu/xmlns/cite">
     
+    <citeCollection canonicalId="Event" label="Label" urn="urn:cite:chron:milne">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Events for chronological essay by Jonathan Milne </title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Jonathan Milne</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Events for chronological essay by Jonathan Milne</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Events for chronological essay by Jonathan Milne</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        
+        <source type="file" value="milne.csv"/>
+        <citeProperty name="Event" label="Event" type="citeurn"></citeProperty>
+        <citeProperty name="Label" label="Label" type="string"></citeProperty>
+    </citeCollection>
+
+
+    <citeCollection canonicalId="Event" label="Label" urn="urn:cite:chron:eratosthenes">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Events in life of Eratosthenes</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Jonathan Milne</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Events handled in chronological essay by Rebecca Finnegan</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Events in life of Eratosthenes attested in ancient sources and handled in chronological essay by Rebecca Finnegan</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        
+        <source type="file" value="finnegan.csv"/>
+        <citeProperty name="Event" label="Event" type="citeurn"></citeProperty>
+        <citeProperty name="Label" label="Label" type="string"></citeProperty>
+    </citeCollection>
+
+    
     <citeCollection canonicalId="Psg" label="Label" urn="urn:cite:chron:pmarch">
         <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
         <title xmlns="http://purl.org/dc/elements/1.1/">Archons in the Parian Marble </title>
