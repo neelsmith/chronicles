@@ -2,7 +2,7 @@ Source,Event,Relation,SyncType,Synced With,Amount
 urn:cts:latinLit:stoa0162.stoa005.hc-helm,urn:cite:chron:event.1,precedes,eponym,urn:cite:chron:j-athenians.ruler13,586 - 599
 urn:cts:latinLit:stoa0162.stoa005.hc-helm,urn:cite:chron:event.1,precedes,eponym,urn:cite:chron:j-latins.ruler2,586 - 599
 urn:cts:latinLit:stoa0162.stoa005.hc-helm,urn:cite:chron:event.2,precedes,eponym,urn:cite:chron:j-athenians.ruler19,485 - 498
-,,,eponym,urn:cite:chron:j-latins.ruler5,
+urn:cts:latinLit:stoa0162.stoa005.hc-helm,urn:cite:chron:event.2,precedes,eponym,urn:cite:chron:j-latins.ruler5,485 - 498
 urn:cts:latinLit:stoa0162.stoa005.hc-helm,urn:cite:chron:j-lydians.ruler9,contemporary / precedes,cycle,urn:cite:chron:olympiadyear.54_3,0 - 2
 ,,,eponym,urn:cite:chron:j-latins.ruler21,
 urn:cts:latinLit:stoa0162.stoa005.hc-helm,urn:cite:chron:event.4,contemporary,cycle,urn:cite:chron:olympiadyear.56_4,0 - 7
