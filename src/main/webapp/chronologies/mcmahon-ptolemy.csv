@@ -1,0 +1,4 @@
+Source,Event,Relation,SyncType,Synced With,Amount
+urn:cite:chron:j-persians.ruler1,urn:cite:chron:colony.col1,preceedes,epoch,urn:cite:chron:j-persians.ruler1.1,181
+ptolemy king list,urn:cite:chron:heraclian.5.1,precedes,epoch,urn:cite:chron:j-persians.ruler1.1,183
+urn:cite:chron:pedersen.1,urn:cite:chron:pedersen.1,contemporary,epoch,urn:cite:chron:heraclian.5.1,0
