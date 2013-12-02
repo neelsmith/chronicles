@@ -7,8 +7,8 @@ urn:cts:greekLit:tlg9010.tlg001:REFERENCE,urn:cite:chron:eratosthenes.A,contempo
 urn:cts:latinLit:stoa0162.stoa005:REFERENCE,urn:cite:chron:olympiadyear.126_3,contemporary,eponym,urn:cite:chron:j-alexandrians.ruler2,0
 urn:cts:greekLit:tlg9010.tlg001:REFERENCE,urn:cite:chron:eratosthenes.A,contemporary,cycle,urn:cite:chron:olympiadyear.126_4,0
 urn:cts:latinLit:stoa0162.stoa005:REFERENCE,urn:cite:chron:olympiadyear.126_4,contemporary,eponym,urn:cite:chron:j-alexandrians.ruler2,0
-urn for Almagest,urn:cite:chron:j-alexandrians.ruler2,contmeporary,event,urn:cite:chron:pedersen.18,0
-urn for Almagest,urn:cite:chron:j-alexandrians.ruler2,contmeporary,event,urn:cite:chron:pedersen.19,0
+urn:cts:greekLit:tlg0363.tlg001:REFERENCE,urn:cite:chron:j-alexandrians.ruler2,contmeporary,event,urn:cite:chron:pedersen.18,0
+urn:cts:greekLit:tlg0363.tlg001:REFERENCE,urn:cite:chron:j-alexandrians.ruler2,contmeporary,event,urn:cite:chron:pedersen.19,0
 urn for astronomical canon,urn:cite:chron:j-alexandrians.ruler3,follows,eponym,urn:cite:chron:j-alexandrians.ruler2,38
 urn:cts:greekLit:tlg9010.tlg001:REFERENCE,urn:cite:chron:eratosthenes.B,contemporary,eponym,urn:cite:chron:j-alexandrians.ruler3,0
 urn for Cleomedes,urn:cite:chron:eratosthenes.C,follows,event,urn:cite:chron:eratosthenes.B,unknown
