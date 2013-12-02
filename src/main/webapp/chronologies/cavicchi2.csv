@@ -1,0 +1,20 @@
+evidence,source,synchronization,synctype,target,units
+urn:cts:greekLit:tlg0003.tlg001.demos:6.3,urn:cite:chron:colony.col1,precedes,event,urn:cite:chron:colony.col2,1
+urn:cite:chron:j-persians.ruler1,urn:cite:chron:colony.col1,preceedes,epoch,urn:cite:chron:j-persians.ruler1.1,181
+ptolemy king list,urn:cite:chron:heraclian.5.1,precedes,epoch,urn:cite:chron:j-persians.ruler1.1,183
+urn:cite:chron:pedersen.1,urn:cite:chron:pedersen.1,contemporary,epoch,urn:cite:chron:heraclian.5.1,0
+urn:cts:greekLit:tlg0003.tlg001.demos:6.3,urn:cite:chron:colony.col1,precedes,event,urn:cite:chron:colony.col2,1
+urn:cts:greekLit:tlg0003.tlg001.demos:6.4,urn:cite:chron:colony.col6,precedes,event,urn:cite:chron:colony.col7,
+urn:cts:greekLit:tlg0003.tlg001.demos:6.3,urn:cite:chron:colony.col2,precedes,event,urn:cite:chron:colony.col3,5
+urn:cts:greekLit:tlg0003.tlg001.demos:6.5,urn:cite:chron:colony.col2,precedes,event,urn:cite:chron:colony.col13,75
+urn:cts:greekLit:tlg0003.tlg001.demos:6.3,urn:cite:chron:colony.col3,contemporary,event,urn:cite:chron:colony.col4,0
+urn:cts:greekLit:tlg0003.tlg001.demos:6.3,urn:cite:chron:colony.col2,precedes,event,urn:cite:chron:colony.col4,5
+urn:cts:greekLit:tlg0003.tlg001.demos:6.4,urn:cite:chron:colony.col7,precedes,event,urn:cite:chron:colony.col8,100
+urn:cts:greekLit:tlg0003.tlg001.demos:6.4,urn:cite:chron:colony.col2,precedes,event,urn:cite:chron:colony.col5,5
+urn:cts:greekLit:tlg0003.tlg001.demos:6.3,urn:cite:chron:colony.col5,contemporary,event,urn:cite:chron:colony.col3,0
+urn:cts:greekLit:tlg0003.tlg001.demos:6.5,urn:cite:chron:colony.col16,precedes,event,urn:cite:chron:colony.col12,
+urn:cts:greekLit:tlg0003.tlg001.demos:6.5,urn:cite:chron:colony.col2,precedes,event,urn:cite:chron:colony.col15,135
+urn:cts:greekLit:tlg0003.tlg001.demos:6.4,urn:cite:chron:colony.col5,precedes,event,urn:cite:chron:colony.col6,
+urn:cts:greekLit:tlg0003.tlg001.demos:6.4,urn:cite:chron:colony.col2,precedes,event,urn:cite:chron:colony.col9,45
+urn:cts:greekLit:tlg0003.tlg001.demos:6.4,urn:cite:chron:colony.col9,precedes,event,urn:cite:chron:colony.col10,108
+urn:cts:greekLit:tlg0003.tlg001.demos:6.5,urn:cite:chron:colony.col13,precedes,event,urn:cite:chron:colony.col14,20
