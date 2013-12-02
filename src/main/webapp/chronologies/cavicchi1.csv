@@ -1,6 +1,5 @@
 evidence,source,synchronization,synctype,target,units
-urn:cts:greekLit:tlg0003.tlg001.demos:6.3,urn:cite:chron:colony.col1,precedes,event,"urn:cite:chron:colony.col2
-",1
+urn:cts:greekLit:tlg0003.tlg001.demos:6.3,urn:cite:chron:colony.col1,precedes,event,urn:cite:chron:colony.col2,1
 urn:cts:latinLit:stoa0162.stoa005.hc-helm:15,urn:cite:chron:colony.col1,contemporary,cycle,urn:cite:chron:olympiadyear.10_1,0
 urn:cts:greekLit:tlg0003.tlg001.demos:6.3,urn:cite:chron:colony.col1,precedes,event,urn:cite:chron:colony.col2,1
 urn:cts:greekLit:tlg0003.tlg001.demos:6.4,urn:cite:chron:colony.col6,precedes,event,urn:cite:chron:colony.col7,
