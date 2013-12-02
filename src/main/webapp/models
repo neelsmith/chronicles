@@ -38,17 +38,78 @@ html.html {
             a(href : "http://shot.holycross.edu/courses/Time/F13/project/format.html", "here")
             mkp.yield ".)"
         }
+        h2 ("Two demos of formal models (Neel Smith)")
         ul {
+
             li {
                 a(href : "viewmodel?f=chronologies/pelop-war.csv", "Outbreak of the Peloponnesian War")
                 mkp.yield ", according to Thucycides"
             }
 
-
             li {
-                a(href : "viewmodel?f=chronologies/phidias.csv", "Phidias makes the chryselephantine statue")
+                a(href : "viewmodel?f=chronologies/phidias.csv", "Phidias 'makes the chryselephantine statue'")
+            }
+        }
+
+
+
+        h2("Contributions from Holy Cross Classics 267")
+        ul {
+            li {
+                a(href : "viewmodel?f=chronologies/milne-pharos.csv", "Construction of the lighthouse at Alexandria (Jonathan Milne)")
             }
 
+            li {
+                a(href : "viewmodel?f=chronologies/cieremans-pausanias.csv", "Life of Pausanias the Periegete (David Cieremans)")
+            }
+
+            li {
+                a(href : "viewmodel?f=chronologies/finnegan-eratosthenes.csv", "Eratosthenes measures the circumference of the earth (Rebecca Finnegan)")
+            }
+
+
+            li {
+                a(href : "viewmodel?f=chronologies/thompson.csv", "(Problem in classical sculpture) (Anne Thompson)")
+            }
+
+
+
+            li {
+                mkp.yield "Four chronologies for Sicilian colonization (Gloria McMahon):"
+                ul {
+
+                    li {
+                        a(href : "viewmodel?f=chronologies/mcmahon-archon.csv", "via archon date")
+                    }
+
+                    li {
+                        a(href : "viewmodel?f=chronologies/mcmahon-jerome.csv", "via Jerome regnal sequence")
+                    }
+                    li {
+                        a(href : "viewmodel?f=chronologies/mcmahon-olympiad.csv", "via Olympiad dating")
+                    }
+                    li {
+                        a(href : "viewmodel?f=chronologies/mcmahon-ptolemy.csv", "via Ptolemy")
+                    }
+                    
+                }
+                li {
+                    mkp.yield "Two models of Sicilian colonization (Andrew Cavicchi):"
+                }
+                ul {
+                    li {
+                        a(href : "viewmodel?f=chronologies/cavicchi-thucydides.csv", "relative chronology of Thucydides")
+                    }
+                
+                    li {
+                        a(href : "viewmodel?f=chronologies/cavicchi-jerome.csv", "Thucydides related to Jerome")
+                    }
+                }
+
+            }
+
+
+            
         }
 
     }
