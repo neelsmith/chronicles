@@ -1,4 +1,4 @@
-Source,Event,Relation,SyncType,Synced With,Amount
+evidence,src,synchronization,synctype,target,units
 urn:cite:chron:pedersen.8,urn:cite:chron:ptolarchon.1,contemporary ,epoch,urn:cite:chron:archon.72,0
 urn:cts:chronepig:chron.pm.robertson:a,urn:cite:chron:colony.col2,follows,epoch,urn:cite:chron:j-athenians.ruler29,21
 urn:cts:greekLit:tlg0060.tlg001:12.36,urn:cite:chron:archon.72,contemporary,event,urn:cite:chron:pedersen.8,0
