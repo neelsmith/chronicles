@@ -1,4 +1,4 @@
-Source,Event,Relation,SyncType,Synced With,Amount
+evidence,src,synchronization,synctype,target,units
 urn:cts:latinLit:stoa0162.stoa005.hc-helm:15,urn:cite:chron:colony.col1,precedes,event,urn:cite:chron:colony.col2,3
 urn:cts:latinLit:stoa0162.stoa005.hc-helm:15,urn:cite:chron:colony.col1,precedes,event,urn:cite:chron:colony.col4,5
 urn:cts:latinLit:stoa0162.stoa005.hc-helm:15,urn:cite:chron:colony.col1,precedes,event,chersonesus,24
