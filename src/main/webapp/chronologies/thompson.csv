@@ -1,4 +1,4 @@
-Source,Event,Relation,SyncType,Synced With,Amount
+evidence,source,synchronization,synctype,target,units
 urn:cts:latinLit:stoa0162.stoa005.hc-helm,urn:cite:chron:event.1,precedes,eponym,urn:cite:chron:j-athenians.ruler13,586 - 599
 urn:cts:latinLit:stoa0162.stoa005.hc-helm,urn:cite:chron:event.1,precedes,eponym,urn:cite:chron:j-latins.ruler2,586 - 599
 urn:cts:latinLit:stoa0162.stoa005.hc-helm,urn:cite:chron:event.2,precedes,eponym,urn:cite:chron:j-athenians.ruler19,485 - 498

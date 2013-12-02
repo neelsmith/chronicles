@@ -1,4 +1,4 @@
-Source,Event,Relation,SyncType,SyncedWith,Amount
+evidence,source,synchronization,synctype,target,units
 urn:cts:greekLit:tlg9010.tlg001:REFERENCE,urn:cite:chron:eratosthenes.A,contemporary,cycle,urn:cite:chron:olympiadyear.126_1,0
 urn:cts:latinLit:stoa0162.stoa005:REFERENCE,urn:cite:chron:olympiadyear.126_1,contemporary,eponym,urn:cite:chron:j-alexandrians.ruler2,0
 urn:cts:greekLit:tlg9010.tlg001:REFERENCE,urn:cite:chron:eratosthenes.A,contemporary,cycle,urn:cite:chron:olympiadyear.126_2,0

@@ -1,4 +1,4 @@
-Source,Event,Relation,SyncType,SyncedWith,Amount
+evidence,src,synchronization,synctype,target,units
 urn:cts:chronepig:chron.dog:x.34.5,urn:cite:chron:event.1,precedes,epoch,urn:cite:chron:epoch.dog.x,uncertain
 urn:cts:chronepig:chron.dog:x.34.5,urn:cite:chron:event.1,contemporary,event,urn:cite:chron:event.2,0
 urn:cts:chronepig:chron.dog:i.19.6,urn:cite:chron:event.3,precedes,epoch,urn:cite:chron:epoch.dog.i,uncertain
