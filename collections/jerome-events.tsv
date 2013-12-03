@@ -1,4 +1,4 @@
-Event	JText	Passage
+Event	JText	Psg
 urn:cite:chron:jevent.14_t1_1_2_e	Sub quo Theglath Phalassar rex Assyriorum magnam partem populi Judaeorum in Assyrios transtulit.	urn:cts:latinLit:stoa0162.stoa005:14.t1.1_2
 urn:cite:chron:jevent.14_t1_1_2_l	Arctinus Milesius versificator florentissimus habetur.	urn:cts:latinLit:stoa0162.stoa005:14.t1.1_2
 urn:cite:chron:jevent.14_t1_1_4_d	Remus et Romulus generantur, ex Marte et Ilia.	urn:cts:latinLit:stoa0162.stoa005:14.t1.1_4
@@ -15,11 +15,7 @@ urn:cite:chron:jevent.14_t1_8_2_e	Decem tribus gentis Judaeae, quae vocabantur I
 urn:cite:chron:jevent.14_t1_8_2_k	Thales Milesius physicus philosophus agnoscitur.	urn:cts:latinLit:stoa0162.stoa005:14.t1.8_2
 urn:cite:chron:jevent.14_t1_8_2_l	Sennacherib rex Chaldaeorum ad custodiendam regionem Judaeae accolas misit Assyrios, qui aemulatores Judaeae legis facti, Samaritae nuncupati sunt: quod in Latinam lingua exprimitur, custodes.	urn:cts:latinLit:stoa0162.stoa005:14.t1.8_2
 urn:cite:chron:jevent.15_t1_10_2_b	Apud Hebraeos prophetabant Esaias, Osee.	urn:cts:latinLit:stoa0162.stoa005:15.t1.10_2
-urn:cite:chron:jevent.16_t1_30_3_i	Alcmaeon clarus habetur	urn:cts:latinLit:stoa0162.stoa005:16.t1.30_3
-urn:cite:chron:jevent.16_t1_30_3_i	, et	urn:cts:latinLit:stoa0162.stoa005:16.t1.30_3
-urn:cite:chron:jevent.16_t1_30_3_i	Lesches Lesbius	urn:cts:latinLit:stoa0162.stoa005:16.t1.30_3
-urn:cite:chron:jevent.16_t1_30_3_i	, qui fecit	urn:cts:latinLit:stoa0162.stoa005:16.t1.30_3
-urn:cite:chron:jevent.16_t1_30_3_i	.	urn:cts:latinLit:stoa0162.stoa005:16.t1.30_3
+urn:cite:chron:jevent.16_t1_30_3_i	Alcmaeon clarus habetur, et Lesches Lesbius, qui fecit Parvam Iliada.	urn:cts:latinLit:stoa0162.stoa005:16.t1.30_3
 urn:cite:chron:jevent.16_t1_34_3_a	Hebraeorum pontifex maximus Elchias insignis habetur.	urn:cts:latinLit:stoa0162.stoa005:16.t1.34_3
 urn:cite:chron:jevent.16_t1_34_4_e	Terpander musicus insignis habetur.	urn:cts:latinLit:stoa0162.stoa005:16.t1.34_4
 urn:cite:chron:jevent.16_t1_35_1_b	Thales Milesius Examii filius, primus physicus philosophus agnoscitur, quem vixisse aiunt usque ad LVIII olympiadem.	urn:cts:latinLit:stoa0162.stoa005:16.t1.35_1
@@ -71,8 +67,7 @@ urn:cite:chron:jevent.17_t1_51_4_h	Agon Nemeacus primum ab Argivis actus, post e
 urn:cite:chron:jevent.17_t1_52_1_b	Mortuo Nabuchodonosor, Babyloniorum rege, suscepit imperium EVILMERODAC, cui successit frater ejus BALTASAR, sub quo Daniel eam scripturam, quae in pariete apparuerat, interpretatus est, significantem imperium Chaldaeorum in Medos et Persas transferendum.	urn:cts:latinLit:stoa0162.stoa005:17.t1.52_1
 urn:cite:chron:jevent.17_t1_52_2_i	Phalaris tyrannidem exercuit an. 16.	urn:cts:latinLit:stoa0162.stoa005:17.t1.52_2
 urn:cite:chron:jevent.17_t1_52_4_k	Abaris de Scythia venit in Graeciam.	urn:cts:latinLit:stoa0162.stoa005:17.t1.52_4
-urn:cite:chron:jevent.17_t1_53_2_b	Eugamon Cyrenaeus, qui	urn:cts:latinLit:stoa0162.stoa005:17.t1.53_2
-urn:cite:chron:jevent.17_t1_53_2_Telegoniam	fecit [scripsit], agnoscitur.	urn:cts:latinLit:stoa0162.stoa005:17.t1.53_2
+urn:cite:chron:jevent.17_t1_53_2_b	Eugamon Cyrenaeus, qui Telegoniam fecit [scripsit], agnoscitur.	urn:cts:latinLit:stoa0162.stoa005:17.t1.53_2
 urn:cite:chron:jevent.17_t1_53_3_c	Agon gymnicus, quem Panathenaeon vocant, [Athenis] actus.	urn:cts:latinLit:stoa0162.stoa005:17.t1.53_3
 urn:cite:chron:jevent.17_t1_54_1_d	Aesopus interimitur a Delphis.	urn:cts:latinLit:stoa0162.stoa005:17.t1.54_1
 urn:cite:chron:jevent.17_t1_54_3_e	Pisistratus Atheniensium tyrannus in Italiam transgreditur.	urn:cts:latinLit:stoa0162.stoa005:17.t1.54_3
