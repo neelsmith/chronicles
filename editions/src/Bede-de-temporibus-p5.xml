@@ -1,0 +1,1836 @@
+<TEI
+    xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>De temporibus</title>
+                <author>Bede</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>ROUGH DRAFT</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Follows Jones edition for 1-16; for 17-end, follows Mommsen's edition with
+                    readings of Mommsen's MS M (Paris BN lat. 4860)</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language
+                    ident="eng">English</language>
+                <language
+                    ident="lat">Latin</language>
+                <language
+                    ident="grc">Greek</language>
+                <language
+                    ident="grc-xlit">Greek in Perseus-style transliteration</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div
+                n="1">
+                <head
+                    n="title">De Temporibus Liber</head>
+                <p
+                    n="1">Tempora momentis horis diebus mensibus annis saeculis et aetatibus
+                    dividuntur.</p>
+                <p
+                    n="2">Momentum est minimum atque angustissimum tempus a motu siderum dictum, est
+                    enim extremitas horae in brevibus intervallis cum aliquid sibi cedit atque
+                    succedit. </p>
+                <p
+                    n="3">Hora graecum nomen est et tamen latinum sonat, hora enim finis est
+                    temporis sicut et horae sunt fines maris fluviorum vestimentorum.</p>
+                <p
+                    n="4">Constat autem quattuor punctis, decem minutis, <num>XL</num> momentis.</p>
+                <p
+                    n="5">Et notandum propter errorem cavendum quod computus partim natura, partim
+                    auctoritate vel consuetudine nitatur: natura, ut annum communem duodecim menses
+                    lunares habere; consuetudine, ut menses triginta diebus computari; auctoritate,
+                    ut hebdomadam septem feriis constare.</p>
+            </div>
+            <div
+                n="2">
+                <head
+                    n="title">De Die</head>
+                <p
+                    n="1">Dies vulgaris est solis praesentia super terras, qui proprie <num
+                        value="24">XXIIII</num> horis impletur.</p>
+                <p
+                    n="2">Hunc chaldei et persae inter duos solis exortus, aegyptii inter duos
+                    occasus, romani a medio noctis in medium, umbri et athenienses a meridie
+                    computant ad meridiem.</p>
+                <p
+                    n="3"> Moyses autem a mane ad mane unum diem appellat; sed domino surgente
+                    vespera sabbati lucescebat in primam sabbati ut homo de luce lapsus in tenebras
+                    deinceps e tenebris rediret ad lucem. </p>
+            </div>
+            <div
+                n="3">
+                <head
+                    n="title">De Nocte</head>
+                <p
+                    n="1">Nox est solis absentia terrarum umbra conditi, mortalibus ad requiem facta
+                    ne opere diutino avida deficeret humanitas [ubi rigidior ibi et ad opera
+                    minuenda et membra fovenda prolixior].</p>
+                <p
+                    n="2">Cuius partes sunt septem: crepusculum, id est dubia lux inter lucem et
+                    tenebras, nam creperum dubium dicimus; vesperum apparente stella huius nominis;
+                    conticinium quando omnia silent; intempestum quod est medium et inactuosum
+                    noctis tempus; gallicinium quando gallus resonat; matutinum inter abscessum
+                    [tenebrarum] noctis et aurorae adventum; et diluculum quasi iam incipiens parva
+                    diei lux.</p>
+                <p
+                    n="3">Haec et aurora solem praecedens.</p>
+            </div>
+            <div
+                n="4">
+                <head
+                    n="title">De Hebdomada</head>
+                <p
+                    n="1">Hebdomada septem diebus constat; octavus autem idem primus est ad quem
+                    reditur, eoque rursus hebdomada semper orditur.</p>
+                <p
+                    n="2">His nomen gentilitas a planetis indidit, habere se credens a sole
+                    spiritum, a luna corpus, a marte sanguinem, a mercurio ingenium et linguam, a
+                    iove temperantiam, a venere voluptatem, a saturno tarditatem.</p>
+                <p
+                    n="3">Sed sanctus Sylvester ferias appellari constituit, primum diem dominicum
+                    nuncupans imitatus hebraeos qui primam sabbati, secundam sabbati, et sic
+                    caeteras a numero nominant.</p>
+                <p
+                    n="4">Apud quos hebdomada totidem etiam annis peragitur, qui hebdomadam quoque
+                    hebdomadarum in diebus.</p>
+                <p
+                    n="5">Similiter habebant et annis quiquagesimum diem pentecosten, annum vero
+                    iubeleum, id est libertatem, vocantes.</p>
+            </div>
+            <div
+                n="5">
+                <head
+                    n="title">De Mense</head>
+                <p
+                    n="1">Mensis lunaris incremento lunae senioque conficitur, dum
+                        <num>XXVIIII</num> semis diebus paulo plusquam zodiacum peragit, sed
+                    facilitas computandi tridenis et undetricenis diebus lunae menses alternat.</p>
+                <p
+                    n="2">Solaris autem mensis <num>XXII</num> horis est amplior; ex quibus
+                        <num>XI</num> epactarum dies accrescunt quibus sol lunae cursum singulis
+                    annis exsuperat, duodecies enim viceni et bini <num>CCLXIIII</num> faciunt et
+                    undecies viceni et quaterni eundem numerum complent.</p>
+                <p
+                    n="3">Sed hebraei menses a luna nascente, romani a kalendis incipiunt.</p>
+                <p
+                    n="4">Aegyptii a quarto kalendarum septembrium usque in nonum kalendarum
+                    earundem, <num>XXX</num> diebus suos menses putantes; residuos quinque dies
+                    intercalares appellant.</p>
+                <p
+                    n="5">Qui primi ad solis cursum menses terminare coeperunt ne lunae velocior et
+                    dubius cursus impedimentum eis faceret calculandi.</p>
+            </div>
+            <div
+                n="6">
+                <head
+                    n="title">De Mensibus Romanorum</head>
+                <p
+                    n="1">Romani, auctore Romulo, decem mensibus annum, diebus vero
+                        <num>CCCIIII</num>, agebant.</p>
+                <p
+                    n="2">Qui primum mensem genitori suo Marti dicavit; secundum ab apertione frugum
+                    nominavit aprilem; tertium Maiae matri Mercurii, quartum Iunoni sacravit.</p>
+                <p
+                    n="3">Quintili et sextili, qui nunc a nativitate Iulii Caesaris et Augusti
+                    triumpho nuncupantur, et caeteris sequentibus a numero nomen imposuit.</p>
+                <p
+                    n="4">Quorum initia kalendas appellavit quia tunc calata, id est vocata, in
+                    capitolium plebe dicto quinquies vel septies verbo, calo, id est voco, quot dies
+                    superessent ad nonas pronunciabatur.</p>
+                <p
+                    n="5">Nonas autem quod nono ante idus die confluerent in urbem scituri quid
+                    esset eo mense faciendum.</p>
+                <p
+                    n="6">Porro idus diem qui medium dividit mensem, iduare enim etrusca lingua
+                    dividere est.</p>
+                <p
+                    n="7">His Numa duos menses adiciens, ianuarium a Iano, februarium a Februo deo
+                    lustrationum nominando, <num>CCCLIIII</num> diebus annum ad cursum lunae
+                    disposuit.</p>
+                <p
+                    n="8">Quem Iulius Caesar undecim diebus adiectis, sicut hodie servatur,
+                    instituit.</p>
+            </div>
+            <div
+                n="7">
+                <head
+                    n="title">De Solstitio et Aequinoctio</head>
+                <p
+                    n="1">Solstitia et aequinoctia bina putantur <num>VIII</num> kal. Ianuarii et
+                    Iulii aprilisque et Octobris — octavis scilicet in partibus Capricorni, Cancri,
+                    Arietis, et Librae. </p>
+                <p
+                    n="2">Sed aequinoctialis dies omni mundo aequalis est.</p>
+                <p
+                    n="3">Vario autem lucis incremento in Meroe longissimus dies <num>XII</num>
+                    horas aequinoctiales et octo partes unius horae colligit, Alexandriae vero
+                        <num>XIIII</num> hora, in Italia <num>XV</num>, in Britannia
+                    <num>XVII</num>, ubi aestate lucidae noctes haud dubie testantur.</p>
+                <p
+                    n="4">Id quod cogit ratio credi solstitii diebus accedente sole propius verticem
+                    mundi angusto lucis ambitu subiecta terrae continuos dies habere senis mensibus,
+                    noctesque e diverso ad brumam remoto.</p>
+                <p
+                    n="5">Quod fieri in insula Thyle Pytheas Massiliensis scribit sex dierum
+                    navigatione in septentrione a Britannia distante.</p>
+            </div>
+            <div
+                n="8">
+                <head
+                    n="title">De Temporibus</head>
+                <p
+                    n="1">Tempora sunt vices mutationum, quibus sol accendo vel recedendo anni
+                    temperat orbem.</p>
+                <p
+                    n="2">Hiems enim illo longius morante frigidus est et humidus; ver illo redeunte
+                    humidus et calidus; aestas illo superfervente calidus et siccus; autumnus illo
+                    decidente siccus et frigidus.</p>
+                <p
+                    n="3">Haec antiqui sexto die ante idus Februarias et Maias Augustasque et
+                    Novembres inchoabant, ut solstitia et aequinoctia in medio essent temporum.</p>
+                <p
+                    n="4">Ver autem orienti comparatur quia tunc ex terris omnia oriuntur; aestas
+                    meridiano eo quod pars eius calore flagrantior sit; autumnus occiduo eo quod ob
+                    confinium caloris et frigoris graves morbos habeat; hiems septentrioni eo quod
+                    frigore torpeat.</p>
+            </div>
+            <div
+                n="9">
+                <head
+                    n="title">De Annis</head>
+                <p
+                    n="1">Annus solaris vel civilis est dum sol <num>CCCLXV</num> diebus et
+                    quadrante zodiacum peragit; quem Romani a bruma, Hebraei ab aequinoctio verno,
+                    Graeci a solstitio, Aegyptii inchoant ab autumno.</p>
+                <p
+                    n="2">Annus lunaris communis <num>XII</num> lunis, id est diebus
+                        <num>CCCLIIII</num>; embolismus tredecim lunis et diebus trecentis
+                    octuaginta quattuor implentur, a luna paschali sumentes initium.</p>
+                <p
+                    n="3">Annus magnus est dum omnia sidera certis cursibus exactis ad locum suum
+                    revertuntur, quem sexcentis annis solaribus Iosephus dicit impleri.</p>
+            </div>
+            <div
+                n="10">
+                <head
+                    n="title">De Bissexto</head>
+                <p
+                    n="1">Bissextus ex quadrantis ratione per quadriennium conficitur, dum sol ad id
+                    signum ex quo egressus est non in <num>CCCLXV</num> diebus sed quarta diei parte
+                    superadiecta revertitur.</p>
+                <p
+                    n="2">Verbi gratia, si nunc aequinoctialem caeli locum [sol] oriens intraverit
+                    in hunc, anno sequente meridie, tertio vespere, quarto medio noctis, quinto
+                    rursum in exortu recurrens.</p>
+                <p
+                    n="3">Necessario diem praemonet augendum ne si forte non addatur per
+                        <num>CCCLXV</num> annos aequinoctium vernale brumali die proveniat.</p>
+                <p
+                    n="4">Quem aegyptii anno suo expleto, id est <num>IIII</num> Kal. Septembrium,
+                    Romani <num>VI</num> Kal. Martiarum, unde et nomen accepit, interponunt.</p>
+                <p
+                    n="5">Breviori autem et vulgari ratione bissextum retardatio generat solis non
+                    ad eandem lineam per <num>CCCLXV</num> dies plene redeuntis; quem si, verbi
+                    gratia, in aequinoctio vernali, quod iuxta aegyptios <num>XII</num> Kal.
+                    Aprilium die provenit, surgentem a medio orientis diligenter adnotaveris, hunc
+                    anno sequente die videlicet eodem aliquanto inferius oriri, et tertio, quarto,
+                    quintoque anno eandem diminutionem in tantum augeri reperies, ut, nisi diem ante
+                    superadicias, <num>XI</num> Kal. Aprilis aequinoctium facturus sol a medio
+                    surgat orientis, eandem scilicet tarditatem in caeteris quoque servaturus
+                    exortibus.</p>
+            </div>
+            <div
+                n="11">
+                <head
+                    n="title">De Circulo Decemnovenali</head>
+                <p
+                    n="1">Cyclum decemnovenalem propter <num>XIIII</num> lunas paschales nicaeana
+                    synodus instituit, eo quod ad eundem anni solari diem unaquaque luna per
+                        <num>XVIIII</num> annos <num>CCXXXV</num> circumacta vicibus inerrabili
+                    cursu redeat.</p>
+                <p
+                    n="2">Qui dividitur in ogdoadas et hendecadas, hoc est in <num>VIII</num> et
+                        <num>XI</num> annos; octo enim anni lunares totidem annos solares duobus
+                    tantum diebus transcendunt, quorum alter ad explementum occurrit hendecadis
+                    alter ratione saltus absumitur, alioquin hendecas solaris uno die transcenderet
+                    lunarem.</p>
+                <p
+                    n="3">Licet quidam violenter hos dies ex bissextis octo annorum supplere
+                    nitantur; cum bissextus soleat in mense februario soli superfusus et lunae
+                    futuro tempori nihil praeiudicare, et ipsi nullum hendecadi bissextum
+                    addant.</p>
+                <p
+                    n="4">Ut ergo apertius dicam, duo lunae dies qui supersunt in ogdoade duos qui
+                    desunt in hendecade complebunt.</p>
+            </div>
+            <div
+                n="12">
+                <head
+                    n="title">De Saltu Lunae</head>
+                <p
+                    n="1">Saltum lunae locus et hora citior incencionis eius per <num>XVIIII</num>
+                    annos efficit; quamvis enim quidam, singulas lunas <num>XXVIIII</num> semis
+                    diebus computantes, incensiones earum medio diei et medio noctis semper
+                    alternent, non in hoc tamen veritatem naturae sed calculandi facilitatem
+                    inquirunt.</p>
+                <p
+                    n="2">Nam si naturam quaeras luna primi mensis, quae nunc meridie, et secundi,
+                    quae nunc in medio noctis, accenditur, anno futuro hora et decem momentis et
+                    dimidio momenti et nonadecima parte dimidii momenti ante medium diei vel noctis
+                    illustrantur.</p>
+                <p
+                    n="3">Hac tamen distinctio non ad certum embolismi vel communis anni terminum,
+                    sed ad aequam divisionem <num>XVIIII</num> tendit annorum.</p>
+                <p
+                    n="4">Sicque per <num>XVIIII</num> annos lunaris accensio sese praeoccupando
+                    unius diei spatium, amittens ultimum decemnovalis cycli annum
+                        <num>CCCLXXXIII</num> diebus facit computari.</p>
+                <p
+                    n="5">Quod si facere negligas per <num>XV</num> decemnovenales cyclos
+                        <num>XV</num> tibi luna ubi prima putatur occurret.</p>
+            </div>
+            <div
+                n="13">
+                <head
+                    n="title">Continentia Circuli Eiusdem</head>
+                <p
+                    n="1">Cyclus idem paschalis <num>VIII</num> est lineis communitus. Primus ordo
+                    continet annos ab incarnatione domini, unius singulis annis augmento
+                    crescentes.</p>
+                <p
+                    n="2">Secundus indictiones romanorum, quae in se semper <num>XV</num> annorum
+                    cursu revolvuntur.</p>
+                <p
+                    n="3">Tertius epactas <num>XI</num> lunares, quae per singulos annos solares ad
+                    cursum lunae succrescunt et ad lunam kalendarum quaerendam semper adiciuntur,
+                    positae <num>XI</num> Kal. Aprilium.</p>
+                <p
+                    n="4">Quartus concurrentes septimanae dies quae, positae <num>VIIII</num> Kal.
+                    Apr. propter dispendium bissexti, necessario <num>XXVIII</num> annis implentur;
+                    quarum ratio cogit cyclos decemnovales <num>XXVIII</num> describi ut singulae
+                    concurrentes singulos cyclos inchoent, totaque summa paschalis calculi
+                        <num>DXXXII</num> annis explicetur.</p>
+                <p
+                    n="5">Quintus cyclum lunarem, quem tribus annis decemnovenalis praecedit
+                        <num>XVIIII</num> annis etiam ipse comprehensus.</p>
+                <p
+                    n="6">Sextus <num>XIIII</num> lunas, qua veteres pascha faciebant, quae a
+                    duodecimo Kal. Aprilium usque in <num>XIIII</num> Kal. Maiarum vario discursu
+                    vagantes, tempus incensionis ab <num>VIII</num> iduum Martiarum usque in nonas
+                    Apriles accipiunt.</p>
+                <p
+                    n="7">A <num>XIIII</num> autem lunae usque ad <num>XIIII</num> anni sequenti
+                    dies sunt <num>CCLIIII</num> si communis annus est, si embolismus
+                        <num>CCCLXXXIIII</num>.</p>
+                <p
+                    n="8">Septimo dies dominici paschae reperiuntur ab <num>XI</num> Kal. Aprilium
+                    usque in <num>VII</num> Kal. Maiarum, ob rationem embolismorum licenter
+                    extenti.</p>
+                <p
+                    n="9">Ultimo luna festi paschalis a <num>XV</num> usque in <num>XXII</num>
+                    propter diem dominicum variata.</p>
+                <p
+                    n="10">Adimit enim saltus noctem, addit vero aetatem quae per omnem cyclum
+                    adolevit.</p>
+                <p
+                    n="11">Sed in hoc nox adimitur quod ante luna deficit computatur.</p>
+                <p
+                    n="12">Naturaliter vero nox ipsa perseverat quae nox initium est futuri anni et
+                    cycli incipientis exordium.</p>
+                <p
+                    n="13">Propter quod idem ultimus annus epactas <num>XVIII</num> tunc retinens,
+                    primo anno non <num>XI</num>, ut in caeteris annis fieri solet, sed
+                        <num>XII</num> dies accommodat; et quia <num>XXX</num> dierum fine
+                    revolvuntur nulla epacta in principio cycmli ponitur.</p>
+            </div>
+            <div
+                n="14">
+                <head
+                    n="title">Argumenta Titulorum Paschalium</head>
+                <p
+                    n="1">Si nosse vis quot sunt anni ab incarnatione domini, scito quot fuerint
+                    ordines indictionum, utputa quinto anno Tiberii principis <num>XLVI</num>; hos
+                    per <num>XV</num> multiplica, fiunt <num>DCXC</num>; adde semper regulares
+                        <num>XII</num>, quia quarta indictione secundum Dionysium dominus natus est,
+                    et indictionem anni cuius volueris, utputa in praesenti unam; fiunt
+                        <num>DCCIII</num></p>
+                <p
+                    n="2">Isti sunt anni nativitatis domini.</p>
+                <p
+                    n="3">Si vis scire quota est indictio, sume annos domini et adice tria; partire
+                    per <num>XV</num>, et quod remanserit ipsa est indictio anni praesentis.</p>
+                <p
+                    n="4">Si vis scire quot sint epactae lunares, partire annos domini per
+                        <num>XVIIII</num>, et quod remanserint multiplica per <num>XI</num>; item
+                    partire per triginta, et remanent epactae.</p>
+                <p
+                    n="5">Si vis scire concurrentes septimanae dies, sume annos domini et eorundem
+                    quartam partem adice; his quoque quattuor adde quia quinque concurrentes fuerunt
+                    anno nativitatis domini; hos partire per septem et remanent epactae solis.</p>
+                <p
+                    n="6">Si vis scire quotus sit annus circuli decemnovenalis, sume annos domini et
+                    unum addens quia secundo eiusdem anno natus est; partire per <num>XVIIII</num>
+                    et quod remanserit ipse est annus circuli decemnovalis. </p>
+                <p
+                    n="7"> Si vis scire quotus cyclus lunaris est, sume annos domini et, duo
+                    subtrahens, divide per <num>XVIIII</num>; et quod remanserit ipse est annus
+                    circuli lunaris. </p>
+                <p
+                    n="8">Si vis nosse bissextilem annum, partire annos domini per <num>IIII</num>;
+                    quantum remanserit tot sunt anni a bissexto.</p>
+                <p
+                    n="9">His ergo ad certum inventis facile diem paschae lunamque reperies.</p>
+                <p
+                    n="10">Quod si a praesenti post aliquot annos, verbi gratia, post <num>C</num>
+                    pascha, scire velis epactas tamen et concurrentes solis dies invenire, sufficit
+                    partire autem centum per <num>XVIIII</num>, et remanent <num>V</num>; illas ergo
+                    scito epactas centesimo quas quinto anno futuras. </p>
+                <p
+                    n="11">Eodem modo centum per <num>XXVIII</num> dividens eas centesimo quas
+                        <num>XVI</num> anno concurrentes solis invenies.</p>
+            </div>
+            <div
+                n="15">
+                <head
+                    n="title">De Sacramento Temporis Paschalis</head>
+                <p
+                    n="1">Ideo autem pascha non ad eundem redit anni diem sicut tempus dominicae
+                    nativitatis, quod ibi nativitatis ipsius memoria tantum solemnis habeatur.</p>
+                <p
+                    n="2">Hic vero vitae venturae et mysteria celebrentur et munera capiantur, unde
+                    et nomen ipsum paschae transitum de morte ad vitam significans.</p>
+                <p
+                    n="3">Congruum quoque mysteriis tempus inquirit: primo ut aequinoctio transcenso
+                    tenebrae mortis a vera luce vincantur; deinde ut primo mense anni qui dicitur
+                    mensis novorum vitae novae gaudia celebrentur; tertio ut resurrectio die tertio
+                    facta et tertio tempore saeculi, id est sub gratia manifestata, cum iam ante
+                    legem et sub lege in prophetico lateret aenigmate, in tertia lunae septimana
+                    veneretur, cum et ipsa tunc lunae conversio mentis gloriam de terrenis ad
+                    caelestem doceat mutari contuitum; atque ad ultimum ut dies dominica conditione
+                    lucis insignis et triumpho Christi veneranda nostra quoque resurrectione nobis
+                    exoptabilis in memoriam revocetur.</p>
+            </div>
+            <div
+                n="16">
+                <head
+                    n="title">De Mundi Aetatibus</head>
+                <p
+                    n="1">Sex aetatibus mundi tempora distinguntur.</p>
+                <p
+                    n="2">Prima aetas ab Adam usque ad Noe continens generationes decem, annos vero
+                        <num>MDCLVI</num>; quae tota periit diluvio, sicut infantiam mergere solet
+                    oblivio.</p>
+                <p
+                    n="3">Secunda a Noe usque ad Abraham generationes similiter complexa decem,
+                    annos autem <num>CCXCII</num>; quae in lingua inventa est, id est hebraea, a
+                    pueritia namque homo incipit nosse loqui post infantiam, quae et nomen inde
+                    accepit quod fari, id est loqui, non potest.</p>
+                <p
+                    n="4">Tertia ab Abraham usque ad David generationes <num>XIIII</num>, annos vero
+                        <num>DCCCCXLII</num>, continens; et quod ab adolescentia incipit homo posse
+                    generare Mattheum generationum ex Abraham sumpsit exordium, qui etiam pater
+                    gentium constitutus est.</p>
+                <p
+                    n="5">Quarta a David usque ad transmigrationem babylonis generationibus aeque
+                    iuxta Mattheum <num>XIIII</num>, annis autem <num>CCCCLXXIII</num>, porrecta, a
+                    qua regum tempora coeperunt, iuvenilis enim dignitas regno est habilis.</p>
+                <p
+                    n="6">Quinta deinde usque ad adventum salvatoris in carnem generationibus et
+                    ipsa <num>XIIII</num>, porro annis <num>DLXXXIX</num>, extenta, in qua, ut gravi
+                    senectute fessa, malis crebrioribus plebs hebraea quassatur.</p>
+                <p
+                    n="7">Sexta, quae nunc agitur, nulla generationum vel temporum serie certa sed,
+                    ut aetas decrepita ipsa, totius saeculi morte finienda.</p>
+            </div>
+            <div
+                n="17">
+                <head
+                    n="title">Cursus et Ordo Temporum</head>
+                <p
+                    n="summary">Prima ergo aetas continet annos iuxta Hebreos IDCLVI, iuxta LXX
+                    interpretes IICCXLII.</p>
+                <table
+                    n="1">
+                    <row>
+                        <cell>Adam, cum esset CXXX annorum, genuit Seth, qui pro Abel natus
+                            est.</cell>
+                    </row>
+                    <row>
+                        <cell>Seth ann. CV genuit Enos, qui coepit inuocare nomen Domini.</cell>
+                    </row>
+                    <row>
+                        <cell>Enos annorum XC genuit Cainan cui nomen interpretatur natura
+                            Dei.</cell>
+                    </row>
+                    <row>
+                        <cell>Cainan annorum LXX genuit Malaleel qui interpretatur plantatio
+                            Domini.</cell>
+                    </row>
+                    <row>
+                        <cell>Malaleel annorum LXV genuit Iareth qui interepretatur discendens uel
+                            portans.</cell>
+                    </row>
+                    <row>
+                        <cell>Iareth annorum CLXII genuit Enoc, qui translatus est a Deo.</cell>
+                    </row>
+                    <row>
+                        <cell>Enoc annorum LXV genuit Matusalam qui interpretatur dedicatio.</cell>
+                    </row>
+                    <row>
+                        <cell>Matusalam ann. CLXXXVII genuit Lamech. Gigantes nati sunt.</cell>
+                    </row>
+                    <row>
+                        <cell>Lamech ann. CLXXXII genuit Noe, qui arcam aedicauit. Noe ann. DC uenit
+                            diluuium. </cell>
+                    </row>
+                </table>
+            </div>
+            <div
+                n="18">
+                <head
+                    n="title">De Secunda Aetate</head>
+                <p
+                    n="summary">Secunda aetas continet ann. iuxta Hebreos CCXCII, iuxta LXX
+                    interpretes DCCCCXLII uel adiecto Cainan ILXXII.</p>
+                <table
+                    n="1">
+                    <row>
+                        <cell>Sem ann. II post diluuium genuit Arfaxath, a quo Chaldei.</cell>
+                    </row>
+                    <row>
+                        <cell>Arfaxath ann. XXXV genuit Sale, a quo Samarite et Indi.</cell>
+                    </row>
+                    <row>
+                        <cell>Sale annorum XXX genuit Heber, a quo Hebrei.</cell>
+                    </row>
+                    <row>
+                        <cell>Heber annorum XXXIIII genuit Falech. <seg
+                                type="event"
+                                xml:id="bede-0001">Turris aedificatur.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Falech annorum XXX genuit Reu. <seg
+                                type="event"
+                                xml:id="bede-0002">Dii primum adorantur.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Reu annorum XXXII genuit Seruch. <seg
+                                type="event"
+                                xml:id="bede-0003">Regnum inchoat Scitharum.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Seruc annorum XXX genuit Nachor. <seg
+                                type="event"
+                                xml:id="bede-0004">Regnum Aegyptiorum nascitur.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Nachor annorum XXVIIII genuit Thara. <seg
+                                type="event"
+                                xml:id="bede-0005">Regnum Assyriorum et Syciniorum
+                            exoritur.</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Thara annorum LXX genuit Abraham. <seg
+                                type="event"
+                                xml:id="bede-0006">Semiramis condidit Babyloniam.</seg></cell>
+                    </row>
+                </table>
+            </div>
+            <div
+                n="19">
+                <head
+                    n="title">De Tertia Aetate</head>
+                <p
+                    n="summary">Tertia aetas continet ann. DCCCCXLII.</p>
+                <table
+                    cols="3"
+                    n="1">
+                    <row>
+                        <cell>Abraham</cell>
+                        <cell
+                            n="100">ann. C genuit Isaac. Nam primo genuit Ishmael, a quo
+                            Ismahelite.</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0007"/>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Isaac</cell>
+                        <cell
+                            n="60"> annorum LX genuit Iacob.</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0008">Regnum inchoat Argiuorum.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Iacob </cell>
+                        <cell
+                            n="90">annorum XC genuit Ioseph.</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0009">Memphis in Aegypto conditur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Iacob </cell>
+                        <cell
+                            n="110">ann. CX vixit.</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0010">Grecia sub Argo segetes habere coepit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Hebreorum seruitus </cell>
+                        <cell
+                            n="147">ann. CXLVII.</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0011">Cecrops Athenas condidit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Moyses</cell>
+                        <cell
+                            n="40">annis XL rexit Israel</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0012">Lacedemon conditur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Iosue</cell>
+                        <cell
+                            n="26">annis XXVI</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0013">Iudices a Moyse usque ad Samuel
+                                praefuerunt.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Othoniel</cell>
+                        <cell
+                            n="40">annis XL</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0014">Cadmus Thebarum rex Grecas litteras
+                                inuenit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Aoth</cell>
+                        <cell
+                            n="80">annis LXXX</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0015">Amphion musicus claruit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Deborra</cell>
+                        <cell
+                            n="40">annis XL</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0016">Primus Latinis regnat Picus.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Gedeon</cell>
+                        <cell
+                            n="40">annis XL</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0017">Orpheus Linusque musici claruerunt.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Abimelec</cell>
+                        <cell
+                            n="3">annis III</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0018">Iste LXX fratres suos interfecit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Thola </cell>
+                        <cell
+                            n="23">annis XXIII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0019">Priamus regnat in Troia.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Iair </cell>
+                        <cell
+                            n="22">annis XXII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0020">Carmentis Latinas litteras repperit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Iephthe </cell>
+                        <cell
+                            n="6">annis VI</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0021">Hercules se flammis iniecit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Abessa </cell>
+                        <cell
+                            n="7">ann. VII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0022">Bellum Troiae decennale surrexit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Achialon</cell>
+                        <cell
+                            n="10">ann. X</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0023">hic in LXX interpretibus non habetur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Labdon</cell>
+                        <cell
+                            n="8">ann. VIII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0024">Aeneas uenit Italiam.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Samson</cell>
+                        <cell
+                            n="20">ann. XX</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0025">Ascanius Albam condidit. Hactenus Iudicum liber
+                                tempora signat.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Hely</cell>
+                        <cell
+                            n="40">ann. XL</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0026">Regnum Siciniorum finitur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Samuhel et Saul</cell>
+                        <cell
+                            n="32">ann. XXXII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0027">Lacedemoniorum regnum oritur.</seg>
+                        </cell>
+                    </row>
+                </table>
+            </div>
+            <div
+                n="20">
+                <head
+                    n="title">De Quarta Aetate</head>
+                <p>Quarta aetas continet annos iuxta Hebreos CCCCLXXIII; LXX translatores XII
+                    adiciunt.</p>
+                <table
+                    cols="3">
+                    <row>
+                        <cell>Dauid</cell>
+                        <cell
+                            n="40">ann. XL</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0028">Carthago a Didone conditur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Salomon</cell>
+                        <cell
+                            n="40">ann. XL</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0029">qui templum aedificauit anno CCCCLXXX egressionis
+                                ex Egypto, ex quo apparet Samuhel et Saul XL annis praefuisse.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Roboam</cell>
+                        <cell
+                            n="17">ann. XVII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0030">Regnum Israhel et Iuda diuiditur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Abia</cell>
+                        <cell
+                            n="3">ann. III</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0031">Pontifex Abimelech insignis habeter.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Asa</cell>
+                        <cell
+                            n="41">ann. XLI</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0032">Hieu prophetes occiditur ab Asa rege
+                                Israhel.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Iosaphat</cell>
+                        <cell
+                            n="25">ann. XXV</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0033">Helias, Abdias, Micheasque prophetant.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Ioram</cell>
+                        <cell
+                            n="8">ann. VIII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0034">Edom defecit a regno Iudae.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Ochozias</cell>
+                        <cell
+                            n="1">ann. I</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0035">Ionadab clarus habetur.</seg>
+                            <seg>Helias rapitur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Athalia</cell>
+                        <cell
+                            n="6">ann. VI</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0036">Ionadab filius Rechab sacerdos clauit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Ioas</cell>
+                        <cell
+                            n="40">ann. XL</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0037">Zacharias Ioiadae filius lapidatur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Amasias</cell>
+                        <cell
+                            n="29">ann. XXVIIII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0038">Amos prophetauit in Israhel.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Ozias</cell>
+                        <cell
+                            n="52">ann. LII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0039">Assyriorum regnum in Medos transfertur, quod
+                                steterat an. ICCCV.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Ioatham</cell>
+                        <cell
+                            n="16">ann. XVI</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0040">Osee, Iohel, Esaiasque prophetant.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Achaz</cell>
+                        <cell
+                            n="16">ann. XVI</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="jerome-0014">Roma conditur</seg>, et <seg
+                                type="event">Israhel in Medos transfertur</seg>. </cell>
+                    </row>
+                    <row>
+                        <cell>Ezechias</cell>
+                        <cell
+                            n="29">ann. XXVIIII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="jerome-0035">Romulus centum senatores constituit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Manasses</cell>
+                        <cell
+                            n="55">ann. LV</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="jerome-0042">Numa duos menses adiecit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Amon</cell>
+                        <cell
+                            n="2">ann. II</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0044">Tullius in re publica censum egit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Iosias</cell>
+                        <cell
+                            n="31">ann. XXXI</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0045">Thales fysicus clauit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Ioachim</cell>
+                        <cell
+                            n="11">ann. XI</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0046">Huius anno tertio Nabucodonosor Iudeam
+                                cepit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Sedecias</cell>
+                        <cell
+                            n="11">ann. XI</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0047">Templum Hierosolimis incensum est.</seg>
+                        </cell>
+                    </row>
+                </table>
+            </div>
+            <div
+                n="21">
+                <head
+                    n="title">De Quinta Aetate</head>
+                <p> Quinta aetas continet ann. DLXXXVIIII. </p>
+                <table
+                    cols="3">
+                    <row>
+                        <cell>Hebreorum captivitas</cell>
+                        <cell
+                            n="70">ann. LXX</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0048">Iudith historia conscribitur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Darius</cell>
+                        <cell
+                            n="36">ann. XXXVI</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0049">Huius secundo anno Iudeorum soluta est
+                                captiuitas.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Xerses</cell>
+                        <cell
+                            n="21">ann. XXI</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="jerome-0113">Herodotus historigraphus agnoscitur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Artarxerses</cell>
+                        <cell
+                            n="40">ann. XL</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0051">Esdra legem</seg>, <seg>Neemias Hierosolimam
+                                restaurat.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Darius qui et Nothus</cell>
+                        <cell
+                            n="19">ann. XVIIII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="jerome-0160">Plato nascitur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Artarxerses</cell>
+                        <cell
+                            n="40">ann. XL</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="jerome-0169">Hester historia completur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Artarxerses qui et Ochus</cell>
+                        <cell
+                            n="26">ann. XXVI</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="jerome-203">Demostenes</seg> et <seg>Aristoteles
+                                praedicantur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Xerses Ochi filius</cell>
+                        <cell
+                            n="4">ann. IIII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0055">Xenocrates claruit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Darius</cell>
+                        <cell
+                            n="6">ann. VI</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0056"/>
+                        </cell>
+                    </row>
+                </table>
+                <p>Hucusque regnum Persarum: dehinc Grecorum.</p>
+                <table>
+                    <row>
+                        <cell>Alexander</cell>
+                        <cell
+                            n="5">ann. V, nam septem eius priores cum Persarum regibus
+                            subputantur.</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Ptholomeus Largi filius</cell>
+                        <cell
+                            n="40">ann. XL</cell>
+                        <cell>Machabeorum liber inchoat primus.</cell>
+                    </row>
+                    <row>
+                        <cell>Filadelfus</cell>
+                        <cell
+                            n="38">ann. XXXVIII</cell>
+                        <cell>Septuaginta interpretes claruerunt.</cell>
+                    </row>
+                    <row>
+                        <cell>Euergetes</cell>
+                        <cell
+                            n="17">ann. XVII</cell>
+                        <cell>Iesus sapientiae librum composuit.</cell>
+                    </row>
+                    <row>
+                        <cell>Philopater</cell>
+                        <cell
+                            n="27">ann. XXVII</cell>
+                        <cell>Macabeorum liber secundus inchoat.</cell>
+                    </row>
+                    <row>
+                        <cell>Epiphanes</cell>
+                        <cell
+                            n="24">ann. XXIIII</cell>
+                        <cell>Romani Grecos obtinuerunt.</cell>
+                    </row>
+                    <row>
+                        <cell>Philometor</cell>
+                        <cell
+                            n="35">ann. XXXV</cell>
+                        <cell>Hunc Antiochus superans Iudaeos oppressit.</cell>
+                    </row>
+                    <row>
+                        <cell>Euergetes</cell>
+                        <cell
+                            n="29">ann. XXVIIII</cell>
+                        <cell>Brutus Hispaniam subegit.</cell>
+                    </row>
+                    <row>
+                        <cell>Soter</cell>
+                        <cell
+                            n="17">ann. XVII</cell>
+                        <cell>Varro Ciceroque nascuntur.</cell>
+                    </row>
+                    <row>
+                        <cell>Alexander</cell>
+                        <cell
+                            n="10">ann. X</cell>
+                        <cell>Syria per Gabinum ducem subicitur Romanis.</cell>
+                    </row>
+                    <row>
+                        <cell>Ptholomeus Cleopatre filius</cell>
+                        <cell
+                            n="8">ann. VIII</cell>
+                        <cell>Salustius historiographus nascitur.</cell>
+                    </row>
+                    <row>
+                        <cell>Dionisius</cell>
+                        <cell
+                            n="30">ann. XXX</cell>
+                        <cell>Pompeius Iudeam cepit.</cell>
+                    </row>
+                    <row>
+                        <cell>Cleopatra</cell>
+                        <cell
+                            n="2">ann. II</cell>
+                        <cell/>
+                    </row>
+                </table>
+                <p>Hucusque regnum Grecorum: nunc Romanorum.</p>
+                <table>
+                    <row>
+                        <cell>Iulius Cesar</cell>
+                        <cell
+                            n="5">ann. V, ab hoc Cesares appellati.</cell>
+                    </row>
+                </table>
+            </div>
+            <div
+                n="22">
+                <head
+                    n="title">De Sexta Aetate</head>
+                <p>Sexta aetas continet annos praeteritos <num
+                        n="529">DCCVIIII</num></p>
+                <table
+                    cols="3">
+                    <row>
+                        <cell>Octavianus</cell>
+                        <cell
+                            n="56">ann. LVI</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0057">Huius anno XLII Dominus nascitur, conpletis ab
+                                Adam annis IIIDCCCCLII, iuxta alios VCXCVIIII.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Tiberius</cell>
+                        <cell
+                            n="23">ann. XXIII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0058">Huius ann. XVIII Dominus crucifigitur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Gaius</cell>
+                        <cell
+                            n="4">ann. IIII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0059">Mattheus evangelium scribit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Claudius</cell>
+                        <cell
+                            n="14">ann. XIIII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0060">Petrus Romam, Marcus Alexandriam petit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Nero</cell>
+                        <cell
+                            n="14">ann. XIIII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0061">Petrus et Paulus cruci gladioque traduntur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Vespasianus</cell>
+                        <cell
+                            n="10">ann. X</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0062">Huius secundo anno Titus Hierosolymam
+                                subvertit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Titus</cell>
+                        <cell
+                            n="2">ann. II</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="jerome-0221">Hic facundus et pius fuit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Domitianus</cell>
+                        <cell
+                            n="16">ann. XVI</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0064">Iohannes in Pathmos religatur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Nerua</cell>
+                        <cell
+                            n="1">ann. I</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0065">Iohannes apostolus Ephesum rediens euangelium
+                                scripsit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Traianus</cell>
+                        <cell
+                            n="19">ann. XVIIII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0066">Symon Hiersolimorum episcopus crucifigitur, et
+                                requiescit Iohannes apostolus.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Adrianus</cell>
+                        <cell
+                            n="21">ann. XXI</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0067">Aquila interpres habetur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Antonius Pius</cell>
+                        <cell
+                            n="22">ann. XXII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0068">Valentinus et Marcion agoscuntur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Antonius minor</cell>
+                        <cell
+                            n="19">ann. XVIIII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0069">Katafrigarum heresis exoritur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Commodus</cell>
+                        <cell
+                            n="13">ann. XIII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0070">Teodotion interpres habetur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Helius Pertinax</cell>
+                        <cell
+                            n="1">ann. I</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0071">Hic Iuliani iuris periti scelere occiditur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Severus Pertinax</cell>
+                        <cell
+                            n="18">ann. XVIII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0072">Simachus interpres habetur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Antonius Caracalla</cell>
+                        <cell
+                            n="7">ann. VII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0073">Quinta editio Hierosolimis inuenitur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Macrinus</cell>
+                        <cell
+                            n="1">ann. I</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0074">Agbarus uir sanctus regnauit, ut uult
+                                Affricanus.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Aurelius Antoninus</cell>
+                        <cell
+                            n="4">ann. IIII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0075">Sexta editio Nicapoli repperitur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Alexander</cell>
+                        <cell
+                            n="13">ann. XIII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="jerome-0243">Origenes Alexandriae claruit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Maximus</cell>
+                        <cell
+                            n="3">ann. III</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="jerome-0251">Hic persequitur Christianos.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Gordianus</cell>
+                        <cell
+                            n="7">ann. VII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="jerome-0253">Fabianus episcopus Romae celebratur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Philippus</cell>
+                        <cell
+                            n="7">ann. VII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="jerome-0257">Hic primus Christianus imperator fuit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Decius</cell>
+                        <cell
+                            n="1">ann. I</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0080">Antonius monachus in Aegypto claruit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Gallus et Volusianus</cell>
+                        <cell
+                            n="2">ann. II</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0081">Novatiana heresis exoritur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Valerianus cum Gallieno</cell>
+                        <cell
+                            n="15">ann. XV</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0082">Ciprianus martyrio coronatur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Claudius</cell>
+                        <cell
+                            n="2">ann. II</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0083">Paulus Samusathenus heresim condidit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Aurelianus</cell>
+                        <cell
+                            n="5">ann. V</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0084">Hic persequitur Christianos.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Tacitus</cell>
+                        <cell
+                            n="1">ann. I</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0085">Anatholius Laodicie Syriae episcopus
+                                claruit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Probus</cell>
+                        <cell
+                            n="6">ann. VI</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0086">Manicheorum heresis exorta est.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Carus</cell>
+                        <cell
+                            n="2">ann. II</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0087">Iste de Persis triumphauit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Dioclitianus et Maximianus</cell>
+                        <cell
+                            n="20">ann. XX</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0088">His persecutoribus intra XXX dies XVII milia
+                                passi sunt.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Valerianus</cell>
+                        <cell
+                            n="2">ann. II</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0089">Huius breuitas imperii nihil dignum hystoriae
+                                contulit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Constantinus</cell>
+                        <cell
+                            n="30">ann. XXX</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0090">Nicena synodus congregatur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Constantius et Constans</cell>
+                        <cell
+                            n="24">ann. XXIIII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0091">Ossa Andreae et Lucae Constantinopoli
+                                transferuntur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Iulianus</cell>
+                        <cell
+                            n="2">ann. II</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0092">Hic ex christiano paganus persequitur
+                                Christianos.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Iouianus</cell>
+                        <cell
+                            n="1">ann. I</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0093">Hic cum omni exercitu Christianus
+                                efficitur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Valentinianus</cell>
+                        <cell
+                            n="14">ann. XIIII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0094">qui a Iuliano ob fidem Christi militia fuerat
+                                priuatus.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Gratianus</cell>
+                        <cell
+                            n="6">ann. VI</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0095">Ambrosius et Martinus episcopi clarescunt.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Valentinianus cum Teodosio</cell>
+                        <cell
+                            n="9">ann. VIIII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0096">Hieronimus in Bethlem predicatur. Synodus in
+                                Constantinopoli CCCL episcoparum, in quo omnes hereses
+                                condemnantur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Theodosius</cell>
+                        <cell
+                            n="3">ann. III cum Arcadio et Honorio</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0097">Iohannes anachorita claruit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Archadius</cell>
+                        <cell
+                            n="13">ann. XIII cum fratre Honorio</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0098">Iohannes Crysostomus et Augustinus episcopi
+                                praedicantur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Honorius</cell>
+                        <cell
+                            n="15">ann. XV cum Theodosio minore</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0099">Cirillus Alexandriae claruit. Concilium
+                                Cartaginense CCXIIII episcoporum Pelgaium condemnant.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Theodosius minor</cell>
+                        <cell
+                            n="26">ann. XXVI</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0100">Ephesena synodus Nestorium condemnat.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Marcianus</cell>
+                        <cell
+                            n="7">ann. VII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0101">Calcidonense concilium geritur. Anglorum gens in
+                                Brittaniam uenit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Leo maior</cell>
+                        <cell
+                            n="17">ann. XVII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0102">Aegyptus errore Dioscori latrat.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Leo minor</cell>
+                        <cell
+                            n="1">ann. I</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0103">Theodoricus rex Romam obtinuit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Zenon</cell>
+                        <cell
+                            n="17">ann. XVII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0104">Corpus Barnabae apostoli repperitur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Anastasius</cell>
+                        <cell
+                            n="27">ann. XXVII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0105">Fulgentius episcopus praedicatur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Iustinus</cell>
+                        <cell
+                            n="8">ann. VIII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0106">Acephalorum heresis abdicatur. Benedictus abba
+                                claruit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Iustinianus</cell>
+                        <cell
+                            n="38">ann. XXXVIIII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0107">Huius sexto anno primus Dionisi circulus
+                                inchoat.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Iustinus minor</cell>
+                        <cell
+                            n="11">ann. XI</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0108">Armenii fidem Christi suscipiunt.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Tiberius</cell>
+                        <cell
+                            n="7">ann. VII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0109">Herminigildus rex Gotthorum marytyrio
+                                coronatur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Mauricius</cell>
+                        <cell
+                            n="21">ann. XXI</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0110">Gregorius Romae floruit episcopus.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Focas</cell>
+                        <cell
+                            n="8">ann. VIII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0111">Saxones in Brittania fidem Christi
+                                suscipiunt.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Heraclius</cell>
+                        <cell
+                            n="36">ann. XXXVI</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0112">Iudaei in Hispania Christiani efficiuntur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Eraclonas cum matre sua Martina</cell>
+                        <cell
+                            n="2">ann. II</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0113">His temporibus Acephalorum heresis
+                                instauratur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Constantinus filius Eracli</cell>
+                        <cell>mens. VI</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0114">Hoc tempore eadem Acephalorum heresis sub
+                                anathemate condemnatur.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Constantinus filius Constantini</cell>
+                        <cell
+                            n="28">ann. XXVIII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0115">Eclipsis solis facta est ind. VII, V nonas Maias.
+                            </seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Constantinus filius Constantini superioris</cell>
+                        <cell
+                            n="17">ann. XVII</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0116"> Hic sextam synodum composuit.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Iustinianus filius Constantini</cell>
+                        <cell
+                            n="10">ann. X</cell>
+                        <cell>
+                            <seg
+                                type="event"
+                                xml:id="bede-0117">Ipse ob culpam perfidiae regni gloria priuatus et
+                                exulatus. Africa restaurata est imperio Romanorum.</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Leo</cell>
+                        <cell
+                            n="3">ann. III</cell>
+                        <cell> </cell>
+                    </row>
+                </table>
+                <p>Tiberius dehnic quintum agit annum ind. prima. Reliquium sextae aetatis Deo soli
+                    patet.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
