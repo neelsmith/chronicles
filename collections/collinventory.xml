@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="file:/data/repos/git/chronicles/collections/CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <collectionService xmlns="http://chs.harvard.edu/xmlns/cite">
+
+    <citeCollection canonicalId="Event" label="JText" urn="urn:cite:chron:jevent">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Events in Jerome's Chronicle</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">All events from first Olympic Games to end of era 37</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Events in Jerome's Chronicle</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        
+        <source type="file" value="jerome-events.tsv"/>
+        <citeProperty name="Event" label="Event" type="citeurn"></citeProperty>
+        <citeProperty name="Label" label="JText" type="string"></citeProperty>
+        <citeProperty name="Label" label="Psg" type="ctsurn"></citeProperty>
+    </citeCollection>
+
     
     <citeCollection canonicalId="Event" label="Label" urn="urn:cite:chron:milne">
         <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
