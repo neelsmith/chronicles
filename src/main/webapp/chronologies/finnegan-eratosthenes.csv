@@ -7,9 +7,9 @@ urn:cts:greekLit:tlg9010.tlg001:epsilon.2898,urn:cite:chron:eratosthenes.A,conte
 urn:cts:latinLit:stoa0162.stoa005:29.t1.126,urn:cite:chron:olympiadyear.126_3,contemporary,eponym,urn:cite:chron:j-alexandrians.ruler2,0
 urn:cts:greekLit:tlg9010.tlg001:epsilon.2898,urn:cite:chron:eratosthenes.A,contemporary,cycle,urn:cite:chron:olympiadyear.126_4,0
 urn:cts:latinLit:stoa0162.stoa005:29.t1.126,urn:cite:chron:olympiadyear.126_4,contemporary,eponym,urn:cite:chron:j-alexandrians.ruler2,0
-urn:cts:greekLit:tlg0363.tlg001:REFERENCE,urn:cite:chron:j-alexandrians.ruler2,contmeporary,event,urn:cite:chron:pedersen.18,0
-urn:cts:greekLit:tlg0363.tlg001:REFERENCE,urn:cite:chron:j-alexandrians.ruler2,contmeporary,event,urn:cite:chron:pedersen.19,0
-urn:cts:greekLit:tlg0363.chs01:REFERENCE,urn:cite:chron:j-alexandrians.ruler3,follows,eponym,urn:cite:chron:j-alexandrians.ruler2,38
+urn:cts:greekLit:tlg0363.tlg001:10.4,urn:cite:chron:j-alexandrians.ruler2,contmeporary,event,urn:cite:chron:pedersen.18,0
+urn:cts:greekLit:tlg0363.tlg001:10.4,urn:cite:chron:j-alexandrians.ruler2,contmeporary,event,urn:cite:chron:pedersen.19,0
+urn:cts:greekLit:tlg0363.chs01:3,urn:cite:chron:j-alexandrians.ruler3,follows,eponym,urn:cite:chron:j-alexandrians.ruler2,38
 urn:cts:greekLit:tlg9010.tlg001:epsilon.2898,urn:cite:chron:eratosthenes.B,contemporary,eponym,urn:cite:chron:j-alexandrians.ruler3,0
 urn:cts:greekLit:tlg1272.tlg002:1.7,urn:cite:chron:eratosthenes.C,follows,event,urn:cite:chron:eratosthenes.B,unknown
 urn:cts:latinLit:stoa0162.stoa005:30.t1.141,urn:cite:chron:eratosthenes.D,contemporary,cycle,urn:cite:chron:olympiadyear.141_1,0
