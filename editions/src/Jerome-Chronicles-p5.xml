@@ -32537,7 +32537,7 @@
               constituit, et post exiguum temporis Aristobulum fratrem uxoris suae, nepotem Hyrcani
               successorem ei dedit, quo post annum interfecto, rursum Ananelo reddidit sacerdotium. 
               <note
-                n="a"/> Lunae, secundum Romanos, cursus inventus.  <note
+                n="abis"/> Lunae, secundum Romanos, cursus inventus.  <note
                 n="b"/> Antonii et Augusti foedus. <note
                 n="c"/> Colonias deduxere Romani. <note
                 n="d"/> Augustus triumphavit pedestris certaminis triumpho. <note
@@ -33532,17 +33532,18 @@
           </row>
           <!--  <milestone
                 n="258"
-                unit="HelmPages"/> -->
+                unit="HelmPages"/>
+          
+              <milestone
+                n="257"
+                unit="HelmPages"/>-->
           <row role="data" 
             n="202_4">
             <cell/>
             <cell/>
             <cell>19</cell>
             
-            <cell>
-              <milestone
-                n="257"
-                unit="HelmPages"/><note
+            <cell><note
                 n="a"/> Ecclesiae Jerosolymorum primus episcopus ab Apostolis ordinatur Jacobus
               frater Domini.
               <note
@@ -34141,15 +34142,15 @@
               milliarium, in suburbano liberti sui inter Salariam et Nomentanam viam semet
               interficit,  anno aetatis suae XXXII, atque in eo omnis Augusti familia
               consummata est.  <note
-                n="a"/> Post Neronem GALBA in Hiberia, VITELLIUS in Germania, OTHO Romae imperium
+                n="aa"/> Post Neronem GALBA in Hiberia, VITELLIUS in Germania, OTHO Romae imperium
               arripuerunt. <note
-                n="b"/> Marcus Fabius Quinctilianus Romam a Galba perducitur.  <note
-                n="c"/> Galba septimo mense imperii sui, in medio Romanae urbis foro, capite
+                n="bb"/> Marcus Fabius Quinctilianus Romam a Galba perducitur.  <note
+                n="cc"/> Galba septimo mense imperii sui, in medio Romanae urbis foro, capite
               truncatur. <note
-                n="d"/> Vespasianus duobus praeliis superatos Judaeos ad muros compulit. <note
-                n="e"/> Otho tertio regni sui mense, apud Bebriacum propria manu occubuit.  <note
-                n="f"/> Antiochiae secundus episcopus ordinatur Ignatius. <note
-                n="g"/> Vitellius octavo imperii sui mense a Vespasiani ducibus occisus, in Tiberim
+                n="dd"/> Vespasianus duobus praeliis superatos Judaeos ad muros compulit. <note
+                n="ee"/> Otho tertio regni sui mense, apud Bebriacum propria manu occubuit.  <note
+                n="ff"/> Antiochiae secundus episcopus ordinatur Ignatius. <note
+                n="gg"/> Vitellius octavo imperii sui mense a Vespasiani ducibus occisus, in Tiberim
               projicitur.  </cell>
             <cell>24</cell>
             <cell>68</cell>
