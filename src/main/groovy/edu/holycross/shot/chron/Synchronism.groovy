@@ -1,10 +1,8 @@
 package edu.holycross.shot.chron
 
 
-class SynchGraph {
-    
+class Synchronism {
 
-
-    SynchGraph() {
+    Synchronism() {
     }
 }
