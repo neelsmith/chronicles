@@ -18,6 +18,16 @@ class TestSynchGraph extends GroovyTestCase {
         assert sg.entryUrn == expectedEntry
         assert sg.exitUrn == expectedExit
 
+        Integer expectedNodes = 4
+        Integer expectedEdges = 3
+
+        assert sg.nodeList.size() == expectedNodes
+        assert sg.edgeMap.size() == expectedEdges
+    }
+
+    void testWalk() {
+        SynchGraph sg = new SynchGraph(new File(csvFile))       
+        sg.walkGraph(sg.entryUrn, 0)
     }
 
 }
