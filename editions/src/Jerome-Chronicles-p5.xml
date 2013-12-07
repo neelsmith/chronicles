@@ -18619,6 +18619,17 @@
             role="olympiad">
             <cell/>
             <cell> I Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="1_1">
@@ -18649,6 +18660,8 @@
             <cell/>
             <cell/>
             <cell/>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="1_2">
@@ -18736,6 +18749,17 @@
             role="olympiad">
             <cell/>
             <cell> II Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row
             n="2_1" role="data">
@@ -18819,6 +18843,17 @@
             role="olympiad">
             <cell/>
             <cell> III Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="3_1">
@@ -18902,7 +18937,7 @@
                 n="b"/>
               <seg
                 type="event"
-                xml:id="jerome-0007">Prophetabant: Osee</seg>
+                xml:id="jerome-0007">Prophetabant: Osee Joel Isaias Oded</seg>
             </cell>
             <cell/>
             <cell/>
@@ -18916,6 +18951,9 @@
                 xml:id="jerome-0008"> Cynaethon Lacedaemonius poeta, qui <title>Telegoniam</title>
                 scripsit, agnoscitur.</seg>
             </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="4_1">
@@ -18923,7 +18961,7 @@
             <cell/>
             <cell>28</cell>
             <cell> 10 </cell>
-            <cell> Joel </cell>
+            <cell/>
             <cell> 12 </cell>
             <cell>15</cell>
             <cell> 33 </cell>
@@ -18939,7 +18977,7 @@
             <cell/>
             <cell>29</cell>
             <cell> 11 </cell>
-            <cell> Isaias </cell>
+            <cell/>
             <cell> 13 </cell>
             <cell>16</cell>
             <cell> 34 </cell>
@@ -18955,7 +18993,7 @@
             <cell/>
             <cell>30</cell>
             <cell> 12 </cell>
-            <cell> Oded </cell>
+            <cell/>
             <cell> 14 </cell>
             <cell>17</cell>
             <cell> 35 </cell>
@@ -18977,16 +19015,16 @@
             <cell/>
             <cell/>
             <cell n="medidus"> Medorum III, MEDIDUS, annis XL.
-              <!--
-            <table>
-              <row>
-                <cell n="Medes"></cell>
-                <cell n="3"></cell>
-                <cell n="40"></cell>
-              </row>
-            </table>
-            -->
+            
             </cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
             <cell/>
             <cell/>
           </row>
@@ -19011,6 +19049,17 @@
             role="olympiad">
             <cell/>
             <cell> V Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="5_1">
@@ -19086,11 +19135,13 @@
             <cell/>
             <cell><note
                 n="k"/>
-              <seg
-                type="event"
-                xml:id="jerome-0012">In Lacedaemone primus</seg>
-              <!--&epsilon;&phi;&omicron;&rho;&omicron;c --> 1 quod Magistratus
+            In Lacedaemone primus
+              εφορ 
+              quod Magistratus
               nomen est, constituitur: Fuit autem sub regibus Lacedaemonis annis CCCL. </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="5_4">
@@ -19116,6 +19167,17 @@
             role="olympiad">
             <cell/>
             <cell> VI Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="6_1">
@@ -19150,6 +19212,10 @@
             <cell n="alcmaeon"> Atheniensium XIII, ALCMAEON, annis II. </cell>
             <cell/>
             <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="6_2">
@@ -19161,7 +19227,7 @@
                 n="a"/>
               <seg
                 type="event"
-                xml:id="jerome-0014">Roma Palilibus, 1, qui nunc dies festus est, condita. </seg> <note
+                xml:id="jerome-0014">Roma Palilibus, qui nunc dies festus est, condita. </seg> <note
                 n="b"/>
               <seg
                 type="event"
@@ -19207,6 +19273,11 @@
             <cell/>
             <cell n="charops"> XIV Atheniensium, CHAROPS, annis X. </cell>
             <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="6_4">
@@ -19246,8 +19317,17 @@
             role="olympiad">
             <cell/>
             <cell> VII Olympias </cell>
-            <cell/>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row n="r7"
             role="regnal">
@@ -19259,6 +19339,11 @@
             <cell/>
             <cell/>
             <cell n="romulus"> ROMULUS Romanorum, annis XXXVIII </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="7_1">
@@ -19332,6 +19417,17 @@
             role="olympiad">
             <cell/>
             <cell> VIII Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="8_1">
@@ -19467,6 +19563,16 @@
             role="olympiad">
             <cell/>
             <cell> IX Olympias </cell>
+            <cell/>
+            <cell/>  
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>  
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="9_1">
@@ -19497,7 +19603,12 @@
             <cell/>
             <cell/>
             <cell/>
-            <cell n="aesimedes"> Atheniensium XV, AESIMEDES, annis X </cell>
+            <cell n="aesimedes"> Atheniensium XV, AESIMEDES, annis X </cell><cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="9_2">
@@ -19526,6 +19637,7 @@
             <cell/>
             <cell n="alyattes"> Lydorum II, ALYATTES, annis XIV </cell>
             <cell/>
+            <cell></cell>
             <cell/>
           </row>
           <row role="data" 
@@ -19557,6 +19669,12 @@
             <cell n="ezechias"> Hebraeorum Juda XV, EZECHIAS, annis XXIX. </cell>
             <cell/>
             <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="9_4">
@@ -19584,6 +19702,16 @@
             role="olympiad">
             <cell/>
             <cell> X Olympias </cell>
+            <cell/>
+            <cell/>  
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>  
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="10_1">
@@ -19661,6 +19789,16 @@
             role="olympiad">
             <cell/>
             <cell> XI Olympias </cell>
+            <cell/>
+            <cell/>  
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>  
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="11_1">
@@ -19795,6 +19933,16 @@
             role="olympiad">
             <cell/>
             <cell> XII Olympias </cell>
+            <cell/>
+            <cell/>  
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>  
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="12_1">
@@ -19862,12 +20010,15 @@
             <cell/>
             <cell> XIII Olympias </cell>
             <cell/>
-            <cell/>
-            <cell></cell>
-            <cell/>
+            <cell/>  
             <cell/>
             <cell/>
-            <cell></cell>
+            <cell/>
+            <cell/>
+            <cell/>  
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           
           
@@ -19889,6 +20040,9 @@
             <cell/>
             <cell/>
             <cell> Lydorum III, MELES, annis XII. </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           
           
@@ -19963,6 +20117,16 @@
             role="olympiad">
             <cell/>
             <cell> XIV Olympias </cell>
+            <cell/>
+            <cell/>  
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>  
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="14_1">
@@ -20038,6 +20202,12 @@
             <cell/>
             <cell/>
             <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="14_4">
@@ -20065,6 +20235,16 @@
             role="olympiad">
             <cell/>
             <cell> XV Olympias </cell>
+            <cell/>
+            <cell/>  
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>  
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="15_1">
@@ -20146,12 +20326,15 @@
             
             <cell> XVI Olympias </cell>
             <cell/>
+            <cell/>  
             <cell/>
             <cell/>
             <cell/>
             <cell/>
+            <cell/>  
             <cell/>
-            <cell></cell>
+            <cell/>
+            <cell/>
           </row>
           
           
@@ -20168,8 +20351,11 @@
             <cell/>
             <cell/>
             <cell> Lydorum IV, CANDAULES, annis XVII. </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
-          <!-- milestone 158 - 159 -->
+        
           <milestone
             n="158-159"
             unit="HelmPages"/>
@@ -20220,6 +20406,11 @@
             <cell/>
             <cell/>
             <cell n="numa-pompilius"> Romanorum II, NUMA POMPILIUS, annis XLI. </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="16_3">
@@ -20260,6 +20451,12 @@
             <cell/>
             <cell/>
             <cell n="leocrates"> Atheniensium XVIII, LEOCRATES, annis X. </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="16_4">
@@ -20282,6 +20479,14 @@
             <cell/>
             <cell> XVII Olymp. </cell>
             <cell/>
+            <cell/>  
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>  
+            <cell/>
+            <cell/>
             <cell/>
           </row>
           <row n="r12"
@@ -20291,6 +20496,14 @@
             <cell/>
             <cell n="manasses"> Hebraeorum Juda XVI, MANASSES, annis
             LV. </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="17_1">
@@ -20331,6 +20544,7 @@
             <cell/>
             <cell/>
             <cell n="tarachus"> Aegypti TARACHUS Aethiops, annis XX. </cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="17_2">
@@ -20402,6 +20616,8 @@
                 type="event"
                 xml:id="jerome-0046">Croton et Parium et Sybaris conditae.</seg>
             </cell>
+            <cell></cell>
+            <cell></cell>
           </row><row n="r14"
             role="regnal">
             <cell/>
@@ -20415,6 +20631,13 @@
                 xml:id="jerome-0047"> Diocles Ecbatanam condidit.</seg>
             </cell>
             <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           
           <row role="data" 
@@ -20494,6 +20717,16 @@
             role="olympiad">
             <cell/>
             <cell> XIX Olympias </cell>
+            <cell/>
+            <cell/>  
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>  
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="19_1">
@@ -20518,6 +20751,12 @@
             <cell/>
             <cell/>
             <cell n="apsander"> Post quem APSANDER, annis X. </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="19_2">
@@ -20569,6 +20808,16 @@
             role="olympiad">
             <cell/>
             <cell> XX Olympias </cell>
+            <cell/>
+            <cell/>  
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>  
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="20_1">
@@ -20596,6 +20845,9 @@
             <cell/>
             <cell/>
             <cell n="gyges"> Post quem GYGES, annis XXXV </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="20_2">
@@ -20647,6 +20899,16 @@
             role="olympiad">
             <cell/>
             <cell> XXI Olympias </cell>
+            <cell/>
+            <cell/>  
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>  
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="21_1">
@@ -20708,6 +20970,12 @@
             <cell/>
             <cell/>
             <cell n="eryxias"> Atheniensium XX, ERYXIAS, annis X. </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="22_4">
@@ -20735,6 +21003,16 @@
             role="olympiad">
             <cell/>
             <cell> XXII Olympias </cell>
+            <cell/>
+            <cell/>  
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>  
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="22_1">
@@ -20825,6 +21103,16 @@
             role="olympiad">
             <cell/>
             <cell> XXIII Olympias </cell>
+            <cell/>
+            <cell/>  
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>  
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="23_1">
@@ -20904,13 +21192,17 @@
             <cell/>
             <cell> XXIV Olympias </cell>
             <cell/>
+            <cell/>  
             <cell/>
             <cell/>
             <cell/>
             <cell/>
-            <cell> Macedonum V, ARGAEUS, annis XXXVIII. </cell>
+            <cell/>  
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
-        
+
           <row n="r19"
             role="regnal">
             <cell/>
@@ -20921,6 +21213,10 @@
             <cell/>
             <cell/>
             <cell> Macedonum V, ARGAEUS, annis XXXVIII. </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           
           
@@ -20956,6 +21252,8 @@
                 novem principes ex nobilibus urbis electi Atheniensibus praefuerunt.</seg>
             </cell>
             <cell/>
+            <cell></cell>
+            <cell></cell>
           </row>
         </table>
       </div>
@@ -21042,6 +21340,15 @@
             role="olympiad">
             <cell/>
             <cell> XXV Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="25_1">
@@ -21069,6 +21376,7 @@
             <cell/>
             <cell/>
             <cell n="stephinatis"> STEPHINATIS, annis VII. </cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="25_2">
@@ -21123,6 +21431,15 @@
             role="olympiad">
             <cell/>
             <cell> XXVI Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="26_1">
@@ -21182,6 +21499,11 @@
             <cell/>
             <cell> Romanorum III, TULLUS HOSTILIUS, annis XXXII. </cell>
             <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            
           </row>
           <row role="data" 
             n="26_4">
@@ -21280,6 +21602,15 @@
             role="olympiad">
             <cell/>
             <cell> XXVIII Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="28_1">
@@ -21327,6 +21658,7 @@
             <cell/>
             <cell/>
             <cell n="nechao"> Post quem NECHAO, annis VIII. </cell>
+            <cell/>
           </row>
           <row role="data" 
             n="28_3">
@@ -21378,6 +21710,11 @@
                 type="event"
                 xml:id="jerome-0061">adjecto monte Caelio, Urbem ampliavit.</seg> </cell>
             <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="29_1">
@@ -21410,6 +21747,9 @@
             <cell/>
             <cell/>
             <cell n="ardys"> Lydorum VI, ARDYS, annis XXXVII. </cell>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="29_2">
@@ -21478,6 +21818,8 @@
                 type="event"
                 xml:id="jerome-0064">Cypsellus in Corintho tyrannidem exercet, annis XXVIII.</seg>
             </cell>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="30_1">
@@ -21525,6 +21867,7 @@
             <cell/>
             <cell/>
             <cell n="psammetichus"> PSAMMETICHUS, annis XLIV. </cell>
+            <cell/>
           </row>
           <row role="data" 
             n="30_3">
@@ -21543,7 +21886,7 @@
             <cell>1</cell>
             <cell>658</cell>
           </row>
-          <!-- milestone 166 - 167 -->
+         
           <milestone
             n="166-167"
             unit="Helmpages"/>
@@ -21554,6 +21897,13 @@
             
             <cell/>
             <cell n="hammon"> Hebraeorum Juda XVII, HAMMON, annis XII </cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="30_4">
@@ -21587,7 +21937,15 @@
             role="olympiad">
             <cell/>
             <cell> XXXI Olympias </cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="31_1">
@@ -21628,6 +21986,15 @@
             <cell/>
             <cell/>
             <cell n="phraortes"> Medorum VI, PHRAORTES, annis XXIV </cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="31_3">
@@ -21668,6 +22035,15 @@
             role="olympiad">
             <cell/>
             <cell> XXXII Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="32_1">
@@ -21742,6 +22118,15 @@
             role="olympiad">
             <cell/>
             <cell> XXXIII Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="33_1">
@@ -21786,6 +22171,10 @@
             <cell/>
             <cell/>
             <cell n="philip"> Macedonum VI, PHILIPPUS, annis XXXVIII. </cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="33_3">
@@ -21807,6 +22196,13 @@
             <cell/>
             <cell/>
             <cell n="josias"> Post quem in Juda XVIII, JOSIAS, annis XXXII. </cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="33_4">
@@ -21831,6 +22227,15 @@
             role="olympiad">
             <cell/>
             <cell>XXXIV Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="34_1">
@@ -21909,7 +22314,15 @@
             role="olympiad">
             <cell/>
             <cell>XXXV Olympias</cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="35_1">
@@ -21976,7 +22389,15 @@
             role="olympiad">
             <cell/>
             <cell>XXXVI Olympias</cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="36_1">
@@ -22042,7 +22463,15 @@
             role="olympiad">
             <cell/>
             <cell>XXXVII Olympias</cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="37_1">
@@ -22078,6 +22507,9 @@
             <cell/>
             <cell/>
             <cell n="cyaxares">Medorum VII, CYAXARES, annis XXXII.</cell>
+            <cell/>
+            <cell/>
+            <cell/>
             <cell/>
             <cell/>
             <cell/>
@@ -22120,7 +22552,15 @@
             role="olympiad">
             <cell/>
             <cell>XXXVIII Olympias</cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="38_1">
@@ -22171,6 +22611,7 @@
             <cell n="sadyattes">Lydorum VII, SADYATTES, annis XV.</cell>
             <cell/>
             <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="38_3">
@@ -22207,7 +22648,15 @@
             role="olympiad">
             <cell/>
             <cell>XXXIX Olympias</cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="39_1">
@@ -22275,7 +22724,15 @@
             role="olympiad">
             <cell/>
             <cell>XL Olympias</cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="40_1">
@@ -22316,6 +22773,9 @@
             <cell n="tarquinius-priscus">Romanorum V, TARQUINIUS PRISCUS, annis XXXVII.</cell>
             <cell/>
             <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="40_3">
@@ -22352,7 +22812,15 @@
             role="olympiad">
             <cell/>
             <cell>XLI Olympias</cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="41_1">
@@ -22452,7 +22920,15 @@
             role="olympiad">
             <cell/>
             <cell>XLII Olympias</cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="42_1">
@@ -22535,15 +23011,16 @@
             role="olympiad">
             <cell/>
             <cell>XLIII Olympias</cell>
-            <cell/>
-            <cell/>
-            <cell/>
-            <cell/>
-            <cell> </cell>
-            <cell/>
-            <cell/>
             <cell></cell>
-            <cell/></row>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>  
+          </row>
             <row 
               n="r43"
               role="regnal">
@@ -22623,7 +23100,15 @@
             role="olympiad">
             <cell/>
             <cell>XLIV Olympias</cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="44_1">
@@ -22678,6 +23163,12 @@
             <cell n="joachim">Hebraeorum Judae JOACHIM, qui et Jechonias, mensibus III. Post quem SEDECHIAS,
               annis XI.</cell>
             <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <milestone
             n="174/175"
@@ -22703,7 +23194,15 @@
             role="olympiad">
             <cell/>
             <cell>XLV Olympias</cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="45_1">
@@ -22793,6 +23292,8 @@
             <cell/>
             <cell><note
               n="f"/> Epimenides Athenas emundavit. </cell>
+            <cell/>
+            <cell/>
           </row>
           <row n="r4"
             role="regnal">
@@ -22871,7 +23372,15 @@
             role="olympiad">
             <cell/>
             <cell>XLVII Olympias</cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="47_1">
@@ -22908,6 +23417,10 @@
             <cell/>
             <cell/>
             <cell> Primus annus captivitatis Hierusalem. JUDAEA GENS CAPITUR</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
             <cell/>
             <cell/>
           </row>
@@ -23010,6 +23523,14 @@
             <cell/>
             <cell>XLVIII Olympias</cell>
             <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="48_1">
@@ -23077,6 +23598,15 @@
             role="olympiad">
             <cell/>
             <cell>XLIX Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="49_1">
@@ -23118,6 +23648,7 @@
             <cell/>
             <cell/>
             <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="49_3">
@@ -23142,6 +23673,10 @@
             <cell/>
             <cell/>
             <cell n="servius">Romanorum VI, SERVIUS, annis XXXIV.</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
             <cell/>
           </row>
           <row role="data" 
@@ -23168,6 +23703,14 @@
             role="olympiad">
             <cell/>
             <cell>L Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
             <cell/>
           </row>
           <row role="data" 
@@ -23234,6 +23777,14 @@
             <cell/>
             <cell>LI Olympias</cell>
             <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="51_1">
@@ -23298,6 +23849,14 @@
             role="olympiad">
             <cell/>
             <cell>LII Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
             <cell/>
           </row>
           <row role="data" 
@@ -23367,6 +23926,14 @@
             role="olympiad">
             <cell/>
             <cell>LIII Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
             <cell/>
           </row>
           <row role="data" 
@@ -23453,6 +24020,14 @@
             <cell/>
             <cell>LIV Olympias</cell>
             <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="54_1">
@@ -23532,6 +24107,14 @@
             role="olympiad">
             <cell/>
             <cell>LV Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
             <cell/>
           </row>
         </table>
@@ -23651,6 +24234,14 @@
             <cell/>
             <cell>LVI Olympias</cell>
             <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="56_1">
@@ -23737,6 +24328,8 @@
             <cell n="amyntas">Macedonum IX, AMYNTAS, annis L.</cell>
             <cell/>
             <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="56_4">
@@ -23758,6 +24351,14 @@
             role="olympiad">
             <cell/>
             <cell>LVII Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
             <cell/>
           </row>
           <row role="data" 
@@ -23803,6 +24404,7 @@
             <cell>17</cell>
             <cell>550</cell>
           </row>
+         
           <row role="data" 
             n="57_4">
             <cell/>
@@ -23828,6 +24430,14 @@
             <cell/>
             <cell>LVIII Olympias</cell>
             <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="58_1">
@@ -23852,6 +24462,7 @@
             <cell/>
             <cell/>
             <cell>Romanorum VII, TARQUINIUS, annis XXXV</cell>
+            <cell/>
             <cell/>
             <cell/>
             <cell/>
@@ -23940,6 +24551,13 @@
             <cell/>
             <cell>LIX Olympias</cell>
             <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="59_1">
@@ -24003,6 +24621,13 @@
             role="olympiad">
             <cell/>
             <cell>LX Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
             <cell/>
           </row>
           <row role="data" 
@@ -24070,6 +24695,13 @@
             <cell/>
             <cell>LXI Olympias</cell>
             <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="61_1">
@@ -24132,6 +24764,13 @@
             <cell/>
             <cell>LXII Olympias</cell>
             <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="62_1">
@@ -24166,6 +24805,12 @@
             <cell/>
             <cell/>
             <cell n="cambyses">Persarum II, CAMBYSES, annis VIII</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
             <cell/>
           </row>
           <row role="data" 
@@ -24202,6 +24847,13 @@
             role="olympiad">
             <cell/>
             <cell>LXIII Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
             <cell/>
           </row>
           <row role="data" 
@@ -24264,6 +24916,13 @@
             role="olympiad">
             <cell/>
             <cell>LXIV Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
             <cell/>
           </row>
           <row n="r2"
@@ -24339,6 +24998,11 @@
             <cell></cell>
             <cell>Persarum III, duo fratres magi, menses VII, post quos (IV,) DARIUS, annis XXXVI </cell>
             <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row>
             <cell/>
@@ -24375,6 +25039,7 @@
               exordium habuit: consummatur vero Templum sub Dario; quia vicinae gentes assiduis
               incursionibus aedificationem impedierant. </cell>
             <cell/>
+            <cell/>
           </row>
           <milestone
             n="186/187"
@@ -24399,6 +25064,14 @@
               <note
                 n="a"/> Ideo secundus annus bis scribitur quia unus annus in magorum fratrum VII
               mensibus computantur.</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="64_4">
@@ -24421,7 +25094,12 @@
             <cell/>
             <cell><note
                 n="c"/> In qua Persarum regis Darii filii Hystaspis fuit annus secundus. </cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
+         
         </table>
       </div>
       <div
@@ -24504,6 +25182,10 @@
             <cell/>
             <cell> LXVI Olympias </cell>
             <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="66_1">
@@ -24557,6 +25239,7 @@
             role="olympiad">
             <cell/>
             <cell> LXVII Olympias </cell>
+            <cell/>
             <cell/>
             <cell/>
             <cell/>
@@ -24644,6 +25327,10 @@
             role="olympiad">
             <cell/>
             <cell> LXVIII Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="68_1">
@@ -24698,6 +25385,10 @@
             role="olympiad">
             <cell/>
             <cell> LXIX Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="69_1">
@@ -24768,6 +25459,8 @@
                 xml:id="jerome-0081">Hellanicus historiographus, et Democritus philosophus, et
                 Heraclitus cognomento Tenebrosus, et Anaxagoras physicus clari habentur.</seg>
             </cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="70_1">
@@ -24822,6 +25515,8 @@
               <seg
                 type="event"
                 xml:id="jerome-0083">Volsci Coriolos perdiderunt.</seg> </cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="71_1">
@@ -24891,6 +25586,10 @@
             role="olympiad">
             <cell/>
             <cell> LXXII Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="72_1">
@@ -24954,6 +25653,10 @@
             role="olympiad">
             <cell/>
             <cell> LXXIII Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="73_1">
@@ -25011,6 +25714,9 @@
             <cell/>
             <cell/>
             <cell n="xerxes"> Persarum V, XERXES, filius Darii, annis XX. </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="73_4">
@@ -25104,6 +25810,10 @@
             role="olympiad">
             <cell/>
             <cell> LXXV Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="75_1">
@@ -25171,6 +25881,10 @@
             role="olympiad">
             <cell/>
             <cell> LXXVI Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="76_1">
@@ -25231,6 +25945,10 @@
             role="olympiad">
             <cell/>
             <cell> LXXVII Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="77_1">
@@ -25317,6 +26035,8 @@
                 type="event"
                 xml:id="jerome-0113"> Herodotus historiarum scriptor agnoscitur. </seg>
             </cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="78_1">
@@ -25399,6 +26119,10 @@
             role="olympiad">
             <cell/>
             <cell> LXXIX Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="79_1">
@@ -25471,15 +26195,17 @@
             <cell/>
             <cell/>
             <cell n="perdiccas"> Of the Macedonum, Perdiccas, for 28 years. </cell>
+            <cell></cell>
           </row>
           <row
             n="80"
             role="olympiad">
             <cell/>
             <cell> LXXX Olympias </cell>
-            <cell/>
-            <cell/>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="80_1">
@@ -25543,7 +26269,10 @@
             role="olympiad">
             <cell/>
             <cell> LXXXI Olympias </cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="81_1">
@@ -25630,6 +26359,10 @@
             role="olympiad">
             <cell/>
             <cell> LXXXII Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="82_1">
@@ -25698,6 +26431,10 @@
             role="olympiad">
             <cell/>
             <cell> LXXXIII Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="83_1">
@@ -25762,6 +26499,10 @@
             role="olympiad">
             <cell/>
             <cell> LXXXIV Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="84_1">
@@ -25824,6 +26565,10 @@
             role="olympiad">
             <cell/>
             <cell> LXXXV Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="85_1">
@@ -25897,7 +26642,10 @@
             role="olympiad">
             <cell/>
             <cell> LXXXVI Olympias </cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="86_1">
@@ -25965,6 +26713,10 @@
             role="olympiad">
             <cell/>
             <cell> LXXXVII Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="87_1">
@@ -26037,6 +26789,10 @@
             role="olympiad">
             <cell/>
             <cell> LXXXVIII Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="88_1">
@@ -26104,6 +26860,10 @@
             role="olympiad">
             <cell/>
             <cell> LXXXIX Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row n="r6"
             role="regnal">
@@ -26111,6 +26871,9 @@
             <cell/>
             <cell n="darius-nothus"> Persarum VIII, secundus XERXES, menses II. Post quem IX SOGDIANUS, menses VII.
               Cui succedit X DARIUS, cognomento Nothus, annis XIX. </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="89_1">
@@ -26172,6 +26935,10 @@
             role="olympiad">
             <cell/>
             <cell> XC Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <milestone
             n="198"
@@ -26218,6 +26985,10 @@
             role="olympiad">
             <cell/>
             <cell> XCI Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="91_1">
@@ -26310,6 +27081,11 @@
             role="olympiad">
             <cell/>
             <cell> XCII Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="92_1">
@@ -26364,7 +27140,8 @@
             <cell> XCIII Olympias </cell>
             <cell/>
             <cell/>
-            <cell> Macedonum, ORESTES annis III. 2 <emph/></cell>
+            <cell> Macedonum, ORESTES annis III.</cell>
+            <cell/>
             <cell/>
           </row>
           <row role="data" 
@@ -26430,7 +27207,7 @@
             <cell n="archelaus"> Macedonum XIII, ARCHELAUS, annis IV. </cell>
             <cell/>
             <cell/>
-            <cell/>
+         
           </row>
           <row role="data" 
             n="93_4">
@@ -26447,6 +27224,11 @@
             role="olympiad">
             <cell/>
             <cell> XCIV Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="94_1">
@@ -26566,6 +27348,11 @@
             role="olympiad">
             <cell/>
             <cell> XCV Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="95_1">
@@ -26661,6 +27448,11 @@
             role="olympiad">
             <cell/>
             <cell> XCVI Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="96_1">
@@ -26717,6 +27509,8 @@
             <cell/>
             <cell/>
             <cell n="argeus"> Post quem, ARGEUS, annis II. </cell>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="96_4">
@@ -26739,6 +27533,11 @@
             role="olympiad">
             <cell/>
             <cell> XCVII Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="97_1">
@@ -26763,6 +27562,8 @@
             <cell/>
             <cell
               n="amyntas2"> Post quem rursum AMYNTAS, annis XVIII. </cell>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="97_2">
@@ -26894,6 +27695,11 @@
             n="99"
             role="olympiad">
             <cell> XCIX Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="99_1">
@@ -26946,6 +27752,11 @@
             role="olympiad">
             <cell/>
             <cell> C Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="100_1">
@@ -26973,18 +27784,44 @@
             <cell> </cell>
             <cell>13</cell>
             <cell>9</cell>
+            <cell>379</cell>
           </row>
+          
+          <row
+            n="100_3"
+            role="data">
+            <cell/>
+            <cell/>
+            <cell>28</cell>
+            <cell> </cell>
+            <cell>14</cell>
+            <cell>10</cell>
+            <cell>378</cell>
+          </row>
+          
+          
+          
           <row
             n="100_4"
             role="data">
+            <cell></cell>
+            <cell></cell>
+            <cell>29</cell>
+            <cell></cell>
+            <cell>15</cell>
             <cell>11</cell>
             <cell>377</cell>
           </row>
           <row
-            n="1_1"
+            n="101"
             role="olympiad">
             <cell/>
             <cell> CI Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="101_1">
@@ -27062,17 +27899,20 @@
             <cell/>
            
             <cell> Post quem PTOLEMAEUS ALORITES, annis IV. </cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row
-            n="1_2"
+            n="102"
             role="olympiad">
             <cell/>
             
             <cell> CII Olympias </cell>
-            <cell/>
-            <cell/>
-            
-            <cell> </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="102_1">
@@ -27125,16 +27965,16 @@
             <cell>369</cell>
           </row>
           <row
-            n="1_3"
+            n="103"
             role="olympiad">
             <cell/>
             <cell> CIII Olympias </cell>
-            <cell/>
             <cell></cell>
-            <cell> </cell>
-            <cell/>
-            <cell/>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+      
           </row>
           
           <row n="r15"
@@ -27146,7 +27986,7 @@
             <cell> Post quem PERDICCA, annis VI. </cell>
             <cell/>
             <cell/>
-            <cell/>
+           
           </row>
           
           <row role="data" 
@@ -27204,6 +28044,9 @@
             <cell/>
             <cell n="artaxerxes-ochus"> Persarum XII, ARTAXERXES, qui et OCHUS, annis XXVI </cell>
             <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="103_4">
@@ -27222,15 +28065,15 @@
             <cell>365</cell>
           </row>
           <row
-            n="1_4"
+            n="104"
             role="olympiad">
             <cell/>
             <cell> CIV Olympias </cell>
-            <cell/>
-            <cell/>
-            <cell/>
-            <cell/>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="104_1">
@@ -27266,6 +28109,8 @@
             <cell/>
             <cell/>
             <cell n="philip"> Post quem Macedonum, PHILIPPUS, annis XXVII. </cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="104_3">
@@ -27292,6 +28137,11 @@
             role="olympiad">
             <cell/>
             <cell> CV Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="105_1">
@@ -27357,11 +28207,11 @@
             role="olympiad">
             <cell/>
             <cell> CVI Olympias </cell>
-            <cell/>
-            <cell/>
-            <cell> </cell>
-            <cell/>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="106_1">
@@ -27433,6 +28283,11 @@
             role="olympiad">
             <cell/>
             <cell> CVII Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="107_1">
@@ -27673,7 +28528,7 @@
             <cell>337</cell>
           </row>
           <row
-            n="1_1"
+            n="111"
             role="olympiad">
             <cell/>
             <cell>CXI Olympias</cell>
@@ -27736,7 +28591,7 @@
             <cell>333</cell>
           </row>
           <row
-            n="1_2"
+            n="112"
             role="olympiad">
             <cell/>
             <cell>CXII Olympias</cell>
@@ -27827,7 +28682,7 @@
             <cell>329</cell>
           </row>
           <row
-            n="1_3"
+            n="113"
             role="olympiad">
             <cell/>
             <cell>CXIII Olympias</cell>
@@ -27908,7 +28763,7 @@
             <cell/>
           </row>
           <row
-            n="1_4"
+            n="114"
             role="olympiad">
             <cell/>
             <cell>CXIV Olympias</cell>
@@ -28403,7 +29258,7 @@
             <cell>297</cell>
           </row>
           <row
-            n="1_1"
+            n="121"
             role="olympiad">
             <cell/>
             <cell>CXXI Olympias </cell>
@@ -28471,7 +29326,7 @@
             <cell>293</cell>
           </row>
           <row
-            n="1_2"
+            n="122"
             role="olympiad">
             <cell/>
             <cell>CXXII Olympias</cell>
@@ -28531,7 +29386,7 @@
             <cell>289</cell>
           </row>
           <row
-            n="1_3"
+            n="123"
             role="olympiad">
             <cell/>
             <cell>CXXIII Olympias</cell>
@@ -28611,7 +29466,7 @@
             <cell>285</cell>
           </row>
           <row
-            n="1_4"
+            n="124"
             role="olympiad">
             <cell/>
             <cell>CXXIV Olympias</cell>
@@ -29053,7 +29908,7 @@
             <cell>257</cell>
           </row>
           <row
-            n="1_1"
+            n="131"
             role="olympiad">
             <cell/>
             <cell>CXXXI Olympias</cell>
@@ -29102,7 +29957,7 @@
             <cell>253</cell>
           </row>
           <row
-            n="1_2"
+            n="132"
             role="olympiad">
             <cell/>
             <cell>CXXXII Olympias</cell>
@@ -29154,7 +30009,7 @@
             <cell>249</cell>
           </row>
           <row
-            n="1_3"
+            n="133"
             role="olympiad">
             <cell/>
             <cell>CXXXIII Olympias</cell>
@@ -29215,7 +30070,7 @@
             <cell>245</cell>
           </row>
           <row
-            n="1_4"
+            n="134"
             role="olympiad">
             <cell/>
             <cell>CXXXIV Olympias</cell>
@@ -29640,7 +30495,7 @@
             <cell>217</cell>
           </row>
           <row
-            n="1_1"
+            n="141"
             role="olympiad">
             <cell/>
             <cell>CXLI Olympias</cell>
@@ -29691,7 +30546,7 @@
             <cell>213</cell>
           </row>
           <row
-            n="1_2"
+            n="142"
             role="olympiad">
             <cell/>
             <cell>CXLII Olympias</cell>
@@ -29741,7 +30596,7 @@
             <cell>209</cell>
           </row>
           <row
-            n="1_3"
+            n="143"
             role="olympiad">
             <cell/>
             <cell>CXLIII Olympias</cell>
@@ -29790,7 +30645,7 @@
             <cell>205</cell>
           </row>
           <row
-            n="1_4"
+            n="144"
             role="olympiad">
             <cell/>
             <cell>CXLIV Olympias</cell>
@@ -30197,7 +31052,7 @@
             <cell n="perseus">Macedonum PERSES, annis X.</cell>
           </row>
           <row
-            n="1_1"
+            n="151"
             role="olympiad">
             <cell/>
             <cell>CLI Olympias</cell>
@@ -30254,7 +31109,7 @@
             <cell>173</cell>
           </row>
           <row
-            n="1_2"
+            n="152"
             role="olympiad">
             <cell/>
             <cell>CLII Olympias</cell>
@@ -30305,7 +31160,7 @@
             <cell>169</cell>
           </row>
           <row
-            n="1_3"
+            n="153"
             role="olympiad">
             <cell/>
             <cell>CLIII Olympias</cell>
@@ -30402,7 +31257,7 @@
               role="julian">B.C.</cell>
           </row>
           <row
-            n="1_4"
+            n="154"
             role="olympiad">
             <cell/>
             <cell>CLIV Olympias</cell>
@@ -30882,7 +31737,7 @@
             <cell>137</cell>
           </row>
           <row
-            n="1_1"
+            n="161"
             role="olympiad">
             <cell/>
             <cell>CLXI Olympias</cell>
@@ -30936,7 +31791,7 @@
             <cell>133</cell>
           </row>
           <row
-            n="1_2"
+            n="162"
             role="olympiad">
             <cell/>
             <cell>CLXII Olympias</cell>
@@ -31001,7 +31856,7 @@
             <cell>129</cell>
           </row>
           <row
-            n="1_3"
+            n="163"
             role="olympiad">
             <cell/>
             <cell>CLXIII Olympias</cell>
@@ -31062,7 +31917,7 @@
             <cell>125</cell>
           </row>
           <row
-            n="1_4"
+            n="164"
             role="olympiad">
             <cell/>
             <cell>CLXIV Olympias</cell>
@@ -31481,7 +32336,7 @@
             <cell>97</cell>
           </row>
           <row
-            n="1_1"
+            n="171"
             role="olympiad">
             <cell/>
             <cell>CLXXI Olympias</cell>
@@ -31576,7 +32431,7 @@
               role="julian">B.C.</cell>
           </row>
           <row
-            n="1_2"
+            n="172"
             role="olympiad">
             <cell/>
             <cell>CLXXII Olympias</cell>
@@ -31633,7 +32488,7 @@
             <cell n="ptolemy10">Aegypti X, PTOLEMAEUS, qui a matre fuerat ejectus, annis VIII</cell>
           </row>
           <row
-            n="1_3"
+            n="173"
             role="olympiad">
             <cell/>
             <cell>CLXXIII Olympias</cell>
@@ -31687,7 +32542,7 @@
             <cell>85</cell>
           </row>
           <row
-            n="1_4"
+            n="174"
             role="olympiad">
             <cell/>
             <cell>CLXXIV Olympias</cell>
@@ -32086,7 +32941,7 @@
             <cell>57</cell>
           </row>
           <row
-            n="1_1"
+            n="181"
             role="olympiad">
             <cell/>
             <cell>CLXXXI Olympias</cell>
@@ -32137,7 +32992,7 @@
             <cell>53</cell>
           </row>
           <row
-            n="1_2"
+            n="182"
             role="olympiad">
             <cell/>
             <cell>CLXXXII Olympias</cell>
@@ -32189,7 +33044,7 @@
             <cell>49</cell>
           </row>
           <row
-            n="1_3"
+            n="183"
             role="olympiad">
             <cell/>
             <cell>CLXXXIII Olympias</cell>
@@ -32293,7 +33148,7 @@
             <cell>45</cell>
           </row>
           <row
-            n="1_4"
+            n="184"
             role="olympiad">
             <cell/>
             <cell>CLXXXIV Olympias </cell>
@@ -32823,7 +33678,7 @@
             <cell>17</cell>
           </row>
           <row
-            n="1_1"
+            n="191"
             role="olympiad">
             <cell/>
             <cell>CXCI Olympias</cell>
@@ -32877,7 +33732,7 @@
             <cell>13</cell>
           </row>
           <row
-            n="1_2"
+            n="192"
             role="olympiad">
             <cell/>
             <cell>CXCII Olympias</cell>
@@ -32941,7 +33796,7 @@
             <cell>8</cell>
           </row>
           <row
-            n="1_3"
+            n="193"
             role="olympiad">
             <cell/>
             <cell>193rd Olympias </cell>
@@ -32995,7 +33850,7 @@
             <cell>5</cell>
           </row>
           <row
-            n="1_4"
+            n="194"
             role="olympiad">
             <cell/>
             <cell>CXCIV Olympias </cell>
@@ -33409,7 +34264,7 @@
             <cell>24</cell>
           </row>
           <row
-            n="2_1"
+            n="201"
             role="olympiad">
             <cell/>
             <cell>CCI Olympias</cell>
@@ -33475,7 +34330,7 @@
             n="256"
             unit="HelmPages"/>
           <row
-            n="2_2"
+            n="202"
             role="olympiad">
             <cell/>
             <cell>CCII Olympias</cell>
@@ -33555,7 +34410,7 @@
             <cell>32</cell>
           </row>
           <row
-            n="2_3"
+            n="203"
             role="olympiad">
             <cell/>
             <cell>CCIII Olympias</cell>
@@ -33617,7 +34472,7 @@
             <cell>36</cell>
           </row>
           <row
-            n="2_4"
+            n="204"
             role="olympiad">
             <cell/>
             <cell>CCIV Olympias</cell>
@@ -34065,7 +34920,7 @@
             n="266"
             unit="HelmPages"/>
           <row
-            n="2_1"
+            n="211"
             role="olympiad">
             <cell/>
             <cell><note
@@ -34156,7 +35011,7 @@
             <cell>68</cell>
           </row>
           <row
-            n="2_2"
+            n="212"
             role="olympiad">
             <cell/>
             <cell>CCXII Olympias</cell>
@@ -34241,7 +35096,7 @@
             <cell>72</cell>
           </row>
           <row
-            n="2_3"
+            n="213"
             role="olympiad">
             <cell/>
             
@@ -34311,7 +35166,7 @@
             <cell>76</cell>
           </row>
           <row
-            n="2_4"
+            n="214"
             role="olympiad">
             <cell/>
             <cell> CCXIV Olympias </cell>
@@ -34742,7 +35597,7 @@
             <cell>104</cell>
           </row>
           <row
-            n="2_1"
+            n="221"
             role="olympiad">
             <cell/>
             <cell>CCXXI Olympias</cell>
@@ -34799,7 +35654,7 @@
             <cell>108</cell>
           </row>
           <row
-            n="2_2"
+            n="222"
             role="olympiad">
             <cell/>
             <cell>CCXXII Olympias</cell>
@@ -34849,7 +35704,7 @@
             <cell>112</cell>
           </row>
           <row
-            n="2_3"
+            n="223"
             role="olympiad">
             <cell/>
             <cell>CCXXIII Olympias</cell>
@@ -34903,7 +35758,7 @@
             <cell>116</cell>
           </row>
           <row
-            n="2_4"
+            n="224"
             role="olympiad">
             <cell/>
             <cell>CCXXIV Olympias</cell>
@@ -35274,7 +36129,7 @@
             <cell>144</cell>
           </row>
           <row
-            n="2_1"
+            n="231"
             role="olympiad">
             <cell/>
             <cell>CCXXXI Olympias</cell>
@@ -35316,7 +36171,7 @@
             <cell>148</cell>
           </row>
           <row
-            n="2_2"
+            n="232"
             role="olympiad">
             <cell/>
             <cell>CCXXXII Olympias</cell>
@@ -35357,7 +36212,7 @@
             <cell>152</cell>
           </row>
           <row
-            n="2_3"
+            n="233"
             role="olympiad">
             <cell/>
             <cell>CCXXXIII Olympias</cell>
@@ -35399,7 +36254,7 @@
             <cell>156</cell>
           </row>
           <row
-            n="2_4"
+            n="234"
             role="olympiad">
             <cell/>
             <cell>CCXXXIV Olympias</cell>
@@ -35770,14 +36625,12 @@
             <cell>184</cell>
           </row>
           <row
-            n="2_1"
+            n="241"
             role="olympiad">
             <cell/>
             <cell>CCXLI Olympias</cell>
           </row>
-          <!-- <milestone
-                n="2_1"
-                unit="HelmPages"/> -->
+         
           <row role="data" 
             n="241_1">
             <cell/>
@@ -35817,7 +36670,7 @@
             <cell>188</cell>
           </row>
           <row
-            n="2_2"
+            n="242"
             role="olympiad">
             <cell/>
             <cell>CCXLII Olympias</cell>
@@ -35866,7 +36719,7 @@
             <cell>192</cell>
           </row>
           <row
-            n="2_3"
+            n="243"
             role="olympiad">
             <cell/>
             <cell>CCXLIII Olympias</cell>
@@ -35939,7 +36792,7 @@
             <cell>196</cell>
           </row>
           <row
-            n="2_4"
+            n="244"
             role="olympiad">
             <cell/>
             <cell>CCXLIV Olympias</cell>
@@ -36366,7 +37219,7 @@
             <cell>224</cell>
           </row>
           <row
-            n="2_1"
+            n="251"
             role="olympiad">
             <cell/>
             <cell> CCLI Olympias </cell>
@@ -36434,7 +37287,7 @@
             <cell>228</cell>
           </row>
           <row
-            n="2_2"
+            n="252"
             role="olympiad">
             <cell/>
             <cell> CCLII Olympias </cell>
@@ -36501,7 +37354,7 @@
             n="298"
             unit="HelmPages"/>
           <row
-            n="2_3"
+            n="253"
             role="olympiad">
             <cell/>
             
@@ -36572,7 +37425,7 @@
             <cell>236</cell>
           </row>
           <row
-            n="2_4"
+            n="254"
             role="olympiad">
             <cell/>
             <cell> CCLIV Olympias </cell>
@@ -37008,7 +37861,7 @@
             <cell>264</cell>
           </row>
           <row
-            n="2_1"
+            n="261"
             role="olympiad">
             <cell/>
             <cell>CCLXI Olympias</cell>
@@ -37055,7 +37908,7 @@
             <cell>268</cell>
           </row>
           <row
-            n="2_2"
+            n="262"
             role="olympiad">
             <cell/>
             <cell>CCLXII Olympias</cell>
@@ -37118,7 +37971,7 @@
             <cell>272</cell>
           </row>
           <row
-            n="2_3"
+            n="263"
             role="olympiad">
             <cell/>
             <cell>CCLXIII Olympias</cell>
@@ -37181,7 +38034,7 @@
             <cell n="tacitus">Romanorum XXX, TACITUS, regnavit menses VI .</cell>
           </row>
           <row
-            n="2_4"
+            n="264"
             role="olympiad">
             <cell/>
             <cell>CCLXIV Olympias</cell>
