@@ -27140,10 +27140,24 @@
             <cell> XCIII Olympias </cell>
             <cell/>
             <cell/>
+            <cell/> 
+            <cell/>
+            <cell/>
+          </row>
+          
+          
+          <row
+            n="r93"
+            role="regnal">
+            <cell/>
+            <cell>  </cell>
+            <cell/>
+            <cell/>
             <cell> Macedonum, ORESTES annis III.</cell>
             <cell/>
             <cell/>
           </row>
+          
           <row role="data" 
             n="93_1">
             <cell/>
@@ -27695,6 +27709,7 @@
             n="99"
             role="olympiad">
             <cell> XCIX Olympias </cell>
+            <cell></cell>
             <cell></cell>
             <cell></cell>
             <cell></cell>
@@ -28430,6 +28445,8 @@
             <cell>CIX Olympias </cell>
             <cell> </cell>
             <cell/>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="109_1">
@@ -28479,6 +28496,7 @@
             <cell><note
                 n="f"/> Descriptione Romae facta, inventa sunt civium CLX millia. </cell>
             <cell/>
+            <cell></cell>
           </row>
           <row role="data" 
             n="110_1">
@@ -28534,9 +28552,21 @@
             <cell>CXI Olympias</cell>
             <cell/>
             <cell/>
+            <cell></cell>
+            <cell/>
+          </row>
+          
+          <row
+            n="r1a"
+            role="regnal">
+            <cell/>
+            <cell></cell>
+            <cell/>
+            <cell/>
             <cell>Macedon. XXIV, ALEXANDER, Philippi filius, annis XII, menses VI.</cell>
             <cell/>
           </row>
+          
           <row role="data" 
             n="111_1">
             <cell/>
@@ -28595,6 +28625,9 @@
             role="olympiad">
             <cell/>
             <cell>CXII Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/>
             <cell/>
           </row>
           <row role="data" 
@@ -28661,13 +28694,14 @@
                 n="a"/> Alexander obtinuit Babylonem, interfecto Dario, in quo Persarum regnum
               destructum est. </cell>
             <cell/>
-            <cell/>
+        
           </row>
           <row n="r2" role="regnal">
             <cell/>
             <cell/>
             <cell>Alexander regnum Asiae anno regni sui VII occupat, et tenet omnia annis
               XII.</cell>
+            <cell></cell>
             <cell/>
           </row>
           <row role="data" 
@@ -28687,6 +28721,9 @@
             <cell/>
             <cell>CXIII Olympias</cell>
             <cell/>
+            <cell/>
+            <cell/>
+            
           </row>
           <row role="data" 
             n="113_1">
@@ -28768,6 +28805,9 @@
             <cell/>
             <cell>CXIV Olympias</cell>
             <cell/>
+            <cell/>
+            <cell/>
+            <cell></cell>
           </row>
           <row role="data" 
             n="114_1">
@@ -28826,6 +28866,9 @@
             
             <cell>CXV Olympias</cell>
             <cell/>
+            <cell/>
+            <cell/>
+            <cell></cell>
           </row>
           <row role="data" 
             n="115_1">
@@ -28923,6 +28966,10 @@
             <cell/>
             <cell>CXVI Olympias </cell>
             <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="116_1">
@@ -28997,9 +29044,11 @@
             <cell/>
             <cell>CXVII Olympias </cell>
             <cell/>
-            <cell>
-              </cell>
-            <cell></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row n="r1"
             role="regnal">
@@ -29012,6 +29061,9 @@
               inter divinas Scripturas non recipiuntur. </cell>
             <cell>Syriae et Babyloniae, et superiorum locorum, regnavit SELEUCUS NICANOR, annis
               XXXII.</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           
           <row role="data" 
@@ -29029,6 +29081,13 @@
           <row
             n="annotation">
             <cell>Ab hoc loco Edesseni sua tempora computant.</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="117_2">
@@ -29072,6 +29131,11 @@
             role="olympiad">
             <cell/>
             <cell>CXVIII Olympias </cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
             <cell/>
           </row>
           <row role="data" 
@@ -29125,6 +29189,11 @@
             role="olympiad">
             <cell/>
             <cell>CXIX Olympias </cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
             <cell/>
           </row>
           <row role="data" 
@@ -29263,6 +29332,11 @@
             <cell/>
             <cell>CXXI Olympias </cell>
             <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="121_1">
@@ -29299,6 +29373,8 @@
             <cell/>
             <cell/>
             <cell>DEMETRIUS, annis VI.</cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="121_3">
@@ -29391,6 +29467,11 @@
             <cell/>
             <cell>CXXIII Olympias</cell>
             <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row n="r4" role="regnal" 
             >
@@ -29425,6 +29506,8 @@
             <cell/>
             <cell/>
             <cell n="lysimachus">Post quem, LYSIMACHUS, annis V.</cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="123_2">
@@ -29470,12 +29553,23 @@
             role="olympiad">
             <cell/>
             <cell>CXXIV Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row n="r6"
             role="regnal">
             <cell/>
             <cell/>
             <cell n="ptolemy2">Aegypti II, PTOLEMAEUS Philadelphus, annis XXXVIII</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="124_1">
@@ -29500,6 +29594,7 @@
             <cell/>
             <cell/>
             <cell>Demetrius semetipsum Seleuco tradidit.</cell>
+            <cell></cell>
           </row>
         </table>
       </div>
@@ -29549,6 +29644,7 @@
             <cell/>
             <cell/>
             <cell n="ceraunus">Macedonum PTOLEMAEUS, cognomento ΚΕΡΑΥΝΟΣ. </cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="124_3">
@@ -29568,6 +29664,7 @@
             <cell/>
             <cell/>
             <cell n="sosthenes">MELEAGRUS, menses II. ANTIPATER, dies XLV. Post quem SOSTHENES annis II.</cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="124_4">
@@ -29590,12 +29687,19 @@
             <cell/>
             <cell/>
             <cell n="antiochus-soter"> Syriae et Asiae post Seleucum regnavit ANTIOCHUS SOTER, annis XIX.</cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row
             n="125"
             role="olympiad">
             <cell/>
             <cell>CXXV Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="125_1">
@@ -29652,7 +29756,11 @@
             role="olympiad">
             <cell/>
             <cell>CXXVI Olympias </cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="126_1">
@@ -29702,7 +29810,11 @@
             role="olympiad">
             <cell/>
             <cell>CXXVII Olympias</cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="127_1">
@@ -29755,6 +29867,9 @@
             <cell/>
             <cell><note
                 n="g"/> Epicurus moritur.</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="128_1">
@@ -29804,7 +29919,11 @@
             role="olympiad">
             <cell/>
             <cell>CXXIX Olympias</cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="129_1">
@@ -29846,6 +29965,8 @@
             <cell/>
             <cell/>
             <cell n="antiochus-theos"> Syriae ANTIOCHUS, qui vocabatur Theos, annis XV.</cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="129_4">
@@ -29862,7 +29983,11 @@
             role="olympiad">
             <cell/>
             <cell>CXXX Olympias</cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="130_1">
@@ -29912,6 +30037,11 @@
             role="olympiad">
             <cell/>
             <cell>CXXXI Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="131_1">
@@ -29961,6 +30091,11 @@
             role="olympiad">
             <cell/>
             <cell>CXXXII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="132_1">
@@ -30013,6 +30148,11 @@
             role="olympiad">
             <cell/>
             <cell>CXXXIII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="133_1">
@@ -30043,6 +30183,8 @@
             <cell n="ptolemy-euergetes">Aegypti III, PTOLEMAEUS EVERGETES, annis XXVI</cell>
             <cell/>
             <cell n="seleucus-callinicus"> Syriae SELEUCUS CALLINICUS, annis XX.</cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="133_3">
@@ -30074,7 +30216,11 @@
             role="olympiad">
             <cell/>
             <cell>CXXXIV Olympias</cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="134_1">
@@ -30118,6 +30264,7 @@
             <cell/>
             <cell/>
             <cell n="demetrius">Macedonum DEMETRIUS, annis X.</cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="134_2">
@@ -30156,6 +30303,11 @@
             role="olympiad">
             <cell/>
             <cell>CXXXV Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="135_1">
@@ -30205,7 +30357,11 @@
             role="olympiad">
             <cell/>
             <cell>CXXXVI Olympias</cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="136_1">
@@ -30263,12 +30419,12 @@
             role="olympiad">
             <cell/>
             <cell>CXXXVII Olympias</cell>
-            <cell/>
-            <cell/>
-            <cell/>
-            <cell/>
-            <cell/>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+   
           </row>
           <row role="data" 
             n="137_1">
@@ -30318,6 +30474,11 @@
             role="olympiad">
             <cell/>
             <cell>CXXXVIII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="138_1">
@@ -30378,6 +30539,11 @@
             role="olympiad">
             <cell/>
             <cell>CXXXIX Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="139_1">
@@ -30435,12 +30601,21 @@
             role="olympiad">
             <cell/>
             <cell>CXL Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row n="r5"
             role="regnal">
             <cell/>
             <cell/>
             <cell n="ptolemy-philopator">Aegypti PTOLEMAEUS PHILOPATOR, annis XVII</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="140_1">
@@ -30499,7 +30674,11 @@
             role="olympiad">
             <cell/>
             <cell>CXLI Olympias</cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="141_1">
@@ -30551,6 +30730,10 @@
             <cell/>
             <cell>CXLII Olympias</cell>
             <cell>Syracusas capiunt.</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="142_1">
@@ -30600,7 +30783,11 @@
             role="olympiad">
             <cell/>
             <cell>CXLIII Olympias</cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="143_1">
@@ -30649,6 +30836,11 @@
             role="olympiad">
             <cell/>
             <cell>CXLIV Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="144_1">
@@ -30666,6 +30858,10 @@
             <cell/>
             <cell/>
             <cell n="ptolemy-epiphanes">Aegypti V, PTOLEMAEUS EPIPHANES, annis XXIV</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="144_2">
@@ -30706,7 +30902,11 @@
             role="olympiad">
             <cell/>
             <cell>CXLV Olympias</cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="145_1">
@@ -30762,7 +30962,11 @@
             role="olympiad">
             <cell/>
             <cell>CXLVI Olympias</cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="146_1">
@@ -30812,7 +31016,11 @@
             role="olympiad">
             <cell/>
             <cell>CXLVII Olympias</cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="147_1">
@@ -30867,7 +31075,11 @@
             role="olympiad">
             <cell/>
             <cell>CXLVIII Olympias</cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="148_1">
@@ -30890,6 +31102,8 @@
             <cell/>
             <cell/>
             <cell n="philopator">Syriae et Asiae, SELEUCUS qui et PHILOPATOR, annis XII </cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="148_2">
@@ -30932,7 +31146,11 @@
             role="olympiad">
             <cell/>
             <cell>XCLIX Olympias</cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="149_1">
@@ -30992,6 +31210,11 @@
             role="olympiad">
             <cell/>
             <cell>CL Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="150_1">
@@ -31008,6 +31231,10 @@
             <cell/>
             <cell/>
             <cell n="ptolemy-philometor">Aegypti VI, PTOLEMAEUS PHILOMETOR, annis XXXV</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="150_2">
@@ -31050,13 +31277,18 @@
             <cell/>
             <cell/>
             <cell n="perseus">Macedonum PERSES, annis X.</cell>
+            <cell></cell>
           </row>
           <row
             n="151"
             role="olympiad">
             <cell/>
             <cell>CLI Olympias</cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="151_1">
@@ -31077,6 +31309,8 @@
             <cell/>
             <cell/>
             <cell> Syriae et Asiae, ANTIOCHUS EPIPHANES, annis XI.</cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="151_2">
@@ -31113,6 +31347,11 @@
             role="olympiad">
             <cell/>
             <cell>CLII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="152_1">
@@ -31175,6 +31414,9 @@
               in tempore Matthathias quidam ex sacerdotibus, filius Asamonaei, vico Modeim, adversum
               Antiochi duces arma corripiens, fultus etiam auxilio filiorum, leges patrias
               vindicavit olympiade CLIII. </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <milestone
             n="222/223"
@@ -31231,6 +31473,7 @@
             <cell/>
             <cell/>
             <cell>Macedonum regnum defecit.</cell>
+            <cell></cell>
           </row>
         </table>
         
@@ -31262,6 +31505,9 @@
             <cell/>
             <cell>CLIV Olympias</cell>
             <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row n="r1"
             role="regnal">
@@ -31270,6 +31516,7 @@
             <cell/>
             <cell/>
             <cell n="antiochus-eupator"> Syriae et Asiae, ANTIOCHUS EUPATOR, annis II. </cell>
+            <cell/>
           </row>
           <row role="data" 
             n="154_1">
@@ -31300,7 +31547,7 @@
             <cell/>
             <cell n="demetrius-soter"> DEMETRIUS SOTER, annis XII. </cell>
             <cell/>
-            <cell/>
+         
           </row>
           <row role="data" 
             n="154_3">
@@ -31351,6 +31598,11 @@
             role="olympiad">
             <cell/>
             <cell>CLV Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row n="r1"
             role="regnal">
@@ -31360,6 +31612,7 @@
             <cell/>
             <cell/>
             <cell n="judas-maccabaeus">Judaeorum dux, JUDAS [MACHABAEUS], annis III.</cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="155_1">
@@ -31413,6 +31666,7 @@
             <cell/>
             <cell/>
             <cell n="jonathas">Judaeorum dux, JONATHAS, annis XIX</cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="155_4">
@@ -31431,6 +31685,11 @@
             role="olympiad">
             <cell/>
             <cell>CLVI Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="156_1">
@@ -31485,6 +31744,10 @@
             
             <cell>CLVII Olympias</cell>
             <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="157_1">
@@ -31516,6 +31779,8 @@
             <cell/>
             <cell/>
             <cell n="alexander"> Syriae et Asiae, ALEXANDER, annis IX, menses X </cell>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="157_3">
@@ -31543,6 +31808,11 @@
             role="olympiad">
             <cell/>
             <cell>CLVIII Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="158_1">
@@ -31599,12 +31869,21 @@
             role="olympiad">
             <cell/>
             <cell>CLIX Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row n="r4"
             role="regnal">
             <cell/>
             <cell/>
             <cell n="ptolemy-euergetes">Aegypti VII, PTOLEMAEUS EUERGETES, annis XXIX.</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="159_1">
@@ -31659,6 +31938,11 @@
             role="olympiad">
             <cell/>
             <cell>CLX Olympias </cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row n="r5"
             role="regnal">
@@ -31667,6 +31951,8 @@
             <cell/>
             <cell/>
             <cell n="demetrius"> Syriae et Asiae, DEMETRIUS, annis III. </cell>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="160_1">
@@ -31703,6 +31989,7 @@
             <cell/>
             <cell/>
             <cell n="simon">Judaeorum dux, SIMON, annis VIII.</cell>
+            <cell/>
           </row>
           <row role="data" 
             n="160_3">
@@ -31723,6 +32010,8 @@
             <cell/>
             <cell/>
             <cell n="antiochus-sidetes"> Post quem ANTIOCHUS SIDETES, annis IX. </cell>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="160_4">
@@ -31741,6 +32030,10 @@
             role="olympiad">
             <cell/>
             <cell>CLXI Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/> 
+            <cell/>
             <cell/>
           </row>
           <row role="data" 
@@ -31799,6 +32092,10 @@
                 n="g"/> Antiochus Sidetes rex Syriae adversus Judaeam arma corripiens, et
               Jerosolymam vallo circumdans, cum ad conditiones pontificem Simonem compulisset,
               recedit CLXII olympiade. </cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="162_1">
@@ -31829,6 +32126,7 @@
             <cell/>
             <cell/>
             <cell n="hyrcanus"> Judaeorum, HYRCANUS, qui et Joannes, annis XXVI.</cell>
+            <cell/>
           </row>
           <milestone
             n="228/229"
@@ -31860,6 +32158,11 @@
             role="olympiad">
             <cell/>
             <cell>CLXIII Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/> 
+            <cell/>
+            <cell/>
           </row>
           <row n="r9"
             role="regnal">
@@ -31868,6 +32171,8 @@
             <cell/>
             <cell/>
             <cell n="demetrius2"> Post quem DEMETRIUS iterum, annis IV </cell>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="163_1">
@@ -31921,6 +32226,11 @@
             role="olympiad">
             <cell/>
             <cell>CLXIV Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/> 
+            <cell/>
+            <cell/>
           </row>
           <row n="r10"
             role="regnal">
@@ -31929,6 +32239,8 @@
             <cell/>
             <cell/>
             <cell n="antiochus-grypus">Syriae et Asiae, ANTIOCHUS GRYPUS, annis XII</cell>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="164_1">
@@ -31979,6 +32291,11 @@
             role="olympiad">
             <cell/>
             <cell>CLXV Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/> 
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="165_1">
@@ -32051,6 +32368,10 @@
             <cell/>
             <cell/>
             <cell n="ptolemy-physcon">Aegypti VIII, PTOLEMAEUS PHYSCON, qui et Soter, annis XVII.</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="166_2">
@@ -32089,12 +32410,19 @@
             <cell/>
             <cell/>
             <cell n="antiochus-cyzicenus"> Post quem ANTIOCHUS CYZICENUS, annis XVIII </cell>
+            <cell/>
+            <cell/>
           </row>
           <row
             n="167"
             role="olympiad">
             <cell/>
             <cell>CLXVII Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/> 
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="167_1">
@@ -32145,6 +32473,11 @@
             role="olympiad">
             <cell/>
             <cell>CLXVIII Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/> 
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="168_1">
@@ -32201,6 +32534,11 @@
             role="olympiad">
             <cell/>
             <cell>CLXIX Olympias </cell>
+            <cell/>
+            <cell/>
+            <cell/> 
+            <cell/>
+            <cell/>
           </row>
           <row n="r13"
             role="regnal">
@@ -32210,6 +32548,7 @@
             <cell/>
             <cell/>
             <cell n="aristobolus">Judaeorum ARISTOBOLUS, anno I.</cell>
+            <cell/>
           </row>
           <row role="data" 
             n="169_1">
@@ -32233,6 +32572,7 @@
             <cell/>
             <cell/>
             <cell n="jannaeus">Post quem JANNAEUS, qui et ALEXANDER, annis XXVII. </cell>
+            <cell/>
           </row>
           <row role="data" 
             n="169_2">
@@ -32268,7 +32608,7 @@
             <cell/>
             <cell>15</cell>
             <cell><note
-                n="h"/> Gaius Marius quinquies consul, juxta Heridanum Cimbros superat, </cell>
+              n="h"/> Gaius Marius quinquies consul, juxta Heridanum Cimbros superat, et post de his cum Catulo triumphat.  </cell>
             <cell>12</cell>
             <cell>3</cell>
             <cell>101</cell>
@@ -32278,7 +32618,7 @@
             role="olympiad">
             <cell/>
             <cell>CLXX Olympias</cell>
-            <cell>et post de his cum Catulo triumphat. </cell>
+            <cell/>
             <cell/>
             <cell/>
             <cell/>
@@ -32312,6 +32652,10 @@
             <cell/>
             <cell/>
             <cell n="ptolemy9">Aegypti IX, PTOLEMAEUS, qui et Alexander, annis X.</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="170_3">
@@ -32340,6 +32684,11 @@
             role="olympiad">
             <cell/>
             <cell>CLXXI Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="171_1">
@@ -32371,6 +32720,8 @@
             <cell/>
             <cell/>
             <cell n="philip">Syriae PHILIPPUS, annis II</cell>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="171_3">
@@ -32402,6 +32753,8 @@
             <cell/>
             <cell/>
             <cell>Syriae reges defecerunt.</cell>
+            <cell/>
+            <cell/>
           </row>
         </table>
        
@@ -32486,12 +32839,19 @@
             <cell/>
             <cell/>
             <cell n="ptolemy10">Aegypti X, PTOLEMAEUS, qui a matre fuerat ejectus, annis VIII</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row
             n="173"
             role="olympiad">
             <cell/>
             <cell>CLXXIII Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="173_1">
@@ -32546,6 +32906,10 @@
             role="olympiad">
             <cell/>
             <cell>CLXXIV Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="174_1">
@@ -32595,12 +32959,19 @@
             role="olympiad">
             <cell/>
             <cell>CLXXV Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row n="r2"
             role="regnal">
             <cell/>
             <cell/>
             <cell n="ptolemy11">Aegypti XI, PTOLEMAEUS DIONYSUS, annis XXX</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="175_1">
@@ -32654,6 +33025,10 @@
             role="olympiad">
             <cell/>
             <cell>CLXXVI Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row n="r3"
             role="regnal">
@@ -32662,6 +33037,7 @@
             <cell/>
             <cell/>
             <cell n="alexandra">Judaeorum regnavit ALEXANDRA, annis IX.</cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="176_1">
@@ -32709,6 +33085,10 @@
             role="olympiad">
             <cell/>
             <cell>CLXXVII Olympias</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row role="data" 
             n="177_1">
@@ -32804,6 +33184,7 @@
             <cell/>
             <cell>Judaei Romanorum vectigales per Pompeium facti, et pontificatum apud eos suscepit
               HYRCANUS, annis XXXIV. </cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="178_2">
@@ -32847,6 +33228,10 @@
             role="olympiad">
             <cell/>
             <cell>CLXXIX Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="179_1">
@@ -32896,6 +33281,10 @@
             role="olympiad">
             <cell/>
             <cell>CLXXX Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="180_1">
@@ -32945,6 +33334,10 @@
             role="olympiad">
             <cell/>
             <cell>CLXXXI Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="181_1">
@@ -32996,6 +33389,10 @@
             role="olympiad">
             <cell/>
             <cell>CLXXXII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="182_1">
@@ -33022,6 +33419,9 @@
             <cell/>
             <cell/>
             <cell n="cleopatra">Aegypti XII, CLEOPATRA, annis XXII</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="182_3">
@@ -33039,7 +33439,7 @@
             <cell/>
             <cell>2</cell>
             <cell><note
-                n="i"/> Diodorus Siculus Graecae scriptor historiae, clarus habetur. ?</cell>
+                n="i"/> Diodorus Siculus Graecae scriptor historiae, clarus habetur.</cell>
             <cell>19</cell>
             <cell>49</cell>
           </row>
@@ -33048,6 +33448,10 @@
             role="olympiad">
             <cell/>
             <cell>CLXXXIII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
         </table>
        
@@ -33084,6 +33488,12 @@
             role="annotation">
             <cell><note
                 n="b"/> Ab hoc loco Antiocheni sua tempora computant.</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row n="r1"
             role="regnal">
@@ -33092,6 +33502,8 @@
             <cell n="caesar"> Romanorum primus, C. JULIUS CAESAR, annis IV, menses VII</cell>
             <cell/>
             <cell/>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="183_1">
@@ -33152,6 +33564,11 @@
             role="olympiad">
             <cell/>
             <cell>CLXXXIV Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="184_1">
@@ -33183,6 +33600,10 @@
             <cell/>
             <cell n="augustus">Romanorum II, regnavit OCTAVIANUS CAESAR Augustus, annis LVI, menses VI (A quo
               'Augusti' Romanorum reges appellati)</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="184_2">
@@ -33247,6 +33668,11 @@
             role="olympiad">
             <cell/>
             <cell>CLXXXV Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="185_1">
@@ -33301,6 +33727,11 @@
             role="olympiad">
             <cell/>
             <cell>CLXXXVI Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="186_1">
@@ -33367,6 +33798,8 @@
             <cell>Et scies et intelliges ab initio sermonis respondendi, et aedificandi Jerusalem
               usque ad Christi principatum, hebdomades VII et hebdomades LXII. 
             </cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row n="r3"
             role="regnal">
@@ -33377,10 +33810,9 @@
             <cell/>
             <cell n="herodes">Judaeis regnavit HERODES alienigena, Deficiente Pontificum principatu, annis
               XXXVII. </cell>
+            <cell></cell>
           </row>
-          <!-- <milestone
-                n="244/245"
-                unit="HelmPages"/> -->
+       
           <row role="data" 
             n="186_4">
             <cell/>
@@ -33410,6 +33842,11 @@
             role="olympiad">
             <cell/>
             <cell>CLXXXVII Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="187_1">
@@ -33468,10 +33905,13 @@
             role="olympiad">
             <cell/>
             <cell>CLXXXVIII Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
-          <!-- <milestone
-                n="246"
-                unit="HelmPages"/>  -->
+          
           <row role="data" 
             n="188_1">
             <cell/>
@@ -33495,6 +33935,7 @@
             <cell/>
             <cell/>
             <cell>Aegypti regnum, quod fuit in Alexandria, destructum est.</cell>
+            <cell></cell>
           </row>
         </table>
       </div>
@@ -33564,6 +34005,10 @@
             role="olympiad">
             <cell/>
             <cell>CLXXXIX Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="189_1">
@@ -33620,6 +34065,10 @@
             role="olympiad">
             <cell/>
             <cell>CXC Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="190_1">
@@ -33682,6 +34131,10 @@
             role="olympiad">
             <cell/>
             <cell>CXCI Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="191_1">
@@ -33736,6 +34189,10 @@
             role="olympiad">
             <cell/>
             <cell>CXCII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="192_1">
@@ -33800,7 +34257,10 @@
             role="olympiad">
             <cell/>
             <cell>193rd Olympias </cell>
-          
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <milestone
             n="250/251"
@@ -33854,6 +34314,10 @@
             role="olympiad">
             <cell/>
             <cell>CXCIV Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="194_1">
@@ -33935,6 +34399,10 @@
             role="olympiad">
             <cell/>
             <cell>CXCV Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="195_1">
@@ -33993,12 +34461,17 @@
             <cell/>
             <cell/>
             <cell n="archelaus">Judaeorum dux, ARCHELAUS, annis IX</cell>
+            <cell></cell>
           </row>
           <row
             n="196"
             role="olympiad">
             <cell/>
             <cell>CXCVI Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="196_1">
@@ -34049,6 +34522,10 @@
             role="olympiad">
             <cell/>
             <cell>CXCVII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="197_1">
@@ -34099,6 +34576,10 @@
             role="olympiad">
             <cell/>
             <cell>CXCVIII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="198_1">
@@ -34123,12 +34604,16 @@
             <cell/>
             <cell/>
             <cell n="herodes-tetrarcha">Judaeorum principatum tenet HERODES Tetrarcha annis XXIV</cell>
+            <cell></cell>
           </row>
           <row n="r3"
             role="regnal">
             <cell/>
             <cell/>
             <cell n="tiberius">Romanorum III, TIBERIUS regnavit annis XXIII </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="198_2">
@@ -34164,6 +34649,10 @@
             role="olympiad">
             <cell/>
             <cell>CXCIX Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="199_1">
@@ -34220,6 +34709,10 @@
             role="olympiad">
             <cell/>
             <cell>CC Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="200_1">
@@ -34268,6 +34761,10 @@
             role="olympiad">
             <cell/>
             <cell>CCI Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <!--  <milestone
                 n="255"
@@ -34334,6 +34831,10 @@
             role="olympiad">
             <cell/>
             <cell>CCII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="202_1">
@@ -34414,6 +34915,10 @@
             role="olympiad">
             <cell/>
             <cell>CCIII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="203_1">
@@ -34476,12 +34981,19 @@
             role="olympiad">
             <cell/>
             <cell>CCIV Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row n="r4"
             role="regnal">
             <cell/>
             <cell/>
             <cell n="caligula">Romanorum IV, GAIUS CALIGULA, regnavit annis III, menses X.</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="204_1">
@@ -34501,6 +35013,7 @@
             <cell/>
             <cell/>
             <cell n="agrippa">Judaeorum princeps, AGRIPPA, annis VII</cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="204_2">
@@ -34558,12 +35071,19 @@
             <cell/>
             <cell/>
             <cell n="claudius">Romanorum V, CLAUDIUS, regnavit annis XIII, mensibus VIII, diebus XXVIII.</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row
             n="205"
             role="olympiad">
             <cell/>
             <cell>CCV Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="205_1">
@@ -34636,6 +35156,10 @@
             role="olympiad">
             <cell/>
             <cell>CCVI Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="206_1">
@@ -34693,6 +35217,10 @@
             role="olympiad">
             <cell/>
             <cell>CCVII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="207_1">
@@ -34741,6 +35269,10 @@
             role="olympiad">
             <cell/>
             <cell>CCVIII Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="208_1">
@@ -34772,6 +35304,9 @@
             <cell/>
             <cell/>
             <cell n="nero">Romanorum VI, NERO regnavit annis XIII, mensibus VII, diebus XXVIII.</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="208_3">
@@ -34806,6 +35341,10 @@
             role="olympiad">
             <cell/>
             <cell>CCIX Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="209_1">
@@ -34854,16 +35393,18 @@
             role="olympiad">
             <cell/>
             <cell>CCX Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            
           </row>
           <row role="data" 
             n="210_1">
             <cell/>
             <cell/>
             <cell>7</cell>
-            <!--
-            <milestone
-              n="265"
-              unit="HelmPages"/>-->
+          
             <cell>
               <note
                 n="h"/> Nero Romae cithara contendens superat. <note
@@ -34925,6 +35466,10 @@
             <cell/>
             <cell><note
                 n="a"/> CCXI Olympias. Non est, Nerone in suam praesentiam differente.</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="211_1">
@@ -35015,12 +35560,19 @@
             role="olympiad">
             <cell/>
             <cell>CCXII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row n="r9"
             role="regnal">
             <cell/>
             <cell/>
             <cell n="vespasian">Romanorum VII, VESPASIANUS regnavit annis IX, mensibus XI, diebus XXII.</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="212_1">
@@ -35101,6 +35653,9 @@
             <cell/>
             
             <cell> CCXIII Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="213_1">
@@ -35170,6 +35725,9 @@
             role="olympiad">
             <cell/>
             <cell> CCXIV Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="214_1">
@@ -35277,6 +35835,9 @@
             <cell/>
             <cell/>
             <cell n="domitian"> Romanorum IX, DOMITIANUS, regnavit annis XV, mensibus V. </cell>
+            <cell></cell>
+            <cell></cell>
+            
           </row>
           <row role="data" 
             n="215_1">
@@ -35330,6 +35891,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXVI Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="216_1">
@@ -35379,6 +35943,7 @@
             <cell><note
                 n="m"/> Domitianus plurimos nobilium in exsilium mittit, et occidit. <note
                 n="n"/> Domitianus mathematicos et philosophos Romana urbe pellit.</cell>
+            <cell></cell>
           </row>
           <milestone
             n="2_3"
@@ -35432,6 +35997,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXVIII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="218_1">
@@ -35490,12 +36058,17 @@
             role="olympiad">
             <cell/>
             <cell>CCXIX Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row n="r3"
             role="regnal">
             <cell/>
             <cell/>
             <cell n="nerva">Romanorum X, NERVA, regnavit anno uno, mensibus IV. </cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="219_1">
@@ -35520,6 +36093,8 @@
             <cell/>
             <cell/>
             <cell n="trajan">Romanorum XI, TRAJANUS, regnavit annis XIX, mensibus VI.</cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="219_2">
@@ -35538,9 +36113,7 @@
             <cell><note
                 n="g"/> Romanae Ecclesiae episcopatum IV suscepit, EVARISTUS, annis IX.</cell>
             <cell>99</cell>
-          </row><!-- <milestone
-                n="276"
-                unit="HelmPages"/> -->
+          </row>
           <row role="data" 
             n="219_4">
             <cell/>
@@ -35557,6 +36130,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXX Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="220_1">
@@ -35601,6 +36177,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXXI Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="221_1">
@@ -35658,6 +36237,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXXII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="222_1">
@@ -35708,6 +36290,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXXIII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="223_1">
@@ -35762,12 +36347,17 @@
             role="olympiad">
             <cell/>
             <cell>CCXXIV Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row n="r5"
             role="regnal">
             <cell/>
             <cell/>
             <cell n="hadrian">Romanorum XII, HADRIANUS, regnavit annis XXI</cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="224_1">
@@ -35825,6 +36415,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXXV Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="225_1">
@@ -35877,6 +36470,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXXVI Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="226_1">
@@ -35930,6 +36526,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXXVII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="227_1">
@@ -35984,6 +36583,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXXVIII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="228_1">
@@ -36034,6 +36636,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXXIX Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="229_1">
@@ -36054,6 +36659,8 @@
             <cell/>
             <cell n="antoninus-pius">Romanorum XIII, T. ANTONINUS, cognomento Pius, cum liberis suis Aurelio et Lucio
               regnavit, annis XXII, mensibus III. </cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="229_2">
@@ -36088,6 +36695,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXXX Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="230_1">
@@ -36133,6 +36743,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXXXI Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="231_1">
@@ -36175,6 +36788,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXXXII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="232_1">
@@ -36216,6 +36832,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXXXIII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="233_1">
@@ -36258,6 +36877,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXXXIV Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="234_1">
@@ -36307,6 +36929,7 @@
               Symmachus, XXIII Caius, XXIV Julianus, XXV Capito. <note
                 n="a"/> Antoninus Pius apud Lorium villam suam, XII ab Urbe milliario, moritur anno
               vitae suae LXXVII.  </cell>
+            <cell></cell>
           </row>
           <row n="r7"
             role="regnal">
@@ -36314,6 +36937,8 @@
             <cell/>
             <cell n="commodus">Romanorum XIV, MARCUS ANTONINUS, qui et VERUS, regnavit; et L. AURELIUS COMMODUS,
               annis XIX, mense uno. </cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="235_1">
@@ -36360,6 +36985,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXXXVI Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="236_1">
@@ -36413,6 +37041,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXXXVII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="237_1">
@@ -36475,10 +37106,11 @@
             role="olympiad">
             <cell/>
             <cell>CCXXXVIII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            
           </row>
-          <!-- <milestone
-                n="289"
-                unit="HelmPages"/> -->
           <row role="data" 
             n="238_1">
             <cell/>
@@ -36523,6 +37155,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXXXIX Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="239_1">
@@ -36572,6 +37207,8 @@
             <cell/>
             <cell/>
             <cell n="commodus">Romanorum XV, COMMODUS, regnavit annis XIII.</cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="239_4">
@@ -36587,6 +37224,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXL Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="240_1">
@@ -36629,6 +37269,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXLI Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
          
           <row role="data" 
@@ -36674,6 +37317,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXLII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="242_1">
@@ -36723,12 +37369,17 @@
             role="olympiad">
             <cell/>
             <cell>CCXLIII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row n="r9"
             role="regnal">
             <cell/>
             <cell/>
             <cell n="pertinax">Romanorum XVI, AELIUS PERTINAX, regnavit mensibus VI.</cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="243_1">
@@ -36750,6 +37401,8 @@
             <cell/>
             <cell/>
             <cell n="severus">Romanorum XVII, SEVERUS, regnavit annis XVIII. </cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="243_2">
@@ -36796,6 +37449,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXLIV Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="244_1">
@@ -36843,6 +37499,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXLV Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="245_1">
@@ -36891,6 +37550,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXLVI Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="246_1">
@@ -36939,6 +37601,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXLVII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="247_1">
@@ -36963,6 +37628,8 @@
             <cell/>
             <cell n="caracalla">Romanorum XVIII, ANTONINUS cognomento CARACALLA, Severi filius, regnavit annis
               VII.</cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="247_3">
@@ -36988,6 +37655,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXLVIII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="248_1">
@@ -37031,6 +37701,9 @@
             role="olympiad">
             <cell/>
             <cell>CCXLIX Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="249_1">
@@ -37047,6 +37720,8 @@
             <cell/>
             <cell/>
             <cell n="macrinus">Romanorum XIX, MACRINUS, regnavit anno uno.</cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="249_2">
@@ -37111,6 +37786,7 @@
             <cell/>
             <cell/>
             <cell n="m-aurelius-antoninus"> Romanorum XX, MARCUS AURELIUS ANTONINUS, regnavit annis IV. </cell>
+            <cell></cell>
             <cell/>
           </row>
           <row role="data" 
@@ -37359,7 +38035,9 @@
             <cell/>
             
             <cell> CCLIII Olympias </cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="253_1">
@@ -37409,6 +38087,7 @@
             <cell/>
             <cell/>
             <cell n="maximinus"> Romanorum XXII, MAXIMINUS, regnavit annis III. </cell>
+            <cell></cell>
             <cell/>
           </row>
           <row role="data" 
@@ -37429,6 +38108,9 @@
             role="olympiad">
             <cell/>
             <cell> CCLIV Olympias </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="254_1">
@@ -37467,7 +38149,9 @@
           <row  n="r16" role="regnal"> 
             <cell/>
             <cell/>
-            <cell n="gordian">Romanorum XXIII, GORDIANUS 1, regnavit annis 6.</cell>
+            <cell n="gordian">Romanorum XXIII, GORDIANUS, regnavit annis 6.</cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="254_3">
@@ -37503,7 +38187,9 @@
             <cell/>
             
             <cell> CCLV Olympias </cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <milestone
             n="299"
@@ -37563,8 +38249,9 @@
             role="olympiad">
             <cell/>
             <cell> CCLVI Olympias </cell>
-            <cell/>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="256_1">
@@ -37638,6 +38325,9 @@
             role="olympiad">
             <cell/>
             <cell>CCLVII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="257_1">
@@ -37670,6 +38360,8 @@
             <cell/>
             <cell/>
             <cell n="decius">Romanorum XXV, DECIUS, regnavit anno uno, mensibus III.</cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="257_4">
@@ -37702,12 +38394,16 @@
                 n="3_1"
                 unit="HelmPages"/>ipse martyrio coronatus est. Exstant ad eum Cypriani octo
               epistolae.  </cell>
+            <cell></cell>
           </row>
           <row
             n="258"
             role="olympiad">
             <cell/>
             <cell>CCLVIII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="258_1">
@@ -37745,6 +38441,8 @@
             <cell/>
             <cell/>
             <cell n="valerian-gallienus">Romanorum XXVII, VALERIANUS et GALLIENUS, regnaverunt annis XV.</cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="258_3">
@@ -37769,7 +38467,9 @@
             role="olympiad">
             <cell/>
             <cell>CCLIX Olympias</cell>
-            <cell/>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="259_1">
@@ -37817,6 +38517,9 @@
             role="olympiad">
             <cell/>
             <cell>CCLX Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="260_1">
@@ -37865,6 +38568,9 @@
             role="olympiad">
             <cell/>
             <cell>CCLXI Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="261_1">
@@ -37912,6 +38618,9 @@
             role="olympiad">
             <cell/>
             <cell>CCLXII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="262_1">
@@ -37927,10 +38636,10 @@
             <cell/>
             <cell/>
             <cell n="claudius">Romanorum XXVIII, CLAUDIUS, regnavit anno uno, mensibus IX.</cell>
+            <cell></cell>
+            <cell></cell>
           </row>
-          <!-- <milestone
-                n="3_4"
-                unit="HelmPages"/>  -->
+          
           <row role="data" 
             n="262_2">
             <cell/>
@@ -37960,6 +38669,8 @@
             <cell/>
             <cell/>
             <cell n="aurelian">Romanorum XXIX, AURELIANUS, regnavit annis V, mensibus VI.</cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="262_4">
@@ -37975,6 +38686,9 @@
             role="olympiad">
             <cell/>
             <cell>CCLXIII Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="263_1">
@@ -38032,12 +38746,17 @@
             <cell/>
             <cell/>
             <cell n="tacitus">Romanorum XXX, TACITUS, regnavit menses VI .</cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row
             n="264"
             role="olympiad">
             <cell/>
             <cell>CCLXIV Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="264_1">
@@ -38054,6 +38773,8 @@
             <cell/>
             <cell/>
             <cell n="problus">Romanorum XXXI, PROBUS, regnavit annis VI, menses IV.</cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="264_2">
@@ -38098,6 +38819,9 @@
             role="olympiad">
             <cell/>
             <cell>CCLXV Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="265_1">
@@ -38136,6 +38860,8 @@
             <cell/>
             <cell/>
             <cell n="carus">Romanorum XXXII, CARUS cum filiis CARINO et NUMERIANO, annis II.</cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="265_4">
@@ -38150,6 +38876,9 @@
             role="olympiad">
             <cell/>
             <cell>CCLXVI Olympias</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
           </row>
           <row role="data" 
             n="266_1">
