@@ -22,12 +22,15 @@ SELECT  ?urn ?label ?day ?month ?yr ?ruler ?place ?adbcyr ?gregdate WHERE {
 ?urn  <http://www.w3.org/1999/02/22-rdf-syntax-ns#label>     ?label .
 ?urn <http://www.homermultitext.org/hmt/citedata/pedersen_Day>       ?day .
 ?urn <http://www.homermultitext.org/hmt/citedata/pedersen_Month>  ?month .
-?urn  <http://www.homermultitext.org/hmt/citedata/pedersen_Year> ?yr .
-?urn <http://www.homermultitext.org/hmt/citedata/pedersen_Ruler>  ?ruler .
 ?urn <http://www.homermultitext.org/hmt/citedata/pedersen_Place>   ?place .
 
 ?urn <http://www.homermultitext.org/hmt/citedata/pedersen_ModernYear> ?adbcyr .
 ?urn <http://www.homermultitext.org/hmt/citedata/pedersen_Date>  ?gregdate .
+
+OPTIONAL {
+?urn  <http://www.homermultitext.org/hmt/citedata/pedersen_Year> ?yr .
+?urn <http://www.homermultitext.org/hmt/citedata/pedersen_Ruler>  ?ruler .
+}
 
 FILTER (str(?urn) = "${urnStr}" )  .
 }
