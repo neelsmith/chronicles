@@ -33,6 +33,25 @@ class JGraph {
         return label
     }
 
+
+
+    ArrayList getSynchronismsForSequence(String urnStr) {
+        def syncs = []
+        String syncReply = getSparqlReply("application/json",jqg.getSyncsForSequence(urnStr))
+
+        System.err.println "SEQ QUERY : " +  jqg.getSyncsForSequence(urnStr)
+
+        def slurper = new groovy.json.JsonSlurper()
+        def parsedReply = slurper.parseText(syncReply)
+        parsedReply.results.bindings.each { b ->
+            System.err.println "BINDING for " + b.urn.value
+            System.err.println b
+        }
+        return syncs
+    }
+    
+
+
     ArrayList getSynchronismsForRuler(String urnStr) {
         def syncs = []
         String syncReply = getSparqlReply("application/json",jqg.getSyncsForRulerQuery(urnStr))

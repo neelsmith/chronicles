@@ -20,6 +20,18 @@ FILTER (str(?urn) = "${urnStr}")
 """
     }
 
+
+String getObservationsQuery() {
+return """
+SELECT ?urn ?label ?yr WHERE {
+
+ ?urn <http://www.homermultitext.org/hmt/citedata/pedersen_ModernYear> ?yr .
+ ?urn <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> ?label .
+ FILTER (regex(str(?urn), "urn:cite:chron:pedersen" ) ) .
+}
+"""
+}
+
     String getFilaQuery() {
         return """
         SELECT ?f  ?label WHERE {
@@ -132,8 +144,27 @@ FILTER (str(?u)  = "${urnStr}")
 """
 }
 
+    String getSyncsForSequence(String urn) {
+return """
+SELECT ?urn ?label ?chronseq ?seqlabel  ?nxt ?prev  ?sync ?synclabel WHERE {
 
 
+?urn <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> ?label .
+
+?urn <http://www.homermultitext.org/cite/rdf/belongsTo>  ?chronseq .
+?chronseq <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> ?seqlabel .
+
+OPTIONAL {
+
+?urn <http://www.w3.org/2002/07/owl#sameAs> ?sync .
+?sync <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> ?synclabel .
+}
+
+FILTER(str(?urn) = "${urn}")
+}
+"""
+}
+// ?urn  <http://shot.holycross.edu/chron/rdf/synchronizedWith> ?sync .
     String getSyncsForOlympiadQuery(String olympiadYear) {
 return """
 SELECT ?label ?yr ?label2  ?yr2 ?ruler WHERE {

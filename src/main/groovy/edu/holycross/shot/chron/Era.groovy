@@ -1,5 +1,8 @@
 package edu.holycross.shot.chron
 
+/** Class modelling an era in this project's TEI XML edition of the
+* Chronicles of Jerome.
+*/
 class Era {
     
 
@@ -106,6 +109,56 @@ class Era {
         initRulers()
     }
 
+
+    String tidyString (String s) {
+        String str = s.replaceAll(/[\n\s\t]+/,' ')
+        str = str.replaceAll('\\*','')
+        str = str.replaceFirst(/^ /,'')
+        str = str.replaceFirst(/ $/,'')
+        return str
+    }
+
+    
+    java.util.ArrayList indexEvents() {
+        ArrayList evts = []
+        eraNode[tei.table].each { tab ->
+            tab[tei.row].each { r ->
+                r[tei.cell].eachWithIndex { col, idx ->
+                    String colType = columnTypes[idx]
+                    switch (colType) {
+                        case "spatium":            
+                            if (((r.'@role' == 'data') || (r.'@role' == "olympiad") ) && (col.text() != "")){
+                            String txt
+                            String noteId = ""
+                            col.breadthFirst().each { c ->
+                                if (c.getClass().getName() == "java.lang.String") {
+                                    def evt = ["urn:cite:chron:jevent.${this.getEraId()}_${tab.'@n'}_${r.'@n'}_${noteId}",  tidyString(c), "urn:cts:latinLit:stoa0162.stoa005:${this.getEraId()}.${tab.'@n'}.${r.'@n'}"]
+                                    evts.add(evt)
+
+
+                                } else if (c.name() instanceof groovy.xml.QName) {
+                                    switch(c.name().getLocalPart()) {
+                                        case "seg":
+                                            def evt = ["urn:cite:chron:jevent.${this.getEraId()}_${tab.'@n'}_${r.'@n'}_${noteId}",  tidyString(c.text()), "urn:cts:latinLit:stoa0162.stoa005:${this.getEraId()}.${tab.'@n'}.${r.'@n'}"]
+                                            evts.add(evt)
+                                        break
+                                        case "note":
+                                            noteId = c.'@n'
+                                        break
+
+                                    }
+                                } else {
+                                    System.err.pritln "c is a  " + c.getClass()
+                                }
+                            }
+                        }
+                        break
+                    }
+                }
+            }
+        }
+        return evts
+    }
 
     /** Creates a list of synchronisms.*/
     java.util.ArrayList synchronizeYears() {
