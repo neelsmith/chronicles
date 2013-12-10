@@ -3,6 +3,8 @@ package edu.holycross.shot.chron
 import edu.harvard.chs.cite.CiteUrn
 
 class SynchGraph {
+
+    Integer debugLevel = 0
     
     /** List of vertices in the graph. */
     ArrayList nodeList = []
@@ -47,7 +49,34 @@ class SynchGraph {
 
     String showDate(CiteUrn urn ) {
         Observation observation = new Observation(urn, jGraph.tripletServerUrl)
-        return "${observation.gdate.get(Calendar.YEAR)} ${observation.gdate.get(Calendar.ERA)}"
+        if (observation.gdate.get(Calendar.ERA) == GregorianCalendar.BC)  {
+            return "${observation.gdate.get(Calendar.YEAR)} BC"
+        } else return {
+            return "${observation.gdate.get(Calendar.YEAR)} AD"
+        }
+    }
+
+
+    Number weightForPath(String nodeUrn, String endNodeUrn, Number cumulativeWeight) {
+        Number newWeight
+        if (nodeUrn == exitUrn) {
+            return newWeight = cumulativeWeight
+        } else {
+
+            edgeMap[nodeUrn].each { child ->
+                if (child[1].weight() != null) {
+                    newWeight = cumulativeWeight + child[1].weight()
+                } else {
+                    newWeight = cumulativeWeight
+                    System.err.println "Child weight null:  leaving cumulative unchanged"
+                }
+
+                if (debugLevel > 0) { System.err.println "Edge weight " + child[1].weight() + " from " + child[1] + " so  new TOTAL " + newWeight 
+                }
+                newWeight = weightForPath(child[0],endNodeUrn,newWeight)
+            }
+        }
+        return newWeight
     }
 
     void walkGraph(String nodeUrn, Integer level, Number cumulativeWeight) {
@@ -83,7 +112,14 @@ class SynchGraph {
 
             level++;            
             edgeMap[nodeUrn].each { child ->
-                Number newWeight = cumulativeWeight + child[1].weight()
+
+                Number newWeight
+                if (child[1].weight() != null) {
+                    newWeight = cumulativeWeight + child[1].weight()
+                } else {
+                    newWeight = cumulativeWeight
+                    System.err.println "Child weight null:  leaving cumulative unchanged"
+                }
                 for (i in 0..level) {
                     System.err.print "\t"
                 }

@@ -10,4 +10,7 @@ ext {
     syncTtl = "ttl/synchronisms-from-jerome.ttl"
     tripleserver = "http://localhost:3030/ds/"
     htmlfooter = ""
+
+    synchGraphFile = "testdata/phidias.csv"
+
 }

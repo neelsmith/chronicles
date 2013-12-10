@@ -77,7 +77,7 @@ task sync (type: JavaExec, dependsOn: compileGroovy) {
 task weight (type: JavaExec, dependsOn: compileGroovy) {
     description = "Finds weight of path through graph"
     main = "edu.holycross.shot.chron.WeightUtil"
-    args = [synchGraphFile]
+    args = [synchGraphFile, tripleserver]
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
