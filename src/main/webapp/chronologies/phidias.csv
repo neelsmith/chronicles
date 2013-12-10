@@ -1,7 +1,7 @@
 evidence,source,synchronization,synctype,target,units
 urn:cts:latinLit:stoa0162.stoa005:22.t1.85.2,urn:cite:chron:demo.chryseleph,contemporary,eponymous,urn:cite:chron:j-persians_ruler5.26,0
-urn:cite:chron:j-persians_ruler5,urn:cite:chron:j-persians_ruler5.33,follows,epoch,urn:cite:chron:j-persians_ruler5.26,7
-urn:cts:latinLit:stoa0162.stoa005:22.t1.87.1,urn:cite:chron:demo.pelopwar,contemporary,eponymous,urn:cite:chron:j-persians_ruler5.33,0
+urn:cite:chron:j-persians_ruler5,urn:cite:chron:j-persians_ruler5.26,precedes,epoch,urn:cite:chron:j-persians_ruler5.33,7
+urn:cts:latinLit:stoa0162.stoa005:22.t1.87.1,urn:cite:chron:j-persians_ruler5.33,contemporary,eponymous,urn:cite:chron:demo.pelopwar,0
 urn:cts:greekLit:tlg0003.tlg001:2.2,urn:cite:chron:demo.pelopwar,contemporary,eponym,urn:cite:chron:archon.40,0
 urn:cite:chron:archon,urn:cite:chron:archon.40,follows,eponym,urn:cite:chron:archon.72,1
 urn:cts;greekLit:tlg0363.001:3.1,urn:cite:chron:archon.72,contemporary,event,urn:cite:chron:pedersen.8,0
