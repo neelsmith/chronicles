@@ -1,8 +1,6 @@
 evidence,source,synchronization,synctype,target,amount
-urn:cts:latinLit:stoa0232.stoa001:36.18,urn:cite:chron:milne.pharos,contemporary,person,urn:cite:chron:milne.sostratus,,
-
-urn:cts:latinLit:stoa0232.stoa001:36.18 (Pliny) ,urn:cite:chron:milne.sostratus,contemporary,ruler,urn:cite:chron:j-alexandrians.ruler2,,
-,
+urn:cts:latinLit:stoa0232.stoa001:36.18,urn:cite:chron:milne.pharos,contemporary,event,urn:cite:chron:milne.sostratus,,
+urn:cts:latinLit:stoa0232.stoa001:36.18 (Pliny) ,urn:cite:chron:milne.sostratus,contemporary,event,urn:cite:chron:j-alexandrians.ruler2,,
 urn:cts:latinLit:stoa0162.stoa005:124_1 (Jerome),urn:cite:chron:j-alexandrians.ruler2.1,contemporary,year,urn:cite:chron:olympiadyear.124_1,,
 urn:cite:chron:heraclian,urn:cite:chron:j-alexandrians.ruler2,equal to,ruler,urn:cite:chron:heraclian.35,,
 urn:cite:chron:heraclian,urn:cite:chron:heraclian.35.1,precedes,year,urn:cite:chron:heraclian.53.1,381 years,
