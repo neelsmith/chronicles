@@ -4,13 +4,10 @@
 
 ext {
     baseUrl = ""
-
     indices = "http://beta.hpcc.uh.edu/tomcat/chroncite/indices"
     texts  = "http://beta.hpcc.uh.edu/tomcat/chroncite/texts"
     syncTtl = "ttl/synchronisms-from-jerome.ttl"
-    tripleserver = "http://localhost:3030/ds/"
-    htmlfooter = ""
-
-    //sgFile = "testdata/test.csv"
-
+    tripleserver = "http://localhost:3032/ds/"
+    htmlfooter = "Chronicles: a graph of ancient chronology"
+    synchGraphFile = "testdata/phidias.csv"	 
 }

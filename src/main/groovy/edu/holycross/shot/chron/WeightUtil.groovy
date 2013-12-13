@@ -14,6 +14,7 @@ class WeightUtil {
             File f = new File(graphFile)
 
             System.err.println "Reading synchronism graph from file " + graphFile
+
             JGraph jg = new JGraph(graphUrl)
             SynchGraph sg = new SynchGraph(f, jg)
             Number wt = sg.weightForPath(sg.entryUrn, sg.exitUrn,0)
@@ -31,8 +32,14 @@ class WeightUtil {
                 if (dateUrn.getCollection() == "pedersen") {
                     if (wt == 0) {
                         System.err.println " dates to exactly ${sg.showDate(dateUrn)}"
-                    } else if (wt > 0) {
-                        System.err.println " follows ${sg.showDate(dateUrn)} by ${wt} years"
+                    } else if (wt == 1) {
+                        System.err.println " follows ${sg.showDate(dateUrn)} by ${wt} year"
+                    } else if (wt > 1) {
+                        System.err.println " follows ${sg.showDate(dateUrn)} by ${wt} year"
+
+                    } else if (wt == -1) {
+                        System.err.println " precedes ${sg.showDate(dateUrn)} by 1 year"
+
                     } else {
                         System.err.println " precedes ${sg.showDate(dateUrn)} by ${-1 * wt} years"
                     }
@@ -44,5 +51,6 @@ class WeightUtil {
         } catch (Exception e) {
             throw e
         }
+
     }
 }

@@ -61,8 +61,6 @@ version = "0.1.0"
 
 
 
-
-
 task sync (type: JavaExec, dependsOn: compileGroovy) {
     description = "Generates TTL for all synchronizations in Olympiad epoch"
     main = "edu.holycross.shot.chron.Syncer"
@@ -70,18 +68,26 @@ task sync (type: JavaExec, dependsOn: compileGroovy) {
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
-
 }
 
 
 task weight (type: JavaExec, dependsOn: compileGroovy) {
     description = "Finds weight of path through graph"
     main = "edu.holycross.shot.chron.WeightUtil"
-    args = [synchGraphFile, tripleserver]
+    args = [sgFile, tripleserver]
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
-    
+}
+
+
+task csv (type: JavaExec, dependsOn: compileGroovy) {
+    description = "Trace path through synch file"
+    main = "edu.holycross.shot.chron.SynchUtil"
+    args = [sgFile, tripleserver]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
 }
 
 

@@ -82,14 +82,17 @@ class SynchGraph {
     void walkGraph(String nodeUrn, Integer level, Number cumulativeWeight) {
         if (nodeUrn == exitUrn) {
             System.err.println "DONE: found ${exitUrn}"
+
             CiteUrn dateUrn
             try {
                 dateUrn = new CiteUrn(exitUrn)
             } catch (Exception e) {
                 System.err.println "${exitUrn} not a valid URN?"
             }
+
             try {
                 if ((dateUrn.getCollection() == "pedersen") && (jGraph != null)) {
+
                     if (cumulativeWeight == 0) {
                         System.err.println "Exact date = ${showDate(dateUrn)}"
                     } else if (cumulativeWeight > 0) {
@@ -99,11 +102,12 @@ class SynchGraph {
                     }
                 }
             } catch (Exception e) {
-                System.err.println "Couldn't show date." + e
+                System.err.println "Couldn't show date using urn ${dateUrn}." + e
             }
                 
 
         } else {
+            
             for (i in 0..level) {
                 System.err.print "\t"
             }

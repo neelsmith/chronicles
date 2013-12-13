@@ -1,0 +1,5 @@
+evidenc,source,synchronization,synctype,target,units
+urn:cts:greekLit:tlg9010.tlg001:epsilon.2898,urn:cite:chron:eratosthenes.A,contemporary,event,urn:cite:chron:olympiadyear.126_1-4,0
+urn:cts:latinLit:stoa0162.stoa005.hc-helm:29,urn:cite:chron:olympiadyear.126_1-4,precedes,cycle,urn:cite:chron:olympiadyear.127_1,1
+urn:cts:latinLit:stoa0162.stoa005.hc-helm:29,urn:cite:chron:olympiadyear.127_1,contemporary,cycle,urn:cite:chron:j-alexandrians.ruler2.13,0
+urn:cts:greekLit:tlg0363.tlg001:10.4,urn:cite:chron:j-alexandrians.ruler2.13,contemporary,event,urn:cite:chron:pedersen.19,0

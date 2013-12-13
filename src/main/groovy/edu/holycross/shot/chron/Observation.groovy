@@ -90,9 +90,16 @@ class Observation {
                 }
 
                 String monthName = dateParts[0].toLowerCase()
-                Integer day = dateParts[1] as Integer
+
+                Integer day 
+                if (dateParts[1].isInteger()) {
+                    day = dateParts[1] as Integer
+                } else {
+                    System.err.println "FAILED TO PARSE DATES " + dateParts
+                }
 
                 if (! gMonthNames.containsKey(monthName)) {
+
                     throw new Exception("Observation: unrecognized month name ${dateParts[0]}")
                 }
                 // check on monthName
