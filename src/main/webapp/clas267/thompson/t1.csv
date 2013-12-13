@@ -1,0 +1,11 @@
+evidence,source,synchronization,synctype,target,amount
+urn:cts:latinLit:stoa0162.stoa005.hc-helm,urn:cite:chron:thompson.1,contemporary,eponym,urn:cite:chron:j-athenians.ruler13,0
+urn:cts:latinLit:stoa0162.stoa005.hc-helm,urn:cite:chron:thompson.1,precedes,event,urn:cite:chron:thompson.2,101
+urn:cts:latinLit:stoa0162.stoa005.hc-helm,urn:cite:chron:thompson.2,precedes,event,urn:cite:chron:thompson.3,483
+urn:cts:latinLit:stoa0162.stoa005.hc-helm,urn:cite:chron:thompson.3,precedes,event,urn:cite:chron:thompson.4,2
+urn:cts:latinLit:stoa0162.stoa005.hc-helm,urn:cite:chron:thompson.4,precedes,event,urn:cite:chron:thompson.5,7
+urn:cts:latinLit:stoa0162.stoa005.hc-helm,urn:cite:chron:thompson.5,precedes,event,urn:cite:chron:thompson.6,2
+urn:cts:latinLit:stoa0162.stoa005.hc-helm,urn:cite:chron:thompson.6,precedes,event,urn:cite:chron:thompson.7,3
+urn:cts:latinLit:stoa0162.stoa005.hc-helm,urn:cite:chron:thompson.7,contemporary,event,urn:cite:chron:thompson.8,0
+urn:cts:latinLit:stoa0162.stoa005.hc-helm,urn:cite:chron:thompson.8,precedes,event,urn:cite:chron:thompson.9,57
+urn:cts:greekLit:tlg0363.tlg001:PASSAGE,urn:cite:chron:thompson.9,contemporary,event,urn:cite:chron:pedersen.7,0

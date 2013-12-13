@@ -16,6 +16,35 @@
         <citeProperty name="Label" label="Psg" type="ctsurn"></citeProperty>
     </citeCollection>
 
+
+    <citeCollection canonicalId="Event" label="Label" urn="urn:cite:chron:cieremans">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Events for chronological essay by David Cieremans </title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Pat Gearin</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Events for chronological essay by David Cieremans</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Events for chronological essay by David Cieremans</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        
+        <source type="file" value="gearin.csv"/>
+        <citeProperty name="Event" label="Event" type="citeurn"></citeProperty>
+        <citeProperty name="Label" label="Label" type="string"></citeProperty>
+    </citeCollection>
+
+
+
+    <citeCollection canonicalId="Event" label="Label" urn="urn:cite:chron:gearin">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Events for chronological essay by Pat Gearin </title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Pat Gearin</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Events for chronological essay by Pat Gearin</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Events for chronological essay by Pat Gearin</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        
+        <source type="file" value="gearin.csv"/>
+        <citeProperty name="Event" label="Event" type="citeurn"></citeProperty>
+        <citeProperty name="Label" label="Label" type="string"></citeProperty>
+    </citeCollection>
+
     
     <citeCollection canonicalId="Event" label="Label" urn="urn:cite:chron:milne">
         <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
