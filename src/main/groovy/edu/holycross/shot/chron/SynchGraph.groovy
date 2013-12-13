@@ -87,7 +87,7 @@ class SynchGraph {
             try {
                 dateUrn = new CiteUrn(exitUrn)
             } catch (Exception e) {
-                System.err.println "${exitUrn} not a valid URN?"
+                System.err.println "SynchGraph: exitUrn ${exitUrn} not a valid URN?"
             }
 
             try {

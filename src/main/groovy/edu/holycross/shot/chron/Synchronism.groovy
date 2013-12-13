@@ -26,11 +26,21 @@ class Synchronism {
                 return 0
             break
             case "precedes":
+                if (this.units != null) {
                 return (this.units * -1)
+            } else {
+                System.err.println "Synchronism: units is null."
+                return null
+            }
 
             break
             case "follows":
-                return this.units 
+                if (this.units != null) {
+                return (this.units)
+            } else {
+                System.err.println "Synchronism: units is null."
+                return null
+            }
             default :
                 return null
             break
