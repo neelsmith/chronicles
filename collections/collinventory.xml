@@ -17,15 +17,31 @@
     </citeCollection>
 
 
+
+    <citeCollection canonicalId="Event" label="Label" urn="urn:cite:chron:colossus">
+        <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Events for chronological essay by Vannak Khin </title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">David Cieremans</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Events for chronological essay by Vannak Khin</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Events for chronological essay by Vannak Khin</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
+        
+        <source type="file" value="khin.csv"/>
+        <citeProperty name="Event" label="Event" type="citeurn"></citeProperty>
+        <citeProperty name="Label" label="Label" type="string"></citeProperty>
+    </citeCollection>
+
+
+
     <citeCollection canonicalId="Event" label="Label" urn="urn:cite:chron:cieremans">
         <namespaceMapping abbr="chron" fullValue="http://shot.holycross.edu/chron"></namespaceMapping>
         <title xmlns="http://purl.org/dc/elements/1.1/">Events for chronological essay by David Cieremans </title>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Pat Gearin</creator>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">David Cieremans</creator>
         <coverage xmlns="http://purl.org/dc/elements/1.1/">Events for chronological essay by David Cieremans</coverage>
         <description xmlns="http://purl.org/dc/elements/1.1/">Events for chronological essay by David Cieremans</description>
         <rights xmlns="http://purl.org/dc/elements/1.1/">CC-attribution-share alike</rights>
         
-        <source type="file" value="gearin.csv"/>
+        <source type="file" value="cieremans.csv"/>
         <citeProperty name="Event" label="Event" type="citeurn"></citeProperty>
         <citeProperty name="Label" label="Label" type="string"></citeProperty>
     </citeCollection>
