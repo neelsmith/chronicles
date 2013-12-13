@@ -1,8 +1,8 @@
 evidence,source,synchronization,synctype,target,amount
-urn:cts:greekLit:tlg0525.tlg001:10.34.5,urn:cite:chron:event.1,precedes,epoch,urn:cite:chron:cieremans.x,
-urn:cts:greekLit:tlg0525.tlg001:10.34.5,urn:cite:chron:event.1,contemporary,event,urn:cite:chron:event.2,0
-urn:cts:greekLit:tlg0525.tlg001:10.34.5,urn:cite:chron:olympiadyear:235,contemporary,event,urn:cite:chron:event.2,0
-urn:cts:greekLit:tlg0525.tlg001:1.19.6,urn:cite:chron:event.3,precedes,epoch,urn:cite:chron:epoch.dog.i,
+urn:cts:greekLit:tlg0525.tlg001:10.34.5,urn:cite:chron:cieremans.1,precedes,epoch,urn:cite:chron:cieremans.x,
+urn:cts:greekLit:tlg0525.tlg001:10.34.5,urn:cite:chron:cieremans.1,contemporary,event,urn:cite:chron:cieremans.2,0
+urn:cts:greekLit:tlg0525.tlg001:10.34.5,urn:cite:chron:olympiadyear:235,contemporary,event,urn:cite:chron:cieremans.2,0
+urn:cts:greekLit:tlg0525.tlg001:1.19.6,urn:cite:chron:cieremans.3,precedes,epoch,urn:cite:chron:epoch.dog.i,
 urn:cts:greekLit:tlg0525.tlg001:7.20.6,urn:cite:chron:epoch.dog.i,precedes,epoch,urn:cite:chron:epoch.dog.vii,
-urn:cts:chronepig:chron.vs:2.549,urn:cite:chron:event.4,precedes,event,urn:cite:chron:event.3,4
-urn:cts:chronepic:chron.jc.194.3,urn:cite:chron:olympiadyear:194.3,contemporary,event,urn:cite:chron:event.5,0
+urn:cts:chronepig:chron.vs:2.549,urn:cite:chron:cieremans.4,precedes,event,urn:cite:chron:cieremans.3,4
+urn:cts:chronepic:chron.jc.194.3,urn:cite:chron:olympiadyear:194.3,contemporary,event,urn:cite:chron:cieremans.5,0
