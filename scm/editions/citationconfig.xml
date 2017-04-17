@@ -2,22 +2,22 @@
 <!-- On-line configuration for inventory in testinventory2.xml -->
 <?xml-model href="./schemas/CitationConfiguration.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <CitationConfiguration xmlns="http://chs.harvard.edu/xmlns/hocuspocus" tiversion="6.0.0">
-
-<online urn="urn:cts:latinLit:stoa0179.stoa002.stoa002:" type="xml" docname="Livy-periochae-p5.xml">
-  <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-  <citationMapping>
-    <citation label="Book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[ @n='?']">
-    </citation>
-  </citationMapping>
-</online>
-  <!--
-  <online        urn="urn:cts:greekLit:tlg0016.tlg001.grcTest:"        type="xml"        docname="test-hdt-grc.xml">
+  
+  <online urn="urn:cts:latinLit:stoa0179.stoa002.stoa002:" type="xml" docname="Livy-periochae-p5.xml">
     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
     <citationMapping>
-      <citation label="Book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@type='book' and @n='?']">
-        <citation label="Chapter" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='book' and @n='?']"                    xpath="/tei:div[@type='chapter' and @n='?']"/>
+      <citation label="Book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[ @n='?']">
       </citation>
     </citationMapping>
   </online>
--->
+
+
+  <online urn="urn:cts:latinLit:stoa0159.stoa001.stoa002:" type="xml" docname="isidore-chronicon-p5.xml">
+    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+    <citationMapping>
+      <citation label="section" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[ @n='?']">
+      </citation>
+    </citationMapping>
+  </online>
+
 </CitationConfiguration>

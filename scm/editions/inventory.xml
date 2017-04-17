@@ -4,12 +4,24 @@
   <ctsnamespace    abbr="greekLit"    ns="http://chs.harvard.edu/ctsns/greekLit">
     <description      xml:lang="eng"> The &quot;First Thousand Years of Greek&quot; project's inventory of Greek      texts. </description>
   </ctsnamespace>
+
   <textgroup urn="urn:cts:latinLit:stoa0179:">
     <groupname xml:lang="eng">Livy</groupname>
     <work urn="urn:cts:latinLit:stoa0179.stoa002:" xml:lang="lat">
       <title xml:lang="lat">Periochae</title>
       <edition urn="urn:cts:latinLit:stoa0179.stoa002.stoa002:">
         <label xml:lang="eng">Holy Cross digital edition</label>
+      </edition>
+    </work>
+  </textgroup>
+
+  <textgroup urn="urn:cts:latinLit:stoa0159:">
+    <groupname xml:lang="eng">Isidore of Seville</groupname>
+    <work urn="urn:cts:latinLit:stoa0159.stoa001:" xml:lang="lat">
+      <title xml:lang="lat">Chronica Maiora</title>
+      <!-- CHANGE TO TRANSLATION -->
+      <edition urn="urn:cts:latinLit:stoa0159.stoa001.stoa002:" >
+        <label xml:lang="eng">Public-domain English translation by Kenneth B. Wolf</label>
       </edition>
     </work>
   </textgroup>
