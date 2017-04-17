@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Parian Chronicle: Or the Chronicle of the Arundelian Marbles</title>
+        <author>Joseph Robertson</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Google books scan of 1788 edition</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="a">
+        <p        n="preface">I have described preceding times, beginning from Cecrops, the first who reigned        in Athens, to Astyanax, archon in Paros, and Diogenetus at Athens.</p>
+        <p        n="1">Since Cecrops reigned at Athens, and the country was named Cecropia, before being        called Actica, from Actaeus, a native, 1318 years.</p>
+        <p        n="2">Since Deucalion reigned near Parnassus in Lycoria, Cecrops reigning at Athens, 1310        years.</p>
+        <p        n="3">Since the cause was tried at Athens between Mars and Neptune, concerning Halirrothius        [the son] of Neptune, and the place was called Areopagus, 1268, Cranaus reigning at        Athens.</p>
+        <p        n="4"> Since the deluge happened in the time of Deucalion; and Deucalion escaped the rains        [and went] from Lycoria to Athens,to Cranaus and built the temple of Jupiter Olympius, and        offered sacrifices for his preservation, 1265 years, Cranaus reigning atAthens.</p>
+        <p        n="5"> Since Amphictyon [the fon] of Deucalion reigned in Thermopylae, and assembled the        people inhabiting that district, and called them Amphictyones, and [the place of council]        Pylaea where the Amphictyones still facrifice, I258 years, Amphictyon reigning at Athens.</p>
+        <p        n="6"> Since Hellen [the son] of Deucalion reigned in Phthiotis, and they were        named Hellenes, who before were called Graikoi [Greeks] and they instituted the Panathenaean        agon [games] 1257 years, Amphictyon reigning at Athens.</p>
+        <p        n="7"> Since Cadmus [the son] of Agenor came to Thebes, according to the oracle, and built        Cadmea, 1255 years, Amphictyon reigning at Athens.</p>
+        <p        n="8"> Since Eurotas and Lacedamon reigned in Laconia 1252 years, Amphictyon reigning at        Athens. </p>
+        <p        n="9"> Since a ship with fifty oars sailed from Egypt to Greece, and was called        Pentecontorus, and the daughters of Danaus .......... Amymone and Ba.... and        Helice and Archedice, elected by the rest, built a temple and sacrificed upon the shore, in        the maritime country, in Lindus [a city] of Rhodes, 1247 years, Erichthonius reigning at Athens.</p>
+        <p        n="10"> Since Erichthonius, the first Panathenaea being celebrated, yoked [horses to] a        chariot, and shewed the contest, and changed the name of Athenaea; and        the image of the mother of the gods appeared in [the mountains of] Cybele; and Hyagnis        the Phrygian first invented flutes at Celaenae, [a city] of Phrygia, and first played.on the flute        the harmony called Phrygian, and other nomes of the mother [of the godsJ of Dionysus, of        Pan, and that of the deities of the country and the heroes, 1242 years, Erichthonius, who        yoked [horses to] the chariot,reigning at Athens.</p>
+        <p        n="11"> Since Minos the first reigned and built Cydonia; and iron was found in Ida, by        the Idaei Dactyli Celmis and Damnaneus [1168] years, Pandion reigning at Athens.</p>
+        <p        n="12"> Since Ceres coming to Athens planted corn, and first sent it to other [countries], by        Triptolemus [the son] of Celeus andNeaera, 1145 years, Erichtheus reigning at Athens.</p>
+        <p        n="13"> Since Triptolemus sowed corn in Rharia, called Eleusin, 1[1]42 years,        Erichtheus reigning at Athens.</p>
+        <p        n="14"> Since Orpheus pubhlished his poem [on] the rape of Proserpine, the search of Ceres,        his descent [to the shades], and the fables concerning those, who received the corn, 1135        years, Erichtheus reigning at Athens.</p>
+        <p        n="15"> Since Eumolpus [the son] of Musaeus celebrated the mysteries in Eleusin, and        published the poems of his father Musaeus, 11.. years Erichtheus [the son] of        Pandion,reigning at Athens. </p>
+        <p        n="16"> Since a lustration was first performedby flaying ..... 10[6]2 years, Pandion        [the son] of Cecrops [the fecond] reigning at Athens.</p>
+        <p        n="17"> Since the gymnic agon was instituted in Eleusin, 1... years, Pandion [the son] of        Cecrops reigning at Athens.</p>
+        <p        n="18"> Since human sacrifices and the Lycaea were celebrated in Arcadia, and         .....        of Lycaon were given among the Greeks, 1... years, Pandion [the son] of Cecrops reigning at Athens.        </p>
+        <p        n="19"> Since Hercules, having been purified in Eleusin was initiated the first of        strangers, 1... years, Aegeus reigning at Athens. </p>
+        <p        n="20"> Since a scarcity of corn happened at Athens, and Apollo bfing consulted by        the Athenians obliged them to undergo the penalties, which Minos should require,        1031 years, Aegeus reigning at Athens,</p>
+        <p        n="21"> Since Theseus incorporated the twelve cities of Attica into one        [community] and having first eslablished a civil constitution and a popular government at        Athens; he instituted the Isthmian games, after he had slain Sinis, 995 years. </p>
+        <p        n="22"> From the first [celebration of the festival called] Ammon, 992 years,        Theseus reigning at Athens.</p>
+        <p        n="23"> Since AdrastIus reigned over the Argives, and the seven [commanders] instituted the        games in Nemea, 987 years, Theseus reigning at Athens.</p>
+        <p        n="24"> Since the Greeks undertook their expedition to Troy, 954 years,        Menestheus reigning at Athens, in the thirteenth year [of his reign].</p>
+        <p        n="25"> Since Troy was taken, 945 years, Menestheus reigning at Athens, in        the [tvirenty-]second year [of his reign] on the twehty-fourth day of the month        Thargelion.</p>
+        <p        n="26"> Since Orestes in Scythiz was freed from his madness, and a cause between him and        Erigone, the daughter of Aegisthus,  was tried in Areopagus, which        Orestes gained, the votes being equal, [942] years, Demophon reigning at Athens.</p>
+        <p        n="27"> Since Teucer built Salamis in Cyprus, 938 years, Demophon reigning at Athens. </p>
+        <p        n="28"> Since Neleus built Miletus in Caria, having collected the lonians who built        Ephesus, Erythrae, Clazomene, Priene, and Lebedus, Teos, Colophon, Myus, Phocea,        Samos,Chios; and the Panionia  were instituted, [813] years, Medon reigning at Athens, in the        thirteenth year [of his reign].</p>
+        <p        n="29"> Since Hesiod the poet flourished 680 years, Megacles reigning at Athens.</p>
+        <p        n="30"> Since Homer the poet flourished 643 years, Diognetus reigning at        Athens.</p>
+        <p        n="31"> Since Pheidon the Argive was proscribed, and made measures and weights,        and coined silver money in Aegina, being the eleventh from Hercules, 631 years,        Pherecles reigning at Athens. </p>
+        <p        n="32"> Since Archias [the son] of Euagetus, being the: tenth from Temenus, conducted a        colony        from Corinth to Syracuse,[494] years, Aeschylus reigning at Athens, in the twenty-first year [of        his reign]. </p>
+        <p        n="33"> Since Creon was archon for the year, 420 years</p>
+        <p        n="34"> Since Tyrtaeus joined the army  of the Lacedaemonians [against the Messenians]        418 years, Lysias being archon at Athens.</p>
+        <p        n="35"> Since Terpander [the son] of Derdeneus the Lesbian, directed the flute-players to        reform the nomes of the ancients, and changed the old music, 381 years, Dropilus being        archon at Athens.</p>
+        <p        n="36"> Since Alyattes reigned over the Lydians, [34]1 years, Aristocles being archon at        Athens. </p>
+        <p        n="37"> Since Sappho failed from Mitylene to Sicily, flying .... [328] years, Critias        the first being archon at Athens, the Geomori possessing the government in Syracuie.</p>
+        <p        n="38"> Since the Amphictyones obtained a victory having taken Cyrrha, and a        gymic agon was celebrated, rewards being allotted out of the spoins, [3]27 years,      Simon being archon at Athens.</p>
+        <p        n="39"> Since [the Pythian] games were again celebrated, in which the conqueror received a        crown, 3[22] years, Damasias the second being archon at Athens.</p>
+        <p        n="40"> Since comedies were carried in carts by the Icarians, Susarion being the        inventor, and the first prize proposed was a basket of figs, and a smalll vessel of wine,        2.. years, .... being archon at Athens.</p>
+        <p        n="41"> Since Pisistratus became tyrant at Athens, 297 years, Comias being archon      at Athens.</p>
+        <p        n="42"> Since Croesus sent [ambassadors} out of Afia to Delphi, [2]92  years,        Euthydemus being archon at Athens.</p>
+        <p        n="43"> Since Cyrus king of Persia took Sardes, and apprehended Croesus, deceived hy        the Pythia, [285] yearrs, Erxiclides being archon at Athens.  At this time lived Hipponax,        the lambic poet.</p>
+        <p        n="44"> Since Thespis the poet flourished, the first who exhibited tragedy, for which a        goat was appointed as the prize, 2[73] years, Alcaeus the first being archon at Athens.        </p>
+        <p        n="45"> Since Darius reigned over the Persians, Magus being dead, [2]5[6] years, ...        being archon at Athens.</p>
+        <p        n="46"> Since Harmodius and Aristogiton slew Hipparchus [the son] of Pisistratus,        the tyrant of Athens, and the Athenians conspired to expel the Pisitratidae from         their retreat within] the Pelasgic wall, 248 years, Clisthenes being archon at Athens.</p>
+        <p        n="47"> Sihce choruses of men first contended, [and] Hypodicus the Chalcidian,        having taught one [of them] gained the yictory,24[4] years, Isagoras being archon at        Athens.</p>
+        <p        n="48"> Since the temple of Minerva Hippia was built at Athens, 231 years, Pythocritus        being archon at Athens.</p>
+        <p        n="49"> Since the battle at Marathon was fought by the Athenians against the Persians,       and the Athenians defeated Artaphernes, the nephew of Darius, the commander [of the       Persian forces], 227 years,Phaenippus the second being archon at Athens; and Aeschylus        the poet was engaged in the action, being [then] 35 years [of age].</p>
+        <p        n="50"> Since Simonides the grandfather of Simonides the poet, he also being a poet,        [dies]        at Athens; and Darius dies, and Xerxes his son reigns, [226] years, Aristides         being archon at Athens. </p>
+        <p        n="51"> Since Aeschylus the poet first gained the victory in tragedy, and Euripides the poet was        born, and Stesichorus the poet went into Greece, 222 years, Philocrates being archon at        Athens.</p>
+        <p        n="52"> Since Xerxes formed a bridge of boats on the HelIespont, and cut [a navigable        canal] through Athos,.and the battle wasfought in Thermopylae,,and the sea-fight by the        Greeks at Salamis, against the Persians, in which the Greeks were victorious, 217 years,        Calliades being archon at Athens.</p>
+        <p        n="53"> Since the battle at Plataea was fought by the Athenians against Mardonius,        Xerxes's general, in which the Athenians conquered, and Mardonius fell        in the battle; and [torrents of liquid] fire flowed in Sicily round Aetna,        [2]16 years, Xanthippus being archon at Athens.</p>
+        <p        n="54"> Since Gelon [the son] of Dinomenes became tyrant of Syracuse, 215        years, Timosthenes being archon at Athens.</p>
+        <p        n="55"> Since Simonides [the son] of Leoprepes, the Cean, who invented the art        of memory, teaching [a chorus] at Athens, gained the victory, and the statues        of Harmodius and Aristogiton were erected, 2[14] years,        Adimantus being archon at Athens. </p>
+        <p        n="56"> Since Hiero became tyrant of Syracuse 20[9] years, Chares being archon at Athens:;        Epicharmus the poet lived at this time.</p>
+        <p        n="57"> Since Sophocles [the son] of Sophillus,who was of Colonus, gained the victory        in tragedy, being 28 years of age,  206 years, Apsephion being archaon at Athens.</p>
+        <p        n="58"> Since the stone fell in Aegospotamos and Simonides the poet died, having        lived 90 years, 205 years, Theagenidas being archon at Athens.</p>
+        <p        n="59"> Since Alexander died, and his son Perdiccas reigns over the Macedonians 19[8]        years, Euthippus being archon at Athens.</p>
+        <p        n="60"> Since Aeschylus the poet having lived 69 years, died at Gela, in Sicily 193        years, Callias the first being archon at Athens.</p>
+        <p        n="61"> Since Euripides, being 43 years of age, first gained fhe victory in tragedy,        1[79] years, Diphilus being archon at Athens.  Socrates and Anaxagoras lived in the        time of Euripides.</p>
+        <p        n="62"> Since Archelaus reigned over theMacedonians, Perdiccas being dead, 1[56] years,        Astyphilus being archon at Athens.</p>
+        <p        n="63"> Since Dionysius .became. tyrant of Syracuse, 144 years, Euctemon being archon at        Athens.</p>
+        <p        n="64"> Since Euripides, having lived seventy-seven years, died, 14[3] years, Antigenes        being archon at Athens.</p>
+        <p        n="65"> Since Sophocles the poet, having lived ninety-one years, died; and Cyrus went        up [into PerfiaJ against his brother, 142 years, Callias the first being archon at        Athens.</p>
+        <p        n="66"> Siace Telestes t the Selinuntian gained the prize at Athens, 13[8] years, Micon being        archon at Athens.</p>
+        <p        n="67"> Since those returned, who .went up with Cyrus [into Persia] and Socrates        the philosopher died, having lived 70 years, 13[6] years, Laches being archon at Athens*</p>
+        <p        n="68"> Since Astydamas first taught at Athens, 135 years, Aristocrates being archon at        Athens. </p>
+        <p        n="69"> Since Xanthus, a poet of Ardes, gained the victory at Athens in dithyrambics,        1.. years,        ... being archon at Athens. -</p>
+        <p        n="70">Since Philoxenus, a writer of dithyrambics,: dies, having lived 55 years, 116 years,        Pytheas being archon at Athens. </p>
+        <p        n="71"> Since Anaxandrides the comic poet gained the victory Athens,  [113]        years, Calleas being archon at Athens.</p>
+        <p        n="72">Since Astydamas gained the victory at Athens, 109 years, Asteius being archon at        Athens. Then also a great light blazed in the sky. </p>
+        <p        n="73"> Since the, battle wai fought at Leuctra between the Thebans and the Lacedaimonians,         in        which the Thebans conquered, 107 years, Phrasiclides being archon at Athens. At this time        Alexander [the sonJ  of Amyntas reigns over the Macedonians.</p>
+        <p        n="74"> Since Stesichorus, the Himerian, the second [of that name] gained the victory        at Athens, and Megalopolis in Arcadia was built, [106] years, Dyscinetus being archon        at Athens. </p>
+        <p        n="75"> Since Dionysius the Sicilian died, and his son Dionysius became tyrant, and Alexander        being dead, Ptolemy reigns over the Macedonians, 104 years, Nausigenes being archon at        Athens.</p>
+        <p        n="76"> Since the Phocaeans plundered the temple of Delphi, [94] years, Cephisodorus being        archon at Athens.</p>
+        <p        n="77"> Since Timotheus, having lived 90 years, died, and Philip [the fon] of Amyntas reigns        over the Macedonians, and Artaxerxes died; and Ochus his son reigns over the Persians, and        ......        gained the victory, 93 years, Agathocles being archon at Athens. </p>
+        <p        n="78"> Since Alexander [the son] of Philip was born, 91 years, Callistratus being archon at        Athens : Aristotle the philosopher lived at that time.</p>
+        <p        n="79"> Since Calippus having slain Dion, became tyrant of Syracuse, [90] years,        Diotimus being archon at Athens.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

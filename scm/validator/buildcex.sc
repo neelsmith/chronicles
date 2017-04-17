@@ -1,6 +1,6 @@
 import scala.io.Source
 import edu.holycross.shot.scm._
-import java.io.File
+
 
 
 val header="""
