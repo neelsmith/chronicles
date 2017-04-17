@@ -2,7 +2,14 @@
 <!-- On-line configuration for inventory in testinventory2.xml -->
 <?xml-model href="./schemas/CitationConfiguration.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <CitationConfiguration xmlns="http://chs.harvard.edu/xmlns/hocuspocus" tiversion="6.0.0">
-  
+  <online urn="urn:cts:greekLit:tlg0363.chs01.hc:" type="xml" docname="ptolemy-eng.xml">
+    <namespaceMapping                        abbreviation="tei"                        nsURI="http://www.tei-c.org/ns/1.0"/>
+    <citationMapping>
+      <citation                            label="table"                            scope="/tei:TEI/tei:text/tei:body"                            xpath="/tei:table[@n = '?']">
+        <citation                                label="entry"                                scope="/tei:TEI/tei:text/tei:body/tei:table[@n = '?']"    xpath="/tei:row[@n = '?']"/>
+      </citation>
+    </citationMapping>
+  </online>
   <online urn="urn:cts:latinLit:stoa0179.stoa002.stoa002:" type="xml" docname="Livy-periochae-p5.xml">
     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
     <citationMapping>
@@ -10,8 +17,6 @@
       </citation>
     </citationMapping>
   </online>
-
-
   <online urn="urn:cts:latinLit:stoa0159.stoa001.stoa002:" type="xml" docname="isidore-chronicon-p5.xml">
     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
     <citationMapping>
@@ -19,5 +24,21 @@
       </citation>
     </citationMapping>
   </online>
-
+  <online urn="urn:cts:chronepig:chron.pm.robertson:" type="xml" docname="robertson.xml">
+    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+    <citationMapping>
+      <citation label="side" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[ @n='?']">
+        <citation label="entry" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']" xpath="/tei:p[@n='?' ]">
+        </citation>
+      </citation>
+    </citationMapping>
+  </online>
+  <online urn="urn:cts:chronepig:chron.pm.hc:" type="xml" docname="mp-p5.xml">
+    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+    <citationMapping>
+      <citation label="side" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']">
+        <citation label="Chapter" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']"                    xpath="/tei:p[@n='?']"/>
+      </citation>
+    </citationMapping>
+  </online>
 </CitationConfiguration>
