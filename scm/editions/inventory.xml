@@ -2,15 +2,24 @@
 <?xml-model href="./schemas/TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TextInventory  tiid="hmt"  tiversion="6.0.0"  xmlns="http://chs.harvard.edu/xmlns/cts"  xmlns:dc="http://purl.org/dc/elements/1.1/">
   <ctsnamespace    abbr="greekLit"    ns="http://chs.harvard.edu/ctsns/greekLit">
-    <description      xml:lang="eng"> The &quot;First Thousand Years of Greek&quot; project's inventory of Greek      texts. </description>
+    <description      xml:lang="eng"> The First Thousand Years of Greek project's inventory of Greek  texts. </description>
   </ctsnamespace>
   <ctsnamespace     abbr="chronepig"        ns="shot.holycross.edu/ctsns">
     <description  xml:lang="eng">Epigraphic sources for chronography</description>
   </ctsnamespace>
-
-
-
-
+  <ctsnamespace    abbr="latinLit"    ns="http://www.stoa.org/ctsns/latinLit">
+    <description      xml:lang="eng"> Stoa consortium inventory of Latin literature. </description>
+  </ctsnamespace>
+  <textgroup        urn="urn:cts:greekLit:tlg0060:">
+    <groupname            xml:lang="eng">Diodorus Siculus</groupname>
+    <work            urn="urn:cts:greekLit:tlg0060.tlg001:"            xml:lang="grc">
+      <title                xml:lang="eng">The Histories</title>
+      <edition                urn="urn:cts:greekLit:tlg0060.tlg001.hc:">
+        <label                    xml:lang="eng">Oldfather translation</label>
+        <description xml:lang="eng">Holy Cross edition (in progress) of Oldfather's English trasnslation.  Covers only extant books, excluding so-called "fragments".</description>
+      </edition>
+    </work>
+  </textgroup>
   <textgroup urn="urn:cts:greekLit:tlg0363:">
     <groupname            xml:lang="eng">Works by Claudius Ptolemy</groupname>
     <work            urn="urn:cts:greekLit:tlg0363.chs01:"            xml:lang="grc">
@@ -18,11 +27,9 @@
       <edition                urn="urn:cts:greekLit:tlg0363.chs01.hc:"                >
         <label                    xml:lang="eng">Royal Canon</label>
         <description                    xml:lang="eng">Translation of Greek text as published in Bickerman, Chronology                    of the Ancient World</description>
-
-    </edition>
-  </work>
-</textgroup>
-
+      </edition>
+    </work>
+  </textgroup>
   <textgroup urn="urn:cts:latinLit:stoa0179:">
     <groupname xml:lang="eng">Livy</groupname>
     <work urn="urn:cts:latinLit:stoa0179.stoa002:" xml:lang="lat">
@@ -36,13 +43,11 @@
     <groupname xml:lang="eng">Isidore of Seville</groupname>
     <work urn="urn:cts:latinLit:stoa0159.stoa001:" xml:lang="lat">
       <title xml:lang="lat">Chronica Maiora</title>
-
       <edition urn="urn:cts:latinLit:stoa0159.stoa001.stoa002:" >
         <label xml:lang="eng">Public-domain English translation by Kenneth B. Wolf</label>
       </edition>
     </work>
   </textgroup>
-
   <textgroup        urn="urn:cts:chronepig:chron:">
     <groupname            xml:lang="eng">Greek inscriptions with chronographic content</groupname>
     <work            urn="urn:cts:chronepig:chron.pm:"            xml:lang="grc">
